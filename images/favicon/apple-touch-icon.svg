@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <defs>
+    <linearGradient id="goldGradient180" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 圓角背景 -->
+  <rect x="10" y="10" width="160" height="160" rx="20" ry="20" fill="#000000" opacity="0.1"/>
+  
+  <!-- E 字母 -->
+  <path d="M 40 40 L 40 140 L 80 140 L 80 110 L 60 110 L 60 90 L 75 90 L 75 70 L 60 70 L 60 50 L 80 50 L 80 40 Z" 
+        fill="url(#goldGradient180)"/>
+  
+  <!-- F 字母 -->
+  <path d="M 100 40 L 100 140 L 140 140 L 140 110 L 120 110 L 120 90 L 135 90 L 135 70 L 120 70 L 120 40 Z" 
+        fill="url(#goldGradient180)"/>
+  
+  <!-- 裝飾性連接線 -->
+  <path d="M 80 90 Q 90 85 100 90" 
+        stroke="url(#goldGradient180)" 
+        stroke-width="3" 
+        fill="none" 
+        opacity="0.6"/>
+</svg>

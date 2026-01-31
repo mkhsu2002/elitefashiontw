@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="聯絡 Elite Fashion - 與我們取得聯繫，分享您的想法、合作提案或任何問題。我們期待與您交流時尚與生活的美好。">
+    <meta name="keywords" content="聯絡我們, Elite Fashion, 合作洽詢, 媒體聯絡, 時尚合作">
+    <meta property="og:title" content="聯絡我們 - Elite Fashion">
+    <meta property="og:description" content="與 Elite Fashion 團隊取得聯繫">
+    <meta property="og:type" content="website">
+    
+    <title>聯絡我們 - Elite Fashion</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg">
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="images/favicon/favicon-16x16.svg">
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="images/favicon/favicon-32x32.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.svg">
+    <link rel="icon" type="image/svg+xml" sizes="192x192" href="images/favicon/android-chrome-192x192.svg">
+    <link rel="icon" type="image/svg+xml" sizes="512x512" href="images/favicon/android-chrome-512x512.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <style>
+        .contact-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin: 4rem 0;
+        }
+        
+        .contact-form {
+            background-color: var(--bg-light);
+            padding: 3rem;
+            border-radius: 8px;
+        }
+        
+        .contact-info {
+            padding: 2rem 0;
+        }
+        
+        .form-group {
+            margin-bottom: 2rem;
+        }
+        
+        .form-label {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-input,
+        .form-textarea {
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 1rem;
+            font-family: var(--font-sans);
+            background-color: var(--bg-white);
+            transition: var(--transition);
+        }
+        
+        .form-input:focus,
+        .form-textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .form-button {
+            background-color: var(--primary-color);
+            color: var(--bg-white);
+            padding: 1rem 3rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            width: 100%;
+        }
+        
+        .form-button:hover {
+            background-color: var(--secondary-color);
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background-color: var(--bg-light);
+            border-radius: 8px;
+        }
+        
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--bg-white);
+            font-size: 1.2rem;
+        }
+        
+        .contact-details h4 {
+            font-family: var(--font-serif);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+        
+        .contact-details p {
+            color: var(--text-light);
+            margin: 0;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .social-link {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary-color);
+            color: var(--bg-white);
+            text-align: center;
+            line-height: 50px;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .social-link:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 968px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .contact-form {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="主導覽列">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="logo">
+                    <h1>ELITE FASHION</h1>
+                </a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="開啟選單" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="runway-trends.html">秀場趨勢</a></li>
+                <li><a href="designer-perspective.html">設計師視角</a></li>
+                <li><a href="casual-chic.html">休閒時尚</a></li>
+                <li><a href="wellness-movement.html">瑜伽健身</a></li>
+                <li><a href="outdoor-escapes.html">戶外生活</a></li>
+                <li><a href="lifestyle-culture.html">生活品味</a></li>
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="contact.html" class="active">聯絡我們</a></li>
+                <li><a href="https://elitefasion.com/contact.html" hreflang="en" class="lang-switch">EN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-hero">
+        <div class="container">
+            <h2 class="page-hero-title">聯絡我們</h2>
+            <p class="page-hero-description">
+                我們期待聽到您的聲音。無論是內容建議、合作提案、媒體聯絡或任何問題，
+                請隨時與我們聯繫，我們會盡快回覆您的訊息。
+            </p>
+        </div>
+    </header>
+
+    <section class="content-section">
+        <div class="contact-container">
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h3 class="form-title">發送訊息</h3>
+                    <form id="contactForm" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">姓名 *</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">電子郵件 *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">主旨</label>
+                            <input type="text" id="subject" name="subject" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">訊息內容 *</label>
+                            <textarea id="message" name="message" class="form-textarea" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="form-button">發送訊息</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h3 class="info-title">聯絡資訊</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">💬</div>
+                        <div class="contact-details">
+                            <h4>LINE 官方帳號</h4>
+                            <p>掃描 QR Code 或點擊下方連結</p>
+                            <a href="https://lin.ee/JCsODGL" target="_blank" rel="noopener" class="line-link">
+                                <img src="https://qr-official.line.me/sid/M/elitefashion.png" alt="LINE QR Code" style="width: 120px; height: 120px; margin-top: 1rem;">
+                            </a>
+                            <p style="margin-top: 1rem;">
+                                <a href="https://lin.ee/JCsODGL" target="_blank" rel="noopener" style="color: var(--primary-color); text-decoration: underline;">
+                                    點此加入 Elite Fashion LINE 官方帳號
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-faq">
+                <h3 class="faq-title">常見問題</h3>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h4 class="faq-question">如何聯繫我們？</h4>
+                        <p class="faq-answer">
+                            請加入我們的 LINE 官方帳號，我們會透過 LINE 回覆您的所有問題，
+                            包括投稿、合作提案、媒體聯絡等。
+                        </p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4 class="faq-question">如何投稿文章或申請合作？</h4>
+                        <p class="faq-answer">
+                            請透過 LINE 官方帳號聯繫我們，我們會在一週內回覆您的投稿或合作提案。
+                        </p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4 class="faq-question">內容更新頻率？</h4>
+                        <p class="faq-answer">
+                            我們每週更新 2-3 篇新文章，
+                            並在重要時裝週期間提供即時報導。
+                        </p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h4 class="faq-question">如何訂閱最新內容？</h4>
+                        <p class="faq-answer">
+                            請加入我們的 LINE 官方帳號，
+                            我們會透過 LINE 推播最新文章和時尚資訊。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ELITE FASHION</h3>
+                    <p>引領時尚潮流，探索精英生活</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>探索主題</h4>
+                        <ul>
+                            <li><a href="runway-trends.html">秀場趨勢</a></li>
+                            <li><a href="designer-perspective.html">設計師視角</a></li>
+                            <li><a href="casual-chic.html">休閒時尚</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>生活方式</h4>
+                        <ul>
+                            <li><a href="wellness-movement.html">瑜伽健身</a></li>
+                            <li><a href="outdoor-escapes.html">戶外生活</a></li>
+                            <li><a href="lifestyle-culture.html">生活品味</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>聯絡我們</h4>
+                        <ul>
+                            <li><a href="mailto:info@elitefashion.com">info@elitefashion.com</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Elite Fashion. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,657 @@
+/* ==========================================
+   Yoga Complete Page Styles
+   ========================================== */
+
+/* Hero Section */
+.yoga-hero {
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: linear-gradient(135deg, #dac9bd 0%, #bfb7ac 100%);
+}
+
+.yoga-hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.yoga-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.yoga-hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    padding: 4rem 2rem;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    width: 100%;
+}
+
+.yoga-hero-title {
+    font-family: var(--font-serif);
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.yoga-hero-description {
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Styles */
+.yoga-section {
+    padding: 5rem 0;
+}
+
+.yoga-section:nth-child(even) {
+    background-color: var(--bg-light);
+}
+
+.section-title {
+    font-family: var(--font-serif);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--primary-color);
+}
+
+.section-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--text-light);
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.testimonial-image {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.3s ease;
+}
+
+.testimonial-image:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonials-quotes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.testimonial-quote {
+    background: var(--bg-white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    border-left: 4px solid #dac9bd;
+}
+
+.testimonial-quote p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-style: italic;
+    color: var(--text-color);
+}
+
+.testimonial-quote cite {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Content Layout */
+.yoga-content-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.yoga-content-layout.reverse {
+    direction: rtl;
+}
+
+.yoga-content-layout.reverse > * {
+    direction: ltr;
+}
+
+.yoga-content-image {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+
+.yoga-content-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.yoga-content-text {
+    padding: 2rem 0;
+}
+
+.yoga-content-text .section-title {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.yoga-content-text p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+/* CTA Buttons */
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+    transition: var(--transition);
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--bg-white);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline:hover {
+    background-color: var(--primary-color);
+    color: var(--bg-white);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+/* Wellness Diagram */
+.wellness-diagram {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.wellness-item {
+    text-align: center;
+    padding: 2rem;
+    background: var(--bg-white);
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wellness-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.wellness-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.wellness-item h3 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.wellness-item p {
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* Sustainable Section */
+.sustainable-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.sustainable-item {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    background: var(--bg-white);
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.3s ease;
+}
+
+.sustainable-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.sustainable-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.sustainable-item h3 {
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.sustainable-item p {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Checklist Section */
+.checklist {
+    max-width: 800px;
+    margin: 0 auto;
+    list-style: none;
+    counter-reset: checklist-counter;
+}
+
+.checklist-item {
+    counter-increment: checklist-counter;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    background: var(--bg-white);
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    border-left: 4px solid #dac9bd;
+    position: relative;
+    padding-left: 4rem;
+    transition: transform 0.3s ease;
+}
+
+.checklist-item:hover {
+    transform: translateX(5px);
+    box-shadow: var(--shadow-md);
+}
+
+.checklist-item::before {
+    content: counter(checklist-counter);
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-weight: 700;
+    color: #dac9bd;
+}
+
+.checklist-item h3 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.checklist-item p {
+    color: var(--text-light);
+    line-height: 1.7;
+}
+
+/* Stats Section */
+.stats-section {
+    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 2.5rem;
+    background: var(--bg-white);
+    border-radius: 16px;
+    box-shadow: var(--shadow-md);
+}
+
+.stat-number {
+    font-family: var(--font-serif);
+    font-size: 4rem;
+    font-weight: 700;
+    color: #dac9bd;
+    margin-bottom: 1rem;
+    line-height: 1;
+}
+
+.stat-item h3 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.stat-item p {
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* Expert Section */
+.expert-section {
+    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+}
+
+.expert-quote {
+    background: var(--bg-white);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    border-left: 4px solid #dac9bd;
+    margin: 0;
+}
+
+.expert-quote p {
+    font-size: 1.2rem;
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    color: var(--text-color);
+}
+
+.expert-quote cite {
+    display: block;
+    font-size: 1rem;
+    color: var(--text-light);
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* CTA Section */
+.cta-section {
+    background: var(--bg-white);
+}
+
+.cta-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.cta-image {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+
+.cta-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cta-text .section-title {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.cta-text p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+/* Final CTA Section */
+.final-cta-section {
+    background: linear-gradient(135deg, #dac9bd 0%, #bfb7ac 100%);
+    color: #fff;
+}
+
+.final-cta-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.final-cta-image {
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    box-shadow: var(--shadow-lg);
+}
+
+.final-cta-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.final-cta-text .section-title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.final-cta-text p {
+    font-size: 1.2rem;
+    line-height: 1.9;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.feature-item {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature-item h3 {
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.feature-item p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.final-cta-message {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 2rem 0;
+    color: #fff;
+}
+
+.final-cta-text .cta-buttons {
+    justify-content: center;
+}
+
+.final-cta-text .btn-primary {
+    background-color: #fff;
+    color: #dac9bd;
+}
+
+.final-cta-text .btn-primary:hover {
+    background-color: #f5f5f5;
+    transform: translateY(-2px);
+}
+
+.final-cta-text .btn-outline {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+.final-cta-text .btn-outline:hover {
+    background-color: #fff;
+    color: #dac9bd;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .yoga-content-layout {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    
+    .yoga-content-layout.reverse {
+        direction: ltr;
+    }
+    
+    .yoga-content-text .section-title {
+        text-align: center;
+    }
+    
+    .cta-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .yoga-hero {
+        min-height: 60vh;
+    }
+    
+    .yoga-hero-content {
+        padding: 3rem 1.5rem;
+    }
+    
+    .yoga-section {
+        padding: 3rem 0;
+    }
+    
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .testimonials-quotes {
+        grid-template-columns: 1fr;
+    }
+    
+    .wellness-diagram {
+        grid-template-columns: 1fr;
+    }
+    
+    .sustainable-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+    
+    .checklist-item {
+        padding-left: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sustainable-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .yoga-hero-title {
+        font-size: 2rem;
+    }
+    
+    .section-title {
+        font-size: 1.75rem;
+    }
+}
+

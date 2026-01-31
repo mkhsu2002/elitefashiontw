@@ -1,0 +1,1003 @@
+/* ==========================================
+   Crossbody Bag Style Guide - Specific Styles
+   ========================================== */
+
+/* Typography Enhancement */
+.crossbody-bag-page {
+    font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Hero Section */
+.crossbody-hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #000;
+}
+
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hero-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%);
+    z-index: 2;
+}
+
+.hero-content-wrapper {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+}
+
+.hero-text-content {
+    max-width: 800px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.hero-label {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.hero-main-title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    color: white;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+
+.hero-description {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    margin-bottom: 3rem;
+    color: rgba(255, 255, 255, 0.95);
+    text-shadow: 0 1px 10px rgba(0,0,0,0.3);
+}
+
+.cta-scroll-btn {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background: white;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
+}
+
+.cta-scroll-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 30px rgba(255, 255, 255, 0.4);
+}
+
+/* Section Title */
+.section-title-center {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.section-subtitle-center {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #666;
+    max-width: 900px;
+    margin: 0 auto 4rem;
+}
+
+/* Occasions Section */
+.occasions-section {
+    padding: 6rem 0;
+    background: #fafafa;
+}
+
+.occasions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.occasion-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.occasion-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.occasion-image {
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+
+.occasion-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.occasion-card:hover .occasion-image img {
+    transform: scale(1.08);
+}
+
+.occasion-content {
+    padding: 2rem;
+}
+
+.occasion-content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.occasion-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #666;
+}
+
+/* Product Intro */
+.product-intro {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.product-intro p {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: #333;
+}
+
+.product-intro strong {
+    color: #000;
+    font-weight: 600;
+}
+
+/* Design Features Section */
+.design-features-section {
+    padding: 6rem 0;
+    background: white;
+}
+
+.features-grid-three {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #fafafa;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.feature-box:hover {
+    background: white;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.feature-box h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+    line-height: 1.5;
+}
+
+.feature-box p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Versatile Style Section */
+.versatile-style-section {
+    padding: 6rem 0;
+    background: #f5f5f5;
+}
+
+.style-tip-blocks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.style-tip-block {
+    background: white;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+
+.style-tip-block h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+}
+
+.style-tip-block p {
+    font-size: 1.05rem;
+    line-height: 1.9;
+    color: #555;
+}
+
+.style-tip-block strong {
+    color: #000;
+    font-weight: 600;
+}
+
+/* Product Showcase */
+.product-showcase {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.showcase-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+}
+
+.showcase-badge {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    background: #000;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 500;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.showcase-content h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #1a1a1a;
+}
+
+.showcase-image {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.showcase-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.product-gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.product-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Product Buy Button */
+.product-cta-wrapper {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.product-buy-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem 3rem;
+    background: linear-gradient(135deg, #000 0%, #333 100%);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.product-buy-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #1a1a1a 0%, #444 100%);
+}
+
+.product-buy-btn .btn-icon {
+    font-size: 1.3rem;
+}
+
+.product-buy-btn .btn-arrow {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.product-buy-btn:hover .btn-arrow {
+    transform: translateX(5px);
+}
+
+/* Color Philosophy Section */
+.color-philosophy-section {
+    padding: 6rem 0;
+    background: white;
+}
+
+/* All Colors Display */
+.all-colors-display {
+    margin: 3rem auto 4rem;
+    max-width: 1000px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.15);
+}
+
+.all-colors-display img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.color-showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.color-showcase-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.color-showcase-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 35px rgba(0,0,0,0.18);
+}
+
+.color-number {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 50px;
+    height: 50px;
+    background: white;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    z-index: 10;
+}
+
+.color-image {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.color-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.color-showcase-card:hover .color-image img {
+    transform: scale(1.1);
+}
+
+.color-content {
+    padding: 2rem;
+}
+
+.color-content h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.color-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+.color-cta {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 3rem;
+    background: #fafafa;
+    border-radius: 12px;
+}
+
+.color-cta h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.color-cta p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.secondary-buy-btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: white;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid #000;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.secondary-buy-btn:hover {
+    background: #000;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* More Colors Section */
+.more-colors-section {
+    margin: 4rem 0 3rem;
+    padding: 3rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    border-radius: 16px;
+}
+
+.more-colors-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #1a1a1a;
+}
+
+.more-colors-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.mini-color-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.mini-color-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}
+
+.mini-color-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.mini-color-card:hover img {
+    transform: scale(1.1);
+}
+
+/* Interactive Section */
+.interactive-section {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.interactive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.interactive-card {
+    background: white;
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.interactive-card:hover {
+    border-color: #000;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.interactive-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.interactive-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.interactive-card p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #666;
+}
+
+.cta-box {
+    text-align: center;
+    padding: 2.5rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-box p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Brand Comparison Section */
+.brand-comparison-section {
+    padding: 6rem 0;
+    background: white;
+}
+
+.brand-comparison-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.brand-card {
+    background: #fafafa;
+    padding: 3rem;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.brand-card:hover {
+    background: white;
+    border-color: #e0e0e0;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+}
+
+.brand-card h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+}
+
+.brand-description {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.brand-card h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.brand-advantages {
+    list-style: none;
+    padding: 0;
+}
+
+.brand-advantages li {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #666;
+    padding: 0.5rem 0;
+    padding-left: 0.5rem;
+}
+
+.insight-box {
+    max-width: 900px;
+    margin: 4rem auto 0;
+    padding: 3rem;
+    background: #f5f5f5;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.insight-box p {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Final CTA Section */
+.final-cta-section {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+    color: white;
+    text-align: center;
+}
+
+.final-cta-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.final-cta-content h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.final-cta-content h2 strong {
+    font-weight: 700;
+    color: white;
+}
+
+.final-cta-content > p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.final-cta-content > p strong {
+    font-weight: 600;
+    color: white;
+}
+
+.cta-button-large {
+    display: inline-block;
+    padding: 1.2rem 3.5rem;
+    background: white;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
+    margin-bottom: 3rem;
+}
+
+.cta-button-large:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 30px rgba(255, 255, 255, 0.5);
+}
+
+.share-section {
+    margin-top: 3rem;
+}
+
+.share-section > p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.share-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.share-btn {
+    padding: 0.7rem 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.share-btn:hover {
+    background: white;
+    color: #000;
+    border-color: white;
+}
+
+/* Related Articles */
+.related-articles {
+    padding: 6rem 0;
+    background: #fafafa;
+}
+
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+@media (max-width: 1024px) {
+    .article-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .more-colors-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .article-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .more-colors-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .product-gallery {
+        grid-template-columns: 1fr;
+    }
+    
+    .product-gallery img {
+        height: auto;
+    }
+    
+    .product-buy-btn {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+    
+    .product-buy-btn .btn-text {
+        text-align: center;
+    }
+}
+
+/* Site Header Override for this page */
+.crossbody-bag-page .site-header {
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero-main-title {
+        font-size: 2.5rem;
+    }
+    
+    .section-title-center {
+        font-size: 2rem;
+    }
+    
+    .occasions-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .style-tip-blocks {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-main-title {
+        font-size: 2rem;
+    }
+    
+    .hero-description {
+        font-size: 1rem;
+    }
+    
+    .occasions-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .features-grid-three {
+        grid-template-columns: 1fr;
+    }
+    
+    .color-showcase-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .brand-comparison-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .interactive-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .section-title-center {
+        font-size: 1.8rem;
+    }
+    
+    .final-cta-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .share-buttons {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .crossbody-hero {
+        min-height: 80vh;
+    }
+    
+    .hero-main-title {
+        font-size: 1.6rem;
+    }
+    
+    .hero-text-content {
+        padding: 1.5rem;
+    }
+    
+    .occasions-section,
+    .design-features-section,
+    .versatile-style-section,
+    .color-philosophy-section,
+    .interactive-section,
+    .brand-comparison-section,
+    .final-cta-section {
+        padding: 3rem 0;
+    }
+    
+    .occasion-content,
+    .feature-box,
+    .style-tip-block,
+    .brand-card,
+    .interactive-card {
+        padding: 1.5rem;
+    }
+    
+    .product-intro,
+    .showcase-content,
+    .color-cta,
+    .insight-box,
+    .cta-box {
+        padding: 2rem;
+    }
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Loading Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.occasion-card,
+.feature-box,
+.color-showcase-card,
+.interactive-card,
+.brand-card {
+    animation: fadeInUp 0.6s ease-out;
+}
+
