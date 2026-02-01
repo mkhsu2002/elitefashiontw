@@ -103,6 +103,18 @@ ul {
     color: var(--primary-color);
 }
 
+.nav-brand .logo img {
+    height: 45px;
+    width: auto;
+    display: block;
+    transition: var(--transition-smooth);
+    mix-blend-mode: multiply;
+}
+
+.nav-brand .logo:hover img {
+    transform: translateY(-2px);
+}
+
 .nav-menu {
     display: flex;
     gap: 2.5rem;
