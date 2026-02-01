@@ -85,7 +85,7 @@ ul {
     -webkit-backdrop-filter: blur(var(--glass-blur));
     border-bottom: 1px solid var(--glass-border);
     z-index: 1000;
-    padding: 1.25rem 0;
+    padding: 0.75rem 0;
     transition: var(--transition-smooth);
 }
 
@@ -104,7 +104,7 @@ ul {
 }
 
 .nav-brand .logo img {
-    height: 45px;
+    height: 80px;
     width: auto;
     display: block;
     transition: var(--transition-smooth);
