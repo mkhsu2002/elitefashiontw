@@ -479,7 +479,9 @@ ul {
 }
 
 .footer-bottom {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 2rem;
     border-top: 1px solid var(--border-color);
 }
@@ -487,6 +489,26 @@ ul {
 .footer-bottom p {
     color: var(--text-light);
     font-size: 0.9rem;
+    margin: 0;
+}
+
+.footer-logo {
+    height: 50px;
+    width: auto;
+    mix-blend-mode: multiply;
+    transition: var(--transition-smooth);
+}
+
+.footer-logo:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .footer-bottom {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
 }
 
 /* ==========================================
