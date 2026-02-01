@@ -46,7 +46,7 @@ body {
     font-family: var(--font-sans);
     color: var(--text-color);
     background-color: var(--bg-white);
-    line-height: 1.7;
+    line-height: 1.8;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -572,11 +572,115 @@ ul {
     margin-bottom: 1.5rem;
 }
 
-.read-more-link {
-    font-size: 0.95rem;
-    font-weight: 600;
+/* ==========================================
+   Premium Article Editorial Styles
+   ========================================== */
+.article-body {
+    font-size: 1.15rem;
+    color: var(--text-color);
+    margin: 4rem auto;
+}
+
+.article-section {
+    margin-bottom: 4rem;
+}
+
+.article-section h2 {
+    font-family: var(--font-serif);
+    font-size: 2.4rem;
     color: var(--primary-color);
-    letter-spacing: 0.5px;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.article-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--accent-color);
+}
+
+.article-section h3 {
+    font-family: var(--font-serif);
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.article-section p {
+    margin-bottom: 1.8rem;
+    color: #333;
+}
+
+/* Drop Cap Styling */
+.drop-cap::first-letter {
+    font-family: var(--font-serif);
+    float: left;
+    font-size: 4.5rem;
+    line-height: 0.8;
+    padding-top: 0.5rem;
+    padding-right: 0.8rem;
+    padding-left: 0.1rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* Pull Quote Styling */
+.pull-quote {
+    margin: 4rem -5rem;
+    padding: 3rem 5rem;
+    border-left: 5px solid var(--accent-color);
+    background-color: var(--bg-light);
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    font-style: italic;
+    color: var(--primary-color);
+    position: relative;
+}
+
+.pull-quote cite {
+    display: block;
+    font-family: var(--font-sans);
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 1.5rem;
+    color: var(--text-light);
+}
+
+/* Image Captions */
+.article-image-caption {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-style: italic;
+}
+
+/* Article List Styles */
+.article-list {
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+}
+
+.article-list li {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.article-list li::before {
+    content: '◈';
+    position: absolute;
+    left: -1.5rem;
+    color: var(--accent-color);
 }
 
 /* ==========================================
