@@ -85,7 +85,7 @@ ul {
     -webkit-backdrop-filter: blur(var(--glass-blur));
     border-bottom: 1px solid var(--glass-border);
     z-index: 1000;
-    padding: 0.75rem 0;
+    padding: 1.1rem 0;
     transition: var(--transition-smooth);
 }
 
@@ -95,18 +95,12 @@ ul {
     align-items: center;
 }
 
-.nav-brand .logo h1 {
-    font-family: var(--font-serif);
-    font-size: 1.8rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: var(--primary-color);
-}
-
 .nav-brand .logo img {
-    height: 80px;
+    height: 55px;
     width: auto;
+    max-width: 200px;
     display: block;
+    object-fit: contain;
     transition: var(--transition-smooth);
     mix-blend-mode: multiply;
 }
