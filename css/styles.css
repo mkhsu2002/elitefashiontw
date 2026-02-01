@@ -96,7 +96,7 @@ ul {
 }
 
 .nav-brand .logo img {
-    height: 55px;
+    height: 55px !important;
     width: auto;
     max-width: 200px;
     display: block;
@@ -728,7 +728,7 @@ ul {
     }
 }
 
-@media (max-width: 968px) {
+@media (max-width: 1200px) {
     html {
         font-size: 15px;
     }
