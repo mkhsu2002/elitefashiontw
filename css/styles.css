@@ -388,31 +388,74 @@ ul {
     margin-bottom: 1.5rem;
 }
 
-.about-stats {
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-    margin-top: 4rem;
+/* ==========================================
+   Achievements Section
+   ========================================== */
+.stats-section {
+    padding: 6rem 0;
+    background-color: var(--bg-light);
+    border-top: 1px solid var(--border-color);
 }
 
-.stat-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.stat-card {
+    background-color: var(--bg-white);
+    padding: 2.5rem 2rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition-smooth);
+    border: 1px solid transparent;
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--accent-color);
+}
+
+.stat-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
 }
 
 .stat-number {
+    display: block;
     font-family: var(--font-serif);
     font-size: 3rem;
     font-weight: 700;
     color: var(--primary-color);
     margin-bottom: 0.5rem;
+    line-height: 1.1;
 }
 
 .stat-label {
-    font-size: 1rem;
-    color: var(--text-light);
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.stat-desc {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* Old styles removal/refactor if needed */
+.about-stats {
+   /* Deprecated in new design, kept nicely separated by section override above if specific class used */
+   display: none; 
 }
 
 /* ==========================================
