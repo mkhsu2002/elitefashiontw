@@ -2,752 +2,959 @@
 <html lang="zh-TW">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>所有文章列表 | Elite Fashion</title>
-    <meta name="description" content="瀏覽 Elite Fashion 全站文章，探索時尚趨勢、設計師專訪、休閒穿搭、瑜伽健身與戶外生活的所有精彩內容。">
-    <meta name="keywords" content="文章列表, 時尚文章, 設計師專訪, 穿搭指南, 瑜伽健身, 戶外生活, Elite Fashion">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>所有文章列表 | Elite Fashion</title>
+        <meta name="description" content="瀏覽 Elite Fashion 全站文章，探索時尚趨勢、設計師專訪、休閒穿搭、瑜伽健身與戶外生活的所有精彩內容。">
+        <meta name="keywords" content="文章列表, 時尚文章, 設計師專訪, 穿搭指南, 瑜伽健身, 戶外生活, Elite Fashion">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tw.elitefasion.com/all-articles.html">
-    <meta property="og:locale" content="zh_TW">
-    <meta property="og:title" content="所有文章列表 - Elite Fashion">
-    <meta property="og:description" content="瀏覽 Elite Fashion 全站文章，探索精英生活的每一個細節。">
-    <meta property="og:image" content="https://tw.elitefasion.com/images/og-main.jpg">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://tw.elitefasion.com/all-articles.html">
+        <meta property="og:locale" content="zh_TW">
+        <meta property="og:title" content="所有文章列表 - Elite Fashion">
+        <meta property="og:description" content="瀏覽 Elite Fashion 全站文章，探索精英生活的每一個細節。">
+        <meta property="og:image" content="https://tw.elitefasion.com/images/og-main.jpg">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg">
-    <link rel="icon" type="image/svg+xml" sizes="16x16" href="images/favicon/favicon-16x16.svg">
-    <link rel="icon" type="image/svg+xml" sizes="32x32" href="images/favicon/favicon-32x32.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.svg">
+        <!-- Favicon -->
+        <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg">
+        <link rel="icon" type="image/svg+xml" sizes="16x16" href="images/favicon/favicon-16x16.svg">
+        <link rel="icon" type="image/svg+xml" sizes="32x32" href="images/favicon/favicon-32x32.svg">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.svg">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+                rel="stylesheet">
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/styles.css?v=1.1">
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/styles.css?v=1.1">
 
-    <style>
-        .page-header {
-            padding: 8rem 0 4rem;
-            background-color: #f9f9f9;
-            text-align: center;
-        }
+        <style>
+                .page-header {
+                        padding: 8rem 0 4rem;
+                        background-color: #f9f9f9;
+                        text-align: center;
+                }
 
-        .page-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 3rem;
-            color: #1a1a1a;
-            margin-bottom: 1rem;
-        }
+                .page-title {
+                        font-family: 'Playfair Display', serif;
+                        font-size: 3rem;
+                        color: #1a1a1a;
+                        margin-bottom: 1rem;
+                }
 
-        .page-subtitle {
-            font-family: 'Inter', sans-serif;
-            font-size: 1.1rem;
-            color: #666;
-            max-width: 600px;
-            margin: 0 auto;
-        }
+                .page-subtitle {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1.1rem;
+                        color: #666;
+                        max-width: 600px;
+                        margin: 0 auto;
+                }
 
-        .articles-container {
-            padding: 4rem 0;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
+                .articles-container {
+                        padding: 4rem 0;
+                        max-width: 1000px;
+                        margin: 0 auto;
+                }
 
-        .category-section {
-            margin-bottom: 4rem;
-        }
+                .category-section {
+                        margin-bottom: 4rem;
+                }
 
-        .category-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 2rem;
-            color: #333;
-            border-bottom: 2px solid #C5A059;
-            padding-bottom: 0.5rem;
-            margin-bottom: 2rem;
-            display: inline-block;
-        }
+                .category-title {
+                        font-family: 'Playfair Display', serif;
+                        font-size: 2rem;
+                        color: #333;
+                        border-bottom: 2px solid #C5A059;
+                        padding-bottom: 0.5rem;
+                        margin-bottom: 2rem;
+                        display: inline-block;
+                }
 
-        .article-list {
-            list-style: none;
-            padding: 0;
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 1.5rem;
-        }
+                .article-list {
+                        list-style: none;
+                        padding: 0;
+                        display: grid;
+                        grid-template-columns: 1fr;
+                        gap: 1.5rem;
+                }
 
-        .article-item {
-            background-color: #fff;
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            display: flex;
-            align-items: center;
-        }
+                .article-item {
+                        background-color: #fff;
+                        padding: 1.5rem;
+                        border-radius: 8px;
+                        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+                        transition: transform 0.3s ease, box-shadow 0.3s ease;
+                        display: flex;
+                        align-items: center;
+                }
 
-        .article-item:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
+                .article-item:hover {
+                        transform: translateY(-3px);
+                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                }
 
-        .article-link {
-            text-decoration: none;
-            color: #333;
-            font-family: 'Inter', sans-serif;
-            font-size: 1.1rem;
-            font-weight: 500;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+                .article-link {
+                        text-decoration: none;
+                        color: #333;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1.1rem;
+                        font-weight: 500;
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                }
 
-        .article-link:hover {
-            color: #C5A059;
-        }
+                .article-link:hover {
+                        color: #C5A059;
+                }
 
-        .article-arrow {
-            color: #C5A059;
-            font-size: 1.2rem;
-        }
+                .article-arrow {
+                        color: #C5A059;
+                        font-size: 1.2rem;
+                }
 
-        @media (min-width: 768px) {
-            .article-list {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-    </style>
+                @media (min-width: 768px) {
+                        .article-list {
+                                grid-template-columns: repeat(2, 1fr);
+                        }
+                }
+        </style>
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar" role="navigation" aria-label="主導覽列">
-        <div class="container">
-            <div class="nav-brand">
-                <a href="index.html" class="logo">
-                    <img src="images/logo.jpg" alt="Elite Fashion Logo">
-                </a>
-            </div>
-            <button class="mobile-menu-toggle" aria-label="開啟選單" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-menu">
-                <li><a href="index.html">首頁</a></li>
-                <li><a href="ai-innovation.html">人工智能</a></li>
-                <li><a href="runway-trends.html">秀場趨勢</a></li>
-                <li><a href="designer-perspective.html">設計師視角</a></li>
-                <li><a href="casual-chic.html">休閒時尚</a></li>
-                <li><a href="wellness-movement.html">瑜伽健身</a></li>
-                <li><a href="outdoor-escapes.html">戶外生活</a></li>
-                <li><a href="lifestyle-culture.html">生活品味</a></li>
-                <li><a href="about.html">關於我們</a></li>
-                <li><a href="contact.html">聯絡我們</a></li>
-                <li><a href="https://elitefasion.com/" hreflang="en" class="lang-switch">EN</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Page Header -->
-    <header class="page-header">
-        <div class="container">
-            <h1 class="page-title">所有文章列表</h1>
-            <p class="page-subtitle">探索 Elite Fashion 全站精彩內容，從時尚趨勢到生活品味，一覽無遺。</p>
-        </div>
-    </header>
-
-    <!-- Main Content -->
-    <main class="container">
-        <div class="articles-container">
-
-            <!-- AI Innovation -->
-            <section class="category-section" id="ai-innovation">
-                <h2 class="category-title">人工智能 (AI Innovation)</h2>
-                <ul class="article-list">
-                    <li class="article-item"><a href="ai-innovation/ai-creative-sovereignty.html"
-                            class="article-link">創意主權：AI 時代設計師的全新定義 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="ai-innovation/ai-entrepreneur-systeme.html"
-                            class="article-link">一人公司的系統化思維：用 AI 打造你的自動化商業帝國 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="ai-innovation/ai-ethics-luxury.html"
-                            class="article-link">奢侈品的道德演算法：2026 AI 如何重塑品牌透明度 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="ai-innovation/ai-health-longevity.html" class="article-link">AI
-                            健康管家：從基因檢測到精準營養的長壽科技 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="ai-innovation/ai-hyper-customization.html"
-                            class="article-link">超個人化時代：AI 如何為每個人量身打造專屬時尚 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="ai-innovation/ai-outdoor-gear.html" class="article-link">智慧戶外裝備：AI
-                            如何讓你的每一次探險更安全、更舒適 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="ai-innovation/ai-pet-care.html" class="article-link">寵物管家 2.0：AI
-                            驅動的頂級寵物照護與溝通科技 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="ai-innovation/ai-predictive-trends.html"
-                            class="article-link">預測未來：AI 如何顛覆時尚趨勢預測與庫存管理 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="ai-innovation/ai-saas-entrepreneur.html" class="article-link">SaaS
-                            創業家：利用 AI 工具快速構建與驗證產品 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="ai-innovation/ai-smart-home.html" class="article-link">智慧家庭美學：當 AI
-                            遇上室內設計 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="ai-innovation/ai-supply-chain.html" class="article-link">供應鏈革命：AI
-                            如何實現時尚產業的永續與透明 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="ai-innovation/ai-wealth-fintech.html" class="article-link">智能理財：AI
-                            驅動的財富管理與投資策略 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="ai-innovation/virtual-influencers-2025.html"
-                            class="article-link">虛擬網紅 2025：數位影響力的新紀元與品牌行銷 <span class="article-arrow">→</span></a></li>
-                </ul>
-            </section>
-
-            <!-- Runway Trends -->
-            <section class="category-section" id="runway-trends">
-                <h2 class="category-title">秀場趨勢 (Runway Trends)</h2>
-                <ul class="article-list">
-                    <li class="article-item"><a href="runway-trends/asymmetric-deconstruction-2026.html"
-                            class="article-link">非對稱解構：2026 秀場上的反重力美學實驗 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="runway-trends/autumn-winter-trends-2025.html"
-                            class="article-link">2025秋冬趨勢預測：解構主義與新浪漫主義的碰撞 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="runway-trends/color-trends-2026.html" class="article-link">2026
-                            流行色：從超現實紫到生物螢光的視覺擴張 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="runway-trends/digital-assets.html" class="article-link">我的 $5,000
-                            美金數位衣櫥：NFT 時尚在 2026 的真實效用 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="runway-trends/digital-fabrics-2026.html"
-                            class="article-link">超感官數位織品：2026 春夏時裝週的虛實整合美學 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="runway-trends/fashion-investment.html"
-                            class="article-link">Vintage Chanel vs. S&P 500：十年數據分析，名牌包是更好的投資嗎？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="runway-trends/haute-couture-craftsmanship.html"
-                            class="article-link">高級訂製時裝週：傳統工藝的當代演繹 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="runway-trends/london-fashion-week-sustainability.html"
-                            class="article-link">倫敦時裝週永續革命：環保與創新並行 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="runway-trends/milan-fashion-week-2025-colors.html"
-                            class="article-link">米蘭時裝週色彩革命：大膽用色的新時代 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="runway-trends/new-york-fashion-week-street-culture.html"
-                            class="article-link">紐約時裝週：街頭文化與高級時裝的完美融合 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="runway-trends/paris-fashion-week-2025-spring-summer.html"
-                            class="article-link">2025春夏巴黎時裝週：極簡主義的華麗回歸 <span class="article-arrow">→</span></a></li>
-                </ul>
-            </section>
-
-            <!-- Designer Perspective -->
-            <section class="category-section" id="designer-perspective">
-                <h2 class="category-title">設計師視角 (Designer's Perspective)</h2>
-                <ul class="article-list">
-                    <li class="article-item"><a href="designer-perspective/ai-design-renaissance-2026.html"
-                            class="article-link">AI 設計文藝復興：人機協作下的時尚新樣貌 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="designer-perspective/brand-renewal-art.html"
-                            class="article-link">品牌重塑的藝術：老牌時裝屋如何煥發新生 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="designer-perspective/craftsmanship-tech-fusion.html"
-                            class="article-link">工藝與科技的融合：傳統工坊的數位轉型 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="designer-perspective/digital-canvas.html"
-                            class="article-link">數位畫布：虛擬時尚設計師的創作心法 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="designer-perspective/digital-craft-designer.html"
-                            class="article-link">數位工藝師：定義未來的時尚職人 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="designer-perspective/education-roi.html" class="article-link">時尚教育
-                            ROI：聖馬丁與帕森斯的學位在 2026 還值錢嗎？ <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="designer-perspective/emotional-tailoring-2026.html"
-                            class="article-link">情感剪裁：當服裝成為情緒的載體 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="designer-perspective/fashion-photographer-vision.html"
-                            class="article-link">光影敘事：頂尖時尚攝影師眼中的美學視角 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="designer-perspective/minimalist-philosophy.html"
-                            class="article-link">極簡主義哲學：在繁雜世界中尋找設計的純粹 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="designer-perspective/stylist-power.html"
-                            class="article-link">造型師的力量：如何透過搭配講述品牌故事 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="designer-perspective/sustainability-pioneer.html"
-                            class="article-link">永續先行者：用環保材質挑戰時尚極限 <span class="article-arrow">→</span></a></li>
-                </ul>
-            </section>
-
-            <!-- Casual Chic -->
-            <section class="category-section" id="casual-chic">
-                <h2 class="category-title">休閒時尚 (Casual Chic)</h2>
-                <ul class="article-list">
-                    <li class="article-item"><a href="casual-chic/accessory-styling-art.html"
-                            class="article-link">配件搭配藝術：用細節點亮簡約穿搭 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="casual-chic/capsule-wardrobe-3-0.html" class="article-link">膠囊衣櫥
-                            3.0：AI 驅動的極簡穿搭術 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="casual-chic/capsule-wardrobe.html"
-                            class="article-link">極簡膠囊衣櫥：20件單品打造四季不敗風格 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="crossbody-bag-style-guide.html"
-                            class="article-link">女生斜背包穿搭術：一款小包輕鬆搞定城市探險與各種場合造型 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="casual-chic/hybrid-office-style-2026.html"
-                            class="article-link">混合辦公時尚：從 Zoom 會議到商務午餐的完美轉換 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="casual-chic/minimalist-style.html"
-                            class="article-link">極簡風格：少即是多的穿搭美學 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="casual-chic/spring-essentials.html"
-                            class="article-link">春季必備單品：打造清新活力的換季造型 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="casual-chic/tech-denim-luxury-2026.html"
-                            class="article-link">科技丹寧：2026 牛仔褲的舒適革命與環保進化 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="casual-chic/travel-wear.html"
-                            class="article-link">旅行穿搭指南：時尚與舒適兼具的飛行裝束 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="casual-chic/weekend-casual.html"
-                            class="article-link">週末休閒風：輕鬆駕馭慵懶與時髦 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="casual-chic/workplace-style.html"
-                            class="article-link">職場穿搭術：展現專業與自信的辦公室造型 <span class="article-arrow">→</span></a></li>
-                </ul>
-            </section>
-
-            <!-- Wellness Movement -->
-            <section class="category-section" id="wellness-movement">
-                <h2 class="category-title">瑜伽健身 (Wellness Movement)</h2>
-                <ul class="article-list">
-                    <li class="article-item"><a href="wellness-movement/athleisure-aesthetics.html"
-                            class="article-link">運動時尚新美學：機能與風格的完美結合 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="wellness-movement/comprehensive-fitness-plan.html"
-                            class="article-link">全方位健身計畫：打造理想體態的科學方法 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="wellness-movement/holographic-wellness-2026.html"
-                            class="article-link">全息冥想：2026 沉浸式療癒空間的視覺與聽覺革命 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="wellness-movement/home-fitness-revolution.html"
-                            class="article-link">居家健身革命：打造專屬的私人健身空間 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="wellness-movement/light-therapy-activewear.html"
-                            class="article-link">光學排毒：紅光治療機能服如何重塑身心修復 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="wellness-movement/mindful-living.html"
-                            class="article-link">正念生活：在繁忙中找到內心的寧靜 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="wellness-movement/morning-yoga.html"
-                            class="article-link">晨間瑜伽：喚醒身體與心靈的完美儀式 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="wellness-movement/neuro-feedback-yoga-2026.html"
-                            class="article-link">冥想 2.0：穿戴式神經反饋裝置如何優化瑜伽實踐 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="wellness-movement/nutrition-efficiency.html"
-                            class="article-link">AG1 vs. Huel：CEO 的液態營養效率學 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="wellness-movement/recovery-tech.html"
-                            class="article-link">Theragun Pro vs. Hypervolt 2：哪一款震動槍能真正拯救你的「科技頸」？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="wellness-movement/sarcopenia-prevention.html"
-                            class="article-link">肌少症的威脅：為什麼現在就要開始儲備肌肉量 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="wellness-movement/sports-nutrition.html"
-                            class="article-link">運動營養學：用飲食支持你的健身目標 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="wellness-movement/yoga-focus-productivity.html"
-                            class="article-link">正念瑜伽與專注力：重新掌握生產力的身心科學 <span class="article-arrow">→</span></a></li>
-                </ul>
-            </section>
-
-            <!-- Outdoor Escapes -->
-            <section class="category-section" id="outdoor-escapes">
-                <h2 class="category-title">戶外生活 (Outdoor Escapes)</h2>
-                <ul class="article-list">
-                    <li class="article-item"><a href="outdoor-escapes/backpack-comfort-guide.html"
-                            class="article-link">征服長途挑戰：解析登山背包背負系統的秘密 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="outdoor-escapes/coastal-exploration.html"
-                            class="article-link">海岸線巡禮：探索台灣最美的濱海秘境 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="outdoor-escapes/content-creation-gear.html"
-                            class="article-link">Sony A7IV vs. iPhone 15 Pro Max：價值 $3,000 美金的相機還是創作者的必需品嗎？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="outdoor-escapes/extreme-climate-adaptive-gear.html"
-                            class="article-link">極端氣候適應計畫：2026 智慧控溫層疊穿搭與 AI 精準裝備 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="outdoor-escapes/forest-therapy.html"
-                            class="article-link">森林療癒：在綠意中尋找身心平衡 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="outdoor-escapes/function-meets-beauty.html"
-                            class="article-link">機能與美感：2025最值得投資的戶外裝備 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="outdoor-escapes/glamping-aesthetics.html"
-                            class="article-link">Glamping 新美學：將奢華帶入大自然 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="outdoor-escapes/global-connectivity.html"
-                            class="article-link">Starlink Mini vs. Garmin inReach：數位遊牧者如何在荒野保持連線？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="outdoor-escapes/hiking-style.html"
-                            class="article-link">登山穿搭指南：功能與時尚的完美結合 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="outdoor-escapes/horizon-outdoor-gear-guide-2026.html"
-                            class="article-link">2026 頂級登山裝備指南：Horizon Outdoor 讓你的戶外美學進階 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="outdoor-escapes/luxury-hiking-lifestyle-taiwan.html"
-                            class="article-link">戶外奢華新視界：為何 Horizon Outdoor 成為台灣精英人士的登山首選 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="outdoor-escapes/outdoor-photography.html"
-                            class="article-link">戶外攝影美學：用鏡頭捕捉自然之美 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="outdoor-escapes/quiet-gorpcore-minimalism.html"
-                            class="article-link">安靜的機能革命：Quiet Gorpcore 在 2026 的極簡演化 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="outdoor-escapes/regenerative-travel-2026.html"
-                            class="article-link">「再生旅遊」新浪潮：2026 戶外裝備的減碳美學與生態修復 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="outdoor-escapes/taiwan-hiking-routes-and-style.html"
-                            class="article-link">從陽明山到玉山：2026 台灣五大夢幻健行路線與穿搭全攻略 <span class="article-arrow">→</span></a>
-                    </li>
-                </ul>
-            </section>
-
-            <!-- Lifestyle & Culture -->
-            <section class="category-section" id="lifestyle-culture">
-                <h2 class="category-title">生活品味 (Lifestyle & Culture)</h2>
-                <ul class="article-list">
-                    <li class="article-item"><a href="lifestyle-culture/coffee-aesthetics.html"
-                            class="article-link">咖啡美學：從產地到杯中的完美旅程 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="lifestyle-culture/contemporary-art-tour.html"
-                            class="article-link">當代藝術巡禮：2025春季必看的國際展覽 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="lifestyle-culture/global-digital-nomad-hubs-2026.html"
-                            class="article-link">數位遊牧 2026：全球頂級奢華辦公據點指南 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="lifestyle-culture/home-aesthetics.html"
-                            class="article-link">居家美學：打造個人風格的空間設計指南 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="lifestyle-culture/life-sovereignty-after-40.html"
-                            class="article-link">40歲後，你的名字不只是媽媽：找回生活主權的五個提案 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="lifestyle-culture/luxury-boutique-hotels.html"
-                            class="article-link">精品旅宿巡禮：全球十大最值得造訪的設計酒店 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="lifestyle-culture/luxury-home-sanctuary-trends.html"
-                            class="article-link">奢華居家避風港：2026 室內設計中的多感官療癒趨勢 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="lifestyle-culture/michelin-sustainability-trends.html"
-                            class="article-link">米其林綠星 2026：當精緻餐飲遇上極限永續 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="lifestyle-culture/michelin-taste-journey.html"
-                            class="article-link">味覺之旅：探索台北最新米其林餐廳 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="lifestyle-culture/reading-art.html"
-                            class="article-link">閱讀的藝術：打造個人圖書館與閱讀角落 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="lifestyle-culture/second-brain.html" class="article-link">Notion
-                            vs. Obsidian：如何為時尚品牌建立「第二大腦」？ <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="lifestyle-culture/travel-hacking.html" class="article-link">Amex
-                            Platinum vs. Chase Sapphire Reserve：如何用信用卡點數駭出奢華旅行 ROI <span
-                                class="article-arrow">→</span></a></li>
-                </ul>
-            </section>
-
-            <!-- Life Proposals -->
-            <section class="category-section" id="life-proposals">
-                <h2 class="category-title">人生提案 (Life Proposals)</h2>
-                <ul class="article-list">
-                    <li class="article-item"><a href="life-proposals/10-min-micro-exercise.html"
-                            class="article-link">每天10分鐘「微運動」：適合熟齡女性的瑜珈與伸展，找回身體的柔軟度 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/40-body-revolution.html"
-                            class="article-link">40歲後的身體革命：為什麼「少吃多動」不再有效？啟動熟齡代謝的關鍵 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/aromatherapy-hormones.html"
-                            class="article-link">不想依賴藥物？探索芳香療法：精油如何幫助熟齡女性平衡荷爾蒙 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/art-of-apology-repair.html"
-                            class="article-link">遲來的道歉：如何修復那些因年輕氣盛而受損的關係？ <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/art-of-scarves.html"
-                            class="article-link">一條絲巾的魔法：讓基本款瞬間高級的40+配件學 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/bone-health-anti-aging.html"
-                            class="article-link">對抗「斷崖式衰老」：從今天開始養骨，預防骨質疏鬆的實用指南 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/breathing-for-anxiety.html"
-                            class="article-link">呼吸對了，自律神經就穩了：緩解焦慮與心悸的「腹式呼吸法」 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/capsule-wardrobe-basics.html"
-                            class="article-link">不再盲目買衣服！40+女性必備的「膠囊衣櫥」：10件單品搭出高質感 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/career-pivot-start-over.html"
-                            class="article-link">中年轉職 (Career Pivot)：為什麼45歲是人生最棒的「重新開機」時刻？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/change-is-never-too-late.html"
-                            class="article-link">「我就這樣過了一生嗎？」當後悔襲來，現在改變永遠不晚 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/comfortable-stylish-shoes.html"
-                            class="article-link">不再為高跟鞋受罪：40+女性必備的5款「好走又時髦」的美鞋 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/dating-at-40-plus.html"
-                            class="article-link">40+的約會市場：別怕被Ghosting，這是一場挑選「靈魂伴侶」的遊戲 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/debt-be-gone-strategies.html"
-                            class="article-link">無債一身輕：退休前必做的「債務清零」計畫 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/declutter-closet-let-go.html"
-                            class="article-link">衣櫥斷捨離：告別那些「食之無味，棄之可惜」的衣服，找回清爽人生 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/designing-dream-retirement.html"
-                            class="article-link">設計夢想退休生活：除了錢，妳更需要的是「目的感」(Purpose) <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/digital-detox-eye-brain.html"
-                            class="article-link">數位排毒：每天遠離手機一小時，修復大腦與眼睛的疲勞 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/dressing-for-body-type-curves.html"
-                            class="article-link">穿對衣服，體重減5公斤：40+女性的「身型修飾」完全指南 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/elegant-refusal-relationship-detox.html"
-                            class="article-link">學會「優雅地拒絕」：熟齡女性的人際斷捨離指南 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/emergency-fund-peace.html"
-                            class="article-link">緊急預備金 (Emergency Fund)：為什麼「現金為王」是中年生活最大的定心丸？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/emotional-eating-truth.html"
-                            class="article-link">情緒性進食的真相：妳吃的不是甜點，是寂寞與焦慮 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/emotional-first-aid-kit.html"
-                            class="article-link">為自己準備一個「情緒急救箱」：沮喪、憤怒時的自救指南 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/emotional-labor-awakening.html"
-                            class="article-link">為什麼我們總是感到「被需要卻被忽視」？主婦的情緒勞動覺醒 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/empty-nest-freedom-year.html"
-                            class="article-link">給正處於「空巢期」恐慌的妳：這不是分離，而是妳的自由元年 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/entrepreneurship-after-40.html"
-                            class="article-link">40歲後創業：這不是瘋狂，是利用妳的「智慧紅利」 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/estate-planning-legacy.html"
-                            class="article-link">遺產規劃 (Estate Planning)：這不是觸霉頭，而是對家人最後的愛 (Wills & Legacy) <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/eye-care-presbyopia.html"
-                            class="article-link">眼睛開始「霧霧的」？保護熟齡視力，預防老花與眼疾的日常保養 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/fabric-matters-cashmere-silk.html"
-                            class="article-link">穿在身上的溫柔：為什麼40歲後，妳應該投資羊絨 (Cashmere) 與真絲？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/fear-of-being-forgotten-aging.html"
-                            class="article-link">面對衰老，我們恐懼的其實不是皺紋，而是被遺忘 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/financial-independence-options.html"
-                            class="article-link">40+的財富自由：不是為了當富豪，而是為了擁有「Say No」的權利 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/financial-infidelity-partners.html"
-                            class="article-link">談錢傷感情？「財務不忠」比肉體出軌更可怕：夫妻如何誠實面對金錢？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/financial-literacy-kids.html"
-                            class="article-link">富養不如教養：給孩子的「財商教育」(Financial Literacy)，打破金錢焦慮的輪迴 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/finding-your-style-at-40.html"
-                            class="article-link">40歲後，該如何穿搭？停止追逐流行，找到妳的「風格關鍵字」 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/finding-your-tribe-midlife.html"
-                            class="article-link">去哪裡找新朋友？40+女性如何在中年建立「高品質」的社交圈？ <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/finding-yourself-after-40.html"
-                            class="article-link">40歲後，妳的名字不只是「媽媽」：找回自我的5個生活提案 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/forgive-imperfect-past-self.html"
-                            class="article-link">原諒那個「不盡完美」的自己：與過去的和解，是人生下半場的必修課 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/friendship-audit-outgrow.html"
-                            class="article-link">朋友也要斷捨離：為什麼「漸行漸遠」是40歲後的人際常態？ <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/gig-economy-second-act.html"
-                            class="article-link">零工經濟 (Gig Economy) 浪潮：40+女性如何靠「接案」開啟第二人生？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/glasses-chic-accessory.html"
-                            class="article-link">老花眼鏡也可以很時尚：挑對框型，眼鏡就是妳最知性的飾品 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/grandparenting-joy-no-stress.html"
-                            class="article-link">當我們成為祖父母：只享受含飴弄孫的快樂，拒絕無止盡的育兒壓力 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/gray-divorce-new-chapter.html"
-                            class="article-link">熟齡離婚 (Gray Divorce)：不是人生的失敗，而是勇敢的「止損」 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/grey-hair-revolution.html"
-                            class="article-link">白髮是智慧的冠冕：染髮還是留白？掀起妳的「銀髮革命」 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/gut-health-second-brain.html"
-                            class="article-link">「腸道」是第二個大腦：養好菌，改善熟齡便秘與情緒低落 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/hair-loss-scalp-care.html"
-                            class="article-link">為什麼這幾年「掉髮」變嚴重了？養出豐盈秀髮的頭皮護理術 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/hairstyle-frames-your-face.html"
-                            class="article-link">髮型決定臉型：長髮顯老還是短髮太兇？40+女性的「命定髮型」 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/hand-neck-care-secrets.html"
-                            class="article-link">別讓脖子和雙手出賣妳的年齡：比臉更需要呵護的「細節保養」 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/healing-mother-daughter-wounds.html"
-                            class="article-link">與母親和解，也是饒過自己：修復中年女性心中那道「母女創傷」 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/health-check-list-40plus.html"
-                            class="article-link">給自己的健康投資：40+女性必做的重點健康檢查項目清單 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/hot-flashes-diet.html"
-                            class="article-link">熱潮紅、盜汗好尷尬？與身體和解，緩解更年期不適的飲食與生活對策 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/housewife-worth-not-clean-floor.html"
-                            class="article-link">妳的價值不該由「地板乾不乾淨」來決定：主婦的自我肯定宣言 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/in-law-boundaries.html"
-                            class="article-link">婆媳/岳婿關係的「邊界感」：如何保護妳的平靜，且不撕破臉？ <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/insurance-audit-protection.html"
-                            class="article-link">保單健檢：買了一堆保險卻不知道保什麼？40+必做的「風險盤點」 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/investment-101-fearless.html"
-                            class="article-link">投資小白也不怕：給理財新手的「無腦投資術」(ETF & 指數化投資) <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/jewelry-statement-pieces.html"
-                            class="article-link">首飾是女人的故事：如何用「Statement Pieces」點亮秋冬穿搭 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/joint-health-travel.html"
-                            class="article-link">膝蓋卡卡怎麼辦？守護關節健康，讓妳70歲還能優雅旅行 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/late-starter-retirement.html"
-                            class="article-link">現在開始還來得及：給「晚鳥理財族」的退休追趕策略 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/let-go-control-kids.html"
-                            class="article-link">放下對子女的「控制欲」，妳才能真正獲得解脫 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/lingerie-internal-confidence.html"
-                            class="article-link">看不見的自信最重要！如何挑選適合40+身型的「內在美」 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/long-distance-family-bonds.html"
-                            class="article-link">孩子在國外，心怎麼辦？跨海維繫親子關係的「遠距愛」指南 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/love-languages-update.html"
-                            class="article-link">愛的語言 (Love Languages) 也要更新：其實40歲後的我們，最想要的是... <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/makeup-for-mature-skin.html"
-                            class="article-link">熟齡彩妝減法學：Less is More，這樣畫讓妳看起來年輕5歲 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/manicure-magic-nails.html"
-                            class="article-link">指尖上的優雅：適合熟齡雙手的「顯白美甲」色系推薦 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/marriage-reset-empty-nest.html"
-                            class="article-link">當孩子離巢後：如何與那個叫「老公」的室友，重新談一場戀愛？ <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/menopause-is-second-youth.html"
-                            class="article-link">更年期不是「枯萎」，而是「第二青春」的開始 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/midlife-anxiety-opportunity.html"
-                            class="article-link">中年焦慮不是病，而是靈魂在求救：如何將危機化為轉機？ <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/mindfulness-in-chores.html"
-                            class="article-link">把家事變成「正念修煉」：摺衣服、洗碗時的禪意 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/minimalism-skincare.html"
-                            class="article-link">熟齡肌膚的「減法保養」：丟掉繁複瓶罐，找回肌膚原生光澤 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/money-minimalism-abundance.html"
-                            class="article-link">金錢極簡主義 (Money Minimalism)：少花錢，反而活得更富足？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/networking-for-introverts.html"
-                            class="article-link">內向者的優勢：不需要「長袖善舞」，也能建立高品質的職場人脈 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/one-hour-useless-time.html"
-                            class="article-link">每天留給自己一小時：那些「無用」的時間，才是滋養靈魂的關鍵 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/parenting-adult-children-consultant.html"
-                            class="article-link">當孩子長大成人：如何從「經理人」轉型為「顧問」？ <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/passive-income-reality.html"
-                            class="article-link">破解被動收入迷思：世上沒有「不勞而獲」這回事 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/perfect-wife-trap-60-percent.html"
-                            class="article-link">別讓「完美賢妻」的標籤困住妳：試著做60分的太太，100分的自己 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/pet-companionship-healing.html"
-                            class="article-link">牠不是寵物，是家人：毛小孩如何療癒40+女性的空巢期與孤獨？ <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/please-yourself-not-world.html"
-                            class="article-link">寫給45歲的妳：與其討好世界，不如取悅自己 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/posture-correction-youth.html"
-                            class="article-link">改善「體態」比減重更重要：矯正駝背與圓肩，視覺年齡立刻減5歲 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/psychology-of-money-abundance.html"
-                            class="article-link">金錢心理學：擺脫「匱乏心態」(Scarcity Mindset)，妳值得擁有富足 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/real-estate-investing-retirement.html"
-                            class="article-link">買房當包租婆 (Real Estate Investing)：還是退休的好主意嗎？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/redefining-partnership-sacrifice-to-support.html"
-                            class="article-link">從「犧牲奉獻」到「彼此成全」：與伴侶重新定義後半生的關係 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/rediscovering-worth-beyond-motherhood.html"
-                            class="article-link">當孩子不需要妳時，妳是誰？重建自我價值的心理練習 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/resume-refresh-modern.html"
-                            class="article-link">履歷健檢 (Resume Refresh)：40+的妳，該如何凸顯「領導力」與「軟實力」？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/salary-negotiation-value.html"
-                            class="article-link">別再低估妳的價值：40+職場女性的「薪資談判」全攻略 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/sandwich-generation-care.html"
-                            class="article-link">三明治世代的生存之道：照顧年邁父母，別忘了「先照顧好自己」 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/self-massage-lymphatic.html"
-                            class="article-link">每天給自己一場「自我按摩」：疏通淋巴，排毒又紓壓的晚間儀式 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/side-hustles-midlife.html"
-                            class="article-link">把興趣變現：適合中年女性的 5 種「優雅副業」(Side Hustles) <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/signature-scent-fragrance.html"
-                            class="article-link">香水是隱形的衣服：如何尋找妳人生下半場的「本命香」？ <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/sisterhood-female-support.html"
-                            class="article-link">閨蜜力量大：為什麼女性互助網絡 (Sisterhood) 是中年最堅強的後盾？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/skincare-glow-not-anti-aging.html"
-                            class="article-link">抗老保養迷思大公開：妳需要的不是更貴的產品，而是「光澤感」 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/sleep-well-menopause.html"
-                            class="article-link">別讓「睡不好」拖垮妳的優雅：改善更年期失眠的5個天然良方 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/smile-makeover-dental.html"
-                            class="article-link">笑容是最好的化妝品：40歲後的牙齒美白與矯正，找回自信笑容 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/social-energy-management.html"
-                            class="article-link">內向者的社交求生術：學會「社交能量管理」，不再為了合群而精疲力竭 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/solitude-in-marriage-hobbies.html"
-                            class="article-link">婚內獨處學：為什麼擁有「分開的興趣」，反而讓我們的婚姻更親密？ <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/solitude-is-enjoyment.html"
-                            class="article-link">把「孤獨」變成「獨處」：熟齡後的妳，值得享受這份清靜 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/stop-comparing-with-youth.html"
-                            class="article-link">別再拿現在的自己跟20歲比：接受變化，是成熟美的第一步 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/sugar-detox-impact.html"
-                            class="article-link">戒糖真的能變年輕嗎？實測「減糖生活」，找回清晰大腦與輕盈體態 <span class="article-arrow">→</span></a>
-                    </li>
-                    <li class="article-item"><a href="life-proposals/tcm-woman-40.html"
-                            class="article-link">中醫眼中的「女人四十」：順應節氣，從內而外調理氣血 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/timeless-bag-investment.html"
-                            class="article-link">買包包的哲學：與其追逐 It Bags，不如投資一個能陪妳到老的「經典款」 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/toxic-relationships-goodbye.html"
-                            class="article-link">勇敢說再見：這輩子，請拒絕任何「有毒關係」(Toxic Relationships) <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/vintage-sustainable-fashion.html"
-                            class="article-link">穿得像個有故事的人：40+女性的「古著 (Vintage)」入門指南 <span
-                                class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/water-hydration-anti-aging.html"
-                            class="article-link">喝水也能抗老？告別水腫，熟齡女性的正確補水公式 <span class="article-arrow">→</span></a></li>
-                    <li class="article-item"><a href="life-proposals/workplace-mentorship-fulfillment.html"
-                            class="article-link">職場上的「傳承」：如何從競爭者變成引路人 (Mentor)，成就他人也成就自己？ <span
-                                class="article-arrow">→</span></a></li>
-                </ul>
-            </section>
-        </div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>ELITE FASHION</h3>
-                    <p>引領時尚潮流，探索精英生活</p>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>探索主題</h4>
-                        <ul>
-                            <li><a href="ai-innovation.html">人工智能</a></li>
-                            <li><a href="runway-trends.html">秀場趨勢</a></li>
-                            <li><a href="designer-perspective.html">設計師視角</a></li>
-                            <li><a href="casual-chic.html">休閒時尚</a></li>
+        <!-- Navigation -->
+        <nav class="navbar" role="navigation" aria-label="主導覽列">
+                <div class="container">
+                        <div class="nav-brand">
+                                <a href="index.html" class="logo">
+                                        <img src="images/logo.jpg" alt="Elite Fashion Logo">
+                                </a>
+                        </div>
+                        <button class="mobile-menu-toggle" aria-label="開啟選單" aria-expanded="false">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                        </button>
+                        <ul class="nav-menu">
+                                <li><a href="index.html">首頁</a></li>
+                                <li><a href="ai-innovation.html">人工智能</a></li>
+                                <li><a href="runway-trends.html">秀場趨勢</a></li>
+                                <li><a href="designer-perspective.html">設計師視角</a></li>
+                                <li><a href="casual-chic.html">休閒時尚</a></li>
+                                <li><a href="wellness-movement.html">瑜伽健身</a></li>
+                                <li><a href="outdoor-escapes.html">戶外生活</a></li>
+                                <li><a href="lifestyle-culture.html">生活品味</a></li>
+                                <li><a href="about.html">關於我們</a></li>
+                                <li><a href="contact.html">聯絡我們</a></li>
+                                <li><a href="https://elitefasion.com/" hreflang="en" class="lang-switch">EN</a></li>
                         </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>生活方式</h4>
-                        <ul>
-                            <li><a href="wellness-movement.html">瑜伽健身</a></li>
-                            <li><a href="outdoor-escapes.html">戶外生活</a></li>
-                            <li><a href="lifestyle-culture.html">生活品味</a></li>
-                            <li><a href="all-articles.html">文章列表</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>關於與聯絡</h4>
-                        <ul>
-                            <li><a href="about.html">關於我們</a></li>
-                            <li><a href="contact.html">聯絡我們</a></li>
-                            <li><a href="mailto:info@elitefashion.com">info@elitefashion.com</a></li>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">Facebook</a></li>
-                        </ul>
-                    </div>
                 </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 致力於定義精英生活藍圖。</p>
-                <div class="footer-brand-philosophy"
-                    style="margin-top: 10px; font-family: 'Playfair Display', serif; color: #999; font-size: 0.9rem; letter-spacing: 1px;">
-                    Elite Fasion = Faith + Passion <span style="margin: 0 10px;">|</span> 擁抱生命的不完美 Embracing Life's
-                    Imperfections
-                </div>
-                <img src="images/footer-logo.jpg" alt="Elite Fashion" class="footer-logo">
-            </div>
-        </div>
-    </footer>
+        </nav>
 
-    <script src="js/main.js"></script>
+        <!-- Page Header -->
+        <header class="page-header">
+                <div class="container">
+                        <h1 class="page-title">所有文章列表</h1>
+                        <p class="page-subtitle">探索 Elite Fashion 全站精彩內容，從時尚趨勢到生活品味，一覽無遺。</p>
+                </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="container">
+                <div class="articles-container">
+
+                        <!-- AI Innovation -->
+                        <section class="category-section" id="ai-innovation">
+                                <h2 class="category-title">人工智能 (AI Innovation)</h2>
+                                <ul class="article-list">
+                                        <li class="article-item"><a href="ai-innovation/ai-creative-sovereignty.html"
+                                                        class="article-link">創意主權：AI 時代設計師的全新定義 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="ai-innovation/ai-entrepreneur-systeme.html"
+                                                        class="article-link">一人公司的系統化思維：用 AI 打造你的自動化商業帝國 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="ai-innovation/ai-ethics-luxury.html"
+                                                        class="article-link">奢侈品的道德演算法：2026 AI 如何重塑品牌透明度 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="ai-innovation/ai-health-longevity.html"
+                                                        class="article-link">AI
+                                                        健康管家：從基因檢測到精準營養的長壽科技 <span class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="ai-innovation/ai-hyper-customization.html"
+                                                        class="article-link">超個人化時代：AI 如何為每個人量身打造專屬時尚 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="ai-innovation/ai-outdoor-gear.html"
+                                                        class="article-link">智慧戶外裝備：AI
+                                                        如何讓你的每一次探險更安全、更舒適 <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="ai-innovation/ai-pet-care.html"
+                                                        class="article-link">寵物管家 2.0：AI
+                                                        驅動的頂級寵物照護與溝通科技 <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="ai-innovation/ai-predictive-trends.html"
+                                                        class="article-link">預測未來：AI 如何顛覆時尚趨勢預測與庫存管理 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="ai-innovation/ai-saas-entrepreneur.html"
+                                                        class="article-link">SaaS
+                                                        創業家：利用 AI 工具快速構建與驗證產品 <span class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="ai-innovation/ai-smart-home.html"
+                                                        class="article-link">智慧家庭美學：當 AI
+                                                        遇上室內設計 <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="ai-innovation/ai-supply-chain.html"
+                                                        class="article-link">供應鏈革命：AI
+                                                        如何實現時尚產業的永續與透明 <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="ai-innovation/ai-wealth-fintech.html"
+                                                        class="article-link">智能理財：AI
+                                                        驅動的財富管理與投資策略 <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="ai-innovation/virtual-influencers-2025.html"
+                                                        class="article-link">虛擬網紅 2025：數位影響力的新紀元與品牌行銷 <span
+                                                                class="article-arrow">→</span></a></li>
+                                </ul>
+                        </section>
+
+                        <!-- Runway Trends -->
+                        <section class="category-section" id="runway-trends">
+                                <h2 class="category-title">秀場趨勢 (Runway Trends)</h2>
+                                <ul class="article-list">
+                                        <li class="article-item"><a
+                                                        href="runway-trends/asymmetric-deconstruction-2026.html"
+                                                        class="article-link">非對稱解構：2026 秀場上的反重力美學實驗 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="runway-trends/autumn-winter-trends-2025.html"
+                                                        class="article-link">2025秋冬趨勢預測：解構主義與新浪漫主義的碰撞 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="runway-trends/color-trends-2026.html"
+                                                        class="article-link">2026
+                                                        流行色：從超現實紫到生物螢光的視覺擴張 <span class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="runway-trends/digital-assets.html"
+                                                        class="article-link">我的 $5,000
+                                                        美金數位衣櫥：NFT 時尚在 2026 的真實效用 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="runway-trends/digital-fabrics-2026.html"
+                                                        class="article-link">超感官數位織品：2026 春夏時裝週的虛實整合美學 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="runway-trends/fashion-investment.html"
+                                                        class="article-link">Vintage Chanel vs. S&P
+                                                        500：十年數據分析，名牌包是更好的投資嗎？ <span class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="runway-trends/haute-couture-craftsmanship.html"
+                                                        class="article-link">高級訂製時裝週：傳統工藝的當代演繹 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="runway-trends/london-fashion-week-sustainability.html"
+                                                        class="article-link">倫敦時裝週永續革命：環保與創新並行 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="runway-trends/milan-fashion-week-2025-colors.html"
+                                                        class="article-link">米蘭時裝週色彩革命：大膽用色的新時代 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="runway-trends/new-york-fashion-week-street-culture.html"
+                                                        class="article-link">紐約時裝週：街頭文化與高級時裝的完美融合 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="runway-trends/paris-fashion-week-2025-spring-summer.html"
+                                                        class="article-link">2025春夏巴黎時裝週：極簡主義的華麗回歸 <span
+                                                                class="article-arrow">→</span></a></li>
+                                </ul>
+                        </section>
+
+                        <!-- Designer Perspective -->
+                        <section class="category-section" id="designer-perspective">
+                                <h2 class="category-title">設計師視角 (Designer's Perspective)</h2>
+                                <ul class="article-list">
+                                        <li class="article-item"><a
+                                                        href="designer-perspective/ai-design-renaissance-2026.html"
+                                                        class="article-link">AI 設計文藝復興：人機協作下的時尚新樣貌 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="designer-perspective/brand-renewal-art.html"
+                                                        class="article-link">品牌重塑的藝術：老牌時裝屋如何煥發新生 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="designer-perspective/craftsmanship-tech-fusion.html"
+                                                        class="article-link">工藝與科技的融合：傳統工坊的數位轉型 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="designer-perspective/digital-canvas.html"
+                                                        class="article-link">數位畫布：虛擬時尚設計師的創作心法 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="designer-perspective/digital-craft-designer.html"
+                                                        class="article-link">數位工藝師：定義未來的時尚職人 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="designer-perspective/education-roi.html"
+                                                        class="article-link">時尚教育
+                                                        ROI：聖馬丁與帕森斯的學位在 2026 還值錢嗎？ <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="designer-perspective/emotional-tailoring-2026.html"
+                                                        class="article-link">情感剪裁：當服裝成為情緒的載體 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="designer-perspective/fashion-photographer-vision.html"
+                                                        class="article-link">光影敘事：頂尖時尚攝影師眼中的美學視角 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="designer-perspective/minimalist-philosophy.html"
+                                                        class="article-link">極簡主義哲學：在繁雜世界中尋找設計的純粹 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="designer-perspective/stylist-power.html"
+                                                        class="article-link">造型師的力量：如何透過搭配講述品牌故事 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="designer-perspective/sustainability-pioneer.html"
+                                                        class="article-link">永續先行者：用環保材質挑戰時尚極限 <span
+                                                                class="article-arrow">→</span></a></li>
+                                </ul>
+                        </section>
+
+                        <!-- Casual Chic -->
+                        <section class="category-section" id="casual-chic">
+                                <h2 class="category-title">休閒時尚 (Casual Chic)</h2>
+                                <ul class="article-list">
+                                        <li class="article-item"><a href="casual-chic/accessory-styling-art.html"
+                                                        class="article-link">配件搭配藝術：用細節點亮簡約穿搭 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="casual-chic/capsule-wardrobe-3-0.html"
+                                                        class="article-link">膠囊衣櫥
+                                                        3.0：AI 驅動的極簡穿搭術 <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="casual-chic/capsule-wardrobe.html"
+                                                        class="article-link">極簡膠囊衣櫥：20件單品打造四季不敗風格 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="crossbody-bag-style-guide.html"
+                                                        class="article-link">女生斜背包穿搭術：一款小包輕鬆搞定城市探險與各種場合造型 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="casual-chic/hybrid-office-style-2026.html"
+                                                        class="article-link">混合辦公時尚：從 Zoom 會議到商務午餐的完美轉換 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="casual-chic/minimalist-style.html"
+                                                        class="article-link">極簡風格：少即是多的穿搭美學 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="casual-chic/spring-essentials.html"
+                                                        class="article-link">春季必備單品：打造清新活力的換季造型 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="casual-chic/tech-denim-luxury-2026.html"
+                                                        class="article-link">科技丹寧：2026 牛仔褲的舒適革命與環保進化 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="casual-chic/travel-wear.html"
+                                                        class="article-link">旅行穿搭指南：時尚與舒適兼具的飛行裝束 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="casual-chic/weekend-casual.html"
+                                                        class="article-link">週末休閒風：輕鬆駕馭慵懶與時髦 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="casual-chic/workplace-style.html"
+                                                        class="article-link">職場穿搭術：展現專業與自信的辦公室造型 <span
+                                                                class="article-arrow">→</span></a></li>
+                                </ul>
+                        </section>
+
+                        <!-- Wellness Movement -->
+                        <section class="category-section" id="wellness-movement">
+                                <h2 class="category-title">瑜伽健身 (Wellness Movement)</h2>
+                                <ul class="article-list">
+                                        <li class="article-item"><a href="wellness-movement/athleisure-aesthetics.html"
+                                                        class="article-link">運動時尚新美學：機能與風格的完美結合 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="wellness-movement/comprehensive-fitness-plan.html"
+                                                        class="article-link">全方位健身計畫：打造理想體態的科學方法 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="wellness-movement/holographic-wellness-2026.html"
+                                                        class="article-link">全息冥想：2026 沉浸式療癒空間的視覺與聽覺革命 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="wellness-movement/home-fitness-revolution.html"
+                                                        class="article-link">居家健身革命：打造專屬的私人健身空間 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="wellness-movement/light-therapy-activewear.html"
+                                                        class="article-link">光學排毒：紅光治療機能服如何重塑身心修復 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="wellness-movement/mindful-living.html"
+                                                        class="article-link">正念生活：在繁忙中找到內心的寧靜 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="wellness-movement/morning-yoga.html"
+                                                        class="article-link">晨間瑜伽：喚醒身體與心靈的完美儀式 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="wellness-movement/neuro-feedback-yoga-2026.html"
+                                                        class="article-link">冥想 2.0：穿戴式神經反饋裝置如何優化瑜伽實踐 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="wellness-movement/nutrition-efficiency.html"
+                                                        class="article-link">AG1 vs. Huel：CEO 的液態營養效率學 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="wellness-movement/recovery-tech.html"
+                                                        class="article-link">Theragun Pro vs. Hypervolt
+                                                        2：哪一款震動槍能真正拯救你的「科技頸」？ <span class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="wellness-movement/sarcopenia-prevention.html"
+                                                        class="article-link">肌少症的威脅：為什麼現在就要開始儲備肌肉量 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="wellness-movement/sports-nutrition.html"
+                                                        class="article-link">運動營養學：用飲食支持你的健身目標 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="wellness-movement/yoga-focus-productivity.html"
+                                                        class="article-link">正念瑜伽與專注力：重新掌握生產力的身心科學 <span
+                                                                class="article-arrow">→</span></a></li>
+                                </ul>
+                        </section>
+
+                        <!-- Outdoor Escapes -->
+                        <section class="category-section" id="outdoor-escapes">
+                                <h2 class="category-title">戶外生活 (Outdoor Escapes)</h2>
+                                <ul class="article-list">
+                                        <li class="article-item"><a href="outdoor-escapes/backpack-comfort-guide.html"
+                                                        class="article-link">征服長途挑戰：解析登山背包背負系統的秘密 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="outdoor-escapes/coastal-exploration.html"
+                                                        class="article-link">海岸線巡禮：探索台灣最美的濱海秘境 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="outdoor-escapes/content-creation-gear.html"
+                                                        class="article-link">Sony A7IV vs. iPhone 15 Pro Max：價值 $3,000
+                                                        美金的相機還是創作者的必需品嗎？ <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="outdoor-escapes/extreme-climate-adaptive-gear.html"
+                                                        class="article-link">極端氣候適應計畫：2026 智慧控溫層疊穿搭與 AI 精準裝備 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="outdoor-escapes/forest-therapy.html"
+                                                        class="article-link">森林療癒：在綠意中尋找身心平衡 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="outdoor-escapes/function-meets-beauty.html"
+                                                        class="article-link">機能與美感：2025最值得投資的戶外裝備 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="outdoor-escapes/glamping-aesthetics.html"
+                                                        class="article-link">Glamping 新美學：將奢華帶入大自然 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="outdoor-escapes/global-connectivity.html"
+                                                        class="article-link">Starlink Mini vs. Garmin
+                                                        inReach：數位遊牧者如何在荒野保持連線？ <span class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="outdoor-escapes/hiking-style.html"
+                                                        class="article-link">登山穿搭指南：功能與時尚的完美結合 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="outdoor-escapes/outdoor-photography.html"
+                                                        class="article-link">戶外攝影美學：用鏡頭捕捉自然之美 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="outdoor-escapes/quiet-gorpcore-minimalism.html"
+                                                        class="article-link">安靜的機能革命：Quiet Gorpcore 在 2026 的極簡演化 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="outdoor-escapes/regenerative-travel-2026.html"
+                                                        class="article-link">「再生旅遊」新浪潮：2026 戶外裝備的減碳美學與生態修復 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="outdoor-escapes/taiwan-hiking-routes-and-style.html"
+                                                        class="article-link">從陽明山到玉山：2026 台灣五大夢幻健行路線與穿搭全攻略 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                </ul>
+                        </section>
+
+                        <!-- Lifestyle & Culture -->
+                        <section class="category-section" id="lifestyle-culture">
+                                <h2 class="category-title">生活品味 (Lifestyle & Culture)</h2>
+                                <ul class="article-list">
+                                        <li class="article-item"><a href="lifestyle-culture/coffee-aesthetics.html"
+                                                        class="article-link">咖啡美學：從產地到杯中的完美旅程 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="lifestyle-culture/contemporary-art-tour.html"
+                                                        class="article-link">當代藝術巡禮：2025春季必看的國際展覽 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="lifestyle-culture/global-digital-nomad-hubs-2026.html"
+                                                        class="article-link">數位遊牧 2026：全球頂級奢華辦公據點指南 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="lifestyle-culture/home-aesthetics.html"
+                                                        class="article-link">居家美學：打造個人風格的空間設計指南 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="lifestyle-culture/life-sovereignty-after-40.html"
+                                                        class="article-link">40歲後，你的名字不只是媽媽：找回生活主權的五個提案 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="lifestyle-culture/luxury-boutique-hotels.html"
+                                                        class="article-link">精品旅宿巡禮：全球十大最值得造訪的設計酒店 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="lifestyle-culture/luxury-home-sanctuary-trends.html"
+                                                        class="article-link">奢華居家避風港：2026 室內設計中的多感官療癒趨勢 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="lifestyle-culture/michelin-sustainability-trends.html"
+                                                        class="article-link">米其林綠星 2026：當精緻餐飲遇上極限永續 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="lifestyle-culture/michelin-taste-journey.html"
+                                                        class="article-link">味覺之旅：探索台北最新米其林餐廳 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="lifestyle-culture/reading-art.html"
+                                                        class="article-link">閱讀的藝術：打造個人圖書館與閱讀角落 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="lifestyle-culture/second-brain.html"
+                                                        class="article-link">Notion
+                                                        vs. Obsidian：如何為時尚品牌建立「第二大腦」？ <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="lifestyle-culture/travel-hacking.html"
+                                                        class="article-link">Amex
+                                                        Platinum vs. Chase Sapphire Reserve：如何用信用卡點數駭出奢華旅行 ROI <span
+                                                                class="article-arrow">→</span></a></li>
+                                </ul>
+                        </section>
+
+                        <!-- Life Proposals -->
+                        <section class="category-section" id="life-proposals">
+                                <h2 class="category-title">人生提案 (Life Proposals)</h2>
+                                <ul class="article-list">
+                                        <li class="article-item"><a href="life-proposals/10-min-micro-exercise.html"
+                                                        class="article-link">每天10分鐘「微運動」：適合熟齡女性的瑜珈與伸展，找回身體的柔軟度 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/40-body-revolution.html"
+                                                        class="article-link">40歲後的身體革命：為什麼「少吃多動」不再有效？啟動熟齡代謝的關鍵 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/aromatherapy-hormones.html"
+                                                        class="article-link">不想依賴藥物？探索芳香療法：精油如何幫助熟齡女性平衡荷爾蒙 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/art-of-apology-repair.html"
+                                                        class="article-link">遲來的道歉：如何修復那些因年輕氣盛而受損的關係？ <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/art-of-scarves.html"
+                                                        class="article-link">一條絲巾的魔法：讓基本款瞬間高級的40+配件學 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/bone-health-anti-aging.html"
+                                                        class="article-link">對抗「斷崖式衰老」：從今天開始養骨，預防骨質疏鬆的實用指南 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/breathing-for-anxiety.html"
+                                                        class="article-link">呼吸對了，自律神經就穩了：緩解焦慮與心悸的「腹式呼吸法」 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/capsule-wardrobe-basics.html"
+                                                        class="article-link">不再盲目買衣服！40+女性必備的「膠囊衣櫥」：10件單品搭出高質感 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/career-pivot-start-over.html"
+                                                        class="article-link">中年轉職 (Career Pivot)：為什麼45歲是人生最棒的「重新開機」時刻？
+                                                        <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/change-is-never-too-late.html"
+                                                        class="article-link">「我就這樣過了一生嗎？」當後悔襲來，現在改變永遠不晚 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/comfortable-stylish-shoes.html"
+                                                        class="article-link">不再為高跟鞋受罪：40+女性必備的5款「好走又時髦」的美鞋 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/dating-at-40-plus.html"
+                                                        class="article-link">40+的約會市場：別怕被Ghosting，這是一場挑選「靈魂伴侶」的遊戲 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/debt-be-gone-strategies.html"
+                                                        class="article-link">無債一身輕：退休前必做的「債務清零」計畫 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/declutter-closet-let-go.html"
+                                                        class="article-link">衣櫥斷捨離：告別那些「食之無味，棄之可惜」的衣服，找回清爽人生 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/designing-dream-retirement.html"
+                                                        class="article-link">設計夢想退休生活：除了錢，妳更需要的是「目的感」(Purpose) <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/digital-detox-eye-brain.html"
+                                                        class="article-link">數位排毒：每天遠離手機一小時，修復大腦與眼睛的疲勞 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/dressing-for-body-type-curves.html"
+                                                        class="article-link">穿對衣服，體重減5公斤：40+女性的「身型修飾」完全指南 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/elegant-refusal-relationship-detox.html"
+                                                        class="article-link">學會「優雅地拒絕」：熟齡女性的人際斷捨離指南 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/emergency-fund-peace.html"
+                                                        class="article-link">緊急預備金 (Emergency
+                                                        Fund)：為什麼「現金為王」是中年生活最大的定心丸？ <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/emotional-eating-truth.html"
+                                                        class="article-link">情緒性進食的真相：妳吃的不是甜點，是寂寞與焦慮 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/emotional-first-aid-kit.html"
+                                                        class="article-link">為自己準備一個「情緒急救箱」：沮喪、憤怒時的自救指南 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/emotional-labor-awakening.html"
+                                                        class="article-link">為什麼我們總是感到「被需要卻被忽視」？主婦的情緒勞動覺醒 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/empty-nest-freedom-year.html"
+                                                        class="article-link">給正處於「空巢期」恐慌的妳：這不是分離，而是妳的自由元年 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/entrepreneurship-after-40.html"
+                                                        class="article-link">40歲後創業：這不是瘋狂，是利用妳的「智慧紅利」 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/estate-planning-legacy.html"
+                                                        class="article-link">遺產規劃 (Estate Planning)：這不是觸霉頭，而是對家人最後的愛
+                                                        (Wills & Legacy) <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/eye-care-presbyopia.html"
+                                                        class="article-link">眼睛開始「霧霧的」？保護熟齡視力，預防老花與眼疾的日常保養 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/fabric-matters-cashmere-silk.html"
+                                                        class="article-link">穿在身上的溫柔：為什麼40歲後，妳應該投資羊絨 (Cashmere) 與真絲？
+                                                        <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/fear-of-being-forgotten-aging.html"
+                                                        class="article-link">面對衰老，我們恐懼的其實不是皺紋，而是被遺忘 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/financial-independence-options.html"
+                                                        class="article-link">40+的財富自由：不是為了當富豪，而是為了擁有「Say No」的權利 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/financial-infidelity-partners.html"
+                                                        class="article-link">談錢傷感情？「財務不忠」比肉體出軌更可怕：夫妻如何誠實面對金錢？ <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/financial-literacy-kids.html"
+                                                        class="article-link">富養不如教養：給孩子的「財商教育」(Financial
+                                                        Literacy)，打破金錢焦慮的輪迴 <span class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/finding-your-style-at-40.html"
+                                                        class="article-link">40歲後，該如何穿搭？停止追逐流行，找到妳的「風格關鍵字」 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/finding-your-tribe-midlife.html"
+                                                        class="article-link">去哪裡找新朋友？40+女性如何在中年建立「高品質」的社交圈？ <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/finding-yourself-after-40.html"
+                                                        class="article-link">40歲後，妳的名字不只是「媽媽」：找回自我的5個生活提案 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/forgive-imperfect-past-self.html"
+                                                        class="article-link">原諒那個「不盡完美」的自己：與過去的和解，是人生下半場的必修課 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/friendship-audit-outgrow.html"
+                                                        class="article-link">朋友也要斷捨離：為什麼「漸行漸遠」是40歲後的人際常態？ <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/gig-economy-second-act.html"
+                                                        class="article-link">零工經濟 (Gig Economy) 浪潮：40+女性如何靠「接案」開啟第二人生？
+                                                        <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/glasses-chic-accessory.html"
+                                                        class="article-link">老花眼鏡也可以很時尚：挑對框型，眼鏡就是妳最知性的飾品 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/grandparenting-joy-no-stress.html"
+                                                        class="article-link">當我們成為祖父母：只享受含飴弄孫的快樂，拒絕無止盡的育兒壓力 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/gray-divorce-new-chapter.html"
+                                                        class="article-link">熟齡離婚 (Gray Divorce)：不是人生的失敗，而是勇敢的「止損」 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/grey-hair-revolution.html"
+                                                        class="article-link">白髮是智慧的冠冕：染髮還是留白？掀起妳的「銀髮革命」 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/gut-health-second-brain.html"
+                                                        class="article-link">「腸道」是第二個大腦：養好菌，改善熟齡便秘與情緒低落 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/hair-loss-scalp-care.html"
+                                                        class="article-link">為什麼這幾年「掉髮」變嚴重了？養出豐盈秀髮的頭皮護理術 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/hairstyle-frames-your-face.html"
+                                                        class="article-link">髮型決定臉型：長髮顯老還是短髮太兇？40+女性的「命定髮型」 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/hand-neck-care-secrets.html"
+                                                        class="article-link">別讓脖子和雙手出賣妳的年齡：比臉更需要呵護的「細節保養」 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/healing-mother-daughter-wounds.html"
+                                                        class="article-link">與母親和解，也是饒過自己：修復中年女性心中那道「母女創傷」 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/health-check-list-40plus.html"
+                                                        class="article-link">給自己的健康投資：40+女性必做的重點健康檢查項目清單 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/hot-flashes-diet.html"
+                                                        class="article-link">熱潮紅、盜汗好尷尬？與身體和解，緩解更年期不適的飲食與生活對策 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/housewife-worth-not-clean-floor.html"
+                                                        class="article-link">妳的價值不該由「地板乾不乾淨」來決定：主婦的自我肯定宣言 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/in-law-boundaries.html"
+                                                        class="article-link">婆媳/岳婿關係的「邊界感」：如何保護妳的平靜，且不撕破臉？ <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/insurance-audit-protection.html"
+                                                        class="article-link">保單健檢：買了一堆保險卻不知道保什麼？40+必做的「風險盤點」 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/investment-101-fearless.html"
+                                                        class="article-link">投資小白也不怕：給理財新手的「無腦投資術」(ETF & 指數化投資) <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/jewelry-statement-pieces.html"
+                                                        class="article-link">首飾是女人的故事：如何用「Statement Pieces」點亮秋冬穿搭 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/joint-health-travel.html"
+                                                        class="article-link">膝蓋卡卡怎麼辦？守護關節健康，讓妳70歲還能優雅旅行 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/late-starter-retirement.html"
+                                                        class="article-link">現在開始還來得及：給「晚鳥理財族」的退休追趕策略 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/let-go-control-kids.html"
+                                                        class="article-link">放下對子女的「控制欲」，妳才能真正獲得解脫 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/lingerie-internal-confidence.html"
+                                                        class="article-link">看不見的自信最重要！如何挑選適合40+身型的「內在美」 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/long-distance-family-bonds.html"
+                                                        class="article-link">孩子在國外，心怎麼辦？跨海維繫親子關係的「遠距愛」指南 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/love-languages-update.html"
+                                                        class="article-link">愛的語言 (Love Languages)
+                                                        也要更新：其實40歲後的我們，最想要的是... <span class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/makeup-for-mature-skin.html"
+                                                        class="article-link">熟齡彩妝減法學：Less is More，這樣畫讓妳看起來年輕5歲 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/manicure-magic-nails.html"
+                                                        class="article-link">指尖上的優雅：適合熟齡雙手的「顯白美甲」色系推薦 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/marriage-reset-empty-nest.html"
+                                                        class="article-link">當孩子離巢後：如何與那個叫「老公」的室友，重新談一場戀愛？ <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/menopause-is-second-youth.html"
+                                                        class="article-link">更年期不是「枯萎」，而是「第二青春」的開始 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/midlife-anxiety-opportunity.html"
+                                                        class="article-link">中年焦慮不是病，而是靈魂在求救：如何將危機化為轉機？ <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/mindfulness-in-chores.html"
+                                                        class="article-link">把家事變成「正念修煉」：摺衣服、洗碗時的禪意 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/minimalism-skincare.html"
+                                                        class="article-link">熟齡肌膚的「減法保養」：丟掉繁複瓶罐，找回肌膚原生光澤 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/money-minimalism-abundance.html"
+                                                        class="article-link">金錢極簡主義 (Money Minimalism)：少花錢，反而活得更富足？
+                                                        <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/networking-for-introverts.html"
+                                                        class="article-link">內向者的優勢：不需要「長袖善舞」，也能建立高品質的職場人脈 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/one-hour-useless-time.html"
+                                                        class="article-link">每天留給自己一小時：那些「無用」的時間，才是滋養靈魂的關鍵 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/parenting-adult-children-consultant.html"
+                                                        class="article-link">當孩子長大成人：如何從「經理人」轉型為「顧問」？ <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/passive-income-reality.html"
+                                                        class="article-link">破解被動收入迷思：世上沒有「不勞而獲」這回事 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/perfect-wife-trap-60-percent.html"
+                                                        class="article-link">別讓「完美賢妻」的標籤困住妳：試著做60分的太太，100分的自己 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/pet-companionship-healing.html"
+                                                        class="article-link">牠不是寵物，是家人：毛小孩如何療癒40+女性的空巢期與孤獨？ <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/please-yourself-not-world.html"
+                                                        class="article-link">寫給45歲的妳：與其討好世界，不如取悅自己 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/posture-correction-youth.html"
+                                                        class="article-link">改善「體態」比減重更重要：矯正駝背與圓肩，視覺年齡立刻減5歲 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/psychology-of-money-abundance.html"
+                                                        class="article-link">金錢心理學：擺脫「匱乏心態」(Scarcity Mindset)，妳值得擁有富足
+                                                        <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/real-estate-investing-retirement.html"
+                                                        class="article-link">買房當包租婆 (Real Estate Investing)：還是退休的好主意嗎？
+                                                        <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/redefining-partnership-sacrifice-to-support.html"
+                                                        class="article-link">從「犧牲奉獻」到「彼此成全」：與伴侶重新定義後半生的關係 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/rediscovering-worth-beyond-motherhood.html"
+                                                        class="article-link">當孩子不需要妳時，妳是誰？重建自我價值的心理練習 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/resume-refresh-modern.html"
+                                                        class="article-link">履歷健檢 (Resume
+                                                        Refresh)：40+的妳，該如何凸顯「領導力」與「軟實力」？ <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/salary-negotiation-value.html"
+                                                        class="article-link">別再低估妳的價值：40+職場女性的「薪資談判」全攻略 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/sandwich-generation-care.html"
+                                                        class="article-link">三明治世代的生存之道：照顧年邁父母，別忘了「先照顧好自己」 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/self-massage-lymphatic.html"
+                                                        class="article-link">每天給自己一場「自我按摩」：疏通淋巴，排毒又紓壓的晚間儀式 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/side-hustles-midlife.html"
+                                                        class="article-link">把興趣變現：適合中年女性的 5 種「優雅副業」(Side Hustles) <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/signature-scent-fragrance.html"
+                                                        class="article-link">香水是隱形的衣服：如何尋找妳人生下半場的「本命香」？ <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/sisterhood-female-support.html"
+                                                        class="article-link">閨蜜力量大：為什麼女性互助網絡 (Sisterhood) 是中年最堅強的後盾？
+                                                        <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/skincare-glow-not-anti-aging.html"
+                                                        class="article-link">抗老保養迷思大公開：妳需要的不是更貴的產品，而是「光澤感」 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/sleep-well-menopause.html"
+                                                        class="article-link">別讓「睡不好」拖垮妳的優雅：改善更年期失眠的5個天然良方 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/smile-makeover-dental.html"
+                                                        class="article-link">笑容是最好的化妝品：40歲後的牙齒美白與矯正，找回自信笑容 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/social-energy-management.html"
+                                                        class="article-link">內向者的社交求生術：學會「社交能量管理」，不再為了合群而精疲力竭 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/solitude-in-marriage-hobbies.html"
+                                                        class="article-link">婚內獨處學：為什麼擁有「分開的興趣」，反而讓我們的婚姻更親密？ <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/solitude-is-enjoyment.html"
+                                                        class="article-link">把「孤獨」變成「獨處」：熟齡後的妳，值得享受這份清靜 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/stop-comparing-with-youth.html"
+                                                        class="article-link">別再拿現在的自己跟20歲比：接受變化，是成熟美的第一步 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/sugar-detox-impact.html"
+                                                        class="article-link">戒糖真的能變年輕嗎？實測「減糖生活」，找回清晰大腦與輕盈體態 <span
+                                                                class="article-arrow">→</span></a>
+                                        </li>
+                                        <li class="article-item"><a href="life-proposals/tcm-woman-40.html"
+                                                        class="article-link">中醫眼中的「女人四十」：順應節氣，從內而外調理氣血 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a href="life-proposals/timeless-bag-investment.html"
+                                                        class="article-link">買包包的哲學：與其追逐 It Bags，不如投資一個能陪妳到老的「經典款」 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/toxic-relationships-goodbye.html"
+                                                        class="article-link">勇敢說再見：這輩子，請拒絕任何「有毒關係」(Toxic Relationships)
+                                                        <span class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/vintage-sustainable-fashion.html"
+                                                        class="article-link">穿得像個有故事的人：40+女性的「古著 (Vintage)」入門指南 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/water-hydration-anti-aging.html"
+                                                        class="article-link">喝水也能抗老？告別水腫，熟齡女性的正確補水公式 <span
+                                                                class="article-arrow">→</span></a></li>
+                                        <li class="article-item"><a
+                                                        href="life-proposals/workplace-mentorship-fulfillment.html"
+                                                        class="article-link">職場上的「傳承」：如何從競爭者變成引路人 (Mentor)，成就他人也成就自己？
+                                                        <span class="article-arrow">→</span></a></li>
+                                </ul>
+                        </section>
+                </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+                <div class="container">
+                        <div class="footer-content">
+                                <div class="footer-brand">
+                                        <h3>ELITE FASHION</h3>
+                                        <p>引領時尚潮流，探索精英生活</p>
+                                </div>
+                                <div class="footer-links">
+                                        <div class="footer-column">
+                                                <h4>探索主題</h4>
+                                                <ul>
+                                                        <li><a href="ai-innovation.html">人工智能</a></li>
+                                                        <li><a href="runway-trends.html">秀場趨勢</a></li>
+                                                        <li><a href="designer-perspective.html">設計師視角</a></li>
+                                                        <li><a href="casual-chic.html">休閒時尚</a></li>
+                                                </ul>
+                                        </div>
+                                        <div class="footer-column">
+                                                <h4>生活方式</h4>
+                                                <ul>
+                                                        <li><a href="wellness-movement.html">瑜伽健身</a></li>
+                                                        <li><a href="outdoor-escapes.html">戶外生活</a></li>
+                                                        <li><a href="lifestyle-culture.html">生活品味</a></li>
+                                                        <li><a href="all-articles.html">文章列表</a></li>
+                                                </ul>
+                                        </div>
+                                        <div class="footer-column">
+                                                <h4>關於與聯絡</h4>
+                                                <ul>
+                                                        <li><a href="about.html">關於我們</a></li>
+                                                        <li><a href="contact.html">聯絡我們</a></li>
+                                                        <li><a href="mailto:info@elitefashion.com">info@elitefashion.com</a>
+                                                        </li>
+                                                        <li><a href="#">Instagram</a></li>
+                                                        <li><a href="#">Facebook</a></li>
+                                                </ul>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="footer-bottom">
+                                <p>&copy; 2026 致力於定義精英生活藍圖。</p>
+                                <div class="footer-brand-philosophy"
+                                        style="margin-top: 10px; font-family: 'Playfair Display', serif; color: #999; font-size: 0.9rem; letter-spacing: 1px;">
+                                        Elite Fasion = Faith + Passion <span style="margin: 0 10px;">|</span> 擁抱生命的不完美
+                                        Embracing Life's
+                                        Imperfections
+                                </div>
+                                <img src="images/footer-logo.jpg" alt="Elite Fashion" class="footer-logo">
+                        </div>
+                </div>
+        </footer>
+
+        <script src="js/main.js"></script>
 </body>
 
 </html>

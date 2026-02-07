@@ -454,8 +454,8 @@ ul {
 
 /* Old styles removal/refactor if needed */
 .about-stats {
-   /* Deprecated in new design, kept nicely separated by section override above if specific class used */
-   display: none; 
+    /* Deprecated in new design, kept nicely separated by section override above if specific class used */
+    display: none;
 }
 
 /* ==========================================
@@ -739,27 +739,80 @@ ul {
     font-size: 0.9rem;
     color: var(--text-light);
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-    font-style: italic;
+    transition: var(--transition-smooth);
 }
 
-/* Article List Styles */
-.article-list {
+/* ==========================================
+   Life Proposals List Styles
+   ========================================== */
+.proposal-list-section {
+    padding: 6rem 0;
+    background-color: var(--bg-white);
+}
+
+.proposal-theme-group {
+    margin-bottom: 5rem;
+}
+
+.proposal-theme-title {
+    font-family: var(--font-serif);
+    font-size: 2.2rem;
+    color: var(--primary-color);
     margin-bottom: 2rem;
-    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-color);
+    display: inline-block;
 }
 
-.article-list li {
-    margin-bottom: 1rem;
-    position: relative;
+.proposal-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
 }
 
-.article-list li::before {
-    content: '◈';
-    position: absolute;
-    left: -1.5rem;
+.proposal-item {
+    transition: var(--transition-smooth);
+}
+
+.proposal-link {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: var(--bg-light);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1.05rem;
+    color: var(--text-color);
+    transition: var(--transition-smooth);
+}
+
+.proposal-link::before {
+    content: '→';
+    margin-right: 1rem;
     color: var(--accent-color);
+    font-weight: 700;
+    transition: transform 0.3s ease;
+}
+
+.proposal-link:hover {
+    background: var(--bg-white);
+    border-color: var(--accent-color);
+    transform: translateX(5px);
+    box-shadow: var(--shadow-sm);
+}
+
+.proposal-link:hover::before {
+    transform: translateX(3px);
+}
+
+.proposal-meta {
+    margin-left: auto;
+    font-size: 0.8rem;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 /* ==========================================
@@ -908,4 +961,84 @@ ul {
 
 .py-3 {
     padding: 3rem 0;
+}
+
+/* ==========================================
+   CTA Banner Styles
+   ========================================== */
+.cta-banner {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #333 100%);
+    color: var(--bg-white);
+    padding: 6rem 2rem;
+    text-align: center;
+    border-radius: 12px;
+    margin: 4rem 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+
+.cta-banner::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -10%;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(166, 139, 90, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+}
+
+.cta-banner-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-banner-title {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: var(--bg-white);
+    letter-spacing: 2px;
+}
+
+.cta-banner-text {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.cta-banner-btn {
+    display: inline-block;
+    padding: 1.2rem 3.5rem;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: var(--transition-smooth);
+    border: none;
+    border-radius: 4px;
+}
+
+.cta-banner-btn:hover {
+    background-color: var(--bg-white);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .cta-banner {
+        padding: 4rem 1.5rem;
+        margin: 3rem 1rem;
+    }
+
+    .cta-banner-title {
+        font-size: 1.8rem;
+    }
 }
