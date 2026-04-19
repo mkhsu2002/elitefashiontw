@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tw.elitefasion.com/lifestyle-culture.html</loc>
-    <lastmod>2026-02-07</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://tw.elitefasion.com/all-articles.html</loc>
-    <lastmod>2026-02-07</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -74,13 +74,13 @@
   </url>
   <url>
     <loc>https://tw.elitefasion.com/outdoor-escapes.html</loc>
-    <lastmod>2026-02-07</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tw.elitefasion.com/casual-chic.html</loc>
-    <lastmod>2026-02-06</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -614,7 +614,7 @@
   </url>
   <url>
     <loc>https://tw.elitefasion.com/life-proposals/capsule-wardrobe-basics.html</loc>
-    <lastmod>2026-02-08</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -829,6 +829,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tw.elitefasion.com/casual-chic/iphone-selfie-monitor-style.html</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tw.elitefasion.com/casual-chic/accessory-styling-art.html</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -878,7 +884,7 @@
   </url>
   <url>
     <loc>https://tw.elitefasion.com/casual-chic/travel-wear.html</loc>
-    <lastmod>2026-02-07</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -927,6 +933,12 @@
   <url>
     <loc>https://tw.elitefasion.com/outdoor-escapes/backpack-comfort-guide.html</loc>
     <lastmod>2026-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tw.elitefasion.com/outdoor-escapes/iphone-travel-vlog-monitor.html</loc>
+    <lastmod>2026-04-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1089,6 +1101,12 @@
   <url>
     <loc>https://tw.elitefasion.com/lifestyle-culture/travel-hacking.html</loc>
     <lastmod>2026-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tw.elitefasion.com/lifestyle-culture/iphone-selfie-monitor-aesthetics.html</loc>
+    <lastmod>2026-04-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
