@@ -223,19 +223,108 @@ python3 scripts/content_pipeline.py send-notification --article-title "標題" -
 - 文章標題
 - 正式站網址
 
+## 模型 API 與版本紀錄
+
+### 目前正式使用中
+
+截至 `2026-04-25`，GitHub Actions 目前啟用的模型供應商為：
+
+- Provider：`nvidia`
+- Endpoint：`https://integrate.api.nvidia.com/v1/chat/completions`
+- API mode：`chat_completions`
+- Writer model：`deepseek-ai/deepseek-v4-pro`
+- Planner model：`deepseek-ai/deepseek-v4-pro`
+
+目前這套切換機制已實測通過：
+
+- OpenAI 路徑仍可正常呼叫
+- NVIDIA 路徑已成功完成正式文章生成、上線與 email 通知
+
+### 保留的回切設定
+
+OpenAI 並沒有被覆蓋，仍完整保留作為 fallback：
+
+- Provider：`openai`
+- Endpoint：`https://api.openai.com/v1/responses`
+- API mode：`responses`
+- Writer model：`gpt-5-mini`
+- Planner model：`gpt-5-mini`
+
+### 程式層備註
+
+- `scripts/content_pipeline.py` 會依 `CONTENT_MODEL_PROVIDER` 自動選擇 provider
+- OpenAI 走 `responses`
+- NVIDIA 走 `chat_completions`
+- NVIDIA 路徑目前會使用較小的既有標題上下文，避免長 prompt 導致 `502`
+- `automation/site-config.json` 目前 `requestTimeoutSeconds` 已調整為 `300`
+
 ## GitHub Secrets / Variables
 
 ### Secrets
 
 - `CONTENT_MODEL_API_KEY`
+- `NVIDIA_CONTENT_MODEL_API_KEY`
 - `RESEND_API_KEY`
 - `CONTENT_NOTIFICATION_FROM_EMAIL`
 - `CONTENT_NOTIFICATION_TO_EMAIL`
 
 ### Variables
 
+- `CONTENT_MODEL_PROVIDER`
+- `OPENAI_CONTENT_MODEL`
+- `OPENAI_CONTENT_PLANNER_MODEL`
+- `NVIDIA_CONTENT_MODEL`
+- `NVIDIA_CONTENT_PLANNER_MODEL`
+
+### 目前 GitHub 上的實際角色
+
+- `CONTENT_MODEL_PROVIDER`
+  - 決定工作流程目前要走 `openai` 或 `nvidia`
+- `CONTENT_MODEL_API_KEY`
+  - 保留給 OpenAI 使用
+- `NVIDIA_CONTENT_MODEL_API_KEY`
+  - 給 NVIDIA 使用
+- `OPENAI_CONTENT_MODEL` / `OPENAI_CONTENT_PLANNER_MODEL`
+  - OpenAI 路徑的 writer / planner 模型
+- `NVIDIA_CONTENT_MODEL` / `NVIDIA_CONTENT_PLANNER_MODEL`
+  - NVIDIA 路徑的 writer / planner 模型
+
+### 舊變數備註
+
+以下變數目前仍保留在 repo，但已不是切換機制的主要控制來源：
+
 - `CONTENT_MODEL`
 - `CONTENT_PLANNER_MODEL`
+
+它們屬於舊版單供應商配置遺留值。現階段 workflow 會優先依 provider 選用 `OPENAI_*` 或 `NVIDIA_*` 變數。
+
+## 未來切換備忘
+
+### 切到 NVIDIA
+
+1. 確認 secret `NVIDIA_CONTENT_MODEL_API_KEY` 有效
+2. 將 variable `CONTENT_MODEL_PROVIDER` 設成 `nvidia`
+3. 確認：
+   - `NVIDIA_CONTENT_MODEL=deepseek-ai/deepseek-v4-pro`
+   - `NVIDIA_CONTENT_PLANNER_MODEL=deepseek-ai/deepseek-v4-pro`
+4. 建議先跑最小 smoke test，再跑正式文章
+
+### 切回 OpenAI
+
+1. 不需要重建 secret，只要保留既有 `CONTENT_MODEL_API_KEY`
+2. 將 variable `CONTENT_MODEL_PROVIDER` 改回 `openai`
+3. 確認：
+   - `OPENAI_CONTENT_MODEL=gpt-5-mini`
+   - `OPENAI_CONTENT_PLANNER_MODEL=gpt-5-mini`
+4. 建議先跑最小 smoke test，再恢復正式排程
+
+### 切換時的注意事項
+
+- 不要用新的 provider 覆蓋另一個 provider 的 secret
+- 先切 provider，再跑手動測試，確認成功後再放給固定排程
+- 若 NVIDIA 再次出現 `502` 或超時，優先檢查 prompt 大小與 timeout，不要直接假設 key 失效
+- 若 OpenAI 或 NVIDIA key 曾在對話、log 或螢幕錄影中曝光，應先旋轉再繼續使用
+- 切換 provider 後，最好先觀察一篇正式上線結果，再決定是否讓後續 queue 繼續自動跑
 
 ## 維運建議
 
