@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>站內搜尋 | Elite Fashion</title>
+    <meta name="description" content="搜尋 Elite Fashion 站內文章、FAQ 與系列主題。">
+    <link rel="canonical" href="https://tw.elitefasion.com/search.html">
+    <link rel="stylesheet" href="css/styles.css?v=1.2">
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg">
+    <style>
+        .search-shell {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 8rem 20px 4rem;
+        }
+        .search-input {
+            width: 100%;
+            padding: 16px 18px;
+            border: 1px solid #d8d1c5;
+            border-radius: 14px;
+            font-size: 1rem;
+        }
+        .search-results {
+            margin-top: 2rem;
+            display: grid;
+            gap: 1rem;
+        }
+        .search-card {
+            padding: 1.4rem;
+            border: 1px solid #eee;
+            border-radius: 16px;
+            background: #fff;
+            box-shadow: 0 10px 24px rgba(0, 0, 0, 0.04);
+        }
+        .search-card a {
+            color: #111;
+            text-decoration: none;
+        }
+        .search-meta {
+            color: #666;
+            font-size: 0.94rem;
+            margin-bottom: 0.5rem;
+        }
+        .search-empty {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="主導覽列">
+        <div class="container">
+            <div class="nav-brand"><a href="index.html" class="logo"><img src="images/logo.jpg" alt="Elite Fashion Logo"></a></div>
+            <button class="mobile-menu-toggle" aria-label="開啟選單" aria-expanded="false"><span></span><span></span><span></span></button>
+            <ul class="nav-menu">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="all-articles.html">文章列表</a></li>
+                <li><a href="search.html" class="active">搜尋</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="search-shell">
+        <h1>站內搜尋</h1>
+        <p>搜尋文章標題、摘要、FAQ 與標籤。</p>
+        <input id="search-input" class="search-input" type="search" placeholder="例如：Dify、客服、熟齡穿搭、AI 代理人">
+        <div id="search-results" class="search-results"></div>
+    </main>
+
+    <script>
+        const input = document.getElementById('search-input');
+        const results = document.getElementById('search-results');
+
+        function escapeHtml(value) {
+            return value
+                .replaceAll('&', '&amp;')
+                .replaceAll('<', '&lt;')
+                .replaceAll('>', '&gt;')
+                .replaceAll('"', '&quot;');
+        }
+
+        function render(items, query) {
+            if (!query) {
+                results.innerHTML = '<p class="search-empty">輸入關鍵字後會在這裡顯示結果。</p>';
+                return;
+            }
+            if (!items.length) {
+                results.innerHTML = '<p class="search-empty">找不到符合結果，請換個關鍵字試試看。</p>';
+                return;
+            }
+            results.innerHTML = items.map((item) => `
+                <article class="search-card">
+                    <a href="${item.relativeUrl}">
+                        <div class="search-meta">${escapeHtml(item.categoryLabel)} · ${escapeHtml(item.publishedDateText || '')}</div>
+                        <h2>${escapeHtml(item.title)}</h2>
+                        <p>${escapeHtml(item.excerpt)}</p>
+                    </a>
+                </article>
+            `).join('');
+        }
+
+        async function load() {
+            const response = await fetch('data/search-index.json', { cache: 'no-store' });
+            const items = await response.json();
+            const params = new URLSearchParams(window.location.search);
+            const initialQuery = params.get('q') || '';
+            input.value = initialQuery;
+            const apply = () => {
+                const query = input.value.trim().toLowerCase();
+                const filtered = items.filter((item) => {
+                    const haystack = [item.title, item.excerpt, ...(item.tags || []), ...(item.faqQuestions || [])]
+                        .join(' ')
+                        .toLowerCase();
+                    return haystack.includes(query);
+                });
+                render(filtered.slice(0, 50), query);
+            };
+            input.addEventListener('input', apply);
+            apply();
+        }
+
+        load().catch(() => {
+            results.innerHTML = '<p class="search-empty">搜尋索引載入失敗。</p>';
+        });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>

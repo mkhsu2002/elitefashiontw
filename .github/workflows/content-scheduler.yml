@@ -1,0 +1,73 @@
+name: Content Scheduler
+
+on:
+  schedule:
+    - cron: "15 2 * * 1"
+    - cron: "15 2 * * 3"
+    - cron: "15 2 * * 5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate Scheduled Article
+        env:
+          CONTENT_MODEL_API_KEY: ${{ secrets.CONTENT_MODEL_API_KEY }}
+          CONTENT_MODEL: ${{ vars.CONTENT_MODEL }}
+          CONTENT_PLANNER_MODEL: ${{ vars.CONTENT_PLANNER_MODEL }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          CONTENT_NOTIFICATION_FROM_EMAIL: ${{ secrets.CONTENT_NOTIFICATION_FROM_EMAIL }}
+          CONTENT_NOTIFICATION_TO_EMAIL: ${{ secrets.CONTENT_NOTIFICATION_TO_EMAIL }}
+        run: |
+          python3 scripts/content_pipeline.py scheduled-run
+
+      - name: Check Changes
+        id: diff
+        run: |
+          if git diff --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit Changes
+        if: steps.diff.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "chore: publish scheduled content"
+
+      - name: Push Changes
+        if: steps.diff.outputs.has_changes == 'true'
+        run: git push origin HEAD:main
+
+      - name: Wait For Production
+        if: steps.diff.outputs.has_changes == 'true'
+        env:
+          CONTENT_MODEL_API_KEY: ${{ secrets.CONTENT_MODEL_API_KEY }}
+        run: |
+          python3 scripts/content_pipeline.py wait-for-live --timeout-seconds 1800
+
+      - name: Send Notification
+        if: steps.diff.outputs.has_changes == 'true'
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          CONTENT_NOTIFICATION_FROM_EMAIL: ${{ secrets.CONTENT_NOTIFICATION_FROM_EMAIL }}
+          CONTENT_NOTIFICATION_TO_EMAIL: ${{ secrets.CONTENT_NOTIFICATION_TO_EMAIL }}
+        run: |
+          python3 scripts/content_pipeline.py send-notification

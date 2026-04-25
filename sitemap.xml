@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tw.elitefasion.com/lifestyle-culture.html</loc>
-    <lastmod>2026-04-18</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tw.elitefasion.com/wellness-movement.html</loc>
-    <lastmod>2026-02-06</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tw.elitefasion.com/</loc>
-    <lastmod>2026-02-07</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -38,25 +38,31 @@
   </url>
   <url>
     <loc>https://tw.elitefasion.com/all-articles.html</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tw.elitefasion.com/ai-innovation.html</loc>
-    <lastmod>2026-02-07</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tw.elitefasion.com/designer-perspective.html</loc>
-    <lastmod>2026-02-04</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tw.elitefasion.com/runway-trends.html</loc>
-    <lastmod>2026-02-07</lastmod>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tw.elitefasion.com/search.html</loc>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -74,13 +80,13 @@
   </url>
   <url>
     <loc>https://tw.elitefasion.com/outdoor-escapes.html</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tw.elitefasion.com/casual-chic.html</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -807,6 +813,12 @@
   <url>
     <loc>https://tw.elitefasion.com/ai-innovation/ai-entrepreneur-systeme.html</loc>
     <lastmod>2026-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tw.elitefasion.com/ai-innovation/ai-45.html</loc>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

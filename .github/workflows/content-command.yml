@@ -1,0 +1,96 @@
+name: Content Command
+
+on:
+  workflow_dispatch:
+    inputs:
+      instruction:
+        description: "自然語言指令，例如：加入主題序列：Dify AI，篇數：6，補充：偏台灣中小企業導入與實作"
+        required: true
+        type: string
+      fixture:
+        description: "使用內建 fixture，不呼叫模型 API"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run Command
+        env:
+          CONTENT_MODEL_API_KEY: ${{ secrets.CONTENT_MODEL_API_KEY }}
+          CONTENT_MODEL: ${{ vars.CONTENT_MODEL }}
+          CONTENT_PLANNER_MODEL: ${{ vars.CONTENT_PLANNER_MODEL }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          CONTENT_NOTIFICATION_FROM_EMAIL: ${{ secrets.CONTENT_NOTIFICATION_FROM_EMAIL }}
+          CONTENT_NOTIFICATION_TO_EMAIL: ${{ secrets.CONTENT_NOTIFICATION_TO_EMAIL }}
+        run: |
+          if [ "${{ inputs.fixture }}" = "true" ]; then
+            python3 scripts/content_pipeline.py command --instruction "${{ inputs.instruction }}" --fixture
+          else
+            python3 scripts/content_pipeline.py command --instruction "${{ inputs.instruction }}"
+          fi
+
+      - name: Check Changes
+        id: diff
+        run: |
+          if git diff --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit Changes
+        if: steps.diff.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "chore: content pipeline command"
+
+      - name: Push Changes
+        if: steps.diff.outputs.has_changes == 'true'
+        run: git push origin HEAD:main
+
+      - name: Check Latest Run Status
+        if: steps.diff.outputs.has_changes == 'true'
+        id: latest
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          payload = json.loads(Path("automation/latest-run.json").read_text())
+          status = payload.get("status", "")
+          with open(Path.cwd() / Path(".latest-status"), "w", encoding="utf-8") as handle:
+              handle.write(status)
+          print(status)
+          PY
+          echo "status=$(cat .latest-status)" >> "$GITHUB_OUTPUT"
+
+      - name: Wait For Production
+        if: steps.diff.outputs.has_changes == 'true' && steps.latest.outputs.status == 'generated'
+        run: |
+          python3 scripts/content_pipeline.py wait-for-live --timeout-seconds 1800
+
+      - name: Send Notification
+        if: steps.diff.outputs.has_changes == 'true' && steps.latest.outputs.status == 'generated'
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          CONTENT_NOTIFICATION_FROM_EMAIL: ${{ secrets.CONTENT_NOTIFICATION_FROM_EMAIL }}
+          CONTENT_NOTIFICATION_TO_EMAIL: ${{ secrets.CONTENT_NOTIFICATION_TO_EMAIL }}
+        run: |
+          python3 scripts/content_pipeline.py send-notification

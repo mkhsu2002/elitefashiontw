@@ -1,0 +1,233 @@
+{
+  "selectionRules": {
+    "categoryGapLookback": 36,
+    "targetShares": [
+      {
+        "category": "lifestyle-culture",
+        "share": 0.24
+      },
+      {
+        "category": "wellness-movement",
+        "share": 0.18
+      },
+      {
+        "category": "casual-chic",
+        "share": 0.18
+      },
+      {
+        "category": "outdoor-escapes",
+        "share": 0.14
+      },
+      {
+        "category": "ai-innovation",
+        "share": 0.12
+      },
+      {
+        "category": "runway-trends",
+        "share": 0.08
+      },
+      {
+        "category": "designer-perspective",
+        "share": 0.06
+      }
+    ],
+    "businessValueWeights": {
+      "high": 14,
+      "medium": 8,
+      "low": 3
+    },
+    "evergreenWeights": {
+      "high": 10,
+      "medium": 6,
+      "low": 2
+    },
+    "avoidTitlePatterns": [
+      "主權協議",
+      "絕對權威",
+      "權威之戰",
+      "2026"
+    ]
+  },
+  "fallbackTopics": [
+    {
+      "topic": "45+女性的第二曲線與 AI 協作",
+      "direction": "聚焦不懂技術也能理解的轉型切入點，回應熟齡女性對工作重整與 AI 焦慮",
+      "category": "lifestyle-culture",
+      "audience": "想重新整理職涯方向、但不想被工具名詞淹沒的熟齡讀者",
+      "ctaHint": "導向生活品味頁與相關人生提案文章",
+      "priority": 96,
+      "businessValue": "high",
+      "evergreen": "high",
+      "angles": [
+        "不會寫程式，也該開始看懂 AI：45+ 女性職涯重整的第一步",
+        "第二曲線不是創業衝刺，而是工作方式重組：熟齡女性如何用 AI 減少焦慮",
+        "主管開始談 AI，你卻還抓不到自己的位置？給中高階女性的轉型讀法"
+      ]
+    },
+    {
+      "topic": "熟齡睡眠與恢復",
+      "direction": "聚焦睡眠、清晨節奏、疲勞恢復與專注力，不講過度醫療化術語",
+      "category": "wellness-movement",
+      "audience": "覺得睡不飽、恢復慢、白天沒精神的熟齡女性",
+      "ctaHint": "導向瑜伽健身主題頁",
+      "priority": 94,
+      "businessValue": "high",
+      "evergreen": "high",
+      "angles": [
+        "睡滿不等於睡好：45+ 女性該先調整的是夜晚節奏，不是再買更多補品",
+        "早上起床還是累？熟齡睡眠恢復可以先從這 5 個日常訊號判斷",
+        "不是只有失眠才算睡不好：更年期後的疲勞感，該怎麼重新安排恢復節奏"
+      ]
+    },
+    {
+      "topic": "熟齡肌力與行動力",
+      "direction": "從日常體能、久坐、旅行體力與長期自主性切入",
+      "category": "wellness-movement",
+      "audience": "想維持體態、旅行體力與日常穩定感的熟齡女性",
+      "ctaHint": "導向瑜伽健身主題頁",
+      "priority": 92,
+      "businessValue": "medium",
+      "evergreen": "high",
+      "angles": [
+        "50+ 最該投資的不一定是瘦，而是行動力：熟齡女性的肌力重建思路",
+        "不是去健身房才算訓練：熟齡女性如何把肌力安排進每天生活",
+        "一到旅行就腿痠腰累？熟齡體能不足，通常不是年紀，而是肌力配置問題"
+      ]
+    },
+    {
+      "topic": "旅行穿搭與移動中的體面感",
+      "direction": "結合現有旅行、戶外與穿搭內容，偏向實用但保有風格",
+      "category": "casual-chic",
+      "audience": "想兼顧舒適、照片效果與場景體面的熟齡女性",
+      "ctaHint": "導向休閒時尚主題頁",
+      "priority": 90,
+      "businessValue": "high",
+      "evergreen": "high",
+      "angles": [
+        "長途移動也不想看起來狼狽：熟齡女性的旅行穿搭可以怎麼兼顧舒適與體面",
+        "不是帶越多越安全：熟齡女性旅行衣櫥該怎麼收得輕、穿得穩",
+        "機場、飯店、城市散步都能穿：一套熟齡旅行穿搭的思考順序"
+      ]
+    },
+    {
+      "topic": "熟齡鞋包與通勤舒適度",
+      "direction": "結合穿搭與行動力，從鞋、包、重量與久走舒適度切入",
+      "category": "casual-chic",
+      "audience": "需要長時間通勤、見客戶、出門辦事的熟齡女性",
+      "ctaHint": "導向休閒時尚主題頁",
+      "priority": 86,
+      "businessValue": "high",
+      "evergreen": "high",
+      "angles": [
+        "不是高跟鞋才正式：熟齡女性通勤鞋怎麼選，才不會下午就腳痛",
+        "包包越大不代表越能裝：熟齡女性日常包款更該看重量、開口與取物節奏",
+        "想穿得俐落又走得久，熟齡女性的鞋包其實有更務實的搭配邏輯"
+      ]
+    },
+    {
+      "topic": "熟齡獨旅與安全感",
+      "direction": "旅行不是冒險人設，而是節奏、體力、住宿與心理安全感的安排",
+      "category": "outdoor-escapes",
+      "audience": "想開始一個人旅行、但還有很多不安的熟齡女性",
+      "ctaHint": "導向戶外生活主題頁",
+      "priority": 88,
+      "businessValue": "medium",
+      "evergreen": "high",
+      "angles": [
+        "第一次一個人旅行，不是勇敢就夠：熟齡女性更需要的是安全感設計",
+        "熟齡獨旅該先決定的不是去哪，而是體力、住宿與移動節奏",
+        "想一個人旅行又怕太累太慌？給熟齡女性的低壓獨旅安排法"
+      ]
+    },
+    {
+      "topic": "台灣輕戶外與週末修復",
+      "direction": "把戶外主題從硬派裝備轉成熟齡女性能採取的低門檻體驗",
+      "category": "outdoor-escapes",
+      "audience": "想靠短程移動與自然環境恢復狀態的城市讀者",
+      "ctaHint": "導向戶外生活主題頁",
+      "priority": 84,
+      "businessValue": "medium",
+      "evergreen": "high",
+      "angles": [
+        "不一定要攻頂，才算走進戶外：熟齡女性也能開始的台灣輕戶外提案",
+        "週末只想離開城市半天，熟齡女性可以怎麼用輕戶外把自己拉回來",
+        "從步道到咖啡館都走得舒服：熟齡女性的低壓戶外節奏怎麼排"
+      ]
+    },
+    {
+      "topic": "日常記錄工具與生活影像",
+      "direction": "承接站內現有自拍顯示器與影像內容，但不綁單一產品名稱",
+      "category": "lifestyle-culture",
+      "audience": "想把生活拍得更自然、有秩序、可留存的熟齡讀者",
+      "ctaHint": "導向生活品味主題頁",
+      "priority": 82,
+      "businessValue": "high",
+      "evergreen": "medium",
+      "angles": [
+        "想把日常拍得自然，不一定要先升級器材：熟齡女性更需要的是記錄流程",
+        "後鏡頭、腳架、顯示器怎麼選？生活影像不是比器材，而是比順手程度",
+        "把生活記錄下來，關鍵不只畫質：熟齡女性更該在意的是拍攝壓力有沒有變低"
+      ]
+    },
+    {
+      "topic": "居家閱讀與工作角落",
+      "direction": "結合生活品味、閱讀、空間與第二曲線工作場景",
+      "category": "lifestyle-culture",
+      "audience": "希望把家裡整理成更安定、更有專注感環境的熟齡女性",
+      "ctaHint": "導向生活品味主題頁",
+      "priority": 80,
+      "businessValue": "medium",
+      "evergreen": "high",
+      "angles": [
+        "家裡不是越漂亮越能待得住：熟齡女性的閱讀角落更需要什麼條件",
+        "想在家重新開始工作或閱讀，先別急著買桌子：空間感受才是第一步",
+        "熟齡女性的家，可以怎麼留出一個讓自己安定下來的工作與閱讀角落"
+      ]
+    },
+    {
+      "topic": "AI 對熟齡工作者的實際影響",
+      "direction": "寫給非工程背景，聚焦工作方式、學習曲線與實際採用感",
+      "category": "ai-innovation",
+      "audience": "聽過很多 AI 熱詞，但還不知道自己工作會怎麼被影響的讀者",
+      "ctaHint": "導向人工智能主題頁",
+      "priority": 83,
+      "businessValue": "high",
+      "evergreen": "high",
+      "angles": [
+        "AI 不只是年輕人的工具：45+ 工作者最需要先看懂的 3 個變化",
+        "不是每個人都要變成 prompt 專家：熟齡工作者學 AI 更實際的切入點",
+        "覺得 AI 很吵卻又不能不看？給中高階工作者的低壓理解版本"
+      ]
+    },
+    {
+      "topic": "秀場趨勢如何翻譯成日常衣櫥",
+      "direction": "把 runway 類內容從純趨勢解析改成生活轉譯",
+      "category": "runway-trends",
+      "audience": "對趨勢有興趣，但不會真的照搬秀場造型的熟齡讀者",
+      "ctaHint": "導向秀場趨勢與休閒時尚頁",
+      "priority": 78,
+      "businessValue": "medium",
+      "evergreen": "medium",
+      "angles": [
+        "看懂秀場趨勢，不代表要穿成秀場：熟齡女性怎麼把趨勢翻譯成自己的衣櫥",
+        "今年流行的輪廓、材質與顏色，哪些真的適合放進熟齡日常穿搭",
+        "不是每個時裝週亮點都值得追：熟齡女性該怎麼篩選真正有用的趨勢"
+      ]
+    },
+    {
+      "topic": "設計師觀點與熟齡美學",
+      "direction": "保留設計師視角，但主題要能回扣穿搭、自我表達與生活選擇",
+      "category": "designer-perspective",
+      "audience": "喜歡設計觀點，但更在意自己如何吸收與實踐的讀者",
+      "ctaHint": "導向設計師視角頁",
+      "priority": 74,
+      "businessValue": "low",
+      "evergreen": "medium",
+      "angles": [
+        "設計師在看的是輪廓，不是年齡：熟齡女性可以怎麼重新理解自己的風格",
+        "成熟不是保守：設計師會怎麼建議熟齡女性留下個人辨識度",
+        "當你不再追求年輕感，設計師視角下的熟齡美學會怎麼改變"
+      ]
+    }
+  ]
+}

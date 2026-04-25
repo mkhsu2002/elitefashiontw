@@ -1,0 +1,135 @@
+{
+  "siteName": "Elite Fashion",
+  "siteLocale": "zh-TW",
+  "siteLanguage": "繁體中文",
+  "baseUrl": "https://tw.elitefasion.com",
+  "repositoryUrl": "https://github.com/mkhsu2002/elitefashiontw",
+  "deployment": {
+    "sourceBranch": "main",
+    "platform": "GitHub Pages",
+    "proxy": "Cloudflare",
+    "productionChain": [
+      "GitHub repository main branch",
+      "GitHub Pages",
+      "Cloudflare custom domain proxy",
+      "tw.elitefasion.com"
+    ],
+    "verifiedAt": "2026-04-25",
+    "verificationNotes": [
+      "Custom domain is configured via CNAME=tw.elitefasion.com.",
+      "https://mkhsu2002.github.io/elitefashiontw/ returns HTTP 301 to https://tw.elitefasion.com/.",
+      "Production responses include both GitHub and Cloudflare headers, indicating GitHub Pages origin behind Cloudflare proxy."
+    ]
+  },
+  "paths": {
+    "strategyFile": "automation/content-strategy.md",
+    "reviewChecklistFile": "automation/editorial-review-checklist.md",
+    "topicBacklogFile": "automation/topic-backlog.json",
+    "queueJson": "automation/topic-queue.json",
+    "queueMarkdown": "automation/topic-queue.md",
+    "publishLogJson": "automation/publish-log.json",
+    "publishLogMarkdown": "automation/publish-log.md",
+    "generatedArticlesDir": "automation/articles",
+    "articlesIndexJson": "data/articles-index.json",
+    "frontListingJson": "data/front-listing.json",
+    "searchIndexJson": "data/search-index.json",
+    "latestRunJson": "automation/latest-run.json"
+  },
+  "notifications": {
+    "provider": "resend",
+    "providerSecretName": "RESEND_API_KEY",
+    "fromEmailSecretName": "CONTENT_NOTIFICATION_FROM_EMAIL",
+    "toEmailSecretName": "CONTENT_NOTIFICATION_TO_EMAIL"
+  },
+  "model": {
+    "provider": "openai-compatible",
+    "endpoint": "https://api.openai.com/v1/responses",
+    "apiKeySecretName": "CONTENT_MODEL_API_KEY",
+    "defaultModelEnv": "CONTENT_MODEL",
+    "defaultModel": "gpt-5-mini",
+    "plannerModelEnv": "CONTENT_PLANNER_MODEL",
+    "plannerModelFallback": "gpt-5-mini",
+    "requestTimeoutSeconds": 120
+  },
+  "articleContract": {
+    "requiredFields": [
+      "id",
+      "title",
+      "slug",
+      "excerpt",
+      "tags",
+      "metaTitle",
+      "metaDescription",
+      "category",
+      "series",
+      "readTimeMinutes",
+      "listingTitle",
+      "listingExcerpt",
+      "markdownBody",
+      "faq",
+      "extendedReading",
+      "cta",
+      "publishedAt",
+      "url",
+      "file"
+    ]
+  },
+  "categories": [
+    {
+      "key": "ai-innovation",
+      "label": "人工智能",
+      "page": "ai-innovation.html",
+      "directory": "ai-innovation",
+      "ctaUrl": "contact.html",
+      "placeholderImage": "images/generated/ai/hero.png"
+    },
+    {
+      "key": "runway-trends",
+      "label": "秀場趨勢",
+      "page": "runway-trends.html",
+      "directory": "runway-trends",
+      "ctaUrl": "contact.html",
+      "placeholderImage": "images/generated/runway/digital-fabrics.png"
+    },
+    {
+      "key": "designer-perspective",
+      "label": "設計師視角",
+      "page": "designer-perspective.html",
+      "directory": "designer-perspective",
+      "ctaUrl": "contact.html",
+      "placeholderImage": "images/generated/designer/ai-design.png"
+    },
+    {
+      "key": "casual-chic",
+      "label": "休閒時尚",
+      "page": "casual-chic.html",
+      "directory": "casual-chic",
+      "ctaUrl": "contact.html",
+      "placeholderImage": "images/generated/casual/office.png"
+    },
+    {
+      "key": "wellness-movement",
+      "label": "瑜伽健身",
+      "page": "wellness-movement.html",
+      "directory": "wellness-movement",
+      "ctaUrl": "contact.html",
+      "placeholderImage": "images/generated/wellness/neuro-yoga.png"
+    },
+    {
+      "key": "outdoor-escapes",
+      "label": "戶外生活",
+      "page": "outdoor-escapes.html",
+      "directory": "outdoor-escapes",
+      "ctaUrl": "contact.html",
+      "placeholderImage": "images/generated/outdoor-1.png"
+    },
+    {
+      "key": "lifestyle-culture",
+      "label": "生活品味",
+      "page": "lifestyle-culture.html",
+      "directory": "lifestyle-culture",
+      "ctaUrl": "contact.html",
+      "placeholderImage": "images/generated/fashion-1.png"
+    }
+  ]
+}
