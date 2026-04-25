@@ -1785,7 +1785,16 @@ def wait_for_live(config: dict[str, Any], *, article_url: str | None = None, art
     last_status = "未開始"
     while time.time() < deadline:
         try:
-            with urllib.request.urlopen(article_url, timeout=20) as response:
+            request = urllib.request.Request(
+                article_url,
+                headers={
+                    "User-Agent": "Mozilla/5.0 (compatible; EliteFashionContentBot/1.0; +https://tw.elitefasion.com)",
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+                    "Cache-Control": "no-cache",
+                },
+            )
+            with urllib.request.urlopen(request, timeout=20) as response:
                 body = response.read().decode("utf-8", errors="ignore")
                 if response.status == 200 and (not article_title or article_title in body):
                     result = {
@@ -1824,6 +1833,7 @@ def send_notification(config: dict[str, Any], *, article_title: str | None = Non
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
+            "User-Agent": "EliteFashionContentPipeline/1.0",
         },
         method="POST",
     )
