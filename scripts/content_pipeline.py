@@ -48,6 +48,78 @@ LEGACY_CATEGORY_LABELS = {
     "special-features": "特輯",
 }
 MARKER_PREFIX = "AUTO-GENERATED"
+CURATED_CATEGORY_IMAGE_POOLS = {
+    "ai-innovation": [
+        "images/generated/ai/creative-sovereignty.png",
+        "images/generated/ai/customization.png",
+        "images/generated/ai/ethics.png",
+        "images/generated/ai/health-longevity.png",
+        "images/generated/ai/outdoor-gear.png",
+        "images/generated/ai/pet-care.png",
+        "images/generated/ai/prediction.png",
+        "images/generated/ai/saas-entrepreneur.png",
+        "images/generated/ai/smart-home.png",
+        "images/generated/ai/supply-chain.png",
+        "images/generated/ai/systeme-promo.png",
+        "images/generated/ai/virtual-idols.png",
+        "images/generated/ai/wealth-fintech.png",
+    ],
+    "runway-trends": [
+        "images/generated/runway/ai-couture-2026.png",
+        "images/generated/runway/asymmetric.png",
+        "images/generated/runway/color-trends.png",
+        "images/generated/runway/digital-fabrics.png",
+        "images/generated/runway/nft-fashion.png",
+        "images/generated/runway/vintage-stocks.png",
+    ],
+    "designer-perspective": [
+        "images/generated/designer/ai-design.png",
+        "images/generated/designer/craftsmanship.png",
+        "images/generated/designer/emotional-tailoring.png",
+        "images/generated/designer/fashion-photography.png",
+        "images/generated/designer/ipad-wacom.png",
+        "images/generated/designer/masterclass-domestika.png",
+        "images/generated/designer/stylist-power.png",
+        "images/generated/designer/sustainability-pioneer.png",
+    ],
+    "casual-chic": [
+        "images/generated/casual/capsule-wardrobe.png",
+        "images/generated/casual/capsule.png",
+        "images/generated/casual/denim.png",
+        "images/generated/casual/office.png",
+        "images/generated/casual/travel-wear.png",
+    ],
+    "wellness-movement": [
+        "images/generated/wellness-1.png",
+        "images/generated/wellness/ag1-huel.png",
+        "images/generated/wellness/holographic.png",
+        "images/generated/wellness/light-wear.png",
+        "images/generated/wellness/neuro-yoga.png",
+        "images/generated/wellness/recovery-tech.png",
+    ],
+    "outdoor-escapes": [
+        "images/generated/outdoor-1.png",
+        "images/generated/outdoor/gear-guide.png",
+        "images/generated/outdoor/luxury-hiking.png",
+        "images/generated/outdoor/sony-vs-iphone.png",
+        "images/generated/outdoor/taiwan-hiking.png",
+    ],
+    "lifestyle-culture": [
+        "images/generated/fashion-1.png",
+        "images/generated/lifestyle/home-sanctuary.png",
+        "images/generated/lifestyle/boutique-hotels.png",
+        "images/generated/lifestyle/nomad.png",
+        "images/generated/lifestyle/notion-obsidian.png",
+        "images/generated/lifestyle/life-sovereignty.jpg",
+        "images/generated/life-proposals/gray-divorce-new-chapter.png",
+        "images/generated/life-proposals/finding-yourself-after-40.png",
+        "images/generated/life-proposals/finding-your-tribe-midlife.png",
+        "images/generated/life-proposals/social-energy-management.png",
+        "images/generated/life-proposals/financial-independence-options.png",
+        "images/generated/life-proposals/career-pivot-start-over.png",
+        "images/generated/life-proposals/friendship-audit-outgrow.png",
+    ],
+}
 
 
 @dataclass
@@ -204,6 +276,82 @@ def normalize_site_asset_path(asset: str, base_url: str) -> str:
     if asset.startswith("http://mkhsu2002.github.io/elitefashiontw/"):
         return asset.replace("http://mkhsu2002.github.io/elitefashiontw/", "")
     return asset
+
+
+def asset_exists(asset: str) -> bool:
+    if not asset:
+        return False
+    if asset.startswith("http://") or asset.startswith("https://"):
+        return True
+    return (ROOT / asset.lstrip("/")).exists()
+
+
+def build_category_image_pool(category: CategoryConfig) -> list[str]:
+    seen: set[str] = set()
+    pool: list[str] = []
+    for candidate in [category.placeholder_image, *CURATED_CATEGORY_IMAGE_POOLS.get(category.key, [])]:
+        normalized = candidate.lstrip("/")
+        if not normalized or normalized in seen or not asset_exists(normalized):
+            continue
+        seen.add(normalized)
+        pool.append(normalized)
+    return pool
+
+
+def hero_repeat_score(candidate: str, registry: list[dict[str, Any]], category_key: str) -> int:
+    all_global = [item.get("heroImage", "").lstrip("/") for item in registry if item.get("heroImage")]
+    all_category = [
+        item.get("heroImage", "").lstrip("/")
+        for item in registry
+        if item.get("category") == category_key and item.get("heroImage")
+    ]
+    global_recent = [item.get("heroImage", "").lstrip("/") for item in registry[:8] if item.get("heroImage")]
+    category_recent = [
+        item.get("heroImage", "").lstrip("/")
+        for item in registry
+        if item.get("category") == category_key and item.get("heroImage")
+    ][:6]
+    score = all_global.count(candidate) * 4 + all_category.count(candidate) * 10
+    score += global_recent.count(candidate) * 70 + category_recent.count(candidate) * 120
+    if category_recent and candidate == category_recent[0]:
+        score += 240
+    if candidate in category_recent[:3]:
+        score += 120
+    if global_recent and candidate == global_recent[0]:
+        score += 90
+    return score
+
+
+def choose_balanced_hero_image(
+    article: dict[str, Any],
+    registry: list[dict[str, Any]],
+    config: dict[str, Any],
+    categories: dict[str, CategoryConfig],
+) -> str:
+    category = categories.get(article["category"])
+    if not category:
+        return article.get("heroImage", "")
+
+    pool = build_category_image_pool(category)
+    candidate = normalize_site_asset_path(article.get("heroImage", ""), config["baseUrl"]).lstrip("/")
+    candidate_valid = asset_exists(candidate)
+
+    if candidate_valid and candidate.startswith("http"):
+        return candidate
+
+    if pool:
+        best_pool_image = min(pool, key=lambda item: (hero_repeat_score(item, registry, category.key), item))
+        best_score = hero_repeat_score(best_pool_image, registry, category.key)
+        if not candidate_valid:
+            return best_pool_image
+        candidate_score = hero_repeat_score(candidate, registry, category.key)
+        if candidate in pool and candidate_score <= best_score:
+            return candidate
+        if candidate_score <= best_score and candidate_valid:
+            return candidate
+        return best_pool_image
+
+    return candidate if candidate_valid else category.placeholder_image
 
 
 def load_config() -> tuple[dict[str, Any], dict[str, CategoryConfig]]:
@@ -1675,6 +1823,7 @@ def generate_article_from_item(config: dict[str, Any], categories: dict[str, Cat
             },
             planner=False,
         )
+    article["heroImage"] = choose_balanced_hero_image(article, registry, config, categories)
     article["slug"] = ensure_unique_slug(slugify(article["slug"]), registry)
     saved = save_generated_article(article, queue_id, config, categories)
     validate_generated_article(saved, config)
