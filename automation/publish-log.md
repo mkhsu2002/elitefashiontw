@@ -1,5 +1,12 @@
 # 發文紀錄
 
+## 2026-04-25T19:15:15Z｜當 AI 開始替你回信與排行程，熟齡工作者該先看懂哪三件事？
+
+- 文章 ID：auto-20260425191515-ai-survival-guide-mature-workers
+- URL：https://tw.elitefasion.com/ai-innovation/ai-survival-guide-mature-workers.html
+- 檔案：ai-innovation/ai-survival-guide-mature-workers.html
+- 類型：direct
+
 ## 2026-04-25T19:11:39Z｜加拿大買房入門：先搞懂城市、稅制與置產決策節奏
 
 - 文章 ID：auto-20260425191139-canada-real-estate-for-taiwanese-beginners
