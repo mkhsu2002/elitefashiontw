@@ -1,5 +1,12 @@
 # 發文紀錄
 
+## 2026-04-25T19:06:23Z｜2026 世足賽，熟齡旅人現在能做的 4 種旅行準備
+
+- 文章 ID：auto-20260425190623-world-cup-2026-travel-prep-for-over40
+- URL：https://tw.elitefasion.com/outdoor-escapes/world-cup-2026-travel-prep-for-over40.html
+- 檔案：outdoor-escapes/world-cup-2026-travel-prep-for-over40.html
+- 類型：direct
+
 ## 2026-04-25T18:14:22Z｜離婚後，不是找人填補空白：給高知識女性的再社交與情緒界線實務
 
 - 文章 ID：auto-20260425181422-post-divorce-social-boundaries-highly-educated-women
