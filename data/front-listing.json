@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-04-25T17:23:26Z",
+  "updatedAt": "2026-04-25T18:15:54Z",
   "latest": [
+    {
+      "id": "auto-20260425181422-post-divorce-social-boundaries-highly-educated-women",
+      "title": "離婚後，不是找人填補空白：給高知識女性的再社交與情緒界線實務",
+      "excerpt": "從篩選朋友到考慮新伴侶，一套幫你拿回人際主導權的判斷框架。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "中年離婚後的獨立生活指南",
+      "publishedAt": "2026-04-25T18:14:22Z",
+      "publishedDateText": "2026年4月25日",
+      "relativeUrl": "lifestyle-culture/post-divorce-social-boundaries-highly-educated-women.html",
+      "heroImage": "images/generated/fashion-1.png",
+      "tags": [
+        "中年離婚",
+        "社交重建",
+        "情緒界線",
+        "熟齡女性",
+        "第二人生"
+      ]
+    },
     {
       "id": "auto-20260425172236-solo-living-home-safety-organization-divorce",
       "title": "一個人住，從空間開始練習獨立：給剛離婚女性的居家指南",
@@ -215,28 +234,6 @@
         "巴西 世界盃 2026",
         "英格蘭 Tuchel",
         "法國 Mbappe"
-      ]
-    },
-    {
-      "id": "legacy-life-proposals-ai-career-navigation-for-managers-html",
-      "title": "團隊開始談 AI，你卻不知道從哪裡跟上？給中高階主管的轉型參考：FlyPig 未來領航者",
-      "excerpt": "當公司開始導入 AI、同事開始談自動化，中高階主管最怕的不是不會用，而是不知道該怎麼判斷方向。本篇整理為何 45-55 歲管理者適合參考 FlyPig 未來領航者，從職涯焦慮、產業判讀到團隊溝通，一次找回掌控感。",
-      "category": "life-proposals",
-      "categoryLabel": "人生提案",
-      "series": "人生提案",
-      "publishedAt": "2026-04-19T05:56:47Z",
-      "publishedDateText": "2026年4月19日",
-      "relativeUrl": "life-proposals/ai-career-navigation-for-managers.html",
-      "heroImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=800&fit=crop",
-      "tags": [
-        "FlyPig 未來領航者",
-        "AI 轉型",
-        "中高階主管",
-        "45歲職涯",
-        "數位轉型",
-        "管理者 AI",
-        "職場競爭力",
-        "AI 生存指南"
       ]
     }
   ],
@@ -1045,6 +1042,25 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260425181422-post-divorce-social-boundaries-highly-educated-women",
+          "title": "離婚後，不是找人填補空白：給高知識女性的再社交與情緒界線實務",
+          "excerpt": "從篩選朋友到考慮新伴侶，一套幫你拿回人際主導權的判斷框架。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "中年離婚後的獨立生活指南",
+          "publishedAt": "2026-04-25T18:14:22Z",
+          "publishedDateText": "2026年4月25日",
+          "relativeUrl": "lifestyle-culture/post-divorce-social-boundaries-highly-educated-women.html",
+          "heroImage": "images/generated/fashion-1.png",
+          "tags": [
+            "中年離婚",
+            "社交重建",
+            "情緒界線",
+            "熟齡女性",
+            "第二人生"
+          ]
+        },
+        {
           "id": "auto-20260425172236-solo-living-home-safety-organization-divorce",
           "title": "一個人住，從空間開始練習獨立：給剛離婚女性的居家指南",
           "excerpt": "家的樣子，決定妳一個人生活的底氣。從安全、收納到儀式感，打造支持妳的空間。",
@@ -1144,28 +1160,6 @@
             "零知識證明",
             "知識圖譜",
             "Dcard 數位生活討論"
-          ]
-        },
-        {
-          "id": "legacy-lifestyle-culture-reading-art-html",
-          "title": "2026 閱讀權威藝術：打造個人『智力堡壘』與深度感官空間",
-          "excerpt": "深入探索 2026 閱讀空間與個人圖書館設計趨勢。Elite Fashion 為您解析從「降噪美學」到「深度閱讀主權」的藝術實踐，探討實體書如何成為精英階層的文化護城河。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "生活品味",
-          "publishedAt": "2026-02-19T11:00:00+08:00",
-          "publishedDateText": "2026年2月19日",
-          "relativeUrl": "lifestyle-culture/reading-art.html",
-          "heroImage": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1200&h=800&fit=crop",
-          "tags": [
-            "閱讀藝術 2026",
-            "個人圖書館設計",
-            "深度閱讀",
-            "智力堡壘",
-            "閱讀角落美學",
-            "台北私人藏書室",
-            "降噪美學",
-            "Dcard 閱讀討論"
           ]
         }
       ]

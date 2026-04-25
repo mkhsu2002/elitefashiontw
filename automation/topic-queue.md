@@ -2,14 +2,14 @@
 
 ## Q-0001｜中年離婚高知識女性如何學會一個人生活
 
-- 狀態：in_progress
+- 狀態：completed
 - 規劃篇數：3
 - 補充方向：聚焦離婚後的生活秩序、情緒邊界、獨居節奏與社交重建，讀者為高知識女性，避免空泛雞湯，偏理性、自主、日常可執行。
 - 建立時間：2026-04-25T16:35:03Z
 
 1. 離婚後先做哪 6 件事：重整生活秩序的可執行清單｜published｜剛完成離婚程序或正在辦理中的高知識女性，需要一份可量化、可執行的首月待辦清單。｜lifestyle-culture｜文章 ID：auto-20260425164142-post-divorce-first-6-steps｜檔案：lifestyle-culture/post-divorce-first-6-steps.html
 2. 一人生活的居家節奏：安全、收納與符合日常身心的空間設計｜published｜要把住家改造成支持獨立生活的實用空間、重視安全與舒適性的熟齡女性。｜lifestyle-culture｜文章 ID：auto-20260425172236-solo-living-home-safety-organization-divorce｜檔案：lifestyle-culture/solo-living-home-safety-organization-divorce.html
-3. 從朋友到伴侶：中年再社交與情緒邊界的實務框架｜planned｜希望重建社交圈、考慮約會或需要建立清晰情感界限的高知識熟齡女性。｜lifestyle-culture
+3. 從朋友到伴侶：中年再社交與情緒邊界的實務框架｜published｜希望重建社交圈、考慮約會或需要建立清晰情感界限的高知識熟齡女性。｜lifestyle-culture｜文章 ID：auto-20260425181422-post-divorce-social-boundaries-highly-educated-women｜檔案：lifestyle-culture/post-divorce-social-boundaries-highly-educated-women.html
 
 ## Q-0002｜中年離婚海歸返台女性如何學會一個人生活
 
