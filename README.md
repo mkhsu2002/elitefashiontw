@@ -173,15 +173,15 @@ python3 scripts/content_pipeline.py send-notification --article-title "標題" -
 
 - 每週產出 3 篇
 - 目前 GitHub Actions cron 為：
-  - `30 18 * * 6`
+  - `35 19 * * 6`
   - `15 2 * * 3`
   - `15 2 * * 5`
 - 以溫哥華夏令時間（PDT）換算，目前對應為：
-  - `週六 11:30am`
+  - `週六 12:35pm`
   - `週二 7:15pm`
   - `週四 7:15pm`
 - 以台灣時間（UTC+8）換算，目前對應為：
-  - `週日 02:30`
+  - `週日 03:35`
   - `週三 10:15`
   - `週五 10:15`
 - queue 有待處理項目時，優先依序消化 queue
@@ -192,7 +192,7 @@ python3 scripts/content_pipeline.py send-notification --article-title "標題" -
 備註：
 
 - GitHub Actions `schedule` 使用 UTC，所以上述「溫哥華夏令時間」是依目前夏令時間換算。
-- 若進入溫哥華冬令時間（PST），`週六 11:30am` 這筆會自然變成 `週六 10:30am`；若你之後希望冬令時間也固定維持當地 `11:30am`，需要再調整 cron。
+- 若進入溫哥華冬令時間（PST），`週六 12:35pm` 這筆會自然變成 `週六 11:35am`；若你之後希望冬令時間也固定維持當地 `12:35pm`，需要再調整 cron。
 
 ## 每次產文會同步更新哪些檔案
 
