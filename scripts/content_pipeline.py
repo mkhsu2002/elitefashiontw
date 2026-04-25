@@ -1819,12 +1819,13 @@ def send_notification(config: dict[str, Any], *, article_title: str | None = Non
     api_key = os.getenv(config["notifications"]["providerSecretName"])
     from_email = os.getenv(config["notifications"]["fromEmailSecretName"])
     to_email = os.getenv(config["notifications"]["toEmailSecretName"])
+    subject_prefix = config["notifications"].get("subjectPrefix", "")
     if not all([api_key, from_email, to_email, article_title, article_url]):
         raise PipelineError("通知設定不完整，請確認 RESEND API key、寄件與收件信箱，以及最新文章資料。")
     payload = {
         "from": from_email,
         "to": [to_email],
-        "subject": f"文章已上線：{article_title}",
+        "subject": f"{subject_prefix}文章已上線：{article_title}",
         "html": f"<p>{html.escape(article_title)}</p><p><a href=\"{html.escape(article_url)}\">{html.escape(article_url)}</a></p>",
     }
     request = urllib.request.Request(

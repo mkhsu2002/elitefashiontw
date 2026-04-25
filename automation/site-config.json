@@ -39,7 +39,8 @@
     "provider": "resend",
     "providerSecretName": "RESEND_API_KEY",
     "fromEmailSecretName": "CONTENT_NOTIFICATION_FROM_EMAIL",
-    "toEmailSecretName": "CONTENT_NOTIFICATION_TO_EMAIL"
+    "toEmailSecretName": "CONTENT_NOTIFICATION_TO_EMAIL",
+    "subjectPrefix": "伊麗時尚 TW｜"
   },
   "model": {
     "provider": "openai-compatible",
