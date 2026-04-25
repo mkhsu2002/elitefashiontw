@@ -30,11 +30,34 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Resolve Model Provider
+        env:
+          CONTENT_MODEL_PROVIDER: ${{ vars.CONTENT_MODEL_PROVIDER }}
+          OPENAI_CONTENT_MODEL_API_KEY: ${{ secrets.CONTENT_MODEL_API_KEY }}
+          NVIDIA_CONTENT_MODEL_API_KEY: ${{ secrets.NVIDIA_CONTENT_MODEL_API_KEY }}
+          OPENAI_CONTENT_MODEL: ${{ vars.OPENAI_CONTENT_MODEL }}
+          OPENAI_CONTENT_PLANNER_MODEL: ${{ vars.OPENAI_CONTENT_PLANNER_MODEL }}
+          NVIDIA_CONTENT_MODEL: ${{ vars.NVIDIA_CONTENT_MODEL }}
+          NVIDIA_CONTENT_PLANNER_MODEL: ${{ vars.NVIDIA_CONTENT_PLANNER_MODEL }}
+        run: |
+          PROVIDER="${CONTENT_MODEL_PROVIDER:-openai}"
+          echo "CONTENT_MODEL_PROVIDER=$PROVIDER" >> "$GITHUB_ENV"
+          if [ "$PROVIDER" = "nvidia" ]; then
+            echo "CONTENT_MODEL_API_KEY=${NVIDIA_CONTENT_MODEL_API_KEY}" >> "$GITHUB_ENV"
+            echo "CONTENT_MODEL_ENDPOINT=https://integrate.api.nvidia.com/v1/chat/completions" >> "$GITHUB_ENV"
+            echo "CONTENT_MODEL_API_MODE=chat_completions" >> "$GITHUB_ENV"
+            echo "CONTENT_MODEL=${NVIDIA_CONTENT_MODEL:-deepseek-ai/deepseek-v4-pro}" >> "$GITHUB_ENV"
+            echo "CONTENT_PLANNER_MODEL=${NVIDIA_CONTENT_PLANNER_MODEL:-deepseek-ai/deepseek-v4-pro}" >> "$GITHUB_ENV"
+          else
+            echo "CONTENT_MODEL_API_KEY=${OPENAI_CONTENT_MODEL_API_KEY}" >> "$GITHUB_ENV"
+            echo "CONTENT_MODEL_ENDPOINT=https://api.openai.com/v1/responses" >> "$GITHUB_ENV"
+            echo "CONTENT_MODEL_API_MODE=responses" >> "$GITHUB_ENV"
+            echo "CONTENT_MODEL=${OPENAI_CONTENT_MODEL:-gpt-5-mini}" >> "$GITHUB_ENV"
+            echo "CONTENT_PLANNER_MODEL=${OPENAI_CONTENT_PLANNER_MODEL:-gpt-5-mini}" >> "$GITHUB_ENV"
+          fi
+
       - name: Run Command
         env:
-          CONTENT_MODEL_API_KEY: ${{ secrets.CONTENT_MODEL_API_KEY }}
-          CONTENT_MODEL: ${{ vars.CONTENT_MODEL }}
-          CONTENT_PLANNER_MODEL: ${{ vars.CONTENT_PLANNER_MODEL }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           CONTENT_NOTIFICATION_FROM_EMAIL: ${{ secrets.CONTENT_NOTIFICATION_FROM_EMAIL }}
           CONTENT_NOTIFICATION_TO_EMAIL: ${{ secrets.CONTENT_NOTIFICATION_TO_EMAIL }}

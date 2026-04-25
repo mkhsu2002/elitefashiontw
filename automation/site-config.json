@@ -44,7 +44,11 @@
   },
   "model": {
     "provider": "openai-compatible",
+    "providerEnv": "CONTENT_MODEL_PROVIDER",
     "endpoint": "https://api.openai.com/v1/responses",
+    "endpointEnv": "CONTENT_MODEL_ENDPOINT",
+    "apiMode": "responses",
+    "apiModeEnv": "CONTENT_MODEL_API_MODE",
     "apiKeySecretName": "CONTENT_MODEL_API_KEY",
     "defaultModelEnv": "CONTENT_MODEL",
     "defaultModel": "gpt-5-mini",

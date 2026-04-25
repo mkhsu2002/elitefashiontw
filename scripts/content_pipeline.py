@@ -1155,24 +1155,51 @@ def extract_json_from_text(raw_text: str) -> Any:
         raise
 
 
+def get_model_runtime_config(config: dict[str, Any], *, planner: bool = False) -> dict[str, Any]:
+    model_config = config["model"]
+    provider = os.getenv(model_config.get("providerEnv", ""), model_config.get("provider", "openai-compatible"))
+    endpoint = os.getenv(model_config.get("endpointEnv", ""), model_config["endpoint"])
+    api_mode = os.getenv(model_config.get("apiModeEnv", ""), model_config.get("apiMode", "responses"))
+    api_key = os.getenv(model_config["apiKeySecretName"])
+    model_name = os.getenv(
+        model_config["plannerModelEnv"] if planner else model_config["defaultModelEnv"]
+    ) or (
+        model_config["plannerModelFallback"] if planner else model_config["defaultModel"]
+    )
+    return {
+        "provider": provider,
+        "endpoint": endpoint,
+        "apiMode": api_mode,
+        "apiKey": api_key,
+        "modelName": model_name,
+    }
+
+
 def model_request(config: dict[str, Any], prompt_path: Path, payload: dict[str, Any], *, planner: bool = False) -> Any:
-    api_key = os.getenv(config["model"]["apiKeySecretName"])
+    runtime = get_model_runtime_config(config, planner=planner)
+    api_key = runtime["apiKey"]
     if not api_key:
         raise PipelineError(f"缺少環境變數：{config['model']['apiKeySecretName']}")
-    model_name = os.getenv(
-        config["model"]["plannerModelEnv"] if planner else config["model"]["defaultModelEnv"]
-    ) or (
-        config["model"]["plannerModelFallback"] if planner else config["model"]["defaultModel"]
-    )
-    body = {
-        "model": model_name,
-        "input": [
-            {"role": "system", "content": prompt_path.read_text(encoding="utf-8")},
-            {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
-        ],
-    }
+    system_prompt = prompt_path.read_text(encoding="utf-8")
+    user_payload = json.dumps(payload, ensure_ascii=False)
+    if runtime["apiMode"] == "chat_completions":
+        body = {
+            "model": runtime["modelName"],
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_payload},
+            ],
+        }
+    else:
+        body = {
+            "model": runtime["modelName"],
+            "input": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_payload},
+            ],
+        }
     request = urllib.request.Request(
-        config["model"]["endpoint"],
+        runtime["endpoint"],
         data=json.dumps(body).encode("utf-8"),
         headers={
             "Authorization": f"Bearer {api_key}",
@@ -1186,15 +1213,30 @@ def model_request(config: dict[str, Any], prompt_path: Path, payload: dict[str, 
     except urllib.error.HTTPError as error:
         details = error.read().decode("utf-8", errors="ignore")
         raise PipelineError(f"模型 API 失敗：{error.code} {details}") from error
-    output_text = parsed.get("output_text")
-    if not output_text:
-        outputs = parsed.get("output", [])
-        texts: list[str] = []
-        for item in outputs:
-            for chunk in item.get("content", []):
-                if chunk.get("type") in {"output_text", "text"}:
-                    texts.append(chunk.get("text", ""))
-        output_text = "\n".join(texts).strip()
+    output_text = ""
+    if runtime["apiMode"] == "chat_completions":
+        choices = parsed.get("choices", [])
+        if choices:
+            message = choices[0].get("message", {})
+            content = message.get("content", "")
+            if isinstance(content, str):
+                output_text = content.strip()
+            elif isinstance(content, list):
+                parts: list[str] = []
+                for item in content:
+                    if isinstance(item, dict) and item.get("type") in {"text", "output_text"}:
+                        parts.append(item.get("text", ""))
+                output_text = "\n".join(parts).strip()
+    else:
+        output_text = parsed.get("output_text")
+        if not output_text:
+            outputs = parsed.get("output", [])
+            texts: list[str] = []
+            for item in outputs:
+                for chunk in item.get("content", []):
+                    if chunk.get("type") in {"output_text", "text"}:
+                        texts.append(chunk.get("text", ""))
+            output_text = "\n".join(texts).strip()
     if not output_text:
         raise PipelineError("模型沒有回傳可解析文字")
     return extract_json_from_text(output_text)
