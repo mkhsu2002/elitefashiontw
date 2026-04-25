@@ -122,6 +122,7 @@ CURATED_CATEGORY_IMAGE_POOLS = {
         "images/generated/life-proposals/friendship-audit-outgrow.png",
     ],
 }
+ASSET_IDENTITY_CACHE: dict[str, str] = {}
 
 
 @dataclass
@@ -297,46 +298,66 @@ def asset_exists(asset: str) -> bool:
     return (ROOT / asset.lstrip("/")).exists()
 
 
+def asset_identity(asset: str) -> str:
+    normalized = asset.lstrip("/")
+    if not normalized:
+        return ""
+    if normalized.startswith(("http://", "https://")):
+        return f"url:{normalized}"
+    cached = ASSET_IDENTITY_CACHE.get(normalized)
+    if cached:
+        return cached
+    path = ROOT / normalized
+    if not path.exists():
+        identity = f"path:{normalized}"
+    else:
+        identity = f"sha1:{hashlib.sha1(path.read_bytes()).hexdigest()}"
+    ASSET_IDENTITY_CACHE[normalized] = identity
+    return identity
+
+
 def build_category_image_pool(category: CategoryConfig) -> list[str]:
     seen: set[str] = set()
     pool: list[str] = []
     for candidate in [category.placeholder_image, *CURATED_CATEGORY_IMAGE_POOLS.get(category.key, [])]:
         normalized = candidate.lstrip("/")
-        if not normalized or normalized in seen or not asset_exists(normalized):
+        identity = asset_identity(normalized)
+        if not normalized or not identity or identity in seen or not asset_exists(normalized):
             continue
-        seen.add(normalized)
+        seen.add(identity)
         pool.append(normalized)
     return pool
 
 
 def hero_repeat_score(candidate: str, registry: list[dict[str, Any]], category_key: str) -> int:
-    all_global = [item.get("heroImage", "").lstrip("/") for item in registry if item.get("heroImage")]
+    candidate_id = asset_identity(candidate)
+    all_global = [asset_identity(item.get("heroImage", "").lstrip("/")) for item in registry if item.get("heroImage")]
     all_category = [
-        item.get("heroImage", "").lstrip("/")
+        asset_identity(item.get("heroImage", "").lstrip("/"))
         for item in registry
         if item.get("category") == category_key and item.get("heroImage")
     ]
-    global_recent = [item.get("heroImage", "").lstrip("/") for item in registry[:8] if item.get("heroImage")]
+    global_recent = [asset_identity(item.get("heroImage", "").lstrip("/")) for item in registry[:8] if item.get("heroImage")]
     category_recent = [
-        item.get("heroImage", "").lstrip("/")
+        asset_identity(item.get("heroImage", "").lstrip("/"))
         for item in registry
         if item.get("category") == category_key and item.get("heroImage")
     ][:6]
-    score = all_global.count(candidate) * 4 + all_category.count(candidate) * 10
-    score += global_recent.count(candidate) * 70 + category_recent.count(candidate) * 120
-    if category_recent and candidate == category_recent[0]:
+    score = all_global.count(candidate_id) * 4 + all_category.count(candidate_id) * 10
+    score += global_recent.count(candidate_id) * 70 + category_recent.count(candidate_id) * 120
+    if category_recent and candidate_id == category_recent[0]:
         score += 240
-    if candidate in category_recent[:3]:
+    if candidate_id in category_recent[:3]:
         score += 120
-    if global_recent and candidate == global_recent[0]:
+    if global_recent and candidate_id == global_recent[0]:
         score += 90
     return score
 
 
 def recent_hero_blocklist(registry: list[dict[str, Any]], category_key: str) -> set[str]:
-    global_recent = [item.get("heroImage", "").lstrip("/") for item in registry[:3] if item.get("heroImage")]
+    global_recent = [asset_identity(item.get("heroImage", "").lstrip("/")) for item in registry[:3] if item.get("heroImage")]
     category_recent = [
-        item.get("heroImage", "").lstrip("/")
+        asset_identity(item.get("heroImage", "").lstrip("/"))
         for item in registry
         if item.get("category") == category_key and item.get("heroImage")
     ][:4]
@@ -357,11 +378,12 @@ def choose_balanced_hero_image(
     candidate = normalize_site_asset_path(article.get("heroImage", ""), config["baseUrl"]).lstrip("/")
     candidate_valid = asset_exists(candidate)
     blocked_recent = recent_hero_blocklist(registry, category.key)
+    candidate_id = asset_identity(candidate)
 
-    ranked_pool = [item for item in pool if item not in blocked_recent] or pool
+    ranked_pool = [item for item in pool if asset_identity(item) not in blocked_recent] or pool
 
     if candidate_valid and candidate.startswith("http"):
-        if candidate not in blocked_recent or not ranked_pool:
+        if candidate_id not in blocked_recent or not ranked_pool:
             return candidate
         return min(ranked_pool, key=lambda item: (hero_repeat_score(item, registry, category.key), item))
 
@@ -370,12 +392,12 @@ def choose_balanced_hero_image(
         best_score = hero_repeat_score(best_pool_image, registry, category.key)
         if not candidate_valid:
             return best_pool_image
-        if candidate in blocked_recent and best_pool_image != candidate:
+        if candidate_id in blocked_recent and asset_identity(best_pool_image) != candidate_id:
             return best_pool_image
         candidate_score = hero_repeat_score(candidate, registry, category.key)
-        if candidate in ranked_pool and candidate_score <= best_score:
+        if any(asset_identity(item) == candidate_id for item in ranked_pool) and candidate_score <= best_score:
             return candidate
-        if candidate_score <= best_score and candidate_valid and candidate not in blocked_recent:
+        if candidate_score <= best_score and candidate_valid and candidate_id not in blocked_recent:
             return candidate
         return best_pool_image
 

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-25T20:26:27Z",
+  "updatedAt": "2026-04-25T21:24:39Z",
   "latest": [
     {
       "id": "auto-20260425202627-divorcee-return-taiwan-career-income-plan",
@@ -21,14 +21,180 @@
       ]
     },
     {
+      "id": "auto-20260425201016-rebuilding-social-circle-taiwan-returnee-women",
+      "title": "返台找不到知心朋友？給海歸女性的圈子重組策略",
+      "excerpt": "從舊人脈盤點到新社群融入，一套專為返台熟齡女性設計的社交重建藍圖。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "返台離婚：海歸熟齡女性的重啟生活手冊",
+      "publishedAt": "2026-04-25T20:10:16Z",
+      "publishedDateText": "2026年4月25日",
+      "relativeUrl": "lifestyle-culture/rebuilding-social-circle-taiwan-returnee-women.html",
+      "heroImage": "images/generated/lifestyle/boutique-hotels.png",
+      "tags": [
+        "熟齡社交",
+        "海歸返台",
+        "一個人生活",
+        "中年離婚",
+        "生活品味"
+      ]
+    },
+    {
+      "id": "auto-20260425192817-return-divorce-restart-90-day-checklist",
+      "title": "返台、離婚、重啟的第一個 90 天清單",
+      "excerpt": "從法律文件、財務盤點到住居安頓，一份幫妳度過混亂期的務實行動手冊。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "返台離婚：海歸熟齡女性的重啟生活手冊",
+      "publishedAt": "2026-04-25T19:28:17Z",
+      "publishedDateText": "2026年4月25日",
+      "relativeUrl": "lifestyle-culture/return-divorce-restart-90-day-checklist.html",
+      "heroImage": "images/generated/lifestyle/life-sovereignty.jpg",
+      "tags": [
+        "離婚重建",
+        "海歸返台",
+        "熟齡獨居",
+        "生活重整",
+        "中年女性"
+      ]
+    },
+    {
+      "id": "auto-20260425191515-ai-survival-guide-mature-workers",
+      "title": "AI 開始替你回信了：熟齡工作者現在能做的三個準備",
+      "excerpt": "搞懂 AI 在辦公室做什麼，盤點自己絕不會被取代的優勢，你的下一步在哪裡。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "AI 生存指南",
+      "publishedAt": "2026-04-25T19:15:15Z",
+      "publishedDateText": "2026年4月25日",
+      "relativeUrl": "ai-innovation/ai-survival-guide-mature-workers.html",
+      "heroImage": "images/generated/ai/creative-sovereignty.png",
+      "tags": [
+        "AI 生存指南",
+        "熟齡職涯",
+        "第二曲線",
+        "未來工作"
+      ]
+    },
+    {
+      "id": "auto-20260425191139-canada-real-estate-for-taiwanese-beginners",
+      "title": "加拿大買房入門：先搞懂城市、稅制與置產決策節奏",
+      "excerpt": "城市怎麼挑、成本怎麼估、稅怎麼算？一份從台灣出發的加拿大房市起手式。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "加拿大房地產趨勢",
+      "publishedAt": "2026-04-25T19:11:39Z",
+      "publishedDateText": "2026年4月25日",
+      "relativeUrl": "lifestyle-culture/canada-real-estate-for-taiwanese-beginners.html",
+      "heroImage": "images/generated/lifestyle/home-sanctuary.png",
+      "tags": [
+        "加拿大房地產",
+        "海外置產",
+        "溫哥華買房",
+        "多倫多房市",
+        "生活品味"
+      ]
+    },
+    {
+      "id": "auto-20260425190623-world-cup-2026-travel-prep-for-over40",
+      "title": "2026 世足賽，熟齡旅人現在能做的 4 種旅行準備",
+      "excerpt": "從城市挑選、票價節奏到長途移動的舒適度，這是給熟齡讀者的北美旅行決策架構。",
+      "category": "outdoor-escapes",
+      "categoryLabel": "戶外生活",
+      "series": "2026 年世足賽生活對策",
+      "publishedAt": "2026-04-25T19:06:23Z",
+      "publishedDateText": "2026年4月25日",
+      "relativeUrl": "outdoor-escapes/world-cup-2026-travel-prep-for-over40.html",
+      "heroImage": "images/generated/outdoor-1.png",
+      "tags": [
+        "2026 世足賽",
+        "熟齡旅行",
+        "北美自助",
+        "大型賽事攻略"
+      ]
+    },
+    {
+      "id": "auto-20260425181422-post-divorce-social-boundaries-highly-educated-women",
+      "title": "離婚後，不是找人填補空白：給高知識女性的再社交與情緒界線實務",
+      "excerpt": "從篩選朋友到考慮新伴侶，一套幫你拿回人際主導權的判斷框架。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "中年離婚後的獨立生活指南",
+      "publishedAt": "2026-04-25T18:14:22Z",
+      "publishedDateText": "2026年4月25日",
+      "relativeUrl": "lifestyle-culture/post-divorce-social-boundaries-highly-educated-women.html",
+      "heroImage": "images/generated/life-proposals/finding-yourself-after-40.png",
+      "tags": [
+        "中年離婚",
+        "社交重建",
+        "情緒界線",
+        "熟齡女性",
+        "第二人生"
+      ]
+    },
+    {
+      "id": "auto-20260425172236-solo-living-home-safety-organization-divorce",
+      "title": "一個人住，從空間開始練習獨立：給剛離婚女性的居家指南",
+      "excerpt": "家的樣子，決定妳一個人生活的底氣。從安全、收納到儀式感，打造支持妳的空間。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "中年離婚後的獨立生活指南",
+      "publishedAt": "2026-04-25T17:22:36Z",
+      "publishedDateText": "2026年4月25日",
+      "relativeUrl": "lifestyle-culture/solo-living-home-safety-organization-divorce.html",
+      "heroImage": "images/generated/fashion-1.png",
+      "tags": [
+        "一人生活",
+        "居家安全",
+        "收納整理",
+        "熟齡離婚",
+        "生活節奏"
+      ]
+    },
+    {
+      "id": "auto-20260425164142-post-divorce-first-6-steps",
+      "title": "離婚後先做哪 6 件事：重整生活秩序的可執行清單",
+      "excerpt": "首月六大優先：財務、住居、孩子安排、法律文件、情緒急救、社交暫停。每項附判斷標準與可執行步驟，讓妳能有條不紊地重建日常。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "中年離婚後的獨立生活指南",
+      "publishedAt": "2026-04-25T16:41:42Z",
+      "publishedDateText": "2026年4月25日",
+      "relativeUrl": "lifestyle-culture/post-divorce-first-6-steps.html",
+      "heroImage": "images/generated/lifestyle/notion-obsidian.png",
+      "tags": [
+        "生活品味",
+        "中年離婚後的獨立生活指南",
+        "首月待辦清單"
+      ]
+    },
+    {
+      "id": "auto-20260425155501-ai-45",
+      "title": "不會寫程式，也能理解 AI：45+ 女性重整職涯的實務第一步",
+      "excerpt": "從日常工作場景出發，五個不用寫程式就能開始的 AI 入門動作，幫妳快速判斷是否值得投入時間與資源。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "45+女性的第二曲線與 AI 協作",
+      "publishedAt": "2026-04-25T15:55:01Z",
+      "publishedDateText": "2026年4月25日",
+      "relativeUrl": "ai-innovation/ai-45.html",
+      "heroImage": "images/generated/ai/smart-home.png",
+      "tags": [
+        "人工智能",
+        "職涯轉型",
+        "熟齡職場",
+        "實務指南"
+      ]
+    },
+    {
       "id": "legacy-casual-chic-world-cup-2026-special-html",
       "title": "從北美主辦、奪冠模型到球星世代交替，一頁掌握 2026 世足賽內容版圖",
       "excerpt": "Elite Fashion 2026 世足賽專題專區首頁，整理 48 隊新賽制、16 座主辦城市、分組觀戰、爭冠熱門、球星主線與球迷指南，並串連 6 個主題分頁與 36 篇後續延伸文章方向。",
       "category": "casual-chic",
       "categoryLabel": "休閒時尚",
       "series": "休閒時尚",
-      "publishedAt": "2026-04-25T20:21:55Z",
-      "publishedDateText": "2026年4月25日",
+      "publishedAt": "2026-04-22T00:17:07Z",
+      "publishedDateText": "2026年4月22日",
       "relativeUrl": "casual-chic/world-cup-2026-special.html",
       "heroImage": "images/generated/world-cup/og-special-home.png",
       "tags": [
@@ -43,219 +209,24 @@
       ]
     },
     {
-      "id": "legacy-crossbody-bag-style-guide-html",
-      "title": "女生斜背包穿搭術：一款小包輕鬆搞定城市探險與各種場合造型",
-      "excerpt": "想要擺脫厚重包袱，卻又擔心重要小物沒地方放？斜背包絕對是妳的時尚救星！它不僅解放雙手，更成為現代女性日常穿搭的必備單品。",
-      "category": "casual-chic",
-      "categoryLabel": "休閒時尚",
-      "series": "休閒時尚",
-      "publishedAt": "2026-04-25T20:21:55Z",
-      "publishedDateText": "2026年4月25日",
-      "relativeUrl": "crossbody-bag-style-guide.html",
-      "heroImage": "https://elitefasion.com/images/crossbody-bag/hero-main.jpg",
+      "id": "legacy-outdoor-escapes-horizon-x-space-travel-neck-pillow-html",
+      "title": "告別旅行疲勞： Horizon X-Space 創新科技完美解決方案",
+      "excerpt": "告別旅行疲勞。Horizon X-Space 太空漂浮安眠脖枕以調節式固定扣與高效率支撐設計，改善長途旅行頸部痠痛、姿勢不良與難以入睡，讓每段旅程都更接近真正的恢復。",
+      "category": "outdoor-escapes",
+      "categoryLabel": "戶外生活",
+      "series": "戶外生活",
+      "publishedAt": "2026-04-21T12:00:00+08:00",
+      "publishedDateText": "2026年4月21日",
+      "relativeUrl": "outdoor-escapes/horizon-x-space-travel-neck-pillow.html",
+      "heroImage": "X-Space/%E7%89%B9%E5%AF%AB-1776818624440.png",
       "tags": [
-        "斜背包",
-        "穿搭術",
-        "女生包包",
-        "時尚配件",
-        "城市探險",
-        "休閒穿搭"
-      ]
-    },
-    {
-      "id": "legacy-designer-perspective-ai-design-renaissance-2026-html",
-      "title": "AI 創意革命：創意主權的重新定義",
-      "excerpt": "專訪 2026 年尖端設計師，探討 AI 如何從輔助工具演變為設計靈感的核心。探討人工智慧的跨界美學與創意過程，涵蓋台灣設計界的實踐。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-04-25T20:21:55Z",
-      "publishedDateText": "2026年4月25日",
-      "relativeUrl": "designer-perspective/ai-design-renaissance-2026.html",
-      "heroImage": "images/generated/designer/ai-design.png",
-      "tags": [
-        "AI 設計",
-        "創意革命",
-        "2026 時尚趨勢",
-        "人工智慧",
-        "數位設計",
-        "Elite Fashion",
-        "台灣設計師",
-        "創意主權"
-      ]
-    },
-    {
-      "id": "legacy-designer-perspective-brand-renewal-art-html",
-      "title": "品牌重塑的藝術：經典與未來的優雅角力",
-      "excerpt": "深入探討百年奢侈品牌的重塑之路。專訪創意總監 Alessandro Rossi，解析如何平衡品牌遺產與現代創新，並結合台灣高端市場洞察。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-04-25T20:21:55Z",
-      "publishedDateText": "2026年4月25日",
-      "relativeUrl": "designer-perspective/brand-renewal-art.html",
-      "heroImage": "images/generated/designer/craftsmanship.png",
-      "tags": [
-        "品牌重塑",
-        "奢侈品牌",
-        "創意總監",
-        "時尚經營",
-        "台灣奢侈品市場",
-        "Elite Fashion",
-        "品牌進化"
-      ]
-    },
-    {
-      "id": "legacy-designer-perspective-craftsmanship-tech-fusion-html",
-      "title": "工藝復興：重新定義「手工」的維度",
-      "excerpt": "探索 2026 年精品趨勢：3D 列印與傳統皮革工藝的革命性融合。Elite Fashion 為您解析數位工藝如何重塑頂級奢華包袋，並結合台北與全球工坊實踐。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-04-25T20:21:55Z",
-      "publishedDateText": "2026年4月25日",
-      "relativeUrl": "designer-perspective/craftsmanship-tech-fusion.html",
-      "heroImage": "images/generated/designer/craftsmanship.png",
-      "tags": [
-        "工藝復興",
-        "3D 列印",
-        "奢華皮革",
-        "皮革工藝",
-        "數位工藝",
-        "Elite Fashion",
-        "台灣設計產業",
-        "奢侈品技術"
-      ]
-    },
-    {
-      "id": "legacy-designer-perspective-digital-canvas-html",
-      "title": "數位畫布的權力遊戲：遊牧與定居的終極決斷",
-      "excerpt": "深度評測 2026 年最強數位繪圖工具。iPad Pro M4 與 Wacom Cintiq Pro 誰才是時尚設計師的終極畫布？結合台北設計圈實測，解析 Procreate 與 Photoshop 的生態戰爭。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-04-25T20:21:55Z",
-      "publishedDateText": "2026年4月25日",
-      "relativeUrl": "designer-perspective/digital-canvas.html",
-      "heroImage": "images/generated/designer/ipad-wacom.png",
-      "tags": [
-        "iPad Pro M4",
-        "Wacom Cintiq",
-        "數位繪圖",
-        "時尚插畫",
-        "Procreate",
-        "設計師工具",
-        "繪圖板評測",
-        "台灣設計教學",
-        "Elite Fashion"
-      ]
-    },
-    {
-      "id": "legacy-designer-perspective-digital-craft-designer-html",
-      "title": "數位工藝的新主權：專訪新銳設計師 Emma Chen",
-      "excerpt": "專訪新銳設計師 Emma Chen，解析如何利用 3D 列印與數位製衣技術重塑時尚邊界。結合台北時裝週與金點設計獎評選，探討數位與人文溫度的完美融合。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-04-25T20:21:55Z",
-      "publishedDateText": "2026年4月25日",
-      "relativeUrl": "designer-perspective/digital-craft-designer.html",
-      "heroImage": "images/generated/designer/stylist-power.png",
-      "tags": [
-        "數位工藝",
-        "3D 列印",
-        "新銳設計師",
-        "科技時尚",
-        "創新設計",
-        "台北時裝週",
-        "金點設計獎",
-        "Elite Fashion"
-      ]
-    },
-    {
-      "id": "legacy-designer-perspective-education-roi-html",
-      "title": "教育投資的博弈：設計師如何避開「自覺式平庸」",
-      "excerpt": "深度評測 2026 年最強線上學習平台。跟 Marc Jacobs 學設計，還是跟職人學技法？解析 MasterClass 與 Domestika 的真實投資回報率 (ROI)，並對比 Hahow 等台灣平台。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-04-25T20:21:55Z",
-      "publishedDateText": "2026年4月25日",
-      "relativeUrl": "designer-perspective/education-roi.html",
-      "heroImage": "images/generated/designer/masterclass-domestika.png",
-      "tags": [
-        "MasterClass",
-        "Domestika",
-        "線上課程",
-        "時尚設計教學",
-        "自學設計",
-        "職涯發展",
-        "Hahow",
-        "PressPlay",
-        "Elite Fashion"
-      ]
-    },
-    {
-      "id": "legacy-designer-perspective-emotional-tailoring-2026-html",
-      "title": "情緒裁製：布料中的神經科學與靈魂主權",
-      "excerpt": "深度解析 2026 年設計師視角：情緒裁製。Elite Fashion 探討服裝如何透過感測技術與心理美學，達成全方位的人機情緒共感。結合台灣在地心靈減壓趨勢，定義新奢華。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-04-25T20:21:55Z",
-      "publishedDateText": "2026年4月25日",
-      "relativeUrl": "designer-perspective/emotional-tailoring-2026.html",
-      "heroImage": "images/generated/designer/emotional-tailoring.png",
-      "tags": [
-        "情緒裁製",
-        "2026 客製服",
-        "心理美學",
-        "感測時尚",
-        "數位設計",
-        "台灣心靈減壓",
-        "Elite Fashion"
-      ]
-    },
-    {
-      "id": "legacy-designer-perspective-fashion-photographer-vision-html",
-      "title": "鏡頭背後的權威：Marco Bellini 的視覺主權",
-      "excerpt": "專訪傳奇時尚攝影師 Marco Bellini，深度探討 2026 年影像美學的演變、光影詩學，以及數位與膠片的終極辯證。結合台灣在地時尚影像趨勢，定義當代視覺文化。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-04-25T20:21:55Z",
-      "publishedDateText": "2026年4月25日",
-      "relativeUrl": "designer-perspective/fashion-photographer-vision.html",
-      "heroImage": "images/generated/designer/fashion-photography.png",
-      "tags": [
-        "時尚攝影",
-        "視覺語言",
-        "Marco Bellini",
-        "攝影大師",
-        "數位 vs 膠片",
-        "台北時尚攝影",
-        "Elite Fashion"
-      ]
-    },
-    {
-      "id": "legacy-designer-perspective-minimalist-philosophy-html",
-      "title": "減法的極致權力：Sophie Laurent 與極簡主義的神性對話",
-      "excerpt": "獨家專訪極簡主義大師 Sophie Laurent。深度探討 2026 年減法美學背後的哲學思考、材質主權，以及如何將極簡靈魂融入台北的 urban 節奏。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-04-25T20:21:55Z",
-      "publishedDateText": "2026年4月25日",
-      "relativeUrl": "designer-perspective/minimalist-philosophy.html",
-      "heroImage": "images/generated/designer/minimalist-office.png",
-      "tags": [
-        "極簡主義",
-        "Sophie Laurent",
-        "減法美學",
-        "斷捨離",
-        "台北極簡生活",
-        "永續時尚",
-        "Elite Fashion"
+        "旅行頸枕",
+        "長途旅行頸部痠痛",
+        "頸枕選購指南",
+        "改善旅行睡眠",
+        "脖枕推薦品牌",
+        "姿勢不良改善",
+        "消除旅行疲勞"
       ]
     }
   ],
@@ -273,7 +244,7 @@
           "publishedAt": "2026-04-25T19:15:15Z",
           "publishedDateText": "2026年4月25日",
           "relativeUrl": "ai-innovation/ai-survival-guide-mature-workers.html",
-          "heroImage": "images/generated/ai/smart-home.png",
+          "heroImage": "images/generated/ai/creative-sovereignty.png",
           "tags": [
             "AI 生存指南",
             "熟齡職涯",
@@ -291,7 +262,7 @@
           "publishedAt": "2026-04-25T15:55:01Z",
           "publishedDateText": "2026年4月25日",
           "relativeUrl": "ai-innovation/ai-45.html",
-          "heroImage": "images/generated/ai/saas-entrepreneur.png",
+          "heroImage": "images/generated/ai/smart-home.png",
           "tags": [
             "人工智能",
             "職涯轉型",
@@ -527,112 +498,108 @@
       "label": "設計師視角",
       "items": [
         {
-          "id": "legacy-designer-perspective-ai-design-renaissance-2026-html",
-          "title": "AI 創意革命：創意主權的重新定義",
-          "excerpt": "專訪 2026 年尖端設計師，探討 AI 如何從輔助工具演變為設計靈感的核心。探討人工智慧的跨界美學與創意過程，涵蓋台灣設計界的實踐。",
+          "id": "legacy-designer-perspective-sustainability-pioneer-html",
+          "title": "責任美學的進化：Lily Chen 與台灣永續紡織的全球影響力",
+          "excerpt": "深入專訪永續時尚設計師 Lily Chen，探討如何結合台灣尖端紡織科技（如遠東新世紀、興采實業）與高級製衣工藝。精準解析 2026 年循環經濟下的奢侈品新定義。",
           "category": "designer-perspective",
           "categoryLabel": "設計師視角",
           "series": "設計師視角",
-          "publishedAt": "2026-04-25T20:21:55Z",
-          "publishedDateText": "2026年4月25日",
-          "relativeUrl": "designer-perspective/ai-design-renaissance-2026.html",
-          "heroImage": "images/generated/designer/ai-design.png",
+          "publishedAt": "2026-02-07T18:13:45Z",
+          "publishedDateText": "2026年2月7日",
+          "relativeUrl": "designer-perspective/sustainability-pioneer.html",
+          "heroImage": "images/generated/designer/sustainability-pioneer.png",
           "tags": [
-            "AI 設計",
-            "創意革命",
-            "2026 時尚趨勢",
-            "人工智慧",
-            "數位設計",
-            "Elite Fashion",
-            "台灣設計師",
-            "創意主權"
-          ]
-        },
-        {
-          "id": "legacy-designer-perspective-brand-renewal-art-html",
-          "title": "品牌重塑的藝術：經典與未來的優雅角力",
-          "excerpt": "深入探討百年奢侈品牌的重塑之路。專訪創意總監 Alessandro Rossi，解析如何平衡品牌遺產與現代創新，並結合台灣高端市場洞察。",
-          "category": "designer-perspective",
-          "categoryLabel": "設計師視角",
-          "series": "設計師視角",
-          "publishedAt": "2026-04-25T20:21:55Z",
-          "publishedDateText": "2026年4月25日",
-          "relativeUrl": "designer-perspective/brand-renewal-art.html",
-          "heroImage": "images/generated/designer/craftsmanship.png",
-          "tags": [
-            "品牌重塑",
-            "奢侈品牌",
-            "創意總監",
-            "時尚經營",
-            "台灣奢侈品市場",
-            "Elite Fashion",
-            "品牌進化"
-          ]
-        },
-        {
-          "id": "legacy-designer-perspective-craftsmanship-tech-fusion-html",
-          "title": "工藝復興：重新定義「手工」的維度",
-          "excerpt": "探索 2026 年精品趨勢：3D 列印與傳統皮革工藝的革命性融合。Elite Fashion 為您解析數位工藝如何重塑頂級奢華包袋，並結合台北與全球工坊實踐。",
-          "category": "designer-perspective",
-          "categoryLabel": "設計師視角",
-          "series": "設計師視角",
-          "publishedAt": "2026-04-25T20:21:55Z",
-          "publishedDateText": "2026年4月25日",
-          "relativeUrl": "designer-perspective/craftsmanship-tech-fusion.html",
-          "heroImage": "images/generated/designer/craftsmanship.png",
-          "tags": [
-            "工藝復興",
-            "3D 列印",
-            "奢華皮革",
-            "皮革工藝",
-            "數位工藝",
-            "Elite Fashion",
-            "台灣設計產業",
-            "奢侈品技術"
-          ]
-        },
-        {
-          "id": "legacy-designer-perspective-digital-canvas-html",
-          "title": "數位畫布的權力遊戲：遊牧與定居的終極決斷",
-          "excerpt": "深度評測 2026 年最強數位繪圖工具。iPad Pro M4 與 Wacom Cintiq Pro 誰才是時尚設計師的終極畫布？結合台北設計圈實測，解析 Procreate 與 Photoshop 的生態戰爭。",
-          "category": "designer-perspective",
-          "categoryLabel": "設計師視角",
-          "series": "設計師視角",
-          "publishedAt": "2026-04-25T20:21:55Z",
-          "publishedDateText": "2026年4月25日",
-          "relativeUrl": "designer-perspective/digital-canvas.html",
-          "heroImage": "images/generated/designer/ipad-wacom.png",
-          "tags": [
-            "iPad Pro M4",
-            "Wacom Cintiq",
-            "數位繪圖",
-            "時尚插畫",
-            "Procreate",
-            "設計師工具",
-            "繪圖板評測",
-            "台灣設計教學",
+            "永續時尚",
+            "Lily Chen",
+            "循環經濟",
+            "遠東新世紀",
+            "復合纖維",
+            "台北時尚週",
+            "綠色奢侈品",
             "Elite Fashion"
           ]
         },
         {
-          "id": "legacy-designer-perspective-digital-craft-designer-html",
-          "title": "數位工藝的新主權：專訪新銳設計師 Emma Chen",
-          "excerpt": "專訪新銳設計師 Emma Chen，解析如何利用 3D 列印與數位製衣技術重塑時尚邊界。結合台北時裝週與金點設計獎評選，探討數位與人文溫度的完美融合。",
+          "id": "legacy-designer-perspective-stylist-power-html",
+          "title": "視覺主權的塑造：Rachel Wong 與造型中的權力美學",
+          "excerpt": "深入專訪一線造型師 Rachel Wong，探討如何透過服裝建立視覺領導力。結合金馬獎、台北時尚週等台灣在地語境，精準解析 2026 年穿搭心理學。",
           "category": "designer-perspective",
           "categoryLabel": "設計師視角",
           "series": "設計師視角",
-          "publishedAt": "2026-04-25T20:21:55Z",
-          "publishedDateText": "2026年4月25日",
-          "relativeUrl": "designer-perspective/digital-craft-designer.html",
+          "publishedAt": "2026-02-07T18:12:47Z",
+          "publishedDateText": "2026年2月7日",
+          "relativeUrl": "designer-perspective/stylist-power.html",
           "heroImage": "images/generated/designer/stylist-power.png",
           "tags": [
-            "數位工藝",
-            "3D 列印",
-            "新銳設計師",
-            "科技時尚",
-            "創新設計",
-            "台北時裝週",
-            "金點設計獎",
+            "造型師",
+            "Rachel Wong",
+            "視覺領導力",
+            "金馬獎造型",
+            "台北時尚週",
+            "穿搭策略",
+            "Elite Fashion"
+          ]
+        },
+        {
+          "id": "legacy-designer-perspective-minimalist-philosophy-html",
+          "title": "減法的極致權力：Sophie Laurent 與極簡主義的神性對話",
+          "excerpt": "獨家專訪極簡主義大師 Sophie Laurent。深度探討 2026 年減法美學背後的哲學思考、材質主權，以及如何將極簡靈魂融入台北的 urban 節奏。",
+          "category": "designer-perspective",
+          "categoryLabel": "設計師視角",
+          "series": "設計師視角",
+          "publishedAt": "2026-02-07T18:11:55Z",
+          "publishedDateText": "2026年2月7日",
+          "relativeUrl": "designer-perspective/minimalist-philosophy.html",
+          "heroImage": "images/generated/designer/minimalist-office.png",
+          "tags": [
+            "極簡主義",
+            "Sophie Laurent",
+            "減法美學",
+            "斷捨離",
+            "台北極簡生活",
+            "永續時尚",
+            "Elite Fashion"
+          ]
+        },
+        {
+          "id": "legacy-designer-perspective-fashion-photographer-vision-html",
+          "title": "鏡頭背後的權威：Marco Bellini 的視覺主權",
+          "excerpt": "專訪傳奇時尚攝影師 Marco Bellini，深度探討 2026 年影像美學的演變、光影詩學，以及數位與膠片的終極辯證。結合台灣在地時尚影像趨勢，定義當代視覺文化。",
+          "category": "designer-perspective",
+          "categoryLabel": "設計師視角",
+          "series": "設計師視角",
+          "publishedAt": "2026-02-07T18:10:49Z",
+          "publishedDateText": "2026年2月7日",
+          "relativeUrl": "designer-perspective/fashion-photographer-vision.html",
+          "heroImage": "images/generated/designer/fashion-photography.png",
+          "tags": [
+            "時尚攝影",
+            "視覺語言",
+            "Marco Bellini",
+            "攝影大師",
+            "數位 vs 膠片",
+            "台北時尚攝影",
+            "Elite Fashion"
+          ]
+        },
+        {
+          "id": "legacy-designer-perspective-emotional-tailoring-2026-html",
+          "title": "情緒裁製：布料中的神經科學與靈魂主權",
+          "excerpt": "深度解析 2026 年設計師視角：情緒裁製。Elite Fashion 探討服裝如何透過感測技術與心理美學，達成全方位的人機情緒共感。結合台灣在地心靈減壓趨勢，定義新奢華。",
+          "category": "designer-perspective",
+          "categoryLabel": "設計師視角",
+          "series": "設計師視角",
+          "publishedAt": "2026-02-07T18:09:58Z",
+          "publishedDateText": "2026年2月7日",
+          "relativeUrl": "designer-perspective/emotional-tailoring-2026.html",
+          "heroImage": "images/generated/designer/emotional-tailoring.png",
+          "tags": [
+            "情緒裁製",
+            "2026 客製服",
+            "心理美學",
+            "感測時尚",
+            "數位設計",
+            "台灣心靈減壓",
             "Elite Fashion"
           ]
         },
@@ -643,8 +610,8 @@
           "category": "designer-perspective",
           "categoryLabel": "設計師視角",
           "series": "設計師視角",
-          "publishedAt": "2026-04-25T20:21:55Z",
-          "publishedDateText": "2026年4月25日",
+          "publishedAt": "2026-02-07T18:09:03Z",
+          "publishedDateText": "2026年2月7日",
           "relativeUrl": "designer-perspective/education-roi.html",
           "heroImage": "images/generated/designer/masterclass-domestika.png",
           "tags": [
@@ -671,8 +638,8 @@
           "category": "casual-chic",
           "categoryLabel": "休閒時尚",
           "series": "休閒時尚",
-          "publishedAt": "2026-04-25T20:21:55Z",
-          "publishedDateText": "2026年4月25日",
+          "publishedAt": "2026-04-22T00:17:07Z",
+          "publishedDateText": "2026年4月22日",
           "relativeUrl": "casual-chic/world-cup-2026-special.html",
           "heroImage": "images/generated/world-cup/og-special-home.png",
           "tags": [
@@ -684,26 +651,6 @@
             "世足賽奪冠分析",
             "世足賽球星觀察",
             "Elite Fashion"
-          ]
-        },
-        {
-          "id": "legacy-crossbody-bag-style-guide-html",
-          "title": "女生斜背包穿搭術：一款小包輕鬆搞定城市探險與各種場合造型",
-          "excerpt": "想要擺脫厚重包袱，卻又擔心重要小物沒地方放？斜背包絕對是妳的時尚救星！它不僅解放雙手，更成為現代女性日常穿搭的必備單品。",
-          "category": "casual-chic",
-          "categoryLabel": "休閒時尚",
-          "series": "休閒時尚",
-          "publishedAt": "2026-04-25T20:21:55Z",
-          "publishedDateText": "2026年4月25日",
-          "relativeUrl": "crossbody-bag-style-guide.html",
-          "heroImage": "https://elitefasion.com/images/crossbody-bag/hero-main.jpg",
-          "tags": [
-            "斜背包",
-            "穿搭術",
-            "女生包包",
-            "時尚配件",
-            "城市探險",
-            "休閒穿搭"
           ]
         },
         {
@@ -783,6 +730,26 @@
             "New York New Jersey Stadium",
             "Dallas Stadium",
             "2026 World Cup host cities"
+          ]
+        },
+        {
+          "id": "legacy-casual-chic-world-cup-2026-stars-mvp-watch-html",
+          "title": "2026 世界盃球星與 MVP 觀察：Mbappe、Yamal 到新世代黑馬名單",
+          "excerpt": "以 FIFA 官方人物專題與青年球員觀察為基礎，整理 2026 世界盃最值得追的球星故事線：Mbappe、Lamine Yamal、Bellingham、Messi，以及一批可能一戰成名的新秀。",
+          "category": "casual-chic",
+          "categoryLabel": "休閒時尚",
+          "series": "休閒時尚",
+          "publishedAt": "2026-04-21T10:00:00+08:00",
+          "publishedDateText": "2026年4月21日",
+          "relativeUrl": "casual-chic/world-cup-2026-stars-mvp-watch.html",
+          "heroImage": "images/generated/world-cup/og-stars-watch.png",
+          "tags": [
+            "2026 世界盃 球星",
+            "2026 世界盃 MVP",
+            "Mbappe 2026",
+            "Lamine Yamal 2026",
+            "Messi 2026",
+            "teenage stars world cup 2026"
           ]
         }
       ]
@@ -1088,7 +1055,7 @@
           "publishedAt": "2026-04-25T20:10:16Z",
           "publishedDateText": "2026年4月25日",
           "relativeUrl": "lifestyle-culture/rebuilding-social-circle-taiwan-returnee-women.html",
-          "heroImage": "images/generated/life-proposals/finding-your-tribe-midlife.png",
+          "heroImage": "images/generated/lifestyle/boutique-hotels.png",
           "tags": [
             "熟齡社交",
             "海歸返台",
@@ -1107,7 +1074,7 @@
           "publishedAt": "2026-04-25T19:28:17Z",
           "publishedDateText": "2026年4月25日",
           "relativeUrl": "lifestyle-culture/return-divorce-restart-90-day-checklist.html",
-          "heroImage": "images/generated/life-proposals/financial-independence-options.png",
+          "heroImage": "images/generated/lifestyle/life-sovereignty.jpg",
           "tags": [
             "離婚重建",
             "海歸返台",
@@ -1126,7 +1093,7 @@
           "publishedAt": "2026-04-25T19:11:39Z",
           "publishedDateText": "2026年4月25日",
           "relativeUrl": "lifestyle-culture/canada-real-estate-for-taiwanese-beginners.html",
-          "heroImage": "images/generated/life-proposals/career-pivot-start-over.png",
+          "heroImage": "images/generated/lifestyle/home-sanctuary.png",
           "tags": [
             "加拿大房地產",
             "海外置產",
@@ -1145,7 +1112,7 @@
           "publishedAt": "2026-04-25T18:14:22Z",
           "publishedDateText": "2026年4月25日",
           "relativeUrl": "lifestyle-culture/post-divorce-social-boundaries-highly-educated-women.html",
-          "heroImage": "images/generated/life-proposals/friendship-audit-outgrow.png",
+          "heroImage": "images/generated/life-proposals/finding-yourself-after-40.png",
           "tags": [
             "中年離婚",
             "社交重建",
@@ -1164,7 +1131,7 @@
           "publishedAt": "2026-04-25T17:22:36Z",
           "publishedDateText": "2026年4月25日",
           "relativeUrl": "lifestyle-culture/solo-living-home-safety-organization-divorce.html",
-          "heroImage": "images/generated/lifestyle/home-sanctuary.png",
+          "heroImage": "images/generated/fashion-1.png",
           "tags": [
             "一人生活",
             "居家安全",
