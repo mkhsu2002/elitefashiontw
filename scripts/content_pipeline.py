@@ -278,6 +278,15 @@ def normalize_site_asset_path(asset: str, base_url: str) -> str:
     return asset
 
 
+def normalize_external_url(value: str) -> str:
+    value = value.strip()
+    if not value:
+        return value
+    if value.startswith(("http://", "https://")):
+        return value
+    return f"https://{value.lstrip('/')}"
+
+
 def asset_exists(asset: str) -> bool:
     if not asset:
         return False
@@ -537,6 +546,11 @@ def render_markdown_body(article: dict[str, Any]) -> str:
     lines.append("")
     lines.append(f"[{article['cta']['label']}]({article['cta']['url']})")
     lines.append("")
+    if article.get("disclaimer"):
+        lines.append("## 重要警語")
+        lines.append("")
+        lines.append(article["disclaimer"])
+        lines.append("")
     return "\n".join(lines).strip() + "\n"
 
 
@@ -610,6 +624,13 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         "mainEntityOfPage": canonical,
         "image": hero_image_url,
     }
+    disclaimer_html = ""
+    if article.get("disclaimer"):
+        disclaimer_html = f"""
+        <section class="article-cta">
+            <h2>重要警語</h2>
+            <p>{html.escape(article['disclaimer'])}</p>
+        </section>"""
     return f"""<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -778,6 +799,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
             <p>{html.escape(article['cta']['text'])}</p>
             <a href="{html.escape(article['cta']['url'])}">{html.escape(article['cta']['label'])}</a>
         </section>
+{disclaimer_html}
     </main>
 
     <script src="../js/main.js"></script>
@@ -1257,10 +1279,17 @@ def choose_category_for_topic(topic: str, categories: dict[str, CategoryConfig])
         ("ai", "ai-innovation"),
         ("代理人", "ai-innovation"),
         ("客服", "ai-innovation"),
+        ("世足", "outdoor-escapes"),
+        ("世界盃", "outdoor-escapes"),
+        ("足球", "outdoor-escapes"),
         ("職涯", "lifestyle-culture"),
         ("轉職", "lifestyle-culture"),
         ("第二曲線", "lifestyle-culture"),
         ("退休", "lifestyle-culture"),
+        ("房地產", "lifestyle-culture"),
+        ("房市", "lifestyle-culture"),
+        ("地產", "lifestyle-culture"),
+        ("房價", "lifestyle-culture"),
         ("閱讀", "lifestyle-culture"),
         ("居家", "lifestyle-culture"),
         ("紀錄", "lifestyle-culture"),
@@ -1537,6 +1566,59 @@ def build_article_brief(item: dict[str, Any], categories: dict[str, CategoryConf
         "series": item.get("series") or category.label,
         "direction": item.get("angle") or "",
         "targetReader": item.get("targetReader") or "台灣讀者",
+        "ctaUrl": item.get("ctaUrl") or "",
+        "ctaLabel": item.get("ctaLabel") or "",
+        "ctaText": item.get("ctaText") or "",
+        "disclaimerText": item.get("disclaimerText") or "",
+    }
+
+
+def parse_direct_topic_request(topic: str) -> dict[str, Any]:
+    raw = topic.strip()
+    cta_match = re.search(
+        r"CTA\s*推薦(?:[^\n]*?\s)?(https?://\S+|[A-Za-z0-9.-]+\.[A-Za-z]{2,}\S*)",
+        raw,
+        flags=re.I,
+    )
+    cta_url = normalize_external_url(cta_match.group(1)) if cta_match else ""
+    disclaimer_required = bool(re.search(r"文末加註必要的警語|必要的警語", raw))
+
+    cleaned = raw
+    if cta_match:
+        cleaned = cleaned.replace(cta_match.group(0), "")
+    cleaned = re.sub(r"^\s*直接生成主題[:：]\s*", "", cleaned)
+    cleaned = re.sub(r"^\s*談論\s*", "", cleaned)
+    cleaned = re.sub(r"[，,、]?\s*並(?=\s*[，,、]|$)", "", cleaned)
+    cleaned = re.sub(r"(?:[，,、]?\s*並\s*)+$", "", cleaned).strip()
+    cleaned = re.sub(r"[，,、]?\s*文末加註必要的警語", "", cleaned).strip()
+    cleaned = re.sub(r"[，,、]\s*$", "", cleaned).strip()
+
+    cta_label = "查看延伸閱讀"
+    cta_text = "如果你想延伸閱讀這個主題，下一步可以直接前往我們推薦的專頁。"
+    if "world-cup-2026" in cta_url:
+        cta_label = "前往看更多 2026 世足賽整理"
+        cta_text = "如果你想繼續追蹤 2026 世足賽的賽程、話題整理與延伸觀點，下一步最適合直接前往專門整理這個主題的頁面。"
+    elif "insightestate.ca" in cta_url:
+        cta_label = "前往洞悉地產權威論壇"
+        cta_text = "如果你想進一步閱讀來自在地視角的加拿大房市觀察與生活圈分析，下一步最適合直接前往洞悉地產的繁體中文論壇。"
+    elif "ai-survival-guide" in cta_url or "flypigai" in cta_url:
+        cta_label = "前往查看 AI 生存指南"
+        cta_text = "如果你想把這篇文章的觀念延伸成更完整的自學與工作規劃，下一步最適合直接前往完整的 AI 生存指南頁面。"
+
+    disclaimer_text = ""
+    if disclaimer_required:
+        disclaimer_text = (
+            "本文僅供一般資訊參考，不構成投資、稅務、法律、移民、貸款或購屋建議。"
+            "加拿大各省、市場、稅制與身份限制差異很大，且可能隨政策調整而變動。"
+            "在進行任何海外置產或資產配置前，請務必先向當地持牌仲介、律師、會計師與財務顧問確認最新規範與風險。"
+        )
+
+    return {
+        "topic": cleaned,
+        "ctaUrl": cta_url,
+        "ctaLabel": cta_label if cta_url else "",
+        "ctaText": cta_text if cta_url else "",
+        "disclaimerText": disclaimer_text,
     }
 
 
@@ -1548,6 +1630,52 @@ def ensure_unique_slug(slug: str, registry: list[dict[str, Any]]) -> str:
     while f"{slug}-{suffix}" in existing:
         suffix += 1
     return f"{slug}-{suffix}"
+
+
+def apply_article_defaults(article: dict[str, Any], brief: dict[str, Any], categories: dict[str, CategoryConfig]) -> dict[str, Any]:
+    category_key = article.get("category") or brief["category"]
+    if category_key not in categories:
+        category_key = brief["category"]
+    category = categories[category_key]
+
+    article["title"] = article.get("title") or brief["title"]
+    article["slug"] = article.get("slug") or brief["slug"]
+    article["excerpt"] = article.get("excerpt") or brief["excerpt"]
+    article["tags"] = article.get("tags") or brief["tags"]
+    article["metaTitle"] = article.get("metaTitle") or article["title"]
+    article["metaDescription"] = article.get("metaDescription") or brief["metaDescription"]
+    article["category"] = category_key
+    article["series"] = article.get("series") or brief.get("series") or category.label
+    article["audience"] = article.get("audience") or brief.get("targetReader") or "台灣讀者"
+    article["listingTitle"] = article.get("listingTitle") or article["title"]
+    article["listingExcerpt"] = article.get("listingExcerpt") or article["excerpt"]
+    article["heroImage"] = article.get("heroImage") or category.placeholder_image
+    article["intro"] = article.get("intro") or brief["excerpt"]
+    article["sections"] = article.get("sections") or [
+        {
+            "heading": brief["title"],
+            "paragraphs": [brief["excerpt"]],
+            "bullets": [],
+        }
+    ]
+    article["faq"] = article.get("faq") or []
+    article["extendedReading"] = article.get("extendedReading") or [
+        {"title": f"瀏覽更多{category.label}文章", "url": f"/{category.page}"}
+    ]
+    article["cta"] = article.get("cta") or {
+        "label": f"查看更多{category.label}內容",
+        "url": f"/{category.page}",
+        "text": f"若你想延伸閱讀，建議先從 {category.label} 分類頁繼續往下看。",
+    }
+    if brief.get("ctaUrl"):
+        article["cta"]["url"] = brief["ctaUrl"]
+        if brief.get("ctaLabel"):
+            article["cta"]["label"] = brief["ctaLabel"]
+        if brief.get("ctaText"):
+            article["cta"]["text"] = brief["ctaText"]
+    if brief.get("disclaimerText"):
+        article["disclaimer"] = brief["disclaimerText"]
+    return article
 
 
 def save_generated_article(article: dict[str, Any], queue_id: str | None, config: dict[str, Any], categories: dict[str, CategoryConfig]) -> dict[str, Any]:
@@ -1823,6 +1951,7 @@ def generate_article_from_item(config: dict[str, Any], categories: dict[str, Cat
             },
             planner=False,
         )
+    article = apply_article_defaults(article, brief, categories)
     article["heroImage"] = choose_balanced_hero_image(article, registry, config, categories)
     article["slug"] = ensure_unique_slug(slugify(article["slug"]), registry)
     saved = save_generated_article(article, queue_id, config, categories)
@@ -1903,14 +2032,20 @@ def command_sync(config: dict[str, Any], categories: dict[str, CategoryConfig]) 
 
 
 def command_generate_now(config: dict[str, Any], categories: dict[str, CategoryConfig], topic: str, *, fixture: bool = False) -> dict[str, Any]:
+    parsed = parse_direct_topic_request(topic)
+    normalized_topic = parsed["topic"] or topic.strip()
     item = {
-        "topic": topic,
-        "title": topic,
+        "topic": normalized_topic,
+        "title": normalized_topic,
         "angle": "直接生成單篇文章，不進 queue。",
         "targetReader": "對主題有立即搜尋需求的台灣讀者",
-        "category": choose_category_for_topic(topic, categories),
-        "series": topic,
+        "category": choose_category_for_topic(normalized_topic, categories),
+        "series": normalized_topic,
         "ctaHint": "導向對應分類頁",
+        "ctaUrl": parsed.get("ctaUrl") or "",
+        "ctaLabel": parsed.get("ctaLabel") or "",
+        "ctaText": parsed.get("ctaText") or "",
+        "disclaimerText": parsed.get("disclaimerText") or "",
         "status": "planned",
     }
     article = generate_article_from_item(config, categories, item, queue_id=None, trigger_type="direct", fixture=fixture)
