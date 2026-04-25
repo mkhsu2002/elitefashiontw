@@ -333,6 +333,16 @@ def hero_repeat_score(candidate: str, registry: list[dict[str, Any]], category_k
     return score
 
 
+def recent_hero_blocklist(registry: list[dict[str, Any]], category_key: str) -> set[str]:
+    global_recent = [item.get("heroImage", "").lstrip("/") for item in registry[:3] if item.get("heroImage")]
+    category_recent = [
+        item.get("heroImage", "").lstrip("/")
+        for item in registry
+        if item.get("category") == category_key and item.get("heroImage")
+    ][:4]
+    return {item for item in [*global_recent, *category_recent] if item}
+
+
 def choose_balanced_hero_image(
     article: dict[str, Any],
     registry: list[dict[str, Any]],
@@ -346,19 +356,26 @@ def choose_balanced_hero_image(
     pool = build_category_image_pool(category)
     candidate = normalize_site_asset_path(article.get("heroImage", ""), config["baseUrl"]).lstrip("/")
     candidate_valid = asset_exists(candidate)
+    blocked_recent = recent_hero_blocklist(registry, category.key)
+
+    ranked_pool = [item for item in pool if item not in blocked_recent] or pool
 
     if candidate_valid and candidate.startswith("http"):
-        return candidate
+        if candidate not in blocked_recent or not ranked_pool:
+            return candidate
+        return min(ranked_pool, key=lambda item: (hero_repeat_score(item, registry, category.key), item))
 
-    if pool:
-        best_pool_image = min(pool, key=lambda item: (hero_repeat_score(item, registry, category.key), item))
+    if ranked_pool:
+        best_pool_image = min(ranked_pool, key=lambda item: (hero_repeat_score(item, registry, category.key), item))
         best_score = hero_repeat_score(best_pool_image, registry, category.key)
         if not candidate_valid:
             return best_pool_image
+        if candidate in blocked_recent and best_pool_image != candidate:
+            return best_pool_image
         candidate_score = hero_repeat_score(candidate, registry, category.key)
-        if candidate in pool and candidate_score <= best_score:
+        if candidate in ranked_pool and candidate_score <= best_score:
             return candidate
-        if candidate_score <= best_score and candidate_valid:
+        if candidate_score <= best_score and candidate_valid and candidate not in blocked_recent:
             return candidate
         return best_pool_image
 
