@@ -3,6 +3,7 @@ name: Content Scheduler
 on:
   schedule:
     - cron: "35 19 * * 6"
+    - cron: "50 19 * * 6"
     - cron: "15 2 * * 3"
     - cron: "15 2 * * 5"
   workflow_dispatch:
