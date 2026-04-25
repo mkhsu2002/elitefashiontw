@@ -54,7 +54,7 @@
     "defaultModel": "gpt-5-mini",
     "plannerModelEnv": "CONTENT_PLANNER_MODEL",
     "plannerModelFallback": "gpt-5-mini",
-    "requestTimeoutSeconds": 120
+    "requestTimeoutSeconds": 300
   },
   "articleContract": {
     "requiredFields": [

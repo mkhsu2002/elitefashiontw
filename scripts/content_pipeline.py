@@ -1175,6 +1175,13 @@ def get_model_runtime_config(config: dict[str, Any], *, planner: bool = False) -
     }
 
 
+def get_title_context_limit(config: dict[str, Any], *, planner: bool = False) -> int:
+    runtime = get_model_runtime_config(config, planner=planner)
+    if runtime["provider"] == "nvidia":
+        return 24 if planner else 18
+    return 80 if planner else 60
+
+
 def model_request(config: dict[str, Any], prompt_path: Path, payload: dict[str, Any], *, planner: bool = False) -> Any:
     runtime = get_model_runtime_config(config, planner=planner)
     api_key = runtime["apiKey"]
@@ -1490,7 +1497,7 @@ def enqueue_topic(config: dict[str, Any], categories: dict[str, CategoryConfig],
         registry,
         topic=topic,
         category=choose_category_for_topic(topic, categories),
-        limit=80,
+        limit=get_title_context_limit(config, planner=True),
     )
     if fixture or not os.getenv(config["model"]["apiKeySecretName"]):
         planned = fallback_plan(topic, count, direction, existing_titles, categories)
@@ -1651,7 +1658,7 @@ def generate_article_from_item(config: dict[str, Any], categories: dict[str, Cat
         registry,
         topic=brief["title"],
         category=brief["category"],
-        limit=60,
+        limit=get_title_context_limit(config, planner=False),
     )
     if fixture or not os.getenv(config["model"]["apiKeySecretName"]):
         article = fallback_article(brief, config, categories, existing_titles)

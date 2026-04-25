@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-25T16:41:42Z",
+  "updatedAt": "2026-04-25T17:22:36Z",
   "nextQueueSequence": 13,
   "series": [
     {
@@ -34,9 +34,11 @@
           "category": "lifestyle-culture",
           "series": "中年離婚後的獨立生活指南",
           "ctaHint": "閱讀系列第3篇：重建高品質社交與情感邊界",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260425172236-solo-living-home-safety-organization-divorce",
+          "file": "lifestyle-culture/solo-living-home-safety-organization-divorce.html",
+          "topic": "中年離婚高知識女性如何學會一個人生活",
+          "publishedAt": "2026-04-25T17:22:36Z"
         },
         {
           "order": 3,

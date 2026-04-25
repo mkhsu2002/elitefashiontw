@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-04-25T16:42:30Z",
+  "updatedAt": "2026-04-25T17:23:26Z",
   "latest": [
+    {
+      "id": "auto-20260425172236-solo-living-home-safety-organization-divorce",
+      "title": "一個人住，從空間開始練習獨立：給剛離婚女性的居家指南",
+      "excerpt": "家的樣子，決定妳一個人生活的底氣。從安全、收納到儀式感，打造支持妳的空間。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "中年離婚後的獨立生活指南",
+      "publishedAt": "2026-04-25T17:22:36Z",
+      "publishedDateText": "2026年4月25日",
+      "relativeUrl": "lifestyle-culture/solo-living-home-safety-organization-divorce.html",
+      "heroImage": "images/generated/fashion-1.png",
+      "tags": [
+        "一人生活",
+        "居家安全",
+        "收納整理",
+        "熟齡離婚",
+        "生活節奏"
+      ]
+    },
     {
       "id": "auto-20260425164142-post-divorce-first-6-steps",
       "title": "離婚後先做哪 6 件事：重整生活秩序的可執行清單",
@@ -218,28 +237,6 @@
         "管理者 AI",
         "職場競爭力",
         "AI 生存指南"
-      ]
-    },
-    {
-      "id": "legacy-life-proposals-ai-second-curve-for-career-pivot-html",
-      "title": "不會寫程式，也該開始看懂 AI：給 45+ 轉職族的第二曲線參考，FlyPig 未來領航者",
-      "excerpt": "若你正考慮中年轉職、第二職涯或重新定位自己，AI 不再是別人的題目。本篇整理 45+ 轉職族為什麼值得參考 FlyPig 未來領航者，從不會寫程式也能上手的角度，重新理解競爭力、學習方向與第二曲線。",
-      "category": "life-proposals",
-      "categoryLabel": "人生提案",
-      "series": "人生提案",
-      "publishedAt": "2026-04-19T05:56:47Z",
-      "publishedDateText": "2026年4月19日",
-      "relativeUrl": "life-proposals/ai-second-curve-for-career-pivot.html",
-      "heroImage": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&h=800&fit=crop",
-      "tags": [
-        "FlyPig 未來領航者",
-        "中年轉職",
-        "第二曲線",
-        "AI 職涯",
-        "45歲轉職",
-        "AI 生存指南",
-        "職涯轉型",
-        "不會寫程式也能學 AI"
       ]
     }
   ],
@@ -1048,6 +1045,25 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260425172236-solo-living-home-safety-organization-divorce",
+          "title": "一個人住，從空間開始練習獨立：給剛離婚女性的居家指南",
+          "excerpt": "家的樣子，決定妳一個人生活的底氣。從安全、收納到儀式感，打造支持妳的空間。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "中年離婚後的獨立生活指南",
+          "publishedAt": "2026-04-25T17:22:36Z",
+          "publishedDateText": "2026年4月25日",
+          "relativeUrl": "lifestyle-culture/solo-living-home-safety-organization-divorce.html",
+          "heroImage": "images/generated/fashion-1.png",
+          "tags": [
+            "一人生活",
+            "居家安全",
+            "收納整理",
+            "熟齡離婚",
+            "生活節奏"
+          ]
+        },
+        {
           "id": "auto-20260425164142-post-divorce-first-6-steps",
           "title": "離婚後先做哪 6 件事：重整生活秩序的可執行清單",
           "excerpt": "首月六大優先：財務、住居、孩子安排、法律文件、情緒急救、社交暫停。每項附判斷標準與可執行步驟，讓妳能有條不紊地重建日常。",
@@ -1150,28 +1166,6 @@
             "台北私人藏書室",
             "降噪美學",
             "Dcard 閱讀討論"
-          ]
-        },
-        {
-          "id": "legacy-lifestyle-culture-michelin-sustainability-trends-html",
-          "title": "2026 米其林綠星權威趨勢：當精緻餐飲成為『主權永續』的政治宣告",
-          "excerpt": "深入解析 2026 米其林綠星趨勢。Elite Fashion 為您解析從「零公里」供應鏈到再生式美學的權威演進，探討精緻餐飲如何定義新時代的綠色奢華主權。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "生活品味",
-          "publishedAt": "2026-02-19T10:00:00+08:00",
-          "publishedDateText": "2026年2月19日",
-          "relativeUrl": "lifestyle-culture/michelin-sustainability-trends.html",
-          "heroImage": "images/generated/lifestyle/michelin.png",
-          "tags": [
-            "米其林綠星 2026",
-            "永續餐飲權威",
-            "綠色奢華",
-            "小小樹食",
-            "Embers 台北",
-            "零浪費廚房",
-            "再生式農業",
-            "Dcard 美食討論"
           ]
         }
       ]
