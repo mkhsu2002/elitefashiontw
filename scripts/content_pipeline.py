@@ -4,9 +4,11 @@ from __future__ import annotations
 import argparse
 import hashlib
 import html
+import http.client
 import json
 import os
 import re
+import socket
 import subprocess
 import sys
 import time
@@ -1391,12 +1393,34 @@ def model_request(config: dict[str, Any], prompt_path: Path, payload: dict[str, 
         },
         method="POST",
     )
-    try:
-        with urllib.request.urlopen(request, timeout=config["model"]["requestTimeoutSeconds"]) as response:
-            parsed = json.loads(response.read().decode("utf-8"))
-    except urllib.error.HTTPError as error:
-        details = error.read().decode("utf-8", errors="ignore")
-        raise PipelineError(f"模型 API 失敗：{error.code} {details}") from error
+    max_attempts = int(config["model"].get("maxAttempts", 3))
+    retry_delay = float(config["model"].get("retryDelaySeconds", 4))
+    parsed: dict[str, Any] | None = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=config["model"]["requestTimeoutSeconds"]) as response:
+                parsed = json.loads(response.read().decode("utf-8"))
+            break
+        except urllib.error.HTTPError as error:
+            details = error.read().decode("utf-8", errors="ignore")
+            transient = error.code in {408, 409, 425, 429, 500, 502, 503, 504}
+            if transient and attempt < max_attempts:
+                time.sleep(retry_delay * attempt)
+                continue
+            raise PipelineError(f"模型 API 失敗：{error.code} {details}") from error
+        except (
+            http.client.RemoteDisconnected,
+            urllib.error.URLError,
+            TimeoutError,
+            socket.timeout,
+            ConnectionResetError,
+        ) as error:
+            if attempt < max_attempts:
+                time.sleep(retry_delay * attempt)
+                continue
+            raise PipelineError(f"模型 API 連線失敗：{error}") from error
+    if parsed is None:
+        raise PipelineError("模型 API 沒有回傳有效內容。")
     output_text = ""
     if runtime["apiMode"] == "chat_completions":
         choices = parsed.get("choices", [])
