@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-25T16:39:53Z",
+  "updatedAt": "2026-04-25T16:41:42Z",
   "nextQueueSequence": 13,
   "series": [
     {
@@ -8,7 +8,7 @@
       "topic": "中年離婚高知識女性如何學會一個人生活",
       "direction": "聚焦離婚後的生活秩序、情緒邊界、獨居節奏與社交重建，讀者為高知識女性，避免空泛雞湯，偏理性、自主、日常可執行。",
       "plannedCount": 3,
-      "status": "planned",
+      "status": "in_progress",
       "createdAt": "2026-04-25T16:35:03Z",
       "seriesName": "中年離婚後的獨立生活指南",
       "items": [
@@ -20,9 +20,11 @@
           "category": "lifestyle-culture",
           "series": "中年離婚後的獨立生活指南",
           "ctaHint": "閱讀系列第2篇：打造安全又好用的獨居居家設定",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260425164142-post-divorce-first-6-steps",
+          "file": "lifestyle-culture/post-divorce-first-6-steps.html",
+          "topic": "中年離婚高知識女性如何學會一個人生活",
+          "publishedAt": "2026-04-25T16:41:42Z"
         },
         {
           "order": 2,

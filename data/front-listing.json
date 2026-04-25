@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-04-25T16:39:53Z",
+  "updatedAt": "2026-04-25T16:42:30Z",
   "latest": [
+    {
+      "id": "auto-20260425164142-post-divorce-first-6-steps",
+      "title": "離婚後先做哪 6 件事：重整生活秩序的可執行清單",
+      "excerpt": "首月六大優先：財務、住居、孩子安排、法律文件、情緒急救、社交暫停。每項附判斷標準與可執行步驟，讓妳能有條不紊地重建日常。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "中年離婚後的獨立生活指南",
+      "publishedAt": "2026-04-25T16:41:42Z",
+      "publishedDateText": "2026年4月25日",
+      "relativeUrl": "lifestyle-culture/post-divorce-first-6-steps.html",
+      "heroImage": "images/generated/fashion-1.png",
+      "tags": [
+        "生活品味",
+        "中年離婚後的獨立生活指南",
+        "首月待辦清單"
+      ]
+    },
     {
       "id": "auto-20260425155501-ai-45",
       "title": "不會寫程式，也能理解 AI：45+ 女性重整職涯的實務第一步",
@@ -223,28 +240,6 @@
         "AI 生存指南",
         "職涯轉型",
         "不會寫程式也能學 AI"
-      ]
-    },
-    {
-      "id": "legacy-life-proposals-ai-side-hustle-for-experts-html",
-      "title": "想做副業，卻怕 AI 讓努力白費？給知識工作者的參考：FlyPig 未來領航者",
-      "excerpt": "對想做副業、接顧問案、經營個人品牌的 40+ 知識工作者來說，AI 既是焦慮也是槓桿。本篇整理為什麼這類受眾適合參考 FlyPig 未來領航者，從內容產出、工具選擇到副業方向，找到更穩的起跑方式。",
-      "category": "life-proposals",
-      "categoryLabel": "人生提案",
-      "series": "人生提案",
-      "publishedAt": "2026-04-19T05:56:47Z",
-      "publishedDateText": "2026年4月19日",
-      "relativeUrl": "life-proposals/ai-side-hustle-for-experts.html",
-      "heroImage": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&h=800&fit=crop",
-      "tags": [
-        "FlyPig 未來領航者",
-        "AI 副業",
-        "個人品牌",
-        "知識工作者",
-        "40歲副業",
-        "AI 工具推薦",
-        "第二收入",
-        "內容變現"
       ]
     }
   ],
@@ -1053,6 +1048,23 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260425164142-post-divorce-first-6-steps",
+          "title": "離婚後先做哪 6 件事：重整生活秩序的可執行清單",
+          "excerpt": "首月六大優先：財務、住居、孩子安排、法律文件、情緒急救、社交暫停。每項附判斷標準與可執行步驟，讓妳能有條不紊地重建日常。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "中年離婚後的獨立生活指南",
+          "publishedAt": "2026-04-25T16:41:42Z",
+          "publishedDateText": "2026年4月25日",
+          "relativeUrl": "lifestyle-culture/post-divorce-first-6-steps.html",
+          "heroImage": "images/generated/fashion-1.png",
+          "tags": [
+            "生活品味",
+            "中年離婚後的獨立生活指南",
+            "首月待辦清單"
+          ]
+        },
+        {
           "id": "legacy-lifestyle-culture-iphone-selfie-monitor-aesthetics-html",
           "title": "把日常拍成作品，不一定要買相機：DA 磁吸自拍顯示器與新一代生活紀錄美學",
           "excerpt": "從日常自拍、家庭紀錄到個人品牌內容，越來越多台灣使用者想把生活拍得更完整。本篇以生活風格專欄角度，解析 DA 磁吸自拍顯示器如何讓 iPhone 後鏡頭自拍、短影音與日常記錄更自然、更有效率，也更有作品感。",
@@ -1160,28 +1172,6 @@
             "零浪費廚房",
             "再生式農業",
             "Dcard 美食討論"
-          ]
-        },
-        {
-          "id": "legacy-lifestyle-culture-luxury-home-sanctuary-trends-html",
-          "title": "2026 奢華居家聖域趨勢：從物理避難所到『多感官主權』的修復重構",
-          "excerpt": "深入探索 2026 居家設計權威趨勢。Elite Fashion 為您解析從循環照明系統到生物友善美學的權威演進，探討居所如何成為精英階層的終極心理避風港。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "生活品味",
-          "publishedAt": "2026-02-19T09:00:00+08:00",
-          "publishedDateText": "2026年2月19日",
-          "relativeUrl": "lifestyle-culture/luxury-home-sanctuary-trends.html",
-          "heroImage": "images/generated/lifestyle/home-sanctuary.png",
-          "tags": [
-            "居家聖域 2026",
-            "奢華室內設計",
-            "多感官修復",
-            "循環照明",
-            "生物友善美學",
-            "台北豪宅設計趨勢",
-            "降噪美學",
-            "Dcard 居家生活討論"
           ]
         }
       ]
