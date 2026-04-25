@@ -1,5 +1,12 @@
 # 發文紀錄
 
+## 2026-04-25T19:11:39Z｜加拿大買房入門：先搞懂城市、稅制與置產決策節奏
+
+- 文章 ID：auto-20260425191139-canada-real-estate-for-taiwanese-beginners
+- URL：https://tw.elitefasion.com/lifestyle-culture/canada-real-estate-for-taiwanese-beginners.html
+- 檔案：lifestyle-culture/canada-real-estate-for-taiwanese-beginners.html
+- 類型：direct
+
 ## 2026-04-25T19:06:23Z｜2026 世足賽，熟齡旅人現在能做的 4 種旅行準備
 
 - 文章 ID：auto-20260425190623-world-cup-2026-travel-prep-for-over40
