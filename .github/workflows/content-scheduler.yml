@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "35 19 * * 6"
     - cron: "50 19 * * 6"
+    - cron: "50 20 25 4 *"
+    - cron: "50 21 25 4 *"
+    - cron: "50 22 25 4 *"
+    - cron: "50 23 25 4 *"
+    - cron: "50 0 26 4 *"
+    - cron: "50 1 26 4 *"
     - cron: "15 2 * * 3"
     - cron: "15 2 * * 5"
   workflow_dispatch:
