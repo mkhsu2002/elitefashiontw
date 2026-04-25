@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-25T19:28:17Z",
+  "updatedAt": "2026-04-25T20:10:16Z",
   "nextQueueSequence": 13,
   "series": [
     {
@@ -87,9 +87,11 @@
           "category": "lifestyle-culture",
           "series": "返台離婚：海歸熟齡女性的重啟生活手冊",
           "ctaHint": "閱讀系列第三篇：為自己規劃第二曲線（工作、收入與生活節奏）",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260425201016-rebuilding-social-circle-taiwan-returnee-women",
+          "file": "lifestyle-culture/rebuilding-social-circle-taiwan-returnee-women.html",
+          "topic": "中年離婚海歸返台女性如何學會一個人生活",
+          "publishedAt": "2026-04-25T20:10:16Z"
         },
         {
           "order": 3,

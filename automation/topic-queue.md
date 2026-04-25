@@ -19,7 +19,7 @@
 - 建立時間：2026-04-25T16:35:27Z
 
 1. 返台、離婚、重啟：海歸中年女性的第一個 90 天清單｜published｜剛返台且剛完成或即將完成離婚程序的 40–60 歲海歸女性，需要立刻穩定生活與處理行政事項。｜lifestyle-culture｜文章 ID：auto-20260425192817-return-divorce-restart-90-day-checklist｜檔案：lifestyle-culture/return-divorce-restart-90-day-checklist.html
-2. 在台重建社交：海歸女性的圈子重組策略（從閨蜜到專業網絡）｜planned｜返台 3–18 個月、情感與生活社交需要重整、想建立「高品質朋友圈」或專業網絡的熟齡海歸女性。｜lifestyle-culture
+2. 在台重建社交：海歸女性的圈子重組策略（從閨蜜到專業網絡）｜published｜返台 3–18 個月、情感與生活社交需要重整、想建立「高品質朋友圈」或專業網絡的熟齡海歸女性。｜lifestyle-culture｜文章 ID：auto-20260425201016-rebuilding-social-circle-taiwan-returnee-women｜檔案：lifestyle-culture/rebuilding-social-circle-taiwan-returnee-women.html
 3. 為自己規劃第二曲線：離婚後返台女性的工作、收入與生活節奏重塑｜planned｜已完成初期穩定、準備思考未來 1–5 年職涯與收入安排，想把生活美學與經濟自主結合的 40–60 歲返台女性。｜lifestyle-culture
 
 ## Q-0003｜中年離婚創業女性如何學會一個人生活

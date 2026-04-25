@@ -1,5 +1,13 @@
 # 發文紀錄
 
+## 2026-04-25T20:10:16Z｜返台後找不到知心朋友？給海歸女性的圈子重組策略，從零重建高品質社交
+
+- 文章 ID：auto-20260425201016-rebuilding-social-circle-taiwan-returnee-women
+- URL：https://tw.elitefasion.com/lifestyle-culture/rebuilding-social-circle-taiwan-returnee-women.html
+- 檔案：lifestyle-culture/rebuilding-social-circle-taiwan-returnee-women.html
+- 類型：queue
+- Queue：Q-0002
+
 ## 2026-04-25T19:28:17Z｜返台、離婚、重啟：給海歸中年女性的第一個 90 天穩定清單
 
 - 文章 ID：auto-20260425192817-return-divorce-restart-90-day-checklist
