@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-26T01:26:44Z",
+  "updatedAt": "2026-04-26T04:51:47Z",
   "nextQueueSequence": 13,
   "series": [
     {
@@ -167,7 +167,7 @@
       "topic": "中年離婚大型企業高管女性如何學會一個人生活",
       "direction": "聚焦高階主管在高責任工作下的離婚後生活重整，關注形象壓力、孤獨、界線感與高效但不失溫度的日常。",
       "plannedCount": 3,
-      "status": "planned",
+      "status": "in_progress",
       "createdAt": "2026-04-25T16:36:17Z",
       "seriesName": "從高階到自處：離婚後的高管女性一人生活重整指南",
       "items": [
@@ -179,9 +179,11 @@
           "category": "lifestyle-culture",
           "series": "從高階到自處：離婚後的高管女性一人生活重整指南",
           "ctaHint": "閱讀本系列第2篇：一人生活的每週日常清單（含形象與時間管理）",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260426045147-離婚後的第一步-高階主管如何評估優先順序與建立可控日常",
+          "file": "lifestyle-culture/離婚後的第一步-高階主管如何評估優先順序與建立可控日常.html",
+          "topic": "中年離婚大型企業高管女性如何學會一個人生活",
+          "publishedAt": "2026-04-26T04:51:47Z"
         },
         {
           "order": 2,
