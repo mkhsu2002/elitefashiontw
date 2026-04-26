@@ -24,14 +24,14 @@
 
 ## Q-0003｜中年離婚創業女性如何學會一個人生活
 
-- 狀態：in_progress
+- 狀態：completed
 - 規劃篇數：3
 - 補充方向：聚焦公司經營與個人生活並行的創業女性，關注關係切割、時間治理、信任重建與高壓下的生活秩序。
 - 建立時間：2026-04-25T16:35:51Z
 
 1. 離婚後想創業？先釐清的 7 個生活與事業優先順序｜published｜剛結束婚姻關係、還在評估是否要創業或重返職場的中年女性｜lifestyle-culture｜文章 ID：auto-20260425222225-midlife-divorce-entrepreneur-priority｜檔案：lifestyle-culture/midlife-divorce-entrepreneur-priority.html
 2. 一個人也能有秩序：創業女性的每日時間治理與家務外包策略｜published｜已開始或即將經營小型公司、需兼顧家務與照護責任的獨立創業女性｜lifestyle-culture｜文章 ID：auto-20260425232621-solopreneur-daily-rhythm-outsourcing-strategy｜檔案：lifestyle-culture/solopreneur-daily-rhythm-outsourcing-strategy.html
-3. 重建信任與商業網絡：中年創業女性的客戶、夥伴與私人關係地圖｜planned｜已具備基本業務運作，想擴大市場、尋求合作或重建社交圈的中年創業女性｜lifestyle-culture
+3. 重建信任與商業網絡：中年創業女性的客戶、夥伴與私人關係地圖｜published｜已具備基本業務運作，想擴大市場、尋求合作或重建社交圈的中年創業女性｜lifestyle-culture｜文章 ID：auto-20260426012644-trust-network-women-entrepreneur｜檔案：lifestyle-culture/trust-network-women-entrepreneur.html
 
 ## Q-0004｜中年離婚大型企業高管女性如何學會一個人生活
 

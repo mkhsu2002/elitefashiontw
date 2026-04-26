@@ -1,5 +1,13 @@
 # 發文紀錄
 
+## 2026-04-26T01:26:44Z｜重建信任與商業網絡：中年創業女性的客戶、夥伴與私人關係地圖
+
+- 文章 ID：auto-20260426012644-trust-network-women-entrepreneur
+- URL：https://tw.elitefasion.com/lifestyle-culture/trust-network-women-entrepreneur.html
+- 檔案：lifestyle-culture/trust-network-women-entrepreneur.html
+- 類型：queue
+- Queue：Q-0003
+
 ## 2026-04-25T23:26:21Z｜一個人也能有秩序：創業女性的每日時間治理與家務外包策略
 
 - 文章 ID：auto-20260425232621-solopreneur-daily-rhythm-outsourcing-strategy
