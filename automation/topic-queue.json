@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-26T04:51:47Z",
+  "updatedAt": "2026-05-02T20:11:20Z",
   "nextQueueSequence": 13,
   "series": [
     {
@@ -193,9 +193,11 @@
           "category": "lifestyle-culture",
           "series": "從高階到自處：離婚後的高管女性一人生活重整指南",
           "ctaHint": "閱讀本系列第3篇：重建社交、界線與再戀愛準備的實務策略",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260502201120-一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作",
+          "file": "lifestyle-culture/一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作.html",
+          "topic": "中年離婚大型企業高管女性如何學會一個人生活",
+          "publishedAt": "2026-05-02T20:11:20Z"
         },
         {
           "order": 3,

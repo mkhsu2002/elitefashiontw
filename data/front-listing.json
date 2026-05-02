@@ -1,23 +1,24 @@
 {
-  "updatedAt": "2026-04-26T04:51:47Z",
+  "updatedAt": "2026-05-02T20:11:20Z",
   "latest": [
     {
-      "id": "auto-20260426045147-離婚後的第一步-高階主管如何評估優先順序與建立可控日常",
-      "title": "離婚後的第一步，高階主管如何評估優先順序並建立可控日常",
-      "excerpt": "情緒、工作、法律、財務、形象、隱私，六個面向的評估架構，幫助高壓職場女性在分裂期保有決策能力。",
+      "id": "auto-20260502201120-一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作",
+      "title": "一人生活的週清單：給女高管的形象、居家與時間管理",
+      "excerpt": "一份可立刻上手的週計畫，涵蓋膠囊衣櫥、會議日常、出差包與夜間恢復，幫妳在最少時間內重建穩定感。",
       "category": "lifestyle-culture",
       "categoryLabel": "生活品味",
       "series": "從高階到自處：離婚後的高管女性一人生活重整指南",
-      "publishedAt": "2026-04-26T04:51:47Z",
-      "publishedDateText": "2026年4月26日",
-      "relativeUrl": "lifestyle-culture/離婚後的第一步-高階主管如何評估優先順序與建立可控日常.html",
-      "heroImage": "images/generated/lifestyle/home-sanctuary.png",
+      "publishedAt": "2026-05-02T20:11:20Z",
+      "publishedDateText": "2026年5月2日",
+      "relativeUrl": "lifestyle-culture/一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作.html",
+      "heroImage": "images/generated/lifestyle/life-sovereignty.jpg",
       "tags": [
-        "離婚生活重建",
-        "高階主管",
-        "熟齡女性",
-        "情緒管理",
-        "優先順序"
+        "一人生活",
+        "中年女性",
+        "離婚恢復",
+        "時間管理",
+        "高管形象",
+        "膠囊衣櫥"
       ]
     },
     {
@@ -27,8 +28,8 @@
       "category": "casual-chic",
       "categoryLabel": "休閒時尚",
       "series": "休閒時尚",
-      "publishedAt": "2026-04-26T04:46:58Z",
-      "publishedDateText": "2026年4月26日",
+      "publishedAt": "2026-05-02T20:07:12Z",
+      "publishedDateText": "2026年5月2日",
       "relativeUrl": "casual-chic/world-cup-2026-special.html",
       "heroImage": "images/generated/world-cup/og-special-home.png",
       "tags": [
@@ -49,8 +50,8 @@
       "category": "casual-chic",
       "categoryLabel": "休閒時尚",
       "series": "休閒時尚",
-      "publishedAt": "2026-04-26T04:46:58Z",
-      "publishedDateText": "2026年4月26日",
+      "publishedAt": "2026-05-02T20:07:12Z",
+      "publishedDateText": "2026年5月2日",
       "relativeUrl": "crossbody-bag-style-guide.html",
       "heroImage": "https://elitefasion.com/images/crossbody-bag/hero-main.jpg",
       "tags": [
@@ -69,8 +70,8 @@
       "category": "designer-perspective",
       "categoryLabel": "設計師視角",
       "series": "設計師視角",
-      "publishedAt": "2026-04-26T04:46:58Z",
-      "publishedDateText": "2026年4月26日",
+      "publishedAt": "2026-05-02T20:07:12Z",
+      "publishedDateText": "2026年5月2日",
       "relativeUrl": "designer-perspective/ai-design-renaissance-2026.html",
       "heroImage": "images/generated/designer/ai-design.png",
       "tags": [
@@ -91,8 +92,8 @@
       "category": "designer-perspective",
       "categoryLabel": "設計師視角",
       "series": "設計師視角",
-      "publishedAt": "2026-04-26T04:46:58Z",
-      "publishedDateText": "2026年4月26日",
+      "publishedAt": "2026-05-02T20:07:12Z",
+      "publishedDateText": "2026年5月2日",
       "relativeUrl": "designer-perspective/brand-renewal-art.html",
       "heroImage": "images/generated/designer/craftsmanship.png",
       "tags": [
@@ -112,8 +113,8 @@
       "category": "designer-perspective",
       "categoryLabel": "設計師視角",
       "series": "設計師視角",
-      "publishedAt": "2026-04-26T04:46:58Z",
-      "publishedDateText": "2026年4月26日",
+      "publishedAt": "2026-05-02T20:07:12Z",
+      "publishedDateText": "2026年5月2日",
       "relativeUrl": "designer-perspective/craftsmanship-tech-fusion.html",
       "heroImage": "images/generated/designer/craftsmanship.png",
       "tags": [
@@ -134,8 +135,8 @@
       "category": "designer-perspective",
       "categoryLabel": "設計師視角",
       "series": "設計師視角",
-      "publishedAt": "2026-04-26T04:46:58Z",
-      "publishedDateText": "2026年4月26日",
+      "publishedAt": "2026-05-02T20:07:12Z",
+      "publishedDateText": "2026年5月2日",
       "relativeUrl": "designer-perspective/digital-canvas.html",
       "heroImage": "images/generated/designer/ipad-wacom.png",
       "tags": [
@@ -157,8 +158,8 @@
       "category": "designer-perspective",
       "categoryLabel": "設計師視角",
       "series": "設計師視角",
-      "publishedAt": "2026-04-26T04:46:58Z",
-      "publishedDateText": "2026年4月26日",
+      "publishedAt": "2026-05-02T20:07:12Z",
+      "publishedDateText": "2026年5月2日",
       "relativeUrl": "designer-perspective/digital-craft-designer.html",
       "heroImage": "images/generated/designer/stylist-power.png",
       "tags": [
@@ -179,8 +180,8 @@
       "category": "designer-perspective",
       "categoryLabel": "設計師視角",
       "series": "設計師視角",
-      "publishedAt": "2026-04-26T04:46:58Z",
-      "publishedDateText": "2026年4月26日",
+      "publishedAt": "2026-05-02T20:07:12Z",
+      "publishedDateText": "2026年5月2日",
       "relativeUrl": "designer-perspective/education-roi.html",
       "heroImage": "images/generated/designer/masterclass-domestika.png",
       "tags": [
@@ -202,8 +203,8 @@
       "category": "designer-perspective",
       "categoryLabel": "設計師視角",
       "series": "設計師視角",
-      "publishedAt": "2026-04-26T04:46:58Z",
-      "publishedDateText": "2026年4月26日",
+      "publishedAt": "2026-05-02T20:07:12Z",
+      "publishedDateText": "2026年5月2日",
       "relativeUrl": "designer-perspective/emotional-tailoring-2026.html",
       "heroImage": "images/generated/designer/emotional-tailoring.png",
       "tags": [
@@ -223,8 +224,8 @@
       "category": "designer-perspective",
       "categoryLabel": "設計師視角",
       "series": "設計師視角",
-      "publishedAt": "2026-04-26T04:46:58Z",
-      "publishedDateText": "2026年4月26日",
+      "publishedAt": "2026-05-02T20:07:12Z",
+      "publishedDateText": "2026年5月2日",
       "relativeUrl": "designer-perspective/fashion-photographer-vision.html",
       "heroImage": "images/generated/designer/fashion-photography.png",
       "tags": [
@@ -244,8 +245,8 @@
       "category": "designer-perspective",
       "categoryLabel": "設計師視角",
       "series": "設計師視角",
-      "publishedAt": "2026-04-26T04:46:58Z",
-      "publishedDateText": "2026年4月26日",
+      "publishedAt": "2026-05-02T20:07:12Z",
+      "publishedDateText": "2026年5月2日",
       "relativeUrl": "designer-perspective/minimalist-philosophy.html",
       "heroImage": "images/generated/designer/minimalist-office.png",
       "tags": [
@@ -533,8 +534,8 @@
           "category": "designer-perspective",
           "categoryLabel": "設計師視角",
           "series": "設計師視角",
-          "publishedAt": "2026-04-26T04:46:58Z",
-          "publishedDateText": "2026年4月26日",
+          "publishedAt": "2026-05-02T20:07:12Z",
+          "publishedDateText": "2026年5月2日",
           "relativeUrl": "designer-perspective/ai-design-renaissance-2026.html",
           "heroImage": "images/generated/designer/ai-design.png",
           "tags": [
@@ -555,8 +556,8 @@
           "category": "designer-perspective",
           "categoryLabel": "設計師視角",
           "series": "設計師視角",
-          "publishedAt": "2026-04-26T04:46:58Z",
-          "publishedDateText": "2026年4月26日",
+          "publishedAt": "2026-05-02T20:07:12Z",
+          "publishedDateText": "2026年5月2日",
           "relativeUrl": "designer-perspective/brand-renewal-art.html",
           "heroImage": "images/generated/designer/craftsmanship.png",
           "tags": [
@@ -576,8 +577,8 @@
           "category": "designer-perspective",
           "categoryLabel": "設計師視角",
           "series": "設計師視角",
-          "publishedAt": "2026-04-26T04:46:58Z",
-          "publishedDateText": "2026年4月26日",
+          "publishedAt": "2026-05-02T20:07:12Z",
+          "publishedDateText": "2026年5月2日",
           "relativeUrl": "designer-perspective/craftsmanship-tech-fusion.html",
           "heroImage": "images/generated/designer/craftsmanship.png",
           "tags": [
@@ -598,8 +599,8 @@
           "category": "designer-perspective",
           "categoryLabel": "設計師視角",
           "series": "設計師視角",
-          "publishedAt": "2026-04-26T04:46:58Z",
-          "publishedDateText": "2026年4月26日",
+          "publishedAt": "2026-05-02T20:07:12Z",
+          "publishedDateText": "2026年5月2日",
           "relativeUrl": "designer-perspective/digital-canvas.html",
           "heroImage": "images/generated/designer/ipad-wacom.png",
           "tags": [
@@ -621,8 +622,8 @@
           "category": "designer-perspective",
           "categoryLabel": "設計師視角",
           "series": "設計師視角",
-          "publishedAt": "2026-04-26T04:46:58Z",
-          "publishedDateText": "2026年4月26日",
+          "publishedAt": "2026-05-02T20:07:12Z",
+          "publishedDateText": "2026年5月2日",
           "relativeUrl": "designer-perspective/digital-craft-designer.html",
           "heroImage": "images/generated/designer/stylist-power.png",
           "tags": [
@@ -643,8 +644,8 @@
           "category": "designer-perspective",
           "categoryLabel": "設計師視角",
           "series": "設計師視角",
-          "publishedAt": "2026-04-26T04:46:58Z",
-          "publishedDateText": "2026年4月26日",
+          "publishedAt": "2026-05-02T20:07:12Z",
+          "publishedDateText": "2026年5月2日",
           "relativeUrl": "designer-perspective/education-roi.html",
           "heroImage": "images/generated/designer/masterclass-domestika.png",
           "tags": [
@@ -671,8 +672,8 @@
           "category": "casual-chic",
           "categoryLabel": "休閒時尚",
           "series": "休閒時尚",
-          "publishedAt": "2026-04-26T04:46:58Z",
-          "publishedDateText": "2026年4月26日",
+          "publishedAt": "2026-05-02T20:07:12Z",
+          "publishedDateText": "2026年5月2日",
           "relativeUrl": "casual-chic/world-cup-2026-special.html",
           "heroImage": "images/generated/world-cup/og-special-home.png",
           "tags": [
@@ -693,8 +694,8 @@
           "category": "casual-chic",
           "categoryLabel": "休閒時尚",
           "series": "休閒時尚",
-          "publishedAt": "2026-04-26T04:46:58Z",
-          "publishedDateText": "2026年4月26日",
+          "publishedAt": "2026-05-02T20:07:12Z",
+          "publishedDateText": "2026年5月2日",
           "relativeUrl": "crossbody-bag-style-guide.html",
           "heroImage": "https://elitefasion.com/images/crossbody-bag/hero-main.jpg",
           "tags": [
@@ -1060,6 +1061,26 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260502201120-一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作",
+          "title": "一人生活的週清單：給女高管的形象、居家與時間管理",
+          "excerpt": "一份可立刻上手的週計畫，涵蓋膠囊衣櫥、會議日常、出差包與夜間恢復，幫妳在最少時間內重建穩定感。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "從高階到自處：離婚後的高管女性一人生活重整指南",
+          "publishedAt": "2026-05-02T20:11:20Z",
+          "publishedDateText": "2026年5月2日",
+          "relativeUrl": "lifestyle-culture/一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作.html",
+          "heroImage": "images/generated/lifestyle/life-sovereignty.jpg",
+          "tags": [
+            "一人生活",
+            "中年女性",
+            "離婚恢復",
+            "時間管理",
+            "高管形象",
+            "膠囊衣櫥"
+          ]
+        },
+        {
           "id": "auto-20260426045147-離婚後的第一步-高階主管如何評估優先順序與建立可控日常",
           "title": "離婚後的第一步，高階主管如何評估優先順序並建立可控日常",
           "excerpt": "情緒、工作、法律、財務、形象、隱私，六個面向的評估架構，幫助高壓職場女性在分裂期保有決策能力。",
@@ -1151,25 +1172,6 @@
             "返台生活",
             "離婚後規劃",
             "女性財務獨立"
-          ]
-        },
-        {
-          "id": "auto-20260425201016-rebuilding-social-circle-taiwan-returnee-women",
-          "title": "返台找不到知心朋友？給海歸女性的圈子重組策略",
-          "excerpt": "從舊人脈盤點到新社群融入，一套專為返台熟齡女性設計的社交重建藍圖。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "返台離婚：海歸熟齡女性的重啟生活手冊",
-          "publishedAt": "2026-04-25T20:10:16Z",
-          "publishedDateText": "2026年4月25日",
-          "relativeUrl": "lifestyle-culture/rebuilding-social-circle-taiwan-returnee-women.html",
-          "heroImage": "images/generated/lifestyle/boutique-hotels.png",
-          "tags": [
-            "熟齡社交",
-            "海歸返台",
-            "一個人生活",
-            "中年離婚",
-            "生活品味"
           ]
         }
       ]
