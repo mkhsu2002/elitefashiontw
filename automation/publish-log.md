@@ -1,5 +1,12 @@
 # 發文紀錄
 
+## 2026-05-05T06:08:25Z｜Petek 科技養寵品牌專案：把餵食、保鮮與飲水整理成更穩定的毛孩日常
+
+- 文章 ID：auto-20260505060825-petek-smart-pet-care-project
+- URL：https://tw.elitefasion.com/ai-innovation/petek-smart-pet-care-project.html
+- 檔案：ai-innovation/petek-smart-pet-care-project.html
+- 類型：manual-brand-project
+
 ## 2026-05-02T20:11:20Z｜一人生活的每週日常清單：高效但有溫度的形象、居家與時間管理實作
 
 - 文章 ID：auto-20260502201120-一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作

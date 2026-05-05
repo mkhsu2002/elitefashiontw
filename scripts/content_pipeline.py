@@ -585,7 +585,8 @@ def render_markdown_body(article: dict[str, Any]) -> str:
     lines.append("")
     lines.append(article["cta"]["text"])
     lines.append("")
-    lines.append(f"[{article['cta']['label']}]({article['cta']['url']})")
+    for link in cta_links(article["cta"]):
+        lines.append(f"- [{link['label']}]({link['url']})")
     lines.append("")
     if article.get("disclaimer"):
         lines.append("## 重要警語")
@@ -607,6 +608,22 @@ def render_bullets(bullets: list[str]) -> str:
             <ul class="article-bullets">
 {items}
             </ul>"""
+
+
+def cta_links(cta: dict[str, Any]) -> list[dict[str, str]]:
+    links = []
+    for item in cta.get("links", []):
+        label = str(item.get("label", "")).strip()
+        url = str(item.get("url", "")).strip()
+        if label and url:
+            links.append({"label": label, "url": url})
+    if links:
+        return links
+    label = str(cta.get("label", "")).strip()
+    url = str(cta.get("url", "")).strip()
+    if label and url:
+        return [{"label": label, "url": url}]
+    return []
 
 
 def render_article_html(article: dict[str, Any], config: dict[str, Any], categories: dict[str, CategoryConfig]) -> str:
@@ -632,6 +649,10 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
 {render_bullets(section.get('bullets', []))}
         </section>"""
         for section in article["sections"]
+    )
+    cta_buttons = "\n".join(
+        f'            <a href="{html.escape(link["url"])}">{html.escape(link["label"])}</a>'
+        for link in cta_links(article["cta"])
     )
     canonical = article["url"]
     hero_image = article["heroImage"]
@@ -780,6 +801,15 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
             text-decoration: none;
             border-radius: 999px;
         }}
+        .article-cta-links {{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 16px;
+        }}
+        .article-cta-links a {{
+            margin-top: 0;
+        }}
     </style>
     <script type="application/ld+json">{json.dumps(article_schema, ensure_ascii=False)}</script>
     <script type="application/ld+json">{json.dumps(faq_schema, ensure_ascii=False)}</script>
@@ -838,7 +868,9 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         <section class="article-cta">
             <h2>下一步建議</h2>
             <p>{html.escape(article['cta']['text'])}</p>
-            <a href="{html.escape(article['cta']['url'])}">{html.escape(article['cta']['label'])}</a>
+            <div class="article-cta-links">
+{cta_buttons}
+            </div>
         </section>
 {disclaimer_html}
     </main>
