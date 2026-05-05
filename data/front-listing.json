@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-05-05T06:10:57Z",
+  "updatedAt": "2026-05-05T06:22:32Z",
   "latest": [
+    {
+      "id": "auto-20260505062232-arsenal-mit-japan-stainless-scissors-project",
+      "title": "ARSENAL 愛森諾：把日本不鏽鋼與 MIT 製造變成更好用的日常剪刀",
+      "excerpt": "從廚房、居家到事務用途，剪刀不是配角。這篇推薦文整理 ARSENAL 愛森諾三款主力剪，幫你挑到更順手的日常工具。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "ARSENAL 愛森諾品牌專案",
+      "publishedAt": "2026-05-05T06:22:32Z",
+      "publishedDateText": "2026年5月5日",
+      "relativeUrl": "lifestyle-culture/arsenal-mit-japan-stainless-scissors-project.html",
+      "heroImage": "images/generated/designer/craftsmanship.png",
+      "tags": [
+        "ARSENAL 愛森諾",
+        "日本不鏽鋼",
+        "MIT 台灣製造",
+        "家用剪刀",
+        "廚房剪"
+      ]
+    },
     {
       "id": "auto-20260505060825-petek-smart-pet-care-project",
       "title": "Petek 科技養寵：把餵食、保鮮與飲水整理成更穩定的毛孩日常",
@@ -207,24 +226,6 @@
         "溫哥華買房",
         "多倫多房市",
         "生活品味"
-      ]
-    },
-    {
-      "id": "auto-20260425190623-world-cup-2026-travel-prep-for-over40",
-      "title": "2026 世足賽，熟齡旅人現在能做的 4 種旅行準備",
-      "excerpt": "從城市挑選、票價節奏到長途移動的舒適度，這是給熟齡讀者的北美旅行決策架構。",
-      "category": "outdoor-escapes",
-      "categoryLabel": "戶外生活",
-      "series": "2026 年世足賽生活對策",
-      "publishedAt": "2026-04-25T19:06:23Z",
-      "publishedDateText": "2026年4月25日",
-      "relativeUrl": "outdoor-escapes/world-cup-2026-travel-prep-for-over40.html",
-      "heroImage": "images/generated/outdoor-1.png",
-      "tags": [
-        "2026 世足賽",
-        "熟齡旅行",
-        "北美自助",
-        "大型賽事攻略"
       ]
     }
   ],
@@ -1023,6 +1024,25 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260505062232-arsenal-mit-japan-stainless-scissors-project",
+          "title": "ARSENAL 愛森諾：把日本不鏽鋼與 MIT 製造變成更好用的日常剪刀",
+          "excerpt": "從廚房、居家到事務用途，剪刀不是配角。這篇推薦文整理 ARSENAL 愛森諾三款主力剪，幫你挑到更順手的日常工具。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "ARSENAL 愛森諾品牌專案",
+          "publishedAt": "2026-05-05T06:22:32Z",
+          "publishedDateText": "2026年5月5日",
+          "relativeUrl": "lifestyle-culture/arsenal-mit-japan-stainless-scissors-project.html",
+          "heroImage": "images/generated/designer/craftsmanship.png",
+          "tags": [
+            "ARSENAL 愛森諾",
+            "日本不鏽鋼",
+            "MIT 台灣製造",
+            "家用剪刀",
+            "廚房剪"
+          ]
+        },
+        {
           "id": "auto-20260502201120-一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作",
           "title": "一人生活的週清單：給女高管的形象、居家與時間管理",
           "excerpt": "一份可立刻上手的週計畫，涵蓋膠囊衣櫥、會議日常、出差包與夜間恢復，幫妳在最少時間內重建穩定感。",
@@ -1115,25 +1135,6 @@
             "生活整理",
             "中年離婚",
             "第二人生"
-          ]
-        },
-        {
-          "id": "auto-20260425202627-divorcee-return-taiwan-career-income-plan",
-          "title": "離婚返台後，如何為自己規劃工作與收入？",
-          "excerpt": "比較四種工作模式、盤點你的技能與台灣職場文化差異，找出最適合你的第二曲線起點。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "返台離婚：海歸熟齡女性的重啟生活手冊",
-          "publishedAt": "2026-04-25T20:26:27Z",
-          "publishedDateText": "2026年4月25日",
-          "relativeUrl": "lifestyle-culture/divorcee-return-taiwan-career-income-plan.html",
-          "heroImage": "images/generated/life-proposals/social-energy-management.png",
-          "tags": [
-            "熟齡職涯",
-            "第二曲線",
-            "返台生活",
-            "離婚後規劃",
-            "女性財務獨立"
           ]
         }
       ]
