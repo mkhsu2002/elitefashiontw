@@ -28,6 +28,7 @@ TOP_LEVEL_NON_ARTICLE_PAGES = {
     "404.html",
     "about.html",
     "all-articles.html",
+    "ai-work-reset-45.html",
     "ai-innovation.html",
     "casual-chic.html",
     "contact.html",
