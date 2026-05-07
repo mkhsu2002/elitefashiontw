@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-07T20:47:49Z",
+  "updatedAt": "2026-05-07T22:03:07Z",
   "latest": [
     {
       "id": "legacy-casual-chic-world-cup-2026-special-html",
@@ -413,8 +413,8 @@
         },
         {
           "id": "legacy-runway-trends-silver-power-runway-2026-html",
-          "title": "2026 銀髮力量席捲秀場：為何『年齡主權』成為奢侈品牌最新的權威標籤？",
-          "excerpt": "2026 時尚趨勢深度報告：銀髮力量的崛起。Elite Fashion 為您解析熟齡模特如何重塑奢侈品價值體系，以及這場『無齡化運動』對現代精英女性的深遠啟示。",
+          "title": "熟齡風格走上秀場：銀髮、線條與年齡感如何成為美的一部分",
+          "excerpt": "2026 時尚趨勢深度報告：銀髮力量的崛起。Elite Fashion 為您解析熟齡模特如何重塑奢侈品價值體系，以及這場『無齡化運動』對現代熟齡女性的深遠啟示。",
           "category": "runway-trends",
           "categoryLabel": "秀場趨勢",
           "series": "秀場趨勢",
@@ -436,7 +436,7 @@
         {
           "id": "legacy-runway-trends-quiet-luxury-evolution-2026-html",
           "title": "2026 靜奢風 2.0 演進：為什麼情緒價值是當代精英的最後奢華？",
-          "excerpt": "解析 2026 年時尚關鍵字：靜奢風 2.0。Elite Fashion 為您解析極簡主義如何從視覺符號進化為追求情緒價值的精英生活態度。探索 Loro Piana 與 The Row 的情感深度。",
+          "excerpt": "解析 2026 年靜奢風 2.0 如何回到材質、輪廓、低維護與日常安定感，整理熟齡女性更容易落地的穿搭方向。",
           "category": "runway-trends",
           "categoryLabel": "秀場趨勢",
           "series": "秀場趨勢",
@@ -876,8 +876,8 @@
         },
         {
           "id": "legacy-wellness-movement-sarcopenia-prevention-html",
-          "title": "2026 肌少症防護協議：將『肌肉量』轉化為終身生理財富的絕對主權",
-          "excerpt": "深入探索 2026 肌少症防護與長壽資產趨勢。Elite Fashion 為您解析從單純鍛鍊到「肌肉主權協議」的權威演進，探討肌肉密度如何成為精英階層的生命護城河。",
+          "title": "40+ 肌力與行動力指南：先保住日常能走能站的底氣",
+          "excerpt": "整理 40+ 熟齡女性的肌力與行動力觀念，從低門檻阻力訓練、蛋白質、步行與恢復日開始，避免把肌少症預防寫成高壓健身挑戰。",
           "category": "wellness-movement",
           "categoryLabel": "健康恢復",
           "series": "健康恢復",
@@ -886,20 +886,19 @@
           "relativeUrl": "wellness-movement/sarcopenia-prevention.html",
           "heroImage": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&h=800&fit=crop",
           "tags": [
-            "肌少症 2026",
-            "肌肉量主權",
-            "長壽資產管理",
-            "台北銀髮財富",
-            "肌肉密度協議",
-            "生理護城河",
-            "Dcard 健康老化討論",
-            "肌肉權威"
+            "肌少症",
+            "40+ 肌力",
+            "熟齡女性運動",
+            "行動力",
+            "阻力訓練",
+            "步行",
+            "蛋白質"
           ]
         },
         {
           "id": "legacy-wellness-movement-recovery-tech-html",
-          "title": "2026 恢復科技主權協議：打造『神經肌肉重置』的絕對生理主動權",
-          "excerpt": "深入探索 2026 恢復科技趨勢。Elite Fashion 為您解析從單純按摩槍到「全方位神經修復協議」的權威演進，探討筋膜主權如何成為精英階層的生產力底層。",
+          "title": "旅行與久坐後的恢復科技：按摩槍、伸展與 48 小時修復節奏",
+          "excerpt": "整理旅行、久坐與肩頸疲勞後的恢復科技使用方式，包含按摩槍、伸展、補水、睡眠與移動後 48 小時恢復節奏。",
           "category": "wellness-movement",
           "categoryLabel": "健康恢復",
           "series": "健康恢復",
@@ -908,14 +907,12 @@
           "relativeUrl": "wellness-movement/recovery-tech.html",
           "heroImage": "images/generated/wellness/recovery-tech-og.png",
           "tags": [
-            "Theragun Pro 2026",
-            "Hyperice 科技",
-            "恢復科技主權",
-            "筋膜槍評測",
-            "台北企業運動員",
-            "神經肌肉重置",
-            "Dcard 科技頸討論",
-            "恢復權威"
+            "恢復科技",
+            "按摩槍",
+            "旅行疲勞",
+            "肩頸放鬆",
+            "久坐恢復",
+            "熟齡健康恢復"
           ]
         }
       ]
