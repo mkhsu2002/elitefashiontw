@@ -20,6 +20,7 @@
 - 2026-05-07：先對 4 篇標記為 `刪除` 的低價值頁加入 `noindex, follow`，並更新同步與 sitemap 產生邏輯，使 noindex 頁不再進入 `data/articles-index.json`、`data/search-index.json`、`all-articles.html` 與 `sitemap.xml`。
 - 2026-05-07：`high-performance.html` 與 `high-performance/` 3 篇舊專題改為 `noindex, follow`，頁面保留站內可讀性與 follow link，並導回 `ai-innovation`、`wellness-movement`、`mature-life-reset.html` 三個較符合現行定位的 owner。
 - 2026-05-07：第一批 owner-linked legacy 文章完成標題、首屏與 CTA 文案降噪，先處理健康恢復、春夏衣櫥與趨勢轉譯相關高曝光頁。
+- 2026-05-07：第一批 YMYL 頁面補上可見健康／財務內容提示，避免醫療、投資、保險與稅務內容被誤讀為個人化專業建議。
 - 本次沒有刪除檔案，也沒有設定 301；若後續 Search Console / GA4 / 外鏈檢查確認無殘值，再決定是否正式刪除或 redirect。
 
 ## AI 與職涯重整

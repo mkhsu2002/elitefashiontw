@@ -747,6 +747,22 @@ ul {
     color: #333;
 }
 
+.ymyl-note {
+    border-left: 4px solid #c5a059;
+    background: #fbf8f1;
+    color: #3f3a32;
+    padding: 1rem 1.25rem;
+    margin: 1.75rem 0 2.25rem;
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+.ymyl-note strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: #1f1c17;
+}
+
 /* Drop Cap Styling */
 .drop-cap {
     position: relative;
