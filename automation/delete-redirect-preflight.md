@@ -21,10 +21,10 @@
 
 ## 本地站內引用檢查
 
-仍有站內連結指向 4 個刪除候選頁，正式刪除前必須先改內鏈：
+2026-05-07 更新：第一批站內連結已清理，正常索引頁面不再導向 4 個刪除候選頁。
 
-- `lifestyle-culture.html` 仍連到 `one-hour-useless-time.html`、`mindfulness-in-chores.html`、`40-body-revolution.html`、`art-of-scarves.html`。
-- 多篇 `life-proposals/` 文章的推薦閱讀仍連到上述 4 頁，包括 `housewife-worth-not-clean-floor.html`、`joint-health-travel.html`、`marriage-reset-empty-nest.html`、`money-minimalism-abundance.html`、`signature-scent-fragrance.html`、`social-energy-management.html`、`vintage-sustainable-fashion.html` 等。
+- `lifestyle-culture.html` 原本連到 `one-hour-useless-time.html`、`mindfulness-in-chores.html`、`40-body-revolution.html`、`art-of-scarves.html`，已改導 `mature-life-reset.html`、`body-rhythm-reset.html`、`spring-summer-capsule-wardrobe.html` 等 owner 頁。
+- 多篇 `life-proposals/` 文章的推薦閱讀已改導 owner 頁或保留可用替代頁，並同步移除舊公式化推薦文字。
 - `high-performance.html` 仍連到三篇 high-performance 子頁；這是舊專題內部保留路徑，若未來要刪子頁，需同步改 hub 卡片。
 
 ## 外部資料待查
