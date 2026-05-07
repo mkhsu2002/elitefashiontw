@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLISH_LOG_PATH = ROOT / "automation" / "publish-log.json"
 GENERATED_ARTICLES_DIR = ROOT / "automation" / "articles"
 SITE_CONFIG_PATH = ROOT / "automation" / "site-config.json"
+ARTICLES_INDEX_PATH = ROOT / "data" / "articles-index.json"
 DEFAULT_WORKSHEET = "Taiwan"
 HEADERS = [
     "article_id",
@@ -106,6 +107,12 @@ def load_article_detail(article_id: str) -> dict[str, Any]:
     return load_json(article_path, {})
 
 
+def load_articles_index_items() -> list[dict[str, Any]]:
+    payload = load_json(ARTICLES_INDEX_PATH, {})
+    items = payload.get("items", []) if isinstance(payload, dict) else []
+    return [item for item in items if isinstance(item, dict)]
+
+
 def build_sheet_entry(entry: dict[str, Any], site_config: dict[str, Any]) -> dict[str, str]:
     article_id = str(entry.get("articleId", "") or "")
     article_detail = load_article_detail(article_id)
@@ -135,6 +142,34 @@ def build_sheet_entry(entry: dict[str, Any], site_config: dict[str, Any]) -> dic
         "site_url": str(site_config.get("baseUrl", "")),
         "status": "published",
         "notes": notes,
+    }
+
+
+def build_sheet_entry_from_index_item(item: dict[str, Any], site_config: dict[str, Any]) -> dict[str, str]:
+    article_id = str(item.get("id", "") or "")
+    file_path = str(item.get("file", "") or item.get("relativeUrl", "") or "")
+    source_type = str(item.get("sourceType", "") or "")
+    is_generated = source_type == "generated"
+    queue_id = str(item.get("queueId", "") or "")
+    trigger_type = "queue" if queue_id else ("generated-backfill" if is_generated else "legacy-backfill")
+
+    return {
+        "article_id": article_id,
+        "slug": str(item.get("slug", "") or Path(file_path).stem),
+        "title": str(item.get("title", "") or ""),
+        "live_url": str(item.get("url", "") or ""),
+        "path": file_path,
+        "category": str(item.get("category", "") or ""),
+        "series": str(item.get("series", "") or ""),
+        "published_at": str(item.get("publishedAt", "") or ""),
+        "queue_id": queue_id,
+        "trigger_type": trigger_type,
+        "provider": "",
+        "model": "",
+        "site_name": str(site_config.get("siteName", "Elite Fashion")),
+        "site_url": str(site_config.get("baseUrl", "")),
+        "status": str(item.get("status", "") or "published"),
+        "notes": source_type or "legacy",
     }
 
 
@@ -184,6 +219,11 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Log content publish-log entry to Google Sheets.")
     parser.add_argument("--article-id", help="Specific articleId to sync. Defaults to latest entry.")
     parser.add_argument("--all", action="store_true", help="Sync all publish-log entries that are not yet in the worksheet.")
+    parser.add_argument(
+        "--all-site-articles",
+        action="store_true",
+        help="Sync all site articles from data/articles-index.json that are not yet in the worksheet.",
+    )
     args = parser.parse_args()
 
     publish_log = load_json(PUBLISH_LOG_PATH, {"entries": []})
@@ -195,6 +235,28 @@ def main() -> int:
     site_config = load_json(SITE_CONFIG_PATH, {})
     worksheet = get_worksheet(site_config)
     if worksheet is None:
+        return 0
+
+    if args.all_site_articles:
+        existing_ids = set(worksheet.col_values(1)[1:])
+        synced = 0
+        skipped = 0
+        for item in reversed(load_articles_index_items()):
+            article_id = str(item.get("id", "") or "")
+            if not article_id:
+                skipped += 1
+                continue
+            if article_id in existing_ids:
+                skipped += 1
+                continue
+            worksheet.append_row(
+                normalize_entry(build_sheet_entry_from_index_item(item, site_config)),
+                value_input_option="RAW",
+            )
+            print(f"Logged article to Google Sheets: {article_id}")
+            existing_ids.add(article_id)
+            synced += 1
+        print(f"Full-site backfill complete: synced={synced}, skipped={skipped}")
         return 0
 
     if args.all:

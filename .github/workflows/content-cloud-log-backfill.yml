@@ -23,7 +23,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install gspread
 
-      - name: Backfill Publish Log To Google Sheets
+      - name: Backfill Full Site Articles To Google Sheets
         env:
           CI_STRICT_GOOGLE_SHEETS: "true"
           GOOGLE_SHEETS_SPREADSHEET_ID: ${{ secrets.GOOGLE_SHEETS_SPREADSHEET_ID }}
@@ -31,4 +31,4 @@ jobs:
           GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON_BASE64: ${{ secrets.GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON_BASE64 }}
           GOOGLE_SHEETS_WORKSHEET_TITLE: Taiwan
         run: |
-          python3 scripts/log_article_to_google_sheets.py --all
+          python3 scripts/log_article_to_google_sheets.py --all-site-articles
