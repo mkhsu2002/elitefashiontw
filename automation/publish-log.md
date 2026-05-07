@@ -1,5 +1,12 @@
 # 發文紀錄
 
+## 2026-05-07T18:00:55Z｜春夏換季，熟齡女性的夜間降溫儀式：睡好、不靠藥、不心煩
+
+- 文章 ID：auto-20260507180055-mature-women-spring-summer-cooling-sleep
+- URL：https://tw.elitefasion.com/wellness-movement/mature-women-spring-summer-cooling-sleep.html
+- 檔案：wellness-movement/mature-women-spring-summer-cooling-sleep.html
+- 類型：direct
+
 ## 2026-05-06T05:39:20Z｜中年離職場，不離自己的標準：高管女性離婚後的關係重置與社交再造
 
 - 文章 ID：auto-20260506053920-high-level-female-executive-post-divorce-social-reconstruction
