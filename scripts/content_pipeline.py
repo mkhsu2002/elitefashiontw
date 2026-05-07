@@ -17,7 +17,7 @@ import urllib.parse
 import urllib.request
 from collections import Counter
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -240,6 +240,61 @@ def extract_first_paragraph(content: str) -> str:
     return strip_tags(match.group(1)) if match else ""
 
 
+def extract_visible_published_time(content: str) -> str:
+    datetime_match = re.search(r'<time[^>]+datetime="([^"]+)"', content, flags=re.I)
+    if datetime_match:
+        raw = html.unescape(datetime_match.group(1)).strip()
+        try:
+            return datetime.fromisoformat(raw.replace("Z", "+00:00")).replace(
+                microsecond=0
+            ).isoformat()
+        except ValueError:
+            pass
+
+    taipei_tz = timezone(timedelta(hours=8))
+    chinese_match = re.search(r"(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日", content)
+    if chinese_match:
+        year, month, day = (int(part) for part in chinese_match.groups())
+        return datetime(year, month, day, tzinfo=taipei_tz).isoformat()
+
+    month_names = {
+        "jan": 1,
+        "january": 1,
+        "feb": 2,
+        "february": 2,
+        "mar": 3,
+        "march": 3,
+        "apr": 4,
+        "april": 4,
+        "may": 5,
+        "jun": 6,
+        "june": 6,
+        "jul": 7,
+        "july": 7,
+        "aug": 8,
+        "august": 8,
+        "sep": 9,
+        "sept": 9,
+        "september": 9,
+        "oct": 10,
+        "october": 10,
+        "nov": 11,
+        "november": 11,
+        "dec": 12,
+        "december": 12,
+    }
+    english_match = re.search(
+        r"\b([A-Za-z]{3,9})\.?\s+(\d{1,2}),\s*(\d{4})\b", content
+    )
+    if english_match:
+        month_raw, day_raw, year_raw = english_match.groups()
+        month = month_names.get(month_raw.lower())
+        if month:
+            return datetime(int(year_raw), month, int(day_raw), tzinfo=taipei_tz).isoformat()
+
+    return ""
+
+
 def normalize_for_similarity(value: str) -> str:
     value = value.lower()
     value = re.sub(r"\d{4}", "", value)
@@ -452,6 +507,13 @@ def estimate_read_time(content: str) -> int:
 def scan_legacy_articles(config: dict[str, Any], categories: dict[str, CategoryConfig]) -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
     base_url = config["baseUrl"]
+    existing_index = load_json(ROOT / config["paths"]["articlesIndexJson"], default={})
+    existing_items = existing_index.get("items", []) if isinstance(existing_index, dict) else []
+    existing_published_by_path = {
+        item.get("relativeUrl"): item.get("publishedAt")
+        for item in existing_items
+        if item.get("relativeUrl") and item.get("publishedAt")
+    }
     for html_path in sorted(ROOT.rglob("*.html")):
         rel_path = relative_to_root(html_path)
         if rel_path.startswith(".git/"):
@@ -468,6 +530,10 @@ def scan_legacy_articles(config: dict[str, Any], categories: dict[str, CategoryC
         keywords = extract_meta(content, "keywords")
         tags = [item.strip() for item in keywords.split(",") if item.strip()]
         published = extract_meta(content, "article:published_time", property_mode=True)
+        if not published:
+            published = existing_published_by_path.get(rel_path, "")
+        if not published:
+            published = extract_visible_published_time(content)
         if not published:
             published = datetime.fromtimestamp(html_path.stat().st_mtime, tz=timezone.utc).replace(
                 microsecond=0
