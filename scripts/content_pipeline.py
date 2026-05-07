@@ -660,6 +660,11 @@ def render_markdown_body(article: dict[str, Any]) -> str:
         for item in article["extendedReading"]:
             lines.append(f"- [{item['title']}]({item['url']})")
         lines.append("")
+    if has_affiliate_cta(article):
+        lines.append("## 導購揭露")
+        lines.append("")
+        lines.append(AFFILIATE_DISCLOSURE_COPY)
+        lines.append("")
     lines.append("## CTA")
     lines.append("")
     lines.append(article["cta"]["text"])
@@ -705,6 +710,27 @@ def cta_links(cta: dict[str, Any]) -> list[dict[str, str]]:
     return []
 
 
+AFFILIATE_DISCLOSURE_COPY = (
+    "本文含品牌／商品導購連結；若你透過部分商品連結前往選購，"
+    "Elite Fashion 可能取得合作收益。本文仍以編輯判斷與使用情境整理為主，"
+    "價格、規格、活動與庫存請以商品頁公告為準。"
+)
+
+
+def is_affiliate_url(url: str) -> bool:
+    return url.startswith("https://www.icareushop.com.tw/")
+
+
+def has_affiliate_cta(article: dict[str, Any]) -> bool:
+    return any(is_affiliate_url(link["url"]) for link in cta_links(article.get("cta", {})))
+
+
+def cta_link_attrs(url: str) -> str:
+    if is_affiliate_url(url):
+        return ' target="_blank" rel="sponsored nofollow noopener noreferrer"'
+    return ""
+
+
 def render_article_html(article: dict[str, Any], config: dict[str, Any], categories: dict[str, CategoryConfig]) -> str:
     category = categories.get(article["category"])
     category_label = category.label if category else article["category"]
@@ -730,7 +756,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         for section in article["sections"]
     )
     cta_buttons = "\n".join(
-        f'            <a href="{html.escape(link["url"])}">{html.escape(link["label"])}</a>'
+        f'            <a href="{html.escape(link["url"])}"{cta_link_attrs(link["url"])}>{html.escape(link["label"])}</a>'
         for link in cta_links(article["cta"])
     )
     canonical = article["url"]
@@ -771,6 +797,13 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         <section class="article-cta">
             <h2>重要警語</h2>
             <p>{html.escape(article['disclaimer'])}</p>
+        </section>"""
+    disclosure_html = ""
+    if has_affiliate_cta(article):
+        disclosure_html = f"""
+        <section class="article-disclosure" aria-label="導購揭露">
+            <strong>導購揭露</strong>
+            <p>{html.escape(AFFILIATE_DISCLOSURE_COPY)}</p>
         </section>"""
     return f"""<!DOCTYPE html>
 <html lang="zh-TW">
@@ -889,6 +922,23 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         .article-cta-links a {{
             margin-top: 0;
         }}
+        .article-disclosure {{
+            margin: 1.5rem 0 2.4rem;
+            padding: 16px 18px;
+            border-left: 4px solid #c5a059;
+            background: #fbf8f1;
+            color: #3f3a32;
+            font-size: 0.95rem;
+            line-height: 1.75;
+        }}
+        .article-disclosure strong {{
+            display: block;
+            margin-bottom: 0.35rem;
+            color: #1f1c17;
+        }}
+        .article-disclosure p {{
+            margin: 0;
+        }}
     </style>
     <script type="application/ld+json">{json.dumps(article_schema, ensure_ascii=False)}</script>
     <script type="application/ld+json">{json.dumps(faq_schema, ensure_ascii=False)}</script>
@@ -929,6 +979,8 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         </header>
 
         <img src="{html.escape(hero_image_tag_src)}" alt="{html.escape(article['title'])}" class="hero-img">
+
+        {disclosure_html}
 
         {section_html}
 

@@ -81,6 +81,10 @@ ARSENAL 愛森諾這次最清楚的主訴求，就是『嚴選日本不鏽鋼，
 - [瀏覽更多生活品味文章](/lifestyle-culture.html)
 - [加拿大買房入門：先搞懂城市、稅制與置產決策節奏](/lifestyle-culture/canada-real-estate-for-taiwanese-beginners.html)
 
+## 導購揭露
+
+本文含品牌／商品導購連結；若你透過部分商品連結前往選購，Elite Fashion 可能取得合作收益。本文仍以編輯判斷與使用情境整理為主，價格、規格、活動與庫存請以商品頁公告為準。
+
 ## CTA
 
 如果你想直接查看 ARSENAL 愛森諾這次推薦的三個核心品項，下面可以分別進到萬用、廚房與事務用途的官方商品頁。

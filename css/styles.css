@@ -763,6 +763,29 @@ ul {
     color: #1f1c17;
 }
 
+.affiliate-disclosure,
+.article-disclosure {
+    border-left: 4px solid #c5a059;
+    background: #fbf8f1;
+    color: #3f3a32;
+    padding: 1rem 1.25rem;
+    margin: 1.75rem 0 2.25rem;
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+.affiliate-disclosure strong,
+.article-disclosure strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: #1f1c17;
+}
+
+.affiliate-disclosure p,
+.article-disclosure p {
+    margin: 0;
+}
+
 /* Drop Cap Styling */
 .drop-cap {
     position: relative;
