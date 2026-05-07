@@ -42,6 +42,7 @@ TOP_LEVEL_NON_ARTICLE_PAGES = {
     "body-rhythm-reset.html",
     "spring-summer-capsule-wardrobe.html",
     "spring-summer-2026.html",
+    "trend-translation-2026.html",
     "mature-life-reset.html",
     "wellness-movement.html",
 }

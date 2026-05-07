@@ -50,7 +50,8 @@
 - `body-rhythm-reset.html` 是熟齡健康恢復與身體節奏 owner page，承接春夏熱感、睡眠、更年期、肌力、低壓運動與旅行疲勞恢復內容。
 - `ai-work-reset-45.html` 是 45+ AI 工作重整 owner page，承接 AI 入門、辦公室協作、履歷面試、第二曲線、副業測試與薪資談判內容。
 - `spring-summer-capsule-wardrobe.html` 是春夏旅行膠囊衣櫥 owner page，承接旅行穿搭、少量多搭、舒適鞋包、身型比例與春夏配件內容。
-- 新增春夏、人生重整、健康恢復、AI 工作或穿搭衣櫥文章時，至少應連回上述 owner page 之一，並依文章主題再連到對應分類頁。
+- `trend-translation-2026.html` 是 2026 春夏趨勢轉譯 owner page，承接色彩、白色、材質、靜奢、配件與個人風格篩選內容。
+- 新增春夏、人生重整、健康恢復、AI 工作、穿搭衣櫥或趨勢轉譯文章時，至少應連回上述 owner page 之一，並依文章主題再連到對應分類頁。
 
 ## CTA 原則
 - CTA 只能延續文章內容，提供下一步，不可突兀推銷。

@@ -16,7 +16,7 @@
       "高風險醫療化、投資化但缺少可信資料支持的題目"
     ],
     "backlogUpdatedAt": "2026-05-07T19:33:09Z",
-    "ownerPagesUpdatedAt": "2026-05-07T20:40:00Z"
+    "ownerPagesUpdatedAt": "2026-05-07T20:48:00Z"
   },
   "selectionRules": {
     "categoryGapLookback": 42,
@@ -1204,6 +1204,20 @@
         "身型比例",
         "春夏配件",
         "衣櫥整理"
+      ]
+    },
+    {
+      "id": "trend-translation-2026",
+      "title": "2026 春夏趨勢轉譯",
+      "url": "trend-translation-2026.html",
+      "role": "intent-owner-page",
+      "priorityThemes": [
+        "春夏色彩",
+        "白色與靜奢",
+        "材質判斷",
+        "春夏配件",
+        "熟齡風格",
+        "個人風格篩選"
       ]
     }
   ]
