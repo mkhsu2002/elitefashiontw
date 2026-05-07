@@ -22,9 +22,17 @@ def generate_sitemap():
             if file.endswith(".html"):
                 if any(exclude in file for exclude in exclude_files):
                     continue
+                file_path = os.path.join(root, file)
+                try:
+                    with open(file_path, "r", encoding="utf-8") as html_file:
+                        head = html_file.read(4096).lower()
+                except UnicodeDecodeError:
+                    head = ""
+                if 'name="robots"' in head and "noindex" in head:
+                    continue
                 
                 # Get relative path
-                rel_path = os.path.relpath(os.path.join(root, file), root_dir)
+                rel_path = os.path.relpath(file_path, root_dir)
                 if rel_path == ".":
                     continue
                 
@@ -40,7 +48,7 @@ def generate_sitemap():
                 ET.SubElement(url_elem, "loc").text = full_url
                 
                 # Set lastmod
-                mtime = os.path.getmtime(os.path.join(root, file))
+                mtime = os.path.getmtime(file_path)
                 lastmod = datetime.fromtimestamp(mtime).strftime('%Y-%m-%d')
                 ET.SubElement(url_elem, "lastmod").text = lastmod
                 

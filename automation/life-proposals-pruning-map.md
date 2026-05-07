@@ -16,6 +16,11 @@
 - `降權`：17 篇
 - `刪除`：4 篇
 
+## 已執行
+- 2026-05-07：先對 4 篇標記為 `刪除` 的低價值頁加入 `noindex, follow`，並更新同步與 sitemap 產生邏輯，使 noindex 頁不再進入 `data/articles-index.json`、`data/search-index.json`、`all-articles.html` 與 `sitemap.xml`。
+- 2026-05-07：`high-performance.html` 與 `high-performance/` 3 篇舊專題改為 `noindex, follow`，頁面保留站內可讀性與 follow link，並導回 `ai-innovation`、`wellness-movement`、`mature-life-reset.html` 三個較符合現行定位的 owner。
+- 本次沒有刪除檔案，也沒有設定 301；若後續 Search Console / GA4 / 外鏈檢查確認無殘值，再決定是否正式刪除或 redirect。
+
 ## AI 與職涯重整
 
 | ID | 頁面 | 動作 | 目標群 | 原因 |

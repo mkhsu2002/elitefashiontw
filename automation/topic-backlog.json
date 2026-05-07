@@ -14,7 +14,9 @@
       "抽象勵志但缺少場景與步驟的概念文",
       "秋冬材質與厚重配件導向題",
       "高風險醫療化、投資化但缺少可信資料支持的題目"
-    ]
+    ],
+    "backlogUpdatedAt": "2026-05-07T19:33:09Z",
+    "ownerPagesUpdatedAt": "2026-05-07T20:24:00Z"
   },
   "selectionRules": {
     "categoryGapLookback": 42,
@@ -219,7 +221,7 @@
       "direction": "聚焦春夏夜晚節奏、降溫、疲勞恢復與白天專注感，不做醫療承諾，優先寫可自行觀察與調整的日常做法。",
       "category": "wellness-movement",
       "audience": "正在面對熱感、睡不好、恢復慢與晨起疲勞的熟齡女性",
-      "ctaHint": "導向瑜伽健身主題頁與睡眠恢復系列",
+      "ctaHint": "導向健康恢復主題頁與睡眠恢復系列",
       "priority": 95,
       "businessValue": "high",
       "evergreen": "high",
@@ -243,7 +245,7 @@
       "direction": "從久坐、步行、旅途疲勞與下肢穩定度切入，強調自主性與行動力，而不是體重焦慮。",
       "category": "wellness-movement",
       "audience": "想維持旅遊體力、久走穩定感與日常行動力的熟齡女性",
-      "ctaHint": "導向瑜伽健身主題頁與戶外生活頁",
+      "ctaHint": "導向健康恢復主題頁與戶外生活頁",
       "priority": 92,
       "businessValue": "medium",
       "evergreen": "high",
@@ -428,6 +430,752 @@
         "成熟不是保守：設計師會怎麼建議熟齡女性留下個人辨識度",
         "設計師在看的是輪廓，不是年齡：熟齡女性可以怎麼重新理解自己的風格",
         "當你不再追求年輕感，設計師視角下的熟齡美學會怎麼改變"
+      ]
+    }
+  ],
+  "springSummer2026IssueBank": [
+    {
+      "id": "ss26-lifestyle-culture-01",
+      "category": "lifestyle-culture",
+      "cluster": "熟齡人生與生活重整",
+      "title": "中年未婚女性的一人生活評估表：獨居、同住、買房與租屋怎麼選",
+      "priority": 96,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-lifestyle-culture-02",
+      "category": "lifestyle-culture",
+      "cluster": "熟齡人生與生活重整",
+      "title": "45+ 女性的春夏社交節奏：低壓邀約、朋友篩選與界線設計",
+      "priority": 95,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-lifestyle-culture-03",
+      "category": "lifestyle-culture",
+      "cluster": "熟齡人生與生活重整",
+      "title": "喪偶後第一個夏天：如何安排日常、家人距離與情緒恢復",
+      "priority": 94,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-lifestyle-culture-04",
+      "category": "lifestyle-culture",
+      "cluster": "熟齡人生與生活重整",
+      "title": "空巢後的家：把孩子房間變成閱讀、工作與恢復角落",
+      "priority": 93,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-lifestyle-culture-05",
+      "category": "lifestyle-culture",
+      "cluster": "熟齡人生與生活重整",
+      "title": "熟齡女性的第二曲線生活設計：先測試，不急著辭職",
+      "priority": 92,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-lifestyle-culture-06",
+      "category": "lifestyle-culture",
+      "cluster": "熟齡人生與生活重整",
+      "title": "回台生活重啟清單：戶籍、健保、銀行、社交與生活圈",
+      "priority": 91,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-lifestyle-culture-07",
+      "category": "lifestyle-culture",
+      "cluster": "熟齡人生與生活重整",
+      "title": "中年離婚後的金錢邊界：共同支出、子女費用與個人帳戶",
+      "priority": 90,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-lifestyle-culture-08",
+      "category": "lifestyle-culture",
+      "cluster": "熟齡人生與生活重整",
+      "title": "高階女性的週末恢復規劃：不應酬、不補班，也不內疚",
+      "priority": 89,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-lifestyle-culture-09",
+      "category": "lifestyle-culture",
+      "cluster": "熟齡人生與生活重整",
+      "title": "熟齡女性如何說不：親戚、同事、前伴侶與成年子女的回應句型",
+      "priority": 88,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-lifestyle-culture-10",
+      "category": "lifestyle-culture",
+      "cluster": "熟齡人生與生活重整",
+      "title": "一個人過節不將就：春夏節日、生日與長週末的生活儀式",
+      "priority": 87,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-wellness-movement-01",
+      "category": "wellness-movement",
+      "cluster": "健康恢復與身體節奏",
+      "title": "春夏夜間降溫後續篇：更年期熱潮紅與睡眠環境調整",
+      "priority": 86,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-wellness-movement-02",
+      "category": "wellness-movement",
+      "cluster": "健康恢復與身體節奏",
+      "title": "40+ 女性的晨間 15 分鐘肌力：不追求瘦，先保住行動力",
+      "priority": 85,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-wellness-movement-03",
+      "category": "wellness-movement",
+      "cluster": "健康恢復與身體節奏",
+      "title": "夏天浮腫怎麼辦：水分、鹽分、步行與腿部放鬆",
+      "priority": 84,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-wellness-movement-04",
+      "category": "wellness-movement",
+      "cluster": "健康恢復與身體節奏",
+      "title": "熟齡女性的旅行疲勞恢復：飛行後 48 小時身體節奏",
+      "priority": 83,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-wellness-movement-05",
+      "category": "wellness-movement",
+      "cluster": "健康恢復與身體節奏",
+      "title": "低刺激數位排毒：眼睛、肩頸與大腦的春夏恢復日",
+      "priority": 82,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-wellness-movement-06",
+      "category": "wellness-movement",
+      "cluster": "健康恢復與身體節奏",
+      "title": "骨密度與肌少症入門：哪些檢查、哪些運動、哪些誤區",
+      "priority": 81,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-wellness-movement-07",
+      "category": "wellness-movement",
+      "cluster": "健康恢復與身體節奏",
+      "title": "情緒悶熱感：天氣、荷爾蒙與自律神經的日常照護",
+      "priority": 80,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-wellness-movement-08",
+      "category": "wellness-movement",
+      "cluster": "健康恢復與身體節奏",
+      "title": "春夏睡衣、寢具與枕頭材質：熟齡睡眠的可執行選購",
+      "priority": 79,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-wellness-movement-09",
+      "category": "wellness-movement",
+      "cluster": "健康恢復與身體節奏",
+      "title": "慢走不是沒運動：台灣城市女性的步行恢復指南",
+      "priority": 78,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-wellness-movement-10",
+      "category": "wellness-movement",
+      "cluster": "健康恢復與身體節奏",
+      "title": "熟齡女性的低風險飲食調整：不要極端斷食，先穩血糖與睡眠",
+      "priority": 77,
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-casual-chic-01",
+      "category": "casual-chic",
+      "cluster": "日常穿搭與移動衣櫥",
+      "title": "2026 春夏熟齡旅行膠囊衣櫥：7 天 10 件不狼狽搭配",
+      "priority": 76,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-casual-chic-02",
+      "category": "casual-chic",
+      "cluster": "日常穿搭與移動衣櫥",
+      "title": "Cloud Dancer 白怎麼穿：40+ 女性的白色、奶油白與亞麻層次",
+      "priority": 75,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-casual-chic-03",
+      "category": "casual-chic",
+      "cluster": "日常穿搭與移動衣櫥",
+      "title": "不想穿短褲，夏天還能穿什麼：寬褲、裙褲、長裙與透氣材質",
+      "priority": 74,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-casual-chic-04",
+      "category": "casual-chic",
+      "cluster": "日常穿搭與移動衣櫥",
+      "title": "舒適鞋不是妥協：熟齡女性春夏通勤、旅行、聚餐鞋款指南",
+      "priority": 73,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-casual-chic-05",
+      "category": "casual-chic",
+      "cluster": "日常穿搭與移動衣櫥",
+      "title": "春夏襯衫重整：白襯衫、亞麻襯衫、防曬襯衫怎麼分工",
+      "priority": 72,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-casual-chic-06",
+      "category": "casual-chic",
+      "cluster": "日常穿搭與移動衣櫥",
+      "title": "40+ 女性的配件更新：絲巾、胸針、長項鍊與輕珠寶",
+      "priority": 71,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-casual-chic-07",
+      "category": "casual-chic",
+      "cluster": "日常穿搭與移動衣櫥",
+      "title": "久坐飛行穿搭：腰腹舒適、腿部循環與抵達後體面",
+      "priority": 70,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-casual-chic-08",
+      "category": "casual-chic",
+      "cluster": "日常穿搭與移動衣櫥",
+      "title": "熟齡女性拍照穿搭：色彩、比例、包款與後鏡頭自拍",
+      "priority": 69,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-casual-chic-09",
+      "category": "casual-chic",
+      "cluster": "日常穿搭與移動衣櫥",
+      "title": "春夏婚禮與聚會穿搭：不裝嫩也不過度正式",
+      "priority": 68,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-casual-chic-10",
+      "category": "casual-chic",
+      "cluster": "日常穿搭與移動衣櫥",
+      "title": "從職場到週末：一件外套如何完成春夏溫差管理",
+      "priority": 67,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-outdoor-escapes-01",
+      "category": "outdoor-escapes",
+      "cluster": "旅行、輕戶外與獨旅安全",
+      "title": "熟齡女性第一次一個人旅行：住宿、交通、備援與安全感設計",
+      "priority": 66,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-outdoor-escapes-02",
+      "category": "outdoor-escapes",
+      "cluster": "旅行、輕戶外與獨旅安全",
+      "title": "台灣半日輕戶外：不用請假也能恢復身心的近郊路線規劃法",
+      "priority": 65,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-outdoor-escapes-03",
+      "category": "outdoor-escapes",
+      "cluster": "旅行、輕戶外與獨旅安全",
+      "title": "春夏海邊旅行不曬傷、不疲勞：防曬、補水、衣物與節奏",
+      "priority": 64,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-outdoor-escapes-04",
+      "category": "outdoor-escapes",
+      "cluster": "旅行、輕戶外與獨旅安全",
+      "title": "低壓 wellness trip：溫泉、瑜伽、森林、咖啡館如何排成兩天一夜",
+      "priority": 63,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-outdoor-escapes-05",
+      "category": "outdoor-escapes",
+      "cluster": "旅行、輕戶外與獨旅安全",
+      "title": "長途旅行的頸肩腰照護：枕頭、包款、伸展與座位策略",
+      "priority": 62,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-outdoor-escapes-06",
+      "category": "outdoor-escapes",
+      "cluster": "旅行、輕戶外與獨旅安全",
+      "title": "熟齡旅拍裝備最小化：手機、補光、自拍顯示器與備份",
+      "priority": 61,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-outdoor-escapes-07",
+      "category": "outdoor-escapes",
+      "cluster": "旅行、輕戶外與獨旅安全",
+      "title": "一個人住飯店怎麼安心：房型、樓層、門鎖與入住檢查",
+      "priority": 60,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-outdoor-escapes-08",
+      "category": "outdoor-escapes",
+      "cluster": "旅行、輕戶外與獨旅安全",
+      "title": "城市散步旅行：不趕景點的熟齡行程設計",
+      "priority": 59,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-outdoor-escapes-09",
+      "category": "outdoor-escapes",
+      "cluster": "旅行、輕戶外與獨旅安全",
+      "title": "世界盃北美旅行給 40+ 觀眾的體力與城市移動提醒",
+      "priority": 58,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-outdoor-escapes-10",
+      "category": "outdoor-escapes",
+      "cluster": "旅行、輕戶外與獨旅安全",
+      "title": "春夏山林穿搭：防蚊、防雨、防曬與拍照體面感",
+      "priority": 57,
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-ai-innovation-01",
+      "category": "ai-innovation",
+      "cluster": "AI 與未來工作",
+      "title": "45+ 工作者的 AI 入門 30 天：回信、摘要、簡報、查資料",
+      "priority": 56,
+      "seasonFit": "all-season",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-ai-innovation-02",
+      "category": "ai-innovation",
+      "cluster": "AI 與未來工作",
+      "title": "中高階主管如何帶團隊用 AI：不是監控，而是重新分工",
+      "priority": 55,
+      "seasonFit": "all-season",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-ai-innovation-03",
+      "category": "ai-innovation",
+      "cluster": "AI 與未來工作",
+      "title": "熟齡轉職者的 AI 履歷與面試準備：用工具補速度，用經驗做判斷",
+      "priority": 54,
+      "seasonFit": "all-season",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-ai-innovation-04",
+      "category": "ai-innovation",
+      "cluster": "AI 與未來工作",
+      "title": "一人副業如何用 AI 做最小測試：題目、客群、內容與收入假設",
+      "priority": 53,
+      "seasonFit": "all-season",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-ai-innovation-05",
+      "category": "ai-innovation",
+      "cluster": "AI 與未來工作",
+      "title": "AI 會取代行政工作嗎：熟齡女性如何把經驗變成不可替代價值",
+      "priority": 52,
+      "seasonFit": "all-season",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-ai-innovation-06",
+      "category": "ai-innovation",
+      "cluster": "AI 與未來工作",
+      "title": "會議太多怎麼辦：AI 會議摘要、待辦追蹤與溝通界線",
+      "priority": 52,
+      "seasonFit": "all-season",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-ai-innovation-07",
+      "category": "ai-innovation",
+      "cluster": "AI 與未來工作",
+      "title": "AI shopper 時代的熟齡購物：如何比價、查評價與避免錯買",
+      "priority": 52,
+      "seasonFit": "all-season",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-ai-innovation-08",
+      "category": "ai-innovation",
+      "cluster": "AI 與未來工作",
+      "title": "智慧眼鏡與 AI wearable：熟齡讀者真的需要嗎",
+      "priority": 52,
+      "seasonFit": "all-season",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-ai-innovation-09",
+      "category": "ai-innovation",
+      "cluster": "AI 與未來工作",
+      "title": "AI 與家人溝通：照護、行程、文件與跨國家庭資訊整理",
+      "priority": 52,
+      "seasonFit": "all-season",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-ai-innovation-10",
+      "category": "ai-innovation",
+      "cluster": "AI 與未來工作",
+      "title": "不會寫程式也能做內容系統：Notion、表格、AI 與發布流程",
+      "priority": 52,
+      "seasonFit": "all-season",
+      "intentType": "問題解法型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-runway-trends-01",
+      "category": "runway-trends",
+      "cluster": "趨勢轉譯",
+      "title": "2026 春夏趨勢轉譯：哪些能進 40+ 女性日常衣櫥",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-runway-trends-02",
+      "category": "runway-trends",
+      "cluster": "趨勢轉譯",
+      "title": "Soft femininity 怎麼穿成熟：蕾絲、蝴蝶結、柔軟襯衫的邊界",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-runway-trends-03",
+      "category": "runway-trends",
+      "cluster": "趨勢轉譯",
+      "title": "Utility dressing：機能口袋、工裝褲與熟齡比例修飾",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-runway-trends-04",
+      "category": "runway-trends",
+      "cluster": "趨勢轉譯",
+      "title": "2026 春夏白色趨勢：Cloud Dancer 從秀場到台灣日常",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-runway-trends-05",
+      "category": "runway-trends",
+      "cluster": "趨勢轉譯",
+      "title": "Sporty elegance：運動元素如何穿進通勤與旅行",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-runway-trends-06",
+      "category": "runway-trends",
+      "cluster": "趨勢轉譯",
+      "title": "夏季飾品趨勢：胸針、絲巾、珠寶與自我贈禮",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-runway-trends-07",
+      "category": "runway-trends",
+      "cluster": "趨勢轉譯",
+      "title": "Drop-waist 與長裙比例：哪些身形適合，哪些要避開",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-runway-trends-08",
+      "category": "runway-trends",
+      "cluster": "趨勢轉譯",
+      "title": "2026 春夏鞋款趨勢：厚底夾腳、低跟楔型、芭蕾平底與熟齡腳感",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-runway-trends-09",
+      "category": "runway-trends",
+      "cluster": "趨勢轉譯",
+      "title": "色彩不必大面積：番茄紅、薄荷綠、寶石色的低風險用法",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-runway-trends-10",
+      "category": "runway-trends",
+      "cluster": "趨勢轉譯",
+      "title": "趨勢不要照單全收：如何建立自己的春夏風格篩選準則",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-designer-perspective-01",
+      "category": "designer-perspective",
+      "cluster": "設計、品牌與工藝觀察",
+      "title": "為什麼 2026 品牌都在談重置：創意總監更替與消費者疲乏",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-designer-perspective-02",
+      "category": "designer-perspective",
+      "cluster": "設計、品牌與工藝觀察",
+      "title": "Cloud Dancer 背後的設計心理：白色、降噪與生活空間",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-designer-perspective-03",
+      "category": "designer-perspective",
+      "cluster": "設計、品牌與工藝觀察",
+      "title": "珠寶作為熟齡自我贈禮：品牌敘事、工藝與長期使用價值",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-designer-perspective-04",
+      "category": "designer-perspective",
+      "cluster": "設計、品牌與工藝觀察",
+      "title": "智慧眼鏡的設計難題：科技要戴在臉上，如何不破壞個人風格",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-designer-perspective-05",
+      "category": "designer-perspective",
+      "cluster": "設計、品牌與工藝觀察",
+      "title": "台灣品牌如何做熟齡女性內容：不裝年輕，也不把年齡當問題",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-designer-perspective-06",
+      "category": "designer-perspective",
+      "cluster": "設計、品牌與工藝觀察",
+      "title": "永續材質不等於粗糙：亞麻、再生纖維與春夏觸感設計",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-designer-perspective-07",
+      "category": "designer-perspective",
+      "cluster": "設計、品牌與工藝觀察",
+      "title": "設計師如何處理「舒適」：鞋、包、腰線與肩頸負擔",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-designer-perspective-08",
+      "category": "designer-perspective",
+      "cluster": "設計、品牌與工藝觀察",
+      "title": "工藝感回歸：蕾絲、刺繡、手作細節如何避免過度甜美",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-designer-perspective-09",
+      "category": "designer-perspective",
+      "cluster": "設計、品牌與工藝觀察",
+      "title": "生活用品品牌專案審稿標準：從產品規格轉成使用情境",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    },
+    {
+      "id": "ss26-designer-perspective-10",
+      "category": "designer-perspective",
+      "cluster": "設計、品牌與工藝觀察",
+      "title": "熟齡讀者的審美不是保守：如何寫出成熟但不老氣的設計評論",
+      "priority": 52,
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "status": "candidate"
+    }
+  ],
+  "ownerPages": [
+    {
+      "id": "spring-summer-2026",
+      "title": "2026 春夏熟齡生活企劃",
+      "url": "spring-summer-2026.html",
+      "role": "seasonal-hub",
+      "priorityThemes": [
+        "春夏睡眠熱感",
+        "旅行膠囊衣櫥",
+        "熟齡獨旅",
+        "低壓社交",
+        "45+ AI 工作重整",
+        "趨勢轉譯"
+      ]
+    },
+    {
+      "id": "mature-life-reset",
+      "title": "熟齡人生重整",
+      "url": "mature-life-reset.html",
+      "role": "intent-owner-page",
+      "priorityThemes": [
+        "離婚後重整",
+        "未婚一人生活",
+        "喪偶後重建",
+        "空巢期",
+        "返台重啟",
+        "第二曲線"
+      ]
+    },
+    {
+      "id": "body-rhythm-reset",
+      "title": "熟齡健康恢復與身體節奏",
+      "url": "body-rhythm-reset.html",
+      "role": "intent-owner-page",
+      "priorityThemes": [
+        "春夏睡眠熱感",
+        "更年期夜間恢復",
+        "肌力與行動力",
+        "低壓運動",
+        "旅行疲勞恢復",
+        "情緒與身體節奏"
       ]
     }
   ]

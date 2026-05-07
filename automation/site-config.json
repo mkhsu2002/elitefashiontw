@@ -121,7 +121,7 @@
     },
     {
       "key": "wellness-movement",
-      "label": "瑜伽健身",
+      "label": "健康恢復",
       "page": "wellness-movement.html",
       "directory": "wellness-movement",
       "ctaUrl": "contact.html",

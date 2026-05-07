@@ -38,6 +38,9 @@ TOP_LEVEL_NON_ARTICLE_PAGES = {
     "outdoor-escapes.html",
     "runway-trends.html",
     "search.html",
+    "body-rhythm-reset.html",
+    "spring-summer-2026.html",
+    "mature-life-reset.html",
     "wellness-movement.html",
 }
 SPECIAL_ARTICLE_CATEGORY_MAP = {
@@ -208,6 +211,11 @@ def extract_meta(content: str, key: str, *, property_mode: bool = False) -> str:
         flags=re.I,
     )
     return html.unescape(match.group(1)).strip() if match else ""
+
+
+def has_noindex_meta(content: str) -> bool:
+    robots = extract_meta(content, "robots").lower()
+    return "noindex" in {item.strip() for item in robots.split(",")}
 
 
 def extract_title_from_html(content: str) -> str:
@@ -448,6 +456,8 @@ def scan_legacy_articles(config: dict[str, Any], categories: dict[str, CategoryC
         if html_path.name in TOP_LEVEL_NON_ARTICLE_PAGES:
             continue
         content = html_path.read_text(encoding="utf-8")
+        if has_noindex_meta(content):
+            continue
         category_key, category_label = detect_category(html_path, categories)
         title = extract_title_from_html(content)
         description = extract_meta(content, "description") or extract_first_paragraph(content)
@@ -829,7 +839,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
                 <li><a href="../runway-trends.html">秀場趨勢</a></li>
                 <li><a href="../designer-perspective.html">設計師視角</a></li>
                 <li><a href="../casual-chic.html">休閒時尚</a></li>
-                <li><a href="../wellness-movement.html">瑜伽健身</a></li>
+                <li><a href="../wellness-movement.html">健康恢復</a></li>
                 <li><a href="../outdoor-escapes.html">戶外生活</a></li>
                 <li><a href="../lifestyle-culture.html">生活品味</a></li>
                 <li><a href="../all-articles.html">文章列表</a></li>
@@ -1032,7 +1042,7 @@ def render_all_articles_page(config: dict[str, Any], categories: dict[str, Categ
                 <li><a href="runway-trends.html">秀場趨勢</a></li>
                 <li><a href="designer-perspective.html">設計師視角</a></li>
                 <li><a href="casual-chic.html">休閒時尚</a></li>
-                <li><a href="wellness-movement.html">瑜伽健身</a></li>
+                <li><a href="wellness-movement.html">健康恢復</a></li>
                 <li><a href="outdoor-escapes.html">戶外生活</a></li>
                 <li><a href="lifestyle-culture.html">生活品味</a></li>
                 <li><a href="all-articles.html" class="active">文章列表</a></li>
@@ -1066,6 +1076,16 @@ def render_search_page(config: dict[str, Any]) -> str:
     return f"""<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YGMJG52MQH');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>站內搜尋 | {html.escape(config['siteName'])}</title>
