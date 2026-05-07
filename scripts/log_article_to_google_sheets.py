@@ -16,6 +16,7 @@ import json
 import os
 from pathlib import Path
 from typing import Any
+from itertools import islice
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -98,7 +99,7 @@ def ensure_worksheet(spreadsheet, title: str):
 
     first_row = worksheet.row_values(1)
     if first_row[: len(HEADERS)] != HEADERS:
-        worksheet.update("A1", [HEADERS])
+        worksheet.update(values=[HEADERS], range_name="A1")
     return worksheet
 
 
@@ -177,6 +178,25 @@ def normalize_entry(entry: dict[str, Any]) -> list[str]:
     return [str(entry.get(header, "") or "") for header in HEADERS]
 
 
+def chunk_rows(rows: list[list[str]], size: int = 50):
+    iterator = iter(rows)
+    while True:
+        batch = list(islice(iterator, size))
+        if not batch:
+            return
+        yield batch
+
+
+def append_rows_chunked(worksheet, rows: list[list[str]], batch_size: int = 50) -> int:
+    if not rows:
+        return 0
+    appended = 0
+    for batch in chunk_rows(rows, size=batch_size):
+        worksheet.append_rows(batch, value_input_option="RAW")
+        appended += len(batch)
+    return appended
+
+
 def get_worksheet(site_config: dict[str, Any]):
     spreadsheet_id = os.environ.get("GOOGLE_SHEETS_SPREADSHEET_ID") or os.environ.get("GOOGLE_SHEET_ID")
     if not spreadsheet_id:
@@ -211,7 +231,7 @@ def sync_entry(entry: dict[str, Any], site_config: dict[str, Any], worksheet=Non
     if article_id in existing_ids[1:]:
         return f"Article already logged: {article_id}"
 
-    worksheet.append_row(normalize_entry(row), value_input_option="RAW")
+    append_rows_chunked(worksheet, [normalize_entry(row)], batch_size=1)
     return f"Logged article to Google Sheets: {article_id}"
 
 
@@ -239,7 +259,7 @@ def main() -> int:
 
     if args.all_site_articles:
         existing_ids = set(worksheet.col_values(1)[1:])
-        synced = 0
+        pending_rows: list[list[str]] = []
         skipped = 0
         for item in reversed(load_articles_index_items()):
             article_id = str(item.get("id", "") or "")
@@ -249,19 +269,16 @@ def main() -> int:
             if article_id in existing_ids:
                 skipped += 1
                 continue
-            worksheet.append_row(
-                normalize_entry(build_sheet_entry_from_index_item(item, site_config)),
-                value_input_option="RAW",
-            )
-            print(f"Logged article to Google Sheets: {article_id}")
+            pending_rows.append(normalize_entry(build_sheet_entry_from_index_item(item, site_config)))
+            print(f"Queued article for Google Sheets: {article_id}")
             existing_ids.add(article_id)
-            synced += 1
+        synced = append_rows_chunked(worksheet, pending_rows)
         print(f"Full-site backfill complete: synced={synced}, skipped={skipped}")
         return 0
 
     if args.all:
         existing_ids = set(worksheet.col_values(1)[1:])
-        synced = 0
+        pending_rows: list[list[str]] = []
         skipped = 0
         for entry in reversed(entries):
             article_id = str(entry.get("articleId", "") or "")
@@ -271,9 +288,10 @@ def main() -> int:
             if article_id in existing_ids:
                 skipped += 1
                 continue
-            print(sync_entry(entry, site_config, worksheet=worksheet))
+            pending_rows.append(normalize_entry(build_sheet_entry(entry, site_config)))
+            print(f"Queued article for Google Sheets: {article_id}")
             existing_ids.add(article_id)
-            synced += 1
+        synced = append_rows_chunked(worksheet, pending_rows)
         print(f"Backfill complete: synced={synced}, skipped={skipped}")
         return 0
 
