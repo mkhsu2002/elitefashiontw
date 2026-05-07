@@ -40,6 +40,7 @@ TOP_LEVEL_NON_ARTICLE_PAGES = {
     "runway-trends.html",
     "search.html",
     "body-rhythm-reset.html",
+    "spring-summer-capsule-wardrobe.html",
     "spring-summer-2026.html",
     "mature-life-reset.html",
     "wellness-movement.html",

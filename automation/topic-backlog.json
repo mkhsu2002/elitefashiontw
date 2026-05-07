@@ -16,7 +16,7 @@
       "高風險醫療化、投資化但缺少可信資料支持的題目"
     ],
     "backlogUpdatedAt": "2026-05-07T19:33:09Z",
-    "ownerPagesUpdatedAt": "2026-05-07T20:31:00Z"
+    "ownerPagesUpdatedAt": "2026-05-07T20:40:00Z"
   },
   "selectionRules": {
     "categoryGapLookback": 42,
@@ -1190,6 +1190,20 @@
         "第二曲線",
         "副業最小測試",
         "薪資談判與職涯價值"
+      ]
+    },
+    {
+      "id": "spring-summer-capsule-wardrobe",
+      "title": "春夏旅行膠囊衣櫥",
+      "url": "spring-summer-capsule-wardrobe.html",
+      "role": "intent-owner-page",
+      "priorityThemes": [
+        "春夏旅行穿搭",
+        "少量多搭",
+        "舒適鞋包",
+        "身型比例",
+        "春夏配件",
+        "衣櫥整理"
       ]
     }
   ]
