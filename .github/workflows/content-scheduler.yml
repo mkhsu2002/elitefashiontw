@@ -31,6 +31,11 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install Google Sheets dependency
+        run: |
+          python -m pip install --upgrade pip
+          pip install gspread
+
       - name: Resolve Model Provider
         env:
           CONTENT_MODEL_PROVIDER: ${{ vars.CONTENT_MODEL_PROVIDER }}
@@ -99,3 +104,14 @@ jobs:
           CONTENT_NOTIFICATION_TO_EMAIL: ${{ secrets.CONTENT_NOTIFICATION_TO_EMAIL }}
         run: |
           python3 scripts/content_pipeline.py send-notification
+
+      - name: Log Published Article To Google Sheets
+        if: steps.diff.outputs.has_changes == 'true'
+        env:
+          CI_STRICT_GOOGLE_SHEETS: "true"
+          GOOGLE_SHEETS_SPREADSHEET_ID: ${{ secrets.GOOGLE_SHEETS_SPREADSHEET_ID }}
+          GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON_BASE64: ${{ secrets.GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON_BASE64 }}
+          GOOGLE_SHEETS_WORKSHEET_TITLE: Taiwan
+        run: |
+          python3 scripts/log_article_to_google_sheets.py

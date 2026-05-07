@@ -1,14 +1,33 @@
 {
+  "seasonalContext": {
+    "activeSeason": "spring-summer-2026",
+    "priorityThemes": [
+      "熟齡人生重整與關係邊界",
+      "更年期後的睡眠、熱感與恢復",
+      "春夏旅行穿搭與移動舒適度",
+      "熟齡獨旅、週末輕戶外與低壓移動",
+      "45+ 工作者的 AI 採用與第二曲線"
+    ],
+    "deprioritizedThemes": [
+      "主權協議／權威／革命式標題",
+      "只換年份的舊題重寫",
+      "抽象勵志但缺少場景與步驟的概念文",
+      "秋冬材質與厚重配件導向題",
+      "高風險醫療化、投資化但缺少可信資料支持的題目"
+    ]
+  },
   "selectionRules": {
-    "categoryGapLookback": 36,
+    "categoryGapLookback": 42,
+    "recentTitleLookback": 24,
+    "recentCategoryLookback": 12,
     "targetShares": [
       {
         "category": "lifestyle-culture",
-        "share": 0.24
+        "share": 0.27
       },
       {
         "category": "wellness-movement",
-        "share": 0.18
+        "share": 0.2
       },
       {
         "category": "casual-chic",
@@ -20,15 +39,15 @@
       },
       {
         "category": "ai-innovation",
-        "share": 0.12
+        "share": 0.14
       },
       {
         "category": "runway-trends",
-        "share": 0.08
+        "share": 0.05
       },
       {
         "category": "designer-perspective",
-        "share": 0.06
+        "share": 0.02
       }
     ],
     "businessValueWeights": {
@@ -41,83 +60,250 @@
       "medium": 6,
       "low": 2
     },
+    "seasonFitWeights": {
+      "spring-summer": 12,
+      "all-season": 6,
+      "fall-winter": -8
+    },
+    "relatedKeywordPenalty": 9,
     "avoidTitlePatterns": [
       "主權協議",
       "絕對權威",
       "權威之戰",
-      "2026"
+      "絕對主導",
+      "2026",
+      "革命"
+    ],
+    "deprioritizedTopicPatterns": [
+      "財富自由",
+      "被動收入",
+      "主權",
+      "權威",
+      "革命",
+      "羊絨",
+      "真絲",
+      "Statement Pieces"
+    ]
+  },
+  "suppressedLegacyFamilies": [
+    {
+      "family": "life-proposals 公式化標題群",
+      "patterns": [
+        "主權協議",
+        "權威",
+        "革命"
+      ],
+      "defaultAction": "降權或合併",
+      "reason": "標題辨識度低、重複感高，已明顯拖累整站風格與內部競爭。"
+    },
+    {
+      "family": "泛財富自由與被動收入勵志題",
+      "patterns": [
+        "財富自由",
+        "被動收入",
+        "匱乏心態"
+      ],
+      "defaultAction": "合併到財務安全 owner page",
+      "reason": "搜尋意圖重疊，且容易偏離本站成熟、可採取的內容定位。"
+    },
+    {
+      "family": "熟齡外貌單點優化題",
+      "patterns": [
+        "手頸",
+        "指尖",
+        "毛囊",
+        "次級區域"
+      ],
+      "defaultAction": "降權或合併到減法保養主題",
+      "reason": "題目過碎，難以形成穩定內鏈與系列擴張。"
+    },
+    {
+      "family": "高風險輕醫療化題",
+      "patterns": [
+        "淋巴",
+        "荷爾蒙",
+        "氣血",
+        "矯正"
+      ],
+      "defaultAction": "降權",
+      "reason": "需要更高資料標準與來源把關，不適合自動排程持續擴張。"
+    }
+  ],
+  "rotationRules": {
+    "fallbackWeeklyMix": [
+      "1 篇人生重整或關係決策",
+      "1 篇健康恢復、穿搭或戶外的實用解法",
+      "1 篇 AI、趨勢或設計翻譯題"
+    ],
+    "manualBriefOnlyFamilies": [
+      "品牌專案",
+      "法規、醫療與投資高風險題",
+      "外部合作指定 CTA 題"
     ]
   },
   "fallbackTopics": [
     {
-      "topic": "45+女性的第二曲線與 AI 協作",
-      "direction": "聚焦不懂技術也能理解的轉型切入點，回應熟齡女性對工作重整與 AI 焦慮",
+      "topic": "春夏離婚後的生活重整與社交節奏",
+      "direction": "聚焦離婚後的居家秩序、朋友圈重組、社交邀約邊界與重新出門的節奏，不寫成灑狗血情傷文。",
       "category": "lifestyle-culture",
-      "audience": "想重新整理職涯方向、但不想被工具名詞淹沒的熟齡讀者",
-      "ctaHint": "導向生活品味頁與相關人生提案文章",
+      "audience": "正在經歷離婚、分居或關係退場後重啟生活的熟齡女性",
+      "ctaHint": "導向生活品味頁與熟齡人生重整系列",
+      "priority": 98,
+      "businessValue": "high",
+      "evergreen": "high",
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "relatedKeywords": [
+        "離婚",
+        "社交",
+        "邊界",
+        "重啟",
+        "獨處"
+      ],
+      "angles": [
+        "離婚後第一次重新安排週末：熟齡女性怎麼把空白變成自己的節奏",
+        "朋友約妳出去卻不知道怎麼回？離婚後的社交邊界可以這樣重建",
+        "不是立刻振作就叫重生：熟齡女性離婚後更需要先重整哪 3 種生活秩序"
+      ]
+    },
+    {
+      "topic": "45+ 工作者的 AI 採用與工作重整",
+      "direction": "寫給非工程背景的熟齡工作者，聚焦回信、整理、排程、客服與內容工作中的低壓採用，不做工具名詞堆砌。",
+      "category": "ai-innovation",
+      "audience": "知道 AI 不能不看，但不想被技術術語淹沒的 45+ 工作者",
+      "ctaHint": "導向人工智能主題頁與 AI 工作導入相關文章",
       "priority": 96,
       "businessValue": "high",
       "evergreen": "high",
+      "seasonFit": "all-season",
+      "intentType": "情境指南型",
+      "relatedKeywords": [
+        "AI",
+        "工作流程",
+        "客服",
+        "排程",
+        "內容工作"
+      ],
       "angles": [
-        "不會寫程式，也該開始看懂 AI：45+ 女性職涯重整的第一步",
-        "第二曲線不是創業衝刺，而是工作方式重組：熟齡女性如何用 AI 減少焦慮",
-        "主管開始談 AI，你卻還抓不到自己的位置？給中高階女性的轉型讀法"
+        "不是每個人都要學 prompt：45+ 工作者最值得先用 AI 接手的 3 種工作",
+        "當 AI 開始會幫你整理回信與行程，熟齡工作者該先建立哪些判斷習慣",
+        "主管要你研究 AI，卻沒人教怎麼開始：給熟齡工作者的低壓採用版本"
       ]
     },
     {
-      "topic": "熟齡睡眠與恢復",
-      "direction": "聚焦睡眠、清晨節奏、疲勞恢復與專注力，不講過度醫療化術語",
-      "category": "wellness-movement",
-      "audience": "覺得睡不飽、恢復慢、白天沒精神的熟齡女性",
-      "ctaHint": "導向瑜伽健身主題頁",
+      "topic": "熟齡副業與第二曲線的低風險測試",
+      "direction": "聚焦不離職、低成本、可驗證的第二曲線測試法，連結副業、接案、個人服務設計與 AI 協助。",
+      "category": "lifestyle-culture",
+      "audience": "想開始第二曲線，但不想一次賭太大的熟齡女性",
+      "ctaHint": "導向生活品味頁與第二曲線相關內容",
       "priority": 94,
       "businessValue": "high",
       "evergreen": "high",
+      "seasonFit": "all-season",
+      "intentType": "比較決策型",
+      "relatedKeywords": [
+        "副業",
+        "第二曲線",
+        "接案",
+        "創業",
+        "轉職"
+      ],
       "angles": [
-        "睡滿不等於睡好：45+ 女性該先調整的是夜晚節奏，不是再買更多補品",
-        "早上起床還是累？熟齡睡眠恢復可以先從這 5 個日常訊號判斷",
-        "不是只有失眠才算睡不好：更年期後的疲勞感，該怎麼重新安排恢復節奏"
+        "不辭職也能測試第二曲線：熟齡女性先做哪 3 種低風險實驗最實際",
+        "接案、顧問、微型服務怎麼選？熟齡女性副業起步更該比的是壓力成本",
+        "第二曲線不是重新當菜鳥：45+ 女性怎麼把既有經驗變成新的服務價值"
       ]
     },
     {
-      "topic": "熟齡肌力與行動力",
-      "direction": "從日常體能、久坐、旅行體力與長期自主性切入",
+      "topic": "更年期後的熱感、浮腫與睡眠恢復",
+      "direction": "聚焦春夏夜晚節奏、降溫、疲勞恢復與白天專注感，不做醫療承諾，優先寫可自行觀察與調整的日常做法。",
       "category": "wellness-movement",
-      "audience": "想維持體態、旅行體力與日常穩定感的熟齡女性",
-      "ctaHint": "導向瑜伽健身主題頁",
+      "audience": "正在面對熱感、睡不好、恢復慢與晨起疲勞的熟齡女性",
+      "ctaHint": "導向瑜伽健身主題頁與睡眠恢復系列",
+      "priority": 95,
+      "businessValue": "high",
+      "evergreen": "high",
+      "seasonFit": "spring-summer",
+      "intentType": "問題解法型",
+      "relatedKeywords": [
+        "更年期",
+        "熱感",
+        "睡眠",
+        "浮腫",
+        "恢復"
+      ],
+      "angles": [
+        "天氣一熱就睡不好？熟齡女性春夏夜晚更該先調整的不是補品，而是節奏",
+        "早上腫、晚上熱、白天累：更年期後的恢復卡住，通常是這幾個訊號先出現",
+        "不是只有失眠才算睡不好：熟齡女性春夏恢復感下降時，先檢查哪 5 件事"
+      ]
+    },
+    {
+      "topic": "熟齡肌力、步行耐力與旅行體力",
+      "direction": "從久坐、步行、旅途疲勞與下肢穩定度切入，強調自主性與行動力，而不是體重焦慮。",
+      "category": "wellness-movement",
+      "audience": "想維持旅遊體力、久走穩定感與日常行動力的熟齡女性",
+      "ctaHint": "導向瑜伽健身主題頁與戶外生活頁",
       "priority": 92,
       "businessValue": "medium",
       "evergreen": "high",
+      "seasonFit": "spring-summer",
+      "intentType": "實用解法型",
+      "relatedKeywords": [
+        "肌力",
+        "步行",
+        "久走",
+        "旅行體力",
+        "膝蓋"
+      ],
       "angles": [
-        "50+ 最該投資的不一定是瘦，而是行動力：熟齡女性的肌力重建思路",
-        "不是去健身房才算訓練：熟齡女性如何把肌力安排進每天生活",
-        "一到旅行就腿痠腰累？熟齡體能不足，通常不是年紀，而是肌力配置問題"
+        "一到旅行就腿痠腰累？熟齡女性先該補的不是行程，而是步行耐力",
+        "50+ 真正要投資的不只是體重，而是走得久、站得穩的能力",
+        "不是去健身房才算訓練：熟齡女性可以怎麼把旅行體力練進日常"
       ]
     },
     {
-      "topic": "旅行穿搭與移動中的體面感",
-      "direction": "結合現有旅行、戶外與穿搭內容，偏向實用但保有風格",
+      "topic": "春夏旅行膠囊衣櫥與移動穿搭",
+      "direction": "聚焦溫差、久坐、城市散步、拍照體面感與少帶不狼狽的打包邏輯。",
       "category": "casual-chic",
-      "audience": "想兼顧舒適、照片效果與場景體面的熟齡女性",
-      "ctaHint": "導向休閒時尚主題頁",
-      "priority": 90,
+      "audience": "想在旅行中兼顧舒適、好整理與照片質感的熟齡女性",
+      "ctaHint": "導向休閒時尚主題頁與旅行相關文章",
+      "priority": 93,
       "businessValue": "high",
       "evergreen": "high",
+      "seasonFit": "spring-summer",
+      "intentType": "比較決策型",
+      "relatedKeywords": [
+        "旅行穿搭",
+        "膠囊衣櫥",
+        "打包",
+        "機場",
+        "溫差"
+      ],
       "angles": [
-        "長途移動也不想看起來狼狽：熟齡女性的旅行穿搭可以怎麼兼顧舒適與體面",
-        "不是帶越多越安全：熟齡女性旅行衣櫥該怎麼收得輕、穿得穩",
-        "機場、飯店、城市散步都能穿：一套熟齡旅行穿搭的思考順序"
+        "不是帶越多越安全：熟齡女性春夏旅行衣櫥怎麼收得輕、穿得穩",
+        "機場、飯店、城市散步都能穿：一套熟齡春夏旅行穿搭的思考順序",
+        "想拍照好看又不想行李爆滿？熟齡女性膠囊衣櫥該先決定的是這幾件"
       ]
     },
     {
-      "topic": "熟齡鞋包與通勤舒適度",
-      "direction": "結合穿搭與行動力，從鞋、包、重量與久走舒適度切入",
+      "topic": "鞋包重量、久走舒適度與通勤節奏",
+      "direction": "把穿搭與行動力連起來，從鞋底穩定、包重、取物動線與久走體感切入。",
       "category": "casual-chic",
-      "audience": "需要長時間通勤、見客戶、出門辦事的熟齡女性",
+      "audience": "需要長時間通勤、見客戶、出門辦事又不想下午就累垮的熟齡女性",
       "ctaHint": "導向休閒時尚主題頁",
-      "priority": 86,
+      "priority": 87,
       "businessValue": "high",
       "evergreen": "high",
+      "seasonFit": "all-season",
+      "intentType": "比較決策型",
+      "relatedKeywords": [
+        "鞋",
+        "包",
+        "通勤",
+        "久走",
+        "重量"
+      ],
       "angles": [
         "不是高跟鞋才正式：熟齡女性通勤鞋怎麼選，才不會下午就腳痛",
         "包包越大不代表越能裝：熟齡女性日常包款更該看重量、開口與取物節奏",
@@ -125,59 +311,47 @@
       ]
     },
     {
-      "topic": "熟齡獨旅與安全感",
-      "direction": "旅行不是冒險人設，而是節奏、體力、住宿與心理安全感的安排",
+      "topic": "熟齡獨旅、台灣輕戶外與週末修復",
+      "direction": "寫低門檻、不逞強的戶外與移動生活，強調安全感、住宿節奏、體力安排與城市壓力釋放。",
       "category": "outdoor-escapes",
-      "audience": "想開始一個人旅行、但還有很多不安的熟齡女性",
+      "audience": "想開始一個人旅行或週末出走，但在意安全、體力與節奏安排的熟齡女性",
       "ctaHint": "導向戶外生活主題頁",
-      "priority": 88,
+      "priority": 90,
       "businessValue": "medium",
       "evergreen": "high",
+      "seasonFit": "spring-summer",
+      "intentType": "情境指南型",
+      "relatedKeywords": [
+        "獨旅",
+        "戶外",
+        "步道",
+        "住宿",
+        "修復"
+      ],
       "angles": [
         "第一次一個人旅行，不是勇敢就夠：熟齡女性更需要的是安全感設計",
-        "熟齡獨旅該先決定的不是去哪，而是體力、住宿與移動節奏",
-        "想一個人旅行又怕太累太慌？給熟齡女性的低壓獨旅安排法"
+        "週末只想離開城市半天，熟齡女性可以怎麼用輕戶外把自己拉回來",
+        "熟齡獨旅該先決定的不是去哪，而是體力、住宿與移動節奏"
       ]
     },
     {
-      "topic": "台灣輕戶外與週末修復",
-      "direction": "把戶外主題從硬派裝備轉成熟齡女性能採取的低門檻體驗",
-      "category": "outdoor-escapes",
-      "audience": "想靠短程移動與自然環境恢復狀態的城市讀者",
-      "ctaHint": "導向戶外生活主題頁",
+      "topic": "居家閱讀、工作角落與生活秩序重整",
+      "direction": "把居家品味寫成可採取的空間決策，串連閱讀、第二曲線工作、收納與安定感。",
+      "category": "lifestyle-culture",
+      "audience": "想把家整理成更安定、更有專注感環境的熟齡女性",
+      "ctaHint": "導向生活品味主題頁",
       "priority": 84,
       "businessValue": "medium",
       "evergreen": "high",
-      "angles": [
-        "不一定要攻頂，才算走進戶外：熟齡女性也能開始的台灣輕戶外提案",
-        "週末只想離開城市半天，熟齡女性可以怎麼用輕戶外把自己拉回來",
-        "從步道到咖啡館都走得舒服：熟齡女性的低壓戶外節奏怎麼排"
-      ]
-    },
-    {
-      "topic": "日常記錄工具與生活影像",
-      "direction": "承接站內現有自拍顯示器與影像內容，但不綁單一產品名稱",
-      "category": "lifestyle-culture",
-      "audience": "想把生活拍得更自然、有秩序、可留存的熟齡讀者",
-      "ctaHint": "導向生活品味主題頁",
-      "priority": 82,
-      "businessValue": "high",
-      "evergreen": "medium",
-      "angles": [
-        "想把日常拍得自然，不一定要先升級器材：熟齡女性更需要的是記錄流程",
-        "後鏡頭、腳架、顯示器怎麼選？生活影像不是比器材，而是比順手程度",
-        "把生活記錄下來，關鍵不只畫質：熟齡女性更該在意的是拍攝壓力有沒有變低"
-      ]
-    },
-    {
-      "topic": "居家閱讀與工作角落",
-      "direction": "結合生活品味、閱讀、空間與第二曲線工作場景",
-      "category": "lifestyle-culture",
-      "audience": "希望把家裡整理成更安定、更有專注感環境的熟齡女性",
-      "ctaHint": "導向生活品味主題頁",
-      "priority": 80,
-      "businessValue": "medium",
-      "evergreen": "high",
+      "seasonFit": "all-season",
+      "intentType": "情境指南型",
+      "relatedKeywords": [
+        "閱讀角落",
+        "工作角落",
+        "居家",
+        "收納",
+        "秩序"
+      ],
       "angles": [
         "家裡不是越漂亮越能待得住：熟齡女性的閱讀角落更需要什麼條件",
         "想在家重新開始工作或閱讀，先別急著買桌子：空間感受才是第一步",
@@ -185,47 +359,74 @@
       ]
     },
     {
-      "topic": "AI 對熟齡工作者的實際影響",
-      "direction": "寫給非工程背景，聚焦工作方式、學習曲線與實際採用感",
+      "topic": "AI 對客服、行政與內容工作的低壓導入",
+      "direction": "把 AI 議題寫得更貼近實際部門任務，聚焦日常流程，不寫成矽谷趨勢評論。",
       "category": "ai-innovation",
-      "audience": "聽過很多 AI 熱詞，但還不知道自己工作會怎麼被影響的讀者",
-      "ctaHint": "導向人工智能主題頁",
-      "priority": 83,
+      "audience": "正在客服、行政、內容、營運角色中，想知道 AI 會先改變哪些工作的熟齡讀者",
+      "ctaHint": "導向人工智能主題頁與導入案例",
+      "priority": 82,
       "businessValue": "high",
       "evergreen": "high",
+      "seasonFit": "all-season",
+      "intentType": "趨勢翻譯型",
+      "relatedKeywords": [
+        "客服",
+        "行政",
+        "內容",
+        "營運",
+        "自動化"
+      ],
       "angles": [
-        "AI 不只是年輕人的工具：45+ 工作者最需要先看懂的 3 個變化",
-        "不是每個人都要變成 prompt 專家：熟齡工作者學 AI 更實際的切入點",
-        "覺得 AI 很吵卻又不能不看？給中高階工作者的低壓理解版本"
+        "AI 先影響的不是工程師：客服、行政與內容工作有哪些任務最容易被重組",
+        "當 AI 開始替你整理 FAQ、信件與排程，熟齡工作者該先保住哪些判斷力",
+        "不是每個部門都要做 AI 專案：中小團隊可以先從哪 3 個低壓流程開始"
       ]
     },
     {
-      "topic": "秀場趨勢如何翻譯成日常衣櫥",
-      "direction": "把 runway 類內容從純趨勢解析改成生活轉譯",
+      "topic": "把秀場趨勢翻譯成熟齡日常衣櫥",
+      "direction": "保留 runway 類內容，但每篇都必須回到顏色、材質、輪廓與可穿性判斷。",
       "category": "runway-trends",
       "audience": "對趨勢有興趣，但不會真的照搬秀場造型的熟齡讀者",
       "ctaHint": "導向秀場趨勢與休閒時尚頁",
-      "priority": 78,
+      "priority": 76,
       "businessValue": "medium",
       "evergreen": "medium",
+      "seasonFit": "spring-summer",
+      "intentType": "趨勢翻譯型",
+      "relatedKeywords": [
+        "秀場",
+        "趨勢",
+        "顏色",
+        "材質",
+        "輪廓"
+      ],
       "angles": [
-        "看懂秀場趨勢，不代表要穿成秀場：熟齡女性怎麼把趨勢翻譯成自己的衣櫥",
-        "今年流行的輪廓、材質與顏色，哪些真的適合放進熟齡日常穿搭",
+        "看懂 2026 春夏秀場，不代表要穿成秀場：熟齡女性怎麼留下真正有用的部分",
+        "今年流行的顏色、材質與輪廓，哪些真的值得放進熟齡日常衣櫥",
         "不是每個時裝週亮點都值得追：熟齡女性該怎麼篩選真正有用的趨勢"
       ]
     },
     {
-      "topic": "設計師觀點與熟齡美學",
-      "direction": "保留設計師視角，但主題要能回扣穿搭、自我表達與生活選擇",
+      "topic": "設計師觀點下的熟齡美學與個人辨識度",
+      "direction": "保留設計師視角，但每篇都要回扣個人風格、衣櫥判斷與熟齡自我表達。",
       "category": "designer-perspective",
-      "audience": "喜歡設計觀點，但更在意自己如何吸收與實踐的讀者",
+      "audience": "喜歡設計觀點，但更在意自己如何吸收與實踐的熟齡讀者",
       "ctaHint": "導向設計師視角頁",
-      "priority": 74,
+      "priority": 68,
       "businessValue": "low",
       "evergreen": "medium",
+      "seasonFit": "all-season",
+      "intentType": "觀點轉譯型",
+      "relatedKeywords": [
+        "設計師",
+        "美學",
+        "輪廓",
+        "個人風格",
+        "辨識度"
+      ],
       "angles": [
-        "設計師在看的是輪廓，不是年齡：熟齡女性可以怎麼重新理解自己的風格",
         "成熟不是保守：設計師會怎麼建議熟齡女性留下個人辨識度",
+        "設計師在看的是輪廓，不是年齡：熟齡女性可以怎麼重新理解自己的風格",
         "當你不再追求年輕感，設計師視角下的熟齡美學會怎麼改變"
       ]
     }

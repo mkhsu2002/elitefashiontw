@@ -251,6 +251,43 @@ python3 scripts/content_pipeline.py send-notification --article-title "標題" -
 - 文章標題
 - 正式站網址
 
+## Google Sheets 雲端紀錄
+
+本專案已比照 `elitefashion` 的做法，新增正式發文後的雲端紀錄同步：
+
+- 來源資料仍以本地 `automation/publish-log.json` 為主
+- 只有在文章已生成、已 commit / push、正式站可讀後，workflow 才會同步到 Google Sheets
+- 同步腳本：`scripts/log_article_to_google_sheets.py`
+- 預設 worksheet：`Taiwan`
+
+目前同步欄位包括：
+
+- `article_id`
+- `slug`
+- `title`
+- `live_url`
+- `path`
+- `category`
+- `series`
+- `published_at`
+- `queue_id`
+- `trigger_type`
+- `provider`
+- `model`
+- `site_name`
+- `site_url`
+- `status`
+- `notes`
+
+重複保護規則：
+
+- 以 `article_id` 去重
+- 同一篇文章重跑同步時，不會重複新增第二列
+
+若需要補登既有文章，可使用 GitHub Actions workflow：
+
+- `Content Cloud Log Backfill`
+
 ## 模型 API 與版本紀錄
 
 ### 目前正式使用中
@@ -295,6 +332,9 @@ OpenAI 並沒有被覆蓋，仍完整保留作為 fallback：
 - `RESEND_API_KEY`
 - `CONTENT_NOTIFICATION_FROM_EMAIL`
 - `CONTENT_NOTIFICATION_TO_EMAIL`
+- `GOOGLE_SHEETS_SPREADSHEET_ID`
+- `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON`
+- `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON_BASE64`
 
 ### Variables
 
@@ -316,6 +356,10 @@ OpenAI 並沒有被覆蓋，仍完整保留作為 fallback：
   - OpenAI 路徑的 writer / planner 模型
 - `NVIDIA_CONTENT_MODEL` / `NVIDIA_CONTENT_PLANNER_MODEL`
   - NVIDIA 路徑的 writer / planner 模型
+- `GOOGLE_SHEETS_SPREADSHEET_ID`
+  - Google Sheet 的 spreadsheet id，這個 repo 若要寫到和 `elitefashion` 同一份表，就填同一個值
+- `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON` / `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON_BASE64`
+  - Google service account 憑證，擇一即可
 
 ### 舊變數備註
 

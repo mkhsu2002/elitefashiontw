@@ -1964,18 +1964,27 @@ def compute_category_gap_scores(
 def get_fallback_item(config: dict[str, Any], categories: dict[str, CategoryConfig], registry: list[dict[str, Any]]) -> dict[str, Any]:
     backlog = load_json(ROOT / config["paths"]["topicBacklogFile"])
     existing_titles = [item["title"] for item in registry]
-    recent_titles = existing_titles[:18]
-    recent_categories = [item["category"] for item in registry[:9] if item.get("category") in categories]
     selection_rules = backlog.get("selectionRules", {})
+    recent_title_lookback = selection_rules.get("recentTitleLookback", 18)
+    recent_category_lookback = selection_rules.get("recentCategoryLookback", 9)
+    recent_titles = existing_titles[:recent_title_lookback]
+    recent_categories = [
+        item["category"] for item in registry[:recent_category_lookback] if item.get("category") in categories
+    ]
     category_gaps = compute_category_gap_scores(registry, selection_rules, categories)
     business_weights = selection_rules.get("businessValueWeights", {})
     evergreen_weights = selection_rules.get("evergreenWeights", {})
+    season_fit_weights = selection_rules.get("seasonFitWeights", {})
     avoid_patterns = selection_rules.get("avoidTitlePatterns", [])
+    deprioritized_patterns = selection_rules.get("deprioritizedTopicPatterns", [])
+    related_keyword_penalty = selection_rules.get("relatedKeywordPenalty", 9)
 
     ranked_candidates: list[tuple[float, dict[str, Any]]] = []
     for entry in backlog["fallbackTopics"]:
         category = entry["category"]
         if category not in categories:
+            continue
+        if entry.get("manualOnly"):
             continue
         for angle in entry["angles"]:
             candidate_title = candidate_title_from_angle(entry["topic"], angle)
@@ -1985,10 +1994,18 @@ def get_fallback_item(config: dict[str, Any], categories: dict[str, CategoryConf
             score += round(category_gaps.get(category, 0.0) * 100, 2)
             score += business_weights.get(entry.get("businessValue", "low"), 0)
             score += evergreen_weights.get(entry.get("evergreen", "low"), 0)
+            score += season_fit_weights.get(entry.get("seasonFit", "all-season"), 0)
             if any(pattern in candidate_title for pattern in avoid_patterns):
                 score -= 12
+            if any(pattern in entry.get("topic", "") or pattern in angle for pattern in deprioritized_patterns):
+                score -= 10
             if any(similarity_score(entry["topic"], title) >= 0.18 for title in recent_titles):
                 score -= 28
+            keyword_hits = 0
+            for keyword in entry.get("relatedKeywords", []):
+                if any(keyword in title for title in recent_titles):
+                    keyword_hits += 1
+            score -= keyword_hits * related_keyword_penalty
             score -= recent_categories.count(category) * 5
             ranked_candidates.append(
                 (
