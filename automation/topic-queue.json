@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-06T05:39:20Z",
+  "updatedAt": "2026-05-08T05:15:36Z",
   "nextQueueSequence": 13,
   "series": [
     {
@@ -220,7 +220,7 @@
       "topic": "中年未婚高知識女性如何學會一個人生活",
       "direction": "聚焦長期單身或未婚的高知識女性，關注獨處、自主、親密關係邊界、社會期待與人生節奏選擇。",
       "plannedCount": 3,
-      "status": "planned",
+      "status": "in_progress",
       "createdAt": "2026-04-25T16:36:44Z",
       "seriesName": "一個人的優雅：中年未婚高知女性的獨立生活系列",
       "items": [
@@ -232,9 +232,11 @@
           "category": "lifestyle-culture",
           "series": "一個人的優雅：中年未婚高知女性的獨立生活系列",
           "ctaHint": "查看站內『獨居生活準備清單』（一步步可執行的檢核表）",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260508051536-中年未婚女性獨居評估與行動清單",
+          "file": "lifestyle-culture/中年未婚女性獨居評估與行動清單.html",
+          "topic": "中年未婚高知識女性如何學會一個人生活",
+          "publishedAt": "2026-05-08T05:15:36Z"
         },
         {
           "order": 2,

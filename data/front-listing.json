@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-05-07T22:16:51Z",
+  "updatedAt": "2026-05-08T05:15:36Z",
   "latest": [
+    {
+      "id": "auto-20260508051536-中年未婚女性獨居評估與行動清單",
+      "title": "想獨居還是想保有選擇？中年未婚女性的獨居評估清單",
+      "excerpt": "不再被「應該要獨立」綁架。給自己的決策框架：居住型態、財務、空間、安全與社交，陪你找到真正的想要。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "一個人的優雅：中年未婚高知女性的獨立生活系列",
+      "publishedAt": "2026-05-08T05:15:36Z",
+      "publishedDateText": "2026年5月8日",
+      "relativeUrl": "lifestyle-culture/中年未婚女性獨居評估與行動清單.html",
+      "heroImage": "images/generated/lifestyle/notion-obsidian.png",
+      "tags": [
+        "一個人住",
+        "熟齡人生重整",
+        "熟齡女性",
+        "獨居準備",
+        "中年未婚"
+      ]
+    },
     {
       "id": "legacy-casual-chic-world-cup-2026-special-html",
       "title": "從北美主辦、奪冠模型到球星世代交替，一頁掌握 2026 世足賽內容版圖",
@@ -236,27 +255,6 @@
         "斷捨離",
         "台北極簡生活",
         "永續時尚",
-        "Elite Fashion"
-      ]
-    },
-    {
-      "id": "legacy-designer-perspective-stylist-power-html",
-      "title": "視覺主權的塑造：Rachel Wong 與造型中的權力美學",
-      "excerpt": "深入專訪一線造型師 Rachel Wong，探討如何透過服裝建立視覺領導力。結合金馬獎、台北時尚週等台灣在地語境，精準解析 2026 年穿搭心理學。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-05-07T19:32:18Z",
-      "publishedDateText": "2026年5月7日",
-      "relativeUrl": "designer-perspective/stylist-power.html",
-      "heroImage": "images/generated/designer/stylist-power.png",
-      "tags": [
-        "造型師",
-        "Rachel Wong",
-        "視覺領導力",
-        "金馬獎造型",
-        "台北時尚週",
-        "穿搭策略",
         "Elite Fashion"
       ]
     }
@@ -1053,6 +1051,25 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260508051536-中年未婚女性獨居評估與行動清單",
+          "title": "想獨居還是想保有選擇？中年未婚女性的獨居評估清單",
+          "excerpt": "不再被「應該要獨立」綁架。給自己的決策框架：居住型態、財務、空間、安全與社交，陪你找到真正的想要。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "一個人的優雅：中年未婚高知女性的獨立生活系列",
+          "publishedAt": "2026-05-08T05:15:36Z",
+          "publishedDateText": "2026年5月8日",
+          "relativeUrl": "lifestyle-culture/中年未婚女性獨居評估與行動清單.html",
+          "heroImage": "images/generated/lifestyle/notion-obsidian.png",
+          "tags": [
+            "一個人住",
+            "熟齡人生重整",
+            "熟齡女性",
+            "獨居準備",
+            "中年未婚"
+          ]
+        },
+        {
           "id": "auto-20260506053920-high-level-female-executive-post-divorce-social-reconstruction",
           "title": "高階女性的關係重置：離婚後如何協商邊界，建立帶有標準的社交圈",
           "excerpt": "從前夫、子女到新朋友，釐清界線與標準，為再戀愛做好準備的實務藍圖。",
@@ -1145,25 +1162,6 @@
             "關係管理",
             "熟齡生活",
             "一人公司"
-          ]
-        },
-        {
-          "id": "auto-20260425232621-solopreneur-daily-rhythm-outsourcing-strategy",
-          "title": "一個人也能有秩序：創業女性的時間治理與家務外包策略",
-          "excerpt": "別再用體力硬撐。從時間分塊到外包決策，幫創業中的你找回生活的節奏感。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "一個人的創業與生活：中年離婚女性的重整手冊",
-          "publishedAt": "2026-04-25T23:26:21Z",
-          "publishedDateText": "2026年4月25日",
-          "relativeUrl": "lifestyle-culture/solopreneur-daily-rhythm-outsourcing-strategy.html",
-          "heroImage": "images/generated/fashion-1.png",
-          "tags": [
-            "時間管理",
-            "一人創業",
-            "家務外包",
-            "熟齡生活",
-            "中年離婚"
           ]
         }
       ]
