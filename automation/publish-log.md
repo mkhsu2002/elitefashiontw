@@ -1,5 +1,13 @@
 # 發文紀錄
 
+## 2026-05-09T20:29:36Z｜一個人住，也可以很有儀式：給中年未婚高知女性的質感日常重建
+
+- 文章 ID：auto-20260509202936-living-alone-with-style-mature-women
+- URL：https://tw.elitefasion.com/lifestyle-culture/living-alone-with-style-mature-women.html
+- 檔案：lifestyle-culture/living-alone-with-style-mature-women.html
+- 類型：queue
+- Queue：Q-0005
+
 ## 2026-05-09T20:25:50Z｜親密、獨處與界線：中年長期單身女性的情感照護與關係策略
 
 - 文章 ID：auto-20260509202550-single-women-relationship-strategies-after-40

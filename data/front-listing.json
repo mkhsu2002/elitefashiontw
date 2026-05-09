@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-05-09T20:25:50Z",
+  "updatedAt": "2026-05-09T20:29:36Z",
   "latest": [
+    {
+      "id": "auto-20260509202936-living-alone-with-style-mature-women",
+      "title": "一個人住也可以很有儀式：給中年未婚高知女性的質感日常重建",
+      "excerpt": "不是「只能這樣過」，而是「我想要這樣生活」。從居家、旅行到獨處，為妳拆解將一個人的日常活成高品質美學的具體方法。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "一個人的優雅：中年未婚高知女性的獨立生活系列",
+      "publishedAt": "2026-05-09T20:29:36Z",
+      "publishedDateText": "2026年5月9日",
+      "relativeUrl": "lifestyle-culture/living-alone-with-style-mature-women.html",
+      "heroImage": "images/generated/life-proposals/finding-yourself-after-40.png",
+      "tags": [
+        "生活品味",
+        "一個人的生活",
+        "居家布置",
+        "熟齡獨旅",
+        "中年未婚女性"
+      ]
+    },
     {
       "id": "auto-20260509202550-single-women-relationship-strategies-after-40",
       "title": "親密、獨處與界線：中年單身女性的關係策略",
@@ -234,29 +253,6 @@
         "創新設計",
         "台北時裝週",
         "金點設計獎",
-        "Elite Fashion"
-      ]
-    },
-    {
-      "id": "legacy-designer-perspective-education-roi-html",
-      "title": "教育投資的博弈：設計師如何避開「自覺式平庸」",
-      "excerpt": "深度評測 2026 年最強線上學習平台。跟 Marc Jacobs 學設計，還是跟職人學技法？解析 MasterClass 與 Domestika 的真實投資回報率 (ROI)，並對比 Hahow 等台灣平台。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-05-07T19:32:18Z",
-      "publishedDateText": "2026年5月7日",
-      "relativeUrl": "designer-perspective/education-roi.html",
-      "heroImage": "images/generated/designer/masterclass-domestika.png",
-      "tags": [
-        "MasterClass",
-        "Domestika",
-        "線上課程",
-        "時尚設計教學",
-        "自學設計",
-        "職涯發展",
-        "Hahow",
-        "PressPlay",
         "Elite Fashion"
       ]
     }
@@ -1054,6 +1050,25 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260509202936-living-alone-with-style-mature-women",
+          "title": "一個人住也可以很有儀式：給中年未婚高知女性的質感日常重建",
+          "excerpt": "不是「只能這樣過」，而是「我想要這樣生活」。從居家、旅行到獨處，為妳拆解將一個人的日常活成高品質美學的具體方法。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "一個人的優雅：中年未婚高知女性的獨立生活系列",
+          "publishedAt": "2026-05-09T20:29:36Z",
+          "publishedDateText": "2026年5月9日",
+          "relativeUrl": "lifestyle-culture/living-alone-with-style-mature-women.html",
+          "heroImage": "images/generated/life-proposals/finding-yourself-after-40.png",
+          "tags": [
+            "生活品味",
+            "一個人的生活",
+            "居家布置",
+            "熟齡獨旅",
+            "中年未婚女性"
+          ]
+        },
+        {
           "id": "auto-20260509202550-single-women-relationship-strategies-after-40",
           "title": "親密、獨處與界線：中年單身女性的關係策略",
           "excerpt": "不委屈、不將就，拆解台灣社會期待下的情感照護實務。",
@@ -1147,25 +1162,6 @@
             "時間管理",
             "高管形象",
             "膠囊衣櫥"
-          ]
-        },
-        {
-          "id": "auto-20260426045147-離婚後的第一步-高階主管如何評估優先順序與建立可控日常",
-          "title": "離婚後的第一步，高階主管如何評估優先順序並建立可控日常",
-          "excerpt": "情緒、工作、法律、財務、形象、隱私，六個面向的評估架構，幫助高壓職場女性在分裂期保有決策能力。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "從高階到自處：離婚後的高管女性一人生活重整指南",
-          "publishedAt": "2026-04-26T04:51:47Z",
-          "publishedDateText": "2026年4月26日",
-          "relativeUrl": "lifestyle-culture/離婚後的第一步-高階主管如何評估優先順序與建立可控日常.html",
-          "heroImage": "images/generated/lifestyle/home-sanctuary.png",
-          "tags": [
-            "離婚生活重建",
-            "高階主管",
-            "熟齡女性",
-            "情緒管理",
-            "優先順序"
           ]
         }
       ]
