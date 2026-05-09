@@ -121,6 +121,138 @@
             border-bottom: 1px solid var(--uap-line);
         }
 
+        .uap-video-stage {
+            background: #101418;
+            color: #fff;
+            border-top: 1px solid rgba(255, 255, 255, 0.12);
+            padding: 3.6rem 0;
+        }
+
+        .uap-video-stage .uap-section-eyebrow,
+        .uap-video-stage .uap-section-title {
+            color: #fff;
+        }
+
+        .uap-video-stage .uap-section-eyebrow {
+            color: #d9c693;
+        }
+
+        .uap-video-stage .uap-section-copy {
+            color: rgba(255, 255, 255, 0.72);
+        }
+
+        .uap-video-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.65fr);
+            gap: 1.2rem;
+            align-items: stretch;
+        }
+
+        .uap-video-player {
+            background: #050607;
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 22px 45px rgba(0, 0, 0, 0.28);
+        }
+
+        .uap-video-frame {
+            position: relative;
+            aspect-ratio: 16 / 9;
+            background:
+                linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+                #07090b;
+            background-size: 28px 28px;
+        }
+
+        .uap-video-frame iframe {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .uap-video-caption {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 1rem;
+            align-items: center;
+            padding: 1rem 1.1rem;
+        }
+
+        .uap-video-caption h3 {
+            font-family: var(--font-serif);
+            font-size: 1.4rem;
+            line-height: 1.25;
+            margin-bottom: 0.25rem;
+        }
+
+        .uap-video-caption p {
+            color: rgba(255, 255, 255, 0.72);
+            font-size: 0.94rem;
+            line-height: 1.6;
+        }
+
+        .uap-video-caption a {
+            border: 1px solid rgba(255, 255, 255, 0.26);
+            border-radius: 999px;
+            padding: 0.55rem 0.8rem;
+            color: #fff;
+            white-space: nowrap;
+            font-size: 0.88rem;
+        }
+
+        .uap-video-rail {
+            display: grid;
+            gap: 0.7rem;
+            align-content: start;
+            max-height: 100%;
+        }
+
+        .uap-video-card {
+            width: 100%;
+            appearance: none;
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.06);
+            color: #fff;
+            padding: 0.9rem;
+            text-align: left;
+            cursor: pointer;
+            transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .uap-video-card:hover,
+        .uap-video-card.is-active {
+            background: rgba(217, 198, 147, 0.14);
+            border-color: rgba(217, 198, 147, 0.58);
+            transform: translateY(-1px);
+        }
+
+        .uap-video-card strong {
+            display: block;
+            font-family: var(--font-serif);
+            font-size: 1.05rem;
+            line-height: 1.25;
+            margin-bottom: 0.3rem;
+        }
+
+        .uap-video-card span {
+            display: block;
+            color: rgba(255, 255, 255, 0.66);
+            font-size: 0.84rem;
+            line-height: 1.5;
+        }
+
+        .uap-video-note {
+            margin-top: 1rem;
+            color: rgba(255, 255, 255, 0.62);
+            font-size: 0.88rem;
+            line-height: 1.6;
+        }
+
         .uap-nav .container {
             display: flex;
             flex-wrap: wrap;
@@ -421,6 +553,7 @@
 
         @media (max-width: 980px) {
             .uap-hero .container,
+            .uap-video-layout,
             .uap-callout {
                 grid-template-columns: 1fr;
             }
@@ -451,6 +584,26 @@
 
             .uap-section {
                 padding: 3.4rem 0;
+            }
+
+            .uap-video-stage {
+                padding: 3rem 0;
+            }
+
+            .uap-video-caption {
+                grid-template-columns: 1fr;
+            }
+
+            .uap-video-rail {
+                display: flex;
+                overflow-x: auto;
+                padding-bottom: 0.2rem;
+                scroll-snap-type: x mandatory;
+            }
+
+            .uap-video-card {
+                min-width: 250px;
+                scroll-snap-align: start;
             }
 
             .uap-card,
@@ -531,6 +684,86 @@
             </dl>
         </div>
     </header>
+
+    <section class="uap-video-stage" aria-labelledby="official-video-title">
+        <div class="container">
+            <div class="uap-section-header">
+                <p class="uap-section-eyebrow">官方影像選播</p>
+                <h2 class="uap-section-title" id="official-video-title">先看影像，再回到檔案脈絡</h2>
+                <p class="uap-section-copy">
+                    以下影片採用 DVIDS 官方嵌入播放器，來源為 AARO、Naval Air Systems Command 與相關美國政府單位。點選右側案例可切換播放；每支影片旁皆保留官方頁面連結，方便讀者回查原始說明與權利資訊。
+                </p>
+            </div>
+
+            <div class="uap-video-layout">
+                <div class="uap-video-player">
+                    <div class="uap-video-frame">
+                        <iframe id="uapFeatureVideo" src="https://www.dvidshub.net/video/embed/988676" title="PR-018, Unresolved UAP Report, Europe 2024" allowtransparency allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="uap-video-caption">
+                        <div>
+                            <h3 id="uapFeatureTitle">PR-018 Europe 2024：最新未解紅外線案例</h3>
+                            <p id="uapFeatureSummary">AARO 表示影像顯示可能存在實體物件，但公開資料不足以完成更具體歸因。</p>
+                        </div>
+                        <a id="uapFeatureLink" href="https://www.dvidshub.net/video/988676/pr-018-unresolved-uap-report-europe-2024" target="_blank" rel="noopener">開啟官方頁</a>
+                    </div>
+                </div>
+
+                <div class="uap-video-rail" aria-label="官方 UAP 影像案例選單">
+                    <button class="uap-video-card is-active" type="button"
+                        data-video="https://www.dvidshub.net/video/embed/988676"
+                        data-title="PR-018 Europe 2024：最新未解紅外線案例"
+                        data-summary="AARO 表示影像顯示可能存在實體物件，但公開資料不足以完成更具體歸因。"
+                        data-link="https://www.dvidshub.net/video/988676/pr-018-unresolved-uap-report-europe-2024">
+                        <strong>PR-018 Europe 2024</strong>
+                        <span>最新未解案例 · 紅外線影像 · AARO / EUCOM</span>
+                    </button>
+                    <button class="uap-video-card" type="button"
+                        data-video="https://www.dvidshub.net/video/embed/956955"
+                        data-title="GIMBAL：美國軍方經典 UAP 影像"
+                        data-summary="NAVAIR 公開的經典 UAP 影片之一，適合搭配 FLIR 與 Go Fast 一起閱讀。"
+                        data-link="https://www.dvidshub.net/video/956955/gimbal-uap">
+                        <strong>GIMBAL - UAP</strong>
+                        <span>經典軍方影像 · 2015 · NAVAIR</span>
+                    </button>
+                    <button class="uap-video-card" type="button"
+                        data-video="https://www.dvidshub.net/video/embed/956683"
+                        data-title="GOFAST：高速感知與視角判讀"
+                        data-summary="常被討論的海上 UAP 影像，適合搭配官方解析報告理解速度與視角差異。"
+                        data-link="https://www.dvidshub.net/video/956683/gofast-uap">
+                        <strong>GOFAST - UAP</strong>
+                        <span>經典軍方影像 · 2016 · NAVAIR</span>
+                    </button>
+                    <button class="uap-video-card" type="button"
+                        data-video="https://www.dvidshub.net/video/embed/955825"
+                        data-title="FLIR / Tic Tac：2004 經典影像"
+                        data-summary="2004 年公開影像常被稱為 FLIR 或 Tic Tac 案例，是理解近代 UAP 討論的重要素材。"
+                        data-link="https://www.dvidshub.net/video/955825/flir-uap">
+                        <strong>FLIR - UAP</strong>
+                        <span>經典軍方影像 · 2004 · NAVAIR</span>
+                    </button>
+                    <button class="uap-video-card" type="button"
+                        data-video="https://www.dvidshub.net/video/embed/964843"
+                        data-title="Middle East Red Balloon：已解析為反光氣球"
+                        data-summary="AARO 以高信心判定影像中的球狀物體幾乎可以歸因為消費級反光鋁箔氣球。"
+                        data-link="https://www.dvidshub.net/video/964843/25-scr150-middle-east-red-balloon-2024">
+                        <strong>Middle East Red Balloon</strong>
+                        <span>已解析案例 · 2024 · 氣球</span>
+                    </button>
+                    <button class="uap-video-card" type="button"
+                        data-video="https://www.dvidshub.net/video/embed/988673"
+                        data-title="PR-016 Europe 2023：已解析為鳥群"
+                        data-summary="AARO 以高信心判定影片中的物體幾乎可以歸因為鳥群，適合對照未解案例閱讀。"
+                        data-link="https://www.dvidshub.net/video/988673/pr-016-resolved-birds-europe-2023">
+                        <strong>PR-016 Europe 2023</strong>
+                        <span>已解析案例 · 鳥群 · AARO / EUCOM</span>
+                    </button>
+                </div>
+            </div>
+
+            <p class="uap-video-note">權利提醒：DVIDS 條目通常標示為 public domain，但使用時不得暗示 DoD、AARO 或任何美國政府機構背書；個別素材仍以官方頁面當下顯示的權利聲明為準。</p>
+        </div>
+    </section>
 
     <div class="uap-nav" aria-label="本頁目錄">
         <div class="container">
@@ -1139,6 +1372,27 @@
         </div>
     </footer>
 
+    <script>
+        (function () {
+            const videoFrame = document.getElementById('uapFeatureVideo');
+            const videoTitle = document.getElementById('uapFeatureTitle');
+            const videoSummary = document.getElementById('uapFeatureSummary');
+            const videoLink = document.getElementById('uapFeatureLink');
+            const videoCards = document.querySelectorAll('.uap-video-card');
+
+            videoCards.forEach((card) => {
+                card.addEventListener('click', () => {
+                    videoCards.forEach((item) => item.classList.remove('is-active'));
+                    card.classList.add('is-active');
+                    videoFrame.src = card.dataset.video;
+                    videoFrame.title = card.dataset.title;
+                    videoTitle.textContent = card.dataset.title;
+                    videoSummary.textContent = card.dataset.summary;
+                    videoLink.href = card.dataset.link;
+                });
+            });
+        })();
+    </script>
     <script src="js/main.js"></script>
 </body>
 
