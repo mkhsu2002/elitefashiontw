@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美國官方 UAP/UFO 解密資料庫繁中導讀 | Elite Fashion</title>
+    <meta name="description" content="繁體中文整理 AARO、NARA、CIA Reading Room、Project Blue Book、Roswell、ODNI 與美國軍方公開 UAP/UFO 解密資料，聚焦官方來源、案例狀態與素材引用權限。">
+    <meta name="keywords" content="UAP, UFO, AARO, NARA, CIA Reading Room, Project Blue Book, Roswell, UAP 解密, UFO 解密, 繁中導讀">
+    <meta name="author" content="Elite Fashion Team">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="zh_TW">
+    <meta property="og:url" content="https://tw.elitefasion.com/uap-ufo-declassified-database.html">
+    <meta property="og:title" content="美國官方 UAP/UFO 解密資料庫繁中導讀">
+    <meta property="og:description" content="以官方資料、可查證來源、事件導讀與素材授權評估為核心，整理美國政府已公開的 UAP/UFO 檔案與案例。">
+    <meta property="og:image" content="https://tw.elitefasion.com/images/logo.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://tw.elitefasion.com/uap-ufo-declassified-database.html">
+    <link rel="stylesheet" href="css/styles.css?v=1.2">
+    <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --uap-ink: #101418;
+            --uap-muted: #586069;
+            --uap-paper: #fbfaf6;
+            --uap-panel: #ffffff;
+            --uap-line: #d9d2c4;
+            --uap-gold: #a68b5a;
+            --uap-green: #2f6f5e;
+            --uap-blue: #344f73;
+            --uap-red: #8a3d36;
+        }
+
+        body {
+            background: var(--uap-paper);
+        }
+
+        .uap-hero {
+            background:
+                linear-gradient(115deg, rgba(16, 20, 24, 0.92), rgba(43, 49, 53, 0.82)),
+                repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.08) 0 1px, transparent 1px 88px),
+                repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.06) 0 1px, transparent 1px 72px);
+            color: #fff;
+            padding: 7rem 0 5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .uap-hero::after {
+            content: "";
+            position: absolute;
+            inset: auto -8% -34% auto;
+            width: min(54vw, 620px);
+            aspect-ratio: 1;
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 50%;
+            box-shadow: inset 0 0 0 64px rgba(255, 255, 255, 0.025), inset 0 0 0 132px rgba(255, 255, 255, 0.018);
+            pointer-events: none;
+        }
+
+        .uap-hero .container {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.55fr);
+            gap: 3rem;
+            align-items: end;
+        }
+
+        .uap-kicker {
+            color: #d9c693;
+            font-size: 0.86rem;
+            font-weight: 700;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .uap-title {
+            font-family: var(--font-serif);
+            font-size: clamp(2.35rem, 5vw, 5rem);
+            line-height: 1.08;
+            max-width: 930px;
+            text-wrap: balance;
+            margin-bottom: 1.2rem;
+        }
+
+        .uap-lede {
+            color: rgba(255, 255, 255, 0.82);
+            max-width: 820px;
+            font-size: clamp(1.05rem, 1.6vw, 1.28rem);
+            line-height: 1.85;
+        }
+
+        .uap-brief {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            padding: 1.4rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .uap-brief dt {
+            color: #d9c693;
+            font-size: 0.78rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            margin-bottom: 0.25rem;
+        }
+
+        .uap-brief dd {
+            margin-bottom: 1rem;
+            color: rgba(255, 255, 255, 0.92);
+        }
+
+        .uap-nav {
+            background: #fff;
+            border-bottom: 1px solid var(--uap-line);
+        }
+
+        .uap-nav .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.65rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .uap-nav a {
+            border: 1px solid var(--uap-line);
+            border-radius: 999px;
+            padding: 0.48rem 0.85rem;
+            color: var(--uap-ink);
+            background: #fff;
+            font-size: 0.9rem;
+        }
+
+        .uap-section {
+            padding: 4.5rem 0;
+        }
+
+        .uap-section:nth-of-type(even) {
+            background: #fff;
+        }
+
+        .uap-section-header {
+            max-width: 860px;
+            margin-bottom: 2.2rem;
+        }
+
+        .uap-section-eyebrow {
+            color: var(--uap-gold);
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            font-size: 0.78rem;
+            margin-bottom: 0.45rem;
+        }
+
+        .uap-section-title {
+            font-family: var(--font-serif);
+            font-size: clamp(2rem, 3.2vw, 3.2rem);
+            line-height: 1.18;
+            color: var(--uap-ink);
+            margin-bottom: 0.75rem;
+            text-wrap: balance;
+        }
+
+        .uap-section-copy {
+            color: var(--uap-muted);
+            font-size: 1.06rem;
+            max-width: 760px;
+        }
+
+        .uap-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1rem;
+        }
+
+        .uap-card,
+        .uap-source,
+        .uap-case,
+        .uap-note {
+            background: var(--uap-panel);
+            border: 1px solid var(--uap-line);
+            border-radius: 8px;
+            padding: 1.2rem;
+            box-shadow: 0 12px 28px rgba(16, 20, 24, 0.05);
+        }
+
+        .uap-card h3,
+        .uap-source h3,
+        .uap-case h3,
+        .uap-note h3 {
+            font-family: var(--font-serif);
+            font-size: 1.34rem;
+            line-height: 1.28;
+            margin-bottom: 0.6rem;
+            color: var(--uap-ink);
+        }
+
+        .uap-card p,
+        .uap-source p,
+        .uap-case p,
+        .uap-note p {
+            color: var(--uap-muted);
+            font-size: 0.98rem;
+            line-height: 1.75;
+        }
+
+        .uap-stats {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .uap-stat {
+            border-left: 3px solid var(--uap-gold);
+            background: rgba(255, 255, 255, 0.72);
+            padding: 1rem;
+        }
+
+        .uap-stat strong {
+            display: block;
+            font-family: var(--font-serif);
+            font-size: 2rem;
+            line-height: 1;
+            color: var(--uap-ink);
+            margin-bottom: 0.35rem;
+        }
+
+        .uap-stat span {
+            color: var(--uap-muted);
+            font-size: 0.92rem;
+        }
+
+        .uap-table-wrap {
+            overflow-x: auto;
+            border: 1px solid var(--uap-line);
+            border-radius: 8px;
+            background: #fff;
+            box-shadow: 0 16px 30px rgba(16, 20, 24, 0.05);
+        }
+
+        .uap-table {
+            width: 100%;
+            min-width: 980px;
+            border-collapse: collapse;
+            font-size: 0.94rem;
+        }
+
+        .uap-table th,
+        .uap-table td {
+            padding: 0.9rem;
+            border-bottom: 1px solid #eee8dc;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .uap-table th {
+            background: #171b1f;
+            color: #fff;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .uap-table tr:last-child td {
+            border-bottom: 0;
+        }
+
+        .uap-table a,
+        .uap-link {
+            color: #2c567a;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .uap-tag-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.45rem;
+            margin-top: 0.8rem;
+        }
+
+        .uap-tag {
+            display: inline-flex;
+            align-items: center;
+            border-radius: 999px;
+            padding: 0.22rem 0.62rem;
+            background: #f1ece2;
+            color: var(--uap-ink);
+            font-size: 0.82rem;
+            line-height: 1.4;
+        }
+
+        .uap-tag.resolved {
+            background: rgba(47, 111, 94, 0.12);
+            color: var(--uap-green);
+        }
+
+        .uap-tag.unresolved {
+            background: rgba(138, 61, 54, 0.12);
+            color: var(--uap-red);
+        }
+
+        .uap-tag.report {
+            background: rgba(52, 79, 115, 0.12);
+            color: var(--uap-blue);
+        }
+
+        .uap-cases {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1rem;
+        }
+
+        .uap-case-meta {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.6rem;
+            margin: 0.9rem 0;
+            color: var(--uap-muted);
+            font-size: 0.9rem;
+        }
+
+        .uap-case-meta span {
+            border-top: 1px solid #eee8dc;
+            padding-top: 0.45rem;
+        }
+
+        .uap-callout {
+            background: #171b1f;
+            color: #fff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-top: 1.8rem;
+            display: grid;
+            grid-template-columns: 0.8fr 1.2fr;
+            gap: 1.5rem;
+        }
+
+        .uap-callout h3 {
+            font-family: var(--font-serif);
+            font-size: 1.8rem;
+            line-height: 1.2;
+        }
+
+        .uap-callout p,
+        .uap-callout li {
+            color: rgba(255, 255, 255, 0.78);
+        }
+
+        .uap-checklist {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .uap-checklist li {
+            padding-left: 1.5rem;
+            position: relative;
+            margin-bottom: 0.65rem;
+        }
+
+        .uap-checklist li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #d9c693;
+            font-weight: 700;
+        }
+
+        .uap-code {
+            background: #111;
+            color: #f7f4ec;
+            border-radius: 8px;
+            padding: 1.2rem;
+            overflow-x: auto;
+            font-size: 0.92rem;
+            line-height: 1.7;
+        }
+
+        .uap-template {
+            display: grid;
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+            gap: 0.7rem;
+            counter-reset: template;
+        }
+
+        .uap-template li {
+            list-style: none;
+            background: #fff;
+            border: 1px solid var(--uap-line);
+            border-radius: 8px;
+            padding: 0.8rem;
+            color: var(--uap-muted);
+            min-height: 74px;
+        }
+
+        .uap-template li::before {
+            counter-increment: template;
+            content: counter(template, decimal-leading-zero);
+            display: block;
+            color: var(--uap-gold);
+            font-weight: 800;
+            margin-bottom: 0.2rem;
+        }
+
+        .uap-footer-note {
+            background: #fff;
+            border-top: 1px solid var(--uap-line);
+            padding: 2rem 0;
+            color: var(--uap-muted);
+            font-size: 0.94rem;
+        }
+
+        @media (max-width: 980px) {
+            .uap-hero .container,
+            .uap-callout {
+                grid-template-columns: 1fr;
+            }
+
+            .uap-grid,
+            .uap-stats,
+            .uap-cases {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .uap-template {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 640px) {
+            .uap-hero {
+                padding: 5.2rem 0 3.8rem;
+            }
+
+            .uap-grid,
+            .uap-stats,
+            .uap-cases,
+            .uap-case-meta,
+            .uap-template {
+                grid-template-columns: 1fr;
+            }
+
+            .uap-section {
+                padding: 3.4rem 0;
+            }
+
+            .uap-card,
+            .uap-source,
+            .uap-case,
+            .uap-note {
+                padding: 1rem;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "美國官方 UAP/UFO 解密資料庫繁中導讀",
+      "description": "繁體中文整理 AARO、NARA、CIA Reading Room、Project Blue Book、Roswell、ODNI 與美國軍方公開 UAP/UFO 解密資料，聚焦官方來源、案例狀態與素材引用權限。",
+      "datePublished": "2026-05-09",
+      "dateModified": "2026-05-09",
+      "author": {
+        "@type": "Organization",
+        "name": "Elite Fashion"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Elite Fashion",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://tw.elitefasion.com/images/logo.jpg"
+        }
+      },
+      "mainEntityOfPage": "https://tw.elitefasion.com/uap-ufo-declassified-database.html"
+    }
+    </script>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="主導覽列">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="logo"><img src="images/logo.jpg" alt="Elite Fashion Logo"></a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="開啟選單" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="ai-innovation.html">人工智能</a></li>
+                <li><a href="runway-trends.html">秀場趨勢</a></li>
+                <li><a href="designer-perspective.html">設計師視角</a></li>
+                <li><a href="casual-chic.html">休閒時尚</a></li>
+                <li><a href="wellness-movement.html">健康恢復</a></li>
+                <li><a href="outdoor-escapes.html">戶外生活</a></li>
+                <li><a href="lifestyle-culture.html">生活品味</a></li>
+                <li><a href="all-articles.html">文章列表</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="uap-hero">
+        <div class="container">
+            <div>
+                <p class="uap-kicker">Official Records Guide</p>
+                <h1 class="uap-title">美國官方 UAP/UFO 解密資料庫繁中導讀</h1>
+                <p class="uap-lede">
+                    這是一個以官方資料、可查證來源、事件導讀與素材授權評估為核心的專題入口。它不把「未解」寫成外星證據，而是逐一標明來源機構、公開檔案、影像狀態、官方判定，以及哪些材料適合被翻譯、引用或整理成繁中事件頁。
+                </p>
+            </div>
+            <dl class="uap-brief">
+                <dt>網站定位</dt>
+                <dd>美國官方 UAP/UFO 解密資料庫繁中導讀</dd>
+                <dt>資料基準日</dt>
+                <dd>2026 年 5 月 9 日</dd>
+                <dt>資料原則</dt>
+                <dd>AARO、NARA、CIA、ODNI、DoD/DVIDS 等官方來源優先</dd>
+                <dt>判讀底線</dt>
+                <dd>未解代表資料不足或尚未歸因，不等於外星證據</dd>
+            </dl>
+        </div>
+    </header>
+
+    <div class="uap-nav" aria-label="本頁目錄">
+        <div class="container">
+            <a href="#positioning">定位</a>
+            <a href="#sources">官方來源</a>
+            <a href="#taxonomy">事件分類</a>
+            <a href="#case-system">事件代號</a>
+            <a href="#site-architecture">頁面架構</a>
+            <a href="#event-template">事件模板</a>
+            <a href="#source-index">來源索引</a>
+            <a href="#license">授權引用</a>
+            <a href="#data-model">資料模型</a>
+        </div>
+    </div>
+
+    <main>
+        <section class="uap-section" id="positioning">
+            <div class="container">
+                <div class="uap-section-header">
+                    <p class="uap-section-eyebrow">Editorial Position</p>
+                    <h2 class="uap-section-title">用「檔案館導讀」處理 UAP，而不是用猜測填補空白</h2>
+                    <p class="uap-section-copy">
+                        本專題將 UAP/UFO 當成官方資料、航安事件、感測器資料與歷史檔案來讀。讀者應能快速分辨：哪些是影片、哪些是 PDF、哪些是目擊或雷達資料、哪些已有官方解析，哪些只是因為資料不足而未能歸因。
+                    </p>
+                </div>
+
+                <div class="uap-grid">
+                    <article class="uap-card">
+                        <h3>官方資料優先</h3>
+                        <p>以 AARO、NARA、CIA Reading Room、ODNI、DoD/DVIDS 與美國空軍歷史檔為主要入口，避免以二手傳聞替代來源鏈。</p>
+                    </article>
+                    <article class="uap-card">
+                        <h3>案例狀態清楚標示</h3>
+                        <p>每個事件至少標出「已解析、未解、分析中、資料不足、歷史檔案」之一，並說明官方判定與剩餘疑問。</p>
+                    </article>
+                    <article class="uap-card">
+                        <h3>素材權限先審核</h3>
+                        <p>影片、照片、PDF、metadata 與政府標章需分開判斷。可引用不一定可商業重製，可下載也不代表可任意改作。</p>
+                    </article>
+                </div>
+
+                <div class="uap-stats" aria-label="資料庫重點統計">
+                    <div class="uap-stat"><strong>9</strong><span>官方來源入口</span></div>
+                    <div class="uap-stat"><strong>6</strong><span>事件分類主軸</span></div>
+                    <div class="uap-stat"><strong>15</strong><span>事件頁固定欄位</span></div>
+                    <div class="uap-stat"><strong>RG 615</strong><span>NARA UAP Records Collection</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="uap-section" id="sources">
+            <div class="container">
+                <div class="uap-section-header">
+                    <p class="uap-section-eyebrow">Source Research</p>
+                    <h2 class="uap-section-title">官方資料來源清單</h2>
+                    <p class="uap-section-copy">
+                        下表整理可作為繁中導讀頁基礎的官方來源。實作單一事件頁前，應再逐項確認該事件的原始連結、檔案日期、metadata、下載按鈕與權利聲明。
+                    </p>
+                </div>
+
+                <div class="uap-table-wrap">
+                    <table class="uap-table">
+                        <thead>
+                            <tr>
+                                <th>官方網站名稱</th>
+                                <th>URL</th>
+                                <th>可取得資料類型</th>
+                                <th>影像 / PDF / 下載</th>
+                                <th>授權與使用權限判斷</th>
+                                <th>建議引用方式</th>
+                                <th>適合中文導讀</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>AARO Official Website</td>
+                                <td><a href="https://www.aaro.mil/" target="_blank" rel="noopener">aaro.mil</a></td>
+                                <td>AARO 任務、FAQ、趨勢、案例、紀錄與公開報告入口。</td>
+                                <td>有影像入口、報告連結與外部 DVIDS 影片。</td>
+                                <td>.mil 官方網站。文字可摘要引用；影像需依 DVIDS/DoD Visual Information 規範。</td>
+                                <td>標示 All-domain Anomaly Resolution Office、頁面名稱、發布或確認日期、URL。</td>
+                                <td>非常適合，作為整站權威入口。</td>
+                            </tr>
+                            <tr>
+                                <td>AARO Official UAP Imagery</td>
+                                <td><a href="https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/" target="_blank" rel="noopener">Official UAP Imagery</a></td>
+                                <td>PR 系列、區域案例、Go Fast、Gimbal、FLIR、Puerto Rico、South Asian Object 等影像導覽。</td>
+                                <td>有影片，常導向 DVIDS；部分案例有 resolution report。</td>
+                                <td>DVIDS 說明美國政府職務作品通常不受美國著作權保護，但仍需注意第三方權利、商標、肖像與不得暗示官方背書。</td>
+                                <td>引用 AARO 案例名稱與 DVIDS 條目，嵌入或下載前檢查該影片頁權利資訊。</td>
+                                <td>非常適合，應做為影像資料庫主體。</td>
+                            </tr>
+                            <tr>
+                                <td>AARO UAP Records / Information Papers</td>
+                                <td><a href="https://www.aaro.mil/UAP-Records/" target="_blank" rel="noopener">UAP Records</a></td>
+                                <td>NARA、NASA、DHS KONA BLUE、ORNL、Starlink flaring、parallax 等紀錄與說明文件。</td>
+                                <td>有 PDF、資訊頁與外部官方連結。</td>
+                                <td>政府公開資料可摘要與連結；PDF 重製需保留來源與避免移除標章造成背書誤解。</td>
+                                <td>標示 AARO UAP Records、文件標題、機構、PDF URL 與最後查核日。</td>
+                                <td>非常適合，尤其適合「官方如何分析 UAP」系列。</td>
+                            </tr>
+                            <tr>
+                                <td>AARO Historical Record Report, Volume I</td>
+                                <td><a href="https://www.aaro.mil/Portals/136/PDFs/AARO_Historical_Record_Report_Vol_1_2024.pdf" target="_blank" rel="noopener">PDF</a></td>
+                                <td>1945 年以來美國政府 UAP 調查歷史、訪談與 off-world technology 相關主張審查。</td>
+                                <td>PDF 可下載。</td>
+                                <td>官方 PDF，可引用與摘要；避免將報告結論斷章取義。</td>
+                                <td>引用報告全名、AARO、2024、頁碼與 URL。</td>
+                                <td>非常適合，應做成歷史總論與方法論導讀。</td>
+                            </tr>
+                            <tr>
+                                <td>NARA UAP Records Collection</td>
+                                <td><a href="https://www.archives.gov/research/topics/uaps/rg-615" target="_blank" rel="noopener">Record Group 615</a></td>
+                                <td>FAA、NRC、ODNI、OSD、NSA、Department of State 等移交至 NARA 的 UAP records。</td>
+                                <td>Catalog 連結，部分有數位檔。</td>
+                                <td>NARA FAQ 說明 Catalog 可下載項目可在標示 NARA 出處下再發布；仍需注意特定項目的權利限制。</td>
+                                <td>標示 National Archives Identifier、Record Group、系列名稱、Catalog URL。</td>
+                                <td>非常適合，應做成官方來源索引頁。</td>
+                            </tr>
+                            <tr>
+                                <td>NARA UFO / Project Blue Book / Roswell Records</td>
+                                <td><a href="https://www.archives.gov/research/military/air-force/ufos" target="_blank" rel="noopener">Project BLUE BOOK</a></td>
+                                <td>Project Blue Book、MJ-12 查找說明、Roswell 官方查核、空軍 fact sheet。</td>
+                                <td>有微縮膠卷、照片、影片與 Roswell source files bulk download 入口。</td>
+                                <td>部分資料 public domain；NARA 也提醒部分影音可能因 donor、copyright 或其他權利限制無法線上提供。</td>
+                                <td>引用 NARA 頁面、系列名、NAID、若引用 Blue Book fact sheet 則標示來源脈絡。</td>
+                                <td>非常適合，適合歷史案件分類。</td>
+                            </tr>
+                            <tr>
+                                <td>CIA Reading Room UFO Special Collection</td>
+                                <td><a href="https://www.cia.gov/readingroom/keyword/ufo-special-collection" target="_blank" rel="noopener">UFO Special Collection</a></td>
+                                <td>FOIA/CREST 文件、PDF、CIA 對 UFO 研究歷史文章與多年代文件。</td>
+                                <td>大量 PDF，可下載。</td>
+                                <td>CIA site policy 指出除非標示 copyright，CIA.gov 資訊屬 public domain，請標示 CIA 為來源；CIA seal 不可用於暗示背書。</td>
+                                <td>引用 CIA Reading Room 文件標題、Document Number、Release Decision、頁數、PDF URL。</td>
+                                <td>適合，尤其適合「CIA UFO X-Files」導讀。</td>
+                            </tr>
+                            <tr>
+                                <td>ODNI UAP Annual Reports</td>
+                                <td><a href="https://www.dni.gov/index.php/newsroom/reports-publications/reports-publications-2024/4020-uap-2024" target="_blank" rel="noopener">2024 Report</a></td>
+                                <td>2021 preliminary assessment、2022 annual report、2023/2024 consolidated annual reports。</td>
+                                <td>PDF 可下載。</td>
+                                <td>官方報告可摘要與引用，統計數字需標示涵蓋期間與版本。</td>
+                                <td>標示 ODNI/DOD、報告年度、發布日、涵蓋期間、PDF URL。</td>
+                                <td>非常適合，適合官方報告與趨勢頁。</td>
+                            </tr>
+                            <tr>
+                                <td>Department of Defense UAP Releases</td>
+                                <td><a href="https://www.defense.gov/News/Releases/Release/Article/3964824/department-of-defense-releases-the-annual-report-on-unidentified-anomalous-phen/" target="_blank" rel="noopener">Annual Report Release</a></td>
+                                <td>AARO 網站啟用、年度報告發布、主任任命、新聞稿與 UAP 工作說明。</td>
+                                <td>有新聞稿，部分連到 PDF 或 AARO。</td>
+                                <td>官方新聞稿可引用；影像與標章需遵守 DoD/DVIDS 視覺資訊規範。</td>
+                                <td>引用 release title、日期、Department of Defense、URL。</td>
+                                <td>適合，作為時間線與政策背景。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="uap-section" id="taxonomy">
+            <div class="container">
+                <div class="uap-section-header">
+                    <p class="uap-section-eyebrow">Case Taxonomy</p>
+                    <h2 class="uap-section-title">事件分類架構</h2>
+                    <p class="uap-section-copy">
+                        事件分類以「來源機構、地區、素材型態、官方狀態」交叉整理。這樣讀者可以先看最新公開影像，也可以回到 Project Blue Book、Roswell 與 CIA Reading Room 這類歷史檔案。
+                    </p>
+                </div>
+
+                <div class="uap-cases">
+                    <article class="uap-case">
+                        <h3>1. 最新官方影像案例</h3>
+                        <p>以 AARO Official UAP Imagery 最新新增項目為主，追蹤 PR 系列案例。</p>
+                        <div class="uap-tag-row">
+                            <span class="uap-tag unresolved">PR-018 Europe 2024：未解，紅外線影片，實體物件但特徵不異常</span>
+                            <span class="uap-tag unresolved">PR-017 Europe 2024：未解，手機影像，資料不足</span>
+                            <span class="uap-tag resolved">PR-016 Europe 2023：已解析為鳥群</span>
+                            <span class="uap-tag unresolved">PR-015 Europe 2022：未解，紅外線影片</span>
+                            <span class="uap-tag unresolved">PR-014 Europe 2022：未解，紅外線影片</span>
+                            <span class="uap-tag unresolved">PR-013 Europe 2022：未解，紅外線影片</span>
+                            <span class="uap-tag report">PR-011 Europe 2021：分析中</span>
+                        </div>
+                    </article>
+
+                    <article class="uap-case">
+                        <h3>2. 中東 / 非洲 / 亞洲案例</h3>
+                        <p>以戰區與跨區域軍事平台影像為主，特別標示是否缺乏遙測或多感測器資料。</p>
+                        <div class="uap-tag-row">
+                            <span class="uap-tag unresolved">Africa 2022：未解，熱訊號來源未定</span>
+                            <span class="uap-tag resolved">Africa 2024：已解析為候鳥群</span>
+                            <span class="uap-tag resolved">Middle East Red Balloon 2024：反光鋁箔氣球</span>
+                            <span class="uap-tag unresolved">Middle East 2024：未解，缺乏遙測與多模態資料</span>
+                            <span class="uap-tag unresolved">Middle East Object：不呈現異常行為，但仍未識別</span>
+                            <span class="uap-tag resolved">South Asian Object：疑似商業飛機與壓縮假象</span>
+                        </div>
+                    </article>
+
+                    <article class="uap-case">
+                        <h3>3. 美國軍方經典影像案例</h3>
+                        <p>以已公開軍方影片、NAVAIR FOIA 影像與 AARO resolution report 為核心。</p>
+                        <div class="uap-tag-row">
+                            <span class="uap-tag report">Go Fast：F/A-18F FLIR 影片，AARO 有解析報告</span>
+                            <span class="uap-tag unresolved">Gimbal：NAVAIR FOIA 影片，仍需事件頁分離整理</span>
+                            <span class="uap-tag unresolved">FLIR1 / Tic Tac：NAVAIR FOIA 影片，官方未作外星結論</span>
+                            <span class="uap-tag resolved">Western U.S. Objects：商業飛機，遠距離與感測器造成誤判</span>
+                            <span class="uap-tag resolved">Puerto Rico Case：兩物體近距離飛行，非入水或分裂</span>
+                            <span class="uap-tag resolved">Eglin UAP Case：很可能為大型商業照明氣球等輕於空氣物體</span>
+                        </div>
+                    </article>
+
+                    <article class="uap-case">
+                        <h3>4. 歷史檔案案例</h3>
+                        <p>以 NARA、CIA Reading Room 與 AARO 歷史報告為主，避免把歷史傳聞和官方檔案混為一談。</p>
+                        <div class="uap-tag-row">
+                            <span class="uap-tag report">Project Blue Book：1947-1969，12,618 件報告，701 件未識別</span>
+                            <span class="uap-tag resolved">Roswell：空軍調查指向當時機密氣球計畫相關材料</span>
+                            <span class="uap-tag report">CIA UFO X-Files：FOIA/CREST 文件與 CIA 歷史研究</span>
+                            <span class="uap-tag report">KONA BLUE：DHS proposed SAP，AARO 稱未獲批准或正式建立</span>
+                            <span class="uap-tag report">1940s-1970s files：空軍、情報、總統圖書館與 NARA 多來源</span>
+                        </div>
+                    </article>
+
+                    <article class="uap-case">
+                        <h3>5. 已解析案例</h3>
+                        <p>已解析不代表每一個細節都完美復原，而是官方在可用資料下給出最可信歸因。</p>
+                        <div class="uap-tag-row">
+                            <span class="uap-tag resolved">氣球：PR-004、PR-005、PR-006、PR-009、PR-010、Al Taqaddum、Middle East Red Balloon</span>
+                            <span class="uap-tag resolved">鳥群：PR-016、Africa 2024</span>
+                            <span class="uap-tag resolved">商業飛機：Western U.S. Objects、South Asian Object</span>
+                            <span class="uap-tag resolved">感測器假象：Atmospheric Wake 的尾流影像壓縮</span>
+                            <span class="uap-tag resolved">大氣現象與視覺效果：Mt. Etna、parallax、forced perspective</span>
+                        </div>
+                    </article>
+
+                    <article class="uap-case">
+                        <h3>6. 未解案例</h3>
+                        <p>未解不是外星證據，而是表示目前資料不夠或尚未歸因。事件頁需明確說明限制。</p>
+                        <div class="uap-tag-row">
+                            <span class="uap-tag unresolved">缺乏遙測資料</span>
+                            <span class="uap-tag unresolved">缺乏多感測器佐證</span>
+                            <span class="uap-tag unresolved">只有單一影像或目擊報告</span>
+                            <span class="uap-tag unresolved">資料品質不足以估算速度、距離或尺寸</span>
+                            <span class="uap-tag unresolved">AARO 仍可能等待更多資料後更新歸因</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="uap-section" id="case-system">
+            <div class="container">
+                <div class="uap-section-header">
+                    <p class="uap-section-eyebrow">Internal ID System</p>
+                    <h2 class="uap-section-title">事件代號命名規則</h2>
+                    <p class="uap-section-copy">
+                        網站內部代號以「資料屬性、地區或主題、年份、官方序號或簡稱」組合，方便後續新增單一事件頁、建立 cross-link 與避免同名混淆。
+                    </p>
+                </div>
+
+                <div class="uap-grid">
+                    <article class="uap-card">
+                        <h3>區域影像案例</h3>
+                        <p><strong>UAP-[REGION]-[YEAR]-[OFFICIAL ID]</strong><br>例如 UAP-EU-2024-018、UAP-ME-2024-BALLOON、UAP-AF-2022-001。</p>
+                    </article>
+                    <article class="uap-card">
+                        <h3>經典軍方案例</h3>
+                        <p><strong>UAP-[COMMON NAME]-[YEAR]</strong><br>例如 UAP-GOFAST-2015、UAP-GIMBAL-2015、UAP-FLIR1-2004、UAP-EGLIN-2023。</p>
+                    </article>
+                    <article class="uap-card">
+                        <h3>歷史檔案</h3>
+                        <p><strong>HIST-[COLLECTION]</strong><br>例如 HIST-BLUEBOOK、HIST-ROSWELL、HIST-CIA-XFILES、HIST-KONA-BLUE。</p>
+                    </article>
+                </div>
+
+                <div class="uap-table-wrap" style="margin-top: 1.2rem;">
+                    <table class="uap-table">
+                        <thead>
+                            <tr>
+                                <th>事件代號</th>
+                                <th>中文標題</th>
+                                <th>官方原名</th>
+                                <th>年份 / 地區</th>
+                                <th>來源機構</th>
+                                <th>官方狀態</th>
+                                <th>素材類型</th>
+                                <th>授權判斷</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>UAP-EU-2024-018</td>
+                                <td>歐洲 2024 未解紅外線物件</td>
+                                <td>PR-018, Unresolved UAP Report, Europe 2024</td>
+                                <td>2024 / Europe</td>
+                                <td>AARO / EUCOM / DVIDS</td>
+                                <td>未解，實體物件但特徵不異常</td>
+                                <td>IR video</td>
+                                <td>DVIDS 規範下可教育性引用，需標示來源與非背書聲明</td>
+                            </tr>
+                            <tr>
+                                <td>UAP-ME-2024-BALLOON</td>
+                                <td>中東 2024 紅色反光氣球</td>
+                                <td>Middle East Red Balloon 2024</td>
+                                <td>2024 / Middle East</td>
+                                <td>AARO / U.S. military Service / DVIDS</td>
+                                <td>已解析，消費級反光鋁箔氣球</td>
+                                <td>Full-motion video</td>
+                                <td>可摘要與連結，重製影片前查 DVIDS 條款</td>
+                            </tr>
+                            <tr>
+                                <td>UAP-AF-2022-001</td>
+                                <td>非洲 2022 未解熱訊號</td>
+                                <td>PR-001, Unresolved UAP Report, Africa 2022</td>
+                                <td>2022 / Africa</td>
+                                <td>AARO / AFRICOM / DVIDS</td>
+                                <td>未解，熱來源或感測器來源未定</td>
+                                <td>IR video</td>
+                                <td>可導讀；避免以影像截圖暗示結論</td>
+                            </tr>
+                            <tr>
+                                <td>UAP-GOFAST-2015</td>
+                                <td>Go Fast 海上高速物件影像</td>
+                                <td>NAVAIR FOIA: GO FAST Video</td>
+                                <td>2015 / Atlantic Ocean off Florida</td>
+                                <td>NAVAIR / AARO / DVIDS</td>
+                                <td>AARO 有 case resolution report</td>
+                                <td>FLIR video / PDF</td>
+                                <td>可引用官方影片與報告，需標示 NAVAIR FOIA 與 AARO</td>
+                            </tr>
+                            <tr>
+                                <td>HIST-BLUEBOOK</td>
+                                <td>Project Blue Book 歷史檔案</td>
+                                <td>Project BLUE BOOK</td>
+                                <td>1947-1969 / United States</td>
+                                <td>U.S. Air Force / NARA</td>
+                                <td>歷史計畫已結束，部分案例仍未識別</td>
+                                <td>Microfilm / PDF / catalog records</td>
+                                <td>NARA 可下載項目可標示來源再發布，逐項檢查限制</td>
+                            </tr>
+                            <tr>
+                                <td>HIST-ROSWELL</td>
+                                <td>Roswell 官方檔案與空軍調查</td>
+                                <td>The Roswell Report / Roswell Incident</td>
+                                <td>1947 / New Mexico</td>
+                                <td>U.S. Air Force / NARA</td>
+                                <td>官方調查指向氣球計畫材料，未找到外星材料證據</td>
+                                <td>Report / source files</td>
+                                <td>NARA 與空軍來源可引用，需避免延伸成未支撐主張</td>
+                            </tr>
+                            <tr>
+                                <td>HIST-CIA-XFILES</td>
+                                <td>CIA UFO Reading Room 文件集</td>
+                                <td>UFO Special Collection</td>
+                                <td>1940s-1990s / Multi-region</td>
+                                <td>CIA</td>
+                                <td>歷史 FOIA 文件集合</td>
+                                <td>PDF / CREST metadata</td>
+                                <td>CIA.gov 未標 copyright 資訊通常 public domain，需標示 CIA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="uap-section" id="site-architecture">
+            <div class="container">
+                <div class="uap-section-header">
+                    <p class="uap-section-eyebrow">Information Architecture</p>
+                    <h2 class="uap-section-title">完整網站頁面架構</h2>
+                    <p class="uap-section-copy">
+                        若後續擴展為完整資料庫，建議採用「首頁、分類頁、單一事件頁、官方來源索引、授權引用說明」五層架構。首頁負責導覽，分類頁負責資料切面，事件頁負責證據鏈。
+                    </p>
+                </div>
+
+                <div class="uap-grid">
+                    <article class="uap-card">
+                        <h3>首頁</h3>
+                        <p>一句話定位、最新解密案例、已解析事件、未解事件、歷史經典案件、美國政府如何調查 UAP、官方目前怎麼看外星證據、原始檔案索引與免責聲明。</p>
+                    </article>
+                    <article class="uap-card">
+                        <h3>分類頁</h3>
+                        <p>最新官方影像、未解案例、已解析案例、歷史檔案、官方報告、影像資料庫、文件資料庫、素材授權說明。</p>
+                    </article>
+                    <article class="uap-card">
+                        <h3>單一事件頁</h3>
+                        <p>用固定欄位呈現事件代號、來源機構、素材類型、官方判定、仍未解問題、原始連結與繁中導讀結論。</p>
+                    </article>
+                    <article class="uap-card">
+                        <h3>官方來源索引頁</h3>
+                        <p>整理 AARO、NARA、CIA、ODNI、DoD/DVIDS 與各 PDF 或 Catalog 入口，並標示最後查核日。</p>
+                    </article>
+                    <article class="uap-card">
+                        <h3>授權與引用說明頁</h3>
+                        <p>說明 public domain 一般原則、NARA 資料使用、AARO/DoD 影像限制、CIA 文件引用與不可暗示官方背書。</p>
+                    </article>
+                    <article class="uap-card">
+                        <h3>更新日誌</h3>
+                        <p>記錄新增官方影片、報告改版、狀態更新、連結失效與權利聲明變更，讓資料庫維持可追溯。</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="uap-section" id="event-template">
+            <div class="container">
+                <div class="uap-section-header">
+                    <p class="uap-section-eyebrow">Event Page Template</p>
+                    <h2 class="uap-section-title">單一事件頁固定模板</h2>
+                    <p class="uap-section-copy">
+                        每個事件頁都應保持同一組欄位。讀者不必猜測這是影片、報告還是歷史檔，也能清楚知道官方判定到哪裡為止。
+                    </p>
+                </div>
+
+                <ol class="uap-template">
+                    <li>事件代號</li>
+                    <li>中文標題</li>
+                    <li>官方原名</li>
+                    <li>年份與地區</li>
+                    <li>資料來源</li>
+                    <li>影像 / 文件類型</li>
+                    <li>官方判定狀態</li>
+                    <li>事件摘要</li>
+                    <li>官方解析</li>
+                    <li>仍未解問題</li>
+                    <li>可引用素材</li>
+                    <li>使用權限判斷</li>
+                    <li>原始資料連結</li>
+                    <li>繁中導讀結論</li>
+                    <li>相關事件推薦</li>
+                </ol>
+
+                <div class="uap-callout">
+                    <h3>未解案例的寫法規則</h3>
+                    <ul class="uap-checklist">
+                        <li>明確寫出「未解不等於外星證據」。</li>
+                        <li>說明是否缺乏遙測、多感測器、距離、速度或完整 metadata。</li>
+                        <li>把「官方原文說法」與「本站繁中導讀」分開呈現。</li>
+                        <li>避免以縮圖、標題或敘述暗示官方沒有支持的結論。</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="uap-section" id="source-index">
+            <div class="container">
+                <div class="uap-section-header">
+                    <p class="uap-section-eyebrow">Official Source Index</p>
+                    <h2 class="uap-section-title">官方來源索引頁內容草案</h2>
+                    <p class="uap-section-copy">
+                        來源索引頁應以「資料能拿到什麼」而不是「傳聞有多轟動」排序。以下是可直接拆成獨立頁的索引群組。
+                    </p>
+                </div>
+
+                <div class="uap-grid">
+                    <article class="uap-source">
+                        <h3>AARO 案例與報告</h3>
+                        <p>Official UAP Imagery、Case Resolution Reports、UAP Records、Historical Record Report、FAQ、Reporting Trends。</p>
+                        <p><a class="uap-link" href="https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/" target="_blank" rel="noopener">開啟 AARO Imagery</a></p>
+                    </article>
+                    <article class="uap-source">
+                        <h3>NARA RG 615 與歷史檔</h3>
+                        <p>Record Group 615、Project Blue Book、Roswell source files、Photographs、Moving Images、Textual and Microfilm、bulk downloads。</p>
+                        <p><a class="uap-link" href="https://www.archives.gov/research/topics/uaps" target="_blank" rel="noopener">開啟 NARA UAP Topics</a></p>
+                    </article>
+                    <article class="uap-source">
+                        <h3>CIA Reading Room</h3>
+                        <p>UFO Special Collection、CIA's Role in the Study of UFOs 1947-90、CREST/FOIA 文件與 PDF metadata。</p>
+                        <p><a class="uap-link" href="https://www.cia.gov/readingroom/keyword/ufo-special-collection" target="_blank" rel="noopener">開啟 CIA UFO Special Collection</a></p>
+                    </article>
+                    <article class="uap-source">
+                        <h3>ODNI 年度報告</h3>
+                        <p>2021 Preliminary Assessment、2022 Annual Report、2023 與 2024 Consolidated Annual Report，適合做趨勢與統計導讀。</p>
+                        <p><a class="uap-link" href="https://www.dni.gov/index.php/newsroom/reports-publications/reports-publications-2024/4020-uap-2024" target="_blank" rel="noopener">開啟 2024 ODNI Report</a></p>
+                    </article>
+                    <article class="uap-source">
+                        <h3>DoD/DVIDS 視覺資料</h3>
+                        <p>DVIDS 影片、照片、新聞稿與官方影像使用規範。適合影像資料庫，但每次重製前都要重新查核權利聲明。</p>
+                        <p><a class="uap-link" href="https://www.dvidshub.net/about/copyright" target="_blank" rel="noopener">開啟 DVIDS Copyright</a></p>
+                    </article>
+                    <article class="uap-source">
+                        <h3>輔助背景資料</h3>
+                        <p>NASA UAP independent study、AARO Starlink flaring、forced perspective and parallax、ORNL material analysis。</p>
+                        <p><a class="uap-link" href="https://www.aaro.mil/UAP-Records/" target="_blank" rel="noopener">開啟 AARO Records</a></p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="uap-section" id="license">
+            <div class="container">
+                <div class="uap-section-header">
+                    <p class="uap-section-eyebrow">Rights & Citation</p>
+                    <h2 class="uap-section-title">授權與引用說明頁內容草案</h2>
+                    <p class="uap-section-copy">
+                        美國政府資料常見 public domain 原則很重要，但不能簡化成「所有東西都可任意商用」。機構標章、第三方權利、肖像、商標、影片平台條款與非背書聲明都要分開判斷。
+                    </p>
+                </div>
+
+                <div class="uap-grid">
+                    <article class="uap-note">
+                        <h3>Public domain 一般原則</h3>
+                        <p>美國聯邦政府員工在職務中創作的作品，通常在美國不受著作權保護。但若含第三方素材、承包商素材、商標、標章或個人權利，仍可能有限制。</p>
+                    </article>
+                    <article class="uap-note">
+                        <h3>NARA 資料使用方式</h3>
+                        <p>NARA 說明 Catalog 可下載項目可在標示出處下再發布；若頁面標示 donor、copyright 或其他 intellectual property 限制，應只連結或摘要。</p>
+                    </article>
+                    <article class="uap-note">
+                        <h3>AARO / DoD 影像注意事項</h3>
+                        <p>DVIDS 要求避免暗示官方背書。商業用途尤其要注意軍種名稱、徽章、制服、機體標誌與第三方權利。</p>
+                    </article>
+                    <article class="uap-note">
+                        <h3>CIA Reading Room 引用方式</h3>
+                        <p>CIA.gov 未標 copyright 的資訊通常可重製，但應引用 CIA 為來源，並保留文件標題、Document Number、Release Decision 與 PDF URL。</p>
+                    </article>
+                    <article class="uap-note">
+                        <h3>何時只引用不可重製</h3>
+                        <p>遇到第三方版權、照片人物權利、平台無下載選項、影像無明確 public domain 說明，或內容含敏感標章時，優先做摘要與外連。</p>
+                    </article>
+                    <article class="uap-note">
+                        <h3>本站免責聲明</h3>
+                        <p>本站為繁中導讀與資料索引，不代表 AARO、NARA、CIA、ODNI、DoD 或任何美國政府機構立場，也不暗示官方背書。</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="uap-section" id="data-model">
+            <div class="container">
+                <div class="uap-section-header">
+                    <p class="uap-section-eyebrow">Static Data Model</p>
+                    <h2 class="uap-section-title">適合靜態網站或輕量 CMS 的資料模型</h2>
+                    <p class="uap-section-copy">
+                        建議每個事件以 Markdown 或 JSON 建檔，frontmatter 保存可篩選欄位，正文保存繁中導讀。`last_verified` 應作為必要欄位，因為 AARO 與 NARA 仍會持續新增或更新檔案。
+                    </p>
+                </div>
+
+                <pre class="uap-code"><code>id: UAP-EU-2024-018
+title_zh: 歐洲 2024 未解紅外線物件
+title_en: PR-018, Unresolved UAP Report, Europe 2024
+slug: uap-eu-2024-018
+category: latest-official-imagery
+status: unresolved
+year: 2024
+region: Europe
+country:
+agency:
+  - AARO
+  - United States European Command
+  - DVIDS
+source_url: https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/
+source_type:
+  - official_page
+  - dvids_video
+media_type:
+  - infrared_video
+license_status: government_visual_information_review_required
+reuse_risk: medium
+summary_zh: AARO 表示此案由美軍平台紅外線感測器拍攝，影像顯示可能存在實體物件，但形態、性能與行為未呈現需進一步分析的異常特徵。
+official_explanation: unresolved; physical object assessed with high confidence; insufficient information for conclusive attribution
+unresolved_questions:
+  - 缺乏可公開的完整遙測資料
+  - 尚未能歸因到特定物體類型
+  - 需要更多資料才能更新判定
+tags:
+  - AARO
+  - EUCOM
+  - infrared
+  - unresolved
+related_cases:
+  - UAP-EU-2024-017
+  - UAP-EU-2023-BIRDS
+last_verified: 2026-05-09</code></pre>
+            </div>
+        </section>
+    </main>
+
+    <footer class="uap-footer-note">
+        <div class="container">
+            <p>資料查核基準日：2026 年 5 月 9 日。本站為繁體中文導讀與資料索引，所有官方結論請以 AARO、NARA、CIA、ODNI、DoD/DVIDS 等原始頁面為準。</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
