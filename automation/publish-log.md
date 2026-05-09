@@ -1,5 +1,12 @@
 # 發文紀錄
 
+## 2026-05-09T18:52:32Z｜最期待的科幻故事，緣起於台灣：《新巴比倫》把 AI 時代寫成文明史詩
+
+- 文章 ID：auto-20260509185232-neobabylon-taiwan-sci-fi-story
+- URL：https://tw.elitefasion.com/ai-innovation/neobabylon-taiwan-sci-fi-story.html
+- 檔案：ai-innovation/neobabylon-taiwan-sci-fi-story.html
+- 類型：manual
+
 ## 2026-05-08T05:15:36Z｜想獨居還是想保有選擇？中年未婚女性的實務評估與獨居準備清單
 
 - 文章 ID：auto-20260508051536-中年未婚女性獨居評估與行動清單

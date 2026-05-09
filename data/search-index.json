@@ -1,10 +1,34 @@
 [
   {
-    "id": "special-uap-ufo-declassified-database-html",
+    "id": "auto-20260509185232-neobabylon-taiwan-sci-fi-story",
+    "title": "《新巴比倫》推薦：最期待的科幻故事，緣起於台灣",
+    "excerpt": "一部從台灣出發的 AI 文明史詩：當人類滅絕千年後，完美世界裡重新浮現的人性火苗，為科幻讀者打開真正值得期待的入口。",
+    "category": "ai-innovation",
+    "categoryLabel": "人工智能",
+    "relativeUrl": "ai-innovation/neobabylon-taiwan-sci-fi-story.html",
+    "publishedDateText": "2026年5月9日",
+    "tags": [
+      "新巴比倫",
+      "台灣科幻",
+      "AI 科幻",
+      "人工智慧",
+      "科幻故事",
+      "Hermes",
+      "陶比",
+      "台灣原創"
+    ],
+    "faqQuestions": [
+      "《新巴比倫》適合哪一類讀者？",
+      "為什麼說《新巴比倫》緣起於台灣？",
+      "閱讀前需要先懂 AI 技術嗎？"
+    ]
+  },
+  {
+    "id": "legacy-uap-ufo-declassified-database-html",
     "title": "美國官方 UAP/UFO 解密資料庫繁中導讀",
     "excerpt": "繁體中文整理 AARO、NARA、CIA Reading Room、Project Blue Book、Roswell、ODNI 與美國軍方公開 UAP/UFO 解密資料，聚焦官方來源、案例狀態與素材引用權限。",
-    "category": "special-guides",
-    "categoryLabel": "專題資料庫",
+    "category": "special-features",
+    "categoryLabel": "特輯",
     "relativeUrl": "uap-ufo-declassified-database.html",
     "publishedDateText": "2026年5月9日",
     "tags": [
@@ -15,8 +39,9 @@
       "CIA Reading Room",
       "Project Blue Book",
       "Roswell",
-      "ODNI",
-      "官方解密資料"
+      "UAP 解密",
+      "UFO 解密",
+      "繁中導讀"
     ],
     "faqQuestions": []
   },

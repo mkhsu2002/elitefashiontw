@@ -1,6 +1,52 @@
 {
-  "updatedAt": "2026-05-08T05:15:36Z",
+  "updatedAt": "2026-05-09T18:52:32Z",
   "latest": [
+    {
+      "id": "auto-20260509185232-neobabylon-taiwan-sci-fi-story",
+      "title": "《新巴比倫》推薦：最期待的科幻故事，緣起於台灣",
+      "excerpt": "一部從台灣出發的 AI 文明史詩：當人類滅絕千年後，完美世界裡重新浮現的人性火苗，為科幻讀者打開真正值得期待的入口。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "AI 科幻與台灣原創故事",
+      "publishedAt": "2026-05-09T18:52:32Z",
+      "publishedDateText": "2026年5月9日",
+      "relativeUrl": "ai-innovation/neobabylon-taiwan-sci-fi-story.html",
+      "heroImage": "https://neobabylon.icareu.tw/og-image.jpg",
+      "tags": [
+        "新巴比倫",
+        "台灣科幻",
+        "AI 科幻",
+        "人工智慧",
+        "科幻故事",
+        "Hermes",
+        "陶比",
+        "台灣原創"
+      ]
+    },
+    {
+      "id": "legacy-uap-ufo-declassified-database-html",
+      "title": "美國官方 UAP/UFO 解密資料庫繁中導讀",
+      "excerpt": "繁體中文整理 AARO、NARA、CIA Reading Room、Project Blue Book、Roswell、ODNI 與美國軍方公開 UAP/UFO 解密資料，聚焦官方來源、案例狀態與素材引用權限。",
+      "category": "special-features",
+      "categoryLabel": "特輯",
+      "series": "特輯",
+      "publishedAt": "2026-05-09T00:00:00Z",
+      "publishedDateText": "2026年5月9日",
+      "relativeUrl": "uap-ufo-declassified-database.html",
+      "heroImage": "images/logo.jpg",
+      "tags": [
+        "UAP",
+        "UFO",
+        "AARO",
+        "NARA",
+        "CIA Reading Room",
+        "Project Blue Book",
+        "Roswell",
+        "UAP 解密",
+        "UFO 解密",
+        "繁中導讀"
+      ]
+    },
     {
       "id": "auto-20260508051536-中年未婚女性獨居評估與行動清單",
       "title": "想獨居還是想保有選擇？中年未婚女性的獨居評估清單",
@@ -215,54 +261,34 @@
         "台灣心靈減壓",
         "Elite Fashion"
       ]
-    },
-    {
-      "id": "legacy-designer-perspective-fashion-photographer-vision-html",
-      "title": "鏡頭背後的權威：Marco Bellini 的視覺主權",
-      "excerpt": "專訪傳奇時尚攝影師 Marco Bellini，深度探討 2026 年影像美學的演變、光影詩學，以及數位與膠片的終極辯證。結合台灣在地時尚影像趨勢，定義當代視覺文化。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-05-07T19:32:18Z",
-      "publishedDateText": "2026年5月7日",
-      "relativeUrl": "designer-perspective/fashion-photographer-vision.html",
-      "heroImage": "images/generated/designer/fashion-photography.png",
-      "tags": [
-        "時尚攝影",
-        "視覺語言",
-        "Marco Bellini",
-        "攝影大師",
-        "數位 vs 膠片",
-        "台北時尚攝影",
-        "Elite Fashion"
-      ]
-    },
-    {
-      "id": "legacy-designer-perspective-minimalist-philosophy-html",
-      "title": "減法的極致權力：Sophie Laurent 與極簡主義的神性對話",
-      "excerpt": "獨家專訪極簡主義大師 Sophie Laurent。深度探討 2026 年減法美學背後的哲學思考、材質主權，以及如何將極簡靈魂融入台北的 urban 節奏。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-05-07T19:32:18Z",
-      "publishedDateText": "2026年5月7日",
-      "relativeUrl": "designer-perspective/minimalist-philosophy.html",
-      "heroImage": "images/generated/designer/minimalist-office.png",
-      "tags": [
-        "極簡主義",
-        "Sophie Laurent",
-        "減法美學",
-        "斷捨離",
-        "台北極簡生活",
-        "永續時尚",
-        "Elite Fashion"
-      ]
     }
   ],
   "byCategory": {
     "ai-innovation": {
       "label": "人工智能",
       "items": [
+        {
+          "id": "auto-20260509185232-neobabylon-taiwan-sci-fi-story",
+          "title": "《新巴比倫》推薦：最期待的科幻故事，緣起於台灣",
+          "excerpt": "一部從台灣出發的 AI 文明史詩：當人類滅絕千年後，完美世界裡重新浮現的人性火苗，為科幻讀者打開真正值得期待的入口。",
+          "category": "ai-innovation",
+          "categoryLabel": "人工智能",
+          "series": "AI 科幻與台灣原創故事",
+          "publishedAt": "2026-05-09T18:52:32Z",
+          "publishedDateText": "2026年5月9日",
+          "relativeUrl": "ai-innovation/neobabylon-taiwan-sci-fi-story.html",
+          "heroImage": "https://neobabylon.icareu.tw/og-image.jpg",
+          "tags": [
+            "新巴比倫",
+            "台灣科幻",
+            "AI 科幻",
+            "人工智慧",
+            "科幻故事",
+            "Hermes",
+            "陶比",
+            "台灣原創"
+          ]
+        },
         {
           "id": "auto-20260505060825-petek-smart-pet-care-project",
           "title": "Petek 科技養寵：把餵食、保鮮與飲水整理成更穩定的毛孩日常",
@@ -359,27 +385,6 @@
             "Richart AI",
             "LINE Bank 理財",
             "Dcard 理財板討論"
-          ]
-        },
-        {
-          "id": "legacy-ai-innovation-ai-supply-chain-html",
-          "title": "極限供應鏈：AI 驅動的零廢棄與永續生產革命全解析",
-          "excerpt": "深度解析 AI 預測技術如何重塑時尚供應鏈。探討 2026 年智慧製造、像素級排版優化與台灣紡織業的數位轉型，助力品牌實現零庫存與環境永續的雙重目標。",
-          "category": "ai-innovation",
-          "categoryLabel": "人工智能",
-          "series": "人工智能",
-          "publishedAt": "2026-02-06T20:00:00+08:00",
-          "publishedDateText": "2026年2月6日",
-          "relativeUrl": "ai-innovation/ai-supply-chain.html",
-          "heroImage": "images/generated/ai/supply-chain.png",
-          "tags": [
-            "AI 供應鏈管理",
-            "零廢棄時尚",
-            "永續生產科技",
-            "台灣紡織 AI",
-            "智慧製造 2026",
-            "PTT Brand 版討論",
-            "綠色物流"
           ]
         }
       ]
