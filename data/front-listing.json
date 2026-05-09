@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-05-09T18:52:32Z",
+  "updatedAt": "2026-05-09T20:25:50Z",
   "latest": [
+    {
+      "id": "auto-20260509202550-single-women-relationship-strategies-after-40",
+      "title": "親密、獨處與界線：中年單身女性的關係策略",
+      "excerpt": "不委屈、不將就，拆解台灣社會期待下的情感照護實務。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "一個人的優雅：中年未婚高知女性的獨立生活系列",
+      "publishedAt": "2026-05-09T20:25:50Z",
+      "publishedDateText": "2026年5月9日",
+      "relativeUrl": "lifestyle-culture/single-women-relationship-strategies-after-40.html",
+      "heroImage": "images/generated/fashion-1.png",
+      "tags": [
+        "中年未婚",
+        "情感界線",
+        "熟齡獨處",
+        "單身生活",
+        "女性自主"
+      ]
+    },
     {
       "id": "auto-20260509185232-neobabylon-taiwan-sci-fi-story",
       "title": "《新巴比倫》推薦：最期待的科幻故事，緣起於台灣",
@@ -238,27 +257,6 @@
         "職涯發展",
         "Hahow",
         "PressPlay",
-        "Elite Fashion"
-      ]
-    },
-    {
-      "id": "legacy-designer-perspective-emotional-tailoring-2026-html",
-      "title": "情緒裁製：布料中的神經科學與靈魂主權",
-      "excerpt": "深度解析 2026 年設計師視角：情緒裁製。Elite Fashion 探討服裝如何透過感測技術與心理美學，達成全方位的人機情緒共感。結合台灣在地心靈減壓趨勢，定義新奢華。",
-      "category": "designer-perspective",
-      "categoryLabel": "設計師視角",
-      "series": "設計師視角",
-      "publishedAt": "2026-05-07T19:32:18Z",
-      "publishedDateText": "2026年5月7日",
-      "relativeUrl": "designer-perspective/emotional-tailoring-2026.html",
-      "heroImage": "images/generated/designer/emotional-tailoring.png",
-      "tags": [
-        "情緒裁製",
-        "2026 客製服",
-        "心理美學",
-        "感測時尚",
-        "數位設計",
-        "台灣心靈減壓",
         "Elite Fashion"
       ]
     }
@@ -1056,6 +1054,25 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260509202550-single-women-relationship-strategies-after-40",
+          "title": "親密、獨處與界線：中年單身女性的關係策略",
+          "excerpt": "不委屈、不將就，拆解台灣社會期待下的情感照護實務。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "一個人的優雅：中年未婚高知女性的獨立生活系列",
+          "publishedAt": "2026-05-09T20:25:50Z",
+          "publishedDateText": "2026年5月9日",
+          "relativeUrl": "lifestyle-culture/single-women-relationship-strategies-after-40.html",
+          "heroImage": "images/generated/fashion-1.png",
+          "tags": [
+            "中年未婚",
+            "情感界線",
+            "熟齡獨處",
+            "單身生活",
+            "女性自主"
+          ]
+        },
+        {
           "id": "auto-20260508051536-中年未婚女性獨居評估與行動清單",
           "title": "想獨居還是想保有選擇？中年未婚女性的獨居評估清單",
           "excerpt": "不再被「應該要獨立」綁架。給自己的決策框架：居住型態、財務、空間、安全與社交，陪你找到真正的想要。",
@@ -1149,24 +1166,6 @@
             "熟齡女性",
             "情緒管理",
             "優先順序"
-          ]
-        },
-        {
-          "id": "auto-20260426012644-trust-network-women-entrepreneur",
-          "title": "重建信任與商業網絡：中年創業女性的客戶、夥伴與私人關係地圖",
-          "excerpt": "把「人脈」換成「地圖」，客戶、夥伴、朋友分層管理，讓妳的創業路不再孤單，也更安全。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "一個人的創業與生活：中年離婚女性的重整手冊",
-          "publishedAt": "2026-04-26T01:26:44Z",
-          "publishedDateText": "2026年4月26日",
-          "relativeUrl": "lifestyle-culture/trust-network-women-entrepreneur.html",
-          "heroImage": "images/generated/life-proposals/finding-yourself-after-40.png",
-          "tags": [
-            "女性創業",
-            "關係管理",
-            "熟齡生活",
-            "一人公司"
           ]
         }
       ]

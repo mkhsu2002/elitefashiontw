@@ -1,5 +1,13 @@
 # 發文紀錄
 
+## 2026-05-09T20:25:50Z｜親密、獨處與界線：中年長期單身女性的情感照護與關係策略
+
+- 文章 ID：auto-20260509202550-single-women-relationship-strategies-after-40
+- URL：https://tw.elitefasion.com/lifestyle-culture/single-women-relationship-strategies-after-40.html
+- 檔案：lifestyle-culture/single-women-relationship-strategies-after-40.html
+- 類型：queue
+- Queue：Q-0005
+
 ## 2026-05-09T18:52:32Z｜最期待的科幻故事，緣起於台灣：《新巴比倫》把 AI 時代寫成文明史詩
 
 - 文章 ID：auto-20260509185232-neobabylon-taiwan-sci-fi-story

@@ -52,7 +52,7 @@
 - 建立時間：2026-04-25T16:36:44Z
 
 1. 想獨居還是想保有選擇？中年未婚女性的實務評估與獨居準備清單｜published｜正在評估獨居或把生活從家庭角色抽離出來的 40–60 歲高知女性，需實務步驟與風險評估者。｜lifestyle-culture｜文章 ID：auto-20260508051536-中年未婚女性獨居評估與行動清單｜檔案：lifestyle-culture/中年未婚女性獨居評估與行動清單.html
-2. 親密、獨處與界線：中年長期單身女性的情感照護與關係策略｜planned｜感到孤單或被社會期待困擾、希望在感情與友誼間找到自主與安全感的 40+ 專業女性。｜lifestyle-culture
+2. 親密、獨處與界線：中年長期單身女性的情感照護與關係策略｜published｜感到孤單或被社會期待困擾、希望在感情與友誼間找到自主與安全感的 40+ 專業女性。｜lifestyle-culture｜文章 ID：auto-20260509202550-single-women-relationship-strategies-after-40｜檔案：lifestyle-culture/single-women-relationship-strategies-after-40.html
 3. 構築屬於自己的日常美學：居家、旅行與獨處的生活儀式｜planned｜想把獨處生活變成有品味、可長期維持的 40–60 歲女性，尋求具體居家與旅行落地建議者。｜lifestyle-culture
 
 ## Q-0006｜中年未婚海歸返台女性如何學會一個人生活
