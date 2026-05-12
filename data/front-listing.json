@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-12T17:02:37Z",
+  "updatedAt": "2026-05-12T18:08:12Z",
   "latest": [
     {
       "id": "legacy-uap-ufo-declassified-aaro-historical-record-report-html",
@@ -192,6 +192,29 @@
       ]
     },
     {
+      "id": "legacy-uap-ufo-declassified-top-10-ufo-files-html",
+      "title": "美國 UFO 解密 Top 10：阿波羅、Roswell、Tic Tac 到外星人屍體傳聞",
+      "excerpt": "一次讀懂美國 UFO/UAP 解密中最有討論度的 10 個故事：阿波羅任務影像、Roswell、Tic Tac、國會聽證、FBI 外星人屍體傳聞、AARO 與 KONA BLUE。",
+      "category": "special-features",
+      "categoryLabel": "特輯",
+      "series": "特輯",
+      "publishedAt": "2026-05-12T00:00:00-07:00",
+      "publishedDateText": "2026年5月12日",
+      "relativeUrl": "uap-ufo-declassified/top-10-ufo-files.html",
+      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR46-Unresolved-UAP-Report-INDOPACOM-2024.jpg",
+      "tags": [
+        "UFO Top 10",
+        "UAP 解密",
+        "阿波羅 UFO",
+        "Roswell",
+        "Tic Tac UFO",
+        "外星人屍體",
+        "FBI UFO memo",
+        "AARO",
+        "KONA BLUE"
+      ]
+    },
+    {
       "id": "auto-20260509202936-living-alone-with-style-mature-women",
       "title": "一個人住也可以很有儀式：給中年未婚高知女性的質感日常重建",
       "excerpt": "不是「只能這樣過」，而是「我想要這樣生活」。從居家、旅行到獨處，為妳拆解將一個人的日常活成高品質美學的具體方法。",
@@ -208,25 +231,6 @@
         "居家布置",
         "熟齡獨旅",
         "中年未婚女性"
-      ]
-    },
-    {
-      "id": "auto-20260509202550-single-women-relationship-strategies-after-40",
-      "title": "親密、獨處與界線：中年單身女性的關係策略",
-      "excerpt": "不委屈、不將就，拆解台灣社會期待下的情感照護實務。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "一個人的優雅：中年未婚高知女性的獨立生活系列",
-      "publishedAt": "2026-05-09T20:25:50Z",
-      "publishedDateText": "2026年5月9日",
-      "relativeUrl": "lifestyle-culture/single-women-relationship-strategies-after-40.html",
-      "heroImage": "images/generated/fashion-1.png",
-      "tags": [
-        "中年未婚",
-        "情感界線",
-        "熟齡獨處",
-        "單身生活",
-        "女性自主"
       ]
     }
   ],

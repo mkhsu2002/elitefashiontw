@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-12T17:02:37Z",
-  "count": 235,
+  "updatedAt": "2026-05-12T18:08:12Z",
+  "count": 236,
   "items": [
     {
       "id": "legacy-uap-ufo-declassified-aaro-historical-record-report-html",
@@ -388,6 +388,49 @@
       "relativeUrl": "uap-ufo-declassified/roswell-report-official-records.html",
       "file": "uap-ufo-declassified/roswell-report-official-records.html",
       "heroImage": "images/logo.jpg",
+      "sourceType": "legacy",
+      "status": "published",
+      "queueId": null
+    },
+    {
+      "id": "legacy-uap-ufo-declassified-top-10-ufo-files-html",
+      "title": "美國 UFO 解密 Top 10：阿波羅、Roswell、Tic Tac 到外星人屍體傳聞",
+      "slug": "top-10-ufo-files",
+      "excerpt": "一次讀懂美國 UFO/UAP 解密中最有討論度的 10 個故事：阿波羅任務影像、Roswell、Tic Tac、國會聽證、FBI 外星人屍體傳聞、AARO 與 KONA BLUE。",
+      "tags": [
+        "UFO Top 10",
+        "UAP 解密",
+        "阿波羅 UFO",
+        "Roswell",
+        "Tic Tac UFO",
+        "外星人屍體",
+        "FBI UFO memo",
+        "AARO",
+        "KONA BLUE"
+      ],
+      "metaTitle": "美國 UFO 解密 Top 10：阿波羅、Roswell、Tic Tac 到外星人屍體傳聞",
+      "metaDescription": "一次讀懂美國 UFO/UAP 解密中最有討論度的 10 個故事：阿波羅任務影像、Roswell、Tic Tac、國會聽證、FBI 外星人屍體傳聞、AARO 與 KONA BLUE。",
+      "category": "special-features",
+      "categoryLabel": "特輯",
+      "series": "特輯",
+      "audience": "",
+      "readTimeMinutes": 9,
+      "listingTitle": "美國 UFO 解密 Top 10：阿波羅、Roswell、Tic Tac 到外星人屍體傳聞",
+      "listingExcerpt": "一次讀懂美國 UFO/UAP 解密中最有討論度的 10 個故事：阿波羅任務影像、Roswell、Tic Tac、國會聽證、FBI 外星人屍體傳聞、AARO 與 KONA BLUE。",
+      "markdownBody": "",
+      "faq": [],
+      "extendedReading": [],
+      "cta": {
+        "label": "瀏覽更多文章",
+        "url": "/all-articles.html",
+        "text": "繼續探索 Elite Fashion 的其他文章。"
+      },
+      "publishedAt": "2026-05-12T00:00:00-07:00",
+      "publishedDateText": "2026年5月12日",
+      "url": "https://tw.elitefasion.com/uap-ufo-declassified/top-10-ufo-files.html",
+      "relativeUrl": "uap-ufo-declassified/top-10-ufo-files.html",
+      "file": "uap-ufo-declassified/top-10-ufo-files.html",
+      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR46-Unresolved-UAP-Report-INDOPACOM-2024.jpg",
       "sourceType": "legacy",
       "status": "published",
       "queueId": null
