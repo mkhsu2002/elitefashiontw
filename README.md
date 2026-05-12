@@ -13,6 +13,66 @@
 - `https://mkhsu2002.github.io/elitefashiontw/` 會轉址到正式網域
 - 正式回應標頭同時出現 GitHub 與 Cloudflare 痕跡，因此不是 Cloudflare Pages
 
+## 目前接手狀態
+
+截至 `2026-05-12`，最新完成事項：
+
+- 最新 commit：`b94acdf Polish editorial site UI`
+- 已推送分支：`main`
+- 本次變更性質：前端視覺與模板體驗更新
+- 未變更項目：後端 schema、migration、資料表欄位、RPC、RLS、Edge Function、API 回傳格式、付款或資料契約
+
+若要用其他 IDE 接手，建議先執行：
+
+```bash
+git pull origin main
+git status --short --branch
+```
+
+預期狀態應為 `main...origin/main` 且沒有未提交變更。
+
+## 視覺系統更新紀錄
+
+2026-05-12 已根據 CollectUI landing page 類型參考，將網站調整為「高級編輯型生活媒體」方向。設計原則是採用強首屏、清楚 CTA、雜誌式卡片節奏與內容預覽，不照抄單一參考設計。
+
+本次 UI 更新重點：
+
+- `index.html`：首頁 hero 改為具實際時尚視覺的 editorial hero，新增雙 CTA 與內容重點標籤
+- `css/styles.css`：新增全站 editorial UI refresh，統一首頁、分類頁、文章卡片、文章內頁、CTA、footer 與手機版排版
+- `all-articles.html`：文章列表頁改為更像全站索引的高級卡片列表
+- `search.html`：搜尋頁補齊字型、搜尋框、結果卡片與行動版樣式
+- `contact.html`：聯絡表單與聯絡資訊卡片改為更乾淨的媒體站樣式
+- `404.html`：錯誤頁與推薦連結視覺統一
+- `js/main.js`：補上舊文章模板缺少手機選單按鈕時的自動 fallback
+- `favicon.ico`：補齊根目錄 favicon，避免舊文章頁出現 `/favicon.ico` 404
+
+全站 HTML 已統一載入：
+
+```html
+css/styles.css?v=1.3
+```
+
+這是為了避免 GitHub Pages / Cloudflare 快取導致正式站吃到舊版 CSS。若之後再大改共用 CSS，請同步提高版本號。
+
+### UI 驗證方式
+
+本專案是靜態站，本機可直接啟動簡易伺服器：
+
+```bash
+python3 -m http.server 4173
+```
+
+建議至少抽查：
+
+- `http://localhost:4173/index.html`
+- `http://localhost:4173/runway-trends.html`
+- `http://localhost:4173/runway-trends/color-trends-2026.html`
+- `http://localhost:4173/all-articles.html`
+- `http://localhost:4173/search.html?q=AI`
+- `http://localhost:4173/contact.html`
+
+2026-05-12 已用 Playwright 抽查手機寬度 `390px` 與桌機寬度 `1440px`，確認上述頁面沒有水平溢位，搜尋可載入結果，console 沒有 error。
+
 ## 系統目標
 
 這套機制的核心原則如下：
