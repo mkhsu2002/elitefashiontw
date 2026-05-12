@@ -175,7 +175,80 @@ function validateEmail(email) {
     return re.test(email);
 }
 
+// Contact form submission
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('#contactForm');
+    const status = document.querySelector('#contactFormStatus');
+
+    if (!form || !status) {
+        return;
+    }
+
+    const submitButton = form.querySelector('button[type="submit"]');
+    const setStatus = function(message, type) {
+        status.textContent = message;
+        status.className = `form-status is-visible is-${type}`;
+    };
+
+    form.addEventListener('submit', async function(event) {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        const email = String(formData.get('email') || '').trim();
+        const message = String(formData.get('message') || '').trim();
+
+        if (!validateEmail(email)) {
+            setStatus('請填寫有效的電子郵件，我們才知道要回覆到哪裡。', 'error');
+            return;
+        }
+
+        if (message.length < 10) {
+            setStatus('訊息內容可以再多一點點，至少讓我們知道這次聯繫的重點。', 'error');
+            return;
+        }
+
+        const payload = {
+            name: String(formData.get('name') || '').trim(),
+            email,
+            organization: String(formData.get('organization') || '').trim(),
+            purpose: String(formData.get('purpose') || '').trim(),
+            subject: String(formData.get('subject') || '').trim(),
+            website: String(formData.get('website') || '').trim(),
+            message,
+            company: String(formData.get('company') || '').trim()
+        };
+
+        submitButton.disabled = true;
+        submitButton.textContent = '發送中...';
+        setStatus('訊息正在送出，請稍候。', 'success');
+
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            });
+            const result = await response.json().catch(function() {
+                return {};
+            });
+
+            if (!response.ok || !result.ok) {
+                throw new Error(result.error || '訊息暫時無法送出，請稍後再試。');
+            }
+
+            form.reset();
+            setStatus('已收到您的訊息，NorthPath.CA 會盡快回覆。', 'success');
+        } catch (error) {
+            setStatus(error.message || '訊息暫時無法送出，請直接寄信到 northpathca@gmail.com。', 'error');
+        } finally {
+            submitButton.disabled = false;
+            submitButton.textContent = '發送訊息';
+        }
+    });
+});
+
 // Console message
 console.log('%c Elite Fashion ', 'background: #000; color: #fff; font-size: 20px; padding: 10px;');
 console.log('%c 引領時尚潮流，探索精英生活 ', 'font-size: 12px; color: #666;');
-

@@ -70,6 +70,7 @@
         }
         
         .form-input,
+        .form-select,
         .form-textarea {
             width: 100%;
             padding: 1rem;
@@ -82,10 +83,19 @@
         }
         
         .form-input:focus,
+        .form-select:focus,
         .form-textarea:focus {
             outline: none;
             border-color: var(--primary-color);
             box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-select {
+            appearance: none;
+            background-image: linear-gradient(45deg, transparent 50%, var(--text-light) 50%), linear-gradient(135deg, var(--text-light) 50%, transparent 50%);
+            background-position: calc(100% - 18px) 50%, calc(100% - 12px) 50%;
+            background-size: 6px 6px, 6px 6px;
+            background-repeat: no-repeat;
         }
         
         .form-textarea {
@@ -108,6 +118,43 @@
         
         .form-button:hover {
             background-color: var(--secondary-color);
+        }
+
+        .form-button:disabled {
+            cursor: wait;
+            opacity: 0.7;
+        }
+
+        .form-help {
+            color: var(--text-light);
+            font-size: 0.88rem;
+            line-height: 1.6;
+            margin-top: 0.5rem;
+        }
+
+        .form-status {
+            display: none;
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .form-status.is-visible {
+            display: block;
+        }
+
+        .form-status.is-success {
+            background: #edf7ef;
+            color: #245c31;
+            border: 1px solid #cde8d2;
+        }
+
+        .form-status.is-error {
+            background: #fff1f0;
+            color: #8a1f17;
+            border: 1px solid #f2c7c2;
         }
         
         .contact-item {
@@ -142,6 +189,12 @@
         .contact-details p {
             color: var(--text-light);
             margin: 0;
+        }
+
+        .contact-details a {
+            color: var(--primary-color);
+            text-decoration: underline;
+            text-underline-offset: 3px;
         }
         
         .social-links {
@@ -214,8 +267,8 @@
         <div class="container">
             <h2 class="page-hero-title">聯絡我們</h2>
             <p class="page-hero-description">
-                我們期待聽到您的聲音。無論是內容建議、合作提案、媒體聯絡或任何問題，
-                請隨時與我們聯繫，我們會盡快回覆您的訊息。
+                我們期待聽到您的聲音。無論是品牌聯名、媒體合作、文章授權、內容更正或任何問題，
+                請透過表單或社群與 NorthPath.CA 聯繫。
             </p>
         </div>
     </header>
@@ -226,6 +279,7 @@
                 <div class="contact-form">
                     <h3 class="form-title">發送訊息</h3>
                     <form id="contactForm" action="#" method="POST">
+                        <input type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;height:0;width:0;opacity:0;">
                         <div class="form-group">
                             <label for="name" class="form-label">姓名 *</label>
                             <input type="text" id="name" name="name" class="form-input" required>
@@ -235,18 +289,46 @@
                             <label for="email" class="form-label">電子郵件 *</label>
                             <input type="email" id="email" name="email" class="form-input" required>
                         </div>
+
+                        <div class="form-group">
+                            <label for="organization" class="form-label">公司 / 品牌 / 單位</label>
+                            <input type="text" id="organization" name="organization" class="form-input" autocomplete="organization">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="purpose" class="form-label">聯繫目的 *</label>
+                            <select id="purpose" name="purpose" class="form-select" required>
+                                <option value="">請選擇聯繫目的</option>
+                                <option value="品牌聯名 / 商業合作">品牌聯名 / 商業合作</option>
+                                <option value="媒體採訪 / 新聞稿">媒體採訪 / 新聞稿</option>
+                                <option value="文章授權 / 轉載">文章授權 / 轉載</option>
+                                <option value="投稿 / 專家觀點">投稿 / 專家觀點</option>
+                                <option value="產品或服務推薦">產品或服務推薦</option>
+                                <option value="活動邀約 / 講座合作">活動邀約 / 講座合作</option>
+                                <option value="內容更正 / 讀者回饋">內容更正 / 讀者回饋</option>
+                                <option value="網站技術問題">網站技術問題</option>
+                                <option value="其他">其他</option>
+                            </select>
+                        </div>
                         
                         <div class="form-group">
                             <label for="subject" class="form-label">主旨</label>
                             <input type="text" id="subject" name="subject" class="form-input">
                         </div>
+
+                        <div class="form-group">
+                            <label for="website" class="form-label">網站 / 社群連結</label>
+                            <input type="url" id="website" name="website" class="form-input" placeholder="https://">
+                        </div>
                         
                         <div class="form-group">
                             <label for="message" class="form-label">訊息內容 *</label>
                             <textarea id="message" name="message" class="form-textarea" required></textarea>
+                            <p class="form-help">若是合作邀約，建議附上品牌背景、預計時程、合作形式與聯絡窗口，方便我們判斷是否合適。</p>
                         </div>
                         
                         <button type="submit" class="form-button">發送訊息</button>
+                        <div id="contactFormStatus" class="form-status" role="status" aria-live="polite"></div>
                     </form>
                 </div>
                 
@@ -254,18 +336,26 @@
                     <h3 class="info-title">聯絡資訊</h3>
                     
                     <div class="contact-item">
-                        <div class="contact-icon">💬</div>
+                        <div class="contact-icon">@</div>
                         <div class="contact-details">
-                            <h4>LINE 官方帳號</h4>
-                            <p>掃描 QR Code 或點擊下方連結</p>
-                            <a href="https://lin.ee/JCsODGL" target="_blank" rel="noopener" class="line-link">
-                                <img src="https://qr-official.line.me/sid/M/elitefashion.png" alt="LINE QR Code" style="width: 120px; height: 120px; margin-top: 1rem;">
-                            </a>
-                            <p style="margin-top: 1rem;">
-                                <a href="https://lin.ee/JCsODGL" target="_blank" rel="noopener" style="color: var(--primary-color); text-decoration: underline;">
-                                    點此加入 Elite Fashion LINE 官方帳號
-                                </a>
-                            </p>
+                            <h4>Email</h4>
+                            <p><a href="mailto:northpathca@gmail.com">northpathca@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">FB</div>
+                        <div class="contact-details">
+                            <h4>Facebook</h4>
+                            <p><a href="https://www.facebook.com/northpathca/" target="_blank" rel="noopener">facebook.com/northpathca</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">IG</div>
+                        <div class="contact-details">
+                            <h4>Instagram</h4>
+                            <p><a href="https://www.instagram.com/northpath.ca" target="_blank" rel="noopener">instagram.com/northpath.ca</a></p>
                         </div>
                     </div>
                 </div>
@@ -277,15 +367,14 @@
                     <div class="faq-item">
                         <h4 class="faq-question">如何聯繫我們？</h4>
                         <p class="faq-answer">
-                            請加入我們的 LINE 官方帳號，我們會透過 LINE 回覆您的所有問題，
-                            包括投稿、合作提案、媒體聯絡等。
+                            請使用本頁表單，或直接寄信到 northpathca@gmail.com。若是合作、授權或採訪邀約，請附上單位名稱、合作形式與預計時程。
                         </p>
                     </div>
                     
                     <div class="faq-item">
                         <h4 class="faq-question">如何投稿文章或申請合作？</h4>
                         <p class="faq-answer">
-                            請透過 LINE 官方帳號聯繫我們，我們會在一週內回覆您的投稿或合作提案。
+                            請在「聯繫目的」選擇投稿、品牌聯名、媒體合作或文章授權，並在訊息中提供簡短提案。合適的提案我們會優先回覆。
                         </p>
                     </div>
                     
@@ -300,8 +389,7 @@
                     <div class="faq-item">
                         <h4 class="faq-question">如何訂閱最新內容？</h4>
                         <p class="faq-answer">
-                            請加入我們的 LINE 官方帳號，
-                            我們會透過 LINE 推播最新文章和時尚資訊。
+                            歡迎追蹤 NorthPath.CA 的 Facebook 與 Instagram；重要更新也會逐步整理在網站中。
                         </p>
                     </div>
                 </div>
@@ -340,9 +428,9 @@
                         <ul>
                             <li><a href="about.html">關於我們</a></li>
                             <li><a href="contact.html">聯絡我們</a></li>
-                            <li><a href="mailto:info@elitefashion.com">info@elitefashion.com</a></li>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">Facebook</a></li>
+                            <li><a href="mailto:northpathca@gmail.com">northpathca@gmail.com</a></li>
+                            <li><a href="https://www.instagram.com/northpath.ca" target="_blank" rel="noopener">Instagram</a></li>
+                            <li><a href="https://www.facebook.com/northpathca/" target="_blank" rel="noopener">Facebook</a></li>
                         </ul>
                     </div>
                 </div>
@@ -357,4 +445,3 @@
     <script src="js/main.js"></script>
 </body>
 </html>
-

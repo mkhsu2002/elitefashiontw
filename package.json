@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "deploy:contact-worker": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.18.0"
+  }
+}

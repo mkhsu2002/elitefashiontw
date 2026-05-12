@@ -1,0 +1,8 @@
+name = "elitefashiontw-contact"
+main = "workers/contact.js"
+compatibility_date = "2026-05-12"
+workers_dev = true
+
+routes = [
+  { pattern = "tw.elitefasion.com/api/contact", zone_name = "elitefasion.com" }
+]

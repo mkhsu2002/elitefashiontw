@@ -251,6 +251,33 @@ python3 scripts/content_pipeline.py send-notification --article-title "標題" -
 - 文章標題
 - 正式站網址
 
+## 聯絡表單
+
+`contact.html` 的訪客留言表單透過 Cloudflare Worker `/api/contact` 寄送 Resend email，避免把 Resend API key 放進前端。
+
+Worker 設定檔：
+
+- `wrangler.toml`
+- `workers/contact.js`
+
+必要環境變數：
+
+- `RESEND_API_KEY`
+- `CONTACT_FROM_EMAIL`
+- `CONTACT_TO_EMAIL`
+
+部署指令：
+
+```bash
+npx wrangler deploy
+```
+
+目前 Worker route 目標為：
+
+```text
+tw.elitefasion.com/api/contact
+```
+
 ## Google Sheets 雲端紀錄
 
 本專案已比照 `elitefashion` 的做法，新增正式發文後的雲端紀錄同步：
