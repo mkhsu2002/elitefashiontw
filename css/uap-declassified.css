@@ -67,7 +67,7 @@ body {
     background: var(--uap-panel);
     border: 1px solid var(--uap-line);
     border-radius: 8px;
-    box-shadow: 0 16px 34px rgba(16, 20, 24, 0.06);
+    box-shadow: 0 14px 30px rgba(16, 20, 24, 0.045);
 }
 
 .uap-record-card {
@@ -100,11 +100,11 @@ body {
 
 .uap-detail-content {
     display: grid;
-    gap: 1.2rem;
+    gap: 1rem;
 }
 
 .uap-detail-content section {
-    padding: 1.6rem;
+    padding: clamp(1.35rem, 3vw, 2.2rem);
 }
 
 .uap-detail-content p,
@@ -113,8 +113,44 @@ body {
     line-height: 1.9;
 }
 
+.uap-story-lede {
+    border-left: 5px solid var(--uap-gold);
+}
+
+.uap-story-lede p {
+    max-width: 780px;
+    color: var(--uap-ink);
+    font-family: var(--font-serif);
+    font-size: clamp(1.18rem, 2vw, 1.55rem);
+    line-height: 1.85;
+}
+
+.uap-story-section p {
+    max-width: 760px;
+}
+
+.uap-story-section p + p {
+    margin-top: 1rem;
+}
+
 .uap-detail-content ul {
     padding-left: 1.2rem;
+}
+
+.uap-timeline {
+    display: grid;
+    gap: 0.85rem;
+    margin: 0;
+    padding-left: 1.4rem;
+}
+
+.uap-timeline li {
+    padding-left: 0.3rem;
+}
+
+.uap-timeline li::marker {
+    color: var(--uap-gold);
+    font-weight: 800;
 }
 
 .uap-keyword-cloud {
