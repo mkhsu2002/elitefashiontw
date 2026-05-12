@@ -1,5 +1,175 @@
 [
   {
+    "id": "legacy-uap-ufo-declassified-aaro-historical-record-report-html",
+    "title": "AARO Historical Record Report 導讀：美國政府是否找到外星技術證據",
+    "excerpt": "繁中整理 AARO 2024 Historical Record Report Volume I，說明美國政府歷來 UAP 調查、逆向工程主張、資料品質限制與主要結論。",
+    "category": "special-features",
+    "categoryLabel": "特輯",
+    "relativeUrl": "uap-ufo-declassified/aaro-historical-record-report.html",
+    "publishedDateText": "2026年5月12日",
+    "tags": [
+      "AARO Historical Record Report",
+      "off-world technology",
+      "UAP reverse engineering",
+      "AARO 報告 中文",
+      "UAP 歷史報告"
+    ],
+    "faqQuestions": []
+  },
+  {
+    "id": "legacy-uap-ufo-declassified-cia-robertson-panel-durant-report-html",
+    "title": "CIA Robertson Panel 與 Durant Report：1953 年 UFO 科學顧問會議導讀",
+    "excerpt": "整理 CIA Reading Room 中 Robertson Panel、Durant Report 與 CIA UFO 研究史文件，說明 1953 年科學顧問會議如何影響後續 UFO 檔案公開。",
+    "category": "special-features",
+    "categoryLabel": "特輯",
+    "relativeUrl": "uap-ufo-declassified/cia-robertson-panel-durant-report.html",
+    "publishedDateText": "2026年5月12日",
+    "tags": [
+      "Robertson Panel",
+      "Durant Report",
+      "CIA UFO Special Collection",
+      "CIA Reading Room UFO",
+      "1953 UFO panel"
+    ],
+    "faqQuestions": []
+  },
+  {
+    "id": "legacy-uap-ufo-declassified-congress-2023-uap-hearing-html",
+    "title": "2023 美國國會 UAP 聽證逐字稿：Graves、Grusch、Fravor 的證詞怎麼讀",
+    "excerpt": "繁中導讀 2023 年 7 月 26 日美國眾議院 UAP 聽證逐字稿，整理三位證人的主張、問題焦點與官方查核限制。",
+    "category": "special-features",
+    "categoryLabel": "特輯",
+    "relativeUrl": "uap-ufo-declassified/congress-2023-uap-hearing.html",
+    "publishedDateText": "2026年5月12日",
+    "tags": [
+      "UAP hearing transcript",
+      "David Grusch",
+      "Ryan Graves",
+      "David Fravor",
+      "美國國會 UFO 聽證"
+    ],
+    "faqQuestions": []
+  },
+  {
+    "id": "legacy-uap-ufo-declassified-fbi-guy-hottel-memo-html",
+    "title": "FBI Guy Hottel 備忘錄：最熱門 UFO 文件為何不是 Roswell 證據",
+    "excerpt": "繁中導讀 FBI Vault 最熱門 UFO 文件 Guy Hottel memo，說明三個飛碟與小型人形遺體說法的來源層級、FBI 未調查狀態與 Roswell 誤讀。",
+    "category": "special-features",
+    "categoryLabel": "特輯",
+    "relativeUrl": "uap-ufo-declassified/fbi-guy-hottel-memo.html",
+    "publishedDateText": "2026年5月12日",
+    "tags": [
+      "Guy Hottel memo",
+      "FBI Vault UFO",
+      "New Mexico flying saucers",
+      "Roswell FBI",
+      "FBI UFO 文件"
+    ],
+    "faqQuestions": []
+  },
+  {
+    "id": "legacy-uap-ufo-declassified-kona-blue-ornl-materials-html",
+    "title": "KONA BLUE 與 ORNL 材料分析：外星材料與逆向工程主張的官方查核",
+    "excerpt": "導讀 AARO UAP Records 中 KONA BLUE、ORNL 金屬樣本分析與 alleged alien material 主張，說明 proposed SAP、材料檢測與官方結論。",
+    "category": "special-features",
+    "categoryLabel": "特輯",
+    "relativeUrl": "uap-ufo-declassified/kona-blue-ornl-materials.html",
+    "publishedDateText": "2026年5月12日",
+    "tags": [
+      "KONA BLUE",
+      "ORNL UAP specimen",
+      "alien alloy",
+      "UAP material analysis",
+      "外星材料 分析"
+    ],
+    "faqQuestions": []
+  },
+  {
+    "id": "legacy-uap-ufo-declassified-nasa-astronaut-uap-transcripts-html",
+    "title": "NASA 太空任務對話紀錄導讀：Gemini、Apollo 觀測與 UAP 搜尋熱點",
+    "excerpt": "整理 NASA 與 PURSUE 釋出的 Gemini、Apollo 任務紀錄閱讀方式，說明太空人對話、任務照片與 UAP 搜尋詞如何避免被過度解讀。",
+    "category": "special-features",
+    "categoryLabel": "特輯",
+    "relativeUrl": "uap-ufo-declassified/nasa-astronaut-uap-transcripts.html",
+    "publishedDateText": "2026年5月12日",
+    "tags": [
+      "NASA UAP",
+      "Gemini 7 UFO",
+      "Apollo UFO",
+      "太空人對話紀錄",
+      "月球異常光點"
+    ],
+    "faqQuestions": []
+  },
+  {
+    "id": "legacy-uap-ufo-declassified-navy-tic-tac-fravor-html",
+    "title": "Tic Tac 事件與 Fravor 證詞：2004 年美國海軍 UAP 案例導讀",
+    "excerpt": "整理 2004 年 Tic Tac / FLIR1 事件、David Fravor 國會證詞與 NAVAIR/DVIDS 影像脈絡，說明影片、目擊與官方結論的差異。",
+    "category": "special-features",
+    "categoryLabel": "特輯",
+    "relativeUrl": "uap-ufo-declassified/navy-tic-tac-fravor.html",
+    "publishedDateText": "2026年5月12日",
+    "tags": [
+      "Tic Tac UFO",
+      "FLIR1 UAP",
+      "David Fravor",
+      "Nimitz UAP",
+      "美國海軍 UFO 影片"
+    ],
+    "faqQuestions": []
+  },
+  {
+    "id": "legacy-uap-ufo-declassified-project-blue-book-fact-sheet-html",
+    "title": "Project Blue Book 官方 Fact Sheet：12618 件報告與 701 件未識別怎麼看",
+    "excerpt": "繁中導讀 NARA Project Blue Book 官方頁與美國空軍 Fact Sheet，整理 12,618 件 UFO 報告、701 件未識別與三項官方結論。",
+    "category": "special-features",
+    "categoryLabel": "特輯",
+    "relativeUrl": "uap-ufo-declassified/project-blue-book-fact-sheet.html",
+    "publishedDateText": "2026年5月12日",
+    "tags": [
+      "Project Blue Book",
+      "藍皮書計畫",
+      "701 unidentified",
+      "12618 sightings",
+      "美國空軍 UFO"
+    ],
+    "faqQuestions": []
+  },
+  {
+    "id": "legacy-uap-ufo-declassified-pursue-release-01-html",
+    "title": "PURSUE Release 01 解密入口：2026 年第一批美國官方 UAP 檔案怎麼讀",
+    "excerpt": "繁中導讀 2026 年 5 月 8 日 WAR.GOV/UFO 第一批 PURSUE UAP 解密檔案，說明官方稱為 unresolved cases 的閱讀重點、限制與常見查詢詞。",
+    "category": "special-features",
+    "categoryLabel": "特輯",
+    "relativeUrl": "uap-ufo-declassified/pursue-release-01.html",
+    "publishedDateText": "2026年5月12日",
+    "tags": [
+      "PURSUE Release 01",
+      "WAR.GOV UFO",
+      "UAP 解密 2026",
+      "美國 UFO 檔案",
+      "UAP unresolved cases"
+    ],
+    "faqQuestions": []
+  },
+  {
+    "id": "legacy-uap-ufo-declassified-roswell-report-official-records-html",
+    "title": "Roswell 官方檔案導讀：氣球計畫、GAO 查核與外星材料說法",
+    "excerpt": "整理 NARA Roswell Incident 說明與美國空軍調查脈絡，說明官方如何查核 1947 年 Roswell 事件、氣球計畫材料與外星遺體說法。",
+    "category": "special-features",
+    "categoryLabel": "特輯",
+    "relativeUrl": "uap-ufo-declassified/roswell-report-official-records.html",
+    "publishedDateText": "2026年5月12日",
+    "tags": [
+      "Roswell Report",
+      "Roswell Incident",
+      "Project Mogul",
+      "羅斯威爾事件",
+      "UFO 外星材料"
+    ],
+    "faqQuestions": []
+  },
+  {
     "id": "auto-20260509202936-living-alone-with-style-mature-women",
     "title": "一個人住也可以很有儀式：給中年未婚高知女性的質感日常重建",
     "excerpt": "不是「只能這樣過」，而是「我想要這樣生活」。從居家、旅行到獨處，為妳拆解將一個人的日常活成高品質美學的具體方法。",

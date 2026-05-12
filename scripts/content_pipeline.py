@@ -54,6 +54,7 @@ LEGACY_CATEGORY_LABELS = {
     "high-performance": "高效人生",
     "life-proposals": "人生提案",
     "special-features": "特輯",
+    "uap-ufo-declassified": "特輯",
 }
 MARKER_PREFIX = "AUTO-GENERATED"
 CURATED_CATEGORY_IMAGE_POOLS = {
@@ -489,6 +490,8 @@ def load_config() -> tuple[dict[str, Any], dict[str, CategoryConfig]]:
 def detect_category(path: Path, categories: dict[str, CategoryConfig]) -> tuple[str, str]:
     if path.parent != ROOT:
         key = path.parent.name
+        if key == "uap-ufo-declassified":
+            return "special-features", LEGACY_CATEGORY_LABELS["special-features"]
         if key in categories:
             return key, categories[key].label
         return key, LEGACY_CATEGORY_LABELS.get(key, key.replace("-", " ").title())
