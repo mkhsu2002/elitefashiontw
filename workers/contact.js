@@ -1,9 +1,20 @@
 const ALLOWED_ORIGINS = new Set([
   'https://tw.elitefasion.com',
   'https://www.tw.elitefasion.com',
-  'http://localhost:8787',
-  'http://127.0.0.1:8787',
+  'https://mkhsu2002.github.io',
 ]);
+
+function isAllowedOrigin(origin) {
+  if (!origin) {
+    return true;
+  }
+
+  if (ALLOWED_ORIGINS.has(origin)) {
+    return true;
+  }
+
+  return /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin);
+}
 
 const PURPOSES = new Set([
   '品牌聯名 / 商業合作',
@@ -19,7 +30,7 @@ const PURPOSES = new Set([
 
 function getCorsHeaders(request) {
   const origin = request.headers.get('Origin') || '';
-  const allowOrigin = ALLOWED_ORIGINS.has(origin) ? origin : 'https://tw.elitefasion.com';
+  const allowOrigin = !origin ? '*' : isAllowedOrigin(origin) ? origin : 'https://tw.elitefasion.com';
 
   return {
     'Access-Control-Allow-Origin': allowOrigin,
@@ -185,13 +196,15 @@ async function handleContact(request, env) {
       from,
       to: [to],
       reply_to: clean.email,
-      subject: `Elite Fashion 訪客留言${subjectSuffix}`,
+      subject: `Elite Fashion 訪客留言｜${subjectSuffix.replace(/^：/, '')}`,
       html: buildEmailHtml(clean),
       text: buildEmailText(clean),
     }),
   });
 
   if (!resendResponse.ok) {
+    const details = await resendResponse.text();
+    console.error('Resend delivery failed', details);
     return jsonResponse(request, { ok: false, error: '訊息暫時無法送出，請稍後再試。' }, 502);
   }
 

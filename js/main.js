@@ -185,6 +185,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const submitButton = form.querySelector('button[type="submit"]');
+    const configuredEndpoint = form.getAttribute('data-endpoint');
+    const contactEndpoint = configuredEndpoint || 'https://tw.elitefasion.com/api/contact';
     const setStatus = function(message, type) {
         status.textContent = message;
         status.className = `form-status is-visible is-${type}`;
@@ -194,11 +196,23 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
 
         const formData = new FormData(form);
+        const name = String(formData.get('name') || '').trim();
         const email = String(formData.get('email') || '').trim();
+        const purpose = String(formData.get('purpose') || '').trim();
         const message = String(formData.get('message') || '').trim();
+
+        if (name.length < 2) {
+            setStatus('請留下姓名，至少讓我們知道該怎麼稱呼你。', 'error');
+            return;
+        }
 
         if (!validateEmail(email)) {
             setStatus('請填寫有效的電子郵件，我們才知道要回覆到哪裡。', 'error');
+            return;
+        }
+
+        if (!purpose) {
+            setStatus('請先選擇聯繫目的，這樣我們比較知道該由誰出面回信。', 'error');
             return;
         }
 
@@ -208,10 +222,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         const payload = {
-            name: String(formData.get('name') || '').trim(),
+            name,
             email,
             organization: String(formData.get('organization') || '').trim(),
-            purpose: String(formData.get('purpose') || '').trim(),
+            purpose,
             subject: String(formData.get('subject') || '').trim(),
             website: String(formData.get('website') || '').trim(),
             message,
@@ -223,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function() {
         setStatus('訊息正在送出，請稍候。', 'success');
 
         try {
-            const response = await fetch('/api/contact', {
+            const response = await fetch(contactEndpoint, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -239,7 +253,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             form.reset();
-            setStatus('已收到您的訊息，NorthPath.CA 會盡快回覆。', 'success');
+            setStatus('已收到你的訊息，NorthPath.CA 會盡快回覆。', 'success');
         } catch (error) {
             setStatus(error.message || '訊息暫時無法送出，請直接寄信到 northpathca@gmail.com。', 'error');
         } finally {
