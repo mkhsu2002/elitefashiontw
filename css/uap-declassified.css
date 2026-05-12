@@ -153,6 +153,56 @@ body {
     font-weight: 800;
 }
 
+.uap-media-section h2 {
+    margin-bottom: 1.2rem;
+}
+
+.uap-media-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.uap-media-card {
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid var(--uap-line);
+    border-radius: 8px;
+    background: #fcfbf7;
+}
+
+.uap-media-frame {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    background: #0f1113;
+}
+
+.uap-media-frame img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.uap-media-card figcaption {
+    padding: 0.9rem 1rem 1rem;
+    color: var(--uap-muted);
+    font-size: 0.92rem;
+    line-height: 1.7;
+}
+
+.uap-media-card figcaption span {
+    display: block;
+    margin-top: 0.45rem;
+    color: var(--uap-ink);
+    font-weight: 700;
+}
+
+.uap-media-card figcaption a {
+    color: var(--uap-green);
+}
+
 .uap-keyword-cloud {
     display: flex;
     flex-wrap: wrap;
@@ -194,6 +244,7 @@ body {
 
 @media (max-width: 860px) {
     .uap-detail-layout,
+    .uap-media-grid,
     .uap-related-links {
         grid-template-columns: 1fr;
     }
@@ -216,4 +267,5 @@ body {
     .uap-record-card {
         padding: 1.15rem;
     }
+
 }

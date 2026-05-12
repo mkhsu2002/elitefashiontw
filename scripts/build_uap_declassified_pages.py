@@ -713,6 +713,204 @@ REPORTS = {
 }
 
 
+MEDIA = {
+    "pursue-release-01": {
+        "heading": "官方 UAP 影像",
+        "items": [
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-Photo-1.jpg",
+                "alt": "PURSUE Release 01 infrared still over western United States",
+                "caption": "PURSUE Release 01 收錄的美國西部紅外線影像截圖，畫面中的黑色遮蔽與十字標線提醒讀者：影像本身需要搭配 metadata 才能判讀。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR46-Unresolved-UAP-Report-INDOPACOM-2024.jpg",
+                "alt": "PURSUE Release 01 INDOPACOM UAP still near Japan",
+                "caption": "美國印太司令部回報的 UAP 影像截圖，官方描述其外型近似 football-shaped body。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+        ],
+    },
+    "nasa-astronaut-uap-transcripts": {
+        "heading": "官方 UAP 影像",
+        "items": [
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-VM6-Apollo-17-1972.jpg",
+                "alt": "Apollo 17 lunar surface image with highlighted lights",
+                "caption": "PURSUE 頁面收錄的 Apollo 17 任務影像，黃色框標示月面上方被放大的亮點區域。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR35-Unresolved-UAP-Report-Greece-October-2023.jpg",
+                "alt": "Military sensor image of UAP over ocean near Greece",
+                "caption": "PURSUE 收錄的希臘附近海域感測器影像。放在 NASA 任務頁中，是為了讓讀者比較太空任務照片與軍事感測器影像在判讀上的差異。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+        ],
+    },
+    "congress-2023-uap-hearing": {
+        "heading": "官方 UAP 影像",
+        "items": [
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR45-Unresolved-UAP-Report-Middle-East-2020.jpg",
+                "alt": "Official UAP sensor still from Middle East 2020",
+                "caption": "PURSUE 收錄的 2020 年中東 UAP 感測器影像。國會聽證談的是透明度與證據門檻，這類官方畫面正是討論焦點之一。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-Photo-B7-.jpg",
+                "alt": "Official infrared still with unidentified object and sensor reticle",
+                "caption": "紅外線感測器畫面中的不明目標。這張圖能直觀呈現聽證中反覆被提到的核心問題：影像有吸引力，但仍需要完整資料鏈。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+        ],
+    },
+    "navy-tic-tac-fravor": {
+        "heading": "官方 UAP 影像",
+        "items": [
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR45-Unresolved-UAP-Report-Middle-East-2020.jpg",
+                "alt": "Official UAP sensor still with tracked object",
+                "caption": "官方公開的 UAP 感測器影像。雖非 2004 Tic Tac 原案畫面，但它呈現出讀者理解 FLIR / 感測器案例時最直觀的視覺語言。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR46-Unresolved-UAP-Report-INDOPACOM-2024.jpg",
+                "alt": "Official INDOPACOM UAP still resembling a football-shaped body",
+                "caption": "印太司令部回報、外型近似 football-shaped body 的 UAP 影像。這類畫面能幫助讀者理解為何飛行員證詞與影像判讀必須分層閱讀。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+        ],
+    },
+    "fbi-guy-hottel-memo": {
+        "heading": "官方 UAP 影像參照",
+        "items": [
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-Photo-B2.jpg",
+                "alt": "Official infrared still of small unidentified object",
+                "caption": "這張影像不是 Guy Hottel memo 的事件照片，而是 PURSUE 同批官方 UAP 影像。放在這裡，是讓讀者在閱讀 1950 年傳聞文件時，也能看見現代官方 UAP 影像的視覺語境。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+        ],
+    },
+    "cia-robertson-panel-durant-report": {
+        "heading": "官方 UAP 影像參照",
+        "items": [
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR38-Unresolved-UAP-Report-Middle-East-2013.jpg",
+                "alt": "Official sensor still of unidentified object over Middle East",
+                "caption": "CIA 小組討論的是資料品質、威脅評估與公眾溝通；這張官方感測器影像提供一個現代對照：畫面本身吸睛，但解釋仍取決於資料脈絡。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+        ],
+    },
+    "aaro-historical-record-report": {
+        "heading": "官方 UAP 影像",
+        "items": [
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR43-Unresolved-UAP-Report-Africa-2025.jpg",
+                "alt": "Official aerial sensor still over African airspace",
+                "caption": "PURSUE 收錄的非洲空域 UAP 影像。AARO 報告的重點，是把這類高話題影像放回資料品質、歸因與證據門檻中檢視。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR46-Unresolved-UAP-Report-INDOPACOM-2024.jpg",
+                "alt": "Official INDOPACOM UAP still",
+                "caption": "印太司令部 UAP 影像。它的畫面很有辨識度，也很適合提醒讀者：官方公開影像不等於官方已完成外星歸因。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+        ],
+    },
+    "kona-blue-ornl-materials": {
+        "heading": "官方 UAP 影像參照",
+        "items": [
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR46-Unresolved-UAP-Report-INDOPACOM-2024.jpg",
+                "alt": "Official football-shaped UAP still from INDOPACOM",
+                "caption": "KONA BLUE 與 ORNL 的主題是材料與逆向工程主張；這張官方 UAP 影像作為視覺參照，呈現那些主張通常圍繞的『可見異常』想像。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR45-Unresolved-UAP-Report-Middle-East-2020.jpg",
+                "alt": "Official UAP sensor image with colored tracking marks",
+                "caption": "這張中東 UAP 感測器影像比材料報告更適合文章視覺；讀者進入頁面後，仍會在正文中回到 KONA BLUE 與 ORNL 的官方查核結論。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+        ],
+    },
+    "project-blue-book-fact-sheet": {
+        "heading": "官方 UAP 影像參照",
+        "items": [
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-Photo-1.jpg",
+                "alt": "Official infrared still of unidentified object",
+                "caption": "Project Blue Book 是歷史調查計畫；這張現代官方 UAP 影像可作為視覺參照，提醒讀者『未識別』始終是一個資料與歸因問題。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR43-Unresolved-UAP-Report-Africa-2025.jpg",
+                "alt": "Official aerial UAP sensor still over African airspace",
+                "caption": "PURSUE 收錄的非洲空域 UAP 影像。它讓 Blue Book 的老問題變得很現代：一張畫面到底需要多少附加資料，才能從『看不懂』走向『可歸因』？",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+        ],
+    },
+    "roswell-report-official-records": {
+        "heading": "官方 UAP 影像參照",
+        "items": [
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR19-Unresolved-UAP-Report-Middle-East-May-2022.jpg",
+                "alt": "Official infrared UAP still with dark elongated object",
+                "caption": "這不是 Roswell 事件照片，而是官方公開的現代 UAP 感測器影像。Roswell 頁面使用它，是為了提供視覺張力，同時在正文中清楚區分歷史事件、傳聞與官方查核。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+            {
+                "type": "image",
+                "src": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR46-Unresolved-UAP-Report-INDOPACOM-2024.jpg",
+                "alt": "Official UAP still near Japan",
+                "caption": "印太司令部 UAP 影像。與 Roswell 的歷史敘事並列時，能幫助讀者看見 UFO 文化如何從墜毀傳聞走向感測器資料時代。",
+                "source_label": "WAR.GOV/UFO PURSUE",
+                "source_url": "https://www.war.gov/UFO/",
+            },
+        ],
+    },
+}
+
+
 def esc(value: str) -> str:
     return html.escape(value, quote=True)
 
@@ -739,6 +937,35 @@ def render_report_sections(sections: list[dict[str, object]]) -> str:
                 </section>"""
         )
     return "\n\n".join(rendered)
+
+
+def render_media_item(item: dict[str, str]) -> str:
+    source = (
+        f'<a href="{esc(item["source_url"])}" target="_blank" rel="noopener">'
+        f'{esc(item["source_label"])}</a>'
+    )
+    body = f'<img src="{esc(item["src"])}" alt="{esc(item["alt"])}" loading="lazy">'
+    return f"""                    <figure class="uap-media-card">
+                        <div class="uap-media-frame">
+                            {body}
+                        </div>
+                        <figcaption>{esc(item["caption"])} <span>來源：{source}</span></figcaption>
+                    </figure>"""
+
+
+def render_media(slug: str) -> str:
+    media = MEDIA.get(slug)
+    if not media:
+        return ""
+    items = "\n".join(render_media_item(item) for item in media["items"])
+    return f"""                <section class="uap-media-section">
+                    <h2>{esc(media["heading"])}</h2>
+                    <div class="uap-media-grid">
+{items}
+                    </div>
+                </section>
+
+"""
 
 
 def render_sources(sources: list[tuple[str, str]]) -> str:
@@ -800,7 +1027,7 @@ def render_page(guide: dict[str, object]) -> str:
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="{esc(canonical)}">
     <link rel="stylesheet" href="../css/styles.css?v=1.2">
-    <link rel="stylesheet" href="../css/uap-declassified.css?v=1.1">
+    <link rel="stylesheet" href="../css/uap-declassified.css?v=1.2">
     <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg">
     <script type="application/ld+json">
 {json.dumps(schema, ensure_ascii=False, indent=6)}
@@ -866,6 +1093,7 @@ def render_page(guide: dict[str, object]) -> str:
                     </ol>
                 </section>
 
+{render_media(guide["slug"])}
 {render_report_sections(report["sections"])}
 
                 <section class="uap-source-box">
