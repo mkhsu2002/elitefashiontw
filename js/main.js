@@ -2,10 +2,21 @@
 
 // Mobile Menu Toggle
 document.addEventListener('DOMContentLoaded', function() {
-    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+    let mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const navMenu = document.querySelector('.nav-menu');
+    const navbarContainer = document.querySelector('.navbar .container');
+
+    if (!mobileMenuToggle && navMenu && navbarContainer) {
+        mobileMenuToggle = document.createElement('button');
+        mobileMenuToggle.className = 'mobile-menu-toggle';
+        mobileMenuToggle.type = 'button';
+        mobileMenuToggle.setAttribute('aria-label', '開啟選單');
+        mobileMenuToggle.setAttribute('aria-expanded', 'false');
+        mobileMenuToggle.innerHTML = '<span></span><span></span><span></span>';
+        navbarContainer.insertBefore(mobileMenuToggle, navMenu);
+    }
     
-    if (mobileMenuToggle) {
+    if (mobileMenuToggle && navMenu) {
         mobileMenuToggle.addEventListener('click', function() {
             navMenu.classList.toggle('active');
             const isExpanded = navMenu.classList.contains('active');
