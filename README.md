@@ -286,6 +286,8 @@ tw.elitefasion.com/api/contact
 - 只有在文章已生成、已 commit / push、正式站可讀後，workflow 才會同步到 Google Sheets
 - 同步腳本：`scripts/log_article_to_google_sheets.py`
 - 預設 worksheet：`Taiwan`
+- GitHub Actions 正式排程與手動工作流程都會在發文成功後呼叫同步
+- 若要補登既有文章或全站缺漏文章，使用 `Content Cloud Log Backfill`
 
 目前同步欄位包括：
 
@@ -314,6 +316,13 @@ tw.elitefasion.com/api/contact
 若需要補登既有文章，可使用 GitHub Actions workflow：
 
 - `Content Cloud Log Backfill`
+
+實際回填行為：
+
+- workflow 會執行 `python3 scripts/log_article_to_google_sheets.py --all-site-articles`
+- 資料來源是 `data/articles-index.json`，不是只看最近一筆 publish log
+- 因此除了近期新文，也會把站上仍未存在於 worksheet 的 legacy 文章一併補齊
+- 已於 `2026-05-12` 實測成功完成一次全站補登
 
 ## 模型 API 與版本紀錄
 
@@ -361,7 +370,6 @@ OpenAI 並沒有被覆蓋，仍完整保留作為 fallback：
 - `CONTENT_NOTIFICATION_TO_EMAIL`
 - `GOOGLE_SHEETS_SPREADSHEET_ID`
 - `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON`
-- `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON_BASE64`
 
 ### Variables
 
@@ -385,8 +393,18 @@ OpenAI 並沒有被覆蓋，仍完整保留作為 fallback：
   - NVIDIA 路徑的 writer / planner 模型
 - `GOOGLE_SHEETS_SPREADSHEET_ID`
   - Google Sheet 的 spreadsheet id，這個 repo 若要寫到和 `elitefashion` 同一份表，就填同一個值
-- `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON` / `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON_BASE64`
-  - Google service account 憑證，擇一即可
+- `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON`
+  - 目前 GitHub repo 實際存在並使用中的 Google service account 憑證 secret
+
+### Google Sheets 憑證備註
+
+- `scripts/log_article_to_google_sheets.py` 程式層仍支援以下來源擇一：
+  - `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON`
+  - `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON_BASE64`
+  - `SERVICE_ACCOUNT_PATH`
+  - `GOOGLE_APPLICATION_CREDENTIALS`
+- 但截至 `2026-05-12`，本 repo GitHub Actions secrets 實際存在的是 `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON`
+- `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON_BASE64` 與 `GCP_SERVICE_ACCOUNT` 目前不在這個 repo 的 GitHub secrets 名單內
 
 ### 舊變數備註
 
