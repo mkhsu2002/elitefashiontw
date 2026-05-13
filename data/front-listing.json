@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-05-13T20:12:09Z",
+  "updatedAt": "2026-05-13T20:19:37Z",
   "latest": [
+    {
+      "id": "auto-20260513201937-pregnancy-safe-exercise-guide",
+      "title": "懷孕媽媽可以做什麼運動？6 種溫和、安全感高的孕期活動",
+      "excerpt": "從散步、水中活動到骨盆底訓練，幫準媽媽用低衝擊方式維持體力與日常穩定感。",
+      "category": "wellness-movement",
+      "categoryLabel": "健康恢復",
+      "series": "孕期健康與溫和訓練",
+      "publishedAt": "2026-05-13T20:19:37Z",
+      "publishedDateText": "2026年5月13日",
+      "relativeUrl": "wellness-movement/pregnancy-safe-exercise-guide.html",
+      "heroImage": "images/yoga/hero-yoga.jpg",
+      "tags": [
+        "孕期運動",
+        "懷孕媽媽",
+        "孕婦瑜伽",
+        "骨盆底訓練",
+        "健康恢復"
+      ]
+    },
     {
       "id": "auto-20260513060111-returning-taiwan-first-year-unmarried-women",
       "title": "回台第一年，給海歸未婚女性的 6 個生活先決事項",
@@ -206,30 +225,6 @@
         "Project Mogul",
         "羅斯威爾事件",
         "UFO 外星材料"
-      ]
-    },
-    {
-      "id": "legacy-uap-ufo-declassified-top-10-ufo-files-html",
-      "title": "美國 UFO 解密必看 10 件：Roswell、阿波羅、Tic Tac 與外星人屍體傳聞",
-      "excerpt": "整理美國 UFO/UAP 公開解密中最值得先看的 10 個檔案與事件：Roswell、阿波羅任務、Tic Tac、國會聽證、FBI 外星人屍體傳聞、Blue Book、AARO 與 KONA BLUE。",
-      "category": "special-features",
-      "categoryLabel": "特輯",
-      "series": "特輯",
-      "publishedAt": "2026-05-12T00:00:00-07:00",
-      "publishedDateText": "2026年5月12日",
-      "relativeUrl": "uap-ufo-declassified/top-10-ufo-files.html",
-      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR46-Unresolved-UAP-Report-INDOPACOM-2024.jpg",
-      "tags": [
-        "美國 UFO 解密",
-        "UFO 必看 10 件",
-        "UAP 公開檔案",
-        "Roswell 羅斯威爾",
-        "阿波羅 UFO",
-        "Tic Tac UFO",
-        "外星人屍體傳聞",
-        "FBI UFO 備忘錄",
-        "Project Blue Book",
-        "AARO"
       ]
     }
   ],
@@ -764,6 +759,25 @@
       "label": "健康恢復",
       "items": [
         {
+          "id": "auto-20260513201937-pregnancy-safe-exercise-guide",
+          "title": "懷孕媽媽可以做什麼運動？6 種溫和、安全感高的孕期活動",
+          "excerpt": "從散步、水中活動到骨盆底訓練，幫準媽媽用低衝擊方式維持體力與日常穩定感。",
+          "category": "wellness-movement",
+          "categoryLabel": "健康恢復",
+          "series": "孕期健康與溫和訓練",
+          "publishedAt": "2026-05-13T20:19:37Z",
+          "publishedDateText": "2026年5月13日",
+          "relativeUrl": "wellness-movement/pregnancy-safe-exercise-guide.html",
+          "heroImage": "images/yoga/hero-yoga.jpg",
+          "tags": [
+            "孕期運動",
+            "懷孕媽媽",
+            "孕婦瑜伽",
+            "骨盆底訓練",
+            "健康恢復"
+          ]
+        },
+        {
           "id": "auto-20260507180055-mature-women-spring-summer-cooling-sleep",
           "title": "熟齡女性的春夏夜間降溫儀式：找回深層睡眠",
           "excerpt": "悶熱難睡的季節，從環境、飲食到作息，整理一套溫和有效的身體降溫法。",
@@ -866,26 +880,6 @@
             "阻力訓練",
             "步行",
             "蛋白質"
-          ]
-        },
-        {
-          "id": "legacy-wellness-movement-recovery-tech-html",
-          "title": "旅行與久坐後的恢復科技：按摩槍、伸展與 48 小時修復節奏",
-          "excerpt": "整理旅行、久坐與肩頸疲勞後的恢復科技使用方式，包含按摩槍、伸展、補水、睡眠與移動後 48 小時恢復節奏。",
-          "category": "wellness-movement",
-          "categoryLabel": "健康恢復",
-          "series": "健康恢復",
-          "publishedAt": "2026-02-19T23:00:00+08:00",
-          "publishedDateText": "2026年2月19日",
-          "relativeUrl": "wellness-movement/recovery-tech.html",
-          "heroImage": "images/generated/wellness/recovery-tech.png",
-          "tags": [
-            "恢復科技",
-            "按摩槍",
-            "旅行疲勞",
-            "肩頸放鬆",
-            "久坐恢復",
-            "熟齡健康恢復"
           ]
         }
       ]

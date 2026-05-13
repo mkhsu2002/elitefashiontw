@@ -114,4 +114,4 @@ jobs:
           GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON_BASE64: ${{ secrets.GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON_BASE64 }}
           GOOGLE_SHEETS_WORKSHEET_TITLE: Taiwan
         run: |
-          python3 scripts/log_article_to_google_sheets.py
+          python3 scripts/log_article_to_google_sheets.py --all-site-articles

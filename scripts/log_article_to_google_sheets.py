@@ -158,7 +158,12 @@ def build_sheet_entry(entry: dict[str, Any], site_config: dict[str, Any]) -> dic
     model_name = str(os.environ.get("CONTENT_MODEL", "") or site_config.get("model", {}).get("defaultModel", ""))
     trigger_type = str(entry.get("triggerType", "") or "")
     notes = trigger_type if trigger_type else ""
-    cover_image = str(article_detail.get("heroImage", "") or index_item.get("heroImage", "") or "")
+    cover_image = str(
+        entry.get("coverImageUrl", "")
+        or article_detail.get("heroImage", "")
+        or index_item.get("heroImage", "")
+        or ""
+    )
 
     return {
         "article_id": article_id,

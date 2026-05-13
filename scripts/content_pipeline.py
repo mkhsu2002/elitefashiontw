@@ -2006,6 +2006,9 @@ def append_publish_log(config: dict[str, Any], article: dict[str, Any], *, trigg
             "publishedAt": article["publishedAt"],
             "url": article["url"],
             "file": article["file"],
+            "coverImageUrl": path_to_url(config["baseUrl"], article["heroImage"])
+            if article.get("heroImage") and not str(article["heroImage"]).startswith(("http://", "https://"))
+            else article.get("heroImage", ""),
             "queueId": queue_id,
             "triggerType": trigger_type,
         },

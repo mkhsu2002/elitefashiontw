@@ -1,5 +1,12 @@
 # 發文紀錄
 
+## 2026-05-13T20:19:37Z｜懷孕媽媽可以做什麼運動？從散步、游泳到孕期瑜伽的安全推薦
+
+- 文章 ID：auto-20260513201937-pregnancy-safe-exercise-guide
+- URL：https://tw.elitefasion.com/wellness-movement/pregnancy-safe-exercise-guide.html
+- 檔案：wellness-movement/pregnancy-safe-exercise-guide.html
+- 類型：manual-codex-test
+
 ## 2026-05-13T06:01:11Z｜回台第一年怎麼過？海歸未婚女性的 6 件先決事項（居住、身分與日常節奏）
 
 - 文章 ID：auto-20260513060111-returning-taiwan-first-year-unmarried-women
