@@ -1,6 +1,23 @@
 {
-  "updatedAt": "2026-05-12T18:26:23Z",
+  "updatedAt": "2026-05-13T06:01:11Z",
   "latest": [
+    {
+      "id": "auto-20260513060111-returning-taiwan-first-year-unmarried-women",
+      "title": "回台第一年，給海歸未婚女性的 6 個生活先決事項",
+      "excerpt": "居住選擇、身分文件、日常節奏⋯⋯返台第一年最該優先處理的事，我們幫妳排好順序。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "海歸返台的獨居重構：40+ 未婚女性的一個人生活指南",
+      "publishedAt": "2026-05-13T06:01:11Z",
+      "publishedDateText": "2026年5月13日",
+      "relativeUrl": "lifestyle-culture/returning-taiwan-first-year-unmarried-women.html",
+      "heroImage": "images/generated/life-proposals/gray-divorce-new-chapter.png",
+      "tags": [
+        "海歸返台",
+        "獨居生活",
+        "生活品味"
+      ]
+    },
     {
       "id": "legacy-uap-ufo-declassified-aaro-historical-record-report-html",
       "title": "AARO Historical Record Report 導讀：美國政府是否找到外星技術證據",
@@ -11,7 +28,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/aaro-historical-record-report.html",
-      "heroImage": "images/logo.jpg",
+      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR43-Unresolved-UAP-Report-Africa-2025.jpg",
       "tags": [
         "AARO Historical Record Report",
         "off-world technology",
@@ -30,7 +47,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/cia-robertson-panel-durant-report.html",
-      "heroImage": "images/logo.jpg",
+      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR38-Unresolved-UAP-Report-Middle-East-2013.jpg",
       "tags": [
         "Robertson Panel",
         "Durant Report",
@@ -49,7 +66,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/congress-2023-uap-hearing.html",
-      "heroImage": "images/logo.jpg",
+      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR45-Unresolved-UAP-Report-Middle-East-2020.jpg",
       "tags": [
         "UAP hearing transcript",
         "David Grusch",
@@ -68,7 +85,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/fbi-guy-hottel-memo.html",
-      "heroImage": "images/logo.jpg",
+      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-Photo-B2.jpg",
       "tags": [
         "Guy Hottel memo",
         "FBI Vault UFO",
@@ -87,7 +104,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/kona-blue-ornl-materials.html",
-      "heroImage": "images/logo.jpg",
+      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR46-Unresolved-UAP-Report-INDOPACOM-2024.jpg",
       "tags": [
         "KONA BLUE",
         "ORNL UAP specimen",
@@ -106,7 +123,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/nasa-astronaut-uap-transcripts.html",
-      "heroImage": "images/logo.jpg",
+      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-VM6-Apollo-17-1972.jpg",
       "tags": [
         "NASA UAP",
         "Gemini 7 UFO",
@@ -125,7 +142,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/navy-tic-tac-fravor.html",
-      "heroImage": "images/logo.jpg",
+      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR45-Unresolved-UAP-Report-Middle-East-2020.jpg",
       "tags": [
         "Tic Tac UFO",
         "FLIR1 UAP",
@@ -144,7 +161,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/project-blue-book-fact-sheet.html",
-      "heroImage": "images/logo.jpg",
+      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-Photo-1.jpg",
       "tags": [
         "Project Blue Book",
         "藍皮書計畫",
@@ -163,7 +180,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/pursue-release-01.html",
-      "heroImage": "images/logo.jpg",
+      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-Photo-1.jpg",
       "tags": [
         "PURSUE Release 01",
         "WAR.GOV UFO",
@@ -182,7 +199,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/roswell-report-official-records.html",
-      "heroImage": "images/logo.jpg",
+      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR19-Unresolved-UAP-Report-Middle-East-May-2022.jpg",
       "tags": [
         "Roswell Report",
         "Roswell Incident",
@@ -213,25 +230,6 @@
         "FBI UFO 備忘錄",
         "Project Blue Book",
         "AARO"
-      ]
-    },
-    {
-      "id": "auto-20260509202936-living-alone-with-style-mature-women",
-      "title": "一個人住也可以很有儀式：給中年未婚高知女性的質感日常重建",
-      "excerpt": "不是「只能這樣過」，而是「我想要這樣生活」。從居家、旅行到獨處，為妳拆解將一個人的日常活成高品質美學的具體方法。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "一個人的優雅：中年未婚高知女性的獨立生活系列",
-      "publishedAt": "2026-05-09T20:29:36Z",
-      "publishedDateText": "2026年5月9日",
-      "relativeUrl": "lifestyle-culture/living-alone-with-style-mature-women.html",
-      "heroImage": "images/generated/life-proposals/finding-yourself-after-40.png",
-      "tags": [
-        "生活品味",
-        "一個人的生活",
-        "居家布置",
-        "熟齡獨旅",
-        "中年未婚女性"
       ]
     }
   ],
@@ -347,7 +345,7 @@
           "publishedAt": "2026-02-06T21:00:00+08:00",
           "publishedDateText": "2026年2月6日",
           "relativeUrl": "ai-innovation/ai-wealth-fintech.html",
-          "heroImage": "images/generated/ai/wealth-fintech.png",
+          "heroImage": "https://tw.elitefashion.com/images/og/ai/wealth-fintech.jpg",
           "tags": [
             "AI 自動交易",
             "機器人理財 2026",
@@ -944,7 +942,7 @@
           "publishedAt": "2026-04-18T10:00:00+08:00",
           "publishedDateText": "2026年4月18日",
           "relativeUrl": "outdoor-escapes/iphone-travel-vlog-monitor.html",
-          "heroImage": "https://da-iphone-monitor.icareu.tw/11_840x840.jpg",
+          "heroImage": "https://tw.elitefashion.com/images/iphone-monitor-11.jpg",
           "tags": [
             "DA 磁吸自拍顯示器",
             "旅拍 Vlog",
@@ -1027,6 +1025,23 @@
     "lifestyle-culture": {
       "label": "生活品味",
       "items": [
+        {
+          "id": "auto-20260513060111-returning-taiwan-first-year-unmarried-women",
+          "title": "回台第一年，給海歸未婚女性的 6 個生活先決事項",
+          "excerpt": "居住選擇、身分文件、日常節奏⋯⋯返台第一年最該優先處理的事，我們幫妳排好順序。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "海歸返台的獨居重構：40+ 未婚女性的一個人生活指南",
+          "publishedAt": "2026-05-13T06:01:11Z",
+          "publishedDateText": "2026年5月13日",
+          "relativeUrl": "lifestyle-culture/returning-taiwan-first-year-unmarried-women.html",
+          "heroImage": "images/generated/life-proposals/gray-divorce-new-chapter.png",
+          "tags": [
+            "海歸返台",
+            "獨居生活",
+            "生活品味"
+          ]
+        },
         {
           "id": "auto-20260509202936-living-alone-with-style-mature-women",
           "title": "一個人住也可以很有儀式：給中年未婚高知女性的質感日常重建",
@@ -1120,26 +1135,6 @@
             "MIT 台灣製造",
             "家用剪刀",
             "廚房剪"
-          ]
-        },
-        {
-          "id": "auto-20260502201120-一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作",
-          "title": "一人生活的週清單：給女高管的形象、居家與時間管理",
-          "excerpt": "一份可立刻上手的週計畫，涵蓋膠囊衣櫥、會議日常、出差包與夜間恢復，幫妳在最少時間內重建穩定感。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "從高階到自處：離婚後的高管女性一人生活重整指南",
-          "publishedAt": "2026-05-02T20:11:20Z",
-          "publishedDateText": "2026年5月2日",
-          "relativeUrl": "lifestyle-culture/一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作.html",
-          "heroImage": "images/generated/lifestyle/life-sovereignty.jpg",
-          "tags": [
-            "一人生活",
-            "中年女性",
-            "離婚恢復",
-            "時間管理",
-            "高管形象",
-            "膠囊衣櫥"
           ]
         }
       ]
