@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T06:01:11Z",
+  "updatedAt": "2026-05-13T20:12:09Z",
   "count": 237,
   "items": [
     {
@@ -1561,7 +1561,7 @@
       "url": "https://tw.elitefasion.com/designer-perspective/minimalist-philosophy.html",
       "relativeUrl": "designer-perspective/minimalist-philosophy.html",
       "file": "designer-perspective/minimalist-philosophy.html",
-      "heroImage": "images/generated/designer/minimalist-office.png",
+      "heroImage": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&h=800&fit=crop",
       "sourceType": "legacy",
       "status": "published",
       "queueId": null
@@ -6809,7 +6809,7 @@
       "url": "https://tw.elitefasion.com/outdoor-escapes/horizon-x-space-travel-neck-pillow.html",
       "relativeUrl": "outdoor-escapes/horizon-x-space-travel-neck-pillow.html",
       "file": "outdoor-escapes/horizon-x-space-travel-neck-pillow.html",
-      "heroImage": "X-Space/%E7%89%B9%E5%AF%AB-1776818624440.png",
+      "heroImage": "images/og/outdoor/og-outdoor.jpg",
       "sourceType": "legacy",
       "status": "published",
       "queueId": null
@@ -8640,7 +8640,7 @@
       "url": "https://tw.elitefasion.com/casual-chic/workplace-style.html",
       "relativeUrl": "casual-chic/workplace-style.html",
       "file": "casual-chic/workplace-style.html",
-      "heroImage": "images/generated/casual/workplace-style.png",
+      "heroImage": "images/generated/casual/office.png",
       "sourceType": "legacy",
       "status": "published",
       "queueId": null
@@ -9095,7 +9095,7 @@
       "url": "https://tw.elitefasion.com/outdoor-escapes/quiet-gorpcore-minimalism.html",
       "relativeUrl": "outdoor-escapes/quiet-gorpcore-minimalism.html",
       "file": "outdoor-escapes/quiet-gorpcore-minimalism.html",
-      "heroImage": "images/outdoor-escapes/quiet-gorpcore-og.jpg",
+      "heroImage": "images/generated/outdoor/luxury-hiking.png",
       "sourceType": "legacy",
       "status": "published",
       "queueId": null
@@ -9137,7 +9137,7 @@
       "url": "https://tw.elitefasion.com/outdoor-escapes/regenerative-travel-2026.html",
       "relativeUrl": "outdoor-escapes/regenerative-travel-2026.html",
       "file": "outdoor-escapes/regenerative-travel-2026.html",
-      "heroImage": "images/outdoor-escapes/regenerative-og.jpg",
+      "heroImage": "images/generated/outdoor/taiwan-hiking.png",
       "sourceType": "legacy",
       "status": "published",
       "queueId": null
@@ -9431,7 +9431,7 @@
       "url": "https://tw.elitefasion.com/outdoor-escapes/extreme-climate-adaptive-gear.html",
       "relativeUrl": "outdoor-escapes/extreme-climate-adaptive-gear.html",
       "file": "outdoor-escapes/extreme-climate-adaptive-gear.html",
-      "heroImage": "images/outdoor-escapes/extreme-adaptive-main.jpg",
+      "heroImage": "images/generated/outdoor/gear-guide.png",
       "sourceType": "legacy",
       "status": "published",
       "queueId": null
@@ -9558,7 +9558,7 @@
       "url": "https://tw.elitefasion.com/outdoor-escapes/backpack-comfort-guide.html",
       "relativeUrl": "outdoor-escapes/backpack-comfort-guide.html",
       "file": "outdoor-escapes/backpack-comfort-guide.html",
-      "heroImage": "images/generated/outdoor/backpack-hero.png",
+      "heroImage": "images/generated/outdoor/gear-guide.png",
       "sourceType": "legacy",
       "status": "published",
       "queueId": null
@@ -9765,7 +9765,7 @@
       "url": "https://tw.elitefasion.com/wellness-movement/recovery-tech.html",
       "relativeUrl": "wellness-movement/recovery-tech.html",
       "file": "wellness-movement/recovery-tech.html",
-      "heroImage": "images/generated/wellness/recovery-tech-og.png",
+      "heroImage": "images/generated/wellness/recovery-tech.png",
       "sourceType": "legacy",
       "status": "published",
       "queueId": null
@@ -9891,7 +9891,7 @@
       "url": "https://tw.elitefasion.com/wellness-movement/morning-yoga.html",
       "relativeUrl": "wellness-movement/morning-yoga.html",
       "file": "wellness-movement/morning-yoga.html",
-      "heroImage": "images/wellness/morning-yoga-main.jpg",
+      "heroImage": "images/yoga/hero-yoga.jpg",
       "sourceType": "legacy",
       "status": "published",
       "queueId": null
@@ -10227,7 +10227,7 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/second-brain.html",
       "relativeUrl": "lifestyle-culture/second-brain.html",
       "file": "lifestyle-culture/second-brain.html",
-      "heroImage": "images/generated/lifestyle/second-brain-og.png",
+      "heroImage": "images/generated/lifestyle/notion-obsidian.png",
       "sourceType": "legacy",
       "status": "published",
       "queueId": null

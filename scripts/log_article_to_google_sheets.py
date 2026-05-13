@@ -42,6 +42,7 @@ HEADERS = [
     "site_url",
     "status",
     "notes",
+    "cover_image_url",
 ]
 
 
@@ -97,6 +98,9 @@ def ensure_worksheet(spreadsheet, title: str):
     except gspread.WorksheetNotFound:
         worksheet = spreadsheet.add_worksheet(title=title, rows=1000, cols=len(HEADERS))
 
+    if getattr(worksheet, "col_count", len(HEADERS)) < len(HEADERS):
+        worksheet.resize(cols=len(HEADERS))
+
     first_row = worksheet.row_values(1)
     if first_row[: len(HEADERS)] != HEADERS:
         worksheet.update(values=[HEADERS], range_name="A1")
@@ -114,10 +118,39 @@ def load_articles_index_items() -> list[dict[str, Any]]:
     return [item for item in items if isinstance(item, dict)]
 
 
+def path_to_url(base_url: str, relative_path: str) -> str:
+    return f"{base_url.rstrip('/')}/{relative_path.lstrip('/')}"
+
+
+def canonical_cover_image_url(image: str, site_config: dict[str, Any]) -> str:
+    image = str(image or "").strip()
+    if not image:
+        return ""
+    base_url = str(site_config.get("baseUrl", "") or "").rstrip("/")
+    legacy_github_base = "https://mkhsu2002.github.io/elitefashiontw/"
+    if image.startswith(legacy_github_base) and base_url:
+        return path_to_url(base_url, image.replace(legacy_github_base, "", 1))
+    if image.startswith(("http://", "https://")):
+        return image
+    if not base_url:
+        return image.lstrip("/")
+    return path_to_url(base_url, image)
+
+
+def find_index_item(article_id: str, file_path: str) -> dict[str, Any]:
+    for item in load_articles_index_items():
+        if article_id and item.get("id") == article_id:
+            return item
+        if file_path and item.get("file") == file_path:
+            return item
+    return {}
+
+
 def build_sheet_entry(entry: dict[str, Any], site_config: dict[str, Any]) -> dict[str, str]:
     article_id = str(entry.get("articleId", "") or "")
     article_detail = load_article_detail(article_id)
     file_path = str(entry.get("file", "") or article_detail.get("file", ""))
+    index_item = find_index_item(article_id, file_path)
     slug = str(article_detail.get("slug", "") or Path(file_path).stem)
     category = str(article_detail.get("category", "") or (Path(file_path).parts[0] if file_path else ""))
     series = str(article_detail.get("series", "") or "")
@@ -125,6 +158,7 @@ def build_sheet_entry(entry: dict[str, Any], site_config: dict[str, Any]) -> dic
     model_name = str(os.environ.get("CONTENT_MODEL", "") or site_config.get("model", {}).get("defaultModel", ""))
     trigger_type = str(entry.get("triggerType", "") or "")
     notes = trigger_type if trigger_type else ""
+    cover_image = str(article_detail.get("heroImage", "") or index_item.get("heroImage", "") or "")
 
     return {
         "article_id": article_id,
@@ -143,6 +177,7 @@ def build_sheet_entry(entry: dict[str, Any], site_config: dict[str, Any]) -> dic
         "site_url": str(site_config.get("baseUrl", "")),
         "status": "published",
         "notes": notes,
+        "cover_image_url": canonical_cover_image_url(cover_image, site_config),
     }
 
 
@@ -171,6 +206,7 @@ def build_sheet_entry_from_index_item(item: dict[str, Any], site_config: dict[st
         "site_url": str(site_config.get("baseUrl", "")),
         "status": str(item.get("status", "") or "published"),
         "notes": source_type or "legacy",
+        "cover_image_url": canonical_cover_image_url(str(item.get("heroImage", "") or ""), site_config),
     }
 
 
@@ -195,6 +231,84 @@ def append_rows_chunked(worksheet, rows: list[list[str]], batch_size: int = 50) 
         worksheet.append_rows(batch, value_input_option="RAW")
         appended += len(batch)
     return appended
+
+
+def column_letter(index: int) -> str:
+    letters = ""
+    while index:
+        index, remainder = divmod(index - 1, 26)
+        letters = chr(65 + remainder) + letters
+    return letters
+
+
+def worksheet_rows_by_article_id(worksheet) -> dict[str, tuple[int, list[str]]]:
+    values = worksheet.get_all_values()
+    if not values:
+        return {}
+    headers = values[0]
+    try:
+        article_id_index = headers.index("article_id")
+    except ValueError:
+        article_id_index = 0
+
+    rows: dict[str, tuple[int, list[str]]] = {}
+    for row_number, row in enumerate(values[1:], start=2):
+        article_id = row[article_id_index].strip() if len(row) > article_id_index else ""
+        if article_id and article_id not in rows:
+            rows[article_id] = (row_number, row)
+    return rows
+
+
+def update_cover_image_urls(worksheet, updates: list[tuple[int, str]], batch_size: int = 50) -> int:
+    if not updates:
+        return 0
+    cover_column = HEADERS.index("cover_image_url") + 1
+    cover_column_letter = column_letter(cover_column)
+    updated = 0
+    for batch in chunk_rows(updates, size=batch_size):
+        worksheet.batch_update(
+            [
+                {"range": f"{cover_column_letter}{row_number}", "values": [[cover_image_url]]}
+                for row_number, cover_image_url in batch
+            ],
+            value_input_option="RAW",
+        )
+        updated += len(batch)
+    return updated
+
+
+def upsert_sheet_entries(worksheet, rows: list[dict[str, str]]) -> tuple[int, int, int]:
+    existing = worksheet_rows_by_article_id(worksheet)
+    cover_column_index = HEADERS.index("cover_image_url")
+    pending_rows: list[list[str]] = []
+    pending_cover_updates: list[tuple[int, str]] = []
+    skipped = 0
+
+    for row in rows:
+        article_id = str(row.get("article_id", "") or "")
+        if not article_id:
+            skipped += 1
+            continue
+        if article_id not in existing:
+            pending_rows.append(normalize_entry(row))
+            existing[article_id] = (-1, normalize_entry(row))
+            continue
+
+        row_number, existing_row = existing[article_id]
+        cover_image_url = str(row.get("cover_image_url", "") or "")
+        current_cover_image_url = (
+            existing_row[cover_column_index].strip()
+            if len(existing_row) > cover_column_index
+            else ""
+        )
+        if row_number > 0 and cover_image_url and current_cover_image_url != cover_image_url:
+            pending_cover_updates.append((row_number, cover_image_url))
+        else:
+            skipped += 1
+
+    appended = append_rows_chunked(worksheet, pending_rows)
+    updated = update_cover_image_urls(worksheet, pending_cover_updates)
+    return appended, updated, skipped
 
 
 def get_worksheet(site_config: dict[str, Any]):
@@ -227,12 +341,12 @@ def sync_entry(entry: dict[str, Any], site_config: dict[str, Any], worksheet=Non
     if not article_id:
         return "Latest entry has no article_id; skipped."
 
-    existing_ids = worksheet.col_values(1)
-    if article_id in existing_ids[1:]:
-        return f"Article already logged: {article_id}"
-
-    append_rows_chunked(worksheet, [normalize_entry(row)], batch_size=1)
-    return f"Logged article to Google Sheets: {article_id}"
+    appended, updated, _ = upsert_sheet_entries(worksheet, [row])
+    if appended:
+        return f"Logged article to Google Sheets: {article_id}"
+    if updated:
+        return f"Updated article cover image in Google Sheets: {article_id}"
+    return f"Article already logged: {article_id}"
 
 
 def main() -> int:
@@ -258,41 +372,15 @@ def main() -> int:
         return 0
 
     if args.all_site_articles:
-        existing_ids = set(worksheet.col_values(1)[1:])
-        pending_rows: list[list[str]] = []
-        skipped = 0
-        for item in reversed(load_articles_index_items()):
-            article_id = str(item.get("id", "") or "")
-            if not article_id:
-                skipped += 1
-                continue
-            if article_id in existing_ids:
-                skipped += 1
-                continue
-            pending_rows.append(normalize_entry(build_sheet_entry_from_index_item(item, site_config)))
-            print(f"Queued article for Google Sheets: {article_id}")
-            existing_ids.add(article_id)
-        synced = append_rows_chunked(worksheet, pending_rows)
-        print(f"Full-site backfill complete: synced={synced}, skipped={skipped}")
+        rows = [build_sheet_entry_from_index_item(item, site_config) for item in reversed(load_articles_index_items())]
+        synced, updated, skipped = upsert_sheet_entries(worksheet, rows)
+        print(f"Full-site backfill complete: synced={synced}, cover_urls_updated={updated}, skipped={skipped}")
         return 0
 
     if args.all:
-        existing_ids = set(worksheet.col_values(1)[1:])
-        pending_rows: list[list[str]] = []
-        skipped = 0
-        for entry in reversed(entries):
-            article_id = str(entry.get("articleId", "") or "")
-            if not article_id:
-                skipped += 1
-                continue
-            if article_id in existing_ids:
-                skipped += 1
-                continue
-            pending_rows.append(normalize_entry(build_sheet_entry(entry, site_config)))
-            print(f"Queued article for Google Sheets: {article_id}")
-            existing_ids.add(article_id)
-        synced = append_rows_chunked(worksheet, pending_rows)
-        print(f"Backfill complete: synced={synced}, skipped={skipped}")
+        rows = [build_sheet_entry(entry, site_config) for entry in reversed(entries)]
+        synced, updated, skipped = upsert_sheet_entries(worksheet, rows)
+        print(f"Backfill complete: synced={synced}, cover_urls_updated={updated}, skipped={skipped}")
         return 0
 
     if args.article_id:

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T06:01:11Z",
+  "updatedAt": "2026-05-13T20:12:09Z",
   "latest": [
     {
       "id": "auto-20260513060111-returning-taiwan-first-year-unmarried-women",
@@ -878,7 +878,7 @@
           "publishedAt": "2026-02-19T23:00:00+08:00",
           "publishedDateText": "2026年2月19日",
           "relativeUrl": "wellness-movement/recovery-tech.html",
-          "heroImage": "images/generated/wellness/recovery-tech-og.png",
+          "heroImage": "images/generated/wellness/recovery-tech.png",
           "tags": [
             "恢復科技",
             "按摩槍",
@@ -921,7 +921,7 @@
           "publishedAt": "2026-04-21T12:00:00+08:00",
           "publishedDateText": "2026年4月21日",
           "relativeUrl": "outdoor-escapes/horizon-x-space-travel-neck-pillow.html",
-          "heroImage": "X-Space/%E7%89%B9%E5%AF%AB-1776818624440.png",
+          "heroImage": "images/og/outdoor/og-outdoor.jpg",
           "tags": [
             "旅行頸枕",
             "長途旅行頸部痠痛",
@@ -986,7 +986,7 @@
           "publishedAt": "2026-02-21T14:00:00+08:00",
           "publishedDateText": "2026年2月21日",
           "relativeUrl": "outdoor-escapes/quiet-gorpcore-minimalism.html",
-          "heroImage": "images/outdoor-escapes/quiet-gorpcore-og.jpg",
+          "heroImage": "images/generated/outdoor/luxury-hiking.png",
           "tags": [
             "Quiet Gorpcore 2026",
             "機能極簡協議",
@@ -1008,7 +1008,7 @@
           "publishedAt": "2026-02-21T13:00:00+08:00",
           "publishedDateText": "2026年2月21日",
           "relativeUrl": "outdoor-escapes/regenerative-travel-2026.html",
-          "heroImage": "images/outdoor-escapes/regenerative-og.jpg",
+          "heroImage": "images/generated/outdoor/taiwan-hiking.png",
           "tags": [
             "再生主權 2026",
             "負碳效能協議",

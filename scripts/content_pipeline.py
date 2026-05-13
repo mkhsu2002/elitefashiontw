@@ -7,6 +7,7 @@ import html
 import http.client
 import json
 import os
+import posixpath
 import re
 import socket
 import subprocess
@@ -348,6 +349,33 @@ def normalize_site_asset_path(asset: str, base_url: str) -> str:
     return asset
 
 
+def normalize_html_image_src(src: str, page_path: Path, base_url: str) -> str:
+    src = html.unescape(src.strip())
+    if not src or src.startswith("data:"):
+        return ""
+    if src.startswith("//"):
+        return f"https:{src}"
+    if src.startswith(("http://", "https://")):
+        return normalize_site_asset_path(src, base_url)
+    if src.startswith("/"):
+        return src.lstrip("/")
+    relative = posixpath.normpath(posixpath.join(page_path.parent.relative_to(ROOT).as_posix(), src))
+    return relative.lstrip("./")
+
+
+def extract_hero_image_src(content: str) -> str:
+    patterns = [
+        r'<div[^>]+class="[^"]*\barticle-hero-image\b[^"]*"[^>]*>.*?<img[^>]+src="([^"]+)"',
+        r'<img[^>]+class="[^"]*\bhero-img\b[^"]*"[^>]+src="([^"]+)"',
+        r'<img[^>]+src="([^"]+)"[^>]+class="[^"]*\bhero-img\b[^"]*"',
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, content, flags=re.S | re.I)
+        if match:
+            return html.unescape(match.group(1)).strip()
+    return ""
+
+
 def normalize_external_url(value: str) -> str:
     value = value.strip()
     if not value:
@@ -547,6 +575,10 @@ def scan_legacy_articles(config: dict[str, Any], categories: dict[str, CategoryC
             or ""
         )
         hero_image = normalize_site_asset_path(hero_image, config["baseUrl"])
+        if not asset_exists(hero_image):
+            fallback_image = normalize_html_image_src(extract_hero_image_src(content), html_path, config["baseUrl"])
+            if asset_exists(fallback_image):
+                hero_image = fallback_image
         listing_title = title
         listing_excerpt = description[:140]
         article_url = path_to_url(base_url, rel_path)
