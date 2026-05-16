@@ -1,6 +1,27 @@
 {
-  "updatedAt": "2026-05-13T20:19:37Z",
+  "updatedAt": "2026-05-15T23:38:24Z",
   "latest": [
+    {
+      "id": "auto-20260515180349-chatgpt-image-2-prompts-elite-women",
+      "title": "ChatGPT Image 2.0 指令大全：20 組知識都會女性最常用提示詞",
+      "excerpt": "從個人品牌照、精品靜物到城市生活場景，整理可直接改寫的 20 組 AI 生圖提示詞。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "AI 生圖與個人品牌提示詞",
+      "publishedAt": "2026-05-15T18:03:49Z",
+      "publishedDateText": "2026年5月15日",
+      "relativeUrl": "ai-innovation/chatgpt-image-2-prompts-elite-women.html",
+      "heroImage": "images/generated/ai/chatgpt-image-2-prompts-cover.jpg",
+      "tags": [
+        "ChatGPT Image 2.0",
+        "AI 生圖",
+        "AI 圖片生成",
+        "提示詞",
+        "知識型女性",
+        "個人品牌",
+        "社群內容"
+      ]
+    },
     {
       "id": "auto-20260513201937-pregnancy-safe-exercise-guide",
       "title": "懷孕媽媽可以做什麼運動？6 種溫和、安全感高的孕期活動",
@@ -207,31 +228,33 @@
         "美國 UFO 檔案",
         "UAP unresolved cases"
       ]
-    },
-    {
-      "id": "legacy-uap-ufo-declassified-roswell-report-official-records-html",
-      "title": "Roswell 官方檔案導讀：氣球計畫、GAO 查核與外星材料說法",
-      "excerpt": "整理 NARA Roswell Incident 說明與美國空軍調查脈絡，說明官方如何查核 1947 年 Roswell 事件、氣球計畫材料與外星遺體說法。",
-      "category": "special-features",
-      "categoryLabel": "特輯",
-      "series": "特輯",
-      "publishedAt": "2026-05-12T00:00:00-07:00",
-      "publishedDateText": "2026年5月12日",
-      "relativeUrl": "uap-ufo-declassified/roswell-report-official-records.html",
-      "heroImage": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR19-Unresolved-UAP-Report-Middle-East-May-2022.jpg",
-      "tags": [
-        "Roswell Report",
-        "Roswell Incident",
-        "Project Mogul",
-        "羅斯威爾事件",
-        "UFO 外星材料"
-      ]
     }
   ],
   "byCategory": {
     "ai-innovation": {
       "label": "人工智能",
       "items": [
+        {
+          "id": "auto-20260515180349-chatgpt-image-2-prompts-elite-women",
+          "title": "ChatGPT Image 2.0 指令大全：20 組知識都會女性最常用提示詞",
+          "excerpt": "從個人品牌照、精品靜物到城市生活場景，整理可直接改寫的 20 組 AI 生圖提示詞。",
+          "category": "ai-innovation",
+          "categoryLabel": "人工智能",
+          "series": "AI 生圖與個人品牌提示詞",
+          "publishedAt": "2026-05-15T18:03:49Z",
+          "publishedDateText": "2026年5月15日",
+          "relativeUrl": "ai-innovation/chatgpt-image-2-prompts-elite-women.html",
+          "heroImage": "images/generated/ai/chatgpt-image-2-prompts-cover.jpg",
+          "tags": [
+            "ChatGPT Image 2.0",
+            "AI 生圖",
+            "AI 圖片生成",
+            "提示詞",
+            "知識型女性",
+            "個人品牌",
+            "社群內容"
+          ]
+        },
         {
           "id": "auto-20260509185232-neobabylon-taiwan-sci-fi-story",
           "title": "《新巴比倫》推薦：最期待的科幻故事，緣起於台灣",
@@ -328,28 +351,6 @@
             "台北 3D 廣告",
             "VTuber 產業鏈",
             "Dcard 虛擬偶像討論"
-          ]
-        },
-        {
-          "id": "legacy-ai-innovation-ai-wealth-fintech-html",
-          "title": "演算法財富：2026 個人量化交易與 AI 理財佈局全解析",
-          "excerpt": "深入探討 2026 年 FinTech 趨勢。從 AI 自動交易機器人、智能投顧 3.0 到台灣數位銀行的 AI 佈局，教您如何建立 24 小時運作的自動化被動收入系統。",
-          "category": "ai-innovation",
-          "categoryLabel": "人工智能",
-          "series": "人工智能",
-          "publishedAt": "2026-02-06T21:00:00+08:00",
-          "publishedDateText": "2026年2月6日",
-          "relativeUrl": "ai-innovation/ai-wealth-fintech.html",
-          "heroImage": "https://tw.elitefashion.com/images/og/ai/wealth-fintech.jpg",
-          "tags": [
-            "AI 自動交易",
-            "機器人理財 2026",
-            "智能投資顧問",
-            "台灣 FinTech 趨勢",
-            "量化交易入門",
-            "Richart AI",
-            "LINE Bank 理財",
-            "Dcard 理財板討論"
           ]
         }
       ]

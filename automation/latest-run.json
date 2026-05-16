@@ -1,9 +1,8 @@
 {
-  "status": "live",
-  "updatedAt": "2026-05-13T20:19:37Z",
-  "articleId": "auto-20260513201937-pregnancy-safe-exercise-guide",
-  "url": "https://tw.elitefasion.com/wellness-movement/pregnancy-safe-exercise-guide.html",
-  "title": "懷孕媽媽可以做什麼運動？從散步、游泳到孕期瑜伽的安全推薦",
-  "triggerType": "manual-codex-test",
-  "checkedAt": "2026-05-13T20:22:48Z"
+  "status": "generated",
+  "updatedAt": "2026-05-15T18:03:49Z",
+  "articleId": "auto-20260515180349-chatgpt-image-2-prompts-elite-women",
+  "url": "https://tw.elitefasion.com/ai-innovation/chatgpt-image-2-prompts-elite-women.html",
+  "title": "ChatGPT Image 2.0 指令大全！20 組知識都會精英女性最常用的提示詞整理",
+  "triggerType": "manual-codex-imagegen"
 }

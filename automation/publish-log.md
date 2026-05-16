@@ -1,5 +1,12 @@
 # 發文紀錄
 
+## 2026-05-15T18:03:49Z｜ChatGPT Image 2.0 指令大全！20 組知識都會精英女性最常用的提示詞整理
+
+- 文章 ID：auto-20260515180349-chatgpt-image-2-prompts-elite-women
+- URL：https://tw.elitefasion.com/ai-innovation/chatgpt-image-2-prompts-elite-women.html
+- 檔案：ai-innovation/chatgpt-image-2-prompts-elite-women.html
+- 類型：manual-codex-imagegen
+
 ## 2026-05-13T20:19:37Z｜懷孕媽媽可以做什麼運動？從散步、游泳到孕期瑜伽的安全推薦
 
 - 文章 ID：auto-20260513201937-pregnancy-safe-exercise-guide
