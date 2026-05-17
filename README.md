@@ -353,6 +353,40 @@ python3 scripts/content_pipeline.py subscribe-newsletter --email user@example.co
 python3 scripts/content_pipeline.py send-newsletter --recipient-email user@example.com
 ```
 
+### 2026-05-17 電子報建置紀錄
+
+本次為 Elite Fashion 建立可長期累積會員的電子報基礎流程，選用 Resend Contacts / Segment 作為訂閱名單與寄送平台。完成項目：
+
+- Cloudflare Worker `workers/contact.js` 從單一路由 `/api/contact` 擴充為 `/api/*`，新增 `/api/subscribe`
+- `wrangler.toml` route 改為 `tw.elitefasion.com/api/*`
+- 首頁新增「訂閱 Elite Fashion 精選」區塊，既有 `.newsletter-form` 也統一由 `js/main.js` 接到 `/api/subscribe`
+- `scripts/content_pipeline.py` 新增：
+  - `subscribe-newsletter`
+  - `send-newsletter`
+  - `check-resend-email`
+- `content-scheduler.yml` 與 `content-command.yml` 在新文章正式上線並完成 Google Sheets 紀錄後，會呼叫 `send-newsletter`
+- 新增 `newsletter-send-latest.yml`，可手動把指定信箱加入訂閱並寄送最新文章
+- 新增 `resend-email-status.yml`，可用 Resend email id 查 delivery 狀態
+
+已驗證結果：
+
+- Cloudflare Worker 已部署，正式 route：`tw.elitefasion.com/api/*`
+- `/api/subscribe` 已成功將 `mkhsu2002@gmail.com` 加入 Resend Segment `Elite Fashion Newsletter`
+- Segment id：`9c4b57a8-a513-4abe-9e78-05784f7a2ad8`
+- Contact id：`ca202e17-e158-4311-8b2d-cec9d4036e11`
+- 第一封寄送 id：`66f38ff1-1df9-4512-828d-e3395c584314`，Resend `last_event=delivered`
+- 因第一封寄件人只顯示 `noreply@insightestate.ca`，後續修正為 `Elite Fashion <noreply@insightestate.ca>`
+- 第二封寄送 id：`901acb1a-d8b9-473b-ad8e-0f6485002145`，Resend `last_event=clicked`
+- 最新寄送紀錄會寫回 `automation/latest-run.json` 的 `newsletter` 欄位
+
+後續改版注意事項：
+
+- 若改首頁、footer 或全站 JS，不可移除 `.newsletter-form` 與 `/api/subscribe` 的串接
+- 若改發文 workflow，需維持順序：生成文章 → commit / push → 等正式站可讀 → Google Sheets 紀錄 → 電子報寄送
+- 若搬家到新網域或改寄件信箱，需同步更新 Resend domain / SPF / DKIM / DMARC，並確認 `NEWSLETTER_FROM_EMAIL` 或 `CONTENT_NOTIFICATION_FROM_EMAIL`
+- 若使用 Resend Broadcast 對整個 Segment 寄送，HTML 內需要保留 `{{{RESEND_UNSUBSCRIBE_URL}}}` 退訂連結
+- 若 Gmail 使用者回報沒收到，先用 `resend-email-status.yml` 查 `last_event`，再請使用者搜尋 `from:noreply@insightestate.ca` 或 `subject:"Elite Fashion 精選"`
+
 ## Google Sheets 雲端紀錄
 
 本專案已比照 `elitefashion` 的做法，新增正式發文後的雲端紀錄同步：
