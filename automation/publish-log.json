@@ -18,7 +18,7 @@
       "publishedAt": "2026-05-13T20:19:37Z",
       "url": "https://tw.elitefasion.com/wellness-movement/pregnancy-safe-exercise-guide.html",
       "file": "wellness-movement/pregnancy-safe-exercise-guide.html",
-      "coverImageUrl": "https://tw.elitefasion.com/images/yoga/hero-yoga.jpg",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/pregnancy-safe-exercise-guide.jpg",
       "queueId": null,
       "triggerType": "manual-codex-test"
     },
@@ -29,7 +29,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/returning-taiwan-first-year-unmarried-women.html",
       "file": "lifestyle-culture/returning-taiwan-first-year-unmarried-women.html",
       "queueId": "Q-0006",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/returning-taiwan-first-year-unmarried-women.jpg"
     },
     {
       "articleId": "auto-20260509202936-living-alone-with-style-mature-women",
@@ -38,7 +39,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/living-alone-with-style-mature-women.html",
       "file": "lifestyle-culture/living-alone-with-style-mature-women.html",
       "queueId": "Q-0005",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/living-alone-with-style-mature-women.jpg"
     },
     {
       "articleId": "auto-20260509202550-single-women-relationship-strategies-after-40",
@@ -47,7 +49,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/single-women-relationship-strategies-after-40.html",
       "file": "lifestyle-culture/single-women-relationship-strategies-after-40.html",
       "queueId": "Q-0005",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/single-women-relationship-strategies-after-40.jpg"
     },
     {
       "articleId": "auto-20260509185232-neobabylon-taiwan-sci-fi-story",
@@ -65,7 +68,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/中年未婚女性獨居評估與行動清單.html",
       "file": "lifestyle-culture/中年未婚女性獨居評估與行動清單.html",
       "queueId": "Q-0005",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/中年未婚女性獨居評估與行動清單.jpg"
     },
     {
       "articleId": "auto-20260507180055-mature-women-spring-summer-cooling-sleep",
@@ -74,7 +78,8 @@
       "url": "https://tw.elitefasion.com/wellness-movement/mature-women-spring-summer-cooling-sleep.html",
       "file": "wellness-movement/mature-women-spring-summer-cooling-sleep.html",
       "queueId": null,
-      "triggerType": "direct"
+      "triggerType": "direct",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/mature-women-spring-summer-cooling-sleep.jpg"
     },
     {
       "articleId": "auto-20260506053920-high-level-female-executive-post-divorce-social-reconstruction",
@@ -83,7 +88,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/high-level-female-executive-post-divorce-social-reconstruction.html",
       "file": "lifestyle-culture/high-level-female-executive-post-divorce-social-reconstruction.html",
       "queueId": "Q-0004",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/high-level-female-executive-post-divorce-social-reconstruction.jpg"
     },
     {
       "articleId": "auto-20260505062232-arsenal-mit-japan-stainless-scissors-project",
@@ -92,7 +98,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/arsenal-mit-japan-stainless-scissors-project.html",
       "file": "lifestyle-culture/arsenal-mit-japan-stainless-scissors-project.html",
       "queueId": null,
-      "triggerType": "manual-brand-project"
+      "triggerType": "manual-brand-project",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/arsenal-mit-japan-stainless-scissors-project.jpg"
     },
     {
       "articleId": "auto-20260505060825-petek-smart-pet-care-project",
@@ -110,7 +117,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作.html",
       "file": "lifestyle-culture/一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作.html",
       "queueId": "Q-0004",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作.jpg"
     },
     {
       "articleId": "auto-20260426045147-離婚後的第一步-高階主管如何評估優先順序與建立可控日常",
@@ -119,7 +127,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/離婚後的第一步-高階主管如何評估優先順序與建立可控日常.html",
       "file": "lifestyle-culture/離婚後的第一步-高階主管如何評估優先順序與建立可控日常.html",
       "queueId": "Q-0004",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/離婚後的第一步-高階主管如何評估優先順序與建立可控日常.jpg"
     },
     {
       "articleId": "auto-20260426012644-trust-network-women-entrepreneur",
@@ -128,7 +137,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/trust-network-women-entrepreneur.html",
       "file": "lifestyle-culture/trust-network-women-entrepreneur.html",
       "queueId": "Q-0003",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/trust-network-women-entrepreneur.jpg"
     },
     {
       "articleId": "auto-20260425232621-solopreneur-daily-rhythm-outsourcing-strategy",
@@ -137,7 +147,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/solopreneur-daily-rhythm-outsourcing-strategy.html",
       "file": "lifestyle-culture/solopreneur-daily-rhythm-outsourcing-strategy.html",
       "queueId": "Q-0003",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/solopreneur-daily-rhythm-outsourcing-strategy.jpg"
     },
     {
       "articleId": "auto-20260425222225-midlife-divorce-entrepreneur-priority",
@@ -146,7 +157,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/midlife-divorce-entrepreneur-priority.html",
       "file": "lifestyle-culture/midlife-divorce-entrepreneur-priority.html",
       "queueId": "Q-0003",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/midlife-divorce-entrepreneur-priority.jpg"
     },
     {
       "articleId": "auto-20260425202627-divorcee-return-taiwan-career-income-plan",
@@ -155,7 +167,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/divorcee-return-taiwan-career-income-plan.html",
       "file": "lifestyle-culture/divorcee-return-taiwan-career-income-plan.html",
       "queueId": "Q-0002",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/divorcee-return-taiwan-career-income-plan.jpg"
     },
     {
       "articleId": "auto-20260425201016-rebuilding-social-circle-taiwan-returnee-women",
@@ -164,7 +177,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/rebuilding-social-circle-taiwan-returnee-women.html",
       "file": "lifestyle-culture/rebuilding-social-circle-taiwan-returnee-women.html",
       "queueId": "Q-0002",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/rebuilding-social-circle-taiwan-returnee-women.jpg"
     },
     {
       "articleId": "auto-20260425192817-return-divorce-restart-90-day-checklist",
@@ -173,7 +187,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/return-divorce-restart-90-day-checklist.html",
       "file": "lifestyle-culture/return-divorce-restart-90-day-checklist.html",
       "queueId": "Q-0002",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/return-divorce-restart-90-day-checklist.jpg"
     },
     {
       "articleId": "auto-20260425191515-ai-survival-guide-mature-workers",
@@ -191,7 +206,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/canada-real-estate-for-taiwanese-beginners.html",
       "file": "lifestyle-culture/canada-real-estate-for-taiwanese-beginners.html",
       "queueId": null,
-      "triggerType": "direct"
+      "triggerType": "direct",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/canada-real-estate-for-taiwanese-beginners.jpg"
     },
     {
       "articleId": "auto-20260425190623-world-cup-2026-travel-prep-for-over40",
@@ -209,7 +225,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/post-divorce-social-boundaries-highly-educated-women.html",
       "file": "lifestyle-culture/post-divorce-social-boundaries-highly-educated-women.html",
       "queueId": "Q-0001",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/post-divorce-social-boundaries-highly-educated-women.jpg"
     },
     {
       "articleId": "auto-20260425172236-solo-living-home-safety-organization-divorce",
@@ -218,7 +235,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/solo-living-home-safety-organization-divorce.html",
       "file": "lifestyle-culture/solo-living-home-safety-organization-divorce.html",
       "queueId": "Q-0001",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/solo-living-home-safety-organization-divorce.jpg"
     },
     {
       "articleId": "auto-20260425164142-post-divorce-first-6-steps",
@@ -227,7 +245,8 @@
       "url": "https://tw.elitefasion.com/lifestyle-culture/post-divorce-first-6-steps.html",
       "file": "lifestyle-culture/post-divorce-first-6-steps.html",
       "queueId": "Q-0001",
-      "triggerType": "queue"
+      "triggerType": "queue",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/post-divorce-first-6-steps.jpg"
     },
     {
       "articleId": "auto-20260425155501-ai-45",
