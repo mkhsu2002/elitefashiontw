@@ -8,7 +8,7 @@
       "publishedAt": "2026-05-15T18:03:49Z",
       "url": "https://tw.elitefasion.com/ai-innovation/chatgpt-image-2-prompts-elite-women.html",
       "file": "ai-innovation/chatgpt-image-2-prompts-elite-women.html",
-      "coverImageUrl": "https://tw.elitefasion.com/images/generated/ai/chatgpt-image-2-prompts-cover.jpg",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/chatgpt-image-2-prompts-elite-women.jpg",
       "queueId": null,
       "triggerType": "manual-codex-imagegen"
     },
@@ -59,7 +59,8 @@
       "url": "https://tw.elitefasion.com/ai-innovation/neobabylon-taiwan-sci-fi-story.html",
       "file": "ai-innovation/neobabylon-taiwan-sci-fi-story.html",
       "queueId": null,
-      "triggerType": "manual"
+      "triggerType": "manual",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/neobabylon-taiwan-sci-fi-story.jpg"
     },
     {
       "articleId": "auto-20260508051536-中年未婚女性獨居評估與行動清單",
@@ -108,7 +109,8 @@
       "url": "https://tw.elitefasion.com/ai-innovation/petek-smart-pet-care-project.html",
       "file": "ai-innovation/petek-smart-pet-care-project.html",
       "queueId": null,
-      "triggerType": "manual-brand-project"
+      "triggerType": "manual-brand-project",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/petek-smart-pet-care-project.jpg"
     },
     {
       "articleId": "auto-20260502201120-一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作",
@@ -197,7 +199,8 @@
       "url": "https://tw.elitefasion.com/ai-innovation/ai-survival-guide-mature-workers.html",
       "file": "ai-innovation/ai-survival-guide-mature-workers.html",
       "queueId": null,
-      "triggerType": "direct"
+      "triggerType": "direct",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/ai-survival-guide-mature-workers.jpg"
     },
     {
       "articleId": "auto-20260425191139-canada-real-estate-for-taiwanese-beginners",
@@ -216,7 +219,8 @@
       "url": "https://tw.elitefasion.com/outdoor-escapes/world-cup-2026-travel-prep-for-over40.html",
       "file": "outdoor-escapes/world-cup-2026-travel-prep-for-over40.html",
       "queueId": null,
-      "triggerType": "direct"
+      "triggerType": "direct",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/world-cup-2026-travel-prep-for-over40.jpg"
     },
     {
       "articleId": "auto-20260425181422-post-divorce-social-boundaries-highly-educated-women",
@@ -255,7 +259,8 @@
       "url": "https://tw.elitefasion.com/ai-innovation/ai-45.html",
       "file": "ai-innovation/ai-45.html",
       "queueId": null,
-      "triggerType": "direct"
+      "triggerType": "direct",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/ai-45.jpg"
     }
   ]
 }

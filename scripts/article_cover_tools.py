@@ -356,10 +356,18 @@ def audit() -> dict:
 def apply(categories: set[str]) -> None:
     rows = article_rows()
     gen_map = generated_source_map(rows)
+    used_generated = {path for path in gen_map.values()}
+    fallback_generated = iter([path for path in generated_pool() if path not in used_generated])
     selected = [row for row in rows if not categories or row["category"] in categories]
     for row in selected:
         generated = gen_map.get(row["file"])
-        source = local_source_path(row["source"], row["file"], generated)
+        try:
+            source = local_source_path(row["source"], row["file"], generated)
+        except (subprocess.CalledProcessError, FileNotFoundError) as exc:
+            if not row["source"].startswith(("http://", "https://")):
+                raise
+            source = next(fallback_generated)
+            print(f"External image fallback for {row['file']}: {exc}", file=sys.stderr)
         optimize_image(source, row["target"])
         update_article_html(row)
     refreshed_by_file = {row["file"]: row for row in article_rows()}
