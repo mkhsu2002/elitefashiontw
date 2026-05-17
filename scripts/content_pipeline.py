@@ -2508,7 +2508,11 @@ def newsletter_from_email(config: dict[str, Any]) -> str:
     settings = newsletter_config(config)
     from_email = os.getenv(str(settings.get("fromEmailSecretName", "")))
     fallback = os.getenv(str(settings.get("fallbackFromEmailSecretName", "")))
-    return from_email or fallback or os.getenv("CONTENT_NOTIFICATION_FROM_EMAIL", "")
+    sender = from_email or fallback or os.getenv("CONTENT_NOTIFICATION_FROM_EMAIL", "")
+    sender = sender.strip()
+    if sender and "<" not in sender and re.match(r"^[^\s@]+@[^\s@]+\.[^\s@]+$", sender):
+        return f"Elite Fashion <{sender}>"
+    return sender
 
 
 def ensure_newsletter_segment(config: dict[str, Any], api_key: str, *, dry_run: bool = False) -> str:
