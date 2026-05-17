@@ -4,5 +4,12 @@
   "articleId": "auto-20260515180349-chatgpt-image-2-prompts-elite-women",
   "url": "https://tw.elitefasion.com/ai-innovation/chatgpt-image-2-prompts-elite-women.html",
   "title": "ChatGPT Image 2.0 指令大全！20 組知識都會精英女性最常用的提示詞整理",
-  "triggerType": "manual-codex-imagegen"
+  "triggerType": "manual-codex-imagegen",
+  "newsletter": {
+    "sentAt": "2026-05-17T19:08:42Z",
+    "id": "66f38ff1-1df9-4512-828d-e3395c584314",
+    "mode": "direct",
+    "recipientEmail": "mkhsu2002@gmail.com",
+    "articleUrl": "https://tw.elitefasion.com/ai-innovation/chatgpt-image-2-prompts-elite-women.html"
+  }
 }
