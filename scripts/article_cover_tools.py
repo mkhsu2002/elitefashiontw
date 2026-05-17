@@ -8,6 +8,7 @@ import re
 import subprocess
 import sys
 from collections import defaultdict
+from hashlib import sha256
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -335,6 +336,18 @@ def audit() -> dict:
     rows = article_rows()
     mismatches = [row for row in rows if row["og"] != row["cover"]]
     external = [row for row in rows if row["og"].startswith(("http://", "https://")) or row["cover"].startswith(("http://", "https://"))]
+    missing = [row for row in rows if not (ROOT / row["target"]).exists()]
+    wrong_size = []
+    by_hash: dict[str, list[dict]] = defaultdict(list)
+    for row in rows:
+        image_path = ROOT / row["target"]
+        if not image_path.exists():
+            continue
+        with Image.open(image_path) as image:
+            if image.size != (WIDTH, HEIGHT):
+                wrong_size.append({"file": row["file"], "image": row["target"], "size": image.size})
+        by_hash[sha256(image_path.read_bytes()).hexdigest()].append(row)
+    duplicate_hash_groups = [(digest, group) for digest, group in by_hash.items() if len(group) > 1]
     by_cover: dict[str, list[dict]] = defaultdict(list)
     for row in rows:
         by_cover[row["cover"]].append(row)
@@ -348,9 +361,29 @@ def audit() -> dict:
         "sameOgCover": len(rows) - len(mismatches),
         "mismatch": len(mismatches),
         "external": len(external),
+        "missingImages": len(missing),
+        "wrongSizeImages": len(wrong_size),
         "duplicateGroups": len(duplicate_groups),
         "duplicateArticles": sum(len(group) for _, group in duplicate_groups),
+        "duplicateHashGroups": len(duplicate_hash_groups),
+        "duplicateHashArticles": sum(len(group) for _, group in duplicate_hash_groups),
     }
+
+
+def strict_audit() -> int:
+    result = audit()
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    required_zero = (
+        "mismatch",
+        "external",
+        "missingImages",
+        "wrongSizeImages",
+        "duplicateGroups",
+        "duplicateArticles",
+        "duplicateHashGroups",
+        "duplicateHashArticles",
+    )
+    return 1 if any(result[key] for key in required_zero) else 0
 
 
 def apply(categories: set[str]) -> None:
@@ -379,13 +412,15 @@ def apply(categories: set[str]) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("command", choices=["audit", "apply"])
+    parser.add_argument("command", choices=["audit", "strict-audit", "apply"])
     parser.add_argument("--categories", help="Comma-separated category slugs. Omit for all.")
     args = parser.parse_args()
     categories = set(filter(None, (args.categories or "").split(",")))
     if args.command == "audit":
         print(json.dumps(audit(), ensure_ascii=False, indent=2))
         return 0
+    if args.command == "strict-audit":
+        return strict_audit()
     apply(categories)
     return 0
 
