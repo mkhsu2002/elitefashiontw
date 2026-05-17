@@ -115,3 +115,14 @@ jobs:
           GOOGLE_SHEETS_WORKSHEET_TITLE: Taiwan
         run: |
           python3 scripts/log_article_to_google_sheets.py --all-site-articles
+
+      - name: Send Newsletter Broadcast
+        if: steps.diff.outputs.has_changes == 'true'
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NEWSLETTER_FROM_EMAIL: ${{ secrets.NEWSLETTER_FROM_EMAIL }}
+          CONTENT_NOTIFICATION_FROM_EMAIL: ${{ secrets.CONTENT_NOTIFICATION_FROM_EMAIL }}
+          RESEND_NEWSLETTER_SEGMENT_ID: ${{ secrets.RESEND_NEWSLETTER_SEGMENT_ID }}
+          RESEND_NEWSLETTER_SEGMENT_NAME: ${{ vars.RESEND_NEWSLETTER_SEGMENT_NAME }}
+        run: |
+          python3 scripts/content_pipeline.py send-newsletter

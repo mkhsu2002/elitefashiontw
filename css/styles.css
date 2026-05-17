@@ -544,6 +544,79 @@ ul {
     transform: scale(1.05);
 }
 
+.newsletter-signup {
+    padding: 4rem 0;
+    background: #111;
+    color: #fff;
+}
+
+.newsletter-signup-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.8fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+.newsletter-signup h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.newsletter-signup p {
+    color: rgba(255, 255, 255, 0.74);
+    line-height: 1.8;
+}
+
+.newsletter-form {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.75rem;
+}
+
+.newsletter-form input[type="email"] {
+    min-height: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: #fff;
+    color: #111;
+    padding: 0 1rem;
+    font: inherit;
+}
+
+.newsletter-form button {
+    min-height: 48px;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #111;
+    padding: 0 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.newsletter-form button:disabled {
+    cursor: wait;
+    opacity: 0.7;
+}
+
+.newsletter-status {
+    display: none;
+    grid-column: 1 / -1;
+    margin: 0.25rem 0 0;
+    font-size: 0.9rem;
+}
+
+.newsletter-status.is-visible {
+    display: block;
+}
+
+.newsletter-status.is-success {
+    color: #d8f5df;
+}
+
+.newsletter-status.is-error {
+    color: #ffcdcd;
+}
+
 @media (max-width: 768px) {
     .footer-bottom {
         flex-direction: column;
@@ -1733,5 +1806,14 @@ table {
 
     .footer-content {
         gap: 2.2rem;
+    }
+
+    .newsletter-signup-inner,
+    .newsletter-form {
+        grid-template-columns: 1fr;
+    }
+
+    .newsletter-signup h2 {
+        font-size: 1.85rem;
     }
 }

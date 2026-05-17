@@ -42,6 +42,15 @@
     "toEmailSecretName": "CONTENT_NOTIFICATION_TO_EMAIL",
     "subjectPrefix": "伊麗時尚 TW｜"
   },
+  "newsletter": {
+    "provider": "resend",
+    "segmentName": "Elite Fashion Newsletter",
+    "segmentIdEnv": "RESEND_NEWSLETTER_SEGMENT_ID",
+    "segmentNameEnv": "RESEND_NEWSLETTER_SEGMENT_NAME",
+    "fromEmailSecretName": "NEWSLETTER_FROM_EMAIL",
+    "fallbackFromEmailSecretName": "CONTENT_NOTIFICATION_FROM_EMAIL",
+    "subjectPrefix": "Elite Fashion 精選｜"
+  },
   "cloudLogging": {
     "provider": "google-sheets",
     "spreadsheetSecretName": "GOOGLE_SHEETS_SPREADSHEET_ID",

@@ -274,6 +274,83 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Newsletter subscription forms
+document.addEventListener('DOMContentLoaded', function() {
+    const forms = document.querySelectorAll('.newsletter-form');
+    const subscribeEndpoint = 'https://tw.elitefasion.com/api/subscribe';
+
+    forms.forEach(function(form) {
+        if (form.dataset.newsletterEnhanced === 'true') {
+            return;
+        }
+        form.dataset.newsletterEnhanced = 'true';
+
+        const emailInput = form.querySelector('input[type="email"]');
+        const submitButton = form.querySelector('button[type="submit"]');
+        if (!emailInput || !submitButton) {
+            return;
+        }
+
+        let status = form.querySelector('.newsletter-status');
+        if (!status) {
+            status = document.createElement('p');
+            status.className = 'newsletter-status';
+            status.setAttribute('role', 'status');
+            status.setAttribute('aria-live', 'polite');
+            form.appendChild(status);
+        }
+
+        const setNewsletterStatus = function(message, type) {
+            status.textContent = message;
+            status.className = `newsletter-status is-visible is-${type}`;
+        };
+
+        form.addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            const email = String(emailInput.value || '').trim();
+            if (!validateEmail(email)) {
+                setNewsletterStatus('請填寫有效的電子郵件。', 'error');
+                return;
+            }
+
+            const originalText = submitButton.textContent;
+            submitButton.disabled = true;
+            submitButton.textContent = '訂閱中...';
+            setNewsletterStatus('正在加入訂閱名單。', 'success');
+
+            try {
+                const response = await fetch(form.getAttribute('data-endpoint') || subscribeEndpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        email,
+                        source: form.getAttribute('data-source') || window.location.pathname,
+                        company: String(new FormData(form).get('company') || '').trim()
+                    })
+                });
+                const result = await response.json().catch(function() {
+                    return {};
+                });
+
+                if (!response.ok || !result.ok) {
+                    throw new Error(result.error || '訂閱暫時無法完成，請稍後再試。');
+                }
+
+                form.reset();
+                setNewsletterStatus('訂閱完成，下一封精選文章會寄到你的信箱。', 'success');
+            } catch (error) {
+                setNewsletterStatus(error.message || '訂閱暫時無法完成，請稍後再試。', 'error');
+            } finally {
+                submitButton.disabled = false;
+                submitButton.textContent = originalText;
+            }
+        });
+    });
+});
+
 // Console message
 console.log('%c Elite Fashion ', 'background: #000; color: #fff; font-size: 20px; padding: 10px;');
 console.log('%c 引領時尚潮流，探索精英生活 ', 'font-size: 12px; color: #666;');

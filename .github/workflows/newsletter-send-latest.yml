@@ -1,0 +1,50 @@
+name: Newsletter Send Latest
+
+on:
+  workflow_dispatch:
+    inputs:
+      recipient_email:
+        description: "Email address to subscribe and receive the latest article"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  send-latest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Subscribe And Send Latest Article
+        env:
+          RECIPIENT_EMAIL: ${{ inputs.recipient_email }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NEWSLETTER_FROM_EMAIL: ${{ secrets.NEWSLETTER_FROM_EMAIL }}
+          CONTENT_NOTIFICATION_FROM_EMAIL: ${{ secrets.CONTENT_NOTIFICATION_FROM_EMAIL }}
+          RESEND_NEWSLETTER_SEGMENT_ID: ${{ secrets.RESEND_NEWSLETTER_SEGMENT_ID }}
+          RESEND_NEWSLETTER_SEGMENT_NAME: ${{ vars.RESEND_NEWSLETTER_SEGMENT_NAME }}
+        run: |
+          python3 scripts/content_pipeline.py subscribe-newsletter --email "$RECIPIENT_EMAIL" --source manual-workflow
+          python3 scripts/content_pipeline.py send-newsletter --recipient-email "$RECIPIENT_EMAIL"
+
+      - name: Commit Newsletter Log
+        run: |
+          if git diff --quiet automation/latest-run.json; then
+            echo "No newsletter log changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add automation/latest-run.json
+            git commit -m "chore: log latest newsletter send"
+            git push origin HEAD:main
+          fi

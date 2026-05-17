@@ -147,6 +147,13 @@ class PipelineError(RuntimeError):
     pass
 
 
+class ResendApiError(PipelineError):
+    def __init__(self, status: int, details: str) -> None:
+        super().__init__(f"Resend API request failed: {status} {details}")
+        self.status = status
+        self.details = details
+
+
 def load_json(path: Path, default: Any | None = None) -> Any:
     if not path.exists():
         if default is None:
@@ -2473,6 +2480,230 @@ def send_notification(config: dict[str, Any], *, article_title: str | None = Non
     return {"status": "sent", "providerId": body.get("id")}
 
 
+def resend_api_request(api_key: str, path: str, payload: dict[str, Any] | None = None, *, method: str = "POST") -> dict[str, Any]:
+    request = urllib.request.Request(
+        f"https://api.resend.com{path}",
+        data=json.dumps(payload).encode("utf-8") if payload is not None else None,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "User-Agent": "EliteFashionNewsletterPipeline/1.0",
+        },
+        method=method,
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            raw = response.read().decode("utf-8")
+            return json.loads(raw) if raw else {}
+    except urllib.error.HTTPError as error:
+        details = error.read().decode("utf-8", errors="ignore")
+        raise ResendApiError(error.code, details) from error
+
+
+def newsletter_config(config: dict[str, Any]) -> dict[str, Any]:
+    return config.get("newsletter", {})
+
+
+def newsletter_from_email(config: dict[str, Any]) -> str:
+    settings = newsletter_config(config)
+    from_email = os.getenv(str(settings.get("fromEmailSecretName", "")))
+    fallback = os.getenv(str(settings.get("fallbackFromEmailSecretName", "")))
+    return from_email or fallback or os.getenv("CONTENT_NOTIFICATION_FROM_EMAIL", "")
+
+
+def ensure_newsletter_segment(config: dict[str, Any], api_key: str, *, dry_run: bool = False) -> str:
+    settings = newsletter_config(config)
+    segment_id = os.getenv(str(settings.get("segmentIdEnv", ""))) or os.getenv("RESEND_NEWSLETTER_SEGMENT_ID")
+    if segment_id:
+        return segment_id
+
+    segment_name = (
+        os.getenv(str(settings.get("segmentNameEnv", "")))
+        or os.getenv("RESEND_NEWSLETTER_SEGMENT_NAME")
+        or str(settings.get("segmentName", "Elite Fashion Newsletter"))
+    )
+    if dry_run:
+        return f"dry-run:{segment_name}"
+
+    payload = resend_api_request(api_key, "/segments", method="GET")
+    segments = payload.get("data", []) if isinstance(payload, dict) else []
+    for segment in segments:
+        if isinstance(segment, dict) and segment.get("name") == segment_name and segment.get("id"):
+            return str(segment["id"])
+
+    created = resend_api_request(api_key, "/segments", {"name": segment_name})
+    segment_id = str(created.get("id", ""))
+    if not segment_id:
+        raise PipelineError("Resend segment creation did not return an id.")
+    return segment_id
+
+
+def subscribe_newsletter_contact(config: dict[str, Any], email: str, *, source: str = "pipeline", dry_run: bool = False) -> dict[str, Any]:
+    email = email.strip().lower()
+    if not re.match(r"^[^\s@]+@[^\s@]+\.[^\s@]+$", email):
+        raise PipelineError(f"Invalid newsletter subscriber email: {email}")
+
+    api_key = os.getenv("RESEND_API_KEY")
+    if not api_key and not dry_run:
+        raise PipelineError("RESEND_API_KEY is required to subscribe newsletter contacts.")
+
+    segment_id = ensure_newsletter_segment(config, api_key or "dry-run", dry_run=dry_run)
+    if dry_run:
+        return {"status": "dry-run", "email": email, "segmentId": segment_id}
+
+    try:
+        created = resend_api_request(api_key, "/contacts", {
+            "email": email,
+            "unsubscribed": False,
+            "segments": [{"id": segment_id}],
+        })
+        return {"status": "subscribed", "email": email, "segmentId": segment_id, "contactId": created.get("id")}
+    except ResendApiError as error:
+        if error.status != 409:
+            raise
+        resend_api_request(api_key, f"/contacts/{urllib.parse.quote(email, safe='')}", {
+            "unsubscribed": False,
+        }, method="PATCH")
+        resend_api_request(api_key, f"/contacts/{urllib.parse.quote(email, safe='')}/segments/{urllib.parse.quote(segment_id, safe='')}", {})
+        return {"status": "updated", "email": email, "segmentId": segment_id, "contactId": email}
+
+
+def latest_article_for_newsletter(config: dict[str, Any], *, article_title: str | None = None, article_url: str | None = None) -> dict[str, str]:
+    latest_run = load_json(ROOT / config["paths"]["latestRunJson"], default={})
+    publish_log = load_json(ROOT / config["paths"]["publishLogJson"], default={"entries": []})
+    entries = publish_log.get("entries", []) if isinstance(publish_log, dict) else []
+    latest_entry = entries[0] if entries else {}
+    article_id = str(latest_run.get("articleId") or latest_entry.get("articleId") or "")
+    url = str(article_url or latest_run.get("url") or latest_entry.get("url") or "")
+    title = str(article_title or latest_run.get("title") or latest_entry.get("title") or "")
+    cover = str(latest_entry.get("coverImageUrl", "") or "")
+    file_path = str(latest_entry.get("file", "") or "")
+    excerpt = ""
+
+    index_payload = load_json(ROOT / config["paths"]["articlesIndexJson"], default={})
+    for item in index_payload.get("items", []) if isinstance(index_payload, dict) else []:
+        if not isinstance(item, dict):
+            continue
+        if (article_id and item.get("id") == article_id) or (url and item.get("url") == url):
+            title = title or str(item.get("title", ""))
+            url = url or str(item.get("url", ""))
+            cover = cover or path_to_url(config["baseUrl"], str(item.get("heroImage", "")))
+            file_path = file_path or str(item.get("file", ""))
+            excerpt = str(item.get("excerpt", "") or item.get("listingExcerpt", "") or "")
+            break
+
+    if not title or not url:
+        raise PipelineError("No latest article is available for newsletter sending.")
+
+    return {
+        "articleId": article_id,
+        "title": title,
+        "url": url,
+        "coverImageUrl": cover,
+        "file": file_path,
+        "excerpt": excerpt,
+    }
+
+
+def build_newsletter_html(config: dict[str, Any], article: dict[str, str], *, broadcast: bool) -> str:
+    title = html.escape(article["title"])
+    url = html.escape(article["url"])
+    excerpt = html.escape(article.get("excerpt", ""))
+    cover = html.escape(article.get("coverImageUrl", ""))
+    unsubscribe = (
+        '<p style="margin:24px 0 0;color:#777;font-size:12px;">'
+        '你收到這封信，是因為你訂閱了 Elite Fashion 精選。'
+        '<a href="{{{RESEND_UNSUBSCRIBE_URL}}}" style="color:#555;">取消訂閱</a>'
+        '</p>'
+        if broadcast
+        else '<p style="margin:24px 0 0;color:#777;font-size:12px;">你收到這封信，是因為你已加入 Elite Fashion 精選訂閱名單。</p>'
+    )
+    cover_html = (
+        f'<a href="{url}"><img src="{cover}" alt="{title}" style="display:block;width:100%;max-width:640px;height:auto;border:0;margin:0 0 24px;"></a>'
+        if cover
+        else ""
+    )
+    excerpt_html = f'<p style="font-size:16px;line-height:1.8;color:#444;margin:0 0 24px;">{excerpt}</p>' if excerpt else ""
+    return f"""<!doctype html>
+<html>
+  <body style="margin:0;padding:0;background:#f6f4ef;">
+    <div style="max-width:680px;margin:0 auto;padding:32px 20px;font-family:Arial,'Noto Sans TC',sans-serif;color:#111;">
+      <p style="margin:0 0 16px;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:#777;">Elite Fashion</p>
+      {cover_html}
+      <h1 style="font-family:Georgia,'Times New Roman',serif;font-size:30px;line-height:1.35;margin:0 0 16px;">{title}</h1>
+      {excerpt_html}
+      <p style="margin:0 0 28px;"><a href="{url}" style="display:inline-block;background:#111;color:#fff;text-decoration:none;padding:14px 22px;font-weight:700;">閱讀最新文章</a></p>
+      <p style="font-size:13px;line-height:1.7;color:#777;margin:0;">Elite Fashion 會不定期寄送最新文章與精選觀點。</p>
+      {unsubscribe}
+    </div>
+  </body>
+</html>"""
+
+
+def build_newsletter_text(config: dict[str, Any], article: dict[str, str]) -> str:
+    return "\n".join([
+        "Elite Fashion 精選",
+        "",
+        article["title"],
+        article.get("excerpt", ""),
+        article["url"],
+        "",
+        "你收到這封信，是因為你訂閱了 Elite Fashion 精選。",
+    ]).strip()
+
+
+def send_newsletter(config: dict[str, Any], *, article_title: str | None = None, article_url: str | None = None, recipient_email: str | None = None, dry_run: bool = False) -> dict[str, Any]:
+    api_key = os.getenv("RESEND_API_KEY")
+    from_email = newsletter_from_email(config)
+    article = latest_article_for_newsletter(config, article_title=article_title, article_url=article_url)
+    subject_prefix = str(newsletter_config(config).get("subjectPrefix", "Elite Fashion 精選｜"))
+
+    if recipient_email:
+        subscribe_newsletter_contact(config, recipient_email, source="manual-send", dry_run=dry_run)
+
+    if dry_run:
+        return {"status": "dry-run", "article": article, "recipientEmail": recipient_email or "", "from": from_email}
+
+    if not api_key:
+        raise PipelineError("RESEND_API_KEY is required to send newsletter.")
+    if not from_email:
+        raise PipelineError("NEWSLETTER_FROM_EMAIL or CONTENT_NOTIFICATION_FROM_EMAIL is required to send newsletter.")
+
+    if recipient_email:
+        payload = {
+            "from": from_email,
+            "to": [recipient_email],
+            "subject": f"{subject_prefix}{article['title']}",
+            "html": build_newsletter_html(config, article, broadcast=False),
+            "text": build_newsletter_text(config, article),
+        }
+        response = resend_api_request(api_key, "/emails", payload)
+        mode = "direct"
+    else:
+        segment_id = ensure_newsletter_segment(config, api_key)
+        payload = {
+            "segmentId": segment_id,
+            "from": from_email,
+            "subject": f"{subject_prefix}{article['title']}",
+            "html": build_newsletter_html(config, article, broadcast=True),
+            "text": build_newsletter_text(config, article),
+            "send": True,
+        }
+        response = resend_api_request(api_key, "/broadcasts", payload)
+        mode = "broadcast"
+
+    latest_run = load_json(ROOT / config["paths"]["latestRunJson"], default={})
+    latest_run["newsletter"] = {
+        "sentAt": now_iso(),
+        "id": response.get("id"),
+        "mode": mode,
+        "recipientEmail": recipient_email or "",
+        "articleUrl": article["url"],
+    }
+    write_json(ROOT / config["paths"]["latestRunJson"], latest_run)
+    return {"status": "sent", "providerId": response.get("id"), "mode": mode, "articleUrl": article["url"]}
+
+
 def main() -> int:
     config, categories = load_config()
     parser = argparse.ArgumentParser(description="Elite Fashion content pipeline")
@@ -2507,6 +2738,17 @@ def main() -> int:
     notify_parser = subparsers.add_parser("send-notification", help="Send email after production is live")
     notify_parser.add_argument("--article-title")
     notify_parser.add_argument("--article-url")
+
+    subscribe_parser = subparsers.add_parser("subscribe-newsletter", help="Subscribe an email to the Elite Fashion newsletter")
+    subscribe_parser.add_argument("--email", required=True)
+    subscribe_parser.add_argument("--source", default="manual")
+    subscribe_parser.add_argument("--dry-run", action="store_true")
+
+    newsletter_parser = subparsers.add_parser("send-newsletter", help="Send the latest article to newsletter subscribers")
+    newsletter_parser.add_argument("--article-title")
+    newsletter_parser.add_argument("--article-url")
+    newsletter_parser.add_argument("--recipient-email", help="Send a single-recipient copy after subscribing this email")
+    newsletter_parser.add_argument("--dry-run", action="store_true")
 
     args = parser.parse_args()
 
@@ -2546,6 +2788,18 @@ def main() -> int:
             print(json.dumps({"status": "ok", **result}, ensure_ascii=False))
         elif args.command == "send-notification":
             result = send_notification(config, article_title=args.article_title, article_url=args.article_url)
+            print(json.dumps({"status": "ok", **result}, ensure_ascii=False))
+        elif args.command == "subscribe-newsletter":
+            result = subscribe_newsletter_contact(config, args.email, source=args.source, dry_run=args.dry_run)
+            print(json.dumps({"status": "ok", **result}, ensure_ascii=False))
+        elif args.command == "send-newsletter":
+            result = send_newsletter(
+                config,
+                article_title=args.article_title,
+                article_url=args.article_url,
+                recipient_email=args.recipient_email,
+                dry_run=args.dry_run,
+            )
             print(json.dumps({"status": "ok", **result}, ensure_ascii=False))
         return 0
     except PipelineError as error:

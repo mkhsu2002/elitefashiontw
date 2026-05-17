@@ -311,9 +311,9 @@ python3 scripts/content_pipeline.py send-notification --article-title "標題" -
 - 文章標題
 - 正式站網址
 
-## 聯絡表單
+## 聯絡表單與電子報訂閱
 
-`contact.html` 的訪客留言表單透過 Cloudflare Worker `/api/contact` 寄送 Resend email，避免把 Resend API key 放進前端。
+`contact.html` 的訪客留言表單透過 Cloudflare Worker `/api/contact` 寄送 Resend email，避免把 Resend API key 放進前端。首頁與既有電子報表單透過同一個 Worker 的 `/api/subscribe` 將讀者加入 Resend Contacts / Segment。
 
 Worker 設定檔：
 
@@ -325,6 +325,8 @@ Worker 設定檔：
 - `RESEND_API_KEY`
 - `CONTACT_FROM_EMAIL`
 - `CONTACT_TO_EMAIL`
+- `NEWSLETTER_FROM_EMAIL`（可選，未設定時使用 `CONTENT_NOTIFICATION_FROM_EMAIL`）
+- `RESEND_NEWSLETTER_SEGMENT_ID`（可選，未設定時會依名稱尋找或建立 Segment）
 
 部署指令：
 
@@ -335,7 +337,20 @@ npx wrangler deploy
 目前 Worker route 目標為：
 
 ```text
-tw.elitefasion.com/api/contact
+tw.elitefasion.com/api/*
+```
+
+新文章成功上線、Google Sheets 寫入後，`content-scheduler.yml` 與 `content-command.yml` 會呼叫：
+
+```bash
+python3 scripts/content_pipeline.py send-newsletter
+```
+
+手動把指定信箱加入訂閱並寄送最新文章，可執行 `Newsletter Send Latest` workflow，或在本地具備 `RESEND_API_KEY` 時執行：
+
+```bash
+python3 scripts/content_pipeline.py subscribe-newsletter --email user@example.com --source manual
+python3 scripts/content_pipeline.py send-newsletter --recipient-email user@example.com
 ```
 
 ## Google Sheets 雲端紀錄
@@ -428,6 +443,8 @@ OpenAI 並沒有被覆蓋，仍完整保留作為 fallback：
 - `RESEND_API_KEY`
 - `CONTENT_NOTIFICATION_FROM_EMAIL`
 - `CONTENT_NOTIFICATION_TO_EMAIL`
+- `NEWSLETTER_FROM_EMAIL`
+- `RESEND_NEWSLETTER_SEGMENT_ID`
 - `GOOGLE_SHEETS_SPREADSHEET_ID`
 - `GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON`
 
@@ -438,6 +455,7 @@ OpenAI 並沒有被覆蓋，仍完整保留作為 fallback：
 - `OPENAI_CONTENT_PLANNER_MODEL`
 - `NVIDIA_CONTENT_MODEL`
 - `NVIDIA_CONTENT_PLANNER_MODEL`
+- `RESEND_NEWSLETTER_SEGMENT_NAME`
 
 ### 目前 GitHub 上的實際角色
 

@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Newsletter form submission
     const newsletterForm = document.querySelector('.newsletter-form');
-    if (newsletterForm) {
+    if (newsletterForm && newsletterForm.dataset.newsletterEnhanced !== 'true') {
         newsletterForm.addEventListener('submit', function(e) {
             e.preventDefault();
             const emailInput = this.querySelector('input[type="email"]');
@@ -235,4 +235,3 @@ function debounce(func, wait) {
 window.addEventListener('resize', debounce(function() {
     console.log('Window resized to:', window.innerWidth, 'x', window.innerHeight);
 }, 250));
-

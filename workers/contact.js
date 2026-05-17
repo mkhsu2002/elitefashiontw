@@ -104,6 +104,79 @@ async function parsePayload(request) {
   }
 }
 
+async function resendRequest(env, path, body, method = 'POST') {
+  const apiKey = env.RESEND_API_KEY;
+  if (!apiKey) {
+    throw new Error('RESEND_API_KEY is not configured.');
+  }
+
+  const response = await fetch(`https://api.resend.com${path}`, {
+    method,
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      'Content-Type': 'application/json',
+    },
+    body: body === undefined ? undefined : JSON.stringify(body),
+  });
+  const text = await response.text();
+  let data = {};
+  try {
+    data = text ? JSON.parse(text) : {};
+  } catch {
+    data = { message: text };
+  }
+
+  if (!response.ok) {
+    const error = new Error(data.message || data.name || text || 'Resend request failed.');
+    error.status = response.status;
+    error.details = data;
+    throw error;
+  }
+
+  return data;
+}
+
+async function ensureNewsletterSegment(env) {
+  const configuredId = sanitizeText(env.RESEND_NEWSLETTER_SEGMENT_ID, 120);
+  if (configuredId) {
+    return configuredId;
+  }
+
+  const segmentName = sanitizeText(env.RESEND_NEWSLETTER_SEGMENT_NAME, 120) || 'Elite Fashion Newsletter';
+  const payload = await resendRequest(env, '/segments', undefined, 'GET');
+  const segments = Array.isArray(payload.data) ? payload.data : Array.isArray(payload) ? payload : [];
+  const existing = segments.find((segment) => segment && segment.name === segmentName);
+  if (existing && existing.id) {
+    return existing.id;
+  }
+
+  const created = await resendRequest(env, '/segments', { name: segmentName });
+  return created.id;
+}
+
+async function addNewsletterContact(env, clean) {
+  const segmentId = await ensureNewsletterSegment(env);
+
+  try {
+    const created = await resendRequest(env, '/contacts', {
+      email: clean.email,
+      unsubscribed: false,
+      segments: [{ id: segmentId }],
+    });
+    return { contactId: created.id, segmentId, created: true };
+  } catch (error) {
+    if (error.status !== 409) {
+      throw error;
+    }
+
+    await resendRequest(env, `/contacts/${encodeURIComponent(clean.email)}`, {
+      unsubscribed: false,
+    }, 'PATCH');
+    await resendRequest(env, `/contacts/${encodeURIComponent(clean.email)}/segments/${encodeURIComponent(segmentId)}`, {});
+    return { contactId: clean.email, segmentId, created: false };
+  }
+}
+
 function buildEmailHtml(payload) {
   const rows = [
     ['姓名', payload.name],
@@ -212,6 +285,34 @@ async function handleContact(request, env) {
   return jsonResponse(request, { ok: true, id: result.id });
 }
 
+async function handleSubscribe(request, env) {
+  const payload = await parsePayload(request);
+  if (!payload) {
+    return jsonResponse(request, { ok: false, error: '請使用正確的訂閱格式送出。' }, 400);
+  }
+
+  if (sanitizeText(payload.company, 120)) {
+    return jsonResponse(request, { ok: true });
+  }
+
+  const clean = {
+    email: sanitizeText(payload.email, 180).toLowerCase(),
+    source: sanitizeText(payload.source, 80) || 'website',
+  };
+
+  if (!isValidEmail(clean.email)) {
+    return jsonResponse(request, { ok: false, error: '請填寫有效的電子郵件。' }, 400);
+  }
+
+  try {
+    const result = await addNewsletterContact(env, clean);
+    return jsonResponse(request, { ok: true, id: result.contactId, segmentId: result.segmentId });
+  } catch (error) {
+    console.error('Newsletter subscribe failed', error.details || error.message);
+    return jsonResponse(request, { ok: false, error: '訂閱暫時無法完成，請稍後再試。' }, 502);
+  }
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -223,14 +324,22 @@ export default {
       });
     }
 
-    if (url.pathname !== '/api/contact') {
-      return jsonResponse(request, { ok: false, error: 'Not found' }, 404);
+    if (url.pathname === '/api/contact') {
+      if (request.method !== 'POST') {
+        return jsonResponse(request, { ok: false, error: 'Method not allowed' }, 405);
+      }
+
+      return handleContact(request, env);
     }
 
-    if (request.method !== 'POST') {
-      return jsonResponse(request, { ok: false, error: 'Method not allowed' }, 405);
+    if (url.pathname === '/api/subscribe') {
+      if (request.method !== 'POST') {
+        return jsonResponse(request, { ok: false, error: 'Method not allowed' }, 405);
+      }
+
+      return handleSubscribe(request, env);
     }
 
-    return handleContact(request, env);
+    return jsonResponse(request, { ok: false, error: 'Not found' }, 404);
   },
 };
