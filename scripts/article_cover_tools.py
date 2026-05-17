@@ -1,0 +1,388 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import argparse
+import json
+import posixpath
+import re
+import subprocess
+import sys
+from collections import defaultdict
+from pathlib import Path
+from urllib.parse import urlparse
+
+from PIL import Image, ImageOps
+
+
+ROOT = Path(__file__).resolve().parents[1]
+PY_RUNTIME = Path("/Users/mkhsu/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3")
+ARTICLES_INDEX = ROOT / "data" / "articles-index.json"
+FRONT_LISTING = ROOT / "data" / "front-listing.json"
+PUBLISH_LOG = ROOT / "automation" / "publish-log.json"
+SITE_CONFIG = ROOT / "automation" / "site-config.json"
+OUTPUT_DIR = ROOT / "images" / "optimized" / "article-covers"
+TMP_DIR = Path("/tmp/elitefashion-cover-sources")
+WIDTH = 1200
+HEIGHT = 630
+
+
+def load_json(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def write_json(path: Path, payload: dict) -> None:
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def site_base() -> str:
+    config = load_json(SITE_CONFIG)
+    return str(config.get("baseUrl", "https://tw.elitefasion.com")).rstrip("/")
+
+
+def public_url(rel_path: str) -> str:
+    return f"{site_base()}/{rel_path.lstrip('/')}"
+
+
+def posix_rel(path: Path) -> str:
+    return path.relative_to(ROOT).as_posix()
+
+
+def normalize_image_ref(ref: str | None, article_file: str) -> str:
+    if not ref:
+        return ""
+    ref = str(ref).replace("&amp;", "&").strip()
+    for base in ("https://tw.elitefasion.com/", "https://tw.elitefashion.com/"):
+        if ref.startswith(base):
+            ref = ref.removeprefix(base)
+    if ref.startswith("../"):
+        ref = posixpath.normpath(posixpath.join(Path(article_file).parent.as_posix(), ref))
+    if ref.startswith("./"):
+        ref = ref[2:]
+    return ref.replace("\\", "/")
+
+
+def rel_from_file(page_file: str, target_rel: str) -> str:
+    page_dir = Path(page_file).parent
+    if str(page_dir) == ".":
+        return target_rel
+    return Path(*([".."] * len(page_dir.parts))).joinpath(target_rel).as_posix()
+
+
+def meta_content(html: str, name: str) -> str:
+    pattern_a = re.compile(
+        rf"<meta\s+[^>]*(?:property|name)=[\"']{re.escape(name)}[\"'][^>]*content=[\"']([^\"']+)",
+        re.I,
+    )
+    pattern_b = re.compile(
+        rf"<meta\s+[^>]*content=[\"']([^\"']+)[\"'][^>]*(?:property|name)=[\"']{re.escape(name)}[\"']",
+        re.I,
+    )
+    match = pattern_a.search(html) or pattern_b.search(html)
+    return match.group(1) if match else ""
+
+
+def set_meta_content(html: str, name: str, value: str) -> str:
+    pattern_a = re.compile(
+        rf"(<meta\s+[^>]*(?:property|name)=[\"']{re.escape(name)}[\"'][^>]*content=[\"'])([^\"']+)([\"'])",
+        re.I,
+    )
+    pattern_b = re.compile(
+        rf"(<meta\s+[^>]*content=[\"'])([^\"']+)([\"'][^>]*(?:property|name)=[\"']{re.escape(name)}[\"'][^>]*>)",
+        re.I,
+    )
+    if pattern_a.search(html):
+        return pattern_a.sub(rf"\g<1>{value}\g<3>", html, count=1)
+    if pattern_b.search(html):
+        return pattern_b.sub(rf"\g<1>{value}\g<3>", html, count=1)
+    insert_at = html.lower().find("</head>")
+    attr = "name" if name.startswith("twitter:") else "property"
+    tag = f'    <meta {attr}="{name}" content="{value}">\n'
+    return html[:insert_at] + tag + html[insert_at:] if insert_at >= 0 else html
+
+
+def extract_cover(html: str, article_file: str, index_hero: str) -> tuple[str, str]:
+    checks = [
+        (
+            "article-hero-bg",
+            re.compile(r"\.article-hero\s*\{[\s\S]*?background-image\s*:\s*[^;]*url\([\"']?([^\"')]+)", re.I),
+        ),
+        (
+            "hero-img",
+            re.compile(r"<img\s+[^>]*class=[\"'][^\"']*hero-img[^\"']*[\"'][^>]*src=[\"']([^\"']+)", re.I),
+        ),
+        (
+            "hero-img",
+            re.compile(r"<img\s+[^>]*src=[\"']([^\"']+)[\"'][^>]*class=[\"'][^\"']*hero-img", re.I),
+        ),
+    ]
+    for source, pattern in checks:
+        match = pattern.search(html)
+        if match:
+            return normalize_image_ref(match.group(1), article_file), source
+    return normalize_image_ref(index_hero, article_file), "indexHero"
+
+
+def article_rows() -> list[dict]:
+    payload = load_json(ARTICLES_INDEX)
+    rows = []
+    for item in payload["items"]:
+        article_file = str(item["file"])
+        html = (ROOT / article_file).read_text(encoding="utf-8")
+        og = normalize_image_ref(meta_content(html, "og:image"), article_file)
+        cover, cover_source = extract_cover(html, article_file, str(item.get("heroImage", "")))
+        target_rel = f"images/optimized/article-covers/{item['slug']}.jpg"
+        rows.append(
+            {
+                "id": item.get("id", ""),
+                "slug": item["slug"],
+                "title": item["title"],
+                "category": item["category"],
+                "url": item.get("url", ""),
+                "file": article_file,
+                "og": og,
+                "cover": cover,
+                "coverSource": cover_source,
+                "source": cover or og or normalize_image_ref(item.get("heroImage", ""), article_file),
+                "target": target_rel,
+                "public": public_url(target_rel),
+            }
+        )
+    return rows
+
+
+def duplicate_files(rows: list[dict]) -> set[str]:
+    by_cover: dict[str, list[dict]] = defaultdict(list)
+    for row in rows:
+        if row["cover"]:
+            by_cover[row["cover"]].append(row)
+    files = set()
+    for group in by_cover.values():
+        if len(group) > 1:
+            files.update(row["file"] for row in group)
+    return files
+
+
+def generated_pool() -> list[Path]:
+    roots = [
+        Path.home() / ".codex/generated_images/019e343c-8270-7153-9fa0-9687bc494c79",
+        Path.home() / ".codex/generated_images/019e3480-ff50-7240-b615-858e34811839",
+    ]
+    files: list[Path] = []
+    for root in roots:
+        if root.exists():
+            files.extend(sorted(root.glob("*.png"), key=lambda path: path.stat().st_mtime))
+    return files
+
+
+def generated_source_map(rows: list[dict]) -> dict[str, Path]:
+    dupes = sorted(duplicate_files(rows))
+    pool = generated_pool()
+    if len(pool) < len(dupes):
+        raise RuntimeError(f"Codex generated image pool too small: need {len(dupes)}, found {len(pool)}")
+    return {file: pool[index] for index, file in enumerate(dupes)}
+
+
+def local_source_path(ref: str, article_file: str, generated: Path | None) -> Path:
+    if generated is not None:
+        return generated
+    if ref.startswith(("http://", "https://")):
+        return download(ref)
+    candidate = ROOT / normalize_image_ref(ref, article_file)
+    if candidate.exists():
+        return candidate
+    raise FileNotFoundError(f"Missing cover source for {article_file}: {ref}")
+
+
+def download(url: str) -> Path:
+    TMP_DIR.mkdir(parents=True, exist_ok=True)
+    parsed = urlparse(url)
+    suffix = Path(parsed.path).suffix or ".jpg"
+    safe = re.sub(r"[^a-zA-Z0-9._-]+", "-", parsed.netloc + parsed.path).strip("-")
+    target = TMP_DIR / f"{safe}{suffix}"
+    if target.exists() and target.stat().st_size > 0:
+        return target
+    subprocess.run(
+        ["curl", "-L", "--fail", "--silent", "--show-error", "--max-time", "45", "-o", str(target), url],
+        check=True,
+    )
+    return target
+
+
+def optimize_image(source: Path, target_rel: str) -> None:
+    target = ROOT / target_rel
+    target.parent.mkdir(parents=True, exist_ok=True)
+    with Image.open(source) as image:
+        image = ImageOps.exif_transpose(image).convert("RGB")
+        src_ratio = image.width / image.height
+        dst_ratio = WIDTH / HEIGHT
+        if src_ratio > dst_ratio:
+            new_height = HEIGHT
+            new_width = round(new_height * src_ratio)
+        else:
+            new_width = WIDTH
+            new_height = round(new_width / src_ratio)
+        image = image.resize((new_width, new_height), Image.Resampling.LANCZOS)
+        left = max(0, (new_width - WIDTH) // 2)
+        top = max(0, (new_height - HEIGHT) // 2)
+        image = image.crop((left, top, left + WIDTH, top + HEIGHT))
+        image.save(target, "JPEG", quality=84, optimize=True, progressive=True)
+
+
+def update_article_html(row: dict) -> bool:
+    path = ROOT / row["file"]
+    html = path.read_text(encoding="utf-8")
+    original = html
+    rel_target = rel_from_file(row["file"], row["target"])
+    html = set_meta_content(html, "og:image", row["public"])
+    html = set_meta_content(html, "twitter:image", row["public"])
+    for old in filter(None, {row["og"], row["cover"]}):
+        old_public = public_url(old) if not old.startswith(("http://", "https://")) else old
+        html = html.replace(f'"image": ["{old_public}"]', f'"image": ["{row["public"]}"]')
+        html = html.replace(f'"image":"{old_public}"', f'"image":"{row["public"]}"')
+        html = html.replace(f'"image": "{old_public}"', f'"image": "{row["public"]}"')
+    html = re.sub(
+        r"(\.article-hero\s*\{[\s\S]*?background-image\s*:\s*[^;]*url\()[\"']?[^\"')]+[\"']?(\))",
+        rf"\g<1>'{rel_target}'\g<2>",
+        html,
+        count=1,
+        flags=re.I,
+    )
+    html = re.sub(
+        r"(<img\s+[^>]*class=[\"'][^\"']*hero-img[^\"']*[\"'][^>]*src=[\"'])([^\"']+)([\"'])",
+        rf"\g<1>{rel_target}\g<3>",
+        html,
+        count=1,
+        flags=re.I,
+    )
+    html = re.sub(
+        r"(<img\s+[^>]*src=[\"'])([^\"']+)([\"'][^>]*class=[\"'][^\"']*hero-img)",
+        rf"\g<1>{rel_target}\g<3>",
+        html,
+        count=1,
+        flags=re.I,
+    )
+    hero_style = (
+        f"background-image: linear-gradient(115deg, rgba(16, 20, 24, 0.78), rgba(48, 54, 59, 0.62)), "
+        f"url('{rel_target}'); background-size: cover; background-position: center;"
+    )
+    for klass in ("uap-detail-hero", "wc-hero", "special-hero"):
+        if f'class="{klass}"' in html and f'class="{klass}" style=' not in html:
+            html = html.replace(f'class="{klass}"', f'class="{klass}" style="{hero_style}"', 1)
+    if html != original:
+        path.write_text(html, encoding="utf-8")
+        return True
+    return False
+
+
+def update_indices(rows: list[dict]) -> None:
+    by_file = {row["file"]: row for row in rows}
+    by_id = {row["id"]: row for row in rows}
+    payload = load_json(ARTICLES_INDEX)
+    for item in payload["items"]:
+        row = by_file.get(str(item.get("file", "")))
+        if row:
+            item["heroImage"] = row["target"]
+    write_json(ARTICLES_INDEX, payload)
+
+    front = load_json(FRONT_LISTING)
+    for key in ("latest", "featured", "items"):
+        for item in front.get(key, []) if isinstance(front.get(key, []), list) else []:
+            row = by_id.get(str(item.get("id", ""))) or by_file.get(str(item.get("relativeUrl", "")))
+            if row:
+                item["heroImage"] = row["target"]
+    write_json(FRONT_LISTING, front)
+
+    if PUBLISH_LOG.exists():
+        log = load_json(PUBLISH_LOG)
+        for entry in log.get("entries", []):
+            row = by_id.get(str(entry.get("articleId", ""))) or by_file.get(str(entry.get("file", "")))
+            if row:
+                entry["coverImageUrl"] = row["public"]
+        write_json(PUBLISH_LOG, log)
+
+
+def update_listing_cards(rows: list[dict]) -> int:
+    row_by_href: dict[str, dict] = {}
+    for html_file in ROOT.glob("**/*.html"):
+        if ".git" in html_file.parts:
+            continue
+        page_rel = posix_rel(html_file)
+        for row in rows:
+            href = rel_from_file(page_rel, row["file"])
+            row_by_href[href] = row
+
+    changed = 0
+    for html_file in ROOT.glob("**/*.html"):
+        if ".git" in html_file.parts:
+            continue
+        page_rel = posix_rel(html_file)
+        html = html_file.read_text(encoding="utf-8")
+        original = html
+        for href, row in row_by_href.items():
+            target = rel_from_file(page_rel, row["target"])
+            pattern = re.compile(
+                rf"(<a\s+[^>]*href=[\"']{re.escape(href)}[\"'][\s\S]{{0,900}}?<img\s+[^>]*src=[\"'])([^\"']+)([\"'])",
+                re.I,
+            )
+            html = pattern.sub(rf"\g<1>{target}\g<3>", html)
+        if html != original:
+            html_file.write_text(html, encoding="utf-8")
+            changed += 1
+    return changed
+
+
+def audit() -> dict:
+    rows = article_rows()
+    mismatches = [row for row in rows if row["og"] != row["cover"]]
+    external = [row for row in rows if row["og"].startswith(("http://", "https://")) or row["cover"].startswith(("http://", "https://"))]
+    by_cover: dict[str, list[dict]] = defaultdict(list)
+    for row in rows:
+        by_cover[row["cover"]].append(row)
+    duplicate_groups = [(cover, group) for cover, group in by_cover.items() if cover and len(group) > 1]
+    categories: dict[str, int] = defaultdict(int)
+    for row in rows:
+        categories[row["category"]] += 1
+    return {
+        "total": len(rows),
+        "categories": dict(sorted(categories.items())),
+        "sameOgCover": len(rows) - len(mismatches),
+        "mismatch": len(mismatches),
+        "external": len(external),
+        "duplicateGroups": len(duplicate_groups),
+        "duplicateArticles": sum(len(group) for _, group in duplicate_groups),
+    }
+
+
+def apply(categories: set[str]) -> None:
+    rows = article_rows()
+    gen_map = generated_source_map(rows)
+    selected = [row for row in rows if not categories or row["category"] in categories]
+    for row in selected:
+        generated = gen_map.get(row["file"])
+        source = local_source_path(row["source"], row["file"], generated)
+        optimize_image(source, row["target"])
+        update_article_html(row)
+    refreshed_by_file = {row["file"]: row for row in article_rows()}
+    refreshed = [refreshed_by_file[row["file"]] for row in selected]
+    update_indices(refreshed)
+    changed_listings = update_listing_cards(refreshed)
+    print(json.dumps({"processed": len(selected), "listingFilesChanged": changed_listings, "audit": audit()}, ensure_ascii=False, indent=2))
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("command", choices=["audit", "apply"])
+    parser.add_argument("--categories", help="Comma-separated category slugs. Omit for all.")
+    args = parser.parse_args()
+    categories = set(filter(None, (args.categories or "").split(",")))
+    if args.command == "audit":
+        print(json.dumps(audit(), ensure_ascii=False, indent=2))
+        return 0
+    apply(categories)
+    return 0
+
+
+if __name__ == "__main__":
+    if sys.executable != str(PY_RUNTIME) and not hasattr(Image, "Resampling"):
+        raise SystemExit(f"Run with bundled Python runtime: {PY_RUNTIME}")
+    raise SystemExit(main())
