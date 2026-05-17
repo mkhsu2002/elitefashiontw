@@ -2704,6 +2704,26 @@ def send_newsletter(config: dict[str, Any], *, article_title: str | None = None,
     return {"status": "sent", "providerId": response.get("id"), "mode": mode, "articleUrl": article["url"]}
 
 
+def check_resend_email_status(message_id: str) -> dict[str, Any]:
+    message_id = message_id.strip()
+    if not message_id:
+        raise PipelineError("A Resend email id is required.")
+    api_key = os.getenv("RESEND_API_KEY")
+    if not api_key:
+        raise PipelineError("RESEND_API_KEY is required to check Resend email status.")
+    payload = resend_api_request(api_key, f"/emails/{urllib.parse.quote(message_id, safe='')}", method="GET")
+    safe_keys = [
+        "id",
+        "object",
+        "to",
+        "from",
+        "created_at",
+        "subject",
+        "last_event",
+    ]
+    return {key: payload.get(key) for key in safe_keys if key in payload}
+
+
 def main() -> int:
     config, categories = load_config()
     parser = argparse.ArgumentParser(description="Elite Fashion content pipeline")
@@ -2749,6 +2769,9 @@ def main() -> int:
     newsletter_parser.add_argument("--article-url")
     newsletter_parser.add_argument("--recipient-email", help="Send a single-recipient copy after subscribing this email")
     newsletter_parser.add_argument("--dry-run", action="store_true")
+
+    resend_status_parser = subparsers.add_parser("check-resend-email", help="Check a Resend email delivery status")
+    resend_status_parser.add_argument("--id", required=True)
 
     args = parser.parse_args()
 
@@ -2800,6 +2823,9 @@ def main() -> int:
                 recipient_email=args.recipient_email,
                 dry_run=args.dry_run,
             )
+            print(json.dumps({"status": "ok", **result}, ensure_ascii=False))
+        elif args.command == "check-resend-email":
+            result = check_resend_email_status(args.id)
             print(json.dumps({"status": "ok", **result}, ensure_ascii=False))
         return 0
     except PipelineError as error:

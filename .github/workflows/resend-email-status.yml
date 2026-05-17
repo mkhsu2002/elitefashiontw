@@ -1,0 +1,31 @@
+name: Resend Email Status
+
+on:
+  workflow_dispatch:
+    inputs:
+      email_id:
+        description: "Resend email id"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Check Resend Email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_ID: ${{ inputs.email_id }}
+        run: |
+          python3 scripts/content_pipeline.py check-resend-email --id "$EMAIL_ID"
