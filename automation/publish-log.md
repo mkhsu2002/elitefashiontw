@@ -1,5 +1,40 @@
 # 發文紀錄
 
+## 2026-05-19T22:16:27Z｜登山新手裝備順序：排汗衣、雨衣褲、護膝與輕量收納怎麼選
+
+- 文章 ID：auto-20260519221627-beginner-hiking-gear-order-light-trail
+- URL：https://tw.elitefasion.com/outdoor-escapes/beginner-hiking-gear-order-light-trail.html
+- 檔案：outdoor-escapes/beginner-hiking-gear-order-light-trail.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-19T22:16:27Z｜一日輕旅行包裡放什麼：防曬、充電、耳塞、雨具與保暖層
+
+- 文章 ID：auto-20260519221627-day-trip-bag-essentials-sun-charging-rainwear
+- URL：https://tw.elitefasion.com/outdoor-escapes/day-trip-bag-essentials-sun-charging-rainwear.html
+- 檔案：outdoor-escapes/day-trip-bag-essentials-sun-charging-rainwear.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-19T22:16:27Z｜機車通勤與戶外雨天裝備：雨衣、雨鞋、抗風傘與反光配件怎麼搭
+
+- 文章 ID：auto-20260519221627-scooter-commute-rain-gear-reflective-accessories
+- URL：https://tw.elitefasion.com/outdoor-escapes/scooter-commute-rain-gear-reflective-accessories.html
+- 檔案：outdoor-escapes/scooter-commute-rain-gear-reflective-accessories.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-19T22:16:27Z｜夏季戶外防曬穿搭：防曬外套、帽子、傘與雨具的實用搭配
+
+- 文章 ID：auto-20260519221627-summer-outdoor-sun-protection-rain-gear
+- URL：https://tw.elitefasion.com/outdoor-escapes/summer-outdoor-sun-protection-rain-gear.html
+- 檔案：outdoor-escapes/summer-outdoor-sun-protection-rain-gear.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-19T22:16:27Z｜日系露營風格怎麼入門：Snow Peak 與實用小物的選購順序
+
+- 文章 ID：auto-20260519221627-japanese-camping-style-entry-gear-order
+- URL：https://tw.elitefasion.com/outdoor-escapes/japanese-camping-style-entry-gear-order.html
+- 檔案：outdoor-escapes/japanese-camping-style-entry-gear-order.html
+- 類型：manual-codex-momo-affiliate
+
 ## 2026-05-19T21:20:00Z｜50+ 女性輕露營第一份裝備清單：椅凳、收納與防曬外套怎麼選
 
 - 文章 ID：auto-20260519212000-light-camping-starter-kit-women-over-50

@@ -1,11 +1,11 @@
 {
-  "status": "live",
-  "updatedAt": "2026-05-19T21:20:00Z",
+  "status": "published-batch-pending-live-check",
+  "updatedAt": "2026-05-19T22:16:27Z",
   "checkedAt": "2026-05-19T21:03:30Z",
-  "url": "https://tw.elitefasion.com/outdoor-escapes/light-camping-starter-kit-women-over-50.html",
-  "articleId": "auto-20260519212000-light-camping-starter-kit-women-over-50",
-  "title": "50+ 女性輕露營第一份裝備清單：椅凳、收納與防曬外套怎麼選",
-  "triggerType": "manual-codex-momo-affiliate",
+  "url": "https://tw.elitefasion.com/outdoor-escapes/beginner-hiking-gear-order-light-trail.html",
+  "articleId": "auto-20260519221627-beginner-hiking-gear-order-light-trail",
+  "title": "登山新手裝備順序：排汗衣、雨衣褲、護膝與輕量收納怎麼選",
+  "triggerType": "manual-codex-momo-affiliate-batch",
   "googleSheets": {
     "status": "synced",
     "workflowRunId": "26125223669",
@@ -17,5 +17,13 @@
   "imageGeneration": {
     "mode": "codex-built-in-imagegen",
     "sourcePath": "/Users/mkhsu/.codex/generated_images/019e4185-d9e0-7ec2-8700-54650efd741b/ig_086a5104b6de9fb1016a0cce0f246c81948739face8aa7fa95.png"
-  }
+  },
+  "batchSize": 5,
+  "batchArticleUrls": [
+    "https://tw.elitefasion.com/outdoor-escapes/japanese-camping-style-entry-gear-order.html",
+    "https://tw.elitefasion.com/outdoor-escapes/summer-outdoor-sun-protection-rain-gear.html",
+    "https://tw.elitefasion.com/outdoor-escapes/scooter-commute-rain-gear-reflective-accessories.html",
+    "https://tw.elitefasion.com/outdoor-escapes/day-trip-bag-essentials-sun-charging-rainwear.html",
+    "https://tw.elitefasion.com/outdoor-escapes/beginner-hiking-gear-order-light-trail.html"
+  ]
 }

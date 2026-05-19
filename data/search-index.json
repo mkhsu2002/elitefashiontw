@@ -1,5 +1,110 @@
 [
   {
+    "id": "auto-20260519221627-beginner-hiking-gear-order-light-trail",
+    "title": "登山新手裝備順序",
+    "excerpt": "先處理排汗、雨天、支撐與收納，再升級大型裝備，半日健行會更穩。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/beginner-hiking-gear-order-light-trail.html",
+    "publishedDateText": "2026年5月19日",
+    "tags": [
+      "登山新手",
+      "排汗衣",
+      "雨衣褲",
+      "護膝",
+      "momo 聯盟"
+    ],
+    "faqQuestions": [
+      "登山新手第一件裝備應該買什麼？",
+      "護膝護腰是不是一定要買？",
+      "雨衣褲和防潑外套差在哪裡？"
+    ]
+  },
+  {
+    "id": "auto-20260519221627-day-trip-bag-essentials-sun-charging-rainwear",
+    "title": "一日輕旅行包裡放什麼",
+    "excerpt": "防曬、充電、耳塞、雨具與保暖層都有固定位置，一日旅行才不會越帶越亂。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/day-trip-bag-essentials-sun-charging-rainwear.html",
+    "publishedDateText": "2026年5月19日",
+    "tags": [
+      "一日輕旅行",
+      "通勤包",
+      "行動電源",
+      "耳塞",
+      "momo 聯盟"
+    ],
+    "faqQuestions": [
+      "一日輕旅行要帶多大的包？",
+      "行動電源和雨傘要不要每天都帶？",
+      "耳塞適合放在旅行包嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260519221627-japanese-camping-style-entry-gear-order",
+    "title": "日系露營風格怎麼入門",
+    "excerpt": "先買真正會用到的桌面、杯具、椅凳與收納，再決定哪些高價單品值得升級。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/japanese-camping-style-entry-gear-order.html",
+    "publishedDateText": "2026年5月19日",
+    "tags": [
+      "日系露營",
+      "露營小物",
+      "Snow Peak",
+      "露營收納",
+      "momo 聯盟"
+    ],
+    "faqQuestions": [
+      "日系露營一定要買 Snow Peak 嗎？",
+      "第一次想拍出乾淨營地畫面，先買什麼最有感？",
+      "便宜小物會不會破壞整體風格？"
+    ]
+  },
+  {
+    "id": "auto-20260519221627-scooter-commute-rain-gear-reflective-accessories",
+    "title": "機車通勤與戶外雨天裝備",
+    "excerpt": "雨衣、雨鞋、抗風傘與反光配件要分工，雨天移動才不會整天失控。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/scooter-commute-rain-gear-reflective-accessories.html",
+    "publishedDateText": "2026年5月19日",
+    "tags": [
+      "雨天通勤",
+      "機車雨衣",
+      "雨鞋",
+      "反光配件",
+      "momo 聯盟"
+    ],
+    "faqQuestions": [
+      "機車通勤雨天裝備最先買什麼？",
+      "抗風傘可以取代雨衣嗎？",
+      "反光配件會不會很突兀？"
+    ]
+  },
+  {
+    "id": "auto-20260519221627-summer-outdoor-sun-protection-rain-gear",
+    "title": "夏季戶外防曬穿搭",
+    "excerpt": "防曬外套、帽子、晴雨傘與輕雨具要一起思考，才不會遇到太陽和午後雨就狼狽。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/summer-outdoor-sun-protection-rain-gear.html",
+    "publishedDateText": "2026年5月19日",
+    "tags": [
+      "防曬穿搭",
+      "防曬外套",
+      "晴雨傘",
+      "夏季戶外",
+      "momo 聯盟"
+    ],
+    "faqQuestions": [
+      "夏季防曬穿搭先買外套還是傘？",
+      "防曬外套可以取代雨衣嗎？",
+      "正式通勤也能穿防曬外套嗎？"
+    ]
+  },
+  {
     "id": "auto-20260519212000-light-camping-starter-kit-women-over-50",
     "title": "50+ 女性輕露營第一份裝備清單",
     "excerpt": "先買坐得舒服、收得乾淨、防曬與保暖有備案的裝備，比一次買齊全套更實用。",
