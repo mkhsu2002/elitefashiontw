@@ -6,7 +6,13 @@
   "articleId": "auto-20260519212000-light-camping-starter-kit-women-over-50",
   "title": "50+ 女性輕露營第一份裝備清單：椅凳、收納與防曬外套怎麼選",
   "triggerType": "manual-codex-momo-affiliate",
-  "googleSheets": "pending-workflow",
+  "googleSheets": {
+    "status": "synced",
+    "workflowRunId": "26125223669",
+    "workflowUrl": "https://github.com/mkhsu2002/elitefashiontw/actions/runs/26125223669",
+    "syncedAt": "2026-05-19T21:04:26Z",
+    "summary": "Full-site backfill complete: synced=1, cover_urls_updated=26, skipped=213"
+  },
   "coverImage": "images/optimized/article-covers/light-camping-starter-kit-women-over-50.jpg",
   "imageGeneration": {
     "mode": "codex-built-in-imagegen",
