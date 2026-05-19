@@ -24,6 +24,7 @@
 11. 撰寫 momo 聯盟行銷文章前，必須先查 `automation/momo-brand-recommendation-tracker.csv` 與 `automation/momo-affiliate-content-architecture.md`，確認品牌是否已被推薦、近期是否重複曝光、應屬於主角品牌、配角品牌、背景品牌或暫緩品牌。
 12. momo 聯盟文章不可只重複推薦最高價值品牌；每個小主題系列需刻意覆蓋不同品牌。A+ / A 品牌可作主推，B 品牌可作配角與比較維度，C 品牌需查證後才可弱露出，D 品牌不得進正式文章。前台文字不可出現「主角品牌、配角品牌、SEO、品牌池、矩陣、覆蓋率、批次」等內部規劃語言。
 13. momo 聯盟文章須歸入既有大分類，不新增大分類；戶外移動歸 `outdoor-escapes`，通勤穿搭與鞋包歸 `casual-chic`，睡眠護具與恢復歸 `wellness-movement`，香氛照明收納咖啡茶與送禮歸 `lifestyle-culture`，拍攝設備、外接螢幕、筆電與 AI 工作角落歸 `ai-innovation`。若跨分類，以讀者主要搜尋意圖決定。
-14. momo 聯盟文章完成後，必須回填品牌推薦追蹤表的文章 slug、live URL、提及次數與最後提及日期；文章若含導購連結，需有可見導購揭露，連結使用 `rel="sponsored nofollow"`。涉及健康、護具、保健、食品、睡眠、長照、美容成分時，不可承諾療效、減重、醫療、保健或抗老效果。
+14. momo 聯盟文章完成後，必須回填品牌推薦追蹤表的文章 slug、live URL、提及次數與最後提及日期；文章若含導購連結，需在正文最末端固定放置可見導購揭露，連結使用 `rel="sponsored nofollow"`。涉及健康、護具、保健、食品、睡眠、長照、美容成分時，不可承諾療效、減重、醫療、保健或抗老效果。
 15. momo 聯盟文章正式撰寫不得使用 `gpt-5-mini` 作為預設 writer model；預設使用 `gpt-5.2` 或其他同級以上模型。若因成本或限額降級，需明確記錄並人工複核文章品質。
 16. 每篇 momo 聯盟文章完成後，需生成同一張圖像內容作為文章封面與 OG/Twitter 預覽圖，建議尺寸 1200 x 630。Codex 人工產文時應調用 Codex 可用的圖片生成能力；GitHub Actions 自動排程若尚未接入圖片 API，需標記 `needs-cover-image`，不可假裝已有新封面。
+17. GitHub Actions 的 `content-scheduler.yml` / `content-command.yml` 產文流程會在正式上線與 Google Sheets 紀錄後呼叫電子報寄送；若由 Codex 手動寫文並直接推上 `main`，不會因 `git push` 自動寄給訂閱會員，需另行執行電子報寄送流程或明確記錄本篇未寄送。

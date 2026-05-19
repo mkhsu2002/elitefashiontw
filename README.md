@@ -346,6 +346,8 @@ tw.elitefasion.com/api/*
 python3 scripts/content_pipeline.py send-newsletter
 ```
 
+注意：若是 Codex 手動撰文後直接 `git push` 到 `main`，目前不會因為 push 自動觸發訂閱會員廣播；需另行執行電子報寄送流程，或在作業紀錄中標明本篇未寄送。
+
 手動把指定信箱加入訂閱並寄送最新文章，可執行 `Newsletter Send Latest` workflow，或在本地具備 `RESEND_API_KEY` 時執行：
 
 ```bash

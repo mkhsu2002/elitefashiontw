@@ -702,11 +702,6 @@ def render_markdown_body(article: dict[str, Any]) -> str:
         for item in article["extendedReading"]:
             lines.append(f"- [{item['title']}]({item['url']})")
         lines.append("")
-    if has_affiliate_cta(article):
-        lines.append("## 導購揭露")
-        lines.append("")
-        lines.append(AFFILIATE_DISCLOSURE_COPY)
-        lines.append("")
     lines.append("## CTA")
     lines.append("")
     lines.append(article["cta"]["text"])
@@ -718,6 +713,11 @@ def render_markdown_body(article: dict[str, Any]) -> str:
         lines.append("## 重要警語")
         lines.append("")
         lines.append(article["disclaimer"])
+        lines.append("")
+    if has_affiliate_cta(article):
+        lines.append("## 導購揭露")
+        lines.append("")
+        lines.append(AFFILIATE_DISCLOSURE_COPY)
         lines.append("")
     return "\n".join(lines).strip() + "\n"
 
@@ -1029,8 +1029,6 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
 
         <img src="{html.escape(hero_image_tag_src)}" alt="{html.escape(article['title'])}" class="hero-img">
 
-        {disclosure_html}
-
         {section_html}
 
         <section class="article-faq">
@@ -1053,6 +1051,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
             </div>
         </section>
 {disclaimer_html}
+{disclosure_html}
     </main>
 
     <script src="../js/main.js"></script>
