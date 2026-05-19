@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-05-15T23:38:24Z",
+  "updatedAt": "2026-05-19T21:00:16Z",
   "latest": [
+    {
+      "id": "auto-20260519212000-light-camping-starter-kit-women-over-50",
+      "title": "50+ 女性輕露營第一份裝備清單",
+      "excerpt": "先買坐得舒服、收得乾淨、防曬與保暖有備案的裝備，比一次買齊全套更實用。",
+      "category": "outdoor-escapes",
+      "categoryLabel": "戶外生活",
+      "series": "熟齡戶外移動生活",
+      "publishedAt": "2026-05-19T21:20:00Z",
+      "publishedDateText": "2026年5月19日",
+      "relativeUrl": "outdoor-escapes/light-camping-starter-kit-women-over-50.html",
+      "heroImage": "images/optimized/article-covers/light-camping-starter-kit-women-over-50.jpg",
+      "tags": [
+        "輕露營",
+        "熟齡戶外",
+        "露營裝備",
+        "防曬外套",
+        "momo 聯盟"
+      ]
+    },
     {
       "id": "auto-20260515180349-chatgpt-image-2-prompts-elite-women",
       "title": "ChatGPT Image 2.0 指令大全：20 組知識都會女性最常用提示詞",
@@ -11,7 +30,7 @@
       "publishedAt": "2026-05-15T18:03:49Z",
       "publishedDateText": "2026年5月15日",
       "relativeUrl": "ai-innovation/chatgpt-image-2-prompts-elite-women.html",
-      "heroImage": "images/optimized/article-covers/chatgpt-image-2-prompts-elite-women.jpg",
+      "heroImage": "images/generated/ai/chatgpt-image-2-prompts-cover.jpg",
       "tags": [
         "ChatGPT Image 2.0",
         "AI 生圖",
@@ -32,7 +51,7 @@
       "publishedAt": "2026-05-13T20:19:37Z",
       "publishedDateText": "2026年5月13日",
       "relativeUrl": "wellness-movement/pregnancy-safe-exercise-guide.html",
-      "heroImage": "images/optimized/article-covers/pregnancy-safe-exercise-guide.jpg",
+      "heroImage": "images/yoga/hero-yoga.jpg",
       "tags": [
         "孕期運動",
         "懷孕媽媽",
@@ -51,7 +70,7 @@
       "publishedAt": "2026-05-13T06:01:11Z",
       "publishedDateText": "2026年5月13日",
       "relativeUrl": "lifestyle-culture/returning-taiwan-first-year-unmarried-women.html",
-      "heroImage": "images/optimized/article-covers/returning-taiwan-first-year-unmarried-women.jpg",
+      "heroImage": "images/generated/life-proposals/gray-divorce-new-chapter.png",
       "tags": [
         "海歸返台",
         "獨居生活",
@@ -209,25 +228,6 @@
         "12618 sightings",
         "美國空軍 UFO"
       ]
-    },
-    {
-      "id": "legacy-uap-ufo-declassified-pursue-release-01-html",
-      "title": "PURSUE Release 01 解密入口：2026 年第一批美國官方 UAP 檔案怎麼讀",
-      "excerpt": "繁中深讀 2026 年 5 月 8 日 WAR.GOV/UFO 第一批 PURSUE UAP 解密檔案，說明官方稱為 unresolved cases 的公開背景、素材限制與事件意義。",
-      "category": "special-features",
-      "categoryLabel": "特輯",
-      "series": "特輯",
-      "publishedAt": "2026-05-12T00:00:00-07:00",
-      "publishedDateText": "2026年5月12日",
-      "relativeUrl": "uap-ufo-declassified/pursue-release-01.html",
-      "heroImage": "images/optimized/article-covers/pursue-release-01.jpg",
-      "tags": [
-        "PURSUE Release 01",
-        "WAR.GOV UFO",
-        "UAP 解密 2026",
-        "美國 UFO 檔案",
-        "UAP unresolved cases"
-      ]
     }
   ],
   "byCategory": {
@@ -342,7 +342,7 @@
           "publishedAt": "2026-02-06T22:00:00+08:00",
           "publishedDateText": "2026年2月6日",
           "relativeUrl": "ai-innovation/virtual-influencers-2025.html",
-          "heroImage": "images/generated/ai/virtual-idols.png",
+          "heroImage": "images/optimized/article-covers/virtual-influencers-2025.jpg",
           "tags": [
             "虛擬偶像",
             "數位人格",
@@ -368,7 +368,7 @@
           "publishedAt": "2026-02-19T01:00:00+08:00",
           "publishedDateText": "2026年2月19日",
           "relativeUrl": "runway-trends/virtual-identity-fashion-2026.html",
-          "heroImage": "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?w=1200&h=800&fit=crop",
+          "heroImage": "images/optimized/article-covers/virtual-identity-fashion-2026.jpg",
           "tags": [
             "2026 倫敦時裝週",
             "虛擬身分時尚",
@@ -390,7 +390,7 @@
           "publishedAt": "2026-02-19T00:00:00+08:00",
           "publishedDateText": "2026年2月19日",
           "relativeUrl": "runway-trends/silver-power-runway-2026.html",
-          "heroImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=1200&h=800&fit=crop",
+          "heroImage": "images/optimized/article-covers/silver-power-runway-2026.jpg",
           "tags": [
             "銀髮力量",
             "熟齡美學",
@@ -412,7 +412,7 @@
           "publishedAt": "2026-02-18T23:00:00+08:00",
           "publishedDateText": "2026年2月18日",
           "relativeUrl": "runway-trends/quiet-luxury-evolution-2026.html",
-          "heroImage": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&h=800&fit=crop",
+          "heroImage": "images/optimized/article-covers/quiet-luxury-evolution-2026.jpg",
           "tags": [
             "靜奢風 2.0",
             "2026 極簡主義",
@@ -434,7 +434,7 @@
           "publishedAt": "2026-02-18T22:00:00+08:00",
           "publishedDateText": "2026年2月18日",
           "relativeUrl": "runway-trends/paris-fashion-week-2025-spring-summer.html",
-          "heroImage": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=1200&h=800&fit=crop",
+          "heroImage": "images/optimized/article-covers/paris-fashion-week-2025-spring-summer.jpg",
           "tags": [
             "2025 巴黎時裝週",
             "春夏趨勢",
@@ -456,7 +456,7 @@
           "publishedAt": "2026-02-18T21:00:00+08:00",
           "publishedDateText": "2026年2月18日",
           "relativeUrl": "runway-trends/new-york-fashion-week-street-culture.html",
-          "heroImage": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=1200&h=800&fit=crop",
+          "heroImage": "images/optimized/article-covers/new-york-fashion-week-street-culture.jpg",
           "tags": [
             "紐約時裝週 2025",
             "街頭文化高級化",
@@ -478,7 +478,7 @@
           "publishedAt": "2026-02-18T20:00:00+08:00",
           "publishedDateText": "2026年2月18日",
           "relativeUrl": "runway-trends/milan-fashion-week-2025-colors.html",
-          "heroImage": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1200&h=800&fit=crop",
+          "heroImage": "images/optimized/article-covers/milan-fashion-week-2025-colors.jpg",
           "tags": [
             "米蘭時裝週 2025",
             "流行色趨勢",
@@ -505,7 +505,7 @@
           "publishedAt": "2026-05-07T19:32:18Z",
           "publishedDateText": "2026年5月7日",
           "relativeUrl": "designer-perspective/ai-design-renaissance-2026.html",
-          "heroImage": "images/generated/designer/ai-design.png",
+          "heroImage": "images/optimized/article-covers/ai-design-renaissance-2026.jpg",
           "tags": [
             "AI 設計",
             "創意革命",
@@ -527,7 +527,7 @@
           "publishedAt": "2026-05-07T19:32:18Z",
           "publishedDateText": "2026年5月7日",
           "relativeUrl": "designer-perspective/brand-renewal-art.html",
-          "heroImage": "images/generated/designer/craftsmanship.png",
+          "heroImage": "images/optimized/article-covers/brand-renewal-art.jpg",
           "tags": [
             "品牌重塑",
             "奢侈品牌",
@@ -548,7 +548,7 @@
           "publishedAt": "2026-05-07T19:32:18Z",
           "publishedDateText": "2026年5月7日",
           "relativeUrl": "designer-perspective/craftsmanship-tech-fusion.html",
-          "heroImage": "images/generated/designer/craftsmanship.png",
+          "heroImage": "images/optimized/article-covers/craftsmanship-tech-fusion.jpg",
           "tags": [
             "工藝復興",
             "3D 列印",
@@ -570,7 +570,7 @@
           "publishedAt": "2026-05-07T19:32:18Z",
           "publishedDateText": "2026年5月7日",
           "relativeUrl": "designer-perspective/digital-canvas.html",
-          "heroImage": "images/generated/designer/ipad-wacom.png",
+          "heroImage": "images/optimized/article-covers/digital-canvas.jpg",
           "tags": [
             "iPad Pro M4",
             "Wacom Cintiq",
@@ -593,7 +593,7 @@
           "publishedAt": "2026-05-07T19:32:18Z",
           "publishedDateText": "2026年5月7日",
           "relativeUrl": "designer-perspective/digital-craft-designer.html",
-          "heroImage": "images/generated/designer/stylist-power.png",
+          "heroImage": "images/optimized/article-covers/digital-craft-designer.jpg",
           "tags": [
             "數位工藝",
             "3D 列印",
@@ -615,7 +615,7 @@
           "publishedAt": "2026-05-07T19:32:18Z",
           "publishedDateText": "2026年5月7日",
           "relativeUrl": "designer-perspective/education-roi.html",
-          "heroImage": "images/generated/designer/masterclass-domestika.png",
+          "heroImage": "images/optimized/article-covers/education-roi.jpg",
           "tags": [
             "MasterClass",
             "Domestika",
@@ -643,7 +643,7 @@
           "publishedAt": "2026-05-07T19:32:18Z",
           "publishedDateText": "2026年5月7日",
           "relativeUrl": "casual-chic/world-cup-2026-special.html",
-          "heroImage": "images/generated/world-cup/og-special-home.png",
+          "heroImage": "images/optimized/article-covers/world-cup-2026-special.jpg",
           "tags": [
             "2026 世足賽專題",
             "2026 世界盃足球賽",
@@ -665,7 +665,7 @@
           "publishedAt": "2026-05-07T19:32:18Z",
           "publishedDateText": "2026年5月7日",
           "relativeUrl": "crossbody-bag-style-guide.html",
-          "heroImage": "https://elitefasion.com/images/crossbody-bag/hero-main.jpg",
+          "heroImage": "images/optimized/article-covers/crossbody-bag-style-guide.jpg",
           "tags": [
             "斜背包",
             "穿搭術",
@@ -685,7 +685,7 @@
           "publishedAt": "2026-04-21T10:00:00+08:00",
           "publishedDateText": "2026年4月21日",
           "relativeUrl": "casual-chic/world-cup-2026-fan-guide-logistics.html",
-          "heroImage": "images/generated/world-cup/og-fan-guide.png",
+          "heroImage": "images/optimized/article-covers/world-cup-2026-fan-guide-logistics.jpg",
           "tags": [
             "2026 世界盃 門票",
             "2026 世界盃 球迷指南",
@@ -705,7 +705,7 @@
           "publishedAt": "2026-04-21T10:00:00+08:00",
           "publishedDateText": "2026年4月21日",
           "relativeUrl": "casual-chic/world-cup-2026-format-guide.html",
-          "heroImage": "images/generated/world-cup/og-format-guide.png",
+          "heroImage": "images/optimized/article-covers/world-cup-2026-format-guide.jpg",
           "tags": [
             "2026 世界盃賽制",
             "2026 世界盃 48 隊",
@@ -725,7 +725,7 @@
           "publishedAt": "2026-04-21T10:00:00+08:00",
           "publishedDateText": "2026年4月21日",
           "relativeUrl": "casual-chic/world-cup-2026-groups-teams-guide.html",
-          "heroImage": "images/generated/world-cup/og-groups-guide.png",
+          "heroImage": "images/optimized/article-covers/world-cup-2026-groups-teams-guide.jpg",
           "tags": [
             "2026 世界盃 分組",
             "2026 世界盃 Group D",
@@ -744,7 +744,7 @@
           "publishedAt": "2026-04-21T10:00:00+08:00",
           "publishedDateText": "2026年4月21日",
           "relativeUrl": "casual-chic/world-cup-2026-host-cities-stadiums.html",
-          "heroImage": "images/generated/world-cup/og-host-cities.png",
+          "heroImage": "images/optimized/article-covers/world-cup-2026-host-cities-stadiums.jpg",
           "tags": [
             "2026 世界盃 主辦城市",
             "2026 世界盃 球場",
@@ -806,7 +806,7 @@
           "publishedAt": "2026-02-20T03:00:00+08:00",
           "publishedDateText": "2026年2月20日",
           "relativeUrl": "yoga-complete.html",
-          "heroImage": "https://elitefashion.com/images/yoga/hero-yoga.jpg",
+          "heroImage": "images/optimized/article-covers/yoga-complete.jpg",
           "tags": [
             "瑜伽墊推薦 2026",
             "天然橡膠瑜伽墊",
@@ -828,7 +828,7 @@
           "publishedAt": "2026-02-20T02:00:00+08:00",
           "publishedDateText": "2026年2月20日",
           "relativeUrl": "wellness-movement/neuro-feedback-yoga-2026.html",
-          "heroImage": "images/generated/wellness/neuro-yoga.png",
+          "heroImage": "images/optimized/article-covers/neuro-feedback-yoga-2026.jpg",
           "tags": [
             "神經回饋瑜伽 2026",
             "腦波冥想",
@@ -850,7 +850,7 @@
           "publishedAt": "2026-02-20T01:00:00+08:00",
           "publishedDateText": "2026年2月20日",
           "relativeUrl": "wellness-movement/yoga-focus-productivity.html",
-          "heroImage": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=800&fit=crop",
+          "heroImage": "images/optimized/article-covers/yoga-focus-productivity.jpg",
           "tags": [
             "正念瑜伽 2026",
             "專注力優化",
@@ -872,7 +872,7 @@
           "publishedAt": "2026-02-20T00:00:00+08:00",
           "publishedDateText": "2026年2月20日",
           "relativeUrl": "wellness-movement/sarcopenia-prevention.html",
-          "heroImage": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&h=800&fit=crop",
+          "heroImage": "images/optimized/article-covers/sarcopenia-prevention.jpg",
           "tags": [
             "肌少症",
             "40+ 肌力",
@@ -888,6 +888,25 @@
     "outdoor-escapes": {
       "label": "戶外生活",
       "items": [
+        {
+          "id": "auto-20260519212000-light-camping-starter-kit-women-over-50",
+          "title": "50+ 女性輕露營第一份裝備清單",
+          "excerpt": "先買坐得舒服、收得乾淨、防曬與保暖有備案的裝備，比一次買齊全套更實用。",
+          "category": "outdoor-escapes",
+          "categoryLabel": "戶外生活",
+          "series": "熟齡戶外移動生活",
+          "publishedAt": "2026-05-19T21:20:00Z",
+          "publishedDateText": "2026年5月19日",
+          "relativeUrl": "outdoor-escapes/light-camping-starter-kit-women-over-50.html",
+          "heroImage": "images/optimized/article-covers/light-camping-starter-kit-women-over-50.jpg",
+          "tags": [
+            "輕露營",
+            "熟齡戶外",
+            "露營裝備",
+            "防曬外套",
+            "momo 聯盟"
+          ]
+        },
         {
           "id": "auto-20260425190623-world-cup-2026-travel-prep-for-over40",
           "title": "2026 世足賽，熟齡旅人現在能做的 4 種旅行準備",
@@ -916,7 +935,7 @@
           "publishedAt": "2026-04-21T12:00:00+08:00",
           "publishedDateText": "2026年4月21日",
           "relativeUrl": "outdoor-escapes/horizon-x-space-travel-neck-pillow.html",
-          "heroImage": "images/og/outdoor/og-outdoor.jpg",
+          "heroImage": "images/optimized/article-covers/horizon-x-space-travel-neck-pillow.jpg",
           "tags": [
             "旅行頸枕",
             "長途旅行頸部痠痛",
@@ -937,7 +956,7 @@
           "publishedAt": "2026-04-18T10:00:00+08:00",
           "publishedDateText": "2026年4月18日",
           "relativeUrl": "outdoor-escapes/iphone-travel-vlog-monitor.html",
-          "heroImage": "https://tw.elitefashion.com/images/iphone-monitor-11.jpg",
+          "heroImage": "images/optimized/article-covers/iphone-travel-vlog-monitor.jpg",
           "tags": [
             "DA 磁吸自拍顯示器",
             "旅拍 Vlog",
@@ -959,7 +978,7 @@
           "publishedAt": "2026-02-21T15:00:00+08:00",
           "publishedDateText": "2026年2月21日",
           "relativeUrl": "outdoor-escapes/taiwan-hiking-routes-and-style.html",
-          "heroImage": "images/generated/outdoor/taiwan-hiking.png",
+          "heroImage": "images/optimized/article-covers/taiwan-hiking-routes-and-style.jpg",
           "tags": [
             "台灣探險主權 2026",
             "地理權威協議",
@@ -981,7 +1000,7 @@
           "publishedAt": "2026-02-21T14:00:00+08:00",
           "publishedDateText": "2026年2月21日",
           "relativeUrl": "outdoor-escapes/quiet-gorpcore-minimalism.html",
-          "heroImage": "images/generated/outdoor/luxury-hiking.png",
+          "heroImage": "images/optimized/article-covers/quiet-gorpcore-minimalism.jpg",
           "tags": [
             "Quiet Gorpcore 2026",
             "機能極簡協議",
@@ -991,28 +1010,6 @@
             "Arc'teryx Veilance 權威",
             "PTT 機能版討論",
             "Dcard 極簡指南"
-          ]
-        },
-        {
-          "id": "legacy-outdoor-escapes-regenerative-travel-2026-html",
-          "title": "2026 再生主權協議：解析『負碳效能』的絕對權威與生態修復",
-          "excerpt": "深入探索 2026 再生旅遊與生態主權趨勢。Elite Fashion 為您解析從單純保護到「負碳效能協議」的權威演進，探討再生主權如何成為精英探險者的生命底層。",
-          "category": "outdoor-escapes",
-          "categoryLabel": "戶外生活",
-          "series": "戶外生活",
-          "publishedAt": "2026-02-21T13:00:00+08:00",
-          "publishedDateText": "2026年2月21日",
-          "relativeUrl": "outdoor-escapes/regenerative-travel-2026.html",
-          "heroImage": "images/generated/outdoor/taiwan-hiking.png",
-          "tags": [
-            "再生主權 2026",
-            "負碳效能協議",
-            "生態修復美學",
-            "台灣低碳登山",
-            "再生旅遊協議",
-            "碳捕捉裝備",
-            "PTT 環境登山討論",
-            "Dcard 永續指南"
           ]
         }
       ]

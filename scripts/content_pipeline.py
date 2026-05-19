@@ -760,7 +760,14 @@ AFFILIATE_DISCLOSURE_COPY = (
 
 
 def is_affiliate_url(url: str) -> bool:
-    return url.startswith("https://www.icareushop.com.tw/")
+    return url.startswith(
+        (
+            "https://www.icareushop.com.tw/",
+            "https://s.momoshop.com.tw/",
+            "https://www.momoshop.com.tw/",
+            "https://m.momoshop.com.tw/",
+        )
+    )
 
 
 def has_affiliate_cta(article: dict[str, Any]) -> bool:

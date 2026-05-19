@@ -1,5 +1,12 @@
 # 發文紀錄
 
+## 2026-05-19T21:20:00Z｜50+ 女性輕露營第一份裝備清單：椅凳、收納與防曬外套怎麼選
+
+- 文章 ID：auto-20260519212000-light-camping-starter-kit-women-over-50
+- URL：https://tw.elitefasion.com/outdoor-escapes/light-camping-starter-kit-women-over-50.html
+- 檔案：outdoor-escapes/light-camping-starter-kit-women-over-50.html
+- 類型：manual-codex-momo-affiliate
+
 ## 2026-05-15T18:03:49Z｜ChatGPT Image 2.0 指令大全！20 組知識都會精英女性最常用的提示詞整理
 
 - 文章 ID：auto-20260515180349-chatgpt-image-2-prompts-elite-women
