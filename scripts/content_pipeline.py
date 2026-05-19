@@ -2232,6 +2232,33 @@ def validate_generated_article(article: dict[str, Any], config: dict[str, Any]) 
     if missing:
         raise PipelineError(f"文章資料缺少必要欄位：{', '.join(missing)}")
 
+    quality = config.get("articleQuality") or {}
+    if not quality:
+        return
+
+    markdown_body = article.get("markdownBody") or render_markdown_body(article)
+    cjk_units = len(re.findall(r"[\u4e00-\u9fff]", markdown_body))
+    latin_units = len(re.findall(r"[A-Za-z0-9]+", markdown_body))
+    text_units = cjk_units + latin_units
+    sections = article.get("sections") or []
+    paragraph_count = sum(len(section.get("paragraphs") or []) for section in sections)
+    faq_count = len(article.get("faq") or [])
+    read_time = int(article.get("readTimeMinutes") or 0)
+
+    quality_errors: list[str] = []
+    if text_units < int(quality.get("minTextUnits", 0)):
+        quality_errors.append(f"內容厚度不足：{text_units} < {quality['minTextUnits']}")
+    if len(sections) < int(quality.get("minSections", 0)):
+        quality_errors.append(f"section 數不足：{len(sections)} < {quality['minSections']}")
+    if paragraph_count < int(quality.get("minParagraphs", 0)):
+        quality_errors.append(f"正文段落不足：{paragraph_count} < {quality['minParagraphs']}")
+    if faq_count < int(quality.get("minFaqItems", 0)):
+        quality_errors.append(f"FAQ 數不足：{faq_count} < {quality['minFaqItems']}")
+    if read_time < int(quality.get("minReadTimeMinutes", 0)):
+        quality_errors.append(f"閱讀時間不足：{read_time} < {quality['minReadTimeMinutes']}")
+    if quality_errors:
+        raise PipelineError("文章品質門檻未通過：" + "；".join(quality_errors))
+
 
 def generate_article_from_item(config: dict[str, Any], categories: dict[str, CategoryConfig], item: dict[str, Any], *, queue_id: str | None, trigger_type: str, fixture: bool = False) -> dict[str, Any]:
     registry = build_registry(config, categories)

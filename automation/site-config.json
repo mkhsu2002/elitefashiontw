@@ -67,10 +67,17 @@
     "apiModeEnv": "CONTENT_MODEL_API_MODE",
     "apiKeySecretName": "CONTENT_MODEL_API_KEY",
     "defaultModelEnv": "CONTENT_MODEL",
-    "defaultModel": "gpt-5.2",
+    "defaultModel": "gpt-5.4",
     "plannerModelEnv": "CONTENT_PLANNER_MODEL",
     "plannerModelFallback": "gpt-5.2",
     "requestTimeoutSeconds": 300
+  },
+  "articleQuality": {
+    "minTextUnits": 1800,
+    "minSections": 5,
+    "minParagraphs": 12,
+    "minFaqItems": 3,
+    "minReadTimeMinutes": 8
   },
   "articleContract": {
     "requiredFields": [
