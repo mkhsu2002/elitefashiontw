@@ -1318,7 +1318,7 @@ def render_search_page(config: dict[str, Any]) -> str:
     <main class="search-shell">
         <h1>站內搜尋</h1>
         <p>搜尋文章標題、摘要、FAQ 與標籤。</p>
-        <input id="search-input" class="search-input" type="search" placeholder="例如：Dify、客服、熟齡穿搭、AI 代理人">
+        <input id="search-input" class="search-input" type="search" placeholder="例如：Dify、客服、通勤穿搭、AI 代理人">
         <div id="search-results" class="search-results"></div>
     </main>
 
@@ -1731,7 +1731,7 @@ def fallback_plan(topic: str, count: int, direction: str, existing_titles: list[
             {
                 "order": order,
                 "title": title,
-                "angle": f"{direction or '以熟齡女性的生活與工作決策場景切入'}，聚焦第 {order} 篇的不同決策情境。",
+                "angle": f"{direction or '以白領菁英的生活與工作決策場景切入，但前台不直白標註年齡或受眾'}，聚焦第 {order} 篇的不同決策情境。",
                 "targetReader": "想把抽象趨勢翻成自己可用下一步的台灣讀者",
                 "series": f"{topic} 系列",
                 "category": category,
@@ -2168,6 +2168,7 @@ def get_fallback_item(config: dict[str, Any], categories: dict[str, CategoryConf
     evergreen_weights = selection_rules.get("evergreenWeights", {})
     season_fit_weights = selection_rules.get("seasonFitWeights", {})
     avoid_patterns = selection_rules.get("avoidTitlePatterns", [])
+    blocked_audience_label_patterns = selection_rules.get("blockedAudienceLabelPatterns", [])
     deprioritized_patterns = selection_rules.get("deprioritizedTopicPatterns", [])
     related_keyword_penalty = selection_rules.get("relatedKeywordPenalty", 9)
 
@@ -2180,6 +2181,8 @@ def get_fallback_item(config: dict[str, Any], categories: dict[str, CategoryConf
             continue
         for angle in entry["angles"]:
             candidate_title = candidate_title_from_angle(entry["topic"], angle)
+            if any(pattern in candidate_title for pattern in blocked_audience_label_patterns):
+                continue
             if is_duplicate_title(candidate_title, existing_titles):
                 continue
             score = float(entry.get("priority", 50))

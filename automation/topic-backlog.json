@@ -2,11 +2,11 @@
   "seasonalContext": {
     "activeSeason": "spring-summer-2026",
     "priorityThemes": [
-      "熟齡人生重整與關係邊界",
-      "更年期後的睡眠、熱感與恢復",
+      "生活決策與關係邊界",
+      "睡眠、熱感與恢復",
       "春夏旅行穿搭與移動舒適度",
-      "熟齡獨旅、週末輕戶外與低壓移動",
-      "45+ 工作者的 AI 採用與第二曲線"
+      "城市旅行、週末輕戶外與低壓移動",
+      "白領工作者的 AI 採用與職涯效率"
     ],
     "deprioritizedThemes": [
       "主權協議／權威／革命式標題",
@@ -76,6 +76,15 @@
       "2026",
       "革命"
     ],
+    "blockedAudienceLabelPatterns": [
+      "30+",
+      "40+",
+      "45+",
+      "50+",
+      "熟齡",
+      "銀髮",
+      "老人"
+    ],
     "deprioritizedTopicPatterns": [
       "財富自由",
       "被動收入",
@@ -109,7 +118,7 @@
       "reason": "搜尋意圖重疊，且容易偏離本站成熟、可採取的內容定位。"
     },
     {
-      "family": "熟齡外貌單點優化題",
+      "family": "成熟外貌單點優化題",
       "patterns": [
         "手頸",
         "指尖",
@@ -148,8 +157,8 @@
       "topic": "春夏離婚後的生活重整與社交節奏",
       "direction": "聚焦離婚後的居家秩序、朋友圈重組、社交邀約邊界與重新出門的節奏，不寫成灑狗血情傷文。",
       "category": "lifestyle-culture",
-      "audience": "正在經歷離婚、分居或關係退場後重啟生活的熟齡女性",
-      "ctaHint": "導向生活品味頁與熟齡人生重整系列",
+      "audience": "正在經歷離婚、分居或關係退場後重啟生活的白領讀者",
+      "ctaHint": "導向生活品味頁與人生重整系列",
       "priority": 98,
       "businessValue": "high",
       "evergreen": "high",
@@ -163,16 +172,16 @@
         "獨處"
       ],
       "angles": [
-        "離婚後第一次重新安排週末：熟齡女性怎麼把空白變成自己的節奏",
+        "離婚後第一次重新安排週末：白領讀者怎麼把空白變成自己的節奏",
         "朋友約妳出去卻不知道怎麼回？離婚後的社交邊界可以這樣重建",
-        "不是立刻振作就叫重生：熟齡女性離婚後更需要先重整哪 3 種生活秩序"
+        "不是立刻振作就叫重生：白領讀者離婚後更需要先重整哪 3 種生活秩序"
       ]
     },
     {
-      "topic": "45+ 工作者的 AI 採用與工作重整",
-      "direction": "寫給非工程背景的熟齡工作者，聚焦回信、整理、排程、客服與內容工作中的低壓採用，不做工具名詞堆砌。",
+      "topic": "白領工作者的 AI 採用與工作重整",
+      "direction": "寫給非工程背景的白領工作者，聚焦回信、整理、排程、客服與內容工作中的低壓採用，不做工具名詞堆砌。",
       "category": "ai-innovation",
-      "audience": "知道 AI 不能不看，但不想被技術術語淹沒的 45+ 工作者",
+      "audience": "知道 AI 不能不看，但不想被技術術語淹沒的 白領工作者",
       "ctaHint": "導向人工智能主題頁與 AI 工作導入相關文章",
       "priority": 96,
       "businessValue": "high",
@@ -187,16 +196,16 @@
         "內容工作"
       ],
       "angles": [
-        "不是每個人都要學 prompt：45+ 工作者最值得先用 AI 接手的 3 種工作",
-        "當 AI 開始會幫你整理回信與行程，熟齡工作者該先建立哪些判斷習慣",
-        "主管要你研究 AI，卻沒人教怎麼開始：給熟齡工作者的低壓採用版本"
+        "不是每個人都要學 prompt：白領工作者最值得先用 AI 接手的 3 種工作",
+        "當 AI 開始會幫你整理回信與行程，白領工作者該先建立哪些判斷習慣",
+        "主管要你研究 AI，卻沒人教怎麼開始：給白領工作者的低壓採用版本"
       ]
     },
     {
-      "topic": "熟齡副業與第二曲線的低風險測試",
+      "topic": "成熟副業與第二曲線的低風險測試",
       "direction": "聚焦不離職、低成本、可驗證的第二曲線測試法，連結副業、接案、個人服務設計與 AI 協助。",
       "category": "lifestyle-culture",
-      "audience": "想開始第二曲線，但不想一次賭太大的熟齡女性",
+      "audience": "想開始第二曲線，但不想一次賭太大的白領讀者",
       "ctaHint": "導向生活品味頁與第二曲線相關內容",
       "priority": 94,
       "businessValue": "high",
@@ -211,16 +220,16 @@
         "轉職"
       ],
       "angles": [
-        "不辭職也能測試第二曲線：熟齡女性先做哪 3 種低風險實驗最實際",
-        "接案、顧問、微型服務怎麼選？熟齡女性副業起步更該比的是壓力成本",
-        "第二曲線不是重新當菜鳥：45+ 女性怎麼把既有經驗變成新的服務價值"
+        "不辭職也能測試第二曲線：白領讀者先做哪 3 種低風險實驗最實際",
+        "接案、顧問、微型服務怎麼選？白領讀者副業起步更該比的是壓力成本",
+        "第二曲線不是重新當菜鳥：白領讀者怎麼把既有經驗變成新的服務價值"
       ]
     },
     {
-      "topic": "更年期後的熱感、浮腫與睡眠恢復",
+      "topic": "春夏熱感、浮腫與睡眠恢復",
       "direction": "聚焦春夏夜晚節奏、降溫、疲勞恢復與白天專注感，不做醫療承諾，優先寫可自行觀察與調整的日常做法。",
       "category": "wellness-movement",
-      "audience": "正在面對熱感、睡不好、恢復慢與晨起疲勞的熟齡女性",
+      "audience": "正在面對熱感、睡不好、恢復慢與晨起疲勞的白領讀者",
       "ctaHint": "導向健康恢復主題頁與睡眠恢復系列",
       "priority": 95,
       "businessValue": "high",
@@ -235,16 +244,16 @@
         "恢復"
       ],
       "angles": [
-        "天氣一熱就睡不好？熟齡女性春夏夜晚更該先調整的不是補品，而是節奏",
-        "早上腫、晚上熱、白天累：更年期後的恢復卡住，通常是這幾個訊號先出現",
-        "不是只有失眠才算睡不好：熟齡女性春夏恢復感下降時，先檢查哪 5 件事"
+        "天氣一熱就睡不好？白領讀者春夏夜晚更該先調整的不是補品，而是節奏",
+        "早上腫、晚上熱、白天累：春夏恢復卡住，通常是這幾個訊號先出現",
+        "不是只有失眠才算睡不好：白領讀者春夏恢復感下降時，先檢查哪 5 件事"
       ]
     },
     {
-      "topic": "熟齡肌力、步行耐力與旅行體力",
+      "topic": "肌力、步行耐力與旅行體力",
       "direction": "從久坐、步行、旅途疲勞與下肢穩定度切入，強調自主性與行動力，而不是體重焦慮。",
       "category": "wellness-movement",
-      "audience": "想維持旅遊體力、久走穩定感與日常行動力的熟齡女性",
+      "audience": "想維持旅遊體力、久走穩定感與日常行動力的白領讀者",
       "ctaHint": "導向健康恢復主題頁與戶外生活頁",
       "priority": 92,
       "businessValue": "medium",
@@ -259,16 +268,16 @@
         "膝蓋"
       ],
       "angles": [
-        "一到旅行就腿痠腰累？熟齡女性先該補的不是行程，而是步行耐力",
-        "50+ 真正要投資的不只是體重，而是走得久、站得穩的能力",
-        "不是去健身房才算訓練：熟齡女性可以怎麼把旅行體力練進日常"
+        "一到旅行就腿痠腰累？白領讀者先該補的不是行程，而是步行耐力",
+        "真正要投資的不只是體重，而是走得久、站得穩的能力",
+        "不是去健身房才算訓練：白領讀者可以怎麼把旅行體力練進日常"
       ]
     },
     {
       "topic": "春夏旅行膠囊衣櫥與移動穿搭",
       "direction": "聚焦溫差、久坐、城市散步、拍照體面感與少帶不狼狽的打包邏輯。",
       "category": "casual-chic",
-      "audience": "想在旅行中兼顧舒適、好整理與照片質感的熟齡女性",
+      "audience": "想在旅行中兼顧舒適、好整理與照片質感的白領讀者",
       "ctaHint": "導向休閒時尚主題頁與旅行相關文章",
       "priority": 93,
       "businessValue": "high",
@@ -283,16 +292,16 @@
         "溫差"
       ],
       "angles": [
-        "不是帶越多越安全：熟齡女性春夏旅行衣櫥怎麼收得輕、穿得穩",
-        "機場、飯店、城市散步都能穿：一套熟齡春夏旅行穿搭的思考順序",
-        "想拍照好看又不想行李爆滿？熟齡女性膠囊衣櫥該先決定的是這幾件"
+        "不是帶越多越安全：白領讀者春夏旅行衣櫥怎麼收得輕、穿得穩",
+        "機場、飯店、城市散步都能穿：一套成熟春夏旅行穿搭的思考順序",
+        "想拍照好看又不想行李爆滿？白領讀者膠囊衣櫥該先決定的是這幾件"
       ]
     },
     {
       "topic": "鞋包重量、久走舒適度與通勤節奏",
       "direction": "把穿搭與行動力連起來，從鞋底穩定、包重、取物動線與久走體感切入。",
       "category": "casual-chic",
-      "audience": "需要長時間通勤、見客戶、出門辦事又不想下午就累垮的熟齡女性",
+      "audience": "需要長時間通勤、見客戶、出門辦事又不想下午就累垮的白領讀者",
       "ctaHint": "導向休閒時尚主題頁",
       "priority": 87,
       "businessValue": "high",
@@ -307,16 +316,16 @@
         "重量"
       ],
       "angles": [
-        "不是高跟鞋才正式：熟齡女性通勤鞋怎麼選，才不會下午就腳痛",
-        "包包越大不代表越能裝：熟齡女性日常包款更該看重量、開口與取物節奏",
-        "想穿得俐落又走得久，熟齡女性的鞋包其實有更務實的搭配邏輯"
+        "不是高跟鞋才正式：白領讀者通勤鞋怎麼選，才不會下午就腳痛",
+        "包包越大不代表越能裝：白領讀者日常包款更該看重量、開口與取物節奏",
+        "想穿得俐落又走得久，白領讀者的鞋包其實有更務實的搭配邏輯"
       ]
     },
     {
-      "topic": "熟齡獨旅、台灣輕戶外與週末修復",
+      "topic": "城市旅行、台灣輕戶外與週末修復",
       "direction": "寫低門檻、不逞強的戶外與移動生活，強調安全感、住宿節奏、體力安排與城市壓力釋放。",
       "category": "outdoor-escapes",
-      "audience": "想開始一個人旅行或週末出走，但在意安全、體力與節奏安排的熟齡女性",
+      "audience": "想開始一個人旅行或週末出走，但在意安全、體力與節奏安排的白領讀者",
       "ctaHint": "導向戶外生活主題頁",
       "priority": 90,
       "businessValue": "medium",
@@ -331,16 +340,16 @@
         "修復"
       ],
       "angles": [
-        "第一次一個人旅行，不是勇敢就夠：熟齡女性更需要的是安全感設計",
-        "週末只想離開城市半天，熟齡女性可以怎麼用輕戶外把自己拉回來",
-        "熟齡獨旅該先決定的不是去哪，而是體力、住宿與移動節奏"
+        "第一次一個人旅行，不是勇敢就夠：白領讀者更需要的是安全感設計",
+        "週末只想離開城市半天，白領讀者可以怎麼用輕戶外把自己拉回來",
+        "城市旅行該先決定的不是去哪，而是體力、住宿與移動節奏"
       ]
     },
     {
       "topic": "居家閱讀、工作角落與生活秩序重整",
       "direction": "把居家品味寫成可採取的空間決策，串連閱讀、第二曲線工作、收納與安定感。",
       "category": "lifestyle-culture",
-      "audience": "想把家整理成更安定、更有專注感環境的熟齡女性",
+      "audience": "想把家整理成更安定、更有專注感環境的白領讀者",
       "ctaHint": "導向生活品味主題頁",
       "priority": 84,
       "businessValue": "medium",
@@ -355,16 +364,16 @@
         "秩序"
       ],
       "angles": [
-        "家裡不是越漂亮越能待得住：熟齡女性的閱讀角落更需要什麼條件",
+        "家裡不是越漂亮越能待得住：白領讀者的閱讀角落更需要什麼條件",
         "想在家重新開始工作或閱讀，先別急著買桌子：空間感受才是第一步",
-        "熟齡女性的家，可以怎麼留出一個讓自己安定下來的工作與閱讀角落"
+        "白領讀者的家，可以怎麼留出一個讓自己安定下來的工作與閱讀角落"
       ]
     },
     {
       "topic": "AI 對客服、行政與內容工作的低壓導入",
       "direction": "把 AI 議題寫得更貼近實際部門任務，聚焦日常流程，不寫成矽谷趨勢評論。",
       "category": "ai-innovation",
-      "audience": "正在客服、行政、內容、營運角色中，想知道 AI 會先改變哪些工作的熟齡讀者",
+      "audience": "正在客服、行政、內容、營運角色中，想知道 AI 會先改變哪些工作的白領讀者",
       "ctaHint": "導向人工智能主題頁與導入案例",
       "priority": 82,
       "businessValue": "high",
@@ -380,15 +389,15 @@
       ],
       "angles": [
         "AI 先影響的不是工程師：客服、行政與內容工作有哪些任務最容易被重組",
-        "當 AI 開始替你整理 FAQ、信件與排程，熟齡工作者該先保住哪些判斷力",
+        "當 AI 開始替你整理 FAQ、信件與排程，白領工作者該先保住哪些判斷力",
         "不是每個部門都要做 AI 專案：中小團隊可以先從哪 3 個低壓流程開始"
       ]
     },
     {
-      "topic": "把秀場趨勢翻譯成熟齡日常衣櫥",
+      "topic": "把秀場趨勢翻譯成日常衣櫥",
       "direction": "保留 runway 類內容，但每篇都必須回到顏色、材質、輪廓與可穿性判斷。",
       "category": "runway-trends",
-      "audience": "對趨勢有興趣，但不會真的照搬秀場造型的熟齡讀者",
+      "audience": "對趨勢有興趣，但不會真的照搬秀場造型的白領讀者",
       "ctaHint": "導向秀場趨勢與休閒時尚頁",
       "priority": 76,
       "businessValue": "medium",
@@ -403,16 +412,16 @@
         "輪廓"
       ],
       "angles": [
-        "看懂 2026 春夏秀場，不代表要穿成秀場：熟齡女性怎麼留下真正有用的部分",
-        "今年流行的顏色、材質與輪廓，哪些真的值得放進熟齡日常衣櫥",
-        "不是每個時裝週亮點都值得追：熟齡女性該怎麼篩選真正有用的趨勢"
+        "看懂 2026 春夏秀場，不代表要穿成秀場：白領讀者怎麼留下真正有用的部分",
+        "今年流行的顏色、材質與輪廓，哪些真的值得放進日常衣櫥",
+        "不是每個時裝週亮點都值得追：白領讀者該怎麼篩選真正有用的趨勢"
       ]
     },
     {
-      "topic": "設計師觀點下的熟齡美學與個人辨識度",
-      "direction": "保留設計師視角，但每篇都要回扣個人風格、衣櫥判斷與熟齡自我表達。",
+      "topic": "設計師觀點下的個人美學與個人辨識度",
+      "direction": "保留設計師視角，但每篇都要回扣個人風格、衣櫥判斷與自我表達。",
       "category": "designer-perspective",
-      "audience": "喜歡設計觀點，但更在意自己如何吸收與實踐的熟齡讀者",
+      "audience": "喜歡設計觀點，但更在意自己如何吸收與實踐的白領讀者",
       "ctaHint": "導向設計師視角頁",
       "priority": 68,
       "businessValue": "low",
@@ -427,9 +436,9 @@
         "辨識度"
       ],
       "angles": [
-        "成熟不是保守：設計師會怎麼建議熟齡女性留下個人辨識度",
-        "設計師在看的是輪廓，不是年齡：熟齡女性可以怎麼重新理解自己的風格",
-        "當你不再追求年輕感，設計師視角下的熟齡美學會怎麼改變"
+        "成熟不是保守：設計師會怎麼建議白領讀者留下個人辨識度",
+        "設計師在看的是輪廓，不是年齡：白領讀者可以怎麼重新理解自己的風格",
+        "當你不再追求單一流行感，設計師視角下的個人美學會怎麼改變"
       ]
     }
   ],
@@ -437,8 +446,8 @@
     {
       "id": "ss26-lifestyle-culture-01",
       "category": "lifestyle-culture",
-      "cluster": "熟齡人生與生活重整",
-      "title": "中年未婚女性的一人生活評估表：獨居、同住、買房與租屋怎麼選",
+      "cluster": "人生與生活重整",
+      "title": "一人生活讀者的一人生活評估表：獨居、同住、買房與租屋怎麼選",
       "priority": 96,
       "seasonFit": "spring-summer",
       "intentType": "問題解法型",
@@ -447,8 +456,8 @@
     {
       "id": "ss26-lifestyle-culture-02",
       "category": "lifestyle-culture",
-      "cluster": "熟齡人生與生活重整",
-      "title": "45+ 女性的春夏社交節奏：低壓邀約、朋友篩選與界線設計",
+      "cluster": "人生與生活重整",
+      "title": "白領讀者的春夏社交節奏：低壓邀約、朋友篩選與界線設計",
       "priority": 95,
       "seasonFit": "spring-summer",
       "intentType": "問題解法型",
@@ -457,7 +466,7 @@
     {
       "id": "ss26-lifestyle-culture-03",
       "category": "lifestyle-culture",
-      "cluster": "熟齡人生與生活重整",
+      "cluster": "人生與生活重整",
       "title": "喪偶後第一個夏天：如何安排日常、家人距離與情緒恢復",
       "priority": 94,
       "seasonFit": "spring-summer",
@@ -467,7 +476,7 @@
     {
       "id": "ss26-lifestyle-culture-04",
       "category": "lifestyle-culture",
-      "cluster": "熟齡人生與生活重整",
+      "cluster": "人生與生活重整",
       "title": "空巢後的家：把孩子房間變成閱讀、工作與恢復角落",
       "priority": 93,
       "seasonFit": "spring-summer",
@@ -477,8 +486,8 @@
     {
       "id": "ss26-lifestyle-culture-05",
       "category": "lifestyle-culture",
-      "cluster": "熟齡人生與生活重整",
-      "title": "熟齡女性的第二曲線生活設計：先測試，不急著辭職",
+      "cluster": "人生與生活重整",
+      "title": "白領讀者的第二曲線生活設計：先測試，不急著辭職",
       "priority": 92,
       "seasonFit": "spring-summer",
       "intentType": "問題解法型",
@@ -487,7 +496,7 @@
     {
       "id": "ss26-lifestyle-culture-06",
       "category": "lifestyle-culture",
-      "cluster": "熟齡人生與生活重整",
+      "cluster": "人生與生活重整",
       "title": "回台生活重啟清單：戶籍、健保、銀行、社交與生活圈",
       "priority": 91,
       "seasonFit": "spring-summer",
@@ -497,8 +506,8 @@
     {
       "id": "ss26-lifestyle-culture-07",
       "category": "lifestyle-culture",
-      "cluster": "熟齡人生與生活重整",
-      "title": "中年離婚後的金錢邊界：共同支出、子女費用與個人帳戶",
+      "cluster": "人生與生活重整",
+      "title": "離婚後的金錢邊界：共同支出、子女費用與個人帳戶",
       "priority": 90,
       "seasonFit": "spring-summer",
       "intentType": "問題解法型",
@@ -507,8 +516,8 @@
     {
       "id": "ss26-lifestyle-culture-08",
       "category": "lifestyle-culture",
-      "cluster": "熟齡人生與生活重整",
-      "title": "高階女性的週末恢復規劃：不應酬、不補班，也不內疚",
+      "cluster": "人生與生活重整",
+      "title": "高階讀者的週末恢復規劃：不應酬、不補班，也不內疚",
       "priority": 89,
       "seasonFit": "spring-summer",
       "intentType": "問題解法型",
@@ -517,8 +526,8 @@
     {
       "id": "ss26-lifestyle-culture-09",
       "category": "lifestyle-culture",
-      "cluster": "熟齡人生與生活重整",
-      "title": "熟齡女性如何說不：親戚、同事、前伴侶與成年子女的回應句型",
+      "cluster": "人生與生活重整",
+      "title": "白領讀者如何說不：親戚、同事、前伴侶與成年子女的回應句型",
       "priority": 88,
       "seasonFit": "spring-summer",
       "intentType": "問題解法型",
@@ -527,7 +536,7 @@
     {
       "id": "ss26-lifestyle-culture-10",
       "category": "lifestyle-culture",
-      "cluster": "熟齡人生與生活重整",
+      "cluster": "人生與生活重整",
       "title": "一個人過節不將就：春夏節日、生日與長週末的生活儀式",
       "priority": 87,
       "seasonFit": "spring-summer",
@@ -548,7 +557,7 @@
       "id": "ss26-wellness-movement-02",
       "category": "wellness-movement",
       "cluster": "健康恢復與身體節奏",
-      "title": "40+ 女性的晨間 15 分鐘肌力：不追求瘦，先保住行動力",
+      "title": "白領讀者的晨間 15 分鐘肌力：不追求瘦，先保住行動力",
       "priority": 85,
       "seasonFit": "spring-summer",
       "intentType": "問題解法型",
@@ -568,7 +577,7 @@
       "id": "ss26-wellness-movement-04",
       "category": "wellness-movement",
       "cluster": "健康恢復與身體節奏",
-      "title": "熟齡女性的旅行疲勞恢復：飛行後 48 小時身體節奏",
+      "title": "白領讀者的旅行疲勞恢復：飛行後 48 小時身體節奏",
       "priority": 83,
       "seasonFit": "spring-summer",
       "intentType": "問題解法型",
@@ -608,7 +617,7 @@
       "id": "ss26-wellness-movement-08",
       "category": "wellness-movement",
       "cluster": "健康恢復與身體節奏",
-      "title": "春夏睡衣、寢具與枕頭材質：熟齡睡眠的可執行選購",
+      "title": "春夏睡衣、寢具與枕頭材質：睡眠的可執行選購",
       "priority": 79,
       "seasonFit": "spring-summer",
       "intentType": "問題解法型",
@@ -618,7 +627,7 @@
       "id": "ss26-wellness-movement-09",
       "category": "wellness-movement",
       "cluster": "健康恢復與身體節奏",
-      "title": "慢走不是沒運動：台灣城市女性的步行恢復指南",
+      "title": "慢走不是沒運動：台灣城市讀者的步行恢復指南",
       "priority": 78,
       "seasonFit": "spring-summer",
       "intentType": "問題解法型",
@@ -628,7 +637,7 @@
       "id": "ss26-wellness-movement-10",
       "category": "wellness-movement",
       "cluster": "健康恢復與身體節奏",
-      "title": "熟齡女性的低風險飲食調整：不要極端斷食，先穩血糖與睡眠",
+      "title": "白領讀者的低風險飲食調整：不要極端斷食，先穩血糖與睡眠",
       "priority": 77,
       "seasonFit": "spring-summer",
       "intentType": "問題解法型",
@@ -638,7 +647,7 @@
       "id": "ss26-casual-chic-01",
       "category": "casual-chic",
       "cluster": "日常穿搭與移動衣櫥",
-      "title": "2026 春夏熟齡旅行膠囊衣櫥：7 天 10 件不狼狽搭配",
+      "title": "2026 春夏成熟旅行膠囊衣櫥：7 天 10 件不狼狽搭配",
       "priority": 76,
       "seasonFit": "spring-summer",
       "intentType": "情境指南型",
@@ -648,7 +657,7 @@
       "id": "ss26-casual-chic-02",
       "category": "casual-chic",
       "cluster": "日常穿搭與移動衣櫥",
-      "title": "Cloud Dancer 白怎麼穿：40+ 女性的白色、奶油白與亞麻層次",
+      "title": "Cloud Dancer 白怎麼穿：白領讀者的白色、奶油白與亞麻層次",
       "priority": 75,
       "seasonFit": "spring-summer",
       "intentType": "情境指南型",
@@ -668,7 +677,7 @@
       "id": "ss26-casual-chic-04",
       "category": "casual-chic",
       "cluster": "日常穿搭與移動衣櫥",
-      "title": "舒適鞋不是妥協：熟齡女性春夏通勤、旅行、聚餐鞋款指南",
+      "title": "舒適鞋不是妥協：白領讀者春夏通勤、旅行、聚餐鞋款指南",
       "priority": 73,
       "seasonFit": "spring-summer",
       "intentType": "情境指南型",
@@ -688,7 +697,7 @@
       "id": "ss26-casual-chic-06",
       "category": "casual-chic",
       "cluster": "日常穿搭與移動衣櫥",
-      "title": "40+ 女性的配件更新：絲巾、胸針、長項鍊與輕珠寶",
+      "title": "白領讀者的配件更新：絲巾、胸針、長項鍊與輕珠寶",
       "priority": 71,
       "seasonFit": "spring-summer",
       "intentType": "情境指南型",
@@ -708,7 +717,7 @@
       "id": "ss26-casual-chic-08",
       "category": "casual-chic",
       "cluster": "日常穿搭與移動衣櫥",
-      "title": "熟齡女性拍照穿搭：色彩、比例、包款與後鏡頭自拍",
+      "title": "白領讀者拍照穿搭：色彩、比例、包款與後鏡頭自拍",
       "priority": 69,
       "seasonFit": "spring-summer",
       "intentType": "情境指南型",
@@ -738,7 +747,7 @@
       "id": "ss26-outdoor-escapes-01",
       "category": "outdoor-escapes",
       "cluster": "旅行、輕戶外與獨旅安全",
-      "title": "熟齡女性第一次一個人旅行：住宿、交通、備援與安全感設計",
+      "title": "白領讀者第一次一個人旅行：住宿、交通、備援與安全感設計",
       "priority": 66,
       "seasonFit": "spring-summer",
       "intentType": "情境指南型",
@@ -788,7 +797,7 @@
       "id": "ss26-outdoor-escapes-06",
       "category": "outdoor-escapes",
       "cluster": "旅行、輕戶外與獨旅安全",
-      "title": "熟齡旅拍裝備最小化：手機、補光、自拍顯示器與備份",
+      "title": "旅拍裝備最小化：手機、補光、自拍顯示器與備份",
       "priority": 61,
       "seasonFit": "spring-summer",
       "intentType": "情境指南型",
@@ -808,7 +817,7 @@
       "id": "ss26-outdoor-escapes-08",
       "category": "outdoor-escapes",
       "cluster": "旅行、輕戶外與獨旅安全",
-      "title": "城市散步旅行：不趕景點的熟齡行程設計",
+      "title": "城市散步旅行：不趕景點的成熟行程設計",
       "priority": 59,
       "seasonFit": "spring-summer",
       "intentType": "情境指南型",
@@ -818,7 +827,7 @@
       "id": "ss26-outdoor-escapes-09",
       "category": "outdoor-escapes",
       "cluster": "旅行、輕戶外與獨旅安全",
-      "title": "世界盃北美旅行給 40+ 觀眾的體力與城市移動提醒",
+      "title": "世界盃北美旅行給 觀眾的體力與城市移動提醒",
       "priority": 58,
       "seasonFit": "spring-summer",
       "intentType": "情境指南型",
@@ -838,7 +847,7 @@
       "id": "ss26-ai-innovation-01",
       "category": "ai-innovation",
       "cluster": "AI 與未來工作",
-      "title": "45+ 工作者的 AI 入門 30 天：回信、摘要、簡報、查資料",
+      "title": "白領工作者的 AI 入門 30 天：回信、摘要、簡報、查資料",
       "priority": 56,
       "seasonFit": "all-season",
       "intentType": "問題解法型",
@@ -858,7 +867,7 @@
       "id": "ss26-ai-innovation-03",
       "category": "ai-innovation",
       "cluster": "AI 與未來工作",
-      "title": "熟齡轉職者的 AI 履歷與面試準備：用工具補速度，用經驗做判斷",
+      "title": "轉職者的 AI 履歷與面試準備：用工具補速度，用經驗做判斷",
       "priority": 54,
       "seasonFit": "all-season",
       "intentType": "問題解法型",
@@ -878,7 +887,7 @@
       "id": "ss26-ai-innovation-05",
       "category": "ai-innovation",
       "cluster": "AI 與未來工作",
-      "title": "AI 會取代行政工作嗎：熟齡女性如何把經驗變成不可替代價值",
+      "title": "AI 會取代行政工作嗎：白領讀者如何把經驗變成不可替代價值",
       "priority": 52,
       "seasonFit": "all-season",
       "intentType": "問題解法型",
@@ -898,7 +907,7 @@
       "id": "ss26-ai-innovation-07",
       "category": "ai-innovation",
       "cluster": "AI 與未來工作",
-      "title": "AI shopper 時代的熟齡購物：如何比價、查評價與避免錯買",
+      "title": "AI shopper 時代的高效率購物：如何比價、查評價與避免錯買",
       "priority": 52,
       "seasonFit": "all-season",
       "intentType": "問題解法型",
@@ -908,7 +917,7 @@
       "id": "ss26-ai-innovation-08",
       "category": "ai-innovation",
       "cluster": "AI 與未來工作",
-      "title": "智慧眼鏡與 AI wearable：熟齡讀者真的需要嗎",
+      "title": "智慧眼鏡與 AI wearable：白領讀者真的需要嗎",
       "priority": 52,
       "seasonFit": "all-season",
       "intentType": "問題解法型",
@@ -938,7 +947,7 @@
       "id": "ss26-runway-trends-01",
       "category": "runway-trends",
       "cluster": "趨勢轉譯",
-      "title": "2026 春夏趨勢轉譯：哪些能進 40+ 女性日常衣櫥",
+      "title": "2026 春夏趨勢轉譯：哪些能進 白領讀者日常衣櫥",
       "priority": 52,
       "seasonFit": "spring-summer",
       "intentType": "趨勢翻譯型",
@@ -958,7 +967,7 @@
       "id": "ss26-runway-trends-03",
       "category": "runway-trends",
       "cluster": "趨勢轉譯",
-      "title": "Utility dressing：機能口袋、工裝褲與熟齡比例修飾",
+      "title": "Utility dressing：機能口袋、工裝褲與成熟比例修飾",
       "priority": 52,
       "seasonFit": "spring-summer",
       "intentType": "趨勢翻譯型",
@@ -1008,7 +1017,7 @@
       "id": "ss26-runway-trends-08",
       "category": "runway-trends",
       "cluster": "趨勢轉譯",
-      "title": "2026 春夏鞋款趨勢：厚底夾腳、低跟楔型、芭蕾平底與熟齡腳感",
+      "title": "2026 春夏鞋款趨勢：厚底夾腳、低跟楔型、芭蕾平底與舒適腳感",
       "priority": 52,
       "seasonFit": "spring-summer",
       "intentType": "趨勢翻譯型",
@@ -1058,7 +1067,7 @@
       "id": "ss26-designer-perspective-03",
       "category": "designer-perspective",
       "cluster": "設計、品牌與工藝觀察",
-      "title": "珠寶作為熟齡自我贈禮：品牌敘事、工藝與長期使用價值",
+      "title": "珠寶作為自我贈禮：品牌敘事、工藝與長期使用價值",
       "priority": 52,
       "seasonFit": "spring-summer",
       "intentType": "趨勢翻譯型",
@@ -1078,7 +1087,7 @@
       "id": "ss26-designer-perspective-05",
       "category": "designer-perspective",
       "cluster": "設計、品牌與工藝觀察",
-      "title": "台灣品牌如何做熟齡女性內容：不裝年輕，也不把年齡當問題",
+      "title": "台灣品牌如何做白領讀者內容：不討好年齡焦慮，也不把年齡當問題",
       "priority": 52,
       "seasonFit": "spring-summer",
       "intentType": "趨勢翻譯型",
@@ -1128,7 +1137,7 @@
       "id": "ss26-designer-perspective-10",
       "category": "designer-perspective",
       "cluster": "設計、品牌與工藝觀察",
-      "title": "熟齡讀者的審美不是保守：如何寫出成熟但不老氣的設計評論",
+      "title": "白領讀者的審美不是保守：如何寫出成熟但不老氣的設計評論",
       "priority": 52,
       "seasonFit": "spring-summer",
       "intentType": "趨勢翻譯型",
@@ -1138,21 +1147,21 @@
   "ownerPages": [
     {
       "id": "spring-summer-2026",
-      "title": "2026 春夏熟齡生活企劃",
+      "title": "2026 春夏生活企劃",
       "url": "spring-summer-2026.html",
       "role": "seasonal-hub",
       "priorityThemes": [
         "春夏睡眠熱感",
         "旅行膠囊衣櫥",
-        "熟齡獨旅",
+        "城市旅行",
         "低壓社交",
-        "45+ AI 工作重整",
+        "白領 AI 工作重整",
         "趨勢轉譯"
       ]
     },
     {
       "id": "mature-life-reset",
-      "title": "熟齡人生重整",
+      "title": "人生重整",
       "url": "mature-life-reset.html",
       "role": "intent-owner-page",
       "priorityThemes": [
@@ -1166,7 +1175,7 @@
     },
     {
       "id": "body-rhythm-reset",
-      "title": "熟齡健康恢復與身體節奏",
+      "title": "健康恢復與身體節奏",
       "url": "body-rhythm-reset.html",
       "role": "intent-owner-page",
       "priorityThemes": [
@@ -1180,13 +1189,13 @@
     },
     {
       "id": "ai-work-reset-45",
-      "title": "45+ AI 工作重整",
+      "title": "白領 AI 工作重整",
       "url": "ai-work-reset-45.html",
       "role": "intent-owner-page",
       "priorityThemes": [
         "AI 入門",
         "辦公室 AI 協作",
-        "45+ 履歷面試",
+        "履歷面試",
         "第二曲線",
         "副業最小測試",
         "薪資談判與職涯價值"
@@ -1216,7 +1225,7 @@
         "白色與靜奢",
         "材質判斷",
         "春夏配件",
-        "熟齡風格",
+        "個人風格",
         "個人風格篩選"
       ]
     }

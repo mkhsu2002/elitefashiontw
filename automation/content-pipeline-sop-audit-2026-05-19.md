@@ -34,9 +34,9 @@ GitHub main -> GitHub Pages -> Cloudflare 自訂網域代理 -> https://tw.elite
 - `automation/topic-backlog.json`
 - `automation/life-proposals-pruning-map.md`
 
-網站核心受眾是 40+ 熟齡女性，主軸包含：
+網站後續內容的內部核心受眾已調整為 30 到 50 歲白領菁英與高效率生活讀者；前台標題與正文不應直接用年齡標籤框定讀者。主軸包含：
 
-- 熟齡人生重整
+- 生活決策與職涯效率
 - 健康恢復與身體節奏
 - 日常穿搭與移動衣櫥
 - 生活品味與工具化生活
@@ -49,8 +49,8 @@ GitHub main -> GitHub Pages -> Cloudflare 自訂網域代理 -> https://tw.elite
 - `lifestyle-culture` 是主核心分類。
 - `wellness-movement` 前台定位為「健康恢復」。
 - `casual-chic` 聚焦日常穿搭與移動衣櫥。
-- `outdoor-escapes` 聚焦熟齡獨旅、輕戶外與長途移動。
-- `ai-innovation` 聚焦 45+ 工作者與第二曲線的 AI 採用。
+- `outdoor-escapes` 聚焦城市旅行、輕戶外與長途移動。
+- `ai-innovation` 聚焦白領工作者、創作者、顧問與主管的 AI 採用。
 - `runway-trends` 與 `designer-perspective` 採低頻高品質策略。
 - `life-proposals` 停止作為新文章分類擴張。
 - `high-performance` 不再作獨立新增分類。
@@ -440,7 +440,7 @@ wellness-movement: 16
 目前 queue 摘要：
 
 ```text
-queue updatedAt: 2026-05-13T06:01:11Z
+queue updatedAt: 2026-05-19T21:38:13Z
 nextQueueSequence: 13
 series: 12
 ```
@@ -448,14 +448,14 @@ series: 12
 近期 queue 狀態：
 
 ```text
-Q-0005 completed 中年未婚高知識女性如何學會一個人生活
-Q-0006 in_progress 中年未婚海歸返台女性如何學會一個人生活
-Q-0007 planned 中年未婚創業女性如何學會一個人生活
-Q-0008 planned 中年未婚大型企業高管女性如何學會一個人生活
-Q-0009 planned 中年喪偶高知識女性如何學會一個人生活
-Q-0010 planned 中年喪偶海歸返台女性如何學會一個人生活
-Q-0011 planned 中年喪偶創業女性如何學會一個人生活
-Q-0012 planned 中年喪偶大型企業高管女性如何學會一個人生活
+Q-0005 completed 既有一人生活系列
+Q-0006 in_progress 海歸返台的一人生活重構：居住、社交與日常節奏指南
+Q-0007 planned 創業者的一人生活提案：工作節奏、居家秩序與關係邊界
+Q-0008 planned 高階工作者的一人生活：事業、獨處與支持系統
+Q-0009 planned 重新一人：高知工作者的喪偶後生活重建系列
+Q-0010 planned 返台再生：海歸喪偶後的一人生活重建指南
+Q-0011 planned 喪偶後的創業：自我照護與公司穩定指南
+Q-0012 planned 一個人的再出發：喪偶後的高管生活重建
 ```
 
 ## 十、目前風險與建議
