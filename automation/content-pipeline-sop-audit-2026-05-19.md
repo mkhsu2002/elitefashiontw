@@ -116,8 +116,8 @@ automation/prompts/article-writer.md
 
 - OpenAI Responses API
   - endpoint: `https://api.openai.com/v1/responses`
-  - default writer model: `gpt-5-mini`
-  - default planner model: `gpt-5-mini`
+  - default writer model: `gpt-5.2`
+  - default planner model: `gpt-5.2`
 - NVIDIA chat completions
   - endpoint: `https://integrate.api.nvidia.com/v1/chat/completions`
   - README 記錄正式曾用 `deepseek-ai/deepseek-v4-pro`

@@ -457,8 +457,8 @@ OpenAI 並沒有被覆蓋，仍完整保留作為 fallback：
 - Provider：`openai`
 - Endpoint：`https://api.openai.com/v1/responses`
 - API mode：`responses`
-- Writer model：`gpt-5-mini`
-- Planner model：`gpt-5-mini`
+- Writer model：`gpt-5.2`
+- Planner model：`gpt-5.2`
 
 ### 程式層備註
 
@@ -543,8 +543,8 @@ OpenAI 並沒有被覆蓋，仍完整保留作為 fallback：
 1. 不需要重建 secret，只要保留既有 `CONTENT_MODEL_API_KEY`
 2. 將 variable `CONTENT_MODEL_PROVIDER` 改回 `openai`
 3. 確認：
-   - `OPENAI_CONTENT_MODEL=gpt-5-mini`
-   - `OPENAI_CONTENT_PLANNER_MODEL=gpt-5-mini`
+   - `OPENAI_CONTENT_MODEL=gpt-5.2`
+   - `OPENAI_CONTENT_PLANNER_MODEL=gpt-5.2`
 4. 建議先跑最小 smoke test，再恢復正式排程
 
 ### 切換時的注意事項

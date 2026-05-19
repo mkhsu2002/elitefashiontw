@@ -58,8 +58,8 @@ jobs:
             echo "CONTENT_MODEL_API_KEY=${OPENAI_CONTENT_MODEL_API_KEY}" >> "$GITHUB_ENV"
             echo "CONTENT_MODEL_ENDPOINT=https://api.openai.com/v1/responses" >> "$GITHUB_ENV"
             echo "CONTENT_MODEL_API_MODE=responses" >> "$GITHUB_ENV"
-            echo "CONTENT_MODEL=${OPENAI_CONTENT_MODEL:-gpt-5-mini}" >> "$GITHUB_ENV"
-            echo "CONTENT_PLANNER_MODEL=${OPENAI_CONTENT_PLANNER_MODEL:-gpt-5-mini}" >> "$GITHUB_ENV"
+            echo "CONTENT_MODEL=${OPENAI_CONTENT_MODEL:-gpt-5.2}" >> "$GITHUB_ENV"
+            echo "CONTENT_PLANNER_MODEL=${OPENAI_CONTENT_PLANNER_MODEL:-gpt-5.2}" >> "$GITHUB_ENV"
           fi
 
       - name: Generate Scheduled Article
