@@ -678,7 +678,15 @@ def build_existing_title_context(
 
 def render_markdown_body(article: dict[str, Any]) -> str:
     lines = [f"# {article['title']}", "", article["intro"], ""]
-    for section in article["sections"]:
+    inline_ctas_by_section: dict[int, list[dict[str, Any]]] = {}
+    for inline_cta in article.get("inlineCtas", []):
+        try:
+            after_section = int(inline_cta.get("afterSection", 0))
+        except (TypeError, ValueError):
+            continue
+        if after_section > 0:
+            inline_ctas_by_section.setdefault(after_section, []).append(inline_cta)
+    for index, section in enumerate(article["sections"], start=1):
         lines.append(f"## {section['heading']}")
         lines.append("")
         for paragraph in section.get("paragraphs", []):
@@ -687,6 +695,17 @@ def render_markdown_body(article: dict[str, Any]) -> str:
         for bullet in section.get("bullets", []):
             lines.append(f"- {bullet}")
         if section.get("bullets"):
+            lines.append("")
+        for inline_cta in inline_ctas_by_section.get(index, []):
+            heading = str(inline_cta.get("heading", "")).strip() or "編輯精選"
+            text = str(inline_cta.get("text", "")).strip()
+            lines.append(f"## {heading}")
+            lines.append("")
+            if text:
+                lines.append(text)
+                lines.append("")
+            for link in cta_links(inline_cta):
+                lines.append(f"- [{link['label']}]({link['url']})")
             lines.append("")
     if article.get("faq"):
         lines.append("## FAQ")
@@ -734,6 +753,28 @@ def render_bullets(bullets: list[str]) -> str:
             <ul class="article-bullets">
 {items}
             </ul>"""
+
+
+def render_inline_cta(cta: dict[str, Any]) -> str:
+    links = cta_links(cta)
+    if not links:
+        return ""
+    eyebrow = str(cta.get("eyebrow", "")).strip()
+    heading = str(cta.get("heading", "")).strip() or "編輯精選"
+    text = str(cta.get("text", "")).strip()
+    buttons = "\n".join(
+        f'                <a href="{html.escape(link["url"])}"{cta_link_attrs(link["url"])}>{html.escape(link["label"])}</a>'
+        for link in links
+    )
+    eyebrow_html = f'            <span class="article-inline-cta-eyebrow">{html.escape(eyebrow)}</span>\n' if eyebrow else ""
+    text_html = f"            <p>{html.escape(text)}</p>\n" if text else ""
+    return f"""
+        <aside class="article-inline-cta">
+{eyebrow_html}            <h2>{html.escape(heading)}</h2>
+{text_html}            <div class="article-cta-links">
+{buttons}
+            </div>
+        </aside>"""
 
 
 def cta_links(cta: dict[str, Any]) -> list[dict[str, str]]:
@@ -846,15 +887,26 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         f'                <li><a href="{html.escape(item["url"])}">{html.escape(item["title"])}</a></li>'
         for item in article["extendedReading"]
     )
-    section_html = "\n".join(
-        f"""
+    inline_ctas_by_section: dict[int, list[dict[str, Any]]] = {}
+    for inline_cta in article.get("inlineCtas", []):
+        try:
+            after_section = int(inline_cta.get("afterSection", 0))
+        except (TypeError, ValueError):
+            continue
+        if after_section > 0:
+            inline_ctas_by_section.setdefault(after_section, []).append(inline_cta)
+    section_parts = []
+    for index, section in enumerate(article["sections"], start=1):
+        section_parts.append(
+            f"""
         <section class="article-section">
             <h2>{html.escape(section['heading'])}</h2>
 {render_paragraphs(section.get('paragraphs', []))}
 {render_bullets(section.get('bullets', []))}
         </section>"""
-        for section in article["sections"]
-    )
+        )
+        section_parts.extend(render_inline_cta(item) for item in inline_ctas_by_section.get(index, []))
+    section_html = "\n".join(section_parts)
     cta_buttons = "\n".join(
         f'            <a href="{html.escape(link["url"])}"{cta_link_attrs(link["url"])}>{html.escape(link["label"])}</a>'
         for link in cta_links(article["cta"])
@@ -967,12 +1019,12 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
             margin-bottom: 34px;
             box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
         }}
-        .article-section h2, .article-faq h2, .article-related h2, .article-cta h2 {{
+        .article-section h2, .article-faq h2, .article-related h2, .article-cta h2, .article-inline-cta h2 {{
             font-family: 'Playfair Display', serif;
             font-size: 2rem;
             margin: 3.4rem 0 1.2rem;
         }}
-        .article-section p, .article-faq p, .article-cta p {{
+        .article-section p, .article-faq p, .article-cta p, .article-inline-cta p {{
             margin-bottom: 1.2rem;
             color: #2d2d2d;
             font-size: 1.08rem;
@@ -1003,6 +1055,25 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
             padding: 28px;
             border-radius: 18px;
             background: linear-gradient(135deg, rgba(197,160,89,0.14), rgba(17,17,17,0.04));
+        }}
+        .article-inline-cta {{
+            margin: 2.6rem 0 1.2rem;
+            padding: 26px;
+            border-radius: 18px;
+            border: 1px solid rgba(197,160,89,0.35);
+            background: #fbf8f1;
+            box-shadow: 0 16px 34px rgba(17, 17, 17, 0.06);
+        }}
+        .article-inline-cta-eyebrow {{
+            display: inline-block;
+            margin-bottom: 0.7rem;
+            font-size: 0.8rem;
+            letter-spacing: 0;
+            color: #8a6a2f;
+            font-weight: 700;
+        }}
+        .article-inline-cta h2 {{
+            margin: 0 0 0.9rem;
         }}
         .article-cta a {{
             display: inline-block;

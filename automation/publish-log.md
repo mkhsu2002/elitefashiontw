@@ -21,7 +21,7 @@
 - 檔案：lifestyle-culture/living-room-work-corner-lighting-scent-storage.html
 - 類型：manual-codex-momo-affiliate
 
-## 2026-05-20T04:52:05Z｜下班後的安定感：香氛、燈光與收納的居家升級順序
+## 2026-05-20T04:52:05Z｜Elite Fashion TW｜下班後的安定感：香氛、燈光與收納的居家升級順序
 
 - 文章 ID：auto-20260520045205-home-evening-scent-lighting-storage-ritual
 - URL：https://tw.elitefasion.com/lifestyle-culture/home-evening-scent-lighting-storage-ritual.html
