@@ -1037,6 +1037,7 @@ def related_links(current_slug: str) -> str:
 def render_page(guide: dict[str, object]) -> str:
     report = REPORTS[guide["slug"]]
     canonical = f"{BASE_URL}/uap-ufo-declassified/{guide['slug']}.html"
+    cover_url = f"{BASE_URL}/images/optimized/article-covers/{guide['slug']}.jpg"
     tags = ", ".join(guide["keywords"])
     sources_json = [
         {"@type": "WebPage", "name": label, "url": url}
@@ -1047,6 +1048,7 @@ def render_page(guide: dict[str, object]) -> str:
         "@type": "Article",
         "headline": guide["title"],
         "description": guide["description"],
+        "image": cover_url,
         "datePublished": PUBLISHED_ISO,
         "dateModified": MODIFIED_ISO,
         "author": {"@type": "Organization", "name": "Elite Fashion"},
@@ -1074,8 +1076,9 @@ def render_page(guide: dict[str, object]) -> str:
     <meta property="og:url" content="{esc(canonical)}">
     <meta property="og:title" content="{esc(guide["title"])}">
     <meta property="og:description" content="{esc(guide["description"])}">
-    <meta property="og:image" content="{BASE_URL}/images/logo.jpg">
+    <meta property="og:image" content="{cover_url}">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{cover_url}">
     <link rel="canonical" href="{esc(canonical)}">
     <link rel="stylesheet" href="../css/styles.css?v=1.2">
     <link rel="stylesheet" href="../css/uap-declassified.css?v=1.2">

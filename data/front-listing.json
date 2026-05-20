@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-20T00:39:01Z",
+  "updatedAt": "2026-05-20T00:44:41Z",
   "latest": [
     {
       "id": "auto-20260519221627-beginner-hiking-gear-order-light-trail",
@@ -182,7 +182,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/aaro-historical-record-report.html",
-      "heroImage": "images/logo.jpg",
+      "heroImage": "images/optimized/article-covers/aaro-historical-record-report.jpg",
       "tags": [
         "AARO Historical Record Report",
         "off-world technology",
@@ -201,7 +201,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/cia-robertson-panel-durant-report.html",
-      "heroImage": "images/logo.jpg",
+      "heroImage": "images/optimized/article-covers/cia-robertson-panel-durant-report.jpg",
       "tags": [
         "Robertson Panel",
         "Durant Report",
@@ -220,7 +220,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/congress-2023-uap-hearing.html",
-      "heroImage": "images/logo.jpg",
+      "heroImage": "images/optimized/article-covers/congress-2023-uap-hearing.jpg",
       "tags": [
         "UAP hearing transcript",
         "David Grusch",
@@ -265,7 +265,7 @@
           "publishedAt": "2026-05-09T18:52:32Z",
           "publishedDateText": "2026年5月9日",
           "relativeUrl": "ai-innovation/neobabylon-taiwan-sci-fi-story.html",
-          "heroImage": "https://neobabylon.icareu.tw/og-image.jpg",
+          "heroImage": "images/optimized/article-covers/neobabylon-taiwan-sci-fi-story.jpg",
           "tags": [
             "新巴比倫",
             "台灣科幻",
@@ -1034,7 +1034,7 @@
           "publishedAt": "2026-05-09T20:29:36Z",
           "publishedDateText": "2026年5月9日",
           "relativeUrl": "lifestyle-culture/living-alone-with-style-mature-women.html",
-          "heroImage": "images/generated/life-proposals/finding-yourself-after-40.png",
+          "heroImage": "images/optimized/article-covers/living-alone-with-style-mature-women.jpg",
           "tags": [
             "生活品味",
             "一個人的生活",
@@ -1053,7 +1053,7 @@
           "publishedAt": "2026-05-09T20:25:50Z",
           "publishedDateText": "2026年5月9日",
           "relativeUrl": "lifestyle-culture/single-women-relationship-strategies-after-40.html",
-          "heroImage": "images/generated/fashion-1.png",
+          "heroImage": "images/optimized/article-covers/single-women-relationship-strategies-after-40.jpg",
           "tags": [
             "中年未婚",
             "情感界線",
@@ -1072,7 +1072,7 @@
           "publishedAt": "2026-05-08T05:15:36Z",
           "publishedDateText": "2026年5月8日",
           "relativeUrl": "lifestyle-culture/中年未婚女性獨居評估與行動清單.html",
-          "heroImage": "images/generated/lifestyle/notion-obsidian.png",
+          "heroImage": "images/optimized/article-covers/中年未婚女性獨居評估與行動清單.jpg",
           "tags": [
             "一個人住",
             "熟齡人生重整",
@@ -1091,7 +1091,7 @@
           "publishedAt": "2026-05-06T05:39:20Z",
           "publishedDateText": "2026年5月6日",
           "relativeUrl": "lifestyle-culture/high-level-female-executive-post-divorce-social-reconstruction.html",
-          "heroImage": "images/generated/lifestyle/boutique-hotels.png",
+          "heroImage": "images/optimized/article-covers/high-level-female-executive-post-divorce-social-reconstruction.jpg",
           "tags": [
             "中年離婚",
             "高管女性",
