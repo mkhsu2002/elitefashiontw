@@ -1,7 +1,57 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-20T14:10:22Z",
+  "updatedAt": "2026-05-20T14:27:48Z",
   "entries": [
+    {
+      "articleId": "auto-20260520142748-pet-daily-supplies-food-snack-cleaning-outing",
+      "title": "Elite Fashion｜毛孩日常補貨清單：主食、零食、清潔與外出用品怎麼分工",
+      "publishedAt": "2026-05-20T14:27:48Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/pet-daily-supplies-food-snack-cleaning-outing.html",
+      "file": "lifestyle-culture/pet-daily-supplies-food-snack-cleaning-outing.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/pet-daily-supplies-food-snack-cleaning-outing.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520142748-cat-home-litter-toys-food-cleaning-order",
+      "title": "Elite Fashion｜貓咪生活整理：貓砂、玩具、食品與居家清潔的採買順序",
+      "publishedAt": "2026-05-20T14:27:48Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/cat-home-litter-toys-food-cleaning-order.html",
+      "file": "lifestyle-culture/cat-home-litter-toys-food-cleaning-order.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/cat-home-litter-toys-food-cleaning-order.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520142748-pet-friendly-home-cleaning-floor-laundry-storage",
+      "title": "Elite Fashion｜寵物友善居家清潔：地板、洗衣、氣味管理與收納怎麼看",
+      "publishedAt": "2026-05-20T14:27:48Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/pet-friendly-home-cleaning-floor-laundry-storage.html",
+      "file": "lifestyle-culture/pet-friendly-home-cleaning-floor-laundry-storage.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/pet-friendly-home-cleaning-floor-laundry-storage.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520142748-family-gifts-blocks-books-puzzles-learning-toys",
+      "title": "Elite Fashion｜家庭禮物與益智玩具：積木、桌遊、拼圖與書店選物怎麼挑",
+      "publishedAt": "2026-05-20T14:27:48Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/family-gifts-blocks-books-puzzles-learning-toys.html",
+      "file": "lifestyle-culture/family-gifts-blocks-books-puzzles-learning-toys.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/family-gifts-blocks-books-puzzles-learning-toys.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520142748-parent-child-outing-tableware-oral-care-maternity-bag",
+      "title": "Elite Fashion｜親子外出與生活小物：餐具、口腔清潔、孕產穿搭與外出包配置",
+      "publishedAt": "2026-05-20T14:27:48Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/parent-child-outing-tableware-oral-care-maternity-bag.html",
+      "file": "lifestyle-culture/parent-child-outing-tableware-oral-care-maternity-bag.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/parent-child-outing-tableware-oral-care-maternity-bag.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
     {
       "articleId": "auto-20260520141022-daily-skincare-essence-mask-body-sunscreen-order",
       "title": "Elite Fashion｜日常保養別堆太多：精華、面膜、身體保養與防曬的整理順序",

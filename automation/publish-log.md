@@ -1,5 +1,40 @@
 # 發文紀錄
 
+## 2026-05-20T14:27:48Z｜Elite Fashion｜毛孩日常補貨清單：主食、零食、清潔與外出用品怎麼分工
+
+- 文章 ID：auto-20260520142748-pet-daily-supplies-food-snack-cleaning-outing
+- URL：https://tw.elitefasion.com/lifestyle-culture/pet-daily-supplies-food-snack-cleaning-outing.html
+- 檔案：lifestyle-culture/pet-daily-supplies-food-snack-cleaning-outing.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T14:27:48Z｜Elite Fashion｜貓咪生活整理：貓砂、玩具、食品與居家清潔的採買順序
+
+- 文章 ID：auto-20260520142748-cat-home-litter-toys-food-cleaning-order
+- URL：https://tw.elitefasion.com/lifestyle-culture/cat-home-litter-toys-food-cleaning-order.html
+- 檔案：lifestyle-culture/cat-home-litter-toys-food-cleaning-order.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T14:27:48Z｜Elite Fashion｜寵物友善居家清潔：地板、洗衣、氣味管理與收納怎麼看
+
+- 文章 ID：auto-20260520142748-pet-friendly-home-cleaning-floor-laundry-storage
+- URL：https://tw.elitefasion.com/lifestyle-culture/pet-friendly-home-cleaning-floor-laundry-storage.html
+- 檔案：lifestyle-culture/pet-friendly-home-cleaning-floor-laundry-storage.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T14:27:48Z｜Elite Fashion｜家庭禮物與益智玩具：積木、桌遊、拼圖與書店選物怎麼挑
+
+- 文章 ID：auto-20260520142748-family-gifts-blocks-books-puzzles-learning-toys
+- URL：https://tw.elitefasion.com/lifestyle-culture/family-gifts-blocks-books-puzzles-learning-toys.html
+- 檔案：lifestyle-culture/family-gifts-blocks-books-puzzles-learning-toys.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T14:27:48Z｜Elite Fashion｜親子外出與生活小物：餐具、口腔清潔、孕產穿搭與外出包配置
+
+- 文章 ID：auto-20260520142748-parent-child-outing-tableware-oral-care-maternity-bag
+- URL：https://tw.elitefasion.com/lifestyle-culture/parent-child-outing-tableware-oral-care-maternity-bag.html
+- 檔案：lifestyle-culture/parent-child-outing-tableware-oral-care-maternity-bag.html
+- 類型：manual-codex-momo-affiliate
+
 ## 2026-05-20T14:10:22Z｜Elite Fashion｜日常保養別堆太多：精華、面膜、身體保養與防曬的整理順序
 
 - 文章 ID：auto-20260520141022-daily-skincare-essence-mask-body-sunscreen-order
