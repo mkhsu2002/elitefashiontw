@@ -1,5 +1,105 @@
 [
   {
+    "id": "auto-20260520070134-cold-brew-tea-gift-box-afternoon-guide",
+    "title": "Elite Fashion｜冷泡茶與茶禮盒的選擇順序",
+    "excerpt": "從日常飲用、下午茶、待客到送禮，整理茶包、冷泡茶與茶禮盒的實用判斷。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/cold-brew-tea-gift-box-afternoon-guide.html",
+    "publishedDateText": "2026年5月20日",
+    "tags": [
+      "冷泡茶",
+      "茶禮盒",
+      "下午茶",
+      "送禮"
+    ],
+    "faqQuestions": [
+      "冷泡茶可以當成每天辦公室飲品嗎？",
+      "茶禮盒怎麼避免送得太制式？",
+      "下午茶適合選味道很特殊的茶嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260520070134-freezer-meal-prep-chicken-sweet-potato-vegetables",
+    "title": "Elite Fashion｜不想每天煮飯的冷凍庫清單",
+    "excerpt": "從主食、蛋白質、蔬菜到料理包，整理忙碌工作日可延續的冷凍庫備餐方式。",
+    "category": "wellness-movement",
+    "categoryLabel": "健康恢復",
+    "relativeUrl": "wellness-movement/freezer-meal-prep-chicken-sweet-potato-vegetables.html",
+    "publishedDateText": "2026年5月20日",
+    "tags": [
+      "冷凍庫清單",
+      "備餐",
+      "舒肥雞胸",
+      "冷凍蔬菜"
+    ],
+    "faqQuestions": [
+      "冷凍食品可以取代每天現煮嗎？",
+      "舒肥雞胸或料理包怎麼避免吃膩？",
+      "辦公室帶餐最需要注意什麼？"
+    ]
+  },
+  {
+    "id": "auto-20260520070134-office-coffee-beans-drip-bags-workday-guide",
+    "title": "Elite Fashion｜辦公室咖啡補給怎麼選",
+    "excerpt": "從咖啡豆、濾掛、掛耳包到器具收納，整理忙碌工作日更穩定的咖啡補給方式。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/office-coffee-beans-drip-bags-workday-guide.html",
+    "publishedDateText": "2026年5月20日",
+    "tags": [
+      "辦公室咖啡",
+      "濾掛咖啡",
+      "咖啡豆",
+      "日常補給"
+    ],
+    "faqQuestions": [
+      "辦公室咖啡該選咖啡豆還是濾掛？",
+      "咖啡送禮最容易忽略什麼？",
+      "辦公室要不要買很多咖啡器具？"
+    ]
+  },
+  {
+    "id": "auto-20260520070134-office-drinks-sparkling-plant-milk-tea-coffee",
+    "title": "Elite Fashion｜辦公室飲品清單怎麼搭",
+    "excerpt": "把氣泡飲、植物奶、茶包與咖啡分成不同時段，整理更不混亂的辦公室茶水間。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/office-drinks-sparkling-plant-milk-tea-coffee.html",
+    "publishedDateText": "2026年5月20日",
+    "tags": [
+      "辦公室飲品",
+      "植物奶",
+      "茶包",
+      "氣泡飲"
+    ],
+    "faqQuestions": [
+      "辦公室飲品一定要準備很多種類嗎？",
+      "草本飲或酵素飲可以怎麼寫才保守？",
+      "植物奶適合放辦公室嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260520070134-quality-gifting-coffee-tea-massage-umbrella-custom",
+    "title": "Elite Fashion｜質感送禮怎麼選",
+    "excerpt": "用「對方會不會用」做核心，整理咖啡、茶、雨傘、客製小物與居家放鬆設備的送禮順序。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/quality-gifting-coffee-tea-massage-umbrella-custom.html",
+    "publishedDateText": "2026年5月20日",
+    "tags": [
+      "質感送禮",
+      "伴手禮",
+      "咖啡茶禮",
+      "客製禮物"
+    ],
+    "faqQuestions": [
+      "送禮要不要一定選客製化？",
+      "按摩設備可以當禮物嗎？",
+      "咖啡或茶送禮如何避免太普通？"
+    ]
+  },
+  {
     "id": "auto-20260520061048-ai-workflow-laptop-spec-warranty-monitor-backup",
     "title": "Elite Fashion｜AI 工作流需要什麼筆電與備份配置",
     "excerpt": "不做規格迷信，從主機、外接螢幕、保固與資料備份整理設備順序。",

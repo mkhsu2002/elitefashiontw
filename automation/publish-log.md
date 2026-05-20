@@ -1,5 +1,40 @@
 # 發文紀錄
 
+## 2026-05-20T07:01:34Z｜Elite Fashion｜忙碌日常的辦公室咖啡補給：咖啡豆、濾掛與掛耳包怎麼選
+
+- 文章 ID：auto-20260520070134-office-coffee-beans-drip-bags-workday-guide
+- URL：https://tw.elitefasion.com/lifestyle-culture/office-coffee-beans-drip-bags-workday-guide.html
+- 檔案：lifestyle-culture/office-coffee-beans-drip-bags-workday-guide.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T07:01:34Z｜Elite Fashion｜冷泡茶與茶禮盒怎麼選：日常飲用、送禮與下午茶的不同判斷
+
+- 文章 ID：auto-20260520070134-cold-brew-tea-gift-box-afternoon-guide
+- URL：https://tw.elitefasion.com/lifestyle-culture/cold-brew-tea-gift-box-afternoon-guide.html
+- 檔案：lifestyle-culture/cold-brew-tea-gift-box-afternoon-guide.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T07:01:34Z｜Elite Fashion｜不想每天煮飯的冷凍庫清單：舒肥雞胸、地瓜、冷凍蔬菜與料理包
+
+- 文章 ID：auto-20260520070134-freezer-meal-prep-chicken-sweet-potato-vegetables
+- URL：https://tw.elitefasion.com/wellness-movement/freezer-meal-prep-chicken-sweet-potato-vegetables.html
+- 檔案：wellness-movement/freezer-meal-prep-chicken-sweet-potato-vegetables.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T07:01:34Z｜Elite Fashion｜辦公室飲品清單：氣泡飲、植物奶、茶包與咖啡怎麼搭
+
+- 文章 ID：auto-20260520070134-office-drinks-sparkling-plant-milk-tea-coffee
+- URL：https://tw.elitefasion.com/lifestyle-culture/office-drinks-sparkling-plant-milk-tea-coffee.html
+- 檔案：lifestyle-culture/office-drinks-sparkling-plant-milk-tea-coffee.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T07:01:34Z｜Elite Fashion｜質感送禮怎麼選：咖啡、茶、按摩設備、雨傘與客製小物
+
+- 文章 ID：auto-20260520070134-quality-gifting-coffee-tea-massage-umbrella-custom
+- URL：https://tw.elitefasion.com/lifestyle-culture/quality-gifting-coffee-tea-massage-umbrella-custom.html
+- 檔案：lifestyle-culture/quality-gifting-coffee-tea-massage-umbrella-custom.html
+- 類型：manual-codex-momo-affiliate
+
 ## 2026-05-20T06:10:48Z｜Elite Fashion｜高效率工作者的第二螢幕：外接螢幕、筆電與桌面配置怎麼選
 
 - 文章 ID：auto-20260520061048-second-monitor-laptop-desk-setup-ai-workflow
