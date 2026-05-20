@@ -780,6 +780,57 @@ def cta_link_attrs(url: str) -> str:
     return ""
 
 
+def render_site_footer(prefix: str = "") -> str:
+    return f"""
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ELITE FASHION</h3>
+                    <p>由 Elite Fashion 編輯團隊維護，整理時尚、科技、戶外與生活品味的可靠讀物。</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>探索主題</h4>
+                        <ul>
+                            <li><a href="{prefix}ai-innovation.html">人工智能</a></li>
+                            <li><a href="{prefix}runway-trends.html">秀場趨勢</a></li>
+                            <li><a href="{prefix}designer-perspective.html">設計師視角</a></li>
+                            <li><a href="{prefix}casual-chic.html">休閒時尚</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>生活方式</h4>
+                        <ul>
+                            <li><a href="{prefix}wellness-movement.html">健康恢復</a></li>
+                            <li><a href="{prefix}outdoor-escapes.html">戶外生活</a></li>
+                            <li><a href="{prefix}lifestyle-culture.html">生活品味</a></li>
+                            <li><a href="{prefix}search.html">站內搜尋</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>關於與聯絡</h4>
+                        <ul>
+                            <li><a href="{prefix}about.html">關於我們</a></li>
+                            <li><a href="{prefix}contact.html">聯絡我們</a></li>
+                            <li><a href="mailto:northpathca@gmail.com">northpathca@gmail.com</a></li>
+                            <li><a href="https://www.instagram.com/northpath.ca" target="_blank" rel="noopener">Instagram</a></li>
+                            <li><a href="https://www.facebook.com/northpathca/" target="_blank" rel="noopener">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 致力於定義精英生活藍圖。</p>
+                <div class="footer-brand-philosophy" style="margin-top: 10px; font-family: 'Playfair Display', serif; color: #999; font-size: 0.9rem; letter-spacing: 1px; text-align: center;">
+                    Elite Fasion = Faith + Passion <span style="margin: 0 10px;">|</span> 擁抱生命的不完美 Embracing Life's Imperfections
+                </div>
+                <img src="{prefix}images/footer-logo.jpg" alt="Elite Fashion" class="footer-logo">
+            </div>
+        </div>
+    </footer>"""
+
+
 def render_article_html(article: dict[str, Any], config: dict[str, Any], categories: dict[str, CategoryConfig]) -> str:
     category = categories.get(article["category"])
     category_label = category.label if category else article["category"]
@@ -1010,7 +1061,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
                 <li><a href="../wellness-movement.html">健康恢復</a></li>
                 <li><a href="../outdoor-escapes.html">戶外生活</a></li>
                 <li><a href="../lifestyle-culture.html">生活品味</a></li>
-                <li><a href="../all-articles.html">文章列表</a></li>
+                <li><a href="../search.html">搜尋</a></li>
                 <li><a href="../contact.html">聯絡我們</a></li>
             </ul>
         </div>
@@ -1022,6 +1073,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
                 <span>發布日期：{html.escape(article['publishedDateText'])}</span>
                 <span>分類：{html.escape(category_label)}</span>
                 <span>閱讀時間：約 {article['readTimeMinutes']} 分鐘</span>
+                <span>撰文：Elite Fashion 編輯團隊</span>
             </div>
             <h1 class="article-title">{html.escape(article['title'])}</h1>
             <p class="article-subtitle">{html.escape(article['excerpt'])}</p>
@@ -1053,6 +1105,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
 {disclaimer_html}
 {disclosure_html}
     </main>
+{render_site_footer("../")}
 
     <script src="../js/main.js"></script>
 </body>
@@ -1214,7 +1267,7 @@ def render_all_articles_page(config: dict[str, Any], categories: dict[str, Categ
                 <li><a href="wellness-movement.html">健康恢復</a></li>
                 <li><a href="outdoor-escapes.html">戶外生活</a></li>
                 <li><a href="lifestyle-culture.html">生活品味</a></li>
-                <li><a href="all-articles.html" class="active">文章列表</a></li>
+                <li><a href="search.html">搜尋</a></li>
                 <li><a href="contact.html">聯絡我們</a></li>
             </ul>
         </div>
@@ -1233,6 +1286,7 @@ def render_all_articles_page(config: dict[str, Any], categories: dict[str, Categ
 {''.join(sections)}
         </div>
     </main>
+{render_site_footer("")}
 
     <script src="js/main.js"></script>
 </body>
@@ -1266,7 +1320,17 @@ def render_search_page(config: dict[str, Any]) -> str:
         .search-shell {{
             max-width: 1000px;
             margin: 0 auto;
-            padding: 8rem 20px 4rem;
+            padding: 8rem 20px 5rem;
+        }}
+        .search-shell h1 {{
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.4rem, 4vw, 3.4rem);
+            margin-bottom: 0.8rem;
+        }}
+        .search-lede {{
+            color: #5f5a52;
+            line-height: 1.85;
+            margin-bottom: 1.4rem;
         }}
         .search-input {{
             width: 100%;
@@ -1299,6 +1363,11 @@ def render_search_page(config: dict[str, Any]) -> str:
         .search-empty {{
             color: #666;
         }}
+        .search-count {{
+            margin-top: 1rem;
+            color: #756d60;
+            font-size: 0.95rem;
+        }}
     </style>
 </head>
 <body>
@@ -1308,7 +1377,13 @@ def render_search_page(config: dict[str, Any]) -> str:
             <button class="mobile-menu-toggle" aria-label="開啟選單" aria-expanded="false"><span></span><span></span><span></span></button>
             <ul class="nav-menu">
                 <li><a href="index.html">首頁</a></li>
-                <li><a href="all-articles.html">文章列表</a></li>
+                <li><a href="ai-innovation.html">人工智能</a></li>
+                <li><a href="runway-trends.html">秀場趨勢</a></li>
+                <li><a href="designer-perspective.html">設計師視角</a></li>
+                <li><a href="casual-chic.html">休閒時尚</a></li>
+                <li><a href="wellness-movement.html">健康恢復</a></li>
+                <li><a href="outdoor-escapes.html">戶外生活</a></li>
+                <li><a href="lifestyle-culture.html">生活品味</a></li>
                 <li><a href="search.html" class="active">搜尋</a></li>
                 <li><a href="contact.html">聯絡我們</a></li>
             </ul>
@@ -1317,14 +1392,16 @@ def render_search_page(config: dict[str, Any]) -> str:
 
     <main class="search-shell">
         <h1>站內搜尋</h1>
-        <p>搜尋文章標題、摘要、FAQ 與標籤。</p>
+        <p class="search-lede">輸入品牌、商品、生活情境或文章主題，搜尋 Elite Fashion 站內文章、FAQ、標籤與系列內容。</p>
         <input id="search-input" class="search-input" type="search" placeholder="例如：Dify、客服、通勤穿搭、AI 代理人">
+        <div id="search-count" class="search-count"></div>
         <div id="search-results" class="search-results"></div>
     </main>
 
     <script>
         const input = document.getElementById('search-input');
         const results = document.getElementById('search-results');
+        const count = document.getElementById('search-count');
 
         function escapeHtml(value) {{
             return value
@@ -1337,12 +1414,15 @@ def render_search_page(config: dict[str, Any]) -> str:
         function render(items, query) {{
             if (!query) {{
                 results.innerHTML = '<p class="search-empty">輸入關鍵字後會在這裡顯示結果。</p>';
+                count.textContent = '';
                 return;
             }}
             if (!items.length) {{
                 results.innerHTML = '<p class="search-empty">找不到符合結果，請換個關鍵字試試看。</p>';
+                count.textContent = '0 筆結果';
                 return;
             }}
+            count.textContent = `${{items.length}} 筆相關結果`;
             results.innerHTML = items.map((item) => `
                 <article class="search-card">
                     <a href="${{item.relativeUrl}}">
@@ -1362,12 +1442,15 @@ def render_search_page(config: dict[str, Any]) -> str:
             input.value = initialQuery;
             const apply = () => {{
                 const query = input.value.trim().toLowerCase();
+                const terms = query.split(/\\s+/).filter(Boolean);
                 const filtered = items.filter((item) => {{
                     const haystack = [item.title, item.excerpt, ...(item.tags || []), ...(item.faqQuestions || [])]
                         .join(' ')
                         .toLowerCase();
-                    return haystack.includes(query);
+                    return terms.every((term) => haystack.includes(term));
                 }});
+                const nextUrl = query ? `search.html?q=${{encodeURIComponent(query)}}` : 'search.html';
+                window.history.replaceState(null, '', nextUrl);
                 render(filtered.slice(0, 50), query);
             }};
             input.addEventListener('input', apply);
@@ -1378,6 +1461,7 @@ def render_search_page(config: dict[str, Any]) -> str:
             results.innerHTML = '<p class="search-empty">搜尋索引載入失敗。</p>';
         }});
     </script>
+{render_site_footer("")}
     <script src="js/main.js"></script>
 </body>
 </html>

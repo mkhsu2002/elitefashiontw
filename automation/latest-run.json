@@ -1,13 +1,4 @@
 {
-  "status": "rewritten",
-  "updatedAt": "2026-05-19T22:34:44Z",
-  "articleCount": 5,
-  "slugs": [
-    "japanese-camping-style-entry-gear-order",
-    "summer-outdoor-sun-protection-rain-gear",
-    "scooter-commute-rain-gear-reflective-accessories",
-    "day-trip-bag-essentials-sun-charging-rainwear",
-    "beginner-hiking-gear-order-light-trail"
-  ],
-  "qualityProfile": "gpt-5.4-writer-standard-manual-rewrite"
+  "status": "synced",
+  "updatedAt": "2026-05-20T00:39:01Z"
 }

@@ -915,6 +915,57 @@ def esc(value: str) -> str:
     return html.escape(value, quote=True)
 
 
+def render_site_footer(prefix: str = "") -> str:
+    return f"""
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ELITE FASHION</h3>
+                    <p>由 Elite Fashion 編輯團隊維護，整理時尚、科技、戶外與生活品味的可靠讀物。</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>探索主題</h4>
+                        <ul>
+                            <li><a href="{prefix}ai-innovation.html">人工智能</a></li>
+                            <li><a href="{prefix}runway-trends.html">秀場趨勢</a></li>
+                            <li><a href="{prefix}designer-perspective.html">設計師視角</a></li>
+                            <li><a href="{prefix}casual-chic.html">休閒時尚</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>生活方式</h4>
+                        <ul>
+                            <li><a href="{prefix}wellness-movement.html">健康恢復</a></li>
+                            <li><a href="{prefix}outdoor-escapes.html">戶外生活</a></li>
+                            <li><a href="{prefix}lifestyle-culture.html">生活品味</a></li>
+                            <li><a href="{prefix}search.html">站內搜尋</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>關於與聯絡</h4>
+                        <ul>
+                            <li><a href="{prefix}about.html">關於我們</a></li>
+                            <li><a href="{prefix}contact.html">聯絡我們</a></li>
+                            <li><a href="mailto:northpathca@gmail.com">northpathca@gmail.com</a></li>
+                            <li><a href="https://www.instagram.com/northpath.ca" target="_blank" rel="noopener">Instagram</a></li>
+                            <li><a href="https://www.facebook.com/northpathca/" target="_blank" rel="noopener">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 致力於定義精英生活藍圖。</p>
+                <div class="footer-brand-philosophy" style="margin-top: 10px; font-family: 'Playfair Display', serif; color: #999; font-size: 0.9rem; letter-spacing: 1px; text-align: center;">
+                    Elite Fasion = Faith + Passion <span style="margin: 0 10px;">|</span> 擁抱生命的不完美 Embracing Life's Imperfections
+                </div>
+                <img src="{prefix}images/footer-logo.jpg" alt="Elite Fashion" class="footer-logo">
+            </div>
+        </div>
+    </footer>"""
+
+
 def render_list(items: list[str]) -> str:
     return "\n".join(f"                    <li>{esc(item)}</li>" for item in items)
 
@@ -1046,7 +1097,7 @@ def render_page(guide: dict[str, object]) -> str:
                 <li><a href="../index.html">首頁</a></li>
                 <li><a href="../ai-innovation.html">人工智能</a></li>
                 <li><a href="../lifestyle-culture.html">生活品味</a></li>
-                <li><a href="../all-articles.html">文章列表</a></li>
+                <li><a href="../search.html">搜尋</a></li>
                 <li><a href="../uap-ufo-declassified-database.html">UAP 總覽</a></li>
             </ul>
         </div>
@@ -1113,6 +1164,8 @@ def render_page(guide: dict[str, object]) -> str:
             </div>
         </article>
     </main>
+
+{render_site_footer("../")}
 
     <script src="../js/main.js"></script>
 </body>

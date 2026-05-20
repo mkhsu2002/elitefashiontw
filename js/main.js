@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             form.reset();
-            setStatus('已收到你的訊息，NorthPath.CA 會盡快回覆。', 'success');
+            setStatus('已收到你的訊息，Elite Fashion 編輯團隊會盡快回覆。', 'success');
         } catch (error) {
             setStatus(error.message || '訊息暫時無法送出，請直接寄信到 northpathca@gmail.com。', 'error');
         } finally {

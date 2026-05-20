@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T22:34:44Z",
+  "updatedAt": "2026-05-20T00:39:01Z",
   "latest": [
     {
       "id": "auto-20260519221627-beginner-hiking-gear-order-light-trail",
@@ -182,7 +182,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/aaro-historical-record-report.html",
-      "heroImage": "images/optimized/article-covers/aaro-historical-record-report.jpg",
+      "heroImage": "images/logo.jpg",
       "tags": [
         "AARO Historical Record Report",
         "off-world technology",
@@ -201,7 +201,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/cia-robertson-panel-durant-report.html",
-      "heroImage": "images/optimized/article-covers/cia-robertson-panel-durant-report.jpg",
+      "heroImage": "images/logo.jpg",
       "tags": [
         "Robertson Panel",
         "Durant Report",
@@ -220,7 +220,7 @@
       "publishedAt": "2026-05-12T00:00:00-07:00",
       "publishedDateText": "2026年5月12日",
       "relativeUrl": "uap-ufo-declassified/congress-2023-uap-hearing.html",
-      "heroImage": "images/optimized/article-covers/congress-2023-uap-hearing.jpg",
+      "heroImage": "images/logo.jpg",
       "tags": [
         "UAP hearing transcript",
         "David Grusch",
