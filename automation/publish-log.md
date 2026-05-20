@@ -1,5 +1,40 @@
 # 發文紀錄
 
+## 2026-05-20T14:10:22Z｜Elite Fashion｜日常保養別堆太多：精華、面膜、身體保養與防曬的整理順序
+
+- 文章 ID：auto-20260520141022-daily-skincare-essence-mask-body-sunscreen-order
+- URL：https://tw.elitefasion.com/lifestyle-culture/daily-skincare-essence-mask-body-sunscreen-order.html
+- 檔案：lifestyle-culture/daily-skincare-essence-mask-body-sunscreen-order.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T14:10:22Z｜Elite Fashion｜頭皮與髮品怎麼整理：洗髮餅、染護、造型與按摩梳的選擇
+
+- 文章 ID：auto-20260520141022-scalp-haircare-shampoo-color-styling-brush
+- URL：https://tw.elitefasion.com/lifestyle-culture/scalp-haircare-shampoo-color-styling-brush.html
+- 檔案：lifestyle-culture/scalp-haircare-shampoo-color-styling-brush.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T14:10:22Z｜Elite Fashion｜居家美甲與彩妝工具：新手友善材料、刷具與收納怎麼買
+
+- 文章 ID：auto-20260520141022-home-nail-makeup-tools-beginner-storage
+- URL：https://tw.elitefasion.com/casual-chic/home-nail-makeup-tools-beginner-storage.html
+- 檔案：casual-chic/home-nail-makeup-tools-beginner-storage.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T14:10:22Z｜Elite Fashion｜香氛與身體保養送禮：精油、蠟燭、毛巾與生活小物怎麼搭
+
+- 文章 ID：auto-20260520141022-scent-bodycare-gift-essential-oil-towel-small-goods
+- URL：https://tw.elitefasion.com/lifestyle-culture/scent-bodycare-gift-essential-oil-towel-small-goods.html
+- 檔案：lifestyle-culture/scent-bodycare-gift-essential-oil-towel-small-goods.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T14:10:22Z｜Elite Fashion｜會議前後的儀容整理包：髮品、補妝工具、香氛與小包配置
+
+- 文章 ID：auto-20260520141022-meeting-grooming-kit-hair-makeup-scent-small-bag
+- URL：https://tw.elitefasion.com/casual-chic/meeting-grooming-kit-hair-makeup-scent-small-bag.html
+- 檔案：casual-chic/meeting-grooming-kit-hair-makeup-scent-small-bag.html
+- 類型：manual-codex-momo-affiliate
+
 ## 2026-05-20T07:16:36Z｜Elite Fashion｜久站久坐的膝蓋與腰背支撐：護膝、護腰與鞋包重量怎麼看
 
 - 文章 ID：auto-20260520071636-knee-back-support-brace-workday-guide

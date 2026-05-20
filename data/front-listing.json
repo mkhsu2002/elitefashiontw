@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-05-20T14:03:08Z",
+  "updatedAt": "2026-05-20T14:19:18Z",
   "latest": [
+    {
+      "id": "auto-20260520141022-daily-skincare-essence-mask-body-sunscreen-order",
+      "title": "Elite Fashion｜日常保養別堆太多",
+      "excerpt": "從使用頻率、收納與出門前流程，整理精華、面膜、身體保養與防曬的日常順序。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "保養髮品與自我整理",
+      "publishedAt": "2026-05-20T14:10:22Z",
+      "publishedDateText": "2026年5月20日",
+      "relativeUrl": "lifestyle-culture/daily-skincare-essence-mask-body-sunscreen-order.html",
+      "heroImage": "images/optimized/article-covers/daily-skincare-essence-mask-body-sunscreen-order.jpg",
+      "tags": [
+        "日常保養",
+        "面膜",
+        "身體保養",
+        "防曬整理"
+      ]
+    },
+    {
+      "id": "auto-20260520141022-home-nail-makeup-tools-beginner-storage",
+      "title": "Elite Fashion｜居家美甲與彩妝工具怎麼買",
+      "excerpt": "從材料、刷具、燈具、收納到飾品，整理更不失控的居家美甲與彩妝工具清單。",
+      "category": "casual-chic",
+      "categoryLabel": "休閒時尚",
+      "series": "保養髮品與自我整理",
+      "publishedAt": "2026-05-20T14:10:22Z",
+      "publishedDateText": "2026年5月20日",
+      "relativeUrl": "casual-chic/home-nail-makeup-tools-beginner-storage.html",
+      "heroImage": "images/optimized/article-covers/home-nail-makeup-tools-beginner-storage.jpg",
+      "tags": [
+        "居家美甲",
+        "彩妝刷具",
+        "美甲材料",
+        "飾品收納"
+      ]
+    },
+    {
+      "id": "auto-20260520141022-meeting-grooming-kit-hair-makeup-scent-small-bag",
+      "title": "Elite Fashion｜會議前後的儀容整理包",
+      "excerpt": "從髮品、補妝工具、香氛、毛巾與小包，整理工作日更俐落的會議前後配置。",
+      "category": "casual-chic",
+      "categoryLabel": "休閒時尚",
+      "series": "保養髮品與自我整理",
+      "publishedAt": "2026-05-20T14:10:22Z",
+      "publishedDateText": "2026年5月20日",
+      "relativeUrl": "casual-chic/meeting-grooming-kit-hair-makeup-scent-small-bag.html",
+      "heroImage": "images/optimized/article-covers/meeting-grooming-kit-hair-makeup-scent-small-bag.jpg",
+      "tags": [
+        "儀容整理包",
+        "補妝工具",
+        "髮品",
+        "小包配置"
+      ]
+    },
+    {
+      "id": "auto-20260520141022-scalp-haircare-shampoo-color-styling-brush",
+      "title": "Elite Fashion｜頭皮與髮品怎麼整理",
+      "excerpt": "從清洗、染後照顧、造型到工具，整理更不混亂的浴室髮品配置。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "保養髮品與自我整理",
+      "publishedAt": "2026-05-20T14:10:22Z",
+      "publishedDateText": "2026年5月20日",
+      "relativeUrl": "lifestyle-culture/scalp-haircare-shampoo-color-styling-brush.html",
+      "heroImage": "images/optimized/article-covers/scalp-haircare-shampoo-color-styling-brush.jpg",
+      "tags": [
+        "髮品整理",
+        "洗髮餅",
+        "染護",
+        "造型工具"
+      ]
+    },
+    {
+      "id": "auto-20260520141022-scent-bodycare-gift-essential-oil-towel-small-goods",
+      "title": "Elite Fashion｜香氛與身體保養送禮怎麼搭",
+      "excerpt": "從氣味濃度、毛巾觸感、身體保養與生活小物，整理不過度私密的質感送禮方式。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "保養髮品與自我整理",
+      "publishedAt": "2026-05-20T14:10:22Z",
+      "publishedDateText": "2026年5月20日",
+      "relativeUrl": "lifestyle-culture/scent-bodycare-gift-essential-oil-towel-small-goods.html",
+      "heroImage": "images/optimized/article-covers/scent-bodycare-gift-essential-oil-towel-small-goods.jpg",
+      "tags": [
+        "香氛送禮",
+        "身體保養",
+        "毛巾",
+        "生活小物"
+      ]
+    },
     {
       "id": "auto-20260520071636-home-care-flow-bathing-transfer-storage-safety",
       "title": "Elite Fashion｜家中照護動線怎麼整理",
@@ -125,96 +215,6 @@
         "備餐",
         "舒肥雞胸",
         "冷凍蔬菜"
-      ]
-    },
-    {
-      "id": "auto-20260520070134-office-coffee-beans-drip-bags-workday-guide",
-      "title": "Elite Fashion｜辦公室咖啡補給怎麼選",
-      "excerpt": "從咖啡豆、濾掛、掛耳包到器具收納，整理忙碌工作日更穩定的咖啡補給方式。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "辦公室飲食與日常補給",
-      "publishedAt": "2026-05-20T07:01:34Z",
-      "publishedDateText": "2026年5月20日",
-      "relativeUrl": "lifestyle-culture/office-coffee-beans-drip-bags-workday-guide.html",
-      "heroImage": "images/optimized/article-covers/office-coffee-beans-drip-bags-workday-guide.jpg",
-      "tags": [
-        "辦公室咖啡",
-        "濾掛咖啡",
-        "咖啡豆",
-        "日常補給"
-      ]
-    },
-    {
-      "id": "auto-20260520070134-office-drinks-sparkling-plant-milk-tea-coffee",
-      "title": "Elite Fashion｜辦公室飲品清單怎麼搭",
-      "excerpt": "把氣泡飲、植物奶、茶包與咖啡分成不同時段，整理更不混亂的辦公室茶水間。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "辦公室飲食與日常補給",
-      "publishedAt": "2026-05-20T07:01:34Z",
-      "publishedDateText": "2026年5月20日",
-      "relativeUrl": "lifestyle-culture/office-drinks-sparkling-plant-milk-tea-coffee.html",
-      "heroImage": "images/optimized/article-covers/office-drinks-sparkling-plant-milk-tea-coffee.jpg",
-      "tags": [
-        "辦公室飲品",
-        "植物奶",
-        "茶包",
-        "氣泡飲"
-      ]
-    },
-    {
-      "id": "auto-20260520070134-quality-gifting-coffee-tea-massage-umbrella-custom",
-      "title": "Elite Fashion｜質感送禮怎麼選",
-      "excerpt": "用「對方會不會用」做核心，整理咖啡、茶、雨傘、客製小物與居家放鬆設備的送禮順序。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "辦公室飲食與日常補給",
-      "publishedAt": "2026-05-20T07:01:34Z",
-      "publishedDateText": "2026年5月20日",
-      "relativeUrl": "lifestyle-culture/quality-gifting-coffee-tea-massage-umbrella-custom.html",
-      "heroImage": "images/optimized/article-covers/quality-gifting-coffee-tea-massage-umbrella-custom.jpg",
-      "tags": [
-        "質感送禮",
-        "伴手禮",
-        "咖啡茶禮",
-        "客製禮物"
-      ]
-    },
-    {
-      "id": "auto-20260520061048-ai-workflow-laptop-spec-warranty-monitor-backup",
-      "title": "Elite Fashion｜AI 工作流需要什麼筆電與備份配置",
-      "excerpt": "不做規格迷信，從主機、外接螢幕、保固與資料備份整理設備順序。",
-      "category": "ai-innovation",
-      "categoryLabel": "人工智能",
-      "series": "AI 工作角落與創作者裝備",
-      "publishedAt": "2026-05-20T06:10:48Z",
-      "publishedDateText": "2026年5月20日",
-      "relativeUrl": "ai-innovation/ai-workflow-laptop-spec-warranty-monitor-backup.html",
-      "heroImage": "images/optimized/article-covers/ai-workflow-laptop-spec-warranty-monitor-backup.jpg",
-      "tags": [
-        "AI 工具",
-        "筆電選購",
-        "資料備份",
-        "外接螢幕"
-      ]
-    },
-    {
-      "id": "auto-20260520061048-consultant-remote-work-bag-charging-audio-presentation",
-      "title": "Elite Fashion｜顧問與講師的遠距工作包配置",
-      "excerpt": "從充電、耳機、簡報備援到移動收納，整理半天工作行程的穩定配置。",
-      "category": "ai-innovation",
-      "categoryLabel": "人工智能",
-      "series": "AI 工作角落與創作者裝備",
-      "publishedAt": "2026-05-20T06:10:48Z",
-      "publishedDateText": "2026年5月20日",
-      "relativeUrl": "ai-innovation/consultant-remote-work-bag-charging-audio-presentation.html",
-      "heroImage": "images/optimized/article-covers/consultant-remote-work-bag-charging-audio-presentation.jpg",
-      "tags": [
-        "遠距工作",
-        "顧問工具",
-        "簡報設備",
-        "工作包"
       ]
     }
   ],
@@ -614,6 +614,42 @@
       "label": "休閒時尚",
       "items": [
         {
+          "id": "auto-20260520141022-home-nail-makeup-tools-beginner-storage",
+          "title": "Elite Fashion｜居家美甲與彩妝工具怎麼買",
+          "excerpt": "從材料、刷具、燈具、收納到飾品，整理更不失控的居家美甲與彩妝工具清單。",
+          "category": "casual-chic",
+          "categoryLabel": "休閒時尚",
+          "series": "保養髮品與自我整理",
+          "publishedAt": "2026-05-20T14:10:22Z",
+          "publishedDateText": "2026年5月20日",
+          "relativeUrl": "casual-chic/home-nail-makeup-tools-beginner-storage.html",
+          "heroImage": "images/optimized/article-covers/home-nail-makeup-tools-beginner-storage.jpg",
+          "tags": [
+            "居家美甲",
+            "彩妝刷具",
+            "美甲材料",
+            "飾品收納"
+          ]
+        },
+        {
+          "id": "auto-20260520141022-meeting-grooming-kit-hair-makeup-scent-small-bag",
+          "title": "Elite Fashion｜會議前後的儀容整理包",
+          "excerpt": "從髮品、補妝工具、香氛、毛巾與小包，整理工作日更俐落的會議前後配置。",
+          "category": "casual-chic",
+          "categoryLabel": "休閒時尚",
+          "series": "保養髮品與自我整理",
+          "publishedAt": "2026-05-20T14:10:22Z",
+          "publishedDateText": "2026年5月20日",
+          "relativeUrl": "casual-chic/meeting-grooming-kit-hair-makeup-scent-small-bag.html",
+          "heroImage": "images/optimized/article-covers/meeting-grooming-kit-hair-makeup-scent-small-bag.jpg",
+          "tags": [
+            "儀容整理包",
+            "補妝工具",
+            "髮品",
+            "小包配置"
+          ]
+        },
+        {
           "id": "auto-20260520010743-city-travel-crossbody-anti-theft-small-bag-setup",
           "title": "旅行斜背包與防盜小包配置",
           "excerpt": "城市旅行不只看容量，還要看證件、手機、充電與購物物品怎麼分層。",
@@ -690,46 +726,6 @@
             "世足賽奪冠分析",
             "世足賽球星觀察",
             "Elite Fashion"
-          ]
-        },
-        {
-          "id": "legacy-crossbody-bag-style-guide-html",
-          "title": "女生斜背包穿搭術：一款小包輕鬆搞定城市探險與各種場合造型",
-          "excerpt": "想要擺脫厚重包袱，卻又擔心重要小物沒地方放？斜背包絕對是妳的時尚救星！它不僅解放雙手，更成為現代女性日常穿搭的必備單品。",
-          "category": "casual-chic",
-          "categoryLabel": "休閒時尚",
-          "series": "休閒時尚",
-          "publishedAt": "2026-05-07T19:32:18Z",
-          "publishedDateText": "2026年5月7日",
-          "relativeUrl": "crossbody-bag-style-guide.html",
-          "heroImage": "images/optimized/article-covers/crossbody-bag-style-guide.jpg",
-          "tags": [
-            "斜背包",
-            "穿搭術",
-            "女生包包",
-            "時尚配件",
-            "城市探險",
-            "休閒穿搭"
-          ]
-        },
-        {
-          "id": "legacy-casual-chic-world-cup-2026-fan-guide-logistics-html",
-          "title": "2026 世界盃球迷指南：票務、入境提醒、城市移動與觀賽體感一次整理",
-          "excerpt": "根據 FIFA 官方票務、賽程與組織頁整理 2026 世界盃球迷最需要知道的資訊：4 月票務釋出、Supporter Entry Tier、入境提醒、三國移動與觀賽規劃。",
-          "category": "casual-chic",
-          "categoryLabel": "休閒時尚",
-          "series": "休閒時尚",
-          "publishedAt": "2026-04-21T10:00:00+08:00",
-          "publishedDateText": "2026年4月21日",
-          "relativeUrl": "casual-chic/world-cup-2026-fan-guide-logistics.html",
-          "heroImage": "images/optimized/article-covers/world-cup-2026-fan-guide-logistics.jpg",
-          "tags": [
-            "2026 世界盃 門票",
-            "2026 世界盃 球迷指南",
-            "FIFA tickets 2026",
-            "Supporter Entry Tier",
-            "2026 World Cup travel guide",
-            "FIFA PASS"
           ]
         }
       ]
@@ -970,6 +966,60 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260520141022-daily-skincare-essence-mask-body-sunscreen-order",
+          "title": "Elite Fashion｜日常保養別堆太多",
+          "excerpt": "從使用頻率、收納與出門前流程，整理精華、面膜、身體保養與防曬的日常順序。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "保養髮品與自我整理",
+          "publishedAt": "2026-05-20T14:10:22Z",
+          "publishedDateText": "2026年5月20日",
+          "relativeUrl": "lifestyle-culture/daily-skincare-essence-mask-body-sunscreen-order.html",
+          "heroImage": "images/optimized/article-covers/daily-skincare-essence-mask-body-sunscreen-order.jpg",
+          "tags": [
+            "日常保養",
+            "面膜",
+            "身體保養",
+            "防曬整理"
+          ]
+        },
+        {
+          "id": "auto-20260520141022-scalp-haircare-shampoo-color-styling-brush",
+          "title": "Elite Fashion｜頭皮與髮品怎麼整理",
+          "excerpt": "從清洗、染後照顧、造型到工具，整理更不混亂的浴室髮品配置。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "保養髮品與自我整理",
+          "publishedAt": "2026-05-20T14:10:22Z",
+          "publishedDateText": "2026年5月20日",
+          "relativeUrl": "lifestyle-culture/scalp-haircare-shampoo-color-styling-brush.html",
+          "heroImage": "images/optimized/article-covers/scalp-haircare-shampoo-color-styling-brush.jpg",
+          "tags": [
+            "髮品整理",
+            "洗髮餅",
+            "染護",
+            "造型工具"
+          ]
+        },
+        {
+          "id": "auto-20260520141022-scent-bodycare-gift-essential-oil-towel-small-goods",
+          "title": "Elite Fashion｜香氛與身體保養送禮怎麼搭",
+          "excerpt": "從氣味濃度、毛巾觸感、身體保養與生活小物，整理不過度私密的質感送禮方式。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "保養髮品與自我整理",
+          "publishedAt": "2026-05-20T14:10:22Z",
+          "publishedDateText": "2026年5月20日",
+          "relativeUrl": "lifestyle-culture/scent-bodycare-gift-essential-oil-towel-small-goods.html",
+          "heroImage": "images/optimized/article-covers/scent-bodycare-gift-essential-oil-towel-small-goods.jpg",
+          "tags": [
+            "香氛送禮",
+            "身體保養",
+            "毛巾",
+            "生活小物"
+          ]
+        },
+        {
           "id": "auto-20260520070134-cold-brew-tea-gift-box-afternoon-guide",
           "title": "Elite Fashion｜冷泡茶與茶禮盒的選擇順序",
           "excerpt": "從日常飲用、下午茶、待客到送禮，整理茶包、冷泡茶與茶禮盒的實用判斷。",
@@ -1021,58 +1071,6 @@
             "植物奶",
             "茶包",
             "氣泡飲"
-          ]
-        },
-        {
-          "id": "auto-20260520070134-quality-gifting-coffee-tea-massage-umbrella-custom",
-          "title": "Elite Fashion｜質感送禮怎麼選",
-          "excerpt": "用「對方會不會用」做核心，整理咖啡、茶、雨傘、客製小物與居家放鬆設備的送禮順序。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "辦公室飲食與日常補給",
-          "publishedAt": "2026-05-20T07:01:34Z",
-          "publishedDateText": "2026年5月20日",
-          "relativeUrl": "lifestyle-culture/quality-gifting-coffee-tea-massage-umbrella-custom.html",
-          "heroImage": "images/optimized/article-covers/quality-gifting-coffee-tea-massage-umbrella-custom.jpg",
-          "tags": [
-            "質感送禮",
-            "伴手禮",
-            "咖啡茶禮",
-            "客製禮物"
-          ]
-        },
-        {
-          "id": "auto-20260520045418-home-cleaning-products-bathroom-kitchen-odor-guide",
-          "title": "質感清潔用品怎麼選",
-          "excerpt": "浴室水垢、廚房油污、氣味與日常維持，需要分場景處理。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "居家儀式與小宅生活升級",
-          "publishedAt": "2026-05-20T04:54:18Z",
-          "publishedDateText": "2026年5月20日",
-          "relativeUrl": "lifestyle-culture/home-cleaning-products-bathroom-kitchen-odor-guide.html",
-          "heroImage": "images/optimized/article-covers/home-cleaning-products-bathroom-kitchen-odor-guide.jpg",
-          "tags": [
-            "居家生活",
-            "空間整理",
-            "生活選品"
-          ]
-        },
-        {
-          "id": "auto-20260520045418-living-room-work-corner-lighting-scent-storage",
-          "title": "客廳與工作角落的照明改造",
-          "excerpt": "用吸頂燈、桌面燈、收納與氣味分層，讓同一個空間能工作也能休息。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "居家儀式與小宅生活升級",
-          "publishedAt": "2026-05-20T04:54:18Z",
-          "publishedDateText": "2026年5月20日",
-          "relativeUrl": "lifestyle-culture/living-room-work-corner-lighting-scent-storage.html",
-          "heroImage": "images/optimized/article-covers/living-room-work-corner-lighting-scent-storage.jpg",
-          "tags": [
-            "居家生活",
-            "空間整理",
-            "生活選品"
           ]
         }
       ]
