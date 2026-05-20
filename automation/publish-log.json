@@ -1,7 +1,57 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-20T04:54:18Z",
+  "updatedAt": "2026-05-20T06:10:48Z",
   "entries": [
+    {
+      "articleId": "auto-20260520061048-second-monitor-laptop-desk-setup-ai-workflow",
+      "title": "Elite Fashion｜高效率工作者的第二螢幕：外接螢幕、筆電與桌面配置怎麼選",
+      "publishedAt": "2026-05-20T06:10:48Z",
+      "url": "https://tw.elitefasion.com/ai-innovation/second-monitor-laptop-desk-setup-ai-workflow.html",
+      "file": "ai-innovation/second-monitor-laptop-desk-setup-ai-workflow.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/second-monitor-laptop-desk-setup-ai-workflow.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520061048-faceless-content-phone-rig-filter-light-audio",
+      "title": "Elite Fashion｜不想露臉也能做內容：手機拍攝支架、濾鏡、燈光與收音入門",
+      "publishedAt": "2026-05-20T06:10:48Z",
+      "url": "https://tw.elitefasion.com/ai-innovation/faceless-content-phone-rig-filter-light-audio.html",
+      "file": "ai-innovation/faceless-content-phone-rig-filter-light-audio.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/faceless-content-phone-rig-filter-light-audio.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520061048-consultant-remote-work-bag-charging-audio-presentation",
+      "title": "Elite Fashion｜顧問與講師的遠距工作包：充電、耳機、簡報與移動收納",
+      "publishedAt": "2026-05-20T06:10:48Z",
+      "url": "https://tw.elitefasion.com/ai-innovation/consultant-remote-work-bag-charging-audio-presentation.html",
+      "file": "ai-innovation/consultant-remote-work-bag-charging-audio-presentation.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/consultant-remote-work-bag-charging-audio-presentation.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520061048-ai-workflow-laptop-spec-warranty-monitor-backup",
+      "title": "Elite Fashion｜AI 工作流需要什麼筆電：規格、保固、外接螢幕與資料備份的判斷",
+      "publishedAt": "2026-05-20T06:10:48Z",
+      "url": "https://tw.elitefasion.com/ai-innovation/ai-workflow-laptop-spec-warranty-monitor-backup.html",
+      "file": "ai-innovation/ai-workflow-laptop-spec-warranty-monitor-backup.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/ai-workflow-laptop-spec-warranty-monitor-backup.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520061048-mobile-photography-cpl-rig-outdoor-creator-kit",
+      "title": "Elite Fashion｜手機攝影怎麼升級：CPL、黑柔濾鏡、支架與戶外拍攝配件",
+      "publishedAt": "2026-05-20T06:10:48Z",
+      "url": "https://tw.elitefasion.com/ai-innovation/mobile-photography-cpl-rig-outdoor-creator-kit.html",
+      "file": "ai-innovation/mobile-photography-cpl-rig-outdoor-creator-kit.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/mobile-photography-cpl-rig-outdoor-creator-kit.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
     {
       "articleId": "auto-20260520045418-small-home-entry-closet-desk-cleaning-storage",
       "title": "小宅收納不是買更多盒子：玄關、衣櫃、書桌與清潔工具的配置",

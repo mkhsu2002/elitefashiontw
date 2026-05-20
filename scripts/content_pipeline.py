@@ -759,6 +759,7 @@ def render_inline_cta(cta: dict[str, Any]) -> str:
     links = cta_links(cta)
     if not links:
         return ""
+    variant = re.sub(r"[^a-z0-9-]+", "", str(cta.get("variant", "")).lower()) or "gold"
     eyebrow = str(cta.get("eyebrow", "")).strip()
     heading = str(cta.get("heading", "")).strip() or "編輯精選"
     text = str(cta.get("text", "")).strip()
@@ -769,7 +770,7 @@ def render_inline_cta(cta: dict[str, Any]) -> str:
     eyebrow_html = f'            <span class="article-inline-cta-eyebrow">{html.escape(eyebrow)}</span>\n' if eyebrow else ""
     text_html = f"            <p>{html.escape(text)}</p>\n" if text else ""
     return f"""
-        <aside class="article-inline-cta">
+        <aside class="article-inline-cta article-inline-cta-{html.escape(variant)}">
 {eyebrow_html}            <h2>{html.escape(heading)}</h2>
 {text_html}            <div class="article-cta-links">
 {buttons}
@@ -911,6 +912,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         f'            <a href="{html.escape(link["url"])}"{cta_link_attrs(link["url"])}>{html.escape(link["label"])}</a>'
         for link in cta_links(article["cta"])
     )
+    cta_variant = re.sub(r"[^a-z0-9-]+", "", str(article.get("cta", {}).get("variant", "")).lower()) or "gold"
     canonical = article["url"]
     hero_image = article["heroImage"]
     hero_image_url = hero_image
@@ -1058,11 +1060,23 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         }}
         .article-inline-cta {{
             margin: 2.6rem 0 1.2rem;
-            padding: 26px;
+            padding: 28px;
             border-radius: 18px;
-            border: 1px solid rgba(197,160,89,0.35);
+            border: 2px solid rgba(197,160,89,0.45);
             background: #fbf8f1;
             box-shadow: 0 16px 34px rgba(17, 17, 17, 0.06);
+        }}
+        .article-inline-cta-slate, .article-cta-slate {{
+            background: linear-gradient(135deg, rgba(42, 66, 82, 0.12), rgba(17,17,17,0.04));
+            border-color: rgba(42, 66, 82, 0.28);
+        }}
+        .article-inline-cta-olive, .article-cta-olive {{
+            background: linear-gradient(135deg, rgba(84, 105, 72, 0.14), rgba(17,17,17,0.04));
+            border-color: rgba(84, 105, 72, 0.28);
+        }}
+        .article-inline-cta-copper, .article-cta-copper {{
+            background: linear-gradient(135deg, rgba(168, 103, 62, 0.14), rgba(17,17,17,0.04));
+            border-color: rgba(168, 103, 62, 0.28);
         }}
         .article-inline-cta-eyebrow {{
             display: inline-block;
@@ -1076,13 +1090,27 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
             margin: 0 0 0.9rem;
         }}
         .article-cta a {{
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
             margin-top: 12px;
             padding: 12px 24px;
             background: #111;
             color: #fff;
             text-decoration: none;
             border-radius: 999px;
+            font-weight: 800;
+            box-shadow: 0 10px 22px rgba(17, 17, 17, 0.18);
+            transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+        }}
+        .article-cta a::after {{
+            content: "→";
+            font-weight: 900;
+        }}
+        .article-cta a:hover {{
+            transform: translateY(-1px);
+            background: #2d2416;
+            box-shadow: 0 14px 28px rgba(17, 17, 17, 0.22);
         }}
         .article-cta-links {{
             display: flex;
@@ -1166,7 +1194,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
             </ul>
         </section>
 
-        <section class="article-cta">
+        <section class="article-cta article-cta-{html.escape(cta_variant)}">
             <h2>下一步建議</h2>
             <p>{html.escape(article['cta']['text'])}</p>
             <div class="article-cta-links">

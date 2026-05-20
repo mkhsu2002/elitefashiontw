@@ -1,5 +1,40 @@
 # 發文紀錄
 
+## 2026-05-20T06:10:48Z｜Elite Fashion｜高效率工作者的第二螢幕：外接螢幕、筆電與桌面配置怎麼選
+
+- 文章 ID：auto-20260520061048-second-monitor-laptop-desk-setup-ai-workflow
+- URL：https://tw.elitefasion.com/ai-innovation/second-monitor-laptop-desk-setup-ai-workflow.html
+- 檔案：ai-innovation/second-monitor-laptop-desk-setup-ai-workflow.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T06:10:48Z｜Elite Fashion｜不想露臉也能做內容：手機拍攝支架、濾鏡、燈光與收音入門
+
+- 文章 ID：auto-20260520061048-faceless-content-phone-rig-filter-light-audio
+- URL：https://tw.elitefasion.com/ai-innovation/faceless-content-phone-rig-filter-light-audio.html
+- 檔案：ai-innovation/faceless-content-phone-rig-filter-light-audio.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T06:10:48Z｜Elite Fashion｜顧問與講師的遠距工作包：充電、耳機、簡報與移動收納
+
+- 文章 ID：auto-20260520061048-consultant-remote-work-bag-charging-audio-presentation
+- URL：https://tw.elitefasion.com/ai-innovation/consultant-remote-work-bag-charging-audio-presentation.html
+- 檔案：ai-innovation/consultant-remote-work-bag-charging-audio-presentation.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T06:10:48Z｜Elite Fashion｜AI 工作流需要什麼筆電：規格、保固、外接螢幕與資料備份的判斷
+
+- 文章 ID：auto-20260520061048-ai-workflow-laptop-spec-warranty-monitor-backup
+- URL：https://tw.elitefasion.com/ai-innovation/ai-workflow-laptop-spec-warranty-monitor-backup.html
+- 檔案：ai-innovation/ai-workflow-laptop-spec-warranty-monitor-backup.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T06:10:48Z｜Elite Fashion｜手機攝影怎麼升級：CPL、黑柔濾鏡、支架與戶外拍攝配件
+
+- 文章 ID：auto-20260520061048-mobile-photography-cpl-rig-outdoor-creator-kit
+- URL：https://tw.elitefasion.com/ai-innovation/mobile-photography-cpl-rig-outdoor-creator-kit.html
+- 檔案：ai-innovation/mobile-photography-cpl-rig-outdoor-creator-kit.html
+- 類型：manual-codex-momo-affiliate
+
 ## 2026-05-20T04:54:18Z｜小宅收納不是買更多盒子：玄關、衣櫃、書桌與清潔工具的配置
 
 - 文章 ID：auto-20260520045418-small-home-entry-closet-desk-cleaning-storage
