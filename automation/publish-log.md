@@ -1,5 +1,40 @@
 # 發文紀錄
 
+## 2026-05-20T14:50:58Z｜Elite Fashion｜大尺碼穿搭也能俐落：上班、旅行與週末的選款順序
+
+- 文章 ID：auto-20260520145058-plus-size-office-travel-weekend-outfit-order
+- URL：https://tw.elitefasion.com/casual-chic/plus-size-office-travel-weekend-outfit-order.html
+- 檔案：casual-chic/plus-size-office-travel-weekend-outfit-order.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T14:50:58Z｜Elite Fashion｜雨天上班不失控：雨鞋、雨衣、抗風傘與包款材質的搭配清單
+
+- 文章 ID：auto-20260520145058-rainy-workday-rain-boots-coat-umbrella-bag-materials
+- URL：https://tw.elitefasion.com/casual-chic/rainy-workday-rain-boots-coat-umbrella-bag-materials.html
+- 檔案：casual-chic/rainy-workday-rain-boots-coat-umbrella-bag-materials.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T14:50:58Z｜Elite Fashion｜週末輕戶外穿搭：城市感、防曬外套、短褲與小包怎麼搭
+
+- 文章 ID：auto-20260520145058-weekend-light-outdoor-city-sun-jacket-shorts-small-bag
+- URL：https://tw.elitefasion.com/casual-chic/weekend-light-outdoor-city-sun-jacket-shorts-small-bag.html
+- 檔案：casual-chic/weekend-light-outdoor-city-sun-jacket-shorts-small-bag.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T14:50:58Z｜Elite Fashion｜飾品與皮件送禮：戒指、銀飾、皮夾、小包與日常配件怎麼選
+
+- 文章 ID：auto-20260520145058-jewelry-leather-gift-ring-silver-wallet-small-bag
+- URL：https://tw.elitefasion.com/casual-chic/jewelry-leather-gift-ring-silver-wallet-small-bag.html
+- 檔案：casual-chic/jewelry-leather-gift-ring-silver-wallet-small-bag.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T14:50:58Z｜Elite Fashion｜旅行鞋包配置：好走鞋、輕量包、貼身小包與雨天備案
+
+- 文章 ID：auto-20260520145058-travel-shoes-bag-lightweight-crossbody-rain-backup
+- URL：https://tw.elitefasion.com/casual-chic/travel-shoes-bag-lightweight-crossbody-rain-backup.html
+- 檔案：casual-chic/travel-shoes-bag-lightweight-crossbody-rain-backup.html
+- 類型：manual-codex-momo-affiliate
+
 ## 2026-05-20T14:27:48Z｜Elite Fashion｜毛孩日常補貨清單：主食、零食、清潔與外出用品怎麼分工
 
 - 文章 ID：auto-20260520142748-pet-daily-supplies-food-snack-cleaning-outing
