@@ -633,7 +633,7 @@ def load_generated_records(categories: dict[str, CategoryConfig], config: dict[s
         return records
     for metadata_path in sorted(article_dir.glob("*.json")):
         payload = load_json(metadata_path)
-        payload["sourceType"] = "generated"
+        payload["sourceType"] = payload.get("sourceType", "generated")
         payload["status"] = payload.get("status", "published")
         payload["queueId"] = payload.get("queueId")
         payload["relativeUrl"] = url_to_relative(payload["url"])

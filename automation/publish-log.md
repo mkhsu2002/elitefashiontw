@@ -1,5 +1,40 @@
 # 發文紀錄
 
+## 2026-05-20T01:07:43Z｜露營咖啡與戶外餐食：從手沖壺、濾掛咖啡到冷凍食材的準備法
+
+- 文章 ID：auto-20260520010743-camping-coffee-outdoor-meal-prep
+- URL：https://tw.elitefasion.com/outdoor-escapes/camping-coffee-outdoor-meal-prep.html
+- 檔案：outdoor-escapes/camping-coffee-outdoor-meal-prep.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T01:07:43Z｜夜間移動與戶外安全感：反光配件、行車紀錄、護具與降噪睡眠怎麼準備
+
+- 文章 ID：auto-20260520010743-night-mobility-reflective-dashcam-support-sleep-kit
+- URL：https://tw.elitefasion.com/outdoor-escapes/night-mobility-reflective-dashcam-support-sleep-kit.html
+- 檔案：outdoor-escapes/night-mobility-reflective-dashcam-support-sleep-kit.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T01:07:43Z｜通勤包怎麼選：容量、重量、肩帶與正式感的 5 個判斷
+
+- 文章 ID：auto-20260520010743-commute-bag-capacity-weight-strap-formality-guide
+- URL：https://tw.elitefasion.com/casual-chic/commute-bag-capacity-weight-strap-formality-guide.html
+- 檔案：casual-chic/commute-bag-capacity-weight-strap-formality-guide.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T01:07:43Z｜旅行斜背包與防盜小包：一日城市旅行的包款配置
+
+- 文章 ID：auto-20260520010743-city-travel-crossbody-anti-theft-small-bag-setup
+- URL：https://tw.elitefasion.com/casual-chic/city-travel-crossbody-anti-theft-small-bag-setup.html
+- 檔案：casual-chic/city-travel-crossbody-anti-theft-small-bag-setup.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T01:07:43Z｜春夏通勤防曬穿搭：防曬外套、抗風傘與輕量包如何不顯狼狽
+
+- 文章 ID：auto-20260520010743-spring-summer-commute-sun-protection-umbrella-light-bag
+- URL：https://tw.elitefasion.com/casual-chic/spring-summer-commute-sun-protection-umbrella-light-bag.html
+- 檔案：casual-chic/spring-summer-commute-sun-protection-umbrella-light-bag.html
+- 類型：manual-codex-momo-affiliate
+
 ## 2026-05-19T22:16:27Z｜登山新手裝備順序：排汗衣、雨衣褲、護膝與輕量收納怎麼選
 
 - 文章 ID：auto-20260519221627-beginner-hiking-gear-order-light-trail

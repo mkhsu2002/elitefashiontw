@@ -1,7 +1,57 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-19T22:16:27Z",
+  "updatedAt": "2026-05-20T01:07:43Z",
   "entries": [
+    {
+      "articleId": "auto-20260520010743-camping-coffee-outdoor-meal-prep",
+      "title": "露營咖啡與戶外餐食：從手沖壺、濾掛咖啡到冷凍食材的準備法",
+      "publishedAt": "2026-05-20T01:07:43Z",
+      "url": "https://tw.elitefasion.com/outdoor-escapes/camping-coffee-outdoor-meal-prep.html",
+      "file": "outdoor-escapes/camping-coffee-outdoor-meal-prep.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/camping-coffee-outdoor-meal-prep.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520010743-night-mobility-reflective-dashcam-support-sleep-kit",
+      "title": "夜間移動與戶外安全感：反光配件、行車紀錄、護具與降噪睡眠怎麼準備",
+      "publishedAt": "2026-05-20T01:07:43Z",
+      "url": "https://tw.elitefasion.com/outdoor-escapes/night-mobility-reflective-dashcam-support-sleep-kit.html",
+      "file": "outdoor-escapes/night-mobility-reflective-dashcam-support-sleep-kit.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/night-mobility-reflective-dashcam-support-sleep-kit.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520010743-commute-bag-capacity-weight-strap-formality-guide",
+      "title": "通勤包怎麼選：容量、重量、肩帶與正式感的 5 個判斷",
+      "publishedAt": "2026-05-20T01:07:43Z",
+      "url": "https://tw.elitefasion.com/casual-chic/commute-bag-capacity-weight-strap-formality-guide.html",
+      "file": "casual-chic/commute-bag-capacity-weight-strap-formality-guide.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/commute-bag-capacity-weight-strap-formality-guide.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520010743-city-travel-crossbody-anti-theft-small-bag-setup",
+      "title": "旅行斜背包與防盜小包：一日城市旅行的包款配置",
+      "publishedAt": "2026-05-20T01:07:43Z",
+      "url": "https://tw.elitefasion.com/casual-chic/city-travel-crossbody-anti-theft-small-bag-setup.html",
+      "file": "casual-chic/city-travel-crossbody-anti-theft-small-bag-setup.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/city-travel-crossbody-anti-theft-small-bag-setup.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520010743-spring-summer-commute-sun-protection-umbrella-light-bag",
+      "title": "春夏通勤防曬穿搭：防曬外套、抗風傘與輕量包如何不顯狼狽",
+      "publishedAt": "2026-05-20T01:07:43Z",
+      "url": "https://tw.elitefasion.com/casual-chic/spring-summer-commute-sun-protection-umbrella-light-bag.html",
+      "file": "casual-chic/spring-summer-commute-sun-protection-umbrella-light-bag.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/spring-summer-commute-sun-protection-umbrella-light-bag.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
     {
       "articleId": "auto-20260519221627-beginner-hiking-gear-order-light-trail",
       "title": "登山新手裝備順序：排汗衣、雨衣褲、護膝與輕量收納怎麼選",
