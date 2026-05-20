@@ -1079,7 +1079,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
             <p class="article-subtitle">{html.escape(article['excerpt'])}</p>
         </header>
 
-        <img src="{html.escape(hero_image_tag_src)}" alt="{html.escape(article['title'])}" class="hero-img">
+        <img src="{html.escape(hero_image_tag_src)}" alt="{html.escape(article.get('heroImageAlt') or article['title'])}" class="hero-img">
 
         {section_html}
 
