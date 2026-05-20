@@ -1,5 +1,40 @@
 # 發文紀錄
 
+## 2026-05-20T07:16:36Z｜Elite Fashion｜久站久坐的膝蓋與腰背支撐：護膝、護腰與鞋包重量怎麼看
+
+- 文章 ID：auto-20260520071636-knee-back-support-brace-workday-guide
+- URL：https://tw.elitefasion.com/wellness-movement/knee-back-support-brace-workday-guide.html
+- 檔案：wellness-movement/knee-back-support-brace-workday-guide.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T07:16:36Z｜Elite Fashion｜給家人的居家舒適設備：按摩椅、按摩槍、護具與生活用品怎麼看
+
+- 文章 ID：auto-20260520071636-home-comfort-massage-device-brace-gift-guide
+- URL：https://tw.elitefasion.com/wellness-movement/home-comfort-massage-device-brace-gift-guide.html
+- 檔案：wellness-movement/home-comfort-massage-device-brace-gift-guide.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T07:16:36Z｜Elite Fashion｜居家伸展角落怎麼打造：瑜珈墊、輔具、燈光與香氛的低壓配置
+
+- 文章 ID：auto-20260520071636-home-stretch-corner-yoga-mat-light-scent
+- URL：https://tw.elitefasion.com/wellness-movement/home-stretch-corner-yoga-mat-light-scent.html
+- 檔案：wellness-movement/home-stretch-corner-yoga-mat-light-scent.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T07:16:36Z｜Elite Fashion｜夏季低負擔日常：涼感、防曬、睡眠降噪與飲食補給
+
+- 文章 ID：auto-20260520071636-summer-low-pressure-daily-cooling-sun-sleep-drinks
+- URL：https://tw.elitefasion.com/wellness-movement/summer-low-pressure-daily-cooling-sun-sleep-drinks.html
+- 檔案：wellness-movement/summer-low-pressure-daily-cooling-sun-sleep-drinks.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T07:16:36Z｜Elite Fashion｜家中照護動線怎麼整理：沐浴、移位、收納與安全提醒
+
+- 文章 ID：auto-20260520071636-home-care-flow-bathing-transfer-storage-safety
+- URL：https://tw.elitefasion.com/wellness-movement/home-care-flow-bathing-transfer-storage-safety.html
+- 檔案：wellness-movement/home-care-flow-bathing-transfer-storage-safety.html
+- 類型：manual-codex-momo-affiliate
+
 ## 2026-05-20T07:01:34Z｜Elite Fashion｜忙碌日常的辦公室咖啡補給：咖啡豆、濾掛與掛耳包怎麼選
 
 - 文章 ID：auto-20260520070134-office-coffee-beans-drip-bags-workday-guide
