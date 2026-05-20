@@ -1,7 +1,57 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-20T01:07:43Z",
+  "updatedAt": "2026-05-20T04:54:18Z",
   "entries": [
+    {
+      "articleId": "auto-20260520045418-small-home-entry-closet-desk-cleaning-storage",
+      "title": "小宅收納不是買更多盒子：玄關、衣櫃、書桌與清潔工具的配置",
+      "publishedAt": "2026-05-20T04:54:18Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/small-home-entry-closet-desk-cleaning-storage.html",
+      "file": "lifestyle-culture/small-home-entry-closet-desk-cleaning-storage.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/small-home-entry-closet-desk-cleaning-storage.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520045418-home-cleaning-products-bathroom-kitchen-odor-guide",
+      "title": "質感清潔用品怎麼選：浴室水垢、廚房油污、除臭與天然清潔",
+      "publishedAt": "2026-05-20T04:54:18Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/home-cleaning-products-bathroom-kitchen-odor-guide.html",
+      "file": "lifestyle-culture/home-cleaning-products-bathroom-kitchen-odor-guide.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/home-cleaning-products-bathroom-kitchen-odor-guide.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520045418-living-room-work-corner-lighting-scent-storage",
+      "title": "客廳與工作角落的照明改造：吸頂燈、桌面燈、香氛與收納",
+      "publishedAt": "2026-05-20T04:54:18Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/living-room-work-corner-lighting-scent-storage.html",
+      "file": "lifestyle-culture/living-room-work-corner-lighting-scent-storage.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/living-room-work-corner-lighting-scent-storage.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520045205-home-evening-scent-lighting-storage-ritual",
+      "title": "下班後的安定感：香氛、燈光與收納的居家升級順序",
+      "publishedAt": "2026-05-20T04:52:05Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/home-evening-scent-lighting-storage-ritual.html",
+      "file": "lifestyle-culture/home-evening-scent-lighting-storage-ritual.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/home-evening-scent-lighting-storage-ritual.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
+    {
+      "articleId": "auto-20260520045205-bedtime-home-ritual-earplugs-pillow-scent-light",
+      "title": "睡前 30 分鐘的低壓居家儀式：耳塞、枕頭、香氛與燈光怎麼搭",
+      "publishedAt": "2026-05-20T04:52:05Z",
+      "url": "https://tw.elitefasion.com/wellness-movement/bedtime-home-ritual-earplugs-pillow-scent-light.html",
+      "file": "wellness-movement/bedtime-home-ritual-earplugs-pillow-scent-light.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/bedtime-home-ritual-earplugs-pillow-scent-light.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-momo-affiliate"
+    },
     {
       "articleId": "auto-20260520010743-camping-coffee-outdoor-meal-prep",
       "title": "露營咖啡與戶外餐食：從手沖壺、濾掛咖啡到冷凍食材的準備法",

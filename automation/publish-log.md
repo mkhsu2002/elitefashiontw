@@ -1,5 +1,40 @@
 # 發文紀錄
 
+## 2026-05-20T04:54:18Z｜小宅收納不是買更多盒子：玄關、衣櫃、書桌與清潔工具的配置
+
+- 文章 ID：auto-20260520045418-small-home-entry-closet-desk-cleaning-storage
+- URL：https://tw.elitefasion.com/lifestyle-culture/small-home-entry-closet-desk-cleaning-storage.html
+- 檔案：lifestyle-culture/small-home-entry-closet-desk-cleaning-storage.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T04:54:18Z｜質感清潔用品怎麼選：浴室水垢、廚房油污、除臭與天然清潔
+
+- 文章 ID：auto-20260520045418-home-cleaning-products-bathroom-kitchen-odor-guide
+- URL：https://tw.elitefasion.com/lifestyle-culture/home-cleaning-products-bathroom-kitchen-odor-guide.html
+- 檔案：lifestyle-culture/home-cleaning-products-bathroom-kitchen-odor-guide.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T04:54:18Z｜客廳與工作角落的照明改造：吸頂燈、桌面燈、香氛與收納
+
+- 文章 ID：auto-20260520045418-living-room-work-corner-lighting-scent-storage
+- URL：https://tw.elitefasion.com/lifestyle-culture/living-room-work-corner-lighting-scent-storage.html
+- 檔案：lifestyle-culture/living-room-work-corner-lighting-scent-storage.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T04:52:05Z｜下班後的安定感：香氛、燈光與收納的居家升級順序
+
+- 文章 ID：auto-20260520045205-home-evening-scent-lighting-storage-ritual
+- URL：https://tw.elitefasion.com/lifestyle-culture/home-evening-scent-lighting-storage-ritual.html
+- 檔案：lifestyle-culture/home-evening-scent-lighting-storage-ritual.html
+- 類型：manual-codex-momo-affiliate
+
+## 2026-05-20T04:52:05Z｜睡前 30 分鐘的低壓居家儀式：耳塞、枕頭、香氛與燈光怎麼搭
+
+- 文章 ID：auto-20260520045205-bedtime-home-ritual-earplugs-pillow-scent-light
+- URL：https://tw.elitefasion.com/wellness-movement/bedtime-home-ritual-earplugs-pillow-scent-light.html
+- 檔案：wellness-movement/bedtime-home-ritual-earplugs-pillow-scent-light.html
+- 類型：manual-codex-momo-affiliate
+
 ## 2026-05-20T01:07:43Z｜露營咖啡與戶外餐食：從手沖壺、濾掛咖啡到冷凍食材的準備法
 
 - 文章 ID：auto-20260520010743-camping-coffee-outdoor-meal-prep

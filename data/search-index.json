@@ -1,5 +1,100 @@
 [
   {
+    "id": "auto-20260520045418-home-cleaning-products-bathroom-kitchen-odor-guide",
+    "title": "質感清潔用品怎麼選",
+    "excerpt": "浴室水垢、廚房油污、氣味與日常維持，需要分場景處理。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/home-cleaning-products-bathroom-kitchen-odor-guide.html",
+    "publishedDateText": "2026年5月20日",
+    "tags": [
+      "居家生活",
+      "空間整理",
+      "生活選品"
+    ],
+    "faqQuestions": [
+      "浴室和廚房可以共用同一瓶清潔劑嗎？",
+      "天然清潔用品一定比較安全嗎？",
+      "除臭用品可以取代清潔嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260520045418-living-room-work-corner-lighting-scent-storage",
+    "title": "客廳與工作角落的照明改造",
+    "excerpt": "用吸頂燈、桌面燈、收納與氣味分層，讓同一個空間能工作也能休息。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/living-room-work-corner-lighting-scent-storage.html",
+    "publishedDateText": "2026年5月20日",
+    "tags": [
+      "居家生活",
+      "空間整理",
+      "生活選品"
+    ],
+    "faqQuestions": [
+      "客廳工作角落需要更換吸頂燈嗎？",
+      "除濕機或空氣相關小家電要怎麼選？",
+      "客廳放香氛會不會干擾工作？"
+    ]
+  },
+  {
+    "id": "auto-20260520045418-small-home-entry-closet-desk-cleaning-storage",
+    "title": "小宅收納不是買更多盒子",
+    "excerpt": "玄關、衣櫃、書桌與清潔工具要先看動線，再看收納用品。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/small-home-entry-closet-desk-cleaning-storage.html",
+    "publishedDateText": "2026年5月20日",
+    "tags": [
+      "居家生活",
+      "空間整理",
+      "生活選品"
+    ],
+    "faqQuestions": [
+      "小宅收納應該先買層架還是收納盒？",
+      "租屋族可以做哪些不釘牆收納？",
+      "清潔工具放在看得到的位置會不會不美觀？"
+    ]
+  },
+  {
+    "id": "auto-20260520045205-bedtime-home-ritual-earplugs-pillow-scent-light",
+    "title": "睡前 30 分鐘的低壓居家儀式",
+    "excerpt": "從聲音、枕頭、氣味與燈光四件事，整理一個能長期維持的睡前節奏。",
+    "category": "wellness-movement",
+    "categoryLabel": "健康恢復",
+    "relativeUrl": "wellness-movement/bedtime-home-ritual-earplugs-pillow-scent-light.html",
+    "publishedDateText": "2026年5月20日",
+    "tags": [
+      "睡前儀式",
+      "居家環境",
+      "生活選品"
+    ],
+    "faqQuestions": [
+      "睡前耳塞可以每天使用嗎？",
+      "枕頭和床墊應該先換哪一個？",
+      "睡前香氛會不會太刺激？"
+    ]
+  },
+  {
+    "id": "auto-20260520045205-home-evening-scent-lighting-storage-ritual",
+    "title": "下班後的香氛、燈光與收納順序",
+    "excerpt": "先改氣味、光線與物品位置，讓下班後的家更容易安定下來。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/home-evening-scent-lighting-storage-ritual.html",
+    "publishedDateText": "2026年5月20日",
+    "tags": [
+      "居家生活",
+      "空間整理",
+      "生活選品"
+    ],
+    "faqQuestions": [
+      "小宅適合用香氛蠟燭還是擴香？",
+      "租屋不能改燈具，還能改善光線嗎？",
+      "收納用品應該一次買齊嗎？"
+    ]
+  },
+  {
     "id": "auto-20260520010743-camping-coffee-outdoor-meal-prep",
     "title": "露營咖啡與戶外餐食準備法",
     "excerpt": "從手沖壺、濾掛咖啡到冷凍食材，整理戶外餐桌的採買順序。",
