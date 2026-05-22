@@ -734,7 +734,7 @@ def render_markdown_body(article: dict[str, Any]) -> str:
         lines.append(article["disclaimer"])
         lines.append("")
     if article.get("mainProducts"):
-        lines.append("## 商品推薦清單")
+        lines.append("## Elite 嚴選")
         lines.append("")
         for product in article.get("mainProducts", []):
             name = str(product.get("name", "")).strip()
@@ -744,7 +744,7 @@ def render_markdown_body(article: dict[str, Any]) -> str:
                 lines.append(f"- [{name}]({url})：{reason}")
         lines.append("")
     if article.get("featuredBrands"):
-        lines.append("## 店家整理")
+        lines.append("## 值得延伸比較的店家")
         lines.append("")
         for brand in article.get("featuredBrands", []):
             name = str(brand.get("name", "")).strip()
@@ -821,33 +821,41 @@ def product_links(article: dict[str, Any]) -> list[str]:
     return links
 
 
+def short_display_text(text: str, max_chars: int) -> str:
+    cleaned = re.sub(r"\s+", " ", text).strip()
+    if len(cleaned) <= max_chars:
+        return cleaned
+    return cleaned[: max_chars - 1].rstrip(" ，,、") + "…"
+
+
 def render_product_card(product: dict[str, Any], *, compact: bool = False) -> str:
     name = str(product.get("name") or "").strip()
     brand = str(product.get("brandName") or "").strip()
     reason = str(product.get("selectionReason") or "").strip()
-    risk_note = str(product.get("riskNote") or "").strip()
     image_url = str(product.get("imageUrl") or "").strip()
     image_credit = str(product.get("imageCredit") or "圖片來源：momo 商品頁").strip()
     url = str(product.get("affiliateUrl") or product.get("sourceProductUrl") or "").strip()
     if not name or not url:
         return ""
+    display_name = short_display_text(name, 30 if compact else 42)
+    display_reason = short_display_text(reason, 40) if reason and not compact else ""
+    display_credit = short_display_text(image_credit, 34)
     image_html = ""
     if image_url:
         image_html = f"""
                 <figure class="product-card-media">
                     <img src="{html.escape(image_url)}" alt="{html.escape(name)}" loading="lazy" onerror="this.closest('figure').remove()">
-                    <figcaption>{html.escape(image_credit)}</figcaption>
+                    <figcaption>{html.escape(display_credit)}</figcaption>
                 </figure>"""
-    note_html = f'                <p class="product-card-note">{html.escape(risk_note)}</p>\n' if risk_note else ""
+    reason_html = f"                    <p>{html.escape(display_reason)}</p>\n" if display_reason else ""
     compact_class = " product-card-compact" if compact else ""
     return f"""
             <article class="product-card{compact_class}">
 {image_html}
                 <div class="product-card-body">
                     <span class="product-card-brand">{html.escape(brand)}</span>
-                    <h3>{html.escape(name)}</h3>
-                    <p>{html.escape(reason)}</p>
-{note_html}                    <a href="{html.escape(url)}"{cta_link_attrs(url)} class="product-card-button">查看商品</a>
+                    <h3 title="{html.escape(name)}">{html.escape(display_name)}</h3>
+{reason_html}                    <a href="{html.escape(url)}"{cta_link_attrs(url)} class="product-card-button">查看商品</a>
                 </div>
             </article>"""
 
@@ -882,17 +890,17 @@ def render_featured_brands(article: dict[str, Any]) -> str:
         brands.append(
             f"""
                 <article class="featured-brand-card">
-                    <span>{html.escape(role or "推薦店家")}</span>
+                    <span>延伸比較</span>
                     <h3>{html.escape(name)}</h3>
-                    <p>{html.escape(reason)}</p>
-                    <a href="{html.escape(url)}"{cta_link_attrs(url)}>前往店家</a>
+                    <p>{html.escape(short_display_text(reason, 54))}</p>
+                    <a href="{html.escape(url)}"{cta_link_attrs(url)}>瀏覽店家</a>
                 </article>"""
         )
     if not brands:
         return ""
     return f"""
         <section class="featured-brand-strip">
-            <h2>本篇會用到的店家</h2>
+            <h2>值得延伸比較的店家</h2>
             <div class="featured-brand-grid">
 {''.join(brands)}
             </div>
@@ -910,12 +918,12 @@ def render_product_sidebar(article: dict[str, Any], *, mobile: bool = False) -> 
         return ""
     wrapper = "section" if mobile else "aside"
     class_name = "product-sidebar product-sidebar-mobile" if mobile else "product-sidebar"
-    heading = "延伸商品清單" if mobile else "右側精選商品"
+    heading = "延伸選物"
     return f"""
         <{wrapper} class="{class_name}" aria-label="{heading}">
             <div class="product-sidebar-inner">
                 <h2>{heading}</h2>
-                <p>這些商品可作為正文清單的延伸選項；實際規格、價格與庫存請以 momo 商品頁為準。</p>
+                <p>放在正文之後慢慢比較，規格與庫存仍以 momo 商品頁為準。</p>
 {cards}
             </div>
         </{wrapper}>"""
@@ -946,7 +954,7 @@ def build_itemlist_schema(article: dict[str, Any]) -> dict[str, Any] | None:
     return {
         "@context": "https://schema.org",
         "@type": "ItemList",
-        "name": f"{article['title']} 商品推薦清單",
+        "name": f"{article['title']} Elite 嚴選",
         "itemListElement": items,
     }
 
@@ -1165,20 +1173,25 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
     if article.get("mainProducts") or article.get("sidebarProducts"):
         product_grid_html = render_product_grid(
             article.get("mainProducts") or [],
-            title="本篇推薦清單",
-            intro="以下商品依照尺寸動線、使用頻率、收納任務與情境搭配整理；實際規格、價格、活動與庫存請以 momo 商品頁公告為準。",
+            title="Elite 嚴選",
+            intro="先看尺寸、動線與使用頻率，再回到商品頁確認規格、價格與庫存。",
         )
         featured_brands_html = render_featured_brands(article)
         desktop_sidebar_html = render_product_sidebar(article)
         mobile_sidebar_html = render_product_sidebar(article, mobile=True)
+        lead_sections_html = "\n".join(section_parts[:2])
+        middle_sections_html = "\n".join(section_parts[2:4])
+        ending_sections_html = "\n".join(section_parts[4:])
         article_body_html = f"""
         <p class="article-intro-copy">{html.escape(article['intro'])}</p>
         <div class="product-article-layout">
             <div class="product-article-main">
+{lead_sections_html}
 {product_grid_html}
-{featured_brands_html}
-{section_html}
+{middle_sections_html}
 {mobile_sidebar_html}
+{ending_sections_html}
+{featured_brands_html}
 {trailing_html}
             </div>
 {desktop_sidebar_html}
@@ -1392,7 +1405,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         }}
         .product-recommendations,
         .featured-brand-strip {{
-            margin: 2.8rem 0 3rem;
+            margin: 3.1rem 0 3.2rem;
         }}
         .product-recommendations h2,
         .featured-brand-strip h2,
@@ -1409,7 +1422,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         .featured-brand-grid {{
             display: grid;
             grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 18px;
+            gap: 16px;
         }}
         .product-card,
         .featured-brand-card {{
@@ -1425,7 +1438,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         }}
         .product-card-media img {{
             width: 100%;
-            aspect-ratio: 1 / 1;
+            aspect-ratio: 4 / 3;
             object-fit: cover;
         }}
         .product-card-media figcaption {{
@@ -1433,10 +1446,14 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
             color: #777067;
             font-size: 0.78rem;
             line-height: 1.45;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }}
         .product-card-body,
         .featured-brand-card {{
-            padding: 16px;
+            padding: 14px;
         }}
         .product-card-brand,
         .featured-brand-card span {{
@@ -1448,21 +1465,25 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         }}
         .product-card h3,
         .featured-brand-card h3 {{
-            font-size: 1.02rem;
+            font-size: 0.98rem;
             line-height: 1.45;
-            margin: 0 0 0.7rem;
+            margin: 0 0 0.55rem;
             color: #151515;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }}
         .product-card p,
         .featured-brand-card p {{
             color: #3a3833;
-            font-size: 0.95rem;
-            line-height: 1.65;
-            margin-bottom: 0.75rem;
-        }}
-        .product-card-note {{
-            color: #665b4c !important;
-            font-size: 0.88rem !important;
+            font-size: 0.9rem;
+            line-height: 1.55;
+            margin-bottom: 0.65rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }}
         .product-card-button,
         .featured-brand-card a {{
@@ -1486,6 +1507,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         .product-sidebar {{
             position: sticky;
             top: 98px;
+            margin-top: 7.6rem;
         }}
         .product-sidebar-inner {{
             padding: 18px;
@@ -1504,13 +1526,19 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
             margin-bottom: 14px;
         }}
         .product-card-compact .product-card-body {{
-            padding: 12px;
+            padding: 10px 11px 12px;
         }}
         .product-card-compact h3 {{
-            font-size: 0.92rem;
+            font-size: 0.88rem;
         }}
         .product-card-compact p {{
-            font-size: 0.86rem;
+            display: none;
+        }}
+        .product-card-compact .product-card-media img {{
+            aspect-ratio: 16 / 10;
+        }}
+        .product-card-compact .product-card-media figcaption {{
+            font-size: 0.72rem;
         }}
         .product-sidebar-mobile {{
             display: none;
