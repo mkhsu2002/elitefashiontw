@@ -13,6 +13,8 @@
 - FAQ 是否真正回應搜尋意圖，而不是重複本文段落。
 - 是否補上站內延伸閱讀與合理的 CTA。
 - `metaTitle`、`metaDescription`、列表標題與列表摘要是否完整。
+- OG/Twitter 預覽是否完整：`og:image`、`og:image:secure_url`、`og:image:type`、`og:image:width=1200`、`og:image:height=630`、`og:image:alt`、`twitter:card`、`twitter:title`、`twitter:description`、`twitter:image`、`twitter:image:alt`。
+- 封面圖、`og:image`、`twitter:image` 與 `Article.image` 是否指向同一張 1200 x 630 且公開可讀取的圖片。
 - 是否沒有使用 `nosnippet`、`data-nosnippet` 或會阻擋搜尋摘要的 robots meta 設定。
 - 初始 HTML 是否可直接看到主文、FAQ、延伸閱讀、CTA、導購揭露與頁尾；重要內容不可只靠 JavaScript 動態注入。
 - 封面與內容圖片是否有具描述性的 alt text，而不是只重複檔名或空泛標題。

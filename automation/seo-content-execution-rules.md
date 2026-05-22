@@ -69,6 +69,8 @@
 ### 5. 圖片、alt 與 OG
 
 - 每篇文章需有獨立封面與 OG/Twitter 圖，且全站不得重複。
+- 封面與社群預覽圖固定輸出為 `1200 x 630`；文章封面、`og:image`、`twitter:image` 與 `Article.image` 必須指向同一張可公開讀取的圖片。
+- 文章 HTML 必須具備完整社群預覽 meta：`og:image`、`og:image:secure_url`、`og:image:type`、`og:image:width`、`og:image:height`、`og:image:alt`、`twitter:card`、`twitter:title`、`twitter:description`、`twitter:image`、`twitter:image:alt`。
 - 圖片 `alt` 不應只重複檔名或空泛標題，應描述畫面與文章主題。例如：「戶外桌面上的手沖咖啡器具、濾掛包與簡易餐食配置」。
 - 封面圖應協助理解文章主題；不得只是抽象情緒、模糊背景或與主題無關的裝飾。
 - 若頁面有多張圖片，裝飾圖可留空 alt；內容圖必須寫清楚畫面內容與使用情境。
@@ -92,6 +94,7 @@
 - 初始 HTML 可看到 H1、導言、正文、FAQ、延伸閱讀、CTA、頁尾。
 - 無 `nosnippet`、`data-nosnippet` 或阻擋摘要的 robots meta。
 - `metaTitle`、`metaDescription`、canonical、OG/Twitter 圖完整。
+- `og:image:width=1200`、`og:image:height=630`，且 `twitter:image` 可直接打開並回傳 200。
 - 圖片有描述性 alt；封面與 OG 圖為同一張且不與其他文章重複。
 - FAQ 與 schema 有可見內容支撐。
 - 聯盟連結有 `sponsored nofollow`，導購揭露在文章末端。
