@@ -1,0 +1,6013 @@
+{
+  "updatedAt": "2026-05-22T07:44:36Z",
+  "sourceProducts": 600,
+  "eligibleProducts": 552,
+  "excludedProducts": 48,
+  "alreadyPlacedBeforeRun": 75,
+  "newlyPlacedProducts": 477,
+  "totalPlacedProducts": 552,
+  "pendingEligibleProducts": 0,
+  "articlesCreated": 36,
+  "entries": [
+    {
+      "code": "TP00095480000001",
+      "name": "大檜仁心-臺灣紅檜木精油-滴管瓶30ml-花蓮深山-純100%-檜木精油",
+      "merchantId": "TP0009548",
+      "brandName": "大檜仁心",
+      "bucket": "home-scent-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-52"
+    },
+    {
+      "code": "TP00095480000004",
+      "name": "大檜仁心-國立故宮博物院聯名-臺灣紅檜木精油禮盒-純100%紅檜木精油",
+      "merchantId": "TP0009548",
+      "brandName": "大檜仁心",
+      "bucket": "home-scent-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-52"
+    },
+    {
+      "code": "TP00060920016150",
+      "name": "()垃圾桶家用大號庭院帶蓋大容量廚房別墅腳踩大衛生桶50陞戶外商用",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00060920015908",
+      "name": "廚房垃圾桶家用大號大容量客廳不銹鋼高顏值",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "trash-bin",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-52"
+    },
+    {
+      "code": "TP00066690016472",
+      "name": "廚房垃圾桶家用大號大容量客廳不銹鋼高顏值",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "trash-bin",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "15151035",
+      "name": "mine kitchen 聯名｜櫻桃 大腸圈 (髮飾 髮束 生日禮物)",
+      "merchantId": "GOODS-vacanza",
+      "brandName": "vacanza",
+      "bucket": "fashion-accessory-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "hair-accessory-small-gift-products"
+    },
+    {
+      "code": "15151037",
+      "name": "mine kitchen 聯名｜珍珠花邊 大腸圈 (髮飾 髮束 生日禮物)",
+      "merchantId": "GOODS-vacanza",
+      "brandName": "vacanza",
+      "bucket": "fashion-accessory-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "hair-accessory-small-gift-products"
+    },
+    {
+      "code": "15151039",
+      "name": "mine kitchen 聯名｜紅白格紋 大腸圈 (髮飾 髮束 生日禮物)",
+      "merchantId": "GOODS-vacanza",
+      "brandName": "vacanza",
+      "bucket": "fashion-accessory-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "hair-accessory-small-gift-products"
+    },
+    {
+      "code": "10361095",
+      "name": "代燒 狐仙百合金紙 招貴人 打小人 桃花 人緣(大份 高雄進寶財神廟 提升貴...",
+      "merchantId": "GOODS-bd3920b6",
+      "brandName": "富加合國際實業有限公司",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "宗教祈福與效果承諾",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00081140009683",
+      "name": "輕氧熱銷款台灣現貨｜智能無線充電床頭櫃｜LED觸控燈・雙抽大容量・高腳防潮好...",
+      "merchantId": "TP0008114",
+      "brandName": "輕氧家居",
+      "bucket": "ai-work-gadgets",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "ai-work-gadgets-translation-audio-products"
+    },
+    {
+      "code": "10361089",
+      "name": "代燒 貔貅聚寶金紙大份 開運 招財 旺財運 補財庫(高雄進寶財神廟 /免出門...",
+      "merchantId": "GOODS-bd3920b6",
+      "brandName": "富加合國際實業有限公司",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "宗教祈福與效果承諾",
+      "articleSlug": ""
+    },
+    {
+      "code": "10361092",
+      "name": "獨家代燒 夯枷除罪金紙 冤親債主 斬小人 去霉運(大份 高雄進寶財神廟 還債...",
+      "merchantId": "GOODS-bd3920b6",
+      "brandName": "富加合國際實業有限公司",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "宗教祈福與效果承諾",
+      "articleSlug": ""
+    },
+    {
+      "code": "12564538",
+      "name": "代燒 財神爺金紙 開運 招財 旺財運 補庫 補財庫(大份 高雄進寶財神廟 事...",
+      "merchantId": "GOODS-bd3920b6",
+      "brandName": "富加合國際實業有限公司",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "宗教祈福與效果承諾",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00089760000022",
+      "name": "智能真空寵物儲糧桶 10L大容量10000ml 飼料密封桶 寵物糧食儲存 保...",
+      "merchantId": "TP0008976",
+      "brandName": "艾寵聯萌股份有限公司",
+      "bucket": "ai-work-gadgets",
+      "status": "excluded",
+      "reason": "寵物與動物用品",
+      "articleSlug": ""
+    },
+    {
+      "code": "10535086",
+      "name": "萌趣卡通大書包位兒童雨衣 附收納袋(兒童雨衣 收納 卡通 動物 男童 女童)",
+      "merchantId": "GOODS-da",
+      "brandName": "DA 生活選物",
+      "bucket": "mobile-outdoor-gear",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "mobile-outdoor-rain-bottle-fan-products"
+    },
+    {
+      "code": "11974438",
+      "name": "TYESO保溫杯 大容量500ml長效保溫保冰(運動/健身/戶外/四方切面...",
+      "merchantId": "GOODS-da",
+      "brandName": "DA 生活選物",
+      "bucket": "mobile-outdoor-gear",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "mobile-outdoor-rain-bottle-fan-products"
+    },
+    {
+      "code": "11974440",
+      "name": "TYESO保溫杯 大容量530ml長效保溫保冰(運動/健身/戶外/隱藏式掛勾...",
+      "merchantId": "GOODS-da",
+      "brandName": "DA 生活選物",
+      "bucket": "mobile-outdoor-gear",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "mobile-outdoor-rain-bottle-fan-products"
+    },
+    {
+      "code": "11304270",
+      "name": "10000mAh高容量 多功能夾式風扇 USB充電夾式風扇 超靜音大風力 多...",
+      "merchantId": "GOODS-da",
+      "brandName": "DA 生活選物",
+      "bucket": "mobile-outdoor-gear",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "mobile-outdoor-rain-bottle-fan-products"
+    },
+    {
+      "code": "11276847",
+      "name": "二入組 時尚輕巧UPF50+自動傘(抗暴風/抗UV/摺疊傘/口袋傘/大傘小傘...",
+      "merchantId": "GOODS-da",
+      "brandName": "DA 生活選物",
+      "bucket": "mobile-outdoor-gear",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "mobile-outdoor-rain-bottle-fan-products"
+    },
+    {
+      "code": "13745623",
+      "name": "A12充氣機 5000mAh大電量 3秒速充(輪胎打氣機/無線打氣機/胎壓檢...",
+      "merchantId": "GOODS-da",
+      "brandName": "DA 生活選物",
+      "bucket": "mobile-outdoor-gear",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "mobile-outdoor-rain-bottle-fan-products"
+    },
+    {
+      "code": "14791194",
+      "name": "大譯通 多功能AI智能翻譯機-磁吸支架款(多國互譯/語音筆記/拍照翻譯/AI...",
+      "merchantId": "GOODS-da",
+      "brandName": "DA 生活選物",
+      "bucket": "ai-work-gadgets",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "ai-work-gadgets-translation-audio-products"
+    },
+    {
+      "code": "TP00060920015651",
+      "name": "戶外鋁閤金院門 別墅大門 鋁藝大門 鋁閤金庭院門 農村自建房庭院大門 花園大...",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920014611",
+      "name": "鋁合金別墅大門新中式簡約院子大門鐵藝庭院門農村自建房大門定製",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00036250009583",
+      "name": "輕奢床主臥真皮床雙人床1.8米大床軟包床高端大氣豪華大床實木",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00066690016740",
+      "name": "()垃圾桶家用大號庭院帶蓋大容量廚房別墅腳踩大衛生桶50陞戶外商用",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00036240012989",
+      "name": "鞋櫃 意式鋼製鞋櫃 鞋架 出租屋大容量收納櫃 大容量鞋櫃 簡約大方時尚大鞋櫃...",
+      "merchantId": "TP0003624",
+      "brandName": "蝸居客製",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00060920015201",
+      "name": "雨傘收納大容量家用教室宿舍專用大容量款門口置物架雨傘架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00066690015555",
+      "name": "雨傘收納大容量家用教室宿舍專用大容量款門口置物架雨傘架",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00036420030071",
+      "name": "美式復古陶瓷水槽大單槽臺下盆廚房家用嵌入大號水池一體洗菜盆",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "TP00036240014968",
+      "name": "髒衣籃 大開口 衣物 裝收納髒衣服 收納筐 大容量 家用 浴室洗衣籃子",
+      "merchantId": "TP0003624",
+      "brandName": "蝸居客製",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00057090016048",
+      "name": "可折疊收納箱家用大號衣服被子大容量書本整理家用多功能儲物箱",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00066690015393",
+      "name": "大鳥籠鹦鹉籠子大號豪華別墅家用虎皮牡丹玄鳳專用新型繁殖籠大型",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "寵物與動物用品",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00035850024172",
+      "name": "新中式酒店餐桌大圓桌轉盤20人包廂2米3米家用實木大椅子巖板",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00057090016084",
+      "name": "可定製現代簡約鞋架大氣日式鞋架大容量多層鞋櫃翻鬥式透氣鞋架",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00060920015051",
+      "name": "大貓籠子超大自由空間室內家用貓籠大空間特大號寵物籠大型免安裝",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "寵物與動物用品",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00035850022725",
+      "name": "家用垃圾桶 大號大容量廚房客廳衛生間皮革 輕奢高檔敞口式垃圾桶",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "trash-bin",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-52"
+    },
+    {
+      "code": "TP00035850024167",
+      "name": "新中式酒店餐桌大圓桌轉盤15人20人包廂2米3米家用實木大圓桌",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00036250013730",
+      "name": "加厚收納櫃家用透明可開門大容量折疊零食整理櫃客廳大容量儲物櫃",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00066690015437",
+      "name": "大貓籠子超大自由空間室內家用貓籠大空間特大號寵物籠大型免安裝",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "寵物與動物用品",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00068600012883",
+      "name": "寵物車載狗籠後備箱籠子大狗坐車可折疊貓大狗窩寵物籠",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "folding-storage-box",
+      "status": "excluded",
+      "reason": "寵物與動物用品",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920014107",
+      "name": "童車兒童自行車女孩1216中大童18單車自行車成年人青少年大學生車",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "兒童交通工具高風險",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920015436",
+      "name": "藥箱家庭裝大號加密碼鎖醫藥箱家用藥品收納盒藥物醫療大容量裝藥",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "folding-storage-box",
+      "status": "excluded",
+      "reason": "醫療照護或安全風險",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00035850025780",
+      "name": "批老板辦公桌椅組合雙櫃簡約現代總裁桌經理桌主管桌豪華大氣大",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "desk-work-corner-furniture-products"
+    },
+    {
+      "code": "TP00035850028992",
+      "name": "鸚鵡鳥籠大型鳥別墅實木製大號鳥窩大空間別墅玻璃透明繁殖籠批髮",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "fashion-accessory-gifts",
+      "status": "excluded",
+      "reason": "寵物與動物用品",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00057090014891",
+      "name": "防塵鞋櫃家用大容量玄關櫃簡約大氣現代門口經濟型儲物櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00057090016167",
+      "name": "古風極簡真皮床高端雙人主臥大床現代簡約輕奢小戶型軟包大床",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products-2"
+    },
+    {
+      "code": "TP00036420030739",
+      "name": "遮陽四方大傘 擺攤雨傘 大型庭院折疊太陽大號戶外商用超大號做生意",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00036420030389",
+      "name": "批老板辦公桌椅組合雙櫃簡約現代總裁桌經理桌主管桌豪華大氣大",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-office-corner-desk-storage-furniture-guide"
+    },
+    {
+      "code": "TP00066690015927",
+      "name": "藥箱家庭裝大號加密碼鎖醫藥箱家用藥品收納盒藥物醫療大容量裝藥",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "folding-storage-box",
+      "status": "excluded",
+      "reason": "醫療照護或安全風險",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920014617",
+      "name": "鋁藝別墅大門木紋鋁合金庭院門花園門農村自建別墅電動門鄉村大門",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00035850023064",
+      "name": "全實木床簡約實木床現代雙人床米主臥大床家用出租屋儲物床婚大床",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00057090016139",
+      "name": "真皮軟包實木大床意式輕奢主臥大床家用小戶型高端皮藝床床雙人床",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products-2"
+    },
+    {
+      "code": "TP00036420020249",
+      "name": "日式橡木全實木衣櫃現代簡約臥室大容量衣櫥北歐主臥傢俱大儲物櫃",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036420027143",
+      "name": "意式輕奢臥室全實木大尺寸床頭櫃簡約現代儲物櫃大號床邊櫃",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-office-corner-desk-storage-furniture-guide"
+    },
+    {
+      "code": "TP00036420030088",
+      "name": "納米水槽日式大單槽圓弧多方位設計大容量槽體185mm加加大排水口",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "TP00036420030716",
+      "name": "分類垃圾桶 家用廚房客廳帶蓋幹濕分離大號辦公室不銹鋼腳踩大容量",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "trash-bin",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "TP00060920016025",
+      "name": "茶花垃圾桶 大容量垃圾桶 傢用垃圾桶 廚房垃圾桶 大號垃圾桶 大容量腳踩帶蓋...",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00066690010705",
+      "name": "鞋櫃 大碼加寬鋼製鞋櫃 戶外鞋櫃 入戶門口全封閉落地多層防塵鞋架 防水防潮大...",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00066690016603",
+      "name": "茶花垃圾桶 大容量垃圾桶 傢用垃圾桶 廚房垃圾桶 大號垃圾桶 大容量腳踩帶蓋...",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "TP00064810020567",
+      "name": "批發大床頭櫃加大號80大尺寸60cm長70寬臥室大型加長加寬收納儲物",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00060920015546",
+      "name": "長繩多人跳學生群體大繩集體跳大繩專用的跳繩小學生團體比賽甩繩",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "family-outdoor-toys",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-52"
+    },
+    {
+      "code": "TP00057090016158",
+      "name": "真皮床主臥大床婚床雙人1.8x2米床現代簡約1.5米家用軟包次臥大床",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products-2"
+    },
+    {
+      "code": "TP00066690016116",
+      "name": "長繩多人跳學生群體大繩集體跳大繩專用的跳繩小學生團體比賽甩繩",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "family-outdoor-toys",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-52"
+    },
+    {
+      "code": "TP00036250008928",
+      "name": "實木餐桌衚桃木色客廳大長書桌工作臺大闆餐書桌一體會議辦公桌",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-office-corner-desk-storage-furniture-guide"
+    },
+    {
+      "code": "TP00064810015265",
+      "name": "雨傘架 雨傘收納架商用大容量",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00070700000602",
+      "name": "SAIME 東京企劃 ZIZONE 大頭髮夾",
+      "merchantId": "TP0007070",
+      "brandName": "S′AIME東京企劃",
+      "bucket": "ai-work-gadgets",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "ai-work-gadgets-translation-audio-products"
+    },
+    {
+      "code": "TP00070700000603",
+      "name": "SAIME 東京企劃 ZIZONE 大頭髮帶",
+      "merchantId": "TP0007070",
+      "brandName": "S′AIME東京企劃",
+      "bucket": "ai-work-gadgets",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "ai-work-gadgets-translation-audio-products"
+    },
+    {
+      "code": "TP00064810020979",
+      "name": "圓弧門楠竹鞋櫃 大容量多層鞋架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00074070003196",
+      "name": "家用楠竹鞋櫃 透氣防潮大容量收納 門口防塵百葉門鞋架 入戶玄關落地鞋架 多層...",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00057090013608",
+      "name": "法式輕奢實木床 美式主臥大床 軟靠雙人床 婚床 奶油風公主床 床組床架 掀床...",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products-2"
+    },
+    {
+      "code": "TP00070700000582",
+      "name": "SAIME 東京企劃 ZIZONE大頭迷你斜背包",
+      "merchantId": "TP0007070",
+      "brandName": "S′AIME東京企劃",
+      "bucket": "ai-work-gadgets",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "ai-work-gadgets-translation-audio-products"
+    },
+    {
+      "code": "13767083",
+      "name": "120L/123L大容量帶輪折疊收納箱-大款(玩具收納筐 翻蓋儲物箱 收納箱...",
+      "merchantId": "GOODS-fun-house",
+      "brandName": "FUN HOUSE",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00043790008197",
+      "name": "免稅 意式極簡床 主臥軟包高級大氣現代簡約雙人床 大床 婚床 輕奢黑色皮床架",
+      "merchantId": "TP0004379",
+      "brandName": "凱莎精選家具城",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "13827840",
+      "name": "123L大容量帶輪折疊收納箱-升級雙開大款(玩具收納筐 翻蓋儲物箱 收納箱大...",
+      "merchantId": "GOODS-fun-house",
+      "brandName": "FUN HOUSE",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00057090018294",
+      "name": "水泥花盆長方形瓷盆花卉植物盆栽花瓶批髮大號種菜高檔客廳上檔次 長方形花盆 大...",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "fashion-accessory-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "hair-accessory-small-gift-products"
+    },
+    {
+      "code": "TP00035850029478",
+      "name": "水泥花盆長方形瓷盆花卉植物盆栽花瓶批髮大號種菜高檔客廳上檔次 長方形花盆 大...",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "fashion-accessory-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "hair-accessory-small-gift-products"
+    },
+    {
+      "code": "TP00066690008320",
+      "name": "收納箱 大容量收纳箱 抽屜收納 可堆叠收納箱 衣服收納櫃 大容量抽屜式收納盒...",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00060920007019",
+      "name": "床底扁平收納箱 帶滑輪大容量透明衣物儲物箱",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00036420024499",
+      "name": "床头靠枕大靠背垫床上靠背枕飘窗沙发护腰床靠垫",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00064810014169",
+      "name": "衣服收納箱 大容量家用翻蓋儲物櫃收納櫃",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00064810021883",
+      "name": "門口簡約鞋架 大容量多層收納超窄鞋櫃",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00064810023296",
+      "name": "鞋櫃 大容量簡易玄關櫃 帶門儲物櫃鞋架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00068600008563",
+      "name": "床头靠枕大靠背垫床上靠背枕飘窗沙发护腰床靠垫",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-office-corner-desk-storage-furniture-guide"
+    },
+    {
+      "code": "TP00035850028041",
+      "name": "北歐客廳大長書桌客廳實木學習桌長條桌傢用書桌簡約大桌子帶抽屜 38K3",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "desk-work-corner-furniture-products"
+    },
+    {
+      "code": "TP00074070008959",
+      "name": "可代客付費上門安裝 歐式實木桌 大闆桌辦公桌 會議桌 長方形洽談桌 簡約書桌...",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-office-corner-desk-storage-furniture-guide"
+    },
+    {
+      "code": "TP00057090017605",
+      "name": "北歐客廳大長書桌客廳實木學習桌長條桌傢用書桌簡約大桌子帶抽屜 38K3",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-office-corner-desk-storage-furniture-guide"
+    },
+    {
+      "code": "TP00036240012995",
+      "name": "鞋櫃 鞋架子 多層鞋櫃 家用門口收納櫃 結實耐用承重200KG 大容量入戶玄...",
+      "merchantId": "TP0003624",
+      "brandName": "蝸居客製",
+      "bucket": "shoe-box-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00063480000421",
+      "name": "S4耳掛式耳罩 藍牙5.0 32GB（耳掛式耳機 金屬大耳罩 伸縮調節 18...",
+      "merchantId": "TP0006348",
+      "brandName": "LamiFans",
+      "bucket": "ai-work-gadgets",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-office-corner-desk-storage-furniture-guide"
+    },
+    {
+      "code": "TP00057090013358",
+      "name": "製鞋櫃 鞋架 大容量收納鞋架 鞋櫃 入戶鞋櫃大容量多層鞋架 出租屋鞋子收納...",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00064810020974",
+      "name": "鞋櫃 鞋櫃玄關 加固門口家用大容量鞋櫃楠竹收納神器超實用簡易出租屋室內省空間...",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00021790001126",
+      "name": "超級無敵大彩虹彈簧圈（12.5x30）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00021790000620",
+      "name": "大號砂畫／沙畫（圖案多樣）（12入裝）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00021790000372",
+      "name": "6入仿真昆蟲模型（大隻）（螳螂蜘蛛版）（安全塑料）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "14769641",
+      "name": "鏤空線條大花垂掛 鋼針耳環( 生日禮物)",
+      "merchantId": "GOODS-vacanza",
+      "brandName": "vacanza",
+      "bucket": "fashion-accessory-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "hair-accessory-small-gift-products"
+    },
+    {
+      "code": "TP00057090015152",
+      "name": "現代簡約簡易收納換鞋凳 大容量鞋櫃 鞋架",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00064810021151",
+      "name": "輕奢鞋櫃坐凳一體 大容量玄關櫃收納可坐",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00064810020941",
+      "name": "餐邊櫃 家用茶水櫃 靠牆一體大容量儲物櫃",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "TP00064810020195",
+      "name": "鞋櫃加寬加深 家用進門大容量玄關櫃 輕奢鞋架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00057090011809",
+      "name": "優質 收納箱 大容量收纳箱 抽屜收納 可堆叠收納箱 大容量抽屜式收納盒 衣服...",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00060920016736",
+      "name": "前開式收納箱大容量特大號雜物家用衣服玩具整理箱學生宿捨儲物盒 學生宿捨儲物盒...",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00043790001397",
+      "name": "可定制尺寸聯繫客服報價 拼接床加寬床大人可睡小床拼接大床側邊成人床邊萬能型拼...",
+      "merchantId": "TP0004379",
+      "brandName": "凱莎精選家具城",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products-2"
+    },
+    {
+      "code": "TP00035850028619",
+      "name": "開發票戶外垃圾桶 回收桶 大容量垃圾桶 分類商用小區240L陞室外加厚帶蓋箱...",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00035850028146",
+      "name": "折疊餐桌10人15人家用飯店大圓桌帶轉盤食堂餐館圓桌麵闆臺麵 折疊餐桌 吃飯...",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00057090017725",
+      "name": "折疊餐桌10人15人家用飯店大圓桌帶轉盤食堂餐館圓桌麵闆臺麵 折疊餐桌 吃飯...",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00066690017383",
+      "name": "前開式收納箱大容量特大號雜物家用衣服玩具整理箱學生宿捨儲物盒 學生宿捨儲物盒...",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products-2"
+    },
+    {
+      "code": "14849090",
+      "name": "薄紗輕舞 髮圈 大腸圈(髮飾 髮束 生日禮物)",
+      "merchantId": "GOODS-vacanza",
+      "brandName": "vacanza",
+      "bucket": "fashion-accessory-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "hair-accessory-small-gift-products"
+    },
+    {
+      "code": "14849095",
+      "name": "絨毛復古 髮圈 大腸圈(髮飾 髮束 生日禮物)",
+      "merchantId": "GOODS-vacanza",
+      "brandName": "vacanza",
+      "bucket": "fashion-accessory-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "hair-accessory-small-gift-products"
+    },
+    {
+      "code": "TP00036420025628",
+      "name": "户外储物柜子大容量防晒防水家用塑料花园简易阳台室外杂物收纳柜",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00068600014030",
+      "name": "夾縫收納櫃 多層大容量加厚抽屜收納櫃",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00035850029497",
+      "name": "遮陽傘大型戶外擺攤四方太陽傘大號庭院傘超大商用傘大雨傘防曬傘 沙灘傘 地攤傘...",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00060920001296",
+      "name": "家用門口實木鞋櫃/大容量多層超大鞋架家用門口走廊鞋架子",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00060920015620",
+      "name": "軟體水袋大容量加厚折疊橋梁農用抗旱預壓儲水",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "folding-storage-box",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00021790000643",
+      "name": "幼兒學齡前大塊拼圖（48片手提盒收納）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00021790000561",
+      "name": "299關益智迷宮球（大顆）（挑戰耐心手眼協調性）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00021790000560",
+      "name": "100關益智迷宮球（大顆）（挑戰耐心手眼協調性）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "14987373",
+      "name": "格子野餐 髮圈 大腸圈 2件入(髮飾 髮束 生日禮物)",
+      "merchantId": "GOODS-vacanza",
+      "brandName": "vacanza",
+      "bucket": "fashion-accessory-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "hair-accessory-small-gift-products"
+    },
+    {
+      "code": "TP00036240017129",
+      "name": "鞋架 宿舍簡易 鞋子儲物櫃 防塵鞋盒 室內家居 大容量 鞋櫃",
+      "merchantId": "TP0003624",
+      "brandName": "蝸居客製",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036250012385",
+      "name": "家用门口防尘现代简易鞋柜鞋架大容量翻斗储物置物柜鞋子收纳神器",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00036250012378",
+      "name": "免安装多层折叠鞋盒aj透明鞋架收纳盒透气蚂蚁鞋柜球鞋靴子防尘大",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "shoe-box-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00057090016875",
+      "name": "木杉木衣櫃大容量新中式加厚移門推拉門衣櫃防潮防黴",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00036420022460",
+      "name": "放包包收納櫃臥室置物架包架家用防塵多層大容量包",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00064810020221",
+      "name": "鞋架家用門口大容量多層室內好看入戶門簡易鞋櫃",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00064810021157",
+      "name": "楠竹翻門鞋櫃 實木竹製鞋架 楠木製鞋櫃 大鞋櫃",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00064810020083",
+      "name": "床頭櫃現代簡約家用收納櫃子高檔大氣小型",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-office-corner-desk-storage-furniture-guide"
+    },
+    {
+      "code": "TP00064810019954",
+      "name": "貓抓板窩劍麻耐磨不掉屑 大號窩貓抓板貓沙發",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "large-furniture",
+      "status": "excluded",
+      "reason": "寵物與動物用品",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00064810021977",
+      "name": "✅大容量雨傘收納架 大堂商用雨傘桶 家用門口放傘置物架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00064810023702",
+      "name": "鞋櫃 進門口大容量簡易玄關櫃 帶門儲物櫃鞋架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00066690011149",
+      "name": "衣櫃一體收納櫃 玩具收納架 家用大容量可移動置物架",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products-2"
+    },
+    {
+      "code": "TP00066690016179",
+      "name": "軟體水袋大容量加厚折疊橋梁農用抗旱預壓儲水",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "folding-storage-box",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00068600002628",
+      "name": "放包包收納櫃臥室置物架包架家用防塵多層大容量包",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-3"
+    },
+    {
+      "code": "TP00068600012175",
+      "name": "收納櫃 客廳置物櫃 餐邊櫃 大容量櫃子 儲物櫃",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "kitchen-rack-counter-storage-products"
+    },
+    {
+      "code": "TP00068600014039",
+      "name": "韓系極簡收納櫃 大容量設計質感奶油風電視櫃",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00068600014033",
+      "name": "簡約儲物櫃 多層大容量抽屜收納櫃 輕鬆收納",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00074070001496",
+      "name": "鞋架家用門口大容量多層室內好看入戶門簡易鞋櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00036420030709",
+      "name": "實木床 男孩小床 帶護欄女孩公主床 邊床加寬拚接大床",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00035850015258",
+      "name": "客廳大圓桌子小戶型圓形桌面多功能可移動三折式餐桌家用餐桌家用客廳大圓桌小戶型...",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "8656888",
+      "name": "兒童平面醫療口罩x2盒 粉色(大童/小臉女生適用)",
+      "merchantId": "GOODS-52446bd6",
+      "brandName": "台灣康匠製造股份有限公司",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "醫療照護或安全風險",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00021790000305",
+      "name": "大耳狗造型可愛風箏（全配/附150米輪盤線）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-outdoor-toys",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00021790000328",
+      "name": "大蝴蝶造型彩色風箏（133*220）（全配/附150米輪盤線）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-outdoor-toys",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "14987371",
+      "name": "夏日熱情 髮圈 大腸圈 2件入(髮飾 髮束 生日禮物)",
+      "merchantId": "GOODS-vacanza",
+      "brandName": "vacanza",
+      "bucket": "fashion-accessory-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "hair-accessory-small-gift-products"
+    },
+    {
+      "code": "TP00035850019274",
+      "name": "鞋架2022大容量多層家用門口簡易入戶鞋店展示智高圓",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00035850027921",
+      "name": "紅葉24骨雨傘長柄大號抗風防風雙人三人",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00036240019360",
+      "name": "「小宅救星｜實木折疊餐桌，可伸縮大桌面，省空間多功能餐桌」",
+      "merchantId": "TP0003624",
+      "brandName": "蝸居客製",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00036250012392",
+      "name": "鞋柜楠竹鞋架子简易多层鞋架家用门口大容量客厅多功能收纳储物架",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036250015397",
+      "name": "大容量卡通创意透明抽屉笔筒收纳盒儿童女孩学生办公室桌面摆件",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-office-corner-desk-storage-furniture-guide"
+    },
+    {
+      "code": "TP00036250015378",
+      "name": "衣服收纳箱家用大容量翻盖儿童玩具毛绒娃娃整理箱子可折叠储物柜",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00036250015383",
+      "name": "收纳箱家用收纳衣服玩具储物箱大容量超大塑料后备书本零食整理箱",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00036250015650",
+      "name": "跨境桌面置物架大容量水杯架轻奢杯子收纳架可折叠手办香水展示架",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-office-corner-desk-storage-furniture-guide"
+    },
+    {
+      "code": "TP00074070007529",
+      "name": "鋼制鞋櫃收納櫃一體靠牆防塵玄關櫃大容量多層",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00074070008716",
+      "name": "現貨 鞋櫃 簡易大容量鞋架子 門口玄關櫃 簡易鞋架",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00057090015133",
+      "name": "家用多層亞克力鞋櫃塑料分層隔板大容量防塵多功能鞋盒",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "shoe-box-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00057090016173",
+      "name": "現代簡約高端大氣主臥雙人漣漪波浪儲物真皮藝牀",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00036420024547",
+      "name": "多功能化妝收納盒 木質折疊設計 大容量美妝整理神器",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00064810019263",
+      "name": "家用可移動餐桌 8-10人大圓桌 三折疊簡易桌子",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00064810020832",
+      "name": "收納書架 客廳大容量可移動小推車 多層收納置物架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-3"
+    },
+    {
+      "code": "TP00064810021824",
+      "name": "入戶換鞋凳 家用可儲物可坐鞋櫃 門口大容量簡約鞋架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00064810024367",
+      "name": "臥室衣帽間實木櫥櫃大容量北歐多功能日式黑胡桃衣櫃",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00035850029350",
+      "name": "加高離地戶外養雞棚防雨雞籠雞鴨鵝養殖雞舍架子雞籠養殖籠大號籠 雞棚 雞籠 養...",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "寵物與動物用品",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00057090018180",
+      "name": "加高離地戶外養雞棚防雨雞籠雞鴨鵝養殖雞舍架子雞籠養殖籠大號籠 雞棚 雞籠 養...",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "寵物與動物用品",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920016065",
+      "name": "成人泡澡桶家用塑料全身大號洗澡浴桶加厚小戶型大人泡澡浴缸澡盆 REKS",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "大型泡澡桶與浴缸",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920015621",
+      "name": "塑料水塔儲水罐加厚水箱大容量pe水桶儲水罐1/2/5/10噸桶食品級",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "folding-storage-box",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "8656887",
+      "name": "兒童平面醫用口罩x2盒 藍色(大童/小臉女生適用)",
+      "merchantId": "GOODS-52446bd6",
+      "brandName": "台灣康匠製造股份有限公司",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "醫療照護或安全風險",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00021790000320",
+      "name": "黑色大鯊魚造型風箏（180*361）（全配/附150米輪盤線）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-outdoor-toys",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00021790000123",
+      "name": "精緻6合1工程車變形機器人（大禮盒版）（1673）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "home-scent-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00021790000336",
+      "name": "7米長大紅蜈蚣造型風箏（全配/附150米輪盤線）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-outdoor-toys",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00021790000998",
+      "name": "8269高級彩色磁性畫板（大版）（擦寫流暢）（45度腳架）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00035850028194",
+      "name": "成人泡澡桶塑料浴桶大人浴缸大號洗澡桶加厚澡盆傢用浴盆全身式解",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "大型泡澡桶與浴缸",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00036240017154",
+      "name": "鞋櫃 大容量鞋櫃 小戶型鞋架 簡易鞋櫃 收納櫃 玄關櫃",
+      "merchantId": "TP0003624",
+      "brandName": "蝸居客製",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036250012717",
+      "name": "餐桌 家用多功能移動圓形飯桌 簡約酒店客廳聚會大圓桌子",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00036250012381",
+      "name": "鞋柜家用门口简约现代玄关柜入户进门楼道大容量一体鞋架",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036250012387",
+      "name": "鞋柜门口家用大容量玄关柜一体靠墙换鞋凳可坐简易鞋架进门穿鞋凳",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036250012384",
+      "name": "鞋柜门口家用中式简约大容量收纳柜子入户玄关柜一体储物简易鞋架",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036250012390",
+      "name": "超薄翻斗鞋柜家用门口17cm简约现代大容量经济型收纳储物柜子鞋架",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036250012379",
+      "name": "鞋柜高款立式家用门口室内入户门简易多层收纳鞋架子玄关柜大容量",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036250016068",
+      "name": "瑜伽墊 雙人超大加寬加厚家用地墊 大號防滑隔音減震男女瑜伽墊",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00036250015389",
+      "name": "零食收纳箱宿舍书籍可折叠大容量衣物整理箱可叠加玩具整理筐",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00074070002369",
+      "name": "戶外月亮椅 野營自駕遊躺椅 大號加高鋁合金戶外折疊椅",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00057090014631",
+      "name": "家用大容量翻蓋臥室衣物被子整理箱可折疊收納櫃儲物櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00036420019055",
+      "name": "多功能大容量鞋櫃 鞋櫃 儲物櫃 靠牆櫃 玄關櫃 收納櫃",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036420024487",
+      "name": "靠枕床头沙发大靠背护颈护腰玩手机可移动床上软包高级感家用靠垫",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00036420025580",
+      "name": "老船木一体套装中式茶台功夫大茶几茶桌椅组合简约客厅实木泡茶桌",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00036420025574",
+      "name": "意式极简帆船沙发可调节磨砂布艺高靠背沙发大坐深客厅沙发组合",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036420030078",
+      "name": "美式家用廚房陶瓷水槽法式半嵌入前置復古洗菜盆洗碗池大單槽水池",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00064810017143",
+      "name": "雨傘收納架 大容量雨傘桶 教室酒店大堂商用門口放雨傘置物架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00064810016281",
+      "name": "餐桌10人實木大圓桌 家用餐桌 商用圓形折疊帶轉盤桌",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00064810023321",
+      "name": "實木鞋櫃 入戶玄關收納櫃 大容量一體歐式多層鞋櫃",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00064810023298",
+      "name": "防塵鞋櫃 家用可視化多層透明鞋架 簡易大容量鞋子收納櫃",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "shoe-box-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00066690005781",
+      "name": "鞋架子 多層防塵鋼制鞋架 家用入門入戶落地架 大容量鞋櫃",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00066690008927",
+      "name": "胡桃色實木鞋櫃家用門口入戶玄關櫃陽臺大容量收納櫃",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00066690016178",
+      "name": "塑料水塔儲水罐加厚水箱大容量pe水桶儲水罐1/2/5/10噸桶食品級",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "folding-storage-box",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00066690016634",
+      "name": "成人泡澡桶家用塑料全身大號洗澡浴桶加厚小戶型大人泡澡浴缸澡盆 REKS",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "大型泡澡桶與浴缸",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00068600006435",
+      "name": "廚房家用不銹鋼水單帶支架洗菜盆洗碗大號單盆洗手池",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "TP00068600008551",
+      "name": "靠枕床头沙发大靠背护颈护腰玩手机可移动床上软包高级感家用靠垫",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-3"
+    },
+    {
+      "code": "TP00035850022718",
+      "name": "不銹鋼掀蓋腳踏式垃圾桶 家用廚房大容量垃圾桶 大號商用室內辦公室翻蓋垃圾桶垃...",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "trash-bin",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-52"
+    },
+    {
+      "code": "TP00060920012360",
+      "name": "水花盆花箱大號真石漆鎂泥花盆工程釘製水泥花箱長方形清倉戶",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920014861",
+      "name": "自行車成人男女士青少年大學生校園單車24寸22寸20寸通勤",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920014849",
+      "name": "ICOLOUR山地車自行車女款青少年大學生校園通勤代步變速公路單車",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920016269",
+      "name": "小型瀝水碗架廚房置物架碗架碗筷碗碟收納架碗盤置物架家用大容量",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "kitchen-rack-counter-storage-products"
+    },
+    {
+      "code": "TP00060920015617",
+      "name": "加厚塑料水塔儲水罐加厚PE儲水桶特厚儲水罐5/50噸家用大塑料桶",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00021790000415",
+      "name": "青蛙搶珠盤桌上遊戲（大台）（2-4人親子桌遊）（824）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00021790000258",
+      "name": "粉紅兔大電鍋碗筷組家家酒（附大小公仔）（授權37008）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "kitchen-rack-counter-storage-products"
+    },
+    {
+      "code": "TP00021790001111",
+      "name": "62885高級彩色磁性畫板（大版）（擦寫流暢）（4腳架變桌子）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00021790001178",
+      "name": "402PCS滾珠積木組（彩色大組版）（任意拼裝軌道）（9604）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00021790000609",
+      "name": "8入蔬菜切切樂（附大盤子+刀叉）（玉米版）（安全漆ST903C）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00021790000610",
+      "name": "8入水果切切樂（附大盤子+刀叉）（葡萄版）（安全漆ST903B）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00021790000304",
+      "name": "前桿式大蝙蝠造型風箏（188*192）（全配/附150米輪盤線）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-outdoor-toys",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-52"
+    },
+    {
+      "code": "TP00021790000318",
+      "name": "大鯨魚造型風箏（軟式風箏）（全配/附150米輪盤線）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-outdoor-toys",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-52"
+    },
+    {
+      "code": "TP00021790000115",
+      "name": "粉紅兔仿真多功能雙開門大冰箱家家酒（授權17016）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00021790001000",
+      "name": "粉紅兔仿真3層雙開門大冰箱組家家酒（授權17036）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00021790000375",
+      "name": "6入仿真極地動物模型（大隻）（北極鳥海鸚版）（安全塑料）",
+      "merchantId": "TP0002179",
+      "brandName": "888便利購 兒童玩具專賣店",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00070700000652",
+      "name": "SAIME 東京企劃 ICON經典大框摺疊偏光墨鏡送收納盒",
+      "merchantId": "TP0007070",
+      "brandName": "S′AIME東京企劃",
+      "bucket": "ai-work-gadgets",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "ai-work-gadgets-translation-audio-products"
+    },
+    {
+      "code": "14849073",
+      "name": "簡約大紅 可旋轉垂掛夾式耳環 耳夾(飾品 生日禮物)",
+      "merchantId": "GOODS-vacanza",
+      "brandName": "vacanza",
+      "bucket": "fashion-accessory-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "hair-accessory-small-gift-products"
+    },
+    {
+      "code": "15104774",
+      "name": "925純銀飾品｜大蝴蝶結 垂墜 純銀耳環 (抗過敏 生日禮物)",
+      "merchantId": "GOODS-vacanza",
+      "brandName": "vacanza",
+      "bucket": "fashion-accessory-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "hair-accessory-small-gift-products"
+    },
+    {
+      "code": "TP00035850024287",
+      "name": "超薄鞋櫃 入戶鞋櫃 客廳家用門口大容量鞋架 實木收納 鞋架子",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00035850024143",
+      "name": "酒店包房別墅會所餐桌巖板電磁爐商用火鍋桌椅組合大圓桌",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "kitchen-rack-counter-storage-products"
+    },
+    {
+      "code": "TP00036240011647",
+      "name": "免安裝 大容量 鞋架子 門口防塵鞋櫃 40雙鞋 折疊鞋架 鞋櫃",
+      "merchantId": "TP0003624",
+      "brandName": "蝸居客製",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036240014954",
+      "name": "北歐風 髒衣籃 浴室 髒衣服 收納筐 大號帶蓋 收納箱 洗衣簍",
+      "merchantId": "TP0003624",
+      "brandName": "蝸居客製",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00036240014661",
+      "name": "衣櫃 衣物一件用放整理玩具 衣服箱 儲物箱 收納箱 大號搬家",
+      "merchantId": "TP0003624",
+      "brandName": "蝸居客製",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00036250010619",
+      "name": "不止收纳桌面置物架梳妆台化妆品护肤收纳盒多层大容量整理储物架",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00036250011355",
+      "name": "ll電腦椅家用大學生宿舍椅子學習久坐舒服靠背女生臥室辦公轉",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036250012126",
+      "name": "書架書櫃簡約落地多功能大容量自由組合格子櫃儲物櫃顧之",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036250013718",
+      "name": "床底收納箱扁平帶滑輪床下收納神器大容量超大透明衣服宿舍儲物箱",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00036250012320",
+      "name": "新品免安裝鞋盒家用折疊鞋櫃收納盒透明鞋架雙排大容量鞋子收",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "shoe-box-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00036250012314",
+      "name": "鞋帽架 家用門口多層大容量鞋架 防塵收納簡易鞋櫃 衣帽架",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036250015653",
+      "name": "书架落地家用多层放书本架一体大容量置物收纳架杂物架可移动书架",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00074070002311",
+      "name": "戶外大號方形桌椅 鋁合金便攜輕巧式露營用品野餐折疊蛋卷桌",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00074070006286",
+      "name": "鞋櫃家用進門口門外大容量小空間玄關櫃簡約儲物鞋架",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00074070008912",
+      "name": "大號收納箱 床底下收納盒 扁平透明塑膠衣物整理盒 收納箱",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00057090015094",
+      "name": "入戶門口家用大容量防塵鞋架多層租房經濟型鞋子收納鞋櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00057090014420",
+      "name": "歐式大號加厚抽屜式收納櫃塑膠衣櫃儲物櫃衣物整理櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00057090015184",
+      "name": "鞋櫃大容量家用門口多層加厚鞋架子出租屋進門鞋子收納櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00057090016664",
+      "name": "實木床榻榻米民宿酒店地臺床氣壓儲物大床2.2米任意尺寸排骨",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products-2"
+    },
+    {
+      "code": "TP00036250017327",
+      "name": "榉木兒童拼接床 實木兒童床 可升降護欄拼接大床 小孩床邊床",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00036420026826",
+      "name": "北歐百葉鞋櫃 大容量透氣玄關鞋櫃 多層收納防塵鞋架",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00036420026849",
+      "name": "奶油風鞋櫃家用門口多層大容量收納櫃入戶玄關櫃",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036420026962",
+      "name": "鞋櫃家用門口2022入戶一體大容量收納儲物玄關櫃鞋架",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036420030093",
+      "name": "304不銹鋼廚房 洗菜盆家用臺下日式大單盆水槽單槽淘菜新品",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00036420030082",
+      "name": "水槽SUS304不銹鋼日式大單槽廚房水槽加厚多功能小米粒洗菜盆",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00036420030113",
+      "name": "廚房水槽日式大單槽加厚洗菜盆洗手池洗碗槽304不銹鋼洗菜池",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00036420030119",
+      "name": "白色飛魚瀑布水槽不銹鋼水槽白色洗菜盆洗碗池洗菜盆廚房大單槽",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00064810016515",
+      "name": "化妝品收納盒 亞克力防塵收納盒 大容量透明化妝盒",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00064810014652",
+      "name": "♡雨傘收納架家用門口裝傘桶放傘置物架入戶放傘大容量商用",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00064810015981",
+      "name": "電腦椅子久坐舒服辦公座椅宿舍大學生學習靠背椅家用書桌凳子",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00064810017637",
+      "name": "翻蓋收納箱衣服玩具整理櫃大容量移動式房間被子儲物櫃",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products-2"
+    },
+    {
+      "code": "TP00064810022756",
+      "name": "宅配 省空間衣櫥 實木大容量收納拉門衣櫥櫃",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00064810023519",
+      "name": "定製貓別墅 室內貓籠子 大空間貓櫃 實木貓屋貓舍",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "large-furniture",
+      "status": "excluded",
+      "reason": "寵物與動物用品",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00064810023293",
+      "name": "跨境多層簡易鞋子儲物櫃家用防塵鞋架家居大容量鞋櫃可貼標",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00066690003884",
+      "name": "廚房架子置物架微波爐抽屜式臺面雙層大容量烤箱抽拉架加高支架",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "TP00066690013222",
+      "name": "鞋櫃 家用門口樓道外大容量入戶收納經濟型 陽臺簡易鞋架",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00066690016022",
+      "name": "開放式衣櫃衣架掛衣架日式臥室落地衣帽架步入大學宿舍置物架",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-3"
+    },
+    {
+      "code": "TP00066690016182",
+      "name": "加厚塑料水塔儲水罐加厚PE儲水桶特厚儲水罐5/50噸家用大塑料桶",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00066690016849",
+      "name": "小型瀝水碗架廚房置物架碗架碗筷碗碟收納架碗盤置物架家用大容量",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "kitchen-rack-counter-storage-products"
+    },
+    {
+      "code": "TP00068600002516",
+      "name": "大面積拖地專用商用酒店平板拖把大號公用場所塵推保潔拖2023",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "TP00068600006426",
+      "name": "加厚手工水槽雙槽廚房一體304不銹鋼洗菜盆大單洗碗水池家用套餐",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "TP00068600006424",
+      "name": "納米廚房水槽單槽手工黑色家用洗菜盆 大洗碗盆水池加厚304不銹鋼",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "TP00068600006422",
+      "name": "2025廚房手工水單不銹鋼家用洗菜盆家用多功能大單洗菜池洗碗",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00068600005877",
+      "name": "大容量拉杆包 158航空托運包32寸出國旅行箱牛津布折疊",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00068600008259",
+      "name": "鞋櫃家用門口入戶一體大容量收納儲物玄關櫃鞋架",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-umbrella-rack-product-guide"
+    },
+    {
+      "code": "TP00074070000042",
+      "name": "雨傘架收納架酒店大堂公司教室商用大容量雨傘存放置物架入戶批",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "TP00074070000035",
+      "name": "雨傘架收納架酒店大堂傘桶公司教室商用大容量雨傘存放瀝水置物架",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "TP00074070001116",
+      "name": "餵養臺收納櫃 置物架 落地多層收納櫃 多功能大容量整理儲物櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00074070001526",
+      "name": "楠竹鞋架架子多層家用門口防塵簡易大容量置物架收納宿舍鞋櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00060920007170",
+      "name": "大號塑膠藤編防水髒衣籃 /簍 浴室洗衣籃 客廳玩具雜物收納筐",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00060920009752",
+      "name": "帶門鞋架實木鞋櫃落地多層傢用儲物櫃多功能大容量衣架特價置物架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00060920002594",
+      "name": "入戶簡易鞋架 門口大容量鞋櫃 收納鞋子的神器 防塵 玄關櫃",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00060920014075",
+      "name": "桌面收納盒大容量化妝品整理盒學生宿舍家用抽屜式多功能置物架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920012994",
+      "name": "中古實木餐椅vintage高級設計師客廳餐桌靠背家用復古網紅大C椅子",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00060920014157",
+      "name": "21/27速成人山地自行車24/26/27.5寸男女大學生城市單車碟剎減震",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920012578",
+      "name": "瑜伽墊收納筐健身工具運動器材放置物架子大號箱神器家用球類收納",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920015186",
+      "name": "宿舍開放式衣櫃衣架掛衣架日式臥室落地衣帽架步入大學宿舍置物架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00060920015178",
+      "name": "服裝店大容量移動多層衣架落地收納架男女褲架倉庫衣掛衣架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00060920015377",
+      "name": "服裝店倉庫衣掛衣架大容量移動多層衣架落地收納架男女褲架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00060920015529",
+      "name": "加厚商超購物籃大容量超市買菜小拉車拉桿塑料帶輪買菜籃",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00060920014736",
+      "name": "中古奶油風超薄翻鬥鞋櫃2025簡約現代家用收納大容量鞋架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00060920015420",
+      "name": "防火阻燃收納箱手提風琴文件夾大容量商務防火防水證件包密碼箱",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00060920014566",
+      "name": "臟衣籃浴室可移動洗衣籃大容量家用衛生間洗浴用品可拆卸收納架子",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00060920014550",
+      "name": "帶輪大容量車臟衣服收納筐臟衣簍陽臺宿舍洗衣籃浴室洗衣液置物架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00060920016007",
+      "name": "304不銹鋼水槽廚房單盆水池加厚小號單槽圓形洗菜盆大圓槽",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00060920015614",
+      "name": "加厚儲水罐耐磨可折疊軟體大型戶外工地抗旱曬水便攜蓄水袋大容量",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00035850019699",
+      "name": "簡易書架子家用大容量書櫃繪本架儲物架自由組合客廳落地書架",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00035850023482",
+      "name": "復古風格實木樓梯扶手家用別墅美觀家居大氣樓梯扶手實木",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00035850023095",
+      "name": "純黑巖板餐桌意式餐桌椅輕奢簡約包豪斯大戶型島臺茶桌桌子",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00035850023091",
+      "name": "法式實木床雙人主臥大床中古風安娜床1.8米胡桃色簡約美式復古床",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00035850024135",
+      "name": "酒店大圓桌巖板餐桌旋轉20人飯店包廂商用別墅家宴會酒店桌椅",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00035850024177",
+      "name": "餐桌大圓桌酒店巖板可飯桌家用新中式12人15人20飯店餐廳",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00035850025858",
+      "name": "餐桌大圓桌酒店2米新中式20人轉盤飯店實木巖板商用飯桌",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00035850028328",
+      "name": "泡澡桶成人浴桶大號塑料浴缸洗澡桶加厚澡盆傢用大人浴盆全身",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "大型泡澡桶與浴缸",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00036250010506",
+      "name": "鞋櫃家用門口樓道外室外過道電梯口大容量2023收納櫃",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036250010938",
+      "name": "新中式大容量鞋櫃家用門口2024收納省空間玄關入戶門鞋架",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036250011347",
+      "name": "電腦椅女生化妝椅子家用臥室靠背轉椅大學生宿舍學習舒服久坐座椅",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036250013809",
+      "name": "收納箱大容量家用衣物衣服整理箱玩具書本雜物周轉折疊儲物箱",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00036250013811",
+      "name": "收納箱透明厚款手提家用加厚衣物玩具書本儲物盒大容量塑膠整理箱",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00036250012815",
+      "name": "鋼化玻璃轉盤圓桌加厚餐桌面面板酒店家用大圓餐桌客廳桌子底座",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00036250013266",
+      "name": "餐椅家用北歐靠背凳子書桌現代簡約宿舍大學生仿實木鐵藝牛角",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036250015388",
+      "name": "天山棉麻大视窗衣服收纳箱衣柜可折叠布艺收纳盒特大号衣物百纳箱",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00036250015367",
+      "name": "工業風收納箱家用宿舍衣服書本玩具大容量衣物塑膠儲物整理特大號",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00036250015349",
+      "name": "折疊收納櫃推門式大尺寸被子衣服零食收納箱整理儲物櫃",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036250016337",
+      "name": "意式大尺寸簡約現代實木床頭櫃 整裝臥室馬鞍皮床邊櫃",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00074070002470",
+      "name": "玩具帶滑輪抽屜式收納箱 大容量衣服收納櫃 零食繪本置物架",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-gift-toys-puzzles-kites-storage-guide"
+    },
+    {
+      "code": "TP00074070003351",
+      "name": "法式奶油風衣櫃臥室推拉門衣櫥家用大容量收納儲物落地櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-3"
+    },
+    {
+      "code": "TP00074070007497",
+      "name": "金貓收納箱 家用衣物整理箱 臥室衣服玩具大容量可折疊儲物箱",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00074070007500",
+      "name": "衣服收納箱大容量整理箱超大帶蓋家用折疊玩具衣物被子收納儲物櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "small-home-storage-products-entry-closet-underbed"
+    },
+    {
+      "code": "TP00074070006604",
+      "name": "電腦椅家用久坐辦公椅弓形職員會議椅大學生宿舍靠背麻將椅子",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-office-corner-desk-storage-furniture-guide"
+    },
+    {
+      "code": "TP00074070006142",
+      "name": "電腦椅 女生化妝椅子 家用臥室靠背轉椅 大學生宿舍學習舒服久坐座椅",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-office-corner-desk-storage-furniture-guide"
+    },
+    {
+      "code": "TP00074070008155",
+      "name": "簡約日式榻榻米床地臺床實木芯板塌塌米排骨架床臥室大床3米",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-3"
+    },
+    {
+      "code": "TP00074070009497",
+      "name": "大學生椅 辦公椅 校園課桌凳子 宿捨員工椅 公寓靠背培訓椅子",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-3"
+    },
+    {
+      "code": "TP00074070010200",
+      "name": "現貨 玩具收納架子 置物箱 多層大號家用儲物超大容量神器整理櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products-2"
+    },
+    {
+      "code": "TP00057090001645",
+      "name": "👉藤木居家具｜一秒收納！多層窄鞋架 不佔空間 多層大容量",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00057090013369",
+      "name": "多層收納櫃儲物櫃置物架母嬰用品家用收納大容量書本雜物卡通",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00057090014380",
+      "name": "奶油風免安裝衣櫃 大容量廚房客廳儲物櫃分類收納收納櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "kitchen-rack-counter-storage-products"
+    },
+    {
+      "code": "TP00057090014480",
+      "name": "ll不銹鋼廚房置物架落地多層家用浴室小推車蔬菜籃收納架子用品大",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "kitchen-rack-counter-storage-products"
+    },
+    {
+      "code": "TP00057090014890",
+      "name": "實木鞋櫃家用門口新中式入戶大容量玄關櫃一體靠墻門廳櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00057090015148",
+      "name": "鞋櫃掛衣架一體家用門口2024 鋼製鞋帽架大容量入戶鞋架",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00057090015394",
+      "name": "浴室馬桶置物架衛生間浴室大容量落地架洗手間收納架免打孔儲物架",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00057090016132",
+      "name": "簡約輕奢真皮床主臥室小戶型1.5米雙人儲物皮藝大床",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00057090016180",
+      "name": "意式極簡大象耳朵床輕奢現代簡約雙人主臥大床軟包婚牀",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products-2"
+    },
+    {
+      "code": "TP00057090016672",
+      "name": "酒店床賓館家具標間全套客房專用公寓大床單雙人民宿快捷旅館家具",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products-2"
+    },
+    {
+      "code": "TP00057090017516",
+      "name": "景德鎮陶瓷魚缸 仿古做舊裂紋釉大號陶瓷缸 擺件裝飾字畫缸",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00057090017512",
+      "name": "景德鎮陶瓷魚缸創意手繪荷花水缸大號陶瓷烏龜缸中式家居陶瓷擺件",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00057090017301",
+      "name": "學校小初中學生宿舍架子床大學宿舍上床下桌教職工單位高低床",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00057090017760",
+      "name": "泡澡桶成人浴桶大號塑料浴缸洗澡桶加厚澡盆傢用大人浴盆全身",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "大型泡澡桶與浴缸",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00036420021060",
+      "name": "入戶新中式實木腿鞋櫃家用門口玄關櫃一體收納櫃大容",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036420021604",
+      "name": "入戶中式實木鞋櫃家用門口大容量玄關收納儲物櫃一體鞋架",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036420025704",
+      "name": "簡約日式榻榻米床地臺床實木芯板塌塌米排骨架床臥室大床3米",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00036420024484",
+      "name": "床头玩手机大靠垫支撑靠枕飘窗看书半躺护颈神器靠床可拆洗软靠垫",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036420025616",
+      "name": "现代铁艺高架床单身公寓上床下桌高级单双人床卧室家用牢固大铁床",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00036420026972",
+      "name": "防塵簾鋼製鞋架家用室內多層大容量鞋櫃入戶門口落地置物架",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036420030233",
+      "name": "日式榻榻米床現代簡約互不打擾雙人主臥大氣高箱儲物床絹花",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00036420030073",
+      "name": "美式廚房陶瓷水槽洗菜盆復古半嵌入式家用大單槽超深一體盆",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00036420030072",
+      "name": "美式豎紋廚房水槽陶瓷洗菜盆雙面洗碗池陶瓷大單槽臺下盆櫃盆",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00036420030089",
+      "name": "304不銹鋼廚房洗菜盆加厚家用納米手工不銹鋼黑色水槽大單槽洗碗",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00036420030109",
+      "name": "日式大單槽家用304不銹鋼水槽多功能廚房洗菜壓紋臺下加厚洗碗池",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00064810016566",
+      "name": "雨傘桶 雨傘架 商用大容量放置傘架 家用門口雨傘收納桶傘架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00064810017139",
+      "name": "雨傘收納架大堂酒店教室班級傘桶公司大容量商用雨傘瀝水存放架子",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00064810015994",
+      "name": "電腦椅子舒服久坐辦公座椅家用人體工學習椅靠背大學生宿舍書桌椅",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00064810017486",
+      "name": "公主梳妝盒影樓用品大容量收納護膚化妝品口紅桌面玻璃整理架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-3"
+    },
+    {
+      "code": "TP00064810017453",
+      "name": "衣服收納箱家用翻蓋大容量帶滑輪衣物整理箱雜物玩具被子儲物箱子",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products-2"
+    },
+    {
+      "code": "TP00064810017508",
+      "name": "電腦椅舒服久坐女生化妝椅子家用臥室轉椅大學生宿舍學習座椅宿舍",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00064810019537",
+      "name": "設計師Scando Table簡約客廳創意茶几咖啡桌北歐中古風大彎木茶几",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products-2"
+    },
+    {
+      "code": "TP00064810022680",
+      "name": "客廳大靠背滑輪凳可移動矮凳換鞋溜溜凳家用沙發小矮凳庭院凳",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00064810023824",
+      "name": "實木床現代簡約橡木1.2米單人床北歐小戶型臥室原木大床",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00064810024376",
+      "name": "日式藤編實木衣櫃 簡約現代大容量臥室儲物櫃收納衣櫥",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00066690000890",
+      "name": "衣帽架布袋雙層大容量便捷置物架家用客廳臥室鐵藝晾衣架掛衣架",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-3"
+    },
+    {
+      "code": "TP00066690005766",
+      "name": "簡易進門門口鞋架鞋櫃多層家用架子鞋子收納宿舍大容量防塵置物架",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00066690003482",
+      "name": "浴室馬桶置物架衛生間浴室大容量落地架洗手間收納架免打孔儲物架",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-3"
+    },
+    {
+      "code": "TP00066690012321",
+      "name": "戶外傘庭院傘室外大太陽傘廣告中柱傘陽臺桌椅遮陽傘戶外",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00066690012129",
+      "name": "戶外遮陽傘庭院傘大傘香蕉傘室外雨棚陽臺保安羅馬傘太陽傘",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00066690016090",
+      "name": "加厚商超購物籃大容量超市買菜小拉車拉桿塑料帶輪買菜籃",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00066690015942",
+      "name": "防火阻燃收納箱手提風琴文件夾大容量商務防火防水證件包密碼箱",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00066690016185",
+      "name": "加厚儲水罐耐磨可折疊軟體大型戶外工地抗旱曬水便攜蓄水袋大容量",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00066690015894",
+      "name": "服裝店倉庫衣掛衣架大容量移動多層衣架落地收納架男女褲架",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00066690015625",
+      "name": "宿舍開放式衣櫃衣架掛衣架日式臥室落地衣帽架步入大學宿舍置物架",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00066690015631",
+      "name": "服裝店大容量移動多層衣架落地收納架男女褲架倉庫衣掛衣架",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00066690016577",
+      "name": "304不銹鋼水槽廚房單盆水池加厚小號單槽圓形洗菜盆大圓槽",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00068600007773",
+      "name": "家用電腦椅學習久坐辦公椅子宿舍靠背凳子大學生舒服麻將專用座椅",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-office-corner-desk-storage-furniture-guide"
+    },
+    {
+      "code": "TP00068600006433",
+      "name": "黑色水槽大單槽 廚房手工不銹鋼納米洗菜盆洗菜池洗碗槽臺上下盆",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-52"
+    },
+    {
+      "code": "TP00068600007815",
+      "name": "電腦椅子簡約現公久坐舒服座椅宿舍大學生學習靠背椅家用舒適",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-3"
+    },
+    {
+      "code": "TP00068600008595",
+      "name": "臥室收納家用門口大容量入戶簡易鞋櫃客廳一體多層鞋架",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-3"
+    },
+    {
+      "code": "TP00068600008536",
+      "name": "鞋櫃超薄小戶型家用門口大容量多層鞋架客廳省空間收納櫃",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00068600008542",
+      "name": "鋼制翻鬥鞋櫃家用門口入戶超薄大容量玄關櫃極薄簡易鞋架",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00068600008548",
+      "name": "床头玩手机大靠垫支撑靠枕飘窗看书半躺护颈神器靠床可拆洗软靠垫",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-3"
+    },
+    {
+      "code": "TP00068600008240",
+      "name": "實木鞋架簡易門口家用掛衣架宿舍收納神器省空間大容量置物架鞋櫃",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00068600008060",
+      "name": "316巨無霸吸管保溫杯大容量2024水杯女生高顏值冰霸杯水杯子",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "mobile-outdoor-gear",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "mobile-outdoor-rain-bottle-fan-products"
+    },
+    {
+      "code": "TP00068600008263",
+      "name": "鞋櫃家用門口樓道外室外過道電梯口大容量收納櫃",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00068600011911",
+      "name": "電腦椅家用椅子靠背懶人躺椅大學生宿舍椅子辦公椅子網紅主播椅",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-3"
+    },
+    {
+      "code": "TP00068600011551",
+      "name": "透氣玄關櫃 進門玄關置物架 多層家用 加厚鞋架 大容量收納架 鞋櫃",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00068600011176",
+      "name": "餐廳酒店皮革軟包椅子北歐餐椅家用現代簡約休閒靠背凳子大V椅子",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-3"
+    },
+    {
+      "code": "TP00068600011838",
+      "name": "電腦椅家用久坐辦公椅子弓形職員會議椅大學生宿舍靠背麻將椅",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-3"
+    },
+    {
+      "code": "TP00074070001387",
+      "name": "移動大容量家用加厚衣帽架簡易衣服衣帽架耐用落地臥室晾掛衣架",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-3"
+    },
+    {
+      "code": "TP00074070001588",
+      "name": "掛衣架家用晾衣架落地立式陽臺曬衣架大容量室內臥室衣帽架子",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-3"
+    },
+    {
+      "code": "TP00060920007023",
+      "name": "透明收納箱 家用大容量塑膠盒子 衣櫃 衣服零食玩具儲物整理箱",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00060920014089",
+      "name": "化妝品收納盒抽屜式桌面大容量多層整理盒宿舍家用護膚品置物架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920014450",
+      "name": "電腦椅子靠背電腦椅舒適舒服辦公北歐午睡躺椅寢室ins大學宿舍凳",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00060920013098",
+      "name": "超薄翻鬥鞋櫃2025簡約現代家用門口收納入戶大容量鞋架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00060920014140",
+      "name": "飛鸰自行車女士通勤車20寸22寸24寸公主款自行車大學生女自行車",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-3"
+    },
+    {
+      "code": "TP00060920013965",
+      "name": "大容量立式多層帶輪子可移動家用餐邊櫃多功能可抽拉可延長置物架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "kitchen-rack-counter-storage-products"
+    },
+    {
+      "code": "TP00060920014531",
+      "name": "洗衣房帶輪衣物收納筐家用陽臺洗衣機旁臟衣籃大容量衣服整理筐子",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00060920014520",
+      "name": "霜山臟衣籃浴室衛生間可移動洗衣籃大容量家用玩偶瑜伽墊收納筐",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00060920014518",
+      "name": "多巴胺臟衣籃折疊可移動大容量臟衣服收納筐宿舍家用雙層洗衣籃子",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00060920014136",
+      "name": "兒童自行車女孩中大童學生2224寸成人通勤車18歲超輕大學生公主車",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "兒童交通工具高風險",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920014101",
+      "name": "新年禮物折疊免安裝充氣女士自行車便攜帶大學生校園上班車",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00060920012381",
+      "name": "鋼製鞋架家用門口玄關置物架大容量落地防塵收納櫃多功能儲物鞋櫃",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00060920014542",
+      "name": "奶油風臟衣籃多功能可移動洗衣籃宿舍家用臥室大容量臟衣服收納筐",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00060920014613",
+      "name": "鋁合金戶外別墅庭院門簡約現代入戶花園單開門鐵藝庭院大門",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920015319",
+      "name": "桌面收納盒多功能書本置物架大容量書架辦公室書桌上文件文具筆筒",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "desk-work-corner-furniture-products"
+    },
+    {
+      "code": "TP00060920015065",
+      "name": "商用雨傘架學校大容量門後收納櫃酒店大堂存放置物傘架公司定製",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00060920015288",
+      "name": "文具收納盒筆筒斜放式大容量學生書桌面整理神器辦公室工位置物架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "desk-work-corner-furniture-products"
+    },
+    {
+      "code": "TP00060920015093",
+      "name": "高端雨傘架收納架酒店大堂商用大容量教室入戶門口放傘架子拼色款",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00060920015085",
+      "name": "雨傘架子酒店落地傘具存放架雨傘收納筒家用門口雨傘放置架大容量",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00060920015082",
+      "name": "日本asvel雨傘收納架家用入戶門口大容量筒存放置物架瀝水裝傘桶",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00060920014571",
+      "name": "洗衣籃大容量衣籃家用浴室瑜伽墊收納筐霜山臟衛生間可移動玩偶",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00060920015410",
+      "name": "桌面收納盒大容量密碼鎖存錢罐桌上壓歲錢收納盒子ins風卡通",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920014565",
+      "name": "宿舍可愛雙層臟衣籃落地移動臟衣服收納筐家用大容量多功能洗衣籃",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00060920016088",
+      "name": "簡易衣櫃 家用臥室組裝櫃 大容量帶門防塵衣櫥 出租房用 KAPW",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00060920015618",
+      "name": "軟體儲水水罐折疊加厚可折疊戶外水袋大容量加厚可折疊水桶特大號",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920016304",
+      "name": "大容量收納化妝品化妝抽屜式宿舍透明收納盒多層置物架防塵桌面",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00036240014593",
+      "name": "折疊 鞋櫃 免安裝 一拉就用 大容量 多層 家用塑膠 透明 收納盒 鞋盒",
+      "merchantId": "TP0003624",
+      "brandName": "蝸居客製",
+      "bucket": "shoe-box-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00068600005492",
+      "name": "胖人折疊躺椅承重500斤300斤結實耐用胖子午休400斤200大體重大號",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00043790000335",
+      "name": "廚房置物架抽拉式蔬菜儲物架多層大容量微波爐架廚房抽屜式置物架",
+      "merchantId": "TP0004379",
+      "brandName": "凱莎精選家具城",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "home-organization-cleaning-kitchen-storage-products"
+    },
+    {
+      "code": "TP00035850019356",
+      "name": "T掛衣架臥室落地可移動小型衣架房間掛衣服掛包架大學生宿舍衣帽",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00035850020363",
+      "name": "超薄鞋櫃小戶型定制跨境家用門口大容量玄關櫃陽臺極窄簡易鞋架",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00035850019437",
+      "name": "電腦椅子舒服久坐家用舒適女生臥室化妝椅宿舍大學生書桌靠背轉椅",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00035850022858",
+      "name": "塑料折疊衣櫃冬季大容量收納櫃多層衣物被褥儲物櫃簡易成人衣櫥",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00035850022970",
+      "name": "意式大尺寸簡約現代實木床頭櫃整裝臥室馬鞍皮床邊櫃",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00035850024969",
+      "name": "實木床榻榻米民宿酒店地臺床氣壓儲物大床2.2米任意尺寸排骨架床",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00035850024137",
+      "name": "新中式餐桌酒店大圓桌實木巖板火鍋桌子飯店會所包廂人飯桌",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "kitchen-rack-counter-storage-products"
+    },
+    {
+      "code": "TP00035850024169",
+      "name": "酒店餐桌大圓桌帶轉盤新中式實木20人飯店酒店包廂3米圓桌椅",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00035850024153",
+      "name": "佛山酒店實木大圓桌內鑲平行轉盤商用餐桌高端會所巖板火鍋桌",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "kitchen-rack-counter-storage-products"
+    },
+    {
+      "code": "TP00035850026260",
+      "name": "意式極簡飛雁巖板餐桌椅組合 客廳家用別墅大戶型餐椅桌子",
+      "merchantId": "TP0003585",
+      "brandName": "森格諾傢居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036240013841",
+      "name": "鞋架 宿舍 簡易鞋子 儲物櫃 門口多層 家用 防塵鞋盒 室內家居 大容量鞋櫃",
+      "merchantId": "TP0003624",
+      "brandName": "蝸居客製",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036240016912",
+      "name": "鞋櫃 家用門口 樓道外 室外過道電梯口 大容量 實木 收納櫃",
+      "merchantId": "TP0003624",
+      "brandName": "蝸居客製",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036240015337",
+      "name": "大容量 繪本架 展示架 可調節 移動式 鐵藝 書架 落地架 收納架 置物架",
+      "merchantId": "TP0003624",
+      "brandName": "蝸居客製",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00036250009579",
+      "name": "實木床榻榻米民宿酒店地臺床氣壓儲物大床2.2米任意尺寸排骨架床",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00036250009301",
+      "name": "翻鬥鞋櫃家用門口胡桃色門廳櫃大容量玄關收納鞋架窄省空間",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036250010518",
+      "name": "電腦椅家用靠背轉椅大學生宿舍學習座椅舒適久坐女生臥室化妝椅子",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036250010440",
+      "name": "帶鎖手辦櫃家用分層展示收納箱透明高清玻璃櫃檯大容量玩具陳列櫃",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00036250011356",
+      "name": "宿舍椅子久坐家用電腦椅女生臥室舒服大學生書桌椅化妝凳辦公轉椅",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036250011366",
+      "name": "宿舍椅子大學生靠背電腦椅家用辦公椅舒適久坐書桌凳子學習椅座椅",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036250011361",
+      "name": "電腦椅子家用舒適女生臥室化妝椅宿舍大學生書桌久坐靠背升降轉椅",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036250011338",
+      "name": "電腦舒適久坐旋轉椅子家用書房學習大學生宿舍懶人升降臥室靠背",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036250011345",
+      "name": "電腦椅子靠背椅辦公久坐舒服座椅宿舍大學生學習家用舒適書桌凳子",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036250011307",
+      "name": "電腦椅子辦公椅靠背久坐不累會議椅大學生宿舍辦公學習會議椅子",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036250011300",
+      "name": "電腦椅子舒適久坐辦公椅會議椅宿舍大學生靠背椅家用舒服書桌椅",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036250012191",
+      "name": "跨境簡約儲物櫃組合格子落地書櫃多層時尚簡約大氣儲物櫃",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036250012287",
+      "name": "透明抽屜式鞋子收納盒大號收納鞋櫃加厚多層免安裝折疊鞋架",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036250012489",
+      "name": "鞋櫃家用門口樓道外入戶門鞋架2024多層大容量門外走廊用",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036250012490",
+      "name": "鞋櫃翻鬥式超薄入戶門口走廊上牆簡約家用隱形收納大容量",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036250012461",
+      "name": "門口鞋櫃 家用翻鬥大容量防塵白色鞋架 簡約門廳櫃簡易黃異議",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036250012478",
+      "name": "簡易鞋櫃鞋架子進門家用多層收納櫃大容量鞋架宿舍靠牆置物架批發",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036250013728",
+      "name": "大容量家用折疊收納箱衣物被子整理箱免安裝加厚書本玩具收納櫃子",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00036250014166",
+      "name": "簡易衣櫃 收納布衣櫥 大號歐式加固組合折疊鋼架無紡布衣櫃",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00036250016023",
+      "name": "戶外大號月亮椅 折疊椅子 可攜式露營野餐凳子 野外高靠背躺椅 沙灘椅",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00036250016490",
+      "name": "雨傘收納架 酒店公司大堂門口商用大容量傘桶 教室雨傘瀝水存放置架",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036250016011",
+      "name": "化妝品收納盒梳粧檯桌面護膚品置物架大容量香水口紅多層整理箱子",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00036250015316",
+      "name": "宿舍收納大學生鞋架鞋子鞋櫃寢室門口桌下置物架省空間利用帶滑輪",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036250015997",
+      "name": "化妝品收納盒桌面感大容量護膚品口紅香水梳粧檯化妝刷置物架",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00036250015756",
+      "name": "家用多層亞克力鞋櫃塑膠分層隔板大容量防塵多功能鞋櫃",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products"
+    },
+    {
+      "code": "TP00036250015925",
+      "name": "鞋架 宿舍簡易鞋子儲物櫃 門口多層家用防塵鞋架 室內家居大容量鞋櫃",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036250015409",
+      "name": "玻璃化妆品收纳盒防尘家用大容量桌面口红梳妆台护肤品网红置物架",
+      "merchantId": "TP0003625",
+      "brandName": "☁凌雲家居",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00074070003318",
+      "name": "鋼制鞋櫃 入戶玄關鞋架 大容量收納櫃 室內外帶門儲物櫃 鞋櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00074070003712",
+      "name": "轉角置物架 轉角書架 收納櫃 客廳書房臥室大容量多層落地書櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-3"
+    },
+    {
+      "code": "TP00074070007495",
+      "name": "衣服收納箱家用大容量翻蓋玩具衣物被子整理箱可折疊收納櫃儲物櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products-2"
+    },
+    {
+      "code": "TP00074070007504",
+      "name": "收納箱家用大容量翻蓋式可折疊衣服被子儲物箱書本玩具衣物整理箱",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products-2"
+    },
+    {
+      "code": "TP00074070007505",
+      "name": "零食收納箱家用桶玩具娃娃玩偶積木多功能大容量收納盒帶輪",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products-2"
+    },
+    {
+      "code": "TP00074070008664",
+      "name": "鞋櫃家用門口奶油風輕奢岩板入戶門大容量收納玄關櫃佛山",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00074070008615",
+      "name": "鞋架 家用門口多功能收納櫃 多層大容量置物架 簡易入戶門玄關鞋櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00074070008045",
+      "name": "戶外防曬防雨陽臺櫃推拉門大容量被子雜物收納櫃帶鎖家用鐵皮衣櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "outdoor-patio",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "outdoor-patio-umbrella-garden-products"
+    },
+    {
+      "code": "TP00074070007630",
+      "name": "鞋櫃高款立式家用大容量玄關櫃門口儲物收納櫃置物架簡約鞋架",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00074070010109",
+      "name": "專供理發椅 液壓大泵椅理發店椅子剪發椅 美發店美發椅",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-3"
+    },
+    {
+      "code": "TP00057090006728",
+      "name": "👉 衣服不再亂丟！透氣洗衣籃｜浴室收納・大容量衣物收納桶",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00057090004677",
+      "name": "衣櫃折疊塑膠簡易衣櫃家用加厚大號大容量掛衣櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00057090011670",
+      "name": "透明收納箱 家用塑膠收納盒 衣櫃衣物大容量玩具零食整理儲物箱子",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00057090014345",
+      "name": "衣服收納箱家用大容量翻蓋玩具衣物被子整理箱可折疊收納櫃儲物櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00057090013239",
+      "name": "小推車置物架玩具雜物收納筐置物架客廳大容量多功能可移動小拉車",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00057090015286",
+      "name": "廚房置物架落地多層微波爐收納櫃家用多功能櫥櫃帶門大容量儲物櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "kitchen-rack-counter-storage-products"
+    },
+    {
+      "code": "TP00057090014629",
+      "name": "衣服收納箱家用大容量翻蓋臥室衣物被子整理箱可摺叠收納櫃儲物櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00057090014897",
+      "name": "新中式鞋櫃家用大容量實木框進門入戶玄關門廳櫃客廳儲物櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00057090015162",
+      "name": "高款立式入戶櫃一體櫃門外走廊用極窄入戶翻鬥大容量鞋櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00057090015147",
+      "name": "鞋櫃家用門口入戶鞋櫃大容量多層超大玄關門外走廊用",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00057090015144",
+      "name": "簡易鞋櫃家用門口入戶經濟型鞋架大容量多層超大防塵",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00057090015361",
+      "name": "簡易書架落地置物架學生宿舍多層收納大容量儲架物組合書櫃子",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00057090015120",
+      "name": "鞋櫃家用防塵門口室內大容量鞋子架子簡易鞋架收納宿舍入戶多層",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00057090015136",
+      "name": "加厚家用鋼製鞋櫃入戶門口落地多層防塵鞋架玄關大容量收納置物架",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00057090015131",
+      "name": "鞋架家用門口多層入戶好看置物架室內簡易收納架子大容量陽臺鞋櫃",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00057090015110",
+      "name": "簡易鞋架家用門口多層置物架出租房用大容量防塵鞋櫃包郵",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00057090016104",
+      "name": "鞋櫃鞋架家用門口多層防塵鞋架入戶玄關大容量雙門鞋子收納置物架",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00057090016102",
+      "name": "鞋櫃翻鬥門口家用鞋架子大容量入戶門玄關簡易收納省空間",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00057090016166",
+      "name": "法式奶油風床現代簡約高端大氣主臥雙人漣漪波浪儲物真皮藝床",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products-2"
+    },
+    {
+      "code": "TP00057090016016",
+      "name": "雨傘架收納架商用大容量傘桶酒店大堂教室班級便民雨傘瀝水存放架",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00057090016226",
+      "name": "實木床榻榻米民宿酒店地臺床氣壓儲物大床2.2米任意尺寸排骨架床",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products-2"
+    },
+    {
+      "code": "TP00057090016089",
+      "name": "實木鞋櫃家用門口入戶大容量儲物櫃玄關收納陽臺多層鞋架",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00057090017209",
+      "name": "✅衣櫃家用臥室全實木現代簡約出租房用簡易定 製大",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00057090017064",
+      "name": "簡約镂空家用雨傘架大容量長傘收納架多場景帶接水盤防滑墊置物架",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00057090017337",
+      "name": "床頭靠墊靠背軟包床靠簡約現代風大自粘榻榻米靠枕雙人大沙發",
+      "merchantId": "TP0005709",
+      "brandName": "藤木居家具",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00036420016934",
+      "name": "電競椅人體工學椅家用舒適久坐宿舍大學生一體專用網紅直播",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00036420018505",
+      "name": "電腦椅家用久坐辦公椅弓形職員會議椅大學生宿舍靠背麻將椅子跨境",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00036420015706",
+      "name": "中古風超薄鞋櫃家用門口進門靠牆樓道走廊大容量超大實木色小鞋架",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036420019053",
+      "name": "現代灰進門翻鬥鞋櫃家門門口門廳玄關櫃大容量鞋架簡約",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036420019351",
+      "name": "加厚304不銹鋼轉盤圓桌員工食堂家用商用桌面可折疊大圓臺飯餐桌",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products"
+    },
+    {
+      "code": "TP00036420020528",
+      "name": "簡約三層床頭櫃 大容量收納櫃 現代臥室邊櫃 多功能抽屜櫃",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036420023436",
+      "name": "懶人沙發大學生宿舍電腦椅子靠背可躺辦公室躺椅久坐舒服沙發椅子",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products"
+    },
+    {
+      "code": "TP00036420026792",
+      "name": "大容量一體靠墻鞋櫃 玄關櫃 置物櫃 門廳櫃 收納櫃 儲物櫃",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036420026531",
+      "name": "純手工竹桌椅組合 圍爐煮茶桌 餐桌 茶幾 火鍋桌 大闆桌 餐桌 茶臺 茶桌",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "kitchen-rack-counter-storage-products"
+    },
+    {
+      "code": "TP00036420026751",
+      "name": "北歐一體大容量鞋櫃 玄關櫃 隔斷櫃 櫃 鞋櫃 收納櫃 儲物櫃",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036420026833",
+      "name": "跨境銷售鞋櫃家用門口大容量一體玄關儲物櫃 跨境陽臺簡約鞋架",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036420026837",
+      "name": "法式黑色中古風超薄翻鬥鞋櫃家用門口進門靠墻大容量入戶玄關鞋架",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036420026638",
+      "name": "歐式實木大闆桌 會議桌 辦公桌 洽談桌 培訓桌 工作臺 長桌",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "desk-work-corner-furniture-products"
+    },
+    {
+      "code": "TP00036420026854",
+      "name": "鞋櫃家用門口2025輕奢入戶多層大容量玄關櫃靠墻收納鞋架",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036420026927",
+      "name": "奶油風鞋櫃家用門口玄關櫃大容量收納神器省空間鞋架",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-2"
+    },
+    {
+      "code": "TP00036420026936",
+      "name": "輕奢鞋櫃家用門口大容量靠墻玄關櫃收納櫃陽臺儲物櫃",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00036420028131",
+      "name": "跨境簡約儲物櫃組合格子落地書櫃多層時尚簡約大氣儲物櫃",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products"
+    },
+    {
+      "code": "TP00036420030245",
+      "name": "實木床榻榻米民宿酒店地臺床氣壓儲物大床2.2米任意尺寸排骨架床",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products"
+    },
+    {
+      "code": "TP00036420030091",
+      "name": "蜂窩壓紋防刮大單槽廚房槍灰水槽不銹鋼抗菌不沾油家用洗菜盆",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00036420030114",
+      "name": "水槽304不銹鋼日式過濾大單槽多功能小米粒洗菜盆加厚一體槽碗池",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00064810017121",
+      "name": "雨傘架桶收納架家用酒店大堂商用教室入戶門口置物大容量放傘架子",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00064810016019",
+      "name": "電腦椅子舒服久坐電競椅辦公沙發座椅學習靠背書桌宿舍大學生凳子",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00064810014611",
+      "name": "鐵藝大容量雨傘收納架酒店大堂商店學校教室門口瀝水傘桶商用架子",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00064810014607",
+      "name": "雨傘收納架商用大容量酒店大堂教室售樓部傘桶雨傘瀝水存放置物架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-3"
+    },
+    {
+      "code": "TP00064810017464",
+      "name": "家用收納箱折疊帶蓋密封整理儲物大容量箱玩具被子帶輪防塵塑膠",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00064810017458",
+      "name": "衣服收納箱大容量超大翻蓋整理箱家用帶輪折疊臥室衣物被子儲物櫃",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00064810019250",
+      "name": "加厚304不銹鋼轉盤圓桌員工食堂家用商用桌面可折疊大圓臺飯餐桌",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-3"
+    },
+    {
+      "code": "TP00064810019983",
+      "name": "臥室化妝椅大學生書桌靠背升降轉椅女生宿舍電腦椅子美甲椅子",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00064810019981",
+      "name": "電腦椅子宿舍大學生書桌久坐靠背升降轉椅家用舒適女生臥室化妝椅",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00064810019979",
+      "name": "電腦椅子舒服久坐宿舍大學生學習轉椅靠背沙發椅家用化妝書桌凳子",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00064810019919",
+      "name": "寵物貓窩冬季保暖貓咪狗狗拖鞋窩大空間狗窩加絨加厚小型犬窩",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "寵物與動物用品",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00064810021848",
+      "name": "家用多層鞋架門口防塵鞋櫃透明防潮簡易大容量鞋子收納全封閉鞋架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00064810023305",
+      "name": "鞋架宿舍簡易鞋子儲物櫃門口多層家用防塵鞋盒室內家居大容量鞋櫃",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00064810023325",
+      "name": "temu熱銷家用防塵鞋架門口多層宿舍鞋櫃黑色簡易大容量收納鞋架子",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00064810023322",
+      "name": "入戶超薄翻鬥鞋櫃家用門口樓道走廊大容量玄關櫃小窄鞋架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00064810023046",
+      "name": "抽屜式收納櫃奶油風客廳衣服夾縫塑料儲物櫃落地多層大容量置物架",
+      "merchantId": "TP0006481",
+      "brandName": "悅家傢具城",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00066690000210",
+      "name": "鋼制鞋櫃家用落地多層防塵鞋架門口入戶玄關大容量收納置物櫃",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00066690002403",
+      "name": "家用大號加厚塑膠抽屜式收納櫃收納盒房間玩具衣服內衣儲物",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products-2"
+    },
+    {
+      "code": "TP00066690002115",
+      "name": "帶鎖手辦櫃家用分層展示收納箱透明高清玻璃櫃檯大容量玩具陳列櫃",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products-2"
+    },
+    {
+      "code": "TP00066690001030",
+      "name": "簡易鞋架家用門口鞋架子好看室內經濟型宿舍多層防塵大容量鞋櫃",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00066690006605",
+      "name": "床上懶人沙發坐椅無腿靠背椅大學宿舍靠椅背靠墊久坐神器床用座椅",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00066690003977",
+      "name": "鞋架架子多層家用進門門口防塵簡易大容量置物架收納靠牆宿舍鞋櫃",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00066690005912",
+      "name": "床頭靠墊2025三角大靠背床上玩手機榻榻米軟包靠枕可拆洗臥室沙發",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00066690003303",
+      "name": "雨傘架收納傘桶商用酒店大堂置物大容量家用班級門口入戶放傘",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00066690007298",
+      "name": "模型展示櫃 樂高展示櫃 防塵大容量透明展示櫃 儲物櫃 置物櫃 收納櫃",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products-2"
+    },
+    {
+      "code": "TP00066690008693",
+      "name": "加厚304不銹鋼轉盤圓桌員工食堂家用商用桌面可折疊大圓臺飯餐桌",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-3"
+    },
+    {
+      "code": "TP00066690015368",
+      "name": "鞋櫃架子家用門口大容量簡易宿舍多層入戶收納鞋架防塵室內",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00066690008050",
+      "name": "透明收納箱家用塑膠收納盒衣櫃衣物大容量玩具零食整理儲物箱子",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products-2"
+    },
+    {
+      "code": "TP00066690015785",
+      "name": "文具收納盒筆筒斜放式大容量學生書桌面整理神器辦公室工位置物架",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "desk-work-corner-furniture-products"
+    },
+    {
+      "code": "TP00066690015580",
+      "name": "高端雨傘架收納架酒店大堂商用大容量教室入戶門口放傘架子拼色款",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00066690015588",
+      "name": "雨傘架子酒店落地傘具存放架雨傘收納筒家用門口雨傘放置架大容量",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00066690015591",
+      "name": "日本asvel雨傘收納架家用入戶門口大容量筒存放置物架瀝水裝傘桶",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00066690015952",
+      "name": "桌面收納盒大容量密碼鎖存錢罐桌上壓歲錢收納盒子ins風卡通",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-3"
+    },
+    {
+      "code": "TP00066690015735",
+      "name": "桌面收納盒多功能書本置物架大容量書架辦公室書桌上文件文具筆筒",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "desk-work-corner-furniture-products"
+    },
+    {
+      "code": "TP00066690016181",
+      "name": "軟體儲水水罐折疊加厚可折疊戶外水袋大容量加厚可折疊水桶特大號",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00066690015609",
+      "name": "商用雨傘架學校大容量門後收納櫃酒店大堂存放置物傘架公司定製",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-5"
+    },
+    {
+      "code": "TP00066690016883",
+      "name": "大容量收納化妝品化妝抽屜式宿舍透明收納盒多層置物架防塵桌面",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-3"
+    },
+    {
+      "code": "TP00066690016660",
+      "name": "簡易衣櫃 家用臥室組裝櫃 大容量帶門防塵衣櫥 出租房用 KAPW",
+      "merchantId": "TP0006669",
+      "brandName": "景敦商行",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00068600003185",
+      "name": "金花梨木全實木床主臥大床中式仿古典雕花老人床鳳梨格木滿鋪床板",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "large-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "compact-large-furniture-dining-bed-sofa-products-2"
+    },
+    {
+      "code": "TP00068600002524",
+      "name": "5加寬旋轉平板拖把大號商用 家用酒店木地板清潔神器幹濕兩用懶人",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00068600000554",
+      "name": "電腦椅子久坐舒服辦公座椅宿舍大學生學習靠背椅家用舒適書桌凳子",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-3"
+    },
+    {
+      "code": "TP00068600005133",
+      "name": "電腦椅子舒適久坐辦公椅會議椅宿舍大學生靠背椅家用舒服書桌椅",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-3"
+    },
+    {
+      "code": "TP00068600007248",
+      "name": "鞋櫃折疊一件起批鞋架鞋盒一拉就用大容量多層鞋子收納神器",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "shoe-box-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00068600006836",
+      "name": "高級感大號加厚簡約滑鼠墊超大辦公桌面墊防水防油免洗皮革書桌墊",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "desk-work-corner-furniture-products"
+    },
+    {
+      "code": "TP00068600006436",
+      "name": "飛雨瀑布水槽壓紋蜂窩廚房304不銹鋼大單槽家用洗菜盆台下洗碗池",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-52"
+    },
+    {
+      "code": "TP00068600006415",
+      "name": "多功能洗碗池 SUS304不銹鋼水槽 寬邊厚面板廚房大單槽一體化",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-51"
+    },
+    {
+      "code": "TP00068600006421",
+      "name": "加厚5.0廚房水槽大單槽多功能一體洗菜盆304不銹鋼壓紋家用洗碗池",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00068600006411",
+      "name": "V-008廚房洗菜家用SUS304加厚手工水槽蜂窩不銹鋼大單槽洗碗池",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00068600006410",
+      "name": "商用廚房洗菜盆304不銹鋼大單槽洗手盆帶支架一體家用洗碗池水槽",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "sink-cleaning",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "sink-cleaning-tool-kitchen-products"
+    },
+    {
+      "code": "TP00068600009884",
+      "name": "電腦椅子舒服久坐電競椅辦公沙發座椅學習靠背書桌宿舍大學生凳子",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-3"
+    },
+    {
+      "code": "TP00068600008854",
+      "name": "中古風餐邊櫃靠牆一體客廳茶水櫃置物架大容量儲物櫃設計",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "kitchen-rack",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "kitchen-rack-counter-storage-products"
+    },
+    {
+      "code": "TP00068600010725",
+      "name": "輕奢鞋櫃家用門口大容量靠牆玄關櫃收納櫃陽臺儲物櫃",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00068600008255",
+      "name": "簡易鞋架子多層家用門口防塵帶簾鞋櫃大容量實木收納置物架子",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00068600010889",
+      "name": "#電腦椅家用久坐靠背懶人椅宿舍大學生電競椅休閒沙發辦公椅",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00068600010867",
+      "name": "床上懶人沙發坐椅無腿靠背椅大學宿舍靠椅背靠墊久坐神器床用座椅",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00068600013165",
+      "name": "全景貓別墅透明玻璃大空間貓籠家用貓屋貓房子室內貓舍貓櫃子",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "large-furniture",
+      "status": "excluded",
+      "reason": "寵物與動物用品",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00068600012133",
+      "name": "衣櫃家用衣櫃收納櫃客廳臥室大容量衣櫥置物櫃衣服折疊櫃",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-3"
+    },
+    {
+      "code": "TP00068600011042",
+      "name": "蓋子收納箱家用衣服衣物整理盒大容量超大折疊加厚衣櫃儲物箱神器",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-3"
+    },
+    {
+      "code": "TP00068600011039",
+      "name": "定制衣服收納箱家用翻蓋大容量帶滑輪衣物整理箱雜物被子儲物箱子",
+      "merchantId": "TP0006860",
+      "brandName": "佑澄企業社",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-3"
+    },
+    {
+      "code": "TP00074070000031",
+      "name": "雨傘收納架商用大容量酒店大堂教室售樓部傘桶雨傘瀝水存放置物架",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-3"
+    },
+    {
+      "code": "TP00074070000029",
+      "name": "日本asvel雨傘收納架家用入戶門口大容量筒存放置物架瀝水裝傘桶",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00074070000019",
+      "name": "大容量雨傘收納架家用門口放傘桶商用放傘神器入戶雨衣傘架置物架",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "mobile-outdoor-gear",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "mobile-outdoor-rain-bottle-fan-products"
+    },
+    {
+      "code": "TP00074070001133",
+      "name": "主臥大氣床頭櫃2024輕奢感簡約現代家用臥室床邊櫃子",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00074070001119",
+      "name": "2025款法式奶油風全實木床頭世紀大師設計櫃臥室簡約儲物櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00074070001532",
+      "name": "簡易鞋架家用門口鞋架子好看室內經濟型宿舍多層防塵大容量鞋櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00074070001517",
+      "name": "防塵門口鞋架家用簡易加寬鞋櫃大容量耐用收納神器多層宿舍置物",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00074070001461",
+      "name": "楠竹鞋架架子多層靠牆家用門口防塵簡易大容量置物架收納宿舍鞋櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-6"
+    },
+    {
+      "code": "TP00074070000987",
+      "name": "2024實木床頭櫃大尺寸輕奢風高級感豪宅家用臥室加寬收納櫃",
+      "merchantId": "TP0007407",
+      "brandName": "RED HOUSE 家具工廠",
+      "bucket": "side-cabinet-nightstand",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "side-cabinet-nightstand-bedroom-products-2"
+    },
+    {
+      "code": "TP00036420030691",
+      "name": "黑色床頭靠墊 高級感軟包床頭 闆大靠背墊 榻榻米自粘可拆洗2026新品",
+      "merchantId": "TP0003642",
+      "brandName": "楡青企業社",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00060920009479",
+      "name": "換鞋凳家用門口可坐白色鞋櫃輕奢風鞋凳大容量儲物凳2023鞋櫃",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00060920012079",
+      "name": "寵物用品 寵物PVC狗門貓門磁吸定位大狗門圍欄雙向自由進出入",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "excluded",
+      "reason": "寵物與動物用品",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920007953",
+      "name": "書架可移動落地置物架桌下大容量教室簡易學生課桌邊帶輪書本收納",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920011988",
+      "name": "簡易掛衣架晾衣架布衣櫃子曬衣架大容量多功能家用室內臥室出租房",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00060920009377",
+      "name": "地毯客廳2024法式複古防水沙髮毯免洗可擦臥室地墊大麵積全鋪",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "fashion-accessory-gifts",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "hair-accessory-small-gift-products"
+    },
+    {
+      "code": "TP00060920014098",
+      "name": "自行車成年人女式大學生中大童學生女孩公主車20-22-24寸單車",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-3"
+    },
+    {
+      "code": "TP00060920014066",
+      "name": "長方形直角收納箱家用多層收納盒大容量書籍儲物箱雜物玩具整理箱",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "family-toys-table",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "family-table-toys-puzzles-gifts-products"
+    },
+    {
+      "code": "TP00060920014057",
+      "name": "化妝品收納盒家用桌面大容量多層防塵梳妝臺透明護膚品口紅置物架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920014054",
+      "name": "書本收納盒透明防塵學生展示箱桌面亞克力桌下展示書架大容量書櫃",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920012931",
+      "name": "實木衣櫃主臥四門耐用客廳大容量出租房衣櫥加厚加固奶油風",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00060920013152",
+      "name": "法式復古鞋櫃2024家用門口室內入戶大容量多層超大玄關櫃",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00060920014444",
+      "name": "電腦椅舒適家用辦公座椅女生臥室化妝椅子宿舍大學生書桌靠背轉椅",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "chair-cushion",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "chair-cushion-home-office-products-2"
+    },
+    {
+      "code": "TP00060920012849",
+      "name": "新中式實木鞋櫃家用門口大容量收納櫃一體靠墻樓道玄關櫃",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00060920012844",
+      "name": "藤編鞋櫃家用門口入戶置物鞋架大容量收納儲物玄關櫃定",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00060920014536",
+      "name": "家用浴室臟衣籃加厚款大號洗衣籃臟衣服收納籃疊加籃子可移動",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00060920014521",
+      "name": "可折疊臟衣籃多層分格大容量洗衣籃宿舍家用便攜落地小推車收納筐",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products"
+    },
+    {
+      "code": "TP00060920014118",
+      "name": "實心胎自行車成人男女款城市輕便通勤上班代步大學生校園充氣單車",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920014105",
+      "name": "自行車成年人自行車女士24寸通勤輕便上班代步實心胎26寸大學生",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-3"
+    },
+    {
+      "code": "TP00060920014103",
+      "name": "自行車成年人女式24/26寸免充氣輕便耐用通勤大學生校園代步單車",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-3"
+    },
+    {
+      "code": "TP00060920014336",
+      "name": "實木床大抽屜床榻榻米床儲物床家用單雙人床臥室床小戶型排骨架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00060920014549",
+      "name": "臟衣籃宿舍家用大容量可折疊臟衣服收納筐多層帶輪移動手提洗衣籃",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00060920014635",
+      "name": "鋁藝中式別墅大門鋁合金庭院戶外農村家用院子不銹鋼雙開門花園",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920014619",
+      "name": "鋁合金鋁藝別墅大門庭院雙開門院子花園鐵藝不銹鋼戶外小院門",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920014608",
+      "name": "定製鋁合金別墅庭院大門不銹鋼戶外木紋鋁鐵藝塑木單雙開門",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920015067",
+      "name": "雨傘架桶收納架家用高檔酒店大堂商用入戶門口置物大容量放傘架子",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00060920015291",
+      "name": "多層辦公桌面文件櫃大容量文件收納架文件框書架辦公用品書桌資料",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "desk-work-corner-furniture-products"
+    },
+    {
+      "code": "TP00060920015091",
+      "name": "雨傘收納架放傘神器置物架家用門口傘具瀝水架傘桶傘架大容量商用",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00060920015072",
+      "name": "家用門口雨傘收納架置傘架裝傘桶置物架酒店大堂雨傘瀝水架大容量",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-3"
+    },
+    {
+      "code": "TP00060920014740",
+      "name": "鞋架子多層簡易鞋櫃家用門口一體玄關櫃收納置物架大容量防塵鞋架",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "entry-shoe-cabinet",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "entryway-shoe-cabinet-storage-products-4"
+    },
+    {
+      "code": "TP00060920014575",
+      "name": "臟衣簍臟衣服收納筐家用高顏值大容量衛生間洗衣籃浴室洗衣物衣籃",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "closet-laundry-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "closet-laundry-bedroom-storage-products-2"
+    },
+    {
+      "code": "TP00060920015408",
+      "name": "可愛存錢罐2025年兒童男女孩只進不出保險箱男孩密碼盒大容量",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "folding-storage-box",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "folding-storage-box-closet-underbed-products"
+    },
+    {
+      "code": "TP00060920016277",
+      "name": "桌下理線架免打孔桌底收納架置物架可調節大容量插排電線整理掛籃",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920016297",
+      "name": "化妝品收納盒抽屜式桌面梳妝臺高級大容量護膚品多功能置物架宿舍",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920015924",
+      "name": "自行車成人24寸26寸男女式全軸承單車大學生淑女實心胎通勤車",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "drawer-storage",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "drawer-storage-cabinet-small-home-products-2"
+    },
+    {
+      "code": "TP00060920015615",
+      "name": "水袋迷彩大容量可折疊加厚水囊儲水罐農用戶外消防抗旱軟體蓄水池",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920015611",
+      "name": "水袋水罐圓臺儲水水囊大容量軟體加厚可折疊耐磨戶外工地農用抗旱",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "outdoor-patio",
+      "status": "excluded",
+      "reason": "大型工程或農用設備",
+      "articleSlug": ""
+    },
+    {
+      "code": "TP00060920016302",
+      "name": "桌面大容量收納盒辦公室學生抽屜式書桌文具多功能置物架旋轉筆筒",
+      "merchantId": "TP0006092",
+      "brandName": "森活家居選物",
+      "bucket": "desk-work-furniture",
+      "status": "placed",
+      "reason": "",
+      "articleSlug": "desk-work-corner-furniture-products"
+    }
+  ]
+}
