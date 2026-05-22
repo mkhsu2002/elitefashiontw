@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import csv
+import hashlib
 import html
 import json
 import re
@@ -24,6 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE_XLSX = ROOT / "momo首批600商品.xlsx"
 TRACKER_CSV = ROOT / "automation" / "momo-brand-recommendation-tracker.csv"
 IMAGE_CACHE = ROOT / "automation" / "momo-product-image-cache.json"
+CODEX_GENERATED_COVER_MANIFEST = ROOT / "automation" / "codex-generated-cover-manifest.json"
 TODAY = "2026-05-22"
 TRIGGER_TYPE = "manual-codex-momo-product-affiliate-no-newsletter"
 BAD_IMAGE_CODES = {
@@ -509,33 +511,33 @@ def draw_wrapped(draw: ImageDraw.ImageDraw, text: str, xy: tuple[int, int], widt
     return y
 
 
+def codex_generated_cover_path(slug: str) -> str:
+    if not CODEX_GENERATED_COVER_MANIFEST.exists():
+        raise FileNotFoundError(f"Missing Codex generated cover manifest: {CODEX_GENERATED_COVER_MANIFEST}")
+    manifest = json.loads(CODEX_GENERATED_COVER_MANIFEST.read_text(encoding="utf-8"))
+    entry = manifest.get("covers", {}).get(slug)
+    if not entry:
+        raise RuntimeError(f"Missing Codex generated cover manifest entry for {slug}")
+    image_rel = str(entry.get("image", ""))
+    image_path = ROOT / image_rel
+    if not image_path.exists():
+        raise FileNotFoundError(f"Missing Codex generated cover image for {slug}: {image_rel}")
+    expected_hash = str(entry.get("sha256", ""))
+    actual_hash = hashlib.sha256(image_path.read_bytes()).hexdigest()
+    if expected_hash and actual_hash != expected_hash:
+        raise RuntimeError(f"Codex generated cover hash mismatch for {slug}")
+    return pipeline.relative_to_root(image_path)
+
+
 def create_cover(article: dict[str, Any]) -> str:
-    bg, accent, warm, dark = article["palette"]
-    image = Image.new("RGB", (1200, 630), bg)
-    draw = ImageDraw.Draw(image)
-    draw.rectangle((0, 0, 1200, 630), fill=bg)
-    draw.rectangle((72, 72, 1128, 558), outline="#d9d0c4", width=2)
-    draw.rounded_rectangle((720, 126, 1076, 438), radius=18, fill="#fffaf1", outline="#d8cdbd", width=2)
-    draw.rounded_rectangle((770, 182, 1026, 228), radius=8, fill=accent)
-    draw.rounded_rectangle((770, 254, 1026, 300), radius=8, fill=warm)
-    draw.rounded_rectangle((770, 326, 1026, 372), radius=8, fill="#f0d7b8")
-    draw.rectangle((750, 438, 1046, 454), fill=dark)
-    draw.ellipse((142, 400, 320, 578), fill="#d8c4aa")
-    draw.rectangle((190, 260, 520, 454), fill="#fffdf8", outline="#d7c8b7", width=2)
-    draw.rectangle((222, 298, 488, 334), fill="#e4d7c7")
-    draw.rectangle((222, 354, 488, 390), fill="#cfdedb")
-    draw.line((84, 522, 1116, 522), fill="#c8baab", width=3)
-    small = font(24)
-    medium = font(34, bold=True)
-    large = font(50, bold=True)
-    draw.text((112, 118), "Elite Fashion", fill=accent, font=medium)
-    draw.text((112, 162), article["coverLabel"], fill=dark, font=small)
-    draw_wrapped(draw, article["title"], (112, 220), 560, dark, large, line_gap=14)
-    draw.text((112, 500), "商品推薦清單｜居家動線｜尺寸與收納判斷", fill="#635d55", font=small)
-    cover_path = ROOT / "images" / "optimized" / "article-covers" / f"{article['slug']}.jpg"
-    cover_path.parent.mkdir(parents=True, exist_ok=True)
-    image.save(cover_path, quality=92, optimize=True)
-    return pipeline.relative_to_root(cover_path)
+    try:
+        return codex_generated_cover_path(article["slug"])
+    except (FileNotFoundError, RuntimeError) as exc:
+        raise RuntimeError(
+            "momo product articles require a Codex image-generated 1200x630 cover. "
+            "Generate the cover with image_gen, save it under images/optimized/article-covers/, "
+            "and record it in automation/codex-generated-cover-manifest.json before publishing."
+        ) from exc
 
 
 def brand_cards(brand_ids: list[str]) -> list[dict[str, str]]:

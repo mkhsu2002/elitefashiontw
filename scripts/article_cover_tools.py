@@ -21,10 +21,14 @@ ARTICLES_INDEX = ROOT / "data" / "articles-index.json"
 FRONT_LISTING = ROOT / "data" / "front-listing.json"
 PUBLISH_LOG = ROOT / "automation" / "publish-log.json"
 SITE_CONFIG = ROOT / "automation" / "site-config.json"
+CODEX_GENERATED_COVER_MANIFEST = ROOT / "automation" / "codex-generated-cover-manifest.json"
 OUTPUT_DIR = ROOT / "images" / "optimized" / "article-covers"
 TMP_DIR = Path("/tmp/elitefashion-cover-sources")
 WIDTH = 1200
 HEIGHT = 630
+CODEX_GENERATED_COVER_REQUIRED_SOURCE_TYPES = {
+    "manual-codex-momo-product-affiliate",
+}
 REQUIRED_SOCIAL_META = (
     "og:image",
     "og:image:secure_url",
@@ -146,6 +150,8 @@ def article_rows() -> list[dict]:
     rows = []
     for item in payload["items"]:
         article_file = str(item["file"])
+        detail_path = ROOT / "automation" / "articles" / f"{item['slug']}.json"
+        detail = load_json(detail_path) if detail_path.exists() else {}
         html = (ROOT / article_file).read_text(encoding="utf-8")
         og = normalize_image_ref(meta_content(html, "og:image"), article_file)
         cover, cover_source = extract_cover(html, article_file, str(item.get("heroImage", "")))
@@ -164,9 +170,36 @@ def article_rows() -> list[dict]:
                 "source": cover or og or normalize_image_ref(item.get("heroImage", ""), article_file),
                 "target": target_rel,
                 "public": public_url(target_rel),
+                "sourceType": str(detail.get("sourceType", "")),
             }
         )
     return rows
+
+
+def codex_generated_cover_failures(rows: list[dict]) -> list[dict]:
+    if CODEX_GENERATED_COVER_MANIFEST.exists():
+        manifest = load_json(CODEX_GENERATED_COVER_MANIFEST)
+    else:
+        manifest = {}
+    covers = manifest.get("covers", {}) if isinstance(manifest, dict) else {}
+    failures = []
+    for row in rows:
+        if row.get("sourceType") not in CODEX_GENERATED_COVER_REQUIRED_SOURCE_TYPES:
+            continue
+        entry = covers.get(row["slug"])
+        image_path = ROOT / row["target"]
+        if not entry:
+            failures.append({"file": row["file"], "reason": "missing manifest entry"})
+            continue
+        if entry.get("image") != row["target"]:
+            failures.append({"file": row["file"], "reason": "manifest image path mismatch"})
+            continue
+        if not entry.get("source", "").startswith(str(Path.home() / ".codex/generated_images")):
+            failures.append({"file": row["file"], "reason": "source is not a Codex generated image path"})
+            continue
+        if entry.get("sha256") != sha256(image_path.read_bytes()).hexdigest():
+            failures.append({"file": row["file"], "reason": "cover hash does not match manifest"})
+    return failures
 
 
 def duplicate_files(rows: list[dict]) -> set[str]:
@@ -380,6 +413,7 @@ def audit() -> dict:
                 "height": og_height,
             })
     duplicate_hash_groups = [(digest, group) for digest, group in by_hash.items() if len(group) > 1]
+    codex_cover_failures = codex_generated_cover_failures(rows)
     by_cover: dict[str, list[dict]] = defaultdict(list)
     for row in rows:
         by_cover[row["cover"]].append(row)
@@ -401,8 +435,10 @@ def audit() -> dict:
         "duplicateArticles": sum(len(group) for _, group in duplicate_groups),
         "duplicateHashGroups": len(duplicate_hash_groups),
         "duplicateHashArticles": sum(len(group) for _, group in duplicate_hash_groups),
+        "codexGeneratedCoverFailures": len(codex_cover_failures),
         "socialMetaMissingFiles": social_meta_missing[:20],
         "socialMetaWrongSizeFiles": social_meta_wrong_size[:20],
+        "codexGeneratedCoverFailureFiles": codex_cover_failures[:20],
     }
 
 
@@ -420,6 +456,7 @@ def strict_audit() -> int:
         "duplicateArticles",
         "duplicateHashGroups",
         "duplicateHashArticles",
+        "codexGeneratedCoverFailures",
     )
     return 1 if any(result[key] for key in required_zero) else 0
 

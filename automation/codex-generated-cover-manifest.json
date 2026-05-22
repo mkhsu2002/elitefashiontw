@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-22T00:00:00-07:00",
+  "generator": "codex-imagegen-built-in",
+  "covers": {
+    "small-home-storage-products-entry-closet-underbed": {
+      "image": "images/optimized/article-covers/small-home-storage-products-entry-closet-underbed.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e4e04-34ea-7211-b532-044a16dd954d/ig_0a2ca5d890306b2e016a107e12c4788193928e8ba8791d3b89.png",
+      "sha256": "e27aaee232fd0c029da6d4ae6be6e9cb0045a10e31b8474ee4085d099e519f2d",
+      "promptSummary": "Small apartment entryway, closet, and under-bed storage editorial cover; no text or logos."
+    },
+    "entryway-shoe-cabinet-umbrella-rack-product-guide": {
+      "image": "images/optimized/article-covers/entryway-shoe-cabinet-umbrella-rack-product-guide.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e4e04-34ea-7211-b532-044a16dd954d/ig_0a2ca5d890306b2e016a107e47d2548193af457a6bf25fc545.png",
+      "sha256": "641f81f1c3abec38ae9d84dcea7aac7b57c75dc88d66d8074f48df64203069d2",
+      "promptSummary": "Organized entryway with shoe cabinet, umbrella stand, and shoe-changing bench; no text or logos."
+    },
+    "home-office-corner-desk-storage-furniture-guide": {
+      "image": "images/optimized/article-covers/home-office-corner-desk-storage-furniture-guide.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e4e04-34ea-7211-b532-044a16dd954d/ig_0a2ca5d890306b2e016a107e72b6348193b4f4074b46a0c282.png",
+      "sha256": "ddc834897b2d3a26c55aa9b08f628bb783e61275111dc6ab7a4cfa6c2f191b5b",
+      "promptSummary": "Polished compact home office corner with desk, side cabinet, cushion, and desktop storage; no text or logos."
+    },
+    "home-organization-cleaning-kitchen-storage-products": {
+      "image": "images/optimized/article-covers/home-organization-cleaning-kitchen-storage-products.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e4e04-34ea-7211-b532-044a16dd954d/ig_0a2ca5d890306b2e016a107ec419688193baead5bbb264ce6f.png",
+      "sha256": "8eb7b90d53a1dde62768382c22f62a5722313e084794648ab96c63815f165add",
+      "promptSummary": "Bright kitchen and dining sideboard organization scene with trash bin, rack, sink, and cleaning caddy; no text or logos."
+    },
+    "family-gift-toys-puzzles-kites-storage-guide": {
+      "image": "images/optimized/article-covers/family-gift-toys-puzzles-kites-storage-guide.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e4e04-34ea-7211-b532-044a16dd954d/ig_0a2ca5d890306b2e016a107ef5e3148193a1594ea2b2aa04c0.png",
+      "sha256": "f351dfca5430063513fc4efdf97281c79659c6f9f5ac38d4b5dfb4fe5987696f",
+      "promptSummary": "Family gift still life with puzzle, kite, drawing board, gift wrap, and storage box; no text or logos."
+    }
+  }
+}
