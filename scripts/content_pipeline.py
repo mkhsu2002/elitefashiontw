@@ -831,14 +831,12 @@ def short_display_text(text: str, max_chars: int) -> str:
 def render_product_card(product: dict[str, Any], *, compact: bool = False) -> str:
     name = str(product.get("name") or "").strip()
     brand = str(product.get("brandName") or "").strip()
-    reason = str(product.get("selectionReason") or "").strip()
     image_url = str(product.get("imageUrl") or "").strip()
     image_credit = str(product.get("imageCredit") or "圖片來源：momo 商品頁").strip()
     url = str(product.get("affiliateUrl") or product.get("sourceProductUrl") or "").strip()
     if not name or not url:
         return ""
     display_name = short_display_text(name, 30 if compact else 42)
-    display_reason = short_display_text(reason, 40) if reason and not compact else ""
     display_credit = short_display_text(image_credit, 34)
     image_html = ""
     if image_url:
@@ -847,7 +845,6 @@ def render_product_card(product: dict[str, Any], *, compact: bool = False) -> st
                     <img src="{html.escape(image_url)}" alt="{html.escape(name)}" loading="lazy" onerror="this.closest('figure').remove()">
                     <figcaption>{html.escape(display_credit)}</figcaption>
                 </figure>"""
-    reason_html = f"                    <p>{html.escape(display_reason)}</p>\n" if display_reason else ""
     compact_class = " product-card-compact" if compact else ""
     return f"""
             <article class="product-card{compact_class}">
@@ -855,7 +852,7 @@ def render_product_card(product: dict[str, Any], *, compact: bool = False) -> st
                 <div class="product-card-body">
                     <span class="product-card-brand">{html.escape(brand)}</span>
                     <h3 title="{html.escape(name)}">{html.escape(display_name)}</h3>
-{reason_html}                    <a href="{html.escape(url)}"{cta_link_attrs(url)} class="product-card-button">查看商品</a>
+                    <a href="{html.escape(url)}"{cta_link_attrs(url)} class="product-card-button">查看商品</a>
                 </div>
             </article>"""
 
@@ -923,7 +920,6 @@ def render_product_sidebar(article: dict[str, Any], *, mobile: bool = False) -> 
         <{wrapper} class="{class_name}" aria-label="{heading}">
             <div class="product-sidebar-inner">
                 <h2>{heading}</h2>
-                <p>放在正文之後慢慢比較，規格與庫存仍以 momo 商品頁為準。</p>
 {cards}
             </div>
         </{wrapper}>"""
@@ -946,8 +942,6 @@ def build_itemlist_schema(article: dict[str, Any]) -> dict[str, Any] | None:
         }
         if product.get("imageUrl"):
             entry["image"] = product["imageUrl"]
-        if product.get("selectionReason"):
-            entry["description"] = product["selectionReason"]
         items.append(entry)
     if not items:
         return None
@@ -1174,7 +1168,6 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         product_grid_html = render_product_grid(
             article.get("mainProducts") or [],
             title="Elite 嚴選",
-            intro="先看尺寸、動線與使用頻率，再回到商品頁確認規格、價格與庫存。",
         )
         featured_brands_html = render_featured_brands(article)
         desktop_sidebar_html = render_product_sidebar(article)
