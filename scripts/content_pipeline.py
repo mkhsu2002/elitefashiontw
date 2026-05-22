@@ -733,6 +733,26 @@ def render_markdown_body(article: dict[str, Any]) -> str:
         lines.append("")
         lines.append(article["disclaimer"])
         lines.append("")
+    if article.get("mainProducts"):
+        lines.append("## 商品推薦清單")
+        lines.append("")
+        for product in article.get("mainProducts", []):
+            name = str(product.get("name", "")).strip()
+            url = str(product.get("affiliateUrl") or product.get("sourceProductUrl") or "").strip()
+            reason = str(product.get("selectionReason", "")).strip()
+            if name and url:
+                lines.append(f"- [{name}]({url})：{reason}")
+        lines.append("")
+    if article.get("featuredBrands"):
+        lines.append("## 店家整理")
+        lines.append("")
+        for brand in article.get("featuredBrands", []):
+            name = str(brand.get("name", "")).strip()
+            url = str(brand.get("url", "")).strip()
+            reason = str(brand.get("reason", "")).strip()
+            if name and url:
+                lines.append(f"- [{name}]({url})：{reason}")
+        lines.append("")
     if has_affiliate_cta(article):
         lines.append("## 導購揭露")
         lines.append("")
@@ -778,6 +798,159 @@ def render_inline_cta(cta: dict[str, Any]) -> str:
         </aside>"""
 
 
+def article_products(article: dict[str, Any]) -> list[dict[str, Any]]:
+    products: list[dict[str, Any]] = []
+    for key in ("mainProducts", "sidebarProducts"):
+        for product in article.get(key, []) or []:
+            if isinstance(product, dict):
+                products.append(product)
+    return products
+
+
+def product_links(article: dict[str, Any]) -> list[str]:
+    links: list[str] = []
+    for product in article_products(article):
+        url = str(product.get("affiliateUrl") or product.get("sourceProductUrl") or "").strip()
+        if url:
+            links.append(url)
+    for brand in article.get("featuredBrands", []) or []:
+        if isinstance(brand, dict):
+            url = str(brand.get("url") or "").strip()
+            if url:
+                links.append(url)
+    return links
+
+
+def render_product_card(product: dict[str, Any], *, compact: bool = False) -> str:
+    name = str(product.get("name") or "").strip()
+    brand = str(product.get("brandName") or "").strip()
+    reason = str(product.get("selectionReason") or "").strip()
+    risk_note = str(product.get("riskNote") or "").strip()
+    image_url = str(product.get("imageUrl") or "").strip()
+    image_credit = str(product.get("imageCredit") or "圖片來源：momo 商品頁").strip()
+    url = str(product.get("affiliateUrl") or product.get("sourceProductUrl") or "").strip()
+    if not name or not url:
+        return ""
+    image_html = ""
+    if image_url:
+        image_html = f"""
+                <figure class="product-card-media">
+                    <img src="{html.escape(image_url)}" alt="{html.escape(name)}" loading="lazy" onerror="this.closest('figure').remove()">
+                    <figcaption>{html.escape(image_credit)}</figcaption>
+                </figure>"""
+    note_html = f'                <p class="product-card-note">{html.escape(risk_note)}</p>\n' if risk_note else ""
+    compact_class = " product-card-compact" if compact else ""
+    return f"""
+            <article class="product-card{compact_class}">
+{image_html}
+                <div class="product-card-body">
+                    <span class="product-card-brand">{html.escape(brand)}</span>
+                    <h3>{html.escape(name)}</h3>
+                    <p>{html.escape(reason)}</p>
+{note_html}                    <a href="{html.escape(url)}"{cta_link_attrs(url)} class="product-card-button">查看商品</a>
+                </div>
+            </article>"""
+
+
+def render_product_grid(products: list[dict[str, Any]], *, title: str, intro: str = "", compact: bool = False) -> str:
+    cards = "\n".join(
+        card for product in products if (card := render_product_card(product, compact=compact))
+    )
+    if not cards:
+        return ""
+    intro_html = f"            <p>{html.escape(intro)}</p>\n" if intro else ""
+    return f"""
+        <section class="product-recommendations">
+            <h2>{html.escape(title)}</h2>
+{intro_html}            <div class="product-card-grid">
+{cards}
+            </div>
+        </section>"""
+
+
+def render_featured_brands(article: dict[str, Any]) -> str:
+    brands = []
+    for brand in article.get("featuredBrands", []) or []:
+        if not isinstance(brand, dict):
+            continue
+        name = str(brand.get("name") or "").strip()
+        role = str(brand.get("role") or "").strip()
+        reason = str(brand.get("reason") or "").strip()
+        url = str(brand.get("url") or "").strip()
+        if not name or not url:
+            continue
+        brands.append(
+            f"""
+                <article class="featured-brand-card">
+                    <span>{html.escape(role or "推薦店家")}</span>
+                    <h3>{html.escape(name)}</h3>
+                    <p>{html.escape(reason)}</p>
+                    <a href="{html.escape(url)}"{cta_link_attrs(url)}>前往店家</a>
+                </article>"""
+        )
+    if not brands:
+        return ""
+    return f"""
+        <section class="featured-brand-strip">
+            <h2>本篇會用到的店家</h2>
+            <div class="featured-brand-grid">
+{''.join(brands)}
+            </div>
+        </section>"""
+
+
+def render_product_sidebar(article: dict[str, Any], *, mobile: bool = False) -> str:
+    products = article.get("sidebarProducts") or []
+    if not products:
+        return ""
+    cards = "\n".join(
+        card for product in products if (card := render_product_card(product, compact=True))
+    )
+    if not cards:
+        return ""
+    wrapper = "section" if mobile else "aside"
+    class_name = "product-sidebar product-sidebar-mobile" if mobile else "product-sidebar"
+    heading = "延伸商品清單" if mobile else "右側精選商品"
+    return f"""
+        <{wrapper} class="{class_name}" aria-label="{heading}">
+            <div class="product-sidebar-inner">
+                <h2>{heading}</h2>
+                <p>這些商品可作為正文清單的延伸選項；實際規格、價格與庫存請以 momo 商品頁為準。</p>
+{cards}
+            </div>
+        </{wrapper}>"""
+
+
+def build_itemlist_schema(article: dict[str, Any]) -> dict[str, Any] | None:
+    seen: set[str] = set()
+    items = []
+    for product in article_products(article):
+        name = str(product.get("name") or "").strip()
+        url = str(product.get("sourceProductUrl") or product.get("affiliateUrl") or "").strip()
+        if not name or not url or url in seen:
+            continue
+        seen.add(url)
+        entry: dict[str, Any] = {
+            "@type": "ListItem",
+            "position": len(items) + 1,
+            "url": url,
+            "name": name,
+        }
+        if product.get("imageUrl"):
+            entry["image"] = product["imageUrl"]
+        if product.get("selectionReason"):
+            entry["description"] = product["selectionReason"]
+        items.append(entry)
+    if not items:
+        return None
+    return {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": f"{article['title']} 商品推薦清單",
+        "itemListElement": items,
+    }
+
+
 def cta_links(cta: dict[str, Any]) -> list[dict[str, str]]:
     links = []
     for item in cta.get("links", []):
@@ -813,7 +986,9 @@ def is_affiliate_url(url: str) -> bool:
 
 
 def has_affiliate_cta(article: dict[str, Any]) -> bool:
-    return any(is_affiliate_url(link["url"]) for link in cta_links(article.get("cta", {})))
+    cta_has_links = any(is_affiliate_url(link["url"]) for link in cta_links(article.get("cta", {})))
+    product_has_links = any(is_affiliate_url(url) for url in product_links(article))
+    return cta_has_links or product_has_links
 
 
 def cta_link_attrs(url: str) -> str:
@@ -959,6 +1134,59 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
             <strong>導購揭露</strong>
             <p>{html.escape(AFFILIATE_DISCLOSURE_COPY)}</p>
         </section>"""
+    itemlist_schema = build_itemlist_schema(article)
+    itemlist_schema_html = (
+        f'\n    <script type="application/ld+json">{json.dumps(itemlist_schema, ensure_ascii=False)}</script>'
+        if itemlist_schema
+        else ""
+    )
+    trailing_html = f"""
+        <section class="article-faq">
+            <h2>FAQ</h2>
+            {faq_items}
+        </section>
+
+        <section class="article-related">
+            <h2>延伸閱讀</h2>
+            <ul>
+{extended_items}
+            </ul>
+        </section>
+
+        <section class="article-cta article-cta-{html.escape(cta_variant)}">
+            <h2>下一步建議</h2>
+            <p>{html.escape(article['cta']['text'])}</p>
+            <div class="article-cta-links">
+{cta_buttons}
+            </div>
+        </section>
+{disclaimer_html}
+{disclosure_html}"""
+    if article.get("mainProducts") or article.get("sidebarProducts"):
+        product_grid_html = render_product_grid(
+            article.get("mainProducts") or [],
+            title="本篇推薦清單",
+            intro="以下商品依照尺寸動線、使用頻率、收納任務與情境搭配整理；實際規格、價格、活動與庫存請以 momo 商品頁公告為準。",
+        )
+        featured_brands_html = render_featured_brands(article)
+        desktop_sidebar_html = render_product_sidebar(article)
+        mobile_sidebar_html = render_product_sidebar(article, mobile=True)
+        article_body_html = f"""
+        <p class="article-intro-copy">{html.escape(article['intro'])}</p>
+        <div class="product-article-layout">
+            <div class="product-article-main">
+{product_grid_html}
+{featured_brands_html}
+{section_html}
+{mobile_sidebar_html}
+{trailing_html}
+            </div>
+{desktop_sidebar_html}
+        </div>"""
+    else:
+        article_body_html = f"""
+        {section_html}
+{trailing_html}"""
     return f"""<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -1147,9 +1375,172 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         .article-disclosure p {{
             margin: 0;
         }}
+        .article-intro-copy {{
+            max-width: 760px;
+            margin: 0 auto 2.4rem;
+            color: #2d2d2d;
+            font-size: 1.08rem;
+        }}
+        .product-article-layout {{
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 320px;
+            gap: 34px;
+            align-items: start;
+        }}
+        .product-article-main {{
+            min-width: 0;
+        }}
+        .product-recommendations,
+        .featured-brand-strip {{
+            margin: 2.8rem 0 3rem;
+        }}
+        .product-recommendations h2,
+        .featured-brand-strip h2,
+        .product-sidebar h2 {{
+            font-family: 'Playfair Display', serif;
+            font-size: 1.85rem;
+            margin: 0 0 1rem;
+        }}
+        .product-recommendations > p {{
+            margin-bottom: 1.3rem;
+            color: #4d4a44;
+        }}
+        .product-card-grid,
+        .featured-brand-grid {{
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 18px;
+        }}
+        .product-card,
+        .featured-brand-card {{
+            border: 1px solid #e7dfcf;
+            border-radius: 8px;
+            background: #fffdf8;
+            overflow: hidden;
+            box-shadow: 0 12px 28px rgba(17, 17, 17, 0.06);
+        }}
+        .product-card-media {{
+            margin: 0;
+            background: #f6f3ed;
+        }}
+        .product-card-media img {{
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+        }}
+        .product-card-media figcaption {{
+            padding: 7px 12px 0;
+            color: #777067;
+            font-size: 0.78rem;
+            line-height: 1.45;
+        }}
+        .product-card-body,
+        .featured-brand-card {{
+            padding: 16px;
+        }}
+        .product-card-brand,
+        .featured-brand-card span {{
+            display: inline-block;
+            margin-bottom: 8px;
+            color: #8a6a2f;
+            font-size: 0.8rem;
+            font-weight: 800;
+        }}
+        .product-card h3,
+        .featured-brand-card h3 {{
+            font-size: 1.02rem;
+            line-height: 1.45;
+            margin: 0 0 0.7rem;
+            color: #151515;
+        }}
+        .product-card p,
+        .featured-brand-card p {{
+            color: #3a3833;
+            font-size: 0.95rem;
+            line-height: 1.65;
+            margin-bottom: 0.75rem;
+        }}
+        .product-card-note {{
+            color: #665b4c !important;
+            font-size: 0.88rem !important;
+        }}
+        .product-card-button,
+        .featured-brand-card a {{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 40px;
+            padding: 9px 14px;
+            border-radius: 999px;
+            background: #111;
+            color: #fff;
+            font-weight: 800;
+            font-size: 0.92rem;
+            text-decoration: none;
+        }}
+        .product-card-button::after,
+        .featured-brand-card a::after {{
+            content: "→";
+            margin-left: 0.45rem;
+        }}
+        .product-sidebar {{
+            position: sticky;
+            top: 98px;
+        }}
+        .product-sidebar-inner {{
+            padding: 18px;
+            border: 1px solid #e7dfcf;
+            border-radius: 8px;
+            background: #fbf8f1;
+            box-shadow: 0 16px 34px rgba(17, 17, 17, 0.07);
+        }}
+        .product-sidebar-inner > p {{
+            margin: 0 0 14px;
+            color: #625d55;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }}
+        .product-card-compact {{
+            margin-bottom: 14px;
+        }}
+        .product-card-compact .product-card-body {{
+            padding: 12px;
+        }}
+        .product-card-compact h3 {{
+            font-size: 0.92rem;
+        }}
+        .product-card-compact p {{
+            font-size: 0.86rem;
+        }}
+        .product-sidebar-mobile {{
+            display: none;
+        }}
+        @media (max-width: 980px) {{
+            .product-article-layout {{
+                display: block;
+            }}
+            .product-sidebar:not(.product-sidebar-mobile) {{
+                display: none;
+            }}
+            .product-sidebar-mobile {{
+                display: block;
+                position: static;
+                margin: 2.6rem 0;
+            }}
+        }}
+        @media (max-width: 680px) {{
+            .product-card-grid,
+            .featured-brand-grid {{
+                grid-template-columns: 1fr;
+            }}
+            .product-card-media img {{
+                aspect-ratio: 4 / 3;
+            }}
+        }}
     </style>
     <script type="application/ld+json">{json.dumps(article_schema, ensure_ascii=False)}</script>
     <script type="application/ld+json">{json.dumps(faq_schema, ensure_ascii=False)}</script>
+{itemlist_schema_html}
 </head>
 <body>
     <nav class="navbar" role="navigation" aria-label="主導覽列">
@@ -1188,30 +1579,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         </header>
 
         <img src="{html.escape(hero_image_tag_src)}" alt="{html.escape(article.get('heroImageAlt') or article['title'])}" class="hero-img">
-
-        {section_html}
-
-        <section class="article-faq">
-            <h2>FAQ</h2>
-            {faq_items}
-        </section>
-
-        <section class="article-related">
-            <h2>延伸閱讀</h2>
-            <ul>
-{extended_items}
-            </ul>
-        </section>
-
-        <section class="article-cta article-cta-{html.escape(cta_variant)}">
-            <h2>下一步建議</h2>
-            <p>{html.escape(article['cta']['text'])}</p>
-            <div class="article-cta-links">
-{cta_buttons}
-            </div>
-        </section>
-{disclaimer_html}
-{disclosure_html}
+{article_body_html}
     </main>
 {render_site_footer("../")}
 

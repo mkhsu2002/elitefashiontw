@@ -1,5 +1,40 @@
 # 發文紀錄
 
+## 2026-05-22T07:24:17Z｜不只買玩具：親子禮物可以這樣挑，從拼圖、風箏到收納箱都更耐玩
+
+- 文章 ID：auto-20260522072417-family-gift-toys-puzzles-kites-storage-guide
+- URL：https://tw.elitefasion.com/lifestyle-culture/family-gift-toys-puzzles-kites-storage-guide.html
+- 檔案：lifestyle-culture/family-gift-toys-puzzles-kites-storage-guide.html
+- 類型：manual-codex-momo-product-affiliate-no-newsletter
+
+## 2026-05-22T07:24:06Z｜居家整理不用等大掃除：垃圾桶、廚房架、水槽與清潔收納的選購清單
+
+- 文章 ID：auto-20260522072406-home-organization-cleaning-kitchen-storage-products
+- URL：https://tw.elitefasion.com/lifestyle-culture/home-organization-cleaning-kitchen-storage-products.html
+- 檔案：lifestyle-culture/home-organization-cleaning-kitchen-storage-products.html
+- 類型：manual-codex-momo-product-affiliate-no-newsletter
+
+## 2026-05-22T07:23:57Z｜在家工作角落不再臨時：書桌、邊櫃、靠枕與桌面收納怎麼配
+
+- 文章 ID：auto-20260522072357-home-office-corner-desk-storage-furniture-guide
+- URL：https://tw.elitefasion.com/ai-innovation/home-office-corner-desk-storage-furniture-guide.html
+- 檔案：ai-innovation/home-office-corner-desk-storage-furniture-guide.html
+- 類型：manual-codex-momo-product-affiliate-no-newsletter
+
+## 2026-05-22T07:23:49Z｜玄關一打開就有秩序：鞋櫃、雨傘架、換鞋凳的 10 個實用選擇
+
+- 文章 ID：auto-20260522072349-entryway-shoe-cabinet-umbrella-rack-product-guide
+- URL：https://tw.elitefasion.com/lifestyle-culture/entryway-shoe-cabinet-umbrella-rack-product-guide.html
+- 檔案：lifestyle-culture/entryway-shoe-cabinet-umbrella-rack-product-guide.html
+- 類型：manual-codex-momo-product-affiliate-no-newsletter
+
+## 2026-05-22T07:23:39Z｜小宅不是缺櫃子，是缺回家的位置：12 件收納單品讓玄關、衣櫃和床底安靜下來
+
+- 文章 ID：auto-20260522072339-small-home-storage-products-entry-closet-underbed
+- URL：https://tw.elitefasion.com/lifestyle-culture/small-home-storage-products-entry-closet-underbed.html
+- 檔案：lifestyle-culture/small-home-storage-products-entry-closet-underbed.html
+- 類型：manual-codex-momo-product-affiliate-no-newsletter
+
 ## 2026-05-22T04:53:09Z｜Elite Fashion｜大溫 2026 投資計畫：城市競爭、AI 產業與生活品牌的下一步
 
 - 文章 ID：auto-20260522045309-metro-vancouver-2026-investment-plan
