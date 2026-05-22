@@ -974,6 +974,23 @@ AFFILIATE_DISCLOSURE_COPY = (
     "Elite Fashion 可能取得合作收益。本文仍以編輯判斷與使用情境整理為主，"
     "價格、規格、活動與庫存請以商品頁公告為準。"
 )
+FRONTEND_FORBIDDEN_COPY = (
+    "右側精選商品",
+    "本篇推薦清單",
+    "商品推薦清單",
+    "推薦店家",
+    "先看尺寸、動線與使用頻率",
+    "放在正文之後慢慢比較",
+    "依使用頻率與擺放位置比較",
+    "品牌池",
+    "批次",
+    "分潤",
+    "SEO",
+    "主角品牌",
+    "配角品牌",
+    "矩陣",
+    "覆蓋率",
+)
 
 
 def is_affiliate_url(url: str) -> bool:
@@ -991,6 +1008,12 @@ def has_affiliate_cta(article: dict[str, Any]) -> bool:
     cta_has_links = any(is_affiliate_url(link["url"]) for link in cta_links(article.get("cta", {})))
     product_has_links = any(is_affiliate_url(url) for url in product_links(article))
     return cta_has_links or product_has_links
+
+
+def assert_frontend_copy(html_text: str, context: str) -> None:
+    hits = [phrase for phrase in FRONTEND_FORBIDDEN_COPY if phrase in html_text]
+    if hits:
+        raise PipelineError(f"前台禁語未移除（{context}）：{', '.join(hits)}")
 
 
 def cta_link_attrs(url: str) -> str:
@@ -2565,7 +2588,9 @@ def save_generated_article(article: dict[str, Any], queue_id: str | None, config
 
     write_json(metadata_path, article)
     write_text(markdown_path, article["markdownBody"])
-    write_text(html_path, render_article_html(article, config, categories))
+    html_output = render_article_html(article, config, categories)
+    assert_frontend_copy(html_output, article["slug"])
+    write_text(html_path, html_output)
     return article
 
 
