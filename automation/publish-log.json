@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-20T14:50:58Z",
+  "updatedAt": "2026-05-22T04:53:09Z",
   "entries": [
+    {
+      "articleId": "auto-20260522045309-metro-vancouver-2026-investment-plan",
+      "title": "Elite Fashion｜大溫 2026 投資計畫：城市競爭、AI 產業與生活品牌的下一步",
+      "publishedAt": "2026-05-22T04:53:09Z",
+      "url": "https://tw.elitefasion.com/ai-innovation/metro-vancouver-2026-investment-plan.html",
+      "file": "ai-innovation/metro-vancouver-2026-investment-plan.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/metro-vancouver-2026-investment-plan.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex-translation-no-newsletter"
+    },
     {
       "articleId": "auto-20260520145058-plus-size-office-travel-weekend-outfit-order",
       "title": "Elite Fashion｜大尺碼穿搭也能俐落：上班、旅行與週末的選款順序",

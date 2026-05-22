@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-05-20T14:59:20Z",
+  "updatedAt": "2026-05-22T04:53:27Z",
   "latest": [
+    {
+      "id": "auto-20260522045309-metro-vancouver-2026-investment-plan",
+      "title": "Elite Fashion｜大溫 2026 投資計畫與 AI 產業機會",
+      "excerpt": "從 Invest Vancouver 年度計畫看大溫如何用同一個區域品牌、產業升級與商業情報爭取全球投資。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "Vibe AI 城市競爭力",
+      "publishedAt": "2026-05-22T04:53:09Z",
+      "publishedDateText": "2026年5月22日",
+      "relativeUrl": "ai-innovation/metro-vancouver-2026-investment-plan.html",
+      "heroImage": "images/optimized/article-covers/metro-vancouver-2026-investment-plan.jpg",
+      "tags": [
+        "大溫哥華",
+        "Invest Vancouver",
+        "AI 產業",
+        "城市競爭力",
+        "外國直接投資"
+      ]
+    },
     {
       "id": "auto-20260520145058-jewelry-leather-gift-ring-silver-wallet-small-bag",
       "title": "Elite Fashion｜飾品與皮件送禮怎麼選",
@@ -198,30 +217,31 @@
         "身體保養",
         "防曬整理"
       ]
-    },
-    {
-      "id": "auto-20260520141022-home-nail-makeup-tools-beginner-storage",
-      "title": "Elite Fashion｜居家美甲與彩妝工具怎麼買",
-      "excerpt": "從材料、刷具、燈具、收納到飾品，整理更不失控的居家美甲與彩妝工具清單。",
-      "category": "casual-chic",
-      "categoryLabel": "休閒時尚",
-      "series": "保養髮品與自我整理",
-      "publishedAt": "2026-05-20T14:10:22Z",
-      "publishedDateText": "2026年5月20日",
-      "relativeUrl": "casual-chic/home-nail-makeup-tools-beginner-storage.html",
-      "heroImage": "images/optimized/article-covers/home-nail-makeup-tools-beginner-storage.jpg",
-      "tags": [
-        "居家美甲",
-        "彩妝刷具",
-        "美甲材料",
-        "飾品收納"
-      ]
     }
   ],
   "byCategory": {
     "ai-innovation": {
       "label": "人工智能",
       "items": [
+        {
+          "id": "auto-20260522045309-metro-vancouver-2026-investment-plan",
+          "title": "Elite Fashion｜大溫 2026 投資計畫與 AI 產業機會",
+          "excerpt": "從 Invest Vancouver 年度計畫看大溫如何用同一個區域品牌、產業升級與商業情報爭取全球投資。",
+          "category": "ai-innovation",
+          "categoryLabel": "人工智能",
+          "series": "Vibe AI 城市競爭力",
+          "publishedAt": "2026-05-22T04:53:09Z",
+          "publishedDateText": "2026年5月22日",
+          "relativeUrl": "ai-innovation/metro-vancouver-2026-investment-plan.html",
+          "heroImage": "images/optimized/article-covers/metro-vancouver-2026-investment-plan.jpg",
+          "tags": [
+            "大溫哥華",
+            "Invest Vancouver",
+            "AI 產業",
+            "城市競爭力",
+            "外國直接投資"
+          ]
+        },
         {
           "id": "auto-20260520061048-ai-workflow-laptop-spec-warranty-monitor-backup",
           "title": "Elite Fashion｜AI 工作流需要什麼筆電與備份配置",
@@ -310,27 +330,6 @@
             "外接螢幕",
             "遠距工作",
             "桌面配置"
-          ]
-        },
-        {
-          "id": "auto-20260515180349-chatgpt-image-2-prompts-elite-women",
-          "title": "ChatGPT Image 2.0 指令大全：20 組知識都會女性最常用提示詞",
-          "excerpt": "從個人品牌照、精品靜物到城市生活場景，整理可直接改寫的 20 組 AI 生圖提示詞。",
-          "category": "ai-innovation",
-          "categoryLabel": "人工智能",
-          "series": "AI 生圖與個人品牌提示詞",
-          "publishedAt": "2026-05-15T18:03:49Z",
-          "publishedDateText": "2026年5月15日",
-          "relativeUrl": "ai-innovation/chatgpt-image-2-prompts-elite-women.html",
-          "heroImage": "images/generated/ai/chatgpt-image-2-prompts-cover.jpg",
-          "tags": [
-            "ChatGPT Image 2.0",
-            "AI 生圖",
-            "AI 圖片生成",
-            "提示詞",
-            "知識型女性",
-            "個人品牌",
-            "社群內容"
           ]
         }
       ]
