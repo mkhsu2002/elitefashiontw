@@ -971,8 +971,17 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
     <meta property="og:description" content="{html.escape(article['metaDescription'])}">
     <meta property="og:url" content="{html.escape(canonical)}">
     <meta property="og:image" content="{html.escape(hero_image_url)}">
+    <meta property="og:image:secure_url" content="{html.escape(hero_image_url)}">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{html.escape(article.get('heroImageAlt') or article['title'])}">
     <meta property="article:published_time" content="{html.escape(article['publishedAt'])}">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{html.escape(article['metaTitle'])}">
+    <meta name="twitter:description" content="{html.escape(article['metaDescription'])}">
+    <meta name="twitter:image" content="{html.escape(hero_image_url)}">
+    <meta name="twitter:image:alt" content="{html.escape(article.get('heroImageAlt') or article['title'])}">
     <link rel="canonical" href="{html.escape(canonical)}">
     <link rel="stylesheet" href="../css/styles.css?v=1.2">
     <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg">
