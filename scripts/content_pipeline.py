@@ -3554,7 +3554,7 @@ def send_newsletter(config: dict[str, Any], *, article_title: str | None = None,
     else:
         segment_id = ensure_newsletter_segment(config, api_key)
         payload = {
-            "segmentId": segment_id,
+            "segment_id": segment_id,
             "from": from_email,
             "subject": f"{subject_prefix}{article['title']}",
             "html": build_newsletter_html(config, article, broadcast=True),
