@@ -71,6 +71,7 @@
 - 每篇文章需有獨立封面與 OG/Twitter 圖，且全站不得重複。
 - 封面與社群預覽圖固定輸出為 `1200 x 630`；文章封面、`og:image`、`twitter:image` 與 `Article.image` 必須指向同一張可公開讀取的圖片。
 - 文章 HTML 必須具備完整社群預覽 meta：`og:image`、`og:image:secure_url`、`og:image:type`、`og:image:width`、`og:image:height`、`og:image:alt`、`twitter:card`、`twitter:title`、`twitter:description`、`twitter:image`、`twitter:image:alt`。
+- GitHub Actions 自動產文的文字模型與封面圖片模型分離：文章撰寫可維持 `CONTENT_MODEL_PROVIDER=nvidia`，封面圖預設使用 `COVER_IMAGE_PROVIDER=gemini`、`GEMINI_IMAGE_API_KEY` 或 `GEMINI_API_KEY`、`GEMINI_IMAGE_MODEL=imagen-4.0-fast-generate-001`。若 workflow 明確啟用圖片 provider 但缺少金鑰或生成失敗，必須讓流程失敗，不得用舊圖或分類預設圖假裝新封面。
 - 圖片 `alt` 不應只重複檔名或空泛標題，應描述畫面與文章主題。例如：「戶外桌面上的手沖咖啡器具、濾掛包與簡易餐食配置」。
 - 封面圖應協助理解文章主題；不得只是抽象情緒、模糊背景或與主題無關的裝飾。
 - 若頁面有多張圖片，裝飾圖可留空 alt；內容圖必須寫清楚畫面內容與使用情境。

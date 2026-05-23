@@ -30,20 +30,24 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install Google Sheets dependency
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install gspread
+          pip install gspread pillow
 
       - name: Resolve Model Provider
         env:
           CONTENT_MODEL_PROVIDER: ${{ vars.CONTENT_MODEL_PROVIDER }}
           OPENAI_CONTENT_MODEL_API_KEY: ${{ secrets.CONTENT_MODEL_API_KEY }}
           NVIDIA_CONTENT_MODEL_API_KEY: ${{ secrets.NVIDIA_CONTENT_MODEL_API_KEY }}
+          GEMINI_IMAGE_API_KEY: ${{ secrets.GEMINI_IMAGE_API_KEY || secrets.GEMINI_API_KEY }}
           OPENAI_CONTENT_MODEL: ${{ vars.OPENAI_CONTENT_MODEL }}
           OPENAI_CONTENT_PLANNER_MODEL: ${{ vars.OPENAI_CONTENT_PLANNER_MODEL }}
           NVIDIA_CONTENT_MODEL: ${{ vars.NVIDIA_CONTENT_MODEL }}
           NVIDIA_CONTENT_PLANNER_MODEL: ${{ vars.NVIDIA_CONTENT_PLANNER_MODEL }}
+          COVER_IMAGE_PROVIDER: ${{ vars.COVER_IMAGE_PROVIDER }}
+          GEMINI_IMAGE_MODEL: ${{ vars.GEMINI_IMAGE_MODEL }}
+          COVER_IMAGE_FAILURE_MODE: ${{ vars.COVER_IMAGE_FAILURE_MODE }}
         run: |
           PROVIDER="${CONTENT_MODEL_PROVIDER:-openai}"
           echo "CONTENT_MODEL_PROVIDER=$PROVIDER" >> "$GITHUB_ENV"
@@ -60,6 +64,10 @@ jobs:
             echo "CONTENT_MODEL=${OPENAI_CONTENT_MODEL:-gpt-5.4}" >> "$GITHUB_ENV"
             echo "CONTENT_PLANNER_MODEL=${OPENAI_CONTENT_PLANNER_MODEL:-gpt-5.2}" >> "$GITHUB_ENV"
           fi
+          echo "COVER_IMAGE_PROVIDER=${COVER_IMAGE_PROVIDER:-gemini}" >> "$GITHUB_ENV"
+          echo "GEMINI_IMAGE_API_KEY=${GEMINI_IMAGE_API_KEY}" >> "$GITHUB_ENV"
+          echo "GEMINI_IMAGE_MODEL=${GEMINI_IMAGE_MODEL:-imagen-4.0-fast-generate-001}" >> "$GITHUB_ENV"
+          echo "COVER_IMAGE_FAILURE_MODE=${COVER_IMAGE_FAILURE_MODE:-fail}" >> "$GITHUB_ENV"
 
       - name: Run Command
         env:

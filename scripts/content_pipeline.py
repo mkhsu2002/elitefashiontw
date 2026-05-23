@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import hashlib
 import html
 import http.client
@@ -131,6 +132,9 @@ CURATED_CATEGORY_IMAGE_POOLS = {
     ],
 }
 ASSET_IDENTITY_CACHE: dict[str, str] = {}
+COVER_OUTPUT_DIR = ROOT / "images" / "optimized" / "article-covers"
+COVER_IMAGE_WIDTH = 1200
+COVER_IMAGE_HEIGHT = 630
 
 
 @dataclass
@@ -479,6 +483,8 @@ def choose_balanced_hero_image(
     pool = build_category_image_pool(category)
     candidate = normalize_site_asset_path(article.get("heroImage", ""), config["baseUrl"]).lstrip("/")
     candidate_valid = asset_exists(candidate)
+    if candidate_valid and candidate.startswith("images/optimized/article-covers/"):
+        return candidate
     blocked_recent = recent_hero_blocklist(registry, category.key)
     candidate_id = asset_identity(candidate)
 
@@ -2566,6 +2572,222 @@ def apply_article_defaults(article: dict[str, Any], brief: dict[str, Any], categ
     return article
 
 
+def cover_image_provider_explicit() -> bool:
+    return "COVER_IMAGE_PROVIDER" in os.environ
+
+
+def cover_image_provider() -> str:
+    provider = os.getenv("COVER_IMAGE_PROVIDER", "").strip().lower()
+    if not provider and (os.getenv("GEMINI_IMAGE_API_KEY") or os.getenv("GEMINI_API_KEY")):
+        provider = "gemini"
+    return provider
+
+
+def cover_failure_mode() -> str:
+    return os.getenv("COVER_IMAGE_FAILURE_MODE", "fail").strip().lower() or "fail"
+
+
+def category_cover_context(category_key: str) -> str:
+    contexts = {
+        "ai-innovation": "a refined AI work environment with screens, notebooks, cables, and a calm creative desk setup",
+        "runway-trends": "a fashion editorial scene with fabric texture, tailoring details, and runway-inspired movement",
+        "designer-perspective": "a designer studio with sketches, fabric swatches, tools, and thoughtful natural light",
+        "casual-chic": "a polished city wardrobe scene with commuter layers, bags, shoes, and understated styling",
+        "wellness-movement": "a calm recovery and movement space with soft equipment, daylight, and quiet visual balance",
+        "outdoor-escapes": "an elevated outdoor lifestyle scene with travel gear, open air, greenery, mountain, coast, or city edge",
+        "lifestyle-culture": "a sophisticated home, cafe, gift, or everyday ritual scene with practical objects and editorial warmth",
+    }
+    return contexts.get(category_key, "a sophisticated editorial lifestyle scene")
+
+
+def build_cover_image_prompt(article: dict[str, Any], category: CategoryConfig) -> str:
+    slug_seed = int(hashlib.sha1(str(article.get("slug", article["title"])).encode("utf-8")).hexdigest()[:8], 16)
+    light_styles = [
+        "clear morning daylight with crisp neutral shadows",
+        "fresh afternoon city light with natural colors",
+        "soft window light with a subtle magazine still-life mood",
+        "bright outdoor natural light with airy contrast",
+        "gentle golden-hour light, balanced and not overly warm",
+    ]
+    compositions = [
+        "wide editorial composition with generous negative space",
+        "overhead lifestyle arrangement with strong depth and tactile detail",
+        "human-scale scene that feels lived-in but uncluttered",
+        "cinematic wide-angle scene with layered foreground and background",
+        "quiet premium magazine cover composition with a clear focal point",
+    ]
+    palette_notes = [
+        "natural greens, clean whites, charcoal, and restrained metallic accents",
+        "navy, ivory, muted red, stone gray, and soft wood tones",
+        "fresh blue, cloud white, graphite, and small warm accents",
+        "forest green, cream, black, and sunlit natural texture",
+        "city gray, white, olive, and one crisp seasonal accent color",
+    ]
+    section_headings = " / ".join(
+        str(section.get("heading", "")).strip()
+        for section in (article.get("sections") or [])[:3]
+        if isinstance(section, dict) and str(section.get("heading", "")).strip()
+    )
+    return (
+        "Create a premium editorial magazine cover image for Elite Fashion Taiwan. "
+        f"Article title: {article['title']}. "
+        f"Article summary: {article.get('excerpt', '')}. "
+        f"Key sections: {section_headings}. "
+        f"Scene direction: {category_cover_context(category.key)}. "
+        f"Composition: {compositions[slug_seed % len(compositions)]}. "
+        f"Lighting: {light_styles[(slug_seed // 3) % len(light_styles)]}. "
+        f"Color palette: {palette_notes[(slug_seed // 7) % len(palette_notes)]}. "
+        "Use a polished lifestyle editorial look suitable for a Taiwanese premium online magazine. "
+        "If people appear, use East Asian/Taiwanese or white adults in modern understated styling; avoid children unless the article topic clearly requires a family context. "
+        "Avoid Middle Eastern, Indian, South Asian, hijab, turban, sari, abaya, or religious ethnic styling unless explicitly relevant. "
+        "No text, no logos, no brand marks, no watermarks, no UI mockups, no product labels. "
+        "The image must work as a 1200 by 630 social sharing cover."
+    )
+
+
+def extract_base64_image(payload: dict[str, Any]) -> str:
+    candidates: list[Any] = []
+    candidates.extend(payload.get("predictions") or [])
+    candidates.extend(payload.get("generatedImages") or [])
+    candidates.extend(payload.get("images") or [])
+    for candidate in candidates:
+        if not isinstance(candidate, dict):
+            continue
+        for key in ("bytesBase64Encoded", "bytesBase64", "imageBytes", "data"):
+            value = candidate.get(key)
+            if isinstance(value, str) and value.strip():
+                return value.strip()
+        image_obj = candidate.get("image")
+        if isinstance(image_obj, dict):
+            for key in ("bytesBase64Encoded", "bytesBase64", "imageBytes", "data"):
+                value = image_obj.get(key)
+                if isinstance(value, str) and value.strip():
+                    return value.strip()
+    for candidate in payload.get("candidates") or []:
+        content = candidate.get("content", {}) if isinstance(candidate, dict) else {}
+        for part in content.get("parts", []) if isinstance(content, dict) else []:
+            inline_data = part.get("inlineData") or part.get("inline_data") if isinstance(part, dict) else None
+            if isinstance(inline_data, dict):
+                value = inline_data.get("data")
+                if isinstance(value, str) and value.strip():
+                    return value.strip()
+    raise PipelineError("Gemini 圖片 API 沒有回傳可解析的圖片資料。")
+
+
+def save_cover_image_bytes(raw: bytes, slug: str) -> str:
+    try:
+        from PIL import Image, ImageOps
+    except ImportError as exc:
+        raise PipelineError("缺少 pillow，無法處理封面圖。請在 workflow 安裝 pillow。") from exc
+
+    target = COVER_OUTPUT_DIR / f"{slug}.jpg"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    import io
+
+    with Image.open(io.BytesIO(raw)) as image:
+        image = ImageOps.exif_transpose(image).convert("RGB")
+        src_ratio = image.width / image.height
+        dst_ratio = COVER_IMAGE_WIDTH / COVER_IMAGE_HEIGHT
+        if src_ratio > dst_ratio:
+            new_height = COVER_IMAGE_HEIGHT
+            new_width = round(new_height * src_ratio)
+        else:
+            new_width = COVER_IMAGE_WIDTH
+            new_height = round(new_width / src_ratio)
+        image = image.resize((new_width, new_height), Image.Resampling.LANCZOS)
+        left = max(0, (new_width - COVER_IMAGE_WIDTH) // 2)
+        top = max(0, (new_height - COVER_IMAGE_HEIGHT) // 2)
+        image = image.crop((left, top, left + COVER_IMAGE_WIDTH, top + COVER_IMAGE_HEIGHT))
+        image.save(target, "JPEG", quality=86, optimize=True, progressive=True)
+    return relative_to_root(target)
+
+
+def generate_gemini_cover_image(article: dict[str, Any], category: CategoryConfig) -> str:
+    api_key = os.getenv("GEMINI_IMAGE_API_KEY") or os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        raise PipelineError("COVER_IMAGE_PROVIDER=gemini 但缺少 GEMINI_IMAGE_API_KEY 或 GEMINI_API_KEY。")
+    model = os.getenv("GEMINI_IMAGE_MODEL", "imagen-4.0-fast-generate-001").strip()
+    prompt = build_cover_image_prompt(article, category)
+    endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{urllib.parse.quote(model, safe='')}:predict"
+    body = {
+        "instances": [{"prompt": prompt}],
+        "parameters": {
+            "sampleCount": 1,
+            "aspectRatio": "16:9",
+            "personGeneration": "allow_adult",
+        },
+    }
+    request = urllib.request.Request(
+        endpoint,
+        data=json.dumps(body).encode("utf-8"),
+        headers={
+            "x-goog-api-key": api_key,
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    timeout = int(os.getenv("COVER_IMAGE_REQUEST_TIMEOUT_SECONDS", "300"))
+    max_attempts = int(os.getenv("COVER_IMAGE_MAX_ATTEMPTS", "3"))
+    parsed: dict[str, Any] | None = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                parsed = json.loads(response.read().decode("utf-8"))
+            break
+        except urllib.error.HTTPError as error:
+            details = error.read().decode("utf-8", errors="ignore")
+            transient = error.code in {408, 409, 425, 429, 500, 502, 503, 504}
+            if transient and attempt < max_attempts:
+                time.sleep(4 * attempt)
+                continue
+            raise PipelineError(f"Gemini 圖片 API 失敗：{error.code} {details}") from error
+        except (
+            http.client.RemoteDisconnected,
+            urllib.error.URLError,
+            TimeoutError,
+            socket.timeout,
+            ConnectionResetError,
+        ) as error:
+            if attempt < max_attempts:
+                time.sleep(4 * attempt)
+                continue
+            raise PipelineError(f"Gemini 圖片 API 連線失敗：{error}") from error
+    if parsed is None:
+        raise PipelineError("Gemini 圖片 API 沒有回傳有效內容。")
+    image_b64 = extract_base64_image(parsed)
+    article["coverImagePrompt"] = prompt
+    article["coverImageProvider"] = "gemini"
+    article["coverImageModel"] = model
+    article["coverImageStatus"] = "generated"
+    return save_cover_image_bytes(base64.b64decode(image_b64), article["slug"])
+
+
+def generate_article_cover_if_configured(
+    article: dict[str, Any],
+    category: CategoryConfig,
+    *,
+    fixture: bool = False,
+) -> bool:
+    if fixture:
+        article["coverImageStatus"] = "needs-cover-image-fixture"
+        return False
+    provider = cover_image_provider()
+    if provider in {"", "none", "off", "disabled"}:
+        if cover_image_provider_explicit():
+            article["coverImageStatus"] = "needs-cover-image"
+        return False
+    try:
+        if provider == "gemini":
+            article["heroImage"] = generate_gemini_cover_image(article, category)
+            return True
+        raise PipelineError(f"不支援的封面圖片 provider：{provider}")
+    except Exception:
+        article["coverImageStatus"] = "needs-cover-image"
+        if cover_failure_mode() == "mark":
+            return False
+        raise
+
+
 def save_generated_article(article: dict[str, Any], queue_id: str | None, config: dict[str, Any], categories: dict[str, CategoryConfig]) -> dict[str, Any]:
     category = categories[article["category"]]
     published_at = now_iso()
@@ -2892,8 +3114,12 @@ def generate_article_from_item(config: dict[str, Any], categories: dict[str, Cat
             planner=False,
         )
     article = apply_article_defaults(article, brief, categories)
-    article["heroImage"] = choose_balanced_hero_image(article, registry, config, categories)
     article["slug"] = ensure_unique_slug(slugify(article["slug"]), registry)
+    article["sourceType"] = article.get("sourceType") or "generated"
+    category = categories[article["category"]]
+    cover_generated = generate_article_cover_if_configured(article, category, fixture=fixture)
+    if not cover_generated:
+        article["heroImage"] = choose_balanced_hero_image(article, registry, config, categories)
     saved = save_generated_article(article, queue_id, config, categories)
     validate_generated_article(saved, config)
     append_publish_log(config, saved, trigger_type=trigger_type, queue_id=queue_id)
