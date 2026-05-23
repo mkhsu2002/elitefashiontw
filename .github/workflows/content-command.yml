@@ -51,8 +51,8 @@ jobs:
             echo "CONTENT_MODEL_API_KEY=${NVIDIA_CONTENT_MODEL_API_KEY}" >> "$GITHUB_ENV"
             echo "CONTENT_MODEL_ENDPOINT=https://integrate.api.nvidia.com/v1/chat/completions" >> "$GITHUB_ENV"
             echo "CONTENT_MODEL_API_MODE=chat_completions" >> "$GITHUB_ENV"
-            echo "CONTENT_MODEL=${NVIDIA_CONTENT_MODEL:-deepseek-ai/deepseek-v4-pro}" >> "$GITHUB_ENV"
-            echo "CONTENT_PLANNER_MODEL=${NVIDIA_CONTENT_PLANNER_MODEL:-deepseek-ai/deepseek-v4-pro}" >> "$GITHUB_ENV"
+            echo "CONTENT_MODEL=${NVIDIA_CONTENT_MODEL:-minimaxai/minimax-m2.7}" >> "$GITHUB_ENV"
+            echo "CONTENT_PLANNER_MODEL=${NVIDIA_CONTENT_PLANNER_MODEL:-minimaxai/minimax-m2.7}" >> "$GITHUB_ENV"
           else
             echo "CONTENT_MODEL_API_KEY=${OPENAI_CONTENT_MODEL_API_KEY}" >> "$GITHUB_ENV"
             echo "CONTENT_MODEL_ENDPOINT=https://api.openai.com/v1/responses" >> "$GITHUB_ENV"
