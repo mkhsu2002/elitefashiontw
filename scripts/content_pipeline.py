@@ -2612,11 +2612,11 @@ def cover_visual_keywords(article: dict[str, Any]) -> list[str]:
             text_parts.extend(str(item) for item in section.get("paragraphs", [])[:1])
     article_text = " ".join(text_parts)
     rules = [
-        (r"一人|獨居|一個人|返台|海歸|居家安全|緊急預備金|醫療|長照", "independent apartment living, keys, a simple entryway tray, a phone, a blank calendar, and warm domestic order"),
+        (r"一人|獨居|一個人|返台|海歸|居家安全|緊急預備金|醫療|長照", "independent apartment living, keys, a simple entryway tray, a ceramic cup, a small plant, soft fabric, and warm domestic order"),
         (r"財務|預備金|帳戶|保險|退休|投資|房產|貸款", "personal planning objects such as a closed laptop, blank folders, a plain tray, keys, and organized desk details"),
         (r"健康|恢復|睡眠|瑜伽|伸展|按摩|護具|放鬆", "a calm wellness corner with soft textiles, daylight, a mat, water glass, and uncluttered recovery objects"),
         (r"戶外|露營|登山|旅行|雨天|防曬|傘|行李|通勤", "elevated outdoor travel gear, natural light, city-to-nature transition, and practical packing details"),
-        (r"AI|人工智能|工作|辦公|筆電|螢幕|音訊|翻譯|創作者", "a refined work desk with a blank screen, tactile devices, notebooks with plain covers, cables, and focused modern lighting"),
+        (r"AI|人工智能|工作|辦公|筆電|螢幕|音訊|翻譯|創作者", "a refined work desk with a closed laptop, tactile devices, plain surfaces, cables, and focused modern lighting"),
         (r"穿搭|鞋|包|外套|休閒|珠寶|髮飾|香氛|保養|禮物", "polished wardrobe, accessories, fragrance, gifting, and everyday styling objects arranged like a quiet editorial still life"),
         (r"收納|玄關|鞋櫃|家具|廚房|清潔|小宅|餐桌|玩具", "a tidy home organization scene with blank storage boxes, soft textiles, clean surfaces, and practical household objects"),
         (r"咖啡|茶|飲品|氣泡|早餐|午茶|餐廚", "a bright cafe or pantry ritual with cups, glassware, simple food objects, and a calm premium lifestyle mood"),
@@ -2653,20 +2653,21 @@ def build_cover_image_prompt(article: dict[str, Any], category: CategoryConfig) 
     ]
     visual_theme = "; ".join(cover_visual_keywords(article))
     return (
-        "Create a premium editorial website hero photograph for a Taiwan-based fashion and lifestyle publication. "
-        "This is a textless visual asset for an article page, not a printed-media front page, ad layout, infographic, catalog layout, packaging layout, or document scan. "
+        "Create one photorealistic 16:9 editorial lifestyle still-life photograph, edge to edge, with no graphic design overlay. "
+        "The final image must be a continuous real-world scene only, not a website screenshot, app screen, browser window, navigation bar, printed-media front page, ad layout, infographic, catalog layout, packaging layout, or document scan. "
         f"Visual theme: {visual_theme}. "
         f"Scene direction: {category_cover_context(category.key)}. "
         f"Composition: {compositions[slug_seed % len(compositions)]}. "
         f"Lighting: {light_styles[(slug_seed // 3) % len(light_styles)]}. "
         f"Color palette: {palette_notes[(slug_seed // 7) % len(palette_notes)]}. "
-        "Use a polished lifestyle editorial look suitable for a Taiwanese premium online publication. "
+        "Use a polished lifestyle editorial look suitable for a Taiwanese premium lifestyle brand. "
         "If people appear, use East Asian/Taiwanese or white adults in modern understated styling; avoid children unless the article topic clearly requires a family context. "
         "Avoid Middle Eastern, Indian, South Asian, hijab, turban, sari, abaya, or religious ethnic styling unless explicitly relevant. "
         "Hard requirement: absolutely no visible written language anywhere in the image. "
-        "Do not include readable text, pseudo text, invented characters, gibberish, letters, numbers, Chinese characters, Japanese characters, Korean characters, titles, captions, signs, labels, logos, brand marks, watermarks, barcodes, QR codes, UI text, packaging text, book spines, printed pages, notebooks with writing, sticky notes, documents with writing, or typography-like marks. "
-        "If paper, books, boxes, screens, packaging, or labels appear, they must be completely blank, closed, turned away, cropped out, or blurred beyond recognition. "
-        "Avoid poster-like layouts, headline space, mastheads, cover-line composition, or any design that resembles printed editorial typography. "
+        "Do not include readable text, pseudo text, invented characters, gibberish, letters, numbers, Chinese characters, Japanese characters, Korean characters, titles, captions, signs, labels, logos, brand marks, watermarks, barcodes, QR codes, UI text, menu icons, navigation text, packaging text, book spines, calendars, printed pages, notebooks with writing, sticky notes, documents with writing, or typography-like marks. "
+        "Avoid paper sheets, calendars, books, screens, packaging, labels, posters, menus, documents, browser chrome, top bars, headers, footers, and any object likely to contain text. "
+        "If any flat surface, device, box, or object appears, it must be completely blank, closed, turned away, cropped out, or blurred beyond recognition. "
+        "Avoid poster-like layouts, headline space, mastheads, cover-line composition, webpage composition, or any design that resembles typography or UI. "
         "The image must work as a 1200 by 630 social sharing cover."
     )
 
