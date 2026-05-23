@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-05-22T07:45:57Z",
+  "updatedAt": "2026-05-23T20:32:13Z",
   "latest": [
+    {
+      "id": "auto-20260523203212-rebuild-social-circle-after-returning-to-taiwan",
+      "title": "回台後去哪裡認識新朋友？高品質社交圈重建清單",
+      "excerpt": "從性格、興趣與時間資源出發，拆解7種可持續的社交路徑，重建屬於你的圈子。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "海歸返台的一人生活重構：居住、社交與日常節奏指南",
+      "publishedAt": "2026-05-23T20:32:12Z",
+      "publishedDateText": "2026年5月23日",
+      "relativeUrl": "lifestyle-culture/rebuild-social-circle-after-returning-to-taiwan.html",
+      "heroImage": "images/generated/fashion-1.png",
+      "tags": [
+        "海歸返台",
+        "社交生活",
+        "人際關係",
+        "生活品味",
+        "圈子重組"
+      ]
+    },
     {
       "id": "auto-20260522074354-drawer-storage-cabinet-small-home-products-52",
       "title": "抽屜櫃讓零散物有家：11 件透明櫃、夾縫櫃與桌邊收納清單：第 52 組選擇",
@@ -194,24 +213,6 @@
       "heroImage": "images/optimized/article-covers/sink-cleaning-tool-kitchen-products.jpg",
       "tags": [
         "水槽清潔收納",
-        "商品推薦",
-        "選購清單",
-        "居家整理"
-      ]
-    },
-    {
-      "id": "auto-20260522074134-kitchen-rack-counter-storage-products",
-      "title": "廚房架不是把東西堆高：13 件微波爐架、抽拉架與餐邊收納清單",
-      "excerpt": "廚房置物架要釋放檯面，而不是把檯面雜物堆成牆。挑選時先看插座、抽拉方向與每天會拿的物品。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "餐廚整理商品推薦",
-      "publishedAt": "2026-05-22T07:41:34Z",
-      "publishedDateText": "2026年5月22日",
-      "relativeUrl": "lifestyle-culture/kitchen-rack-counter-storage-products.html",
-      "heroImage": "images/optimized/article-covers/kitchen-rack-counter-storage-products.jpg",
-      "tags": [
-        "廚房置物架",
         "商品推薦",
         "選購清單",
         "居家整理"
@@ -954,6 +955,25 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260523203212-rebuild-social-circle-after-returning-to-taiwan",
+          "title": "回台後去哪裡認識新朋友？高品質社交圈重建清單",
+          "excerpt": "從性格、興趣與時間資源出發，拆解7種可持續的社交路徑，重建屬於你的圈子。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "海歸返台的一人生活重構：居住、社交與日常節奏指南",
+          "publishedAt": "2026-05-23T20:32:12Z",
+          "publishedDateText": "2026年5月23日",
+          "relativeUrl": "lifestyle-culture/rebuild-social-circle-after-returning-to-taiwan.html",
+          "heroImage": "images/generated/fashion-1.png",
+          "tags": [
+            "海歸返台",
+            "社交生活",
+            "人際關係",
+            "生活品味",
+            "圈子重組"
+          ]
+        },
+        {
           "id": "auto-20260522074354-drawer-storage-cabinet-small-home-products-52",
           "title": "抽屜櫃讓零散物有家：11 件透明櫃、夾縫櫃與桌邊收納清單：第 52 組選擇",
           "excerpt": "抽屜櫃適合每天會拿的小物，夾縫櫃適合補動線，挑選時要看深度、抽拉方向與擺放高度。",
@@ -1036,24 +1056,6 @@
           "publishedDateText": "2026年5月22日",
           "relativeUrl": "lifestyle-culture/compact-large-furniture-dining-bed-sofa-products-2.html",
           "heroImage": "images/optimized/article-covers/compact-large-furniture-dining-bed-sofa-products-2.jpg",
-          "tags": [
-            "大型家具",
-            "商品推薦",
-            "選購清單",
-            "居家整理"
-          ]
-        },
-        {
-          "id": "auto-20260522074155-compact-large-furniture-dining-bed-sofa-products",
-          "title": "大件家具更要先量動線：18 件餐桌、床架、沙發與櫃體的選購檢查",
-          "excerpt": "大型家具要先看電梯、門寬、走道與日後移動，而不是只看照片。本文整理下單前要確認的尺度與使用情境。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "小宅家具商品推薦",
-          "publishedAt": "2026-05-22T07:41:55Z",
-          "publishedDateText": "2026年5月22日",
-          "relativeUrl": "lifestyle-culture/compact-large-furniture-dining-bed-sofa-products.html",
-          "heroImage": "images/optimized/article-covers/compact-large-furniture-dining-bed-sofa-products.jpg",
           "tags": [
             "大型家具",
             "商品推薦",

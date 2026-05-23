@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-19T21:38:55Z",
+  "updatedAt": "2026-05-23T20:32:12Z",
   "nextQueueSequence": 13,
   "series": [
     {
@@ -299,9 +299,11 @@
           "category": "lifestyle-culture",
           "series": "海歸返台的一人生活重構：居住、社交與日常節奏指南",
           "ctaHint": "閱讀第三篇：把一個人生活過得踏實的居家與健康清單",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260523203212-rebuild-social-circle-after-returning-to-taiwan",
+          "file": "lifestyle-culture/rebuild-social-circle-after-returning-to-taiwan.html",
+          "topic": "海歸返台後如何建立一人生活",
+          "publishedAt": "2026-05-23T20:32:12Z"
         },
         {
           "order": 3,
