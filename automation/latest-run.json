@@ -1,9 +1,11 @@
 {
-  "status": "generated",
-  "updatedAt": "2026-05-23T22:59:22Z",
+  "status": "cover-regenerated",
+  "updatedAt": "2026-05-23T23:11:16Z",
   "articleId": "auto-20260523225922-solo-living-stabilization-taiwan-returnees",
   "url": "https://tw.elitefasion.com/lifestyle-culture/solo-living-stabilization-taiwan-returnees.html",
   "title": "一個人住得踏實：財務、健康與居家安全的 8 項穩定化做法",
-  "queueId": "Q-0006",
-  "triggerType": "queue"
+  "slug": "solo-living-stabilization-taiwan-returnees",
+  "heroImage": "images/optimized/article-covers/solo-living-stabilization-taiwan-returnees.jpg",
+  "coverImageProvider": "gemini",
+  "coverImageModel": "imagen-4.0-fast-generate-001"
 }
