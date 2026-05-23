@@ -194,7 +194,8 @@ def codex_generated_cover_failures(rows: list[dict]) -> list[dict]:
         if entry.get("image") != row["target"]:
             failures.append({"file": row["file"], "reason": "manifest image path mismatch"})
             continue
-        if not entry.get("source", "").startswith(str(Path.home() / ".codex/generated_images")):
+        source = str(entry.get("source", "")).replace("\\", "/")
+        if "/.codex/generated_images/" not in source:
             failures.append({"file": row["file"], "reason": "source is not a Codex generated image path"})
             continue
         if entry.get("sha256") != sha256(image_path.read_bytes()).hexdigest():
@@ -286,6 +287,7 @@ def update_article_html(row: dict) -> bool:
     original = html
     rel_target = rel_from_file(row["file"], row["target"])
     html = set_meta_content(html, "og:image", row["public"])
+    html = set_meta_content(html, "og:image:secure_url", row["public"])
     html = set_meta_content(html, "twitter:image", row["public"])
     for old in filter(None, {row["og"], row["cover"]}):
         old_public = public_url(old) if not old.startswith(("http://", "https://")) else old
@@ -339,6 +341,11 @@ def update_indices(rows: list[dict]) -> None:
     front = load_json(FRONT_LISTING)
     for key in ("latest", "featured", "items"):
         for item in front.get(key, []) if isinstance(front.get(key, []), list) else []:
+            row = by_id.get(str(item.get("id", ""))) or by_file.get(str(item.get("relativeUrl", "")))
+            if row:
+                item["heroImage"] = row["target"]
+    for entry in front.get("byCategory", {}).values():
+        for item in entry.get("items", []) if isinstance(entry, dict) else []:
             row = by_id.get(str(item.get("id", ""))) or by_file.get(str(item.get("relativeUrl", "")))
             if row:
                 item["heroImage"] = row["target"]
