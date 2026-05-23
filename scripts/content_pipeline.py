@@ -2600,12 +2600,40 @@ def category_cover_context(category_key: str) -> str:
     return contexts.get(category_key, "a sophisticated editorial lifestyle scene")
 
 
+def cover_visual_keywords(article: dict[str, Any]) -> list[str]:
+    text_parts = [
+        str(article.get("title", "")),
+        str(article.get("excerpt", "")),
+        str(article.get("category", "")),
+    ]
+    for section in article.get("sections") or []:
+        if isinstance(section, dict):
+            text_parts.append(str(section.get("heading", "")))
+            text_parts.extend(str(item) for item in section.get("paragraphs", [])[:1])
+    article_text = " ".join(text_parts)
+    rules = [
+        (r"一人|獨居|一個人|返台|海歸|居家安全|緊急預備金|醫療|長照", "independent apartment living, keys, a simple entryway tray, a phone, a blank calendar, and warm domestic order"),
+        (r"財務|預備金|帳戶|保險|退休|投資|房產|貸款", "personal planning objects such as a closed laptop, blank folders, a plain tray, keys, and organized desk details"),
+        (r"健康|恢復|睡眠|瑜伽|伸展|按摩|護具|放鬆", "a calm wellness corner with soft textiles, daylight, a mat, water glass, and uncluttered recovery objects"),
+        (r"戶外|露營|登山|旅行|雨天|防曬|傘|行李|通勤", "elevated outdoor travel gear, natural light, city-to-nature transition, and practical packing details"),
+        (r"AI|人工智能|工作|辦公|筆電|螢幕|音訊|翻譯|創作者", "a refined work desk with a blank screen, tactile devices, notebooks with plain covers, cables, and focused modern lighting"),
+        (r"穿搭|鞋|包|外套|休閒|珠寶|髮飾|香氛|保養|禮物", "polished wardrobe, accessories, fragrance, gifting, and everyday styling objects arranged like a quiet editorial still life"),
+        (r"收納|玄關|鞋櫃|家具|廚房|清潔|小宅|餐桌|玩具", "a tidy home organization scene with blank storage boxes, soft textiles, clean surfaces, and practical household objects"),
+        (r"咖啡|茶|飲品|氣泡|早餐|午茶|餐廚", "a bright cafe or pantry ritual with cups, glassware, simple food objects, and a calm premium lifestyle mood"),
+        (r"朋友|社交|關係|離婚|重建|情緒|生活節奏", "a sophisticated quiet living room or cafe table scene suggesting renewal, reflection, and connection without literal text"),
+    ]
+    keywords = [description for pattern, description in rules if re.search(pattern, article_text, flags=re.I)]
+    if not keywords:
+        keywords.append("a sophisticated everyday lifestyle scene with practical objects, natural light, and a clear editorial focal point")
+    return keywords[:3]
+
+
 def build_cover_image_prompt(article: dict[str, Any], category: CategoryConfig) -> str:
     slug_seed = int(hashlib.sha1(str(article.get("slug", article["title"])).encode("utf-8")).hexdigest()[:8], 16)
     light_styles = [
         "clear morning daylight with crisp neutral shadows",
         "fresh afternoon city light with natural colors",
-        "soft window light with a subtle magazine still-life mood",
+        "soft window light with a refined still-life mood",
         "bright outdoor natural light with airy contrast",
         "gentle golden-hour light, balanced and not overly warm",
     ]
@@ -2623,24 +2651,22 @@ def build_cover_image_prompt(article: dict[str, Any], category: CategoryConfig) 
         "forest green, cream, black, and sunlit natural texture",
         "city gray, white, olive, and one crisp seasonal accent color",
     ]
-    section_headings = " / ".join(
-        str(section.get("heading", "")).strip()
-        for section in (article.get("sections") or [])[:3]
-        if isinstance(section, dict) and str(section.get("heading", "")).strip()
-    )
+    visual_theme = "; ".join(cover_visual_keywords(article))
     return (
-        "Create a premium editorial magazine cover image for Elite Fashion Taiwan. "
-        f"Article title: {article['title']}. "
-        f"Article summary: {article.get('excerpt', '')}. "
-        f"Key sections: {section_headings}. "
+        "Create a premium editorial website hero photograph for a Taiwan-based fashion and lifestyle publication. "
+        "This is a textless visual asset for an article page, not a printed-media front page, ad layout, infographic, catalog layout, packaging layout, or document scan. "
+        f"Visual theme: {visual_theme}. "
         f"Scene direction: {category_cover_context(category.key)}. "
         f"Composition: {compositions[slug_seed % len(compositions)]}. "
         f"Lighting: {light_styles[(slug_seed // 3) % len(light_styles)]}. "
         f"Color palette: {palette_notes[(slug_seed // 7) % len(palette_notes)]}. "
-        "Use a polished lifestyle editorial look suitable for a Taiwanese premium online magazine. "
+        "Use a polished lifestyle editorial look suitable for a Taiwanese premium online publication. "
         "If people appear, use East Asian/Taiwanese or white adults in modern understated styling; avoid children unless the article topic clearly requires a family context. "
         "Avoid Middle Eastern, Indian, South Asian, hijab, turban, sari, abaya, or religious ethnic styling unless explicitly relevant. "
-        "No text, no logos, no brand marks, no watermarks, no UI mockups, no product labels. "
+        "Hard requirement: absolutely no visible written language anywhere in the image. "
+        "Do not include readable text, pseudo text, invented characters, gibberish, letters, numbers, Chinese characters, Japanese characters, Korean characters, titles, captions, signs, labels, logos, brand marks, watermarks, barcodes, QR codes, UI text, packaging text, book spines, printed pages, notebooks with writing, sticky notes, documents with writing, or typography-like marks. "
+        "If paper, books, boxes, screens, packaging, or labels appear, they must be completely blank, closed, turned away, cropped out, or blurred beyond recognition. "
+        "Avoid poster-like layouts, headline space, mastheads, cover-line composition, or any design that resembles printed editorial typography. "
         "The image must work as a 1200 by 630 social sharing cover."
     )
 
@@ -2876,7 +2902,13 @@ def parse_instruction(instruction: str) -> dict[str, Any]:
             "action": "generate-now",
             "topic": direct_match.group("topic").strip(),
         }
-    raise PipelineError("無法解析指令，請使用「加入主題序列：...」或「直接生成主題：...」格式。")
+    cover_match = re.search(r"(?:重新生成|重生|更新|regenerate)\s*封面[:：]\s*(?P<slug>[A-Za-z0-9_-]+)\s*$", text, flags=re.I)
+    if cover_match:
+        return {
+            "action": "regenerate-cover",
+            "slug": slugify(cover_match.group("slug").strip()),
+        }
+    raise PipelineError("無法解析指令，請使用「加入主題序列：...」、「直接生成主題：...」或「重新生成封面：slug」格式。")
 
 
 def enqueue_topic(config: dict[str, Any], categories: dict[str, CategoryConfig], topic: str, count: int, direction: str, *, fixture: bool = False) -> dict[str, Any]:
@@ -3257,6 +3289,44 @@ def command_scheduled_run(config: dict[str, Any], categories: dict[str, Category
     return article
 
 
+def command_regenerate_cover(config: dict[str, Any], categories: dict[str, CategoryConfig], slug: str) -> dict[str, Any]:
+    safe_slug = slugify(slug)
+    metadata_path = ROOT / config["paths"]["generatedArticlesDir"] / f"{safe_slug}.json"
+    if not metadata_path.exists():
+        raise PipelineError(f"找不到文章 metadata：{safe_slug}")
+    article = load_json(metadata_path)
+    category = categories.get(article.get("category", ""))
+    if not category:
+        raise PipelineError(f"文章分類不存在：{article.get('category')}")
+    article["slug"] = safe_slug
+    if not cover_image_provider():
+        raise PipelineError("重新生成封面需要設定 COVER_IMAGE_PROVIDER 與對應圖片 API key。")
+    generate_article_cover_if_configured(article, category, fixture=False)
+    article["markdownBody"] = render_markdown_body(article)
+    write_json(metadata_path, article)
+    write_text(ROOT / config["paths"]["generatedArticlesDir"] / f"{safe_slug}.md", article["markdownBody"])
+    html_output = render_article_html(article, config, categories)
+    assert_frontend_copy(html_output, safe_slug)
+    write_text(ROOT / article["file"], html_output)
+    rebuild_outputs(config, categories)
+    verify_outputs(config, categories, article_id=article["id"])
+    write_json(
+        ROOT / config["paths"]["latestRunJson"],
+        {
+            "status": "cover-regenerated",
+            "updatedAt": now_iso(),
+            "articleId": article["id"],
+            "url": article["url"],
+            "title": article["title"],
+            "slug": safe_slug,
+            "heroImage": article.get("heroImage", ""),
+            "coverImageProvider": article.get("coverImageProvider", ""),
+            "coverImageModel": article.get("coverImageModel", ""),
+        },
+    )
+    return article
+
+
 def command_parse_instruction(config: dict[str, Any], categories: dict[str, CategoryConfig], instruction: str, *, fixture: bool = False) -> dict[str, Any]:
     parsed = parse_instruction(instruction)
     if parsed["action"] == "enqueue":
@@ -3270,6 +3340,9 @@ def command_parse_instruction(config: dict[str, Any], categories: dict[str, Cate
         )
         write_json(ROOT / config["paths"]["latestRunJson"], {"status": "queued", "updatedAt": now_iso(), **result})
         return result
+    if parsed["action"] == "regenerate-cover":
+        article = command_regenerate_cover(config, categories, parsed["slug"])
+        return {"articleId": article["id"], "url": article["url"], "title": article["title"], "status": "cover-regenerated"}
     article = command_generate_now(config, categories, parsed["topic"], fixture=fixture)
     return {"articleId": article["id"], "url": article["url"], "title": article["title"]}
 
