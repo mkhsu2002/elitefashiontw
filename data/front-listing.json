@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-05-23T20:32:13Z",
+  "updatedAt": "2026-05-23T22:59:22Z",
   "latest": [
+    {
+      "id": "auto-20260523225922-solo-living-stabilization-taiwan-returnees",
+      "title": "一個人住得踏實：財務、健康與居家安全的 8 項穩定化做法",
+      "excerpt": "從緊急預備金到居家安全檢查，整理海歸返台後一人生活的穩定化清單，幫你把落地前三個月變成真正的起點。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "海歸返台的一人生活重構：居住、社交與日常節奏指南",
+      "publishedAt": "2026-05-23T22:59:22Z",
+      "publishedDateText": "2026年5月23日",
+      "relativeUrl": "lifestyle-culture/solo-living-stabilization-taiwan-returnees.html",
+      "heroImage": "images/optimized/article-covers/solo-living-stabilization-taiwan-returnees.jpg",
+      "tags": [
+        "一人生活",
+        "海歸返台",
+        "居住安全",
+        "財務規劃",
+        "健康接軌",
+        "生活品味"
+      ]
+    },
     {
       "id": "auto-20260523203212-rebuild-social-circle-after-returning-to-taiwan",
       "title": "回台後去哪裡認識新朋友？高品質社交圈重建清單",
@@ -195,24 +215,6 @@
       "heroImage": "images/optimized/article-covers/compact-large-furniture-dining-bed-sofa-products.jpg",
       "tags": [
         "大型家具",
-        "商品推薦",
-        "選購清單",
-        "居家整理"
-      ]
-    },
-    {
-      "id": "auto-20260522074144-sink-cleaning-tool-kitchen-products",
-      "title": "水槽、拖把與清潔工具要有停靠點：18 件餐廚整理單品怎麼看",
-      "excerpt": "水槽與清潔工具商品要先看安裝條件、使用後停放位置與走道，本文只整理尺寸與動線判斷。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "餐廚整理商品推薦",
-      "publishedAt": "2026-05-22T07:41:44Z",
-      "publishedDateText": "2026年5月22日",
-      "relativeUrl": "lifestyle-culture/sink-cleaning-tool-kitchen-products.html",
-      "heroImage": "images/optimized/article-covers/sink-cleaning-tool-kitchen-products.jpg",
-      "tags": [
-        "水槽清潔收納",
         "商品推薦",
         "選購清單",
         "居家整理"
@@ -955,6 +957,26 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260523225922-solo-living-stabilization-taiwan-returnees",
+          "title": "一個人住得踏實：財務、健康與居家安全的 8 項穩定化做法",
+          "excerpt": "從緊急預備金到居家安全檢查，整理海歸返台後一人生活的穩定化清單，幫你把落地前三個月變成真正的起點。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "海歸返台的一人生活重構：居住、社交與日常節奏指南",
+          "publishedAt": "2026-05-23T22:59:22Z",
+          "publishedDateText": "2026年5月23日",
+          "relativeUrl": "lifestyle-culture/solo-living-stabilization-taiwan-returnees.html",
+          "heroImage": "images/optimized/article-covers/solo-living-stabilization-taiwan-returnees.jpg",
+          "tags": [
+            "一人生活",
+            "海歸返台",
+            "居住安全",
+            "財務規劃",
+            "健康接軌",
+            "生活品味"
+          ]
+        },
+        {
           "id": "auto-20260523203212-rebuild-social-circle-after-returning-to-taiwan",
           "title": "回台後去哪裡認識新朋友？高品質社交圈重建清單",
           "excerpt": "從性格、興趣與時間資源出發，拆解7種可持續的社交路徑，重建屬於你的圈子。",
@@ -1040,24 +1062,6 @@
           "heroImage": "images/optimized/article-covers/family-table-toys-puzzles-gifts-products.jpg",
           "tags": [
             "親子桌面玩具",
-            "商品推薦",
-            "選購清單",
-            "居家整理"
-          ]
-        },
-        {
-          "id": "auto-20260522074202-compact-large-furniture-dining-bed-sofa-products-2",
-          "title": "大件家具更要先量動線：12 件餐桌、床架、沙發與櫃體的選購檢查：進階整理篇",
-          "excerpt": "大型家具要先看電梯、門寬、走道與日後移動，而不是只看照片。本文整理下單前要確認的尺度與使用情境。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "小宅家具商品推薦",
-          "publishedAt": "2026-05-22T07:42:02Z",
-          "publishedDateText": "2026年5月22日",
-          "relativeUrl": "lifestyle-culture/compact-large-furniture-dining-bed-sofa-products-2.html",
-          "heroImage": "images/optimized/article-covers/compact-large-furniture-dining-bed-sofa-products-2.jpg",
-          "tags": [
-            "大型家具",
             "商品推薦",
             "選購清單",
             "居家整理"

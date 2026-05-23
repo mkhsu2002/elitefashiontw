@@ -57,14 +57,14 @@
 
 ## Q-0006｜海歸返台後如何建立一人生活
 
-- 狀態：in_progress
+- 狀態：completed
 - 規劃篇數：3
 - 補充方向：聚焦海外成長後回台生活的讀者，關注文化身份、城市歸屬感、交友圈重建與一個人生活的穩定感。
 - 建立時間：2026-04-25T16:37:09Z
 
 1. 回台第一年怎麼過？海歸未婚女性的 6 件先決事項（居住、身分與日常節奏）｜published｜剛返台 1 年內、想快速安定生活但不確定優先順序的 40+ 未婚海歸女性｜lifestyle-culture｜文章 ID：auto-20260513060111-returning-taiwan-first-year-unmarried-women｜檔案：lifestyle-culture/returning-taiwan-first-year-unmarried-women.html
 2. 回台後去哪裡認識新朋友？高品質社交圈重建清單｜published｜希望重建朋友或閨蜜網，但擔心文化差異、社交能量與時間分配的海歸讀者｜lifestyle-culture｜文章 ID：auto-20260523203212-rebuild-social-circle-after-returning-to-taiwan｜檔案：lifestyle-culture/rebuild-social-circle-after-returning-to-taiwan.html
-3. 一個人住得踏實：財務、健康與居家安全的 8 項穩定化做法｜planned｜準備把單身生活做成長期規劃，重視安全感與可持續日常的海歸讀者｜lifestyle-culture
+3. 一個人住得踏實：財務、健康與居家安全的 8 項穩定化做法｜published｜準備把單身生活做成長期規劃，重視安全感與可持續日常的海歸讀者｜lifestyle-culture｜文章 ID：auto-20260523225922-solo-living-stabilization-taiwan-returnees｜檔案：lifestyle-culture/solo-living-stabilization-taiwan-returnees.html
 
 ## Q-0007｜創業者如何建立一人生活
 

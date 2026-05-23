@@ -1,5 +1,13 @@
 # 發文紀錄
 
+## 2026-05-23T22:59:22Z｜一個人住得踏實：財務、健康與居家安全的 8 項穩定化做法
+
+- 文章 ID：auto-20260523225922-solo-living-stabilization-taiwan-returnees
+- URL：https://tw.elitefasion.com/lifestyle-culture/solo-living-stabilization-taiwan-returnees.html
+- 檔案：lifestyle-culture/solo-living-stabilization-taiwan-returnees.html
+- 類型：queue
+- Queue：Q-0006
+
 ## 2026-05-23T20:32:12Z｜回台後去哪裡認識新朋友？高品質社交圈重建清單
 
 - 文章 ID：auto-20260523203212-rebuild-social-circle-after-returning-to-taiwan
