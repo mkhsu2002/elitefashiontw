@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-05-24T06:19:23Z",
+  "updatedAt": "2026-05-27T06:48:23Z",
   "latest": [
+    {
+      "id": "auto-20260527064823-solo-living-rituals-entrepreneur-taiwan",
+      "title": "一個人也有儀式感：創業者的獨居日常整理清單",
+      "excerpt": "從晨起到睡前，盤點獨居創業者的儀式建立邏輯與環境設計方法，幫助你在家工作之餘，仍然活得像個有層次的人。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "創業者的一人生活提案：工作節奏、居家秩序與關係邊界",
+      "publishedAt": "2026-05-27T06:48:23Z",
+      "publishedDateText": "2026年5月27日",
+      "relativeUrl": "lifestyle-culture/solo-living-rituals-entrepreneur-taiwan.html",
+      "heroImage": "images/optimized/article-covers/solo-living-rituals-entrepreneur-taiwan.jpg",
+      "tags": [
+        "獨居儀式感",
+        "創業者生活節奏",
+        "一人生活",
+        "居家工作空間",
+        "生活品味"
+      ]
+    },
     {
       "id": "auto-20260523225922-solo-living-stabilization-taiwan-returnees",
       "title": "一個人住得踏實：財務、健康與居家安全的 8 項穩定化做法",
@@ -195,24 +214,6 @@
       "publishedDateText": "2026年5月22日",
       "relativeUrl": "lifestyle-culture/compact-large-furniture-dining-bed-sofa-products-2.html",
       "heroImage": "images/optimized/article-covers/compact-large-furniture-dining-bed-sofa-products-2.jpg",
-      "tags": [
-        "大型家具",
-        "商品推薦",
-        "選購清單",
-        "居家整理"
-      ]
-    },
-    {
-      "id": "auto-20260522074155-compact-large-furniture-dining-bed-sofa-products",
-      "title": "大件家具更要先量動線：18 件餐桌、床架、沙發與櫃體的選購檢查",
-      "excerpt": "大型家具要先看電梯、門寬、走道與日後移動，而不是只看照片。本文整理下單前要確認的尺度與使用情境。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "小宅家具商品推薦",
-      "publishedAt": "2026-05-22T07:41:55Z",
-      "publishedDateText": "2026年5月22日",
-      "relativeUrl": "lifestyle-culture/compact-large-furniture-dining-bed-sofa-products.html",
-      "heroImage": "images/optimized/article-covers/compact-large-furniture-dining-bed-sofa-products.jpg",
       "tags": [
         "大型家具",
         "商品推薦",
@@ -957,6 +958,25 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260527064823-solo-living-rituals-entrepreneur-taiwan",
+          "title": "一個人也有儀式感：創業者的獨居日常整理清單",
+          "excerpt": "從晨起到睡前，盤點獨居創業者的儀式建立邏輯與環境設計方法，幫助你在家工作之餘，仍然活得像個有層次的人。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "創業者的一人生活提案：工作節奏、居家秩序與關係邊界",
+          "publishedAt": "2026-05-27T06:48:23Z",
+          "publishedDateText": "2026年5月27日",
+          "relativeUrl": "lifestyle-culture/solo-living-rituals-entrepreneur-taiwan.html",
+          "heroImage": "images/optimized/article-covers/solo-living-rituals-entrepreneur-taiwan.jpg",
+          "tags": [
+            "獨居儀式感",
+            "創業者生活節奏",
+            "一人生活",
+            "居家工作空間",
+            "生活品味"
+          ]
+        },
+        {
           "id": "auto-20260523225922-solo-living-stabilization-taiwan-returnees",
           "title": "一個人住得踏實：財務、健康與居家安全的 8 項穩定化做法",
           "excerpt": "從緊急預備金到居家安全檢查，整理海歸返台後一人生活的穩定化清單，幫你把落地前三個月變成真正的起點。",
@@ -1042,24 +1062,6 @@
           "publishedDateText": "2026年5月22日",
           "relativeUrl": "lifestyle-culture/family-table-toys-puzzles-gifts-products-2.html",
           "heroImage": "images/optimized/article-covers/family-table-toys-puzzles-gifts-products-2.jpg",
-          "tags": [
-            "親子桌面玩具",
-            "商品推薦",
-            "選購清單",
-            "居家整理"
-          ]
-        },
-        {
-          "id": "auto-20260522074235-family-table-toys-puzzles-gifts-products",
-          "title": "親子禮物先看能不能收回去：18 件拼圖、迷宮球與桌面遊戲清單",
-          "excerpt": "親子桌面禮物要看共玩時間、零件數量、收納方式與年齡標示，不把玩具寫成成果承諾。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "親子禮物商品推薦",
-          "publishedAt": "2026-05-22T07:42:35Z",
-          "publishedDateText": "2026年5月22日",
-          "relativeUrl": "lifestyle-culture/family-table-toys-puzzles-gifts-products.html",
-          "heroImage": "images/optimized/article-covers/family-table-toys-puzzles-gifts-products.jpg",
           "tags": [
             "親子桌面玩具",
             "商品推薦",

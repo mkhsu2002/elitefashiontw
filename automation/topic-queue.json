@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-23T22:59:22Z",
+  "updatedAt": "2026-05-27T06:48:23Z",
   "nextQueueSequence": 13,
   "series": [
     {
@@ -326,7 +326,7 @@
       "topic": "創業者如何建立一人生活",
       "direction": "聚焦成功創業但未婚的讀者，關注事業之外的私人生活、情感空間、照顧自己與長期生活布局。",
       "plannedCount": 3,
-      "status": "planned",
+      "status": "in_progress",
       "createdAt": "2026-04-25T16:37:32Z",
       "seriesName": "創業者的一人生活提案：工作節奏、居家秩序與關係邊界",
       "items": [
@@ -338,9 +338,11 @@
           "category": "lifestyle-culture",
           "series": "創業者的一人生活提案：工作節奏、居家秩序與關係邊界",
           "ctaHint": "前往第二篇：打造情感與界線的社交策略",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260527064823-solo-living-rituals-entrepreneur-taiwan",
+          "file": "lifestyle-culture/solo-living-rituals-entrepreneur-taiwan.html",
+          "topic": "創業者如何建立一人生活",
+          "publishedAt": "2026-05-27T06:48:23Z"
         },
         {
           "order": 2,

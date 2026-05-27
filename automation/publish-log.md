@@ -1,5 +1,13 @@
 # 發文紀錄
 
+## 2026-05-27T06:48:23Z｜一個人也有儀式感：創業者的獨居日常整理清單
+
+- 文章 ID：auto-20260527064823-solo-living-rituals-entrepreneur-taiwan
+- URL：https://tw.elitefasion.com/lifestyle-culture/solo-living-rituals-entrepreneur-taiwan.html
+- 檔案：lifestyle-culture/solo-living-rituals-entrepreneur-taiwan.html
+- 類型：queue
+- Queue：Q-0007
+
 ## 2026-05-23T22:59:22Z｜一個人住得踏實：財務、健康與居家安全的 8 項穩定化做法
 
 - 文章 ID：auto-20260523225922-solo-living-stabilization-taiwan-returnees

@@ -68,12 +68,12 @@
 
 ## Q-0007｜創業者如何建立一人生活
 
-- 狀態：planned
+- 狀態：in_progress
 - 規劃篇數：3
 - 補充方向：聚焦成功創業但未婚的讀者，關注事業之外的私人生活、情感空間、照顧自己與長期生活布局。
 - 建立時間：2026-04-25T16:37:32Z
 
-1. 一個人也有儀式感：創業者的獨居日常整理清單｜planned｜剛開始或已習慣獨居、想把生活節奏與工作效能整合的創業者｜lifestyle-culture
+1. 一個人也有儀式感：創業者的獨居日常整理清單｜published｜剛開始或已習慣獨居、想把生活節奏與工作效能整合的創業者｜lifestyle-culture｜文章 ID：auto-20260527064823-solo-living-rituals-entrepreneur-taiwan｜檔案：lifestyle-culture/solo-living-rituals-entrepreneur-taiwan.html
 2. 情感與界線：創業者如何維繫親密又保留獨立空間｜planned｜在社交或親密關係中感到拉扯、想學會優雅設界與重建情感支持網的創業者｜lifestyle-culture
 3. 不靠別人也安心：創業者的財務、醫療與居住安全三步驟｜planned｜已穩定事業收入但對未來居住、醫療與資產安排感到不確定、需要實務清單與優先順序的創業者｜lifestyle-culture
 
