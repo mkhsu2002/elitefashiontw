@@ -50,6 +50,27 @@ class ContentAuthenticityAuditTest(unittest.TestCase):
         self.assertFalse(review["publishReady"])
         self.assertTrue(any("高風險" in item for item in review["requiredFixes"]))
 
+    def test_ymyl_disclaimer_and_referral_do_not_fail_as_promises(self):
+        review = audit_article_record(
+            base_article(
+                category="wellness-movement",
+                title="孕期運動安全提醒",
+                disclaimer="本文不能取代醫療專業人員的個別評估，請先取得專業建議。",
+                markdownBody="若妳是運動員，請和熟悉孕期運動的醫師、物理治療師或教練一起調整。",
+            )
+        )
+        self.assertTrue(review["publishReady"])
+
+    def test_faq_question_does_not_fail_as_promise(self):
+        review = audit_article_record(
+            base_article(
+                category="wellness-movement",
+                disclaimer="本文僅供一般資訊，請諮詢合格專業人員。",
+                markdownBody="反光配件可以保證夜間安全嗎？不可以，仍需依實際路況判斷。",
+            )
+        )
+        self.assertTrue(review["publishReady"])
+
     def test_affiliate_without_disclosure_or_rel_fails(self):
         article = base_article(
             mainProducts=[

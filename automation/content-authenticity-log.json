@@ -1,5 +1,1064 @@
 {
   "version": 1,
-  "updatedAt": "",
-  "entries": []
+  "updatedAt": "2026-05-28T16:36:01Z",
+  "entries": [
+    {
+      "articleId": "auto-20260515180349-chatgpt-image-2-prompts-elite-women",
+      "slug": "chatgpt-image-2-prompts-elite-women",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:01Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/ai-innovation/chatgpt-image-2-prompts-elite-women.html",
+        "https://tw.elitefasion.com/images/generated/ai/chatgpt-image-2-prompts-cover.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260513060111-returning-taiwan-first-year-unmarried-women",
+      "slug": "returning-taiwan-first-year-unmarried-women",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:01Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/returning-taiwan-first-year-unmarried-women.html",
+        "https://tw.elitefasion.com/images/generated/life-proposals/gray-divorce-new-chapter.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260523203212-rebuild-social-circle-after-returning-to-taiwan",
+      "slug": "rebuild-social-circle-after-returning-to-taiwan",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:01Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/rebuild-social-circle-after-returning-to-taiwan.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/rebuild-social-circle-after-returning-to-taiwan.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260425222225-midlife-divorce-entrepreneur-priority",
+      "slug": "midlife-divorce-entrepreneur-priority",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:01Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/midlife-divorce-entrepreneur-priority.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/midlife-divorce-entrepreneur-priority.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260506053920-high-level-female-executive-post-divorce-social-reconstruction",
+      "slug": "high-level-female-executive-post-divorce-social-reconstruction",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:01Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/high-level-female-executive-post-divorce-social-reconstruction.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/high-level-female-executive-post-divorce-social-reconstruction.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260505062232-arsenal-mit-japan-stainless-scissors-project",
+      "slug": "arsenal-mit-japan-stainless-scissors-project",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:01Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.icareushop.com.tw/SalePage/Index/8922065",
+        "https://www.icareushop.com.tw/SalePage/Index/9669238",
+        "https://www.icareushop.com.tw/SalePage/Index/8944550",
+        "https://tw.elitefasion.com/lifestyle-culture/arsenal-mit-japan-stainless-scissors-project.html",
+        "https://tw.elitefasion.com/images/generated/designer/craftsmanship.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260509185232-neobabylon-taiwan-sci-fi-story",
+      "slug": "neobabylon-taiwan-sci-fi-story",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:01Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://neobabylon.icareu.tw/",
+        "https://neobabylon.icareu.tw/story",
+        "https://neobabylon.icareu.tw/world",
+        "https://neobabylon.icareu.tw/characters",
+        "https://tw.elitefasion.com/ai-innovation/neobabylon-taiwan-sci-fi-story.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/neobabylon-taiwan-sci-fi-story.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522045309-metro-vancouver-2026-investment-plan",
+      "slug": "metro-vancouver-2026-investment-plan",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:01Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://elitefasion.com/vibe-ai/metro-vancouver-2026-investment-plan",
+        "https://investvancouver.ca/about/Pages/default.aspx",
+        "https://metrovancouver.org/boards/GVRD/RD-2026-02-27-AGE.pdf",
+        "https://tw.elitefasion.com/ai-innovation/metro-vancouver-2026-investment-plan.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/metro-vancouver-2026-investment-plan.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-ai-innovation-ai-pet-care-html",
+      "slug": "ai-pet-care",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:01Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/ai-innovation/ai-pet-care.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/ai-pet-care.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260426012644-trust-network-women-entrepreneur",
+      "slug": "trust-network-women-entrepreneur",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/trust-network-women-entrepreneur.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/trust-network-women-entrepreneur.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260508051536-中年未婚女性獨居評估與行動清單",
+      "slug": "中年未婚女性獨居評估與行動清單",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/中年未婚女性獨居評估與行動清單.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/中年未婚女性獨居評估與行動清單.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260425192817-return-divorce-restart-90-day-checklist",
+      "slug": "return-divorce-restart-90-day-checklist",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/return-divorce-restart-90-day-checklist.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/return-divorce-restart-90-day-checklist.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260425164142-post-divorce-first-6-steps",
+      "slug": "post-divorce-first-6-steps",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/post-divorce-first-6-steps.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/post-divorce-first-6-steps.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260513201937-pregnancy-safe-exercise-guide",
+      "slug": "pregnancy-safe-exercise-guide",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.cdc.gov/physical-activity-basics/guidelines/healthy-pregnant-or-postpartum-women.html",
+        "https://www.nhs.uk/pregnancy/keeping-well/exercise/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK566046/",
+        "https://tw.elitefasion.com/wellness-movement/pregnancy-safe-exercise-guide.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/pregnancy-safe-exercise-guide.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-ai-innovation-ai-health-longevity-html",
+      "slug": "ai-health-longevity",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/ai-innovation/ai-health-longevity.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/ai-health-longevity.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260425232621-solopreneur-daily-rhythm-outsourcing-strategy",
+      "slug": "solopreneur-daily-rhythm-outsourcing-strategy",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/solopreneur-daily-rhythm-outsourcing-strategy.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/solopreneur-daily-rhythm-outsourcing-strategy.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260523225922-solo-living-stabilization-taiwan-returnees",
+      "slug": "solo-living-stabilization-taiwan-returnees",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/solo-living-stabilization-taiwan-returnees.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/solo-living-stabilization-taiwan-returnees.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-eye-care-presbyopia-html",
+      "slug": "eye-care-presbyopia",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/eye-care-presbyopia.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/eye-care-presbyopia.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://www.icareushop.com.tw/categories/eye-care"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260519221627-scooter-commute-rain-gear-reflective-accessories",
+      "slug": "scooter-commute-rain-gear-reflective-accessories",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/ryfM995D",
+        "https://s.momoshop.com.tw/s/tvga771o",
+        "https://s.momoshop.com.tw/s/hohb6teF",
+        "https://tw.elitefasion.com/outdoor-escapes/scooter-commute-rain-gear-reflective-accessories.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/scooter-commute-rain-gear-reflective-accessories.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520010743-night-mobility-reflective-dashcam-support-sleep-kit",
+      "slug": "night-mobility-reflective-dashcam-support-sleep-kit",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/tvga771o",
+        "https://s.momoshop.com.tw/s/aD5S59sC",
+        "https://s.momoshop.com.tw/s/zymRpNpU",
+        "https://tw.elitefasion.com/outdoor-escapes/night-mobility-reflective-dashcam-support-sleep-kit.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/night-mobility-reflective-dashcam-support-sleep-kit.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520010743-camping-coffee-outdoor-meal-prep",
+      "slug": "camping-coffee-outdoor-meal-prep",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:36:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/ucgzBkPE",
+        "https://s.momoshop.com.tw/s/e5Xbw4aC",
+        "https://s.momoshop.com.tw/s/xt5xEjrq",
+        "https://tw.elitefasion.com/outdoor-escapes/camping-coffee-outdoor-meal-prep.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/camping-coffee-outdoor-meal-prep.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    }
+  ]
 }

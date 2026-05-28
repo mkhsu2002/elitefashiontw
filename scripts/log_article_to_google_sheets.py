@@ -24,6 +24,7 @@ PUBLISH_LOG_PATH = ROOT / "automation" / "publish-log.json"
 GENERATED_ARTICLES_DIR = ROOT / "automation" / "articles"
 SITE_CONFIG_PATH = ROOT / "automation" / "site-config.json"
 ARTICLES_INDEX_PATH = ROOT / "data" / "articles-index.json"
+AUTHENTICITY_LOG_PATH = ROOT / "automation" / "content-authenticity-log.json"
 DEFAULT_WORKSHEET = "Taiwan"
 HEADERS = [
     "article_id",
@@ -43,6 +44,7 @@ HEADERS = [
     "status",
     "notes",
     "cover_image_url",
+    "authenticity_audited",
 ]
 
 
@@ -146,6 +148,23 @@ def find_index_item(article_id: str, file_path: str) -> dict[str, Any]:
     return {}
 
 
+def authenticity_log_entries() -> list[dict[str, Any]]:
+    payload = load_json(AUTHENTICITY_LOG_PATH, {"entries": []})
+    entries = payload.get("entries", []) if isinstance(payload, dict) else []
+    return [entry for entry in entries if isinstance(entry, dict)]
+
+
+def authenticity_audited_value(article_id: str, slug: str) -> str:
+    for entry in authenticity_log_entries():
+        if entry.get("publishReady") is not True:
+            continue
+        if article_id and entry.get("articleId") == article_id:
+            return "yes"
+        if slug and entry.get("slug") == slug:
+            return "yes"
+    return "no"
+
+
 def build_sheet_entry(entry: dict[str, Any], site_config: dict[str, Any]) -> dict[str, str]:
     article_id = str(entry.get("articleId", "") or "")
     article_detail = load_article_detail(article_id)
@@ -183,6 +202,7 @@ def build_sheet_entry(entry: dict[str, Any], site_config: dict[str, Any]) -> dic
         "status": "published",
         "notes": notes,
         "cover_image_url": canonical_cover_image_url(cover_image, site_config),
+        "authenticity_audited": authenticity_audited_value(article_id, slug),
     }
 
 
@@ -212,6 +232,7 @@ def build_sheet_entry_from_index_item(item: dict[str, Any], site_config: dict[st
         "status": str(item.get("status", "") or "published"),
         "notes": source_type or "legacy",
         "cover_image_url": canonical_cover_image_url(str(item.get("heroImage", "") or ""), site_config),
+        "authenticity_audited": authenticity_audited_value(article_id, str(item.get("slug", "") or Path(file_path).stem)),
     }
 
 
@@ -264,17 +285,15 @@ def worksheet_rows_by_article_id(worksheet) -> dict[str, tuple[int, list[str]]]:
     return rows
 
 
-def update_cover_image_urls(worksheet, updates: list[tuple[int, str]], batch_size: int = 50) -> int:
+def update_cell_values(worksheet, updates: list[tuple[int, str, str]], batch_size: int = 50) -> int:
     if not updates:
         return 0
-    cover_column = HEADERS.index("cover_image_url") + 1
-    cover_column_letter = column_letter(cover_column)
     updated = 0
     for batch in chunk_rows(updates, size=batch_size):
         worksheet.batch_update(
             [
-                {"range": f"{cover_column_letter}{row_number}", "values": [[cover_image_url]]}
-                for row_number, cover_image_url in batch
+                {"range": f"{column_letter(HEADERS.index(header) + 1)}{row_number}", "values": [[value]]}
+                for row_number, header, value in batch
             ],
             value_input_option="RAW",
         )
@@ -284,9 +303,8 @@ def update_cover_image_urls(worksheet, updates: list[tuple[int, str]], batch_siz
 
 def upsert_sheet_entries(worksheet, rows: list[dict[str, str]]) -> tuple[int, int, int]:
     existing = worksheet_rows_by_article_id(worksheet)
-    cover_column_index = HEADERS.index("cover_image_url")
     pending_rows: list[list[str]] = []
-    pending_cover_updates: list[tuple[int, str]] = []
+    pending_cell_updates: list[tuple[int, str, str]] = []
     skipped = 0
 
     for row in rows:
@@ -300,19 +318,19 @@ def upsert_sheet_entries(worksheet, rows: list[dict[str, str]]) -> tuple[int, in
             continue
 
         row_number, existing_row = existing[article_id]
-        cover_image_url = str(row.get("cover_image_url", "") or "")
-        current_cover_image_url = (
-            existing_row[cover_column_index].strip()
-            if len(existing_row) > cover_column_index
-            else ""
-        )
-        if row_number > 0 and cover_image_url and current_cover_image_url != cover_image_url:
-            pending_cover_updates.append((row_number, cover_image_url))
-        else:
+        changed = False
+        for header in ("cover_image_url", "authenticity_audited"):
+            column_index = HEADERS.index(header)
+            desired = str(row.get(header, "") or "")
+            current = existing_row[column_index].strip() if len(existing_row) > column_index else ""
+            if row_number > 0 and desired and current != desired:
+                pending_cell_updates.append((row_number, header, desired))
+                changed = True
+        if not changed:
             skipped += 1
 
     appended = append_rows_chunked(worksheet, pending_rows)
-    updated = update_cover_image_urls(worksheet, pending_cover_updates)
+    updated = update_cell_values(worksheet, pending_cell_updates)
     return appended, updated, skipped
 
 
@@ -350,7 +368,7 @@ def sync_entry(entry: dict[str, Any], site_config: dict[str, Any], worksheet=Non
     if appended:
         return f"Logged article to Google Sheets: {article_id}"
     if updated:
-        return f"Updated article cover image in Google Sheets: {article_id}"
+        return f"Updated article metadata in Google Sheets: {article_id}"
     return f"Article already logged: {article_id}"
 
 
@@ -379,13 +397,13 @@ def main() -> int:
     if args.all_site_articles:
         rows = [build_sheet_entry_from_index_item(item, site_config) for item in reversed(load_articles_index_items())]
         synced, updated, skipped = upsert_sheet_entries(worksheet, rows)
-        print(f"Full-site backfill complete: synced={synced}, cover_urls_updated={updated}, skipped={skipped}")
+        print(f"Full-site backfill complete: synced={synced}, metadata_updated={updated}, skipped={skipped}")
         return 0
 
     if args.all:
         rows = [build_sheet_entry(entry, site_config) for entry in reversed(entries)]
         synced, updated, skipped = upsert_sheet_entries(worksheet, rows)
-        print(f"Backfill complete: synced={synced}, cover_urls_updated={updated}, skipped={skipped}")
+        print(f"Backfill complete: synced={synced}, metadata_updated={updated}, skipped={skipped}")
         return 0
 
     if args.article_id:

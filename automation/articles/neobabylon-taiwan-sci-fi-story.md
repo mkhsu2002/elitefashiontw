@@ -80,3 +80,7 @@
 - [進入《新巴比倫》官方檔案](https://neobabylon.icareu.tw/)
 - [查看故事背景](https://neobabylon.icareu.tw/story)
 - [查看角色檔案](https://neobabylon.icareu.tw/characters)
+
+## 重要警語
+
+本文為一般生活、健康、財務或法律資訊整理，不構成個人化醫療、法律、保險、投資、稅務或長照建議。若涉及就醫、用藥、心理諮商、保險、法律文件、稅務或重大財務決策，請依自身情況諮詢合格專業人員，並以官方或服務機構最新公告為準。

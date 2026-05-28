@@ -104,7 +104,6 @@ YMYL_PROMISE_PATTERNS = (
     r"必然",
     r"治癒",
     r"根治",
-    r"治療",
     r"預防(?:疾病|失眠|疼痛|退化)",
     r"改善(?:失眠|疼痛|疾病|症狀|血壓|血糖)",
     r"降低(?:風險|死亡率)",
@@ -115,14 +114,56 @@ YMYL_PROMISE_PATTERNS = (
 )
 DISCLAIMER_TERMS = (
     "不構成",
+    "不能取代",
     "僅供一般資訊",
     "請諮詢",
+    "請先諮詢",
+    "諮詢專業",
+    "請先取得專業建議",
+    "專業建議",
+    "醫療專業",
     "合格專業",
     "依自身情況",
+    "商品頁公告",
     "以商品頁公告為準",
     "以官方公告為準",
 )
 NEGATION_TERMS = ("不", "非", "未", "無", "避免", "不可", "不得", "不構成", "不保證", "不承諾")
+PROMISE_RESULT_TERMS = (
+    "安全",
+    "健康",
+    "醫療",
+    "症狀",
+    "疾病",
+    "療效",
+    "失眠",
+    "疼痛",
+    "血壓",
+    "血糖",
+    "風險",
+    "報酬",
+    "收益",
+    "投資",
+    "保本",
+    "治癒",
+    "根治",
+    "改善",
+    "降低",
+    "預防",
+)
+PROFESSIONAL_REFERRAL_TERMS = (
+    "醫師",
+    "律師",
+    "會計師",
+    "心理師",
+    "營養師",
+    "物理治療師",
+    "助產師",
+    "藥師",
+    "教練",
+    "個管師",
+    "社工",
+)
 
 
 def now_iso() -> str:
@@ -141,7 +182,8 @@ def write_json(path: Path, payload: Any) -> None:
 
 
 def strip_tags(raw: str) -> str:
-    return html.unescape(re.sub(r"<[^>]+>", " ", raw or ""))
+    without_scripts = re.sub(r"<(?:script|style)\b[^>]*>.*?</(?:script|style)>", " ", raw or "", flags=re.I | re.S)
+    return html.unescape(re.sub(r"<[^>]+>", " ", without_scripts))
 
 
 def sentence_split(text: str) -> list[str]:
@@ -225,9 +267,34 @@ def sentence_is_disclaimer(sentence: str) -> bool:
     return any(term in sentence for term in DISCLAIMER_TERMS)
 
 
+def sentence_is_professional_referral(sentence: str) -> bool:
+    if not any(term in sentence for term in PROFESSIONAL_REFERRAL_TERMS):
+        return False
+    return any(term in sentence for term in ("請", "諮詢", "詢問", "取得", "聯絡", "尋求", "評估", "一起調整"))
+
+
 def sentence_is_negated(sentence: str, match_start: int) -> bool:
     window = sentence[max(0, match_start - 24) : match_start + 12]
     return any(term in window for term in NEGATION_TERMS)
+
+
+def promise_match_is_generic(sentence: str, matched_text: str) -> bool:
+    if not matched_text.startswith("一定"):
+        return False
+    if re.search(r"一定(?:會|能|可以)(?:需要|堆|執行|出現|遇到|碰到|看見|發現)", sentence):
+        return True
+    return not any(term in sentence for term in PROMISE_RESULT_TERMS)
+
+
+def dedupe_preserve(items: list[str]) -> list[str]:
+    seen: set[str] = set()
+    deduped: list[str] = []
+    for item in items:
+        if item in seen:
+            continue
+        seen.add(item)
+        deduped.append(item)
+    return deduped
 
 
 def load_momo_tracker() -> tuple[dict[str, dict[str, str]], dict[str, dict[str, str]]]:
@@ -305,9 +372,15 @@ def audit_ymyl(text: str, current_risk: str) -> tuple[list[dict[str, Any]], list
 
     patterns = [re.compile(pattern) for pattern in YMYL_PROMISE_PATTERNS]
     for sentence in sentence_split(text):
+        if sentence_is_disclaimer(sentence) or sentence_is_professional_referral(sentence):
+            continue
         for pattern in patterns:
             match = pattern.search(sentence)
             if match and not sentence_is_negated(sentence, match.start()):
+                if re.search(r"(嗎|呢|？|\?)", sentence):
+                    continue
+                if promise_match_is_generic(sentence, match.group(0)):
+                    continue
                 note = f"高風險題材出現保證式或療效/報酬宣稱：{compact(sentence)}"
                 checks.append({"name": "ymyl-promise", "passed": False, "note": note})
                 fixes.append(note)
@@ -421,6 +494,7 @@ def audit_article_record(
         claim_checks.extend(check_group)
         required_fixes.extend(fixes)
 
+    required_fixes = dedupe_preserve(required_fixes)
     publish_ready = not required_fixes
     return {
         "articleId": article.get("id", ""),

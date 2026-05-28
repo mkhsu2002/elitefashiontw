@@ -22,8 +22,6 @@
     <meta name="twitter:image" content="https://tw.elitefasion.com/images/optimized/article-covers/metro-vancouver-2026-investment-plan.jpg">
     <meta name="twitter:image:alt" content="大溫哥華天際線、海港、山景與資料網絡構成的科技投資城市視覺">
     <link rel="canonical" href="https://tw.elitefasion.com/ai-innovation/metro-vancouver-2026-investment-plan.html">
-    <link rel="alternate" hreflang="en" href="https://elitefasion.com/vibe-ai/metro-vancouver-2026-investment-plan">
-    <link rel="alternate" hreflang="zh-Hant" href="https://tw.elitefasion.com/ai-innovation/metro-vancouver-2026-investment-plan.html">
     <link rel="stylesheet" href="../css/styles.css?v=1.2">
     <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -188,9 +186,187 @@
         .article-disclosure p {
             margin: 0;
         }
+        .article-intro-copy {
+            max-width: 760px;
+            margin: 0 auto 2.4rem;
+            color: #2d2d2d;
+            font-size: 1.08rem;
+        }
+        .product-article-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 320px;
+            gap: 34px;
+            align-items: start;
+        }
+        .product-article-main {
+            min-width: 0;
+        }
+        .product-recommendations,
+        .featured-brand-strip {
+            margin: 3.1rem 0 3.2rem;
+        }
+        .product-recommendations h2,
+        .featured-brand-strip h2,
+        .product-sidebar h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.85rem;
+            margin: 0 0 1rem;
+        }
+        .product-recommendations > p {
+            margin-bottom: 1.3rem;
+            color: #4d4a44;
+        }
+        .product-card-grid,
+        .featured-brand-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 16px;
+        }
+        .product-card,
+        .featured-brand-card {
+            border: 1px solid #e7dfcf;
+            border-radius: 8px;
+            background: #fffdf8;
+            overflow: hidden;
+            box-shadow: 0 12px 28px rgba(17, 17, 17, 0.06);
+        }
+        .product-card-media {
+            margin: 0;
+            background: #f6f3ed;
+        }
+        .product-card-media img {
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            object-fit: cover;
+        }
+        .product-card-media figcaption {
+            padding: 7px 12px 0;
+            color: #777067;
+            font-size: 0.78rem;
+            line-height: 1.45;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .product-card-body,
+        .featured-brand-card {
+            padding: 14px;
+        }
+        .product-card-brand,
+        .featured-brand-card span {
+            display: inline-block;
+            margin-bottom: 8px;
+            color: #8a6a2f;
+            font-size: 0.8rem;
+            font-weight: 800;
+        }
+        .product-card h3,
+        .featured-brand-card h3 {
+            font-size: 0.98rem;
+            line-height: 1.45;
+            margin: 0 0 0.55rem;
+            color: #151515;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .product-card p,
+        .featured-brand-card p {
+            color: #3a3833;
+            font-size: 0.9rem;
+            line-height: 1.55;
+            margin-bottom: 0.65rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .product-card-button,
+        .featured-brand-card a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 40px;
+            padding: 9px 14px;
+            border-radius: 999px;
+            background: #111;
+            color: #fff;
+            font-weight: 800;
+            font-size: 0.92rem;
+            text-decoration: none;
+        }
+        .product-card-button::after,
+        .featured-brand-card a::after {
+            content: "→";
+            margin-left: 0.45rem;
+        }
+        .product-sidebar {
+            position: sticky;
+            top: 98px;
+            margin-top: 7.6rem;
+        }
+        .product-sidebar-inner {
+            padding: 18px;
+            border: 1px solid #e7dfcf;
+            border-radius: 8px;
+            background: #fbf8f1;
+            box-shadow: 0 16px 34px rgba(17, 17, 17, 0.07);
+        }
+        .product-sidebar-inner > p {
+            margin: 0 0 14px;
+            color: #625d55;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .product-card-compact {
+            margin-bottom: 14px;
+        }
+        .product-card-compact .product-card-body {
+            padding: 10px 11px 12px;
+        }
+        .product-card-compact h3 {
+            font-size: 0.88rem;
+        }
+        .product-card-compact p {
+            display: none;
+        }
+        .product-card-compact .product-card-media img {
+            aspect-ratio: 16 / 10;
+        }
+        .product-card-compact .product-card-media figcaption {
+            font-size: 0.72rem;
+        }
+        .product-sidebar-mobile {
+            display: none;
+        }
+        @media (max-width: 980px) {
+            .product-article-layout {
+                display: block;
+            }
+            .product-sidebar:not(.product-sidebar-mobile) {
+                display: none;
+            }
+            .product-sidebar-mobile {
+                display: block;
+                position: static;
+                margin: 2.6rem 0;
+            }
+        }
+        @media (max-width: 680px) {
+            .product-card-grid,
+            .featured-brand-grid {
+                grid-template-columns: 1fr;
+            }
+            .product-card-media img {
+                aspect-ratio: 4 / 3;
+            }
+        }
     </style>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Elite Fashion｜大溫 2026 投資計畫：城市競爭、AI 產業與生活品牌的下一步", "description": "根據 Elite Fashion 英文站最新分析，整理 Invest Vancouver 2026 年度計畫：外國直接投資、AI 與高科技、創意科技、清潔科技、服飾產業與區域協作。", "datePublished": "2026-05-22T04:53:09Z", "author": {"@type": "Organization", "name": "Elite Fashion"}, "publisher": {"@type": "Organization", "name": "Elite Fashion"}, "mainEntityOfPage": "https://tw.elitefasion.com/ai-innovation/metro-vancouver-2026-investment-plan.html", "image": "https://tw.elitefasion.com/images/optimized/article-covers/metro-vancouver-2026-investment-plan.jpg"}</script>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "這篇文章是在談投資建議嗎？", "acceptedAnswer": {"@type": "Answer", "text": "不是。本文整理的是 Invest Vancouver 2026 年度計畫與英文站原文分析中的區域經濟策略，不構成個別投資、移民、置產或企業設點建議。"}}, {"@type": "Question", "name": "為什麼 Elite Fashion 會寫大溫投資計畫？", "acceptedAnswer": {"@type": "Answer", "text": "因為大溫的 AI、創意科技、服飾、戶外生活、清潔科技與生命科學會影響未來品牌、人才與生活方式。城市策略最後會反映在工作、創業、內容製作與消費文化裡。"}}, {"@type": "Question", "name": "2026 年最值得觀察的指標是什麼？", "acceptedAnswer": {"@type": "Answer", "text": "可先看三個方向：投資管線是否轉成已落地成果、產業策略是否變得更具體、各行政區是否能用一致資料與流程服務投資者。"}}]}</script>
+
 </head>
 <body>
     <nav class="navbar" role="navigation" aria-label="主導覽列">
@@ -282,7 +458,7 @@
 
         <section class="article-section">
             <h2>服飾產業為什麼值得被放進投資計畫</h2>
-            <p>在 Invest Vancouver 的產業清單裡，服飾很容易被科技與生命科學搶走注意力，但它對 Elite Fashion 讀者尤其重要。計畫指出，大溫在加拿大的紡織公司人均數量排名第一，總紡織公司數量排名第二。這不是只關於精品店或本地設計師，而是關於技術紡織、戶外機能裝備、永續材料、電商營運、品牌管理與跨境市場。</p>
+            <p>在 Invest Vancouver 的產業清單裡，服飾很容易被科技與生命科學搶走注意力，但它對 Elite Fashion 讀者尤其重要。相關產業資料顯示，大溫在加拿大紡織與服裝供應鏈中具備可觀密度；實際排名與公司數量會隨統計口徑更新，投資判斷仍應回到最新公開資料與專業評估。這不是只關於精品店或本地設計師，而是關於技術紡織、戶外機能裝備、永續材料、電商營運、品牌管理與跨境市場。</p>
             <p>大溫的地理位置和戶外文化，讓服飾有機會和性能材料、環境適應、山海生活、城市通勤與亞太供應鏈連在一起。當清潔科技、資料分析與創意媒體都在同一個區域升級時，服飾品牌可以不只賣風格，也能把材質、影像、物流、永續與數位零售做成完整競爭力。</p>
             <p>我們最在意的判斷是：服飾產業若只被視為零售，就會被低估；若被放進技術紡織、戶外生活、供應鏈與品牌內容的交叉點，它就可能成為大溫出口導向成長的一條生活化路徑。</p>
 
@@ -360,7 +536,7 @@
 
         <section class="article-cta">
             <h2>重要警語</h2>
-            <p>本文為公開資料與 Elite Fashion 英文站原文分析的中文改寫與延伸解讀，不構成投資、法律、稅務、移民、置產或企業設點建議；實際決策請以官方文件與專業顧問意見為準。</p>
+            <p>本文為一般城市、產業與投資趨勢觀察，不構成個人化投資、稅務、移民、法律或房地產建議。涉及政策、賽事、公司與市場資料時，請以政府、主辦單位、上市公司或專業顧問的最新公告為準。</p>
         </section>
 
     </main>

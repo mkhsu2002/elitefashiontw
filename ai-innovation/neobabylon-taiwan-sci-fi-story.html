@@ -10,16 +10,17 @@
     <meta property="og:description" content="推薦台灣原創科幻《新巴比倫》：人類滅絕千年後，AI 建立完美世界，陶比踏上追尋人性火苗與封存真相的史詩旅程。">
     <meta property="og:url" content="https://tw.elitefasion.com/ai-innovation/neobabylon-taiwan-sci-fi-story.html">
     <meta property="og:image" content="https://tw.elitefasion.com/images/optimized/article-covers/neobabylon-taiwan-sci-fi-story.jpg">
-        <meta property="og:image:secure_url" content="https://tw.elitefasion.com/images/optimized/article-covers/neobabylon-taiwan-sci-fi-story.jpg">
+    <meta property="og:image:secure_url" content="https://tw.elitefasion.com/images/optimized/article-covers/neobabylon-taiwan-sci-fi-story.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="最期待的科幻故事，緣起於台灣：《新巴比倫》把 AI 時代寫成文明史詩">
-<meta property="article:published_time" content="2026-05-09T18:52:32Z">
-        <meta name="twitter:title" content="《新巴比倫》推薦：最期待的台灣 AI 科幻故事">
+    <meta property="article:published_time" content="2026-05-09T18:52:32Z">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="《新巴比倫》推薦：最期待的台灣 AI 科幻故事">
     <meta name="twitter:description" content="推薦台灣原創科幻《新巴比倫》：人類滅絕千年後，AI 建立完美世界，陶比踏上追尋人性火苗與封存真相的史詩旅程。">
+    <meta name="twitter:image" content="https://tw.elitefasion.com/images/optimized/article-covers/neobabylon-taiwan-sci-fi-story.jpg">
     <meta name="twitter:image:alt" content="最期待的科幻故事，緣起於台灣：《新巴比倫》把 AI 時代寫成文明史詩">
-<meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://tw.elitefasion.com/ai-innovation/neobabylon-taiwan-sci-fi-story.html">
     <link rel="stylesheet" href="../css/styles.css?v=1.2">
     <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg">
@@ -68,12 +69,12 @@
             margin-bottom: 34px;
             box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
         }
-        .article-section h2, .article-faq h2, .article-related h2, .article-cta h2 {
+        .article-section h2, .article-faq h2, .article-related h2, .article-cta h2, .article-inline-cta h2 {
             font-family: 'Playfair Display', serif;
             font-size: 2rem;
             margin: 3.4rem 0 1.2rem;
         }
-        .article-section p, .article-faq p, .article-cta p {
+        .article-section p, .article-faq p, .article-cta p, .article-inline-cta p {
             margin-bottom: 1.2rem;
             color: #2d2d2d;
             font-size: 1.08rem;
@@ -105,14 +106,59 @@
             border-radius: 18px;
             background: linear-gradient(135deg, rgba(197,160,89,0.14), rgba(17,17,17,0.04));
         }
-        .article-cta a {
+        .article-inline-cta {
+            margin: 2.6rem 0 1.2rem;
+            padding: 28px;
+            border-radius: 18px;
+            border: 2px solid rgba(197,160,89,0.45);
+            background: #fbf8f1;
+            box-shadow: 0 16px 34px rgba(17, 17, 17, 0.06);
+        }
+        .article-inline-cta-slate, .article-cta-slate {
+            background: linear-gradient(135deg, rgba(42, 66, 82, 0.12), rgba(17,17,17,0.04));
+            border-color: rgba(42, 66, 82, 0.28);
+        }
+        .article-inline-cta-olive, .article-cta-olive {
+            background: linear-gradient(135deg, rgba(84, 105, 72, 0.14), rgba(17,17,17,0.04));
+            border-color: rgba(84, 105, 72, 0.28);
+        }
+        .article-inline-cta-copper, .article-cta-copper {
+            background: linear-gradient(135deg, rgba(168, 103, 62, 0.14), rgba(17,17,17,0.04));
+            border-color: rgba(168, 103, 62, 0.28);
+        }
+        .article-inline-cta-eyebrow {
             display: inline-block;
+            margin-bottom: 0.7rem;
+            font-size: 0.8rem;
+            letter-spacing: 0;
+            color: #8a6a2f;
+            font-weight: 700;
+        }
+        .article-inline-cta h2 {
+            margin: 0 0 0.9rem;
+        }
+        .article-cta a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
             margin-top: 12px;
             padding: 12px 24px;
             background: #111;
             color: #fff;
             text-decoration: none;
             border-radius: 999px;
+            font-weight: 800;
+            box-shadow: 0 10px 22px rgba(17, 17, 17, 0.18);
+            transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+        }
+        .article-cta a::after {
+            content: "→";
+            font-weight: 900;
+        }
+        .article-cta a:hover {
+            transform: translateY(-1px);
+            background: #2d2416;
+            box-shadow: 0 14px 28px rgba(17, 17, 17, 0.22);
         }
         .article-cta-links {
             display: flex;
@@ -140,10 +186,187 @@
         .article-disclosure p {
             margin: 0;
         }
+        .article-intro-copy {
+            max-width: 760px;
+            margin: 0 auto 2.4rem;
+            color: #2d2d2d;
+            font-size: 1.08rem;
+        }
+        .product-article-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 320px;
+            gap: 34px;
+            align-items: start;
+        }
+        .product-article-main {
+            min-width: 0;
+        }
+        .product-recommendations,
+        .featured-brand-strip {
+            margin: 3.1rem 0 3.2rem;
+        }
+        .product-recommendations h2,
+        .featured-brand-strip h2,
+        .product-sidebar h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.85rem;
+            margin: 0 0 1rem;
+        }
+        .product-recommendations > p {
+            margin-bottom: 1.3rem;
+            color: #4d4a44;
+        }
+        .product-card-grid,
+        .featured-brand-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 16px;
+        }
+        .product-card,
+        .featured-brand-card {
+            border: 1px solid #e7dfcf;
+            border-radius: 8px;
+            background: #fffdf8;
+            overflow: hidden;
+            box-shadow: 0 12px 28px rgba(17, 17, 17, 0.06);
+        }
+        .product-card-media {
+            margin: 0;
+            background: #f6f3ed;
+        }
+        .product-card-media img {
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            object-fit: cover;
+        }
+        .product-card-media figcaption {
+            padding: 7px 12px 0;
+            color: #777067;
+            font-size: 0.78rem;
+            line-height: 1.45;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .product-card-body,
+        .featured-brand-card {
+            padding: 14px;
+        }
+        .product-card-brand,
+        .featured-brand-card span {
+            display: inline-block;
+            margin-bottom: 8px;
+            color: #8a6a2f;
+            font-size: 0.8rem;
+            font-weight: 800;
+        }
+        .product-card h3,
+        .featured-brand-card h3 {
+            font-size: 0.98rem;
+            line-height: 1.45;
+            margin: 0 0 0.55rem;
+            color: #151515;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .product-card p,
+        .featured-brand-card p {
+            color: #3a3833;
+            font-size: 0.9rem;
+            line-height: 1.55;
+            margin-bottom: 0.65rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .product-card-button,
+        .featured-brand-card a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 40px;
+            padding: 9px 14px;
+            border-radius: 999px;
+            background: #111;
+            color: #fff;
+            font-weight: 800;
+            font-size: 0.92rem;
+            text-decoration: none;
+        }
+        .product-card-button::after,
+        .featured-brand-card a::after {
+            content: "→";
+            margin-left: 0.45rem;
+        }
+        .product-sidebar {
+            position: sticky;
+            top: 98px;
+            margin-top: 7.6rem;
+        }
+        .product-sidebar-inner {
+            padding: 18px;
+            border: 1px solid #e7dfcf;
+            border-radius: 8px;
+            background: #fbf8f1;
+            box-shadow: 0 16px 34px rgba(17, 17, 17, 0.07);
+        }
+        .product-sidebar-inner > p {
+            margin: 0 0 14px;
+            color: #625d55;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .product-card-compact {
+            margin-bottom: 14px;
+        }
+        .product-card-compact .product-card-body {
+            padding: 10px 11px 12px;
+        }
+        .product-card-compact h3 {
+            font-size: 0.88rem;
+        }
+        .product-card-compact p {
+            display: none;
+        }
+        .product-card-compact .product-card-media img {
+            aspect-ratio: 16 / 10;
+        }
+        .product-card-compact .product-card-media figcaption {
+            font-size: 0.72rem;
+        }
+        .product-sidebar-mobile {
+            display: none;
+        }
+        @media (max-width: 980px) {
+            .product-article-layout {
+                display: block;
+            }
+            .product-sidebar:not(.product-sidebar-mobile) {
+                display: none;
+            }
+            .product-sidebar-mobile {
+                display: block;
+                position: static;
+                margin: 2.6rem 0;
+            }
+        }
+        @media (max-width: 680px) {
+            .product-card-grid,
+            .featured-brand-grid {
+                grid-template-columns: 1fr;
+            }
+            .product-card-media img {
+                aspect-ratio: 4 / 3;
+            }
+        }
     </style>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "最期待的科幻故事，緣起於台灣：《新巴比倫》把 AI 時代寫成文明史詩", "description": "推薦台灣原創科幻《新巴比倫》：人類滅絕千年後，AI 建立完美世界，陶比踏上追尋人性火苗與封存真相的史詩旅程。", "datePublished": "2026-05-09T18:52:32Z", "author": {"@type": "Organization", "name": "Elite Fashion"}, "publisher": {"@type": "Organization", "name": "Elite Fashion"}, "mainEntityOfPage": "https://tw.elitefasion.com/ai-innovation/neobabylon-taiwan-sci-fi-story.html", "image": "https://tw.elitefasion.com/images/optimized/article-covers/neobabylon-taiwan-sci-fi-story.jpg"}</script>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "《新巴比倫》適合哪一類讀者？", "acceptedAnswer": {"@type": "Answer", "text": "如果你喜歡 AI、後人類文明、龐大世界觀、時間線設定、角色群像與台灣原創科幻，《新巴比倫》會很值得追。它不是只看單一技術點，而是把 AI、舊人類、封存真相與宇宙邊界放進同一個長線敘事裡。"}}, {"@type": "Question", "name": "為什麼說《新巴比倫》緣起於台灣？", "acceptedAnswer": {"@type": "Answer", "text": "作品的世界觀明確放入台灣地景與人物線索，例如南方澳、中央研究院、鄭關山與方辰星等設定。這些元素不是單純背景裝飾，而是把台灣的地理、科研與文化記憶放進未來文明想像的核心。"}}, {"@type": "Question", "name": "閱讀前需要先懂 AI 技術嗎？", "acceptedAnswer": {"@type": "Answer", "text": "不需要。作品雖然以 AI 紀元、AGI、結界與未來文明為核心，但真正吸引人的仍是角色、秘密與文明選擇。懂 AI 的讀者會讀到更多技術想像，不熟 AI 的讀者也能從冒險與人性追問進入。"}}]}</script>
-    <meta name="twitter:image" content="https://tw.elitefasion.com/images/optimized/article-covers/neobabylon-taiwan-sci-fi-story.jpg">
+
 </head>
 <body>
     <nav class="navbar" role="navigation" aria-label="主導覽列">
@@ -273,7 +496,7 @@
             </ul>
         </section>
 
-        <section class="article-cta">
+        <section class="article-cta article-cta-gold">
             <h2>下一步建議</h2>
             <p>如果你想從第一手設定開始認識這個台灣原創 AI 科幻宇宙，建議直接進入《新巴比倫》官方檔案，再依序閱讀故事背景、世界觀與角色檔案。</p>
             <div class="article-cta-links">
@@ -283,6 +506,10 @@
             </div>
         </section>
 
+        <section class="article-cta">
+            <h2>重要警語</h2>
+            <p>本文為一般生活、健康、財務或法律資訊整理，不構成個人化醫療、法律、保險、投資、稅務或長照建議。若涉及就醫、用藥、心理諮商、保險、法律文件、稅務或重大財務決策，請依自身情況諮詢合格專業人員，並以官方或服務機構最新公告為準。</p>
+        </section>
 
     </main>
 
