@@ -73,7 +73,7 @@
     "requestTimeoutSeconds": 300
   },
   "articleQuality": {
-    "minTextUnits": 1800,
+    "minTextUnits": 2200,
     "minSections": 5,
     "minParagraphs": 12,
     "minFaqItems": 3,
