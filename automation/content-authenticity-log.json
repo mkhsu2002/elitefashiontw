@@ -1,7 +1,4022 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T16:58:49Z",
+  "updatedAt": "2026-05-28T17:04:27Z",
   "entries": [
+    {
+      "articleId": "auto-20260426045147-離婚後的第一步-高階主管如何評估優先順序與建立可控日常",
+      "slug": "離婚後的第一步-高階主管如何評估優先順序與建立可控日常",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T17:04:27Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/離婚後的第一步-高階主管如何評估優先順序與建立可控日常.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/離婚後的第一步-高階主管如何評估優先順序與建立可控日常.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260425172236-solo-living-home-safety-organization-divorce",
+      "slug": "solo-living-home-safety-organization-divorce",
+      "riskLevel": "low",
+      "checkedAt": "2026-05-28T17:04:12Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/solo-living-home-safety-organization-divorce.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/solo-living-home-safety-organization-divorce.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260425201016-rebuilding-social-circle-taiwan-returnee-women",
+      "slug": "rebuilding-social-circle-taiwan-returnee-women",
+      "riskLevel": "low",
+      "checkedAt": "2026-05-28T17:04:12Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/rebuilding-social-circle-taiwan-returnee-women.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/rebuilding-social-circle-taiwan-returnee-women.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-midlife-anxiety-opportunity-html",
+      "slug": "midlife-anxiety-opportunity",
+      "riskLevel": "low",
+      "checkedAt": "2026-05-28T17:04:12Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/midlife-anxiety-opportunity.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/midlife-anxiety-opportunity.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260509202936-living-alone-with-style-mature-women",
+      "slug": "living-alone-with-style-mature-women",
+      "riskLevel": "low",
+      "checkedAt": "2026-05-28T17:04:12Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/living-alone-with-style-mature-women.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/living-alone-with-style-mature-women.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-investment-101-fearless-html",
+      "slug": "investment-101-fearless",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T17:04:12Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/investment-101-fearless.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/investment-101-fearless.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-gig-economy-second-act-html",
+      "slug": "gig-economy-second-act",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T17:04:12Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/gig-economy-second-act.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/gig-economy-second-act.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-finding-your-tribe-midlife-html",
+      "slug": "finding-your-tribe-midlife",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T17:04:12Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/finding-your-tribe-midlife.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/finding-your-tribe-midlife.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-designer-perspective-education-roi-html",
+      "slug": "education-roi",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T17:04:12Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/designer-perspective/education-roi.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/education-roi.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://elitefasion.com/",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-dating-at-40-plus-html",
+      "slug": "dating-at-40-plus",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T17:04:12Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/dating-at-40-plus.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/dating-at-40-plus.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-casual-chic-capsule-wardrobe-html",
+      "slug": "capsule-wardrobe",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T17:04:12Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/casual-chic/capsule-wardrobe.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/capsule-wardrobe.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-ai-innovation-ai-wealth-fintech-html",
+      "slug": "ai-wealth-fintech",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T17:04:12Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/ai-innovation/ai-wealth-fintech.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/ai-wealth-fintech.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260425191515-ai-survival-guide-mature-workers",
+      "slug": "ai-survival-guide-mature-workers",
+      "riskLevel": "low",
+      "checkedAt": "2026-05-28T17:04:12Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://flypigai.icareu.tw/ai-survival-guide",
+        "https://tw.elitefasion.com/ai-innovation/ai-survival-guide-mature-workers.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/ai-survival-guide-mature-workers.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-ai-side-hustle-for-experts-html",
+      "slug": "ai-side-hustle-for-experts",
+      "riskLevel": "low",
+      "checkedAt": "2026-05-28T17:04:12Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/ai-side-hustle-for-experts.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/ai-side-hustle-for-experts.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/future-navigator"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074210-outdoor-patio-umbrella-garden-products",
+      "slug": "outdoor-patio-umbrella-garden-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850029497?i_code=TP00035850029497",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850028619?i_code=TP00035850028619",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250016023?i_code=TP00036250016023",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030739?i_code=TP00036420030739",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920016150?i_code=TP00060920016150",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920016025?i_code=TP00060920016025",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810022680?i_code=TP00064810022680",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690016740?i_code=TP00066690016740",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690012321?i_code=TP00066690012321",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690012129?i_code=TP00066690012129",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690010705?i_code=TP00066690010705",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070002311?i_code=TP00074070002311",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070002369?i_code=TP00074070002369",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070008045?i_code=TP00074070008045",
+        "https://s.momoshop.com.tw/s/GISLgmk6",
+        "https://s.momoshop.com.tw/s/MM1D7NsH",
+        "https://www.momoshop.com.tw/TP/TP0006669/main",
+        "https://www.momoshop.com.tw/TP/TP0007407/main",
+        "https://www.momoshop.com.tw/TP/TP0003585/main",
+        "https://www.momoshop.com.tw/TP/TP0006092/main"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074352-mobile-outdoor-rain-bottle-fan-products",
+      "slug": "mobile-outdoor-rain-bottle-fan-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=11304270",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13745623",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=11974438",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=11974440",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=11276847",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=10535086",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600008060?i_code=TP00068600008060",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070000019?i_code=TP00074070000019",
+        "https://s.momoshop.com.tw/s/sncEL7K4",
+        "https://s.momoshop.com.tw/s/6Z2wMMMv",
+        "https://www.momoshop.com.tw/TP/TP0006860/main",
+        "https://www.momoshop.com.tw/TP/TP0007407/main",
+        "https://s.momoshop.com.tw/s/NmeyAY1Z",
+        "https://s.momoshop.com.tw/s/8oUGwvvV",
+        "https://s.momoshop.com.tw/s/yBrH6SKZ",
+        "https://s.momoshop.com.tw/s/dCpCdfEw",
+        "https://s.momoshop.com.tw/s/0lriyyJI",
+        "https://s.momoshop.com.tw/s/oREOnF8E",
+        "https://tw.elitefasion.com/outdoor-escapes/mobile-outdoor-rain-bottle-fan-products.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/mobile-outdoor-rain-bottle-fan-products.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260519212000-light-camping-starter-kit-women-over-50",
+      "slug": "light-camping-starter-kit-women-over-50",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/outdoor-escapes/light-camping-starter-kit-women-over-50.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/light-camping-starter-kit-women-over-50.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://s.momoshop.com.tw/s/4MGgnllr",
+        "https://s.momoshop.com.tw/s/osiHlmau",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522072339-small-home-storage-products-entry-closet-underbed",
+      "slug": "small-home-storage-products-entry-closet-underbed",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016048?i_code=TP00057090016048",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250013730?i_code=TP00036250013730",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070008912?i_code=TP00074070008912",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090011809?i_code=TP00057090011809",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070007497?i_code=TP00074070007497",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015378?i_code=TP00036250015378",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600014030?i_code=TP00068600014030",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810014169?i_code=TP00064810014169",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015383?i_code=TP00036250015383",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690008320?i_code=TP00066690008320",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600014033?i_code=TP00068600014033",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070007500?i_code=TP00074070007500",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090014631?i_code=TP00057090014631",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420022460?i_code=TP00036420022460",
+        "https://www.momoshop.com.tw/TP/TP0005709/main",
+        "https://www.momoshop.com.tw/TP/TP0003625/main",
+        "https://www.momoshop.com.tw/TP/TP0007407/main",
+        "https://www.momoshop.com.tw/TP/TP0006860/main",
+        "https://s.momoshop.com.tw/s/sZwk7hrC",
+        "https://s.momoshop.com.tw/s/fkfq2Zdk"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074144-sink-cleaning-tool-kitchen-products",
+      "slug": "sink-cleaning-tool-kitchen-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030093?i_code=TP00036420030093",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030089?i_code=TP00036420030089",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030113?i_code=TP00036420030113",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030109?i_code=TP00036420030109",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030114?i_code=TP00036420030114",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030082?i_code=TP00036420030082",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030119?i_code=TP00036420030119",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030078?i_code=TP00036420030078",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030073?i_code=TP00036420030073",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030072?i_code=TP00036420030072",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030091?i_code=TP00036420030091",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920016007?i_code=TP00060920016007",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690016577?i_code=TP00066690016577",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600006422?i_code=TP00068600006422",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600002524?i_code=TP00068600002524",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600006411?i_code=TP00068600006411",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600006421?i_code=TP00068600006421",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600006410?i_code=TP00068600006410",
+        "https://s.momoshop.com.tw/s/XwG5n2YJ",
+        "https://s.momoshop.com.tw/s/l87Z7blz"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074127-side-cabinet-nightstand-bedroom-products-2",
+      "slug": "side-cabinet-nightstand-bedroom-products-2",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420026936?i_code=TP00036420026936",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090013369?i_code=TP00057090013369",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016089?i_code=TP00057090016089",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090014897?i_code=TP00057090014897",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090014420?i_code=TP00057090014420",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090014629?i_code=TP00057090014629",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920009752?i_code=TP00060920009752",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810020567?i_code=TP00064810020567",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810023046?i_code=TP00064810023046",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810024376?i_code=TP00064810024376",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810017458?i_code=TP00064810017458",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810023293?i_code=TP00064810023293",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810023305?i_code=TP00064810023305",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810023702?i_code=TP00064810023702",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600010725?i_code=TP00068600010725",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070000987?i_code=TP00074070000987",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070001119?i_code=TP00074070001119",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070001133?i_code=TP00074070001133",
+        "https://s.momoshop.com.tw/s/sleOziCk",
+        "https://s.momoshop.com.tw/s/85FICcaw"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074117-side-cabinet-nightstand-bedroom-products",
+      "slug": "side-cabinet-nightstand-bedroom-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850022858?i_code=TP00035850022858",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850022970?i_code=TP00035850022970",
+        "https://www.momoshop.com.tw/TP/TP0003624/goodsDetail/TP00036240013841?i_code=TP00036240013841",
+        "https://www.momoshop.com.tw/TP/TP0003624/goodsDetail/TP00036240017129?i_code=TP00036240017129",
+        "https://www.momoshop.com.tw/TP/TP0003624/goodsDetail/TP00036240012989?i_code=TP00036240012989",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250016337?i_code=TP00036250016337",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015349?i_code=TP00036250015349",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012126?i_code=TP00036250012126",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012191?i_code=TP00036250012191",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015925?i_code=TP00036250015925",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420021604?i_code=TP00036420021604",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420026751?i_code=TP00036420026751",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420019055?i_code=TP00036420019055",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420026792?i_code=TP00036420026792",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420020249?i_code=TP00036420020249",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420020528?i_code=TP00036420020528",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420028131?i_code=TP00036420028131",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420026833?i_code=TP00036420026833",
+        "https://s.momoshop.com.tw/s/fl2Rf0yb",
+        "https://s.momoshop.com.tw/s/oQJSwO5B"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074134-kitchen-rack-counter-storage-products",
+      "slug": "kitchen-rack-counter-storage-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000258?i_code=TP00021790000258",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850024153?i_code=TP00035850024153",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850024137?i_code=TP00035850024137",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850024143?i_code=TP00035850024143",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420026531?i_code=TP00036420026531",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090014480?i_code=TP00057090014480",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090014380?i_code=TP00057090014380",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015286?i_code=TP00057090015286",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920013965?i_code=TP00060920013965",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920016269?i_code=TP00060920016269",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690016849?i_code=TP00066690016849",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600008854?i_code=TP00068600008854",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600012175?i_code=TP00068600012175",
+        "https://s.momoshop.com.tw/s/t8YGAzR5",
+        "https://s.momoshop.com.tw/s/xq98P898",
+        "https://www.momoshop.com.tw/TP/TP0003585/main",
+        "https://www.momoshop.com.tw/TP/TP0005709/main",
+        "https://www.momoshop.com.tw/TP/TP0006092/main",
+        "https://www.momoshop.com.tw/TP/TP0006860/main",
+        "https://s.momoshop.com.tw/s/eOG8oA91"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522072406-home-organization-cleaning-kitchen-storage-products",
+      "slug": "home-organization-cleaning-kitchen-storage-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690016472?i_code=TP00066690016472",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030716?i_code=TP00036420030716",
+        "https://www.momoshop.com.tw/TP/TP0004379/goodsDetail/TP00043790000335?i_code=TP00043790000335",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690003884?i_code=TP00066690003884",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600006435?i_code=TP00068600006435",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600006426?i_code=TP00068600006426",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030071?i_code=TP00036420030071",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810020941?i_code=TP00064810020941",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600002516?i_code=TP00068600002516",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690016603?i_code=TP00066690016603",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030088?i_code=TP00036420030088",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600006424?i_code=TP00068600006424",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070000042?i_code=TP00074070000042",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070000035?i_code=TP00074070000035",
+        "https://s.momoshop.com.tw/s/aFpTm3gx",
+        "https://s.momoshop.com.tw/s/bK8NVsFx",
+        "https://www.momoshop.com.tw/TP/TP0006669/main",
+        "https://www.momoshop.com.tw/TP/TP0003642/main",
+        "https://www.momoshop.com.tw/TP/TP0004379/main",
+        "https://www.momoshop.com.tw/TP/TP0006860/main"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074241-family-table-toys-puzzles-gifts-products-2",
+      "slug": "family-table-toys-puzzles-gifts-products-2",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810017637?i_code=TP00064810017637",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810017453?i_code=TP00064810017453",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690017383?i_code=TP00066690017383",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690002403?i_code=TP00066690002403",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690002115?i_code=TP00066690002115",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690007298?i_code=TP00066690007298",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690011149?i_code=TP00066690011149",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690008050?i_code=TP00066690008050",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070007504?i_code=TP00074070007504",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070010200?i_code=TP00074070010200",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070007495?i_code=TP00074070007495",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070007505?i_code=TP00074070007505",
+        "https://s.momoshop.com.tw/s/UnXGNIDr",
+        "https://s.momoshop.com.tw/s/E1JnZean",
+        "https://www.momoshop.com.tw/TP/TP0006669/main",
+        "https://www.momoshop.com.tw/TP/TP0007407/main",
+        "https://www.momoshop.com.tw/TP/TP0006481/main",
+        "https://s.momoshop.com.tw/s/3EOrvUm9",
+        "https://s.momoshop.com.tw/s/KbVrPox5",
+        "https://s.momoshop.com.tw/s/ujjQywxr"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074235-family-table-toys-puzzles-gifts-products",
+      "slug": "family-table-toys-puzzles-gifts-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13767083",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=13827840",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000375?i_code=TP00021790000375",
+        "https://www.momoshop.com.tw/TP/TP0003624/goodsDetail/TP00036240014661?i_code=TP00036240014661",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250013728?i_code=TP00036250013728",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015367?i_code=TP00036250015367",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250010440?i_code=TP00036250010440",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250013809?i_code=TP00036250013809",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250013811?i_code=TP00036250013811",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015389?i_code=TP00036250015389",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090013239?i_code=TP00057090013239",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090014345?i_code=TP00057090014345",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090011670?i_code=TP00057090011670",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920016736?i_code=TP00060920016736",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920007170?i_code=TP00060920007170",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920007023?i_code=TP00060920007023",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014066?i_code=TP00060920014066",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810017464?i_code=TP00064810017464",
+        "https://s.momoshop.com.tw/s/XnvZiLIk",
+        "https://s.momoshop.com.tw/s/d5Aj9J6G"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520142748-family-gifts-blocks-books-puzzles-learning-toys",
+      "slug": "family-gifts-blocks-books-puzzles-learning-toys",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/UAC5Su6o",
+        "https://s.momoshop.com.tw/s/VFroOJ3q",
+        "https://s.momoshop.com.tw/s/kwiLOwSy",
+        "https://s.momoshop.com.tw/s/n7aobXV8",
+        "https://tw.elitefasion.com/lifestyle-culture/family-gifts-blocks-books-puzzles-learning-toys.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/family-gifts-blocks-books-puzzles-learning-toys.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522072349-entryway-shoe-cabinet-umbrella-rack-product-guide",
+      "slug": "entryway-shoe-cabinet-umbrella-rack-product-guide",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016084?i_code=TP00057090016084",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090014891?i_code=TP00057090014891",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090013358?i_code=TP00057090013358",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015152?i_code=TP00057090015152",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015133?i_code=TP00057090015133",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012385?i_code=TP00036250012385",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012378?i_code=TP00036250012378",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070003196?i_code=TP00074070003196",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070007529?i_code=TP00074070007529",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810021151?i_code=TP00064810021151",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810020979?i_code=TP00064810020979",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810021883?i_code=TP00064810021883",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810023296?i_code=TP00064810023296",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420026826?i_code=TP00036420026826",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600008259?i_code=TP00068600008259",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690005781?i_code=TP00066690005781",
+        "https://s.momoshop.com.tw/s/VkY31DM9",
+        "https://s.momoshop.com.tw/s/yb3L42tc",
+        "https://www.momoshop.com.tw/TP/TP0005709/main",
+        "https://www.momoshop.com.tw/TP/TP0003625/main"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522073931-entryway-shoe-cabinet-storage-products-6",
+      "slug": "entryway-shoe-cabinet-storage-products-6",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690015588?i_code=TP00066690015588",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690003303?i_code=TP00066690003303",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690003977?i_code=TP00066690003977",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690013222?i_code=TP00066690013222",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690015368?i_code=TP00066690015368",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690015580?i_code=TP00066690015580",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600008240?i_code=TP00068600008240",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600008255?i_code=TP00068600008255",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600011551?i_code=TP00068600011551",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600008542?i_code=TP00068600008542",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600008263?i_code=TP00068600008263",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600008536?i_code=TP00068600008536",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070000029?i_code=TP00074070000029",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070001526?i_code=TP00074070001526",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070001461?i_code=TP00074070001461",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070008716?i_code=TP00074070008716",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070001532?i_code=TP00074070001532",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070001517?i_code=TP00074070001517",
+        "https://s.momoshop.com.tw/s/uxKaeai6",
+        "https://s.momoshop.com.tw/s/k4IIX7Sl"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522073921-entryway-shoe-cabinet-storage-products-5",
+      "slug": "entryway-shoe-cabinet-storage-products-5",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810021848?i_code=TP00064810021848",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810023321?i_code=TP00064810023321",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810021157?i_code=TP00064810021157",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810014611?i_code=TP00064810014611",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810017143?i_code=TP00064810017143",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810015265?i_code=TP00064810015265",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810017121?i_code=TP00064810017121",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810016566?i_code=TP00064810016566",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810020221?i_code=TP00064810020221",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810020974?i_code=TP00064810020974",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810020195?i_code=TP00064810020195",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690015609?i_code=TP00066690015609",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690015591?i_code=TP00066690015591",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690005766?i_code=TP00066690005766",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690001030?i_code=TP00066690001030",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690008927?i_code=TP00066690008927",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690000210?i_code=TP00066690000210",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690015555?i_code=TP00066690015555",
+        "https://s.momoshop.com.tw/s/c1DiyTTq",
+        "https://s.momoshop.com.tw/s/llv7Vews"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522073911-entryway-shoe-cabinet-storage-products-4",
+      "slug": "entryway-shoe-cabinet-storage-products-4",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920009479?i_code=TP00060920009479",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920012849?i_code=TP00060920012849",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015082?i_code=TP00060920015082",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920013152?i_code=TP00060920013152",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920012844?i_code=TP00060920012844",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920013098?i_code=TP00060920013098",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920012381?i_code=TP00060920012381",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015201?i_code=TP00060920015201",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015091?i_code=TP00060920015091",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015085?i_code=TP00060920015085",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015067?i_code=TP00060920015067",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014740?i_code=TP00060920014740",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015093?i_code=TP00060920015093",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810023325?i_code=TP00064810023325",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810014652?i_code=TP00064810014652",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810021977?i_code=TP00064810021977",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810021824?i_code=TP00064810021824",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810023322?i_code=TP00064810023322",
+        "https://s.momoshop.com.tw/s/7q7wb7HT",
+        "https://s.momoshop.com.tw/s/EJU6CXuQ"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522073902-entryway-shoe-cabinet-storage-products-3",
+      "slug": "entryway-shoe-cabinet-storage-products-3",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015110?i_code=TP00057090015110",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015144?i_code=TP00057090015144",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090017064?i_code=TP00057090017064",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016016?i_code=TP00057090016016",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015131?i_code=TP00057090015131",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015184?i_code=TP00057090015184",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015147?i_code=TP00057090015147",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015120?i_code=TP00057090015120",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015148?i_code=TP00057090015148",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016102?i_code=TP00057090016102",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016104?i_code=TP00057090016104",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015162?i_code=TP00057090015162",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090001645?i_code=TP00057090001645",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014736?i_code=TP00060920014736",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920002594?i_code=TP00060920002594",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015065?i_code=TP00060920015065",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920001296?i_code=TP00060920001296",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015072?i_code=TP00060920015072",
+        "https://s.momoshop.com.tw/s/MLKaeRcy",
+        "https://s.momoshop.com.tw/s/qz3Ot3Lc"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522073852-entryway-shoe-cabinet-storage-products-2",
+      "slug": "entryway-shoe-cabinet-storage-products-2",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012384?i_code=TP00036250012384",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012387?i_code=TP00036250012387",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012379?i_code=TP00036250012379",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012489?i_code=TP00036250012489",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250010506?i_code=TP00036250010506",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012490?i_code=TP00036250012490",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420015706?i_code=TP00036420015706",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420021060?i_code=TP00036420021060",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420026849?i_code=TP00036420026849",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420026927?i_code=TP00036420026927",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420026837?i_code=TP00036420026837",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420019053?i_code=TP00036420019053",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420026972?i_code=TP00036420026972",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420026962?i_code=TP00036420026962",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420026854?i_code=TP00036420026854",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015094?i_code=TP00057090015094",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015136?i_code=TP00057090015136",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090014890?i_code=TP00057090014890",
+        "https://s.momoshop.com.tw/s/DsgASs7J",
+        "https://s.momoshop.com.tw/s/iEA775Za"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522073841-entryway-shoe-cabinet-storage-products",
+      "slug": "entryway-shoe-cabinet-storage-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850024287?i_code=TP00035850024287",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850020363?i_code=TP00035850020363",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850019274?i_code=TP00035850019274",
+        "https://www.momoshop.com.tw/TP/TP0003624/goodsDetail/TP00036240011647?i_code=TP00036240011647",
+        "https://www.momoshop.com.tw/TP/TP0003624/goodsDetail/TP00036240017154?i_code=TP00036240017154",
+        "https://www.momoshop.com.tw/TP/TP0003624/goodsDetail/TP00036240016912?i_code=TP00036240016912",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015756?i_code=TP00036250015756",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015316?i_code=TP00036250015316",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250010938?i_code=TP00036250010938",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012478?i_code=TP00036250012478",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250009301?i_code=TP00036250009301",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012390?i_code=TP00036250012390",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012287?i_code=TP00036250012287",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012461?i_code=TP00036250012461",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250016490?i_code=TP00036250016490",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012314?i_code=TP00036250012314",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012381?i_code=TP00036250012381",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012392?i_code=TP00036250012392",
+        "https://s.momoshop.com.tw/s/0izoX4Ec",
+        "https://s.momoshop.com.tw/s/SUHCVjRS"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074354-drawer-storage-cabinet-small-home-products-52",
+      "slug": "drawer-storage-cabinet-small-home-products-52",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600006436?i_code=TP00068600006436",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600006433?i_code=TP00068600006433",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850022718?i_code=TP00035850022718",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850022725?i_code=TP00035850022725",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015908?i_code=TP00060920015908",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000304?i_code=TP00021790000304",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000318?i_code=TP00021790000318",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015546?i_code=TP00060920015546",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690016116?i_code=TP00066690016116",
+        "https://www.momoshop.com.tw/TP/TP0009548/goodsDetail/TP00095480000004?i_code=TP00095480000004",
+        "https://www.momoshop.com.tw/TP/TP0009548/goodsDetail/TP00095480000001?i_code=TP00095480000001",
+        "https://s.momoshop.com.tw/s/LE6RpLsb",
+        "https://s.momoshop.com.tw/s/JbWvQDIS",
+        "https://www.momoshop.com.tw/TP/TP0006860/main",
+        "https://www.momoshop.com.tw/TP/TP0003585/main",
+        "https://www.momoshop.com.tw/TP/TP0006092/main",
+        "https://www.momoshop.com.tw/TP/TP0002179/main",
+        "https://s.momoshop.com.tw/s/MRv6sD6L",
+        "https://s.momoshop.com.tw/s/fX9olcrA",
+        "https://s.momoshop.com.tw/s/FPGdsR2x"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074353-drawer-storage-cabinet-small-home-products-51",
+      "slug": "drawer-storage-cabinet-small-home-products-51",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070008615?i_code=TP00074070008615",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070001496?i_code=TP00074070001496",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070006286?i_code=TP00074070006286",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070008664?i_code=TP00074070008664",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070007630?i_code=TP00074070007630",
+        "https://www.momoshop.com.tw/TP/TP0003624/goodsDetail/TP00036240014593?i_code=TP00036240014593",
+        "https://www.momoshop.com.tw/TP/TP0003624/goodsDetail/TP00036240012995?i_code=TP00036240012995",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012320?i_code=TP00036250012320",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810023298?i_code=TP00064810023298",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600007248?i_code=TP00068600007248",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690015631?i_code=TP00066690015631",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690015942?i_code=TP00066690015942",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600005877?i_code=TP00068600005877",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600005492?i_code=TP00068600005492",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600014039?i_code=TP00068600014039",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070003318?i_code=TP00074070003318",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070001116?i_code=TP00074070001116",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600006415?i_code=TP00068600006415",
+        "https://s.momoshop.com.tw/s/DhAv37av",
+        "https://s.momoshop.com.tw/s/qMi5l62j"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074009-drawer-storage-cabinet-small-home-products-3",
+      "slug": "drawer-storage-cabinet-small-home-products-3",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014103?i_code=TP00060920014103",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014098?i_code=TP00060920014098",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014105?i_code=TP00060920014105",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014140?i_code=TP00060920014140",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810017486?i_code=TP00064810017486",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810019250?i_code=TP00064810019250",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810020832?i_code=TP00064810020832",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810014607?i_code=TP00064810014607",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690008693?i_code=TP00066690008693",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690016883?i_code=TP00066690016883",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690015952?i_code=TP00066690015952",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690003482?i_code=TP00066690003482",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070000031?i_code=TP00074070000031",
+        "https://s.momoshop.com.tw/s/9QGcTPuT",
+        "https://s.momoshop.com.tw/s/7vHQ4IMj",
+        "https://www.momoshop.com.tw/TP/TP0006092/main",
+        "https://www.momoshop.com.tw/TP/TP0006481/main",
+        "https://www.momoshop.com.tw/TP/TP0006669/main",
+        "https://www.momoshop.com.tw/TP/TP0007407/main",
+        "https://s.momoshop.com.tw/s/OX1qg444"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074002-drawer-storage-cabinet-small-home-products-2",
+      "slug": "drawer-storage-cabinet-small-home-products-2",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015394?i_code=TP00057090015394",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016173?i_code=TP00057090016173",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090015361?i_code=TP00057090015361",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014157?i_code=TP00060920014157",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014849?i_code=TP00060920014849",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014057?i_code=TP00060920014057",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014089?i_code=TP00060920014089",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920016297?i_code=TP00060920016297",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920016304?i_code=TP00060920016304",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014118?i_code=TP00060920014118",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014054?i_code=TP00060920014054",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920007953?i_code=TP00060920007953",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920016277?i_code=TP00060920016277",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014075?i_code=TP00060920014075",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015410?i_code=TP00060920015410",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920012578?i_code=TP00060920012578",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015924?i_code=TP00060920015924",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014861?i_code=TP00060920014861",
+        "https://s.momoshop.com.tw/s/cgyhmuHS",
+        "https://s.momoshop.com.tw/s/jy7xkp3a"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522073952-drawer-storage-cabinet-small-home-products",
+      "slug": "drawer-storage-cabinet-small-home-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790001000?i_code=TP00021790001000",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000115?i_code=TP00021790000115",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850015258?i_code=TP00035850015258",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850023482?i_code=TP00035850023482",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850019699?i_code=TP00035850019699",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850027921?i_code=TP00035850027921",
+        "https://www.momoshop.com.tw/TP/TP0003624/goodsDetail/TP00036240019360?i_code=TP00036240019360",
+        "https://www.momoshop.com.tw/TP/TP0003624/goodsDetail/TP00036240015337?i_code=TP00036240015337",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250010619?i_code=TP00036250010619",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015997?i_code=TP00036250015997",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250016011?i_code=TP00036250016011",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015409?i_code=TP00036250015409",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250016068?i_code=TP00036250016068",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012815?i_code=TP00036250012815",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420019351?i_code=TP00036420019351",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420016934?i_code=TP00036420016934",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090017516?i_code=TP00057090017516",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090017512?i_code=TP00057090017512",
+        "https://s.momoshop.com.tw/s/CKtG2dKU",
+        "https://s.momoshop.com.tw/s/q05oENSl"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520141022-daily-skincare-essence-mask-body-sunscreen-order",
+      "slug": "daily-skincare-essence-mask-body-sunscreen-order",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/sKHLaOjH",
+        "https://s.momoshop.com.tw/s/ZtqN2FYu",
+        "https://s.momoshop.com.tw/s/PGqWPtwc",
+        "https://s.momoshop.com.tw/s/ZzrRLijd",
+        "https://tw.elitefasion.com/lifestyle-culture/daily-skincare-essence-mask-body-sunscreen-order.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/daily-skincare-essence-mask-body-sunscreen-order.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074202-compact-large-furniture-dining-bed-sofa-products-2",
+      "slug": "compact-large-furniture-dining-bed-sofa-products-2",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0004379/goodsDetail/TP00043790001397?i_code=TP00043790001397",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016167?i_code=TP00057090016167",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016664?i_code=TP00057090016664",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016226?i_code=TP00057090016226",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016180?i_code=TP00057090016180",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016166?i_code=TP00057090016166",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090013608?i_code=TP00057090013608",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016158?i_code=TP00057090016158",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016139?i_code=TP00057090016139",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016672?i_code=TP00057090016672",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810019537?i_code=TP00064810019537",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600003185?i_code=TP00068600003185",
+        "https://s.momoshop.com.tw/s/jQ7oWjRv",
+        "https://s.momoshop.com.tw/s/l6zH68I0",
+        "https://www.momoshop.com.tw/TP/TP0005709/main",
+        "https://www.momoshop.com.tw/TP/TP0004379/main",
+        "https://www.momoshop.com.tw/TP/TP0006481/main",
+        "https://www.momoshop.com.tw/TP/TP0006860/main",
+        "https://s.momoshop.com.tw/s/UVOI0kKy",
+        "https://s.momoshop.com.tw/s/601BELz2"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074155-compact-large-furniture-dining-bed-sofa-products",
+      "slug": "compact-large-furniture-dining-bed-sofa-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850023064?i_code=TP00035850023064",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850024969?i_code=TP00035850024969",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850024167?i_code=TP00035850024167",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850023091?i_code=TP00035850023091",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850023095?i_code=TP00035850023095",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850024135?i_code=TP00035850024135",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850024169?i_code=TP00035850024169",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850025858?i_code=TP00035850025858",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850024177?i_code=TP00035850024177",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250009579?i_code=TP00036250009579",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250017327?i_code=TP00036250017327",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250009583?i_code=TP00036250009583",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250012717?i_code=TP00036250012717",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030709?i_code=TP00036420030709",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030245?i_code=TP00036420030245",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030233?i_code=TP00036420030233",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420025580?i_code=TP00036420025580",
+        "https://www.momoshop.com.tw/TP/TP0004379/goodsDetail/TP00043790008197?i_code=TP00043790008197",
+        "https://s.momoshop.com.tw/s/NVEC1pgs",
+        "https://s.momoshop.com.tw/s/GlQ2y0bQ"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074035-closet-laundry-bedroom-storage-products-3",
+      "slug": "closet-laundry-bedroom-storage-products-3",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690000890?i_code=TP00066690000890",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690016022?i_code=TP00066690016022",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600011039?i_code=TP00068600011039",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600002628?i_code=TP00068600002628",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600008595?i_code=TP00068600008595",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600011042?i_code=TP00068600011042",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600012133?i_code=TP00068600012133",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070001588?i_code=TP00074070001588",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070003351?i_code=TP00074070003351",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070001387?i_code=TP00074070001387",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070008155?i_code=TP00074070008155",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070003712?i_code=TP00074070003712",
+        "https://s.momoshop.com.tw/s/lMqN3yot",
+        "https://s.momoshop.com.tw/s/hnjgdCuL",
+        "https://www.momoshop.com.tw/TP/TP0006860/main",
+        "https://www.momoshop.com.tw/TP/TP0007407/main",
+        "https://www.momoshop.com.tw/TP/TP0006669/main",
+        "https://s.momoshop.com.tw/s/1Yv2uKni",
+        "https://s.momoshop.com.tw/s/6rTESfSG",
+        "https://s.momoshop.com.tw/s/6fImAVqy"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074019-closet-laundry-bedroom-storage-products",
+      "slug": "closet-laundry-bedroom-storage-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850019356?i_code=TP00035850019356",
+        "https://www.momoshop.com.tw/TP/TP0003624/goodsDetail/TP00036240014954?i_code=TP00036240014954",
+        "https://www.momoshop.com.tw/TP/TP0003624/goodsDetail/TP00036240014968?i_code=TP00036240014968",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015388?i_code=TP00036250015388",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250013718?i_code=TP00036250013718",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250014166?i_code=TP00036250014166",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420025616?i_code=TP00036420025616",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420025704?i_code=TP00036420025704",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090017209?i_code=TP00057090017209",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090017301?i_code=TP00057090017301",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016875?i_code=TP00057090016875",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090016132?i_code=TP00057090016132",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090004677?i_code=TP00057090004677",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090006728?i_code=TP00057090006728",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014521?i_code=TP00060920014521",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014518?i_code=TP00060920014518",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014542?i_code=TP00060920014542",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014536?i_code=TP00060920014536",
+        "https://s.momoshop.com.tw/s/l9193DYk",
+        "https://s.momoshop.com.tw/s/fj48Wcyj"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520145058-rainy-workday-rain-boots-coat-umbrella-bag-materials",
+      "slug": "rainy-workday-rain-boots-coat-umbrella-bag-materials",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/ryfM995D",
+        "https://s.momoshop.com.tw/s/nc15Ko0V",
+        "https://s.momoshop.com.tw/s/swCkSJDA",
+        "https://s.momoshop.com.tw/s/jEp8GjC8",
+        "https://tw.elitefasion.com/casual-chic/rainy-workday-rain-boots-coat-umbrella-bag-materials.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/rainy-workday-rain-boots-coat-umbrella-bag-materials.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520141022-meeting-grooming-kit-hair-makeup-scent-small-bag",
+      "slug": "meeting-grooming-kit-hair-makeup-scent-small-bag",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/fZ9miz2D",
+        "https://s.momoshop.com.tw/s/wZtIcgSw",
+        "https://s.momoshop.com.tw/s/vRmO2Mp9",
+        "https://s.momoshop.com.tw/s/xWCenaTS",
+        "https://tw.elitefasion.com/casual-chic/meeting-grooming-kit-hair-makeup-scent-small-bag.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/meeting-grooming-kit-hair-makeup-scent-small-bag.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520141022-home-nail-makeup-tools-beginner-storage",
+      "slug": "home-nail-makeup-tools-beginner-storage",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/Y94s3kfK",
+        "https://s.momoshop.com.tw/s/wZtIcgSw",
+        "https://s.momoshop.com.tw/s/xWCenaTS",
+        "https://tw.elitefasion.com/casual-chic/home-nail-makeup-tools-beginner-storage.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/home-nail-makeup-tools-beginner-storage.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074352-hair-accessory-small-gift-products",
+      "slug": "hair-accessory-small-gift-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15104774",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15151035",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15151037",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=15151039",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14987371",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14987373",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14849073",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14849095",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14849090",
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14769641",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850029478?i_code=TP00035850029478",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090018294?i_code=TP00057090018294",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920009377?i_code=TP00060920009377",
+        "https://s.momoshop.com.tw/s/alOd2S3e",
+        "https://s.momoshop.com.tw/s/mu1zvaOI",
+        "https://www.momoshop.com.tw/TP/TP0003585/main",
+        "https://www.momoshop.com.tw/TP/TP0005709/main",
+        "https://www.momoshop.com.tw/TP/TP0006092/main",
+        "https://s.momoshop.com.tw/s/JL5ZJDT3",
+        "https://s.momoshop.com.tw/s/MUSmU11N"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074040-desk-work-corner-furniture-products",
+      "slug": "desk-work-corner-furniture-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850028041?i_code=TP00035850028041",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850025780?i_code=TP00035850025780",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420026638?i_code=TP00036420026638",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015291?i_code=TP00060920015291",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015288?i_code=TP00060920015288",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920016302?i_code=TP00060920016302",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015319?i_code=TP00060920015319",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690015785?i_code=TP00066690015785",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690015735?i_code=TP00066690015735",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600006836?i_code=TP00068600006836",
+        "https://s.momoshop.com.tw/s/tf9xlpNY",
+        "https://s.momoshop.com.tw/s/vfCs2f5U",
+        "https://www.momoshop.com.tw/TP/TP0006092/main",
+        "https://www.momoshop.com.tw/TP/TP0003585/main",
+        "https://www.momoshop.com.tw/TP/TP0006669/main",
+        "https://www.momoshop.com.tw/TP/TP0003642/main",
+        "https://s.momoshop.com.tw/s/BC3TW7vc",
+        "https://s.momoshop.com.tw/s/qKMBAizn",
+        "https://s.momoshop.com.tw/s/5FYGDoRA",
+        "https://s.momoshop.com.tw/s/ba2Um8af"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074107-chair-cushion-home-office-products-3",
+      "slug": "chair-cushion-home-office-products-3",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600008548?i_code=TP00068600008548",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600000554?i_code=TP00068600000554",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600007815?i_code=TP00068600007815",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600009884?i_code=TP00068600009884",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600005133?i_code=TP00068600005133",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600011838?i_code=TP00068600011838",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600011911?i_code=TP00068600011911",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600008551?i_code=TP00068600008551",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600011176?i_code=TP00068600011176",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070009497?i_code=TP00074070009497",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070010109?i_code=TP00074070010109",
+        "https://s.momoshop.com.tw/s/jlB7tlY7",
+        "https://s.momoshop.com.tw/s/xOPyXo73",
+        "https://www.momoshop.com.tw/TP/TP0006860/main",
+        "https://www.momoshop.com.tw/TP/TP0007407/main",
+        "https://s.momoshop.com.tw/s/6Tp6jC1T",
+        "https://s.momoshop.com.tw/s/aHAf8Qp3",
+        "https://s.momoshop.com.tw/s/5FAJgEmd",
+        "https://s.momoshop.com.tw/s/661NoTTG",
+        "https://s.momoshop.com.tw/s/Azx8U5RT"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074101-chair-cushion-home-office-products-2",
+      "slug": "chair-cushion-home-office-products-2",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420018505?i_code=TP00036420018505",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420024487?i_code=TP00036420024487",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030691?i_code=TP00036420030691",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090017337?i_code=TP00057090017337",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920012994?i_code=TP00060920012994",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014450?i_code=TP00060920014450",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014444?i_code=TP00060920014444",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810019983?i_code=TP00064810019983",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810015981?i_code=TP00064810015981",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810019981?i_code=TP00064810019981",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810019979?i_code=TP00064810019979",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810015994?i_code=TP00064810015994",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810016019?i_code=TP00064810016019",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810017508?i_code=TP00064810017508",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690006605?i_code=TP00066690006605",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690005912?i_code=TP00066690005912",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600010889?i_code=TP00068600010889",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600010867?i_code=TP00068600010867",
+        "https://s.momoshop.com.tw/s/VVtYZN2s",
+        "https://s.momoshop.com.tw/s/NiYWTVZp"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074051-chair-cushion-home-office-products",
+      "slug": "chair-cushion-home-office-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850026260?i_code=TP00035850026260",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850024172?i_code=TP00035850024172",
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850019437?i_code=TP00035850019437",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250011355?i_code=TP00036250011355",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250011356?i_code=TP00036250011356",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250011366?i_code=TP00036250011366",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250011347?i_code=TP00036250011347",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250011361?i_code=TP00036250011361",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250011300?i_code=TP00036250011300",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250011307?i_code=TP00036250011307",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250011345?i_code=TP00036250011345",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250010518?i_code=TP00036250010518",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250011338?i_code=TP00036250011338",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250013266?i_code=TP00036250013266",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420024484?i_code=TP00036420024484",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420024499?i_code=TP00036420024499",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420025574?i_code=TP00036420025574",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420023436?i_code=TP00036420023436",
+        "https://s.momoshop.com.tw/s/M2jI8xO7",
+        "https://s.momoshop.com.tw/s/BHlPRV4w"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074353-ai-work-gadgets-translation-audio-products",
+      "slug": "ai-work-gadgets-translation-audio-products",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=14791194",
+        "https://www.momoshop.com.tw/TP/TP0007070/goodsDetail/TP00070700000652?i_code=TP00070700000652",
+        "https://www.momoshop.com.tw/TP/TP0007070/goodsDetail/TP00070700000602?i_code=TP00070700000602",
+        "https://www.momoshop.com.tw/TP/TP0007070/goodsDetail/TP00070700000603?i_code=TP00070700000603",
+        "https://www.momoshop.com.tw/TP/TP0007070/goodsDetail/TP00070700000582?i_code=TP00070700000582",
+        "https://www.momoshop.com.tw/TP/TP0008114/goodsDetail/TP00081140009683?i_code=TP00081140009683",
+        "https://s.momoshop.com.tw/s/EMMSVvGj",
+        "https://s.momoshop.com.tw/s/zYgGwGBZ",
+        "https://www.momoshop.com.tw/TP/TP0007070/main",
+        "https://www.momoshop.com.tw/TP/TP0008114/main",
+        "https://s.momoshop.com.tw/s/FgRt2DPd",
+        "https://s.momoshop.com.tw/s/377ycVvf",
+        "https://s.momoshop.com.tw/s/9Xvm8OW5",
+        "https://s.momoshop.com.tw/s/7wKR28Fm",
+        "https://tw.elitefasion.com/ai-innovation/ai-work-gadgets-translation-audio-products.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/ai-work-gadgets-translation-audio-products.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520070134-office-coffee-beans-drip-bags-workday-guide",
+      "slug": "office-coffee-beans-drip-bags-workday-guide",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/bFEJWfRq",
+        "https://s.momoshop.com.tw/s/O65x7oTq",
+        "https://s.momoshop.com.tw/s/e5Xbw4aC",
+        "https://s.momoshop.com.tw/s/8fdDrXQw",
+        "https://tw.elitefasion.com/lifestyle-culture/office-coffee-beans-drip-bags-workday-guide.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/office-coffee-beans-drip-bags-workday-guide.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520045418-home-cleaning-products-bathroom-kitchen-odor-guide",
+      "slug": "home-cleaning-products-bathroom-kitchen-odor-guide",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/lPy3YzOW",
+        "https://s.momoshop.com.tw/s/PDdeWsws",
+        "https://s.momoshop.com.tw/s/krK2QPdO",
+        "https://tw.elitefasion.com/lifestyle-culture/home-cleaning-products-bathroom-kitchen-odor-guide.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/home-cleaning-products-bathroom-kitchen-odor-guide.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522072417-family-gift-toys-puzzles-kites-storage-guide",
+      "slug": "family-gift-toys-puzzles-kites-storage-guide",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000643?i_code=TP00021790000643",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000561?i_code=TP00021790000561",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000560?i_code=TP00021790000560",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000305?i_code=TP00021790000305",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000328?i_code=TP00021790000328",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000123?i_code=TP00021790000123",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000998?i_code=TP00021790000998",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790001178?i_code=TP00021790001178",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000415?i_code=TP00021790000415",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000620?i_code=TP00021790000620",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790001126?i_code=TP00021790001126",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000372?i_code=TP00021790000372",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000320?i_code=TP00021790000320",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000336?i_code=TP00021790000336",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790001111?i_code=TP00021790001111",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000609?i_code=TP00021790000609",
+        "https://www.momoshop.com.tw/TP/TP0002179/goodsDetail/TP00021790000610?i_code=TP00021790000610",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070002470?i_code=TP00074070002470",
+        "https://s.momoshop.com.tw/s/G3hdJACb",
+        "https://s.momoshop.com.tw/s/jXnyj3hs"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520061048-second-monitor-laptop-desk-setup-ai-workflow",
+      "slug": "second-monitor-laptop-desk-setup-ai-workflow",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/NbN84MXv",
+        "https://s.momoshop.com.tw/s/7CYQWKtd",
+        "https://s.momoshop.com.tw/s/LJfvOb7h",
+        "https://tw.elitefasion.com/ai-innovation/second-monitor-laptop-desk-setup-ai-workflow.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/second-monitor-laptop-desk-setup-ai-workflow.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520061048-mobile-photography-cpl-rig-outdoor-creator-kit",
+      "slug": "mobile-photography-cpl-rig-outdoor-creator-kit",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/FYL1kuHK",
+        "https://s.momoshop.com.tw/s/3dzd3eM8",
+        "https://s.momoshop.com.tw/s/LJfvOb7h",
+        "https://tw.elitefasion.com/ai-innovation/mobile-photography-cpl-rig-outdoor-creator-kit.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/mobile-photography-cpl-rig-outdoor-creator-kit.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520061048-faceless-content-phone-rig-filter-light-audio",
+      "slug": "faceless-content-phone-rig-filter-light-audio",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/3dzd3eM8",
+        "https://s.momoshop.com.tw/s/FYL1kuHK",
+        "https://s.momoshop.com.tw/s/QRphUL7q",
+        "https://tw.elitefasion.com/ai-innovation/faceless-content-phone-rig-filter-light-audio.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/faceless-content-phone-rig-filter-light-audio.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520061048-ai-workflow-laptop-spec-warranty-monitor-backup",
+      "slug": "ai-workflow-laptop-spec-warranty-monitor-backup",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/7CYQWKtd",
+        "https://s.momoshop.com.tw/s/gWYWVw5Q",
+        "https://s.momoshop.com.tw/s/NbN84MXv",
+        "https://tw.elitefasion.com/ai-innovation/ai-workflow-laptop-spec-warranty-monitor-backup.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/ai-workflow-laptop-spec-warranty-monitor-backup.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520142748-pet-friendly-home-cleaning-floor-laundry-storage",
+      "slug": "pet-friendly-home-cleaning-floor-laundry-storage",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/oKlc1t2I",
+        "https://s.momoshop.com.tw/s/krK2QPdO",
+        "https://s.momoshop.com.tw/s/zwczlnq2",
+        "https://s.momoshop.com.tw/s/NaHe80dq",
+        "https://tw.elitefasion.com/lifestyle-culture/pet-friendly-home-cleaning-floor-laundry-storage.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/pet-friendly-home-cleaning-floor-laundry-storage.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520142748-pet-daily-supplies-food-snack-cleaning-outing",
+      "slug": "pet-daily-supplies-food-snack-cleaning-outing",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/HPO6XLAm",
+        "https://s.momoshop.com.tw/s/mfFnLSfH",
+        "https://s.momoshop.com.tw/s/pZcJQohH",
+        "https://s.momoshop.com.tw/s/1ZVmRBtY",
+        "https://tw.elitefasion.com/lifestyle-culture/pet-daily-supplies-food-snack-cleaning-outing.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/pet-daily-supplies-food-snack-cleaning-outing.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522073941-folding-storage-box-closet-underbed-products",
+      "slug": "folding-storage-box-closet-underbed-products",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003585/goodsDetail/TP00035850028146?i_code=TP00035850028146",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015653?i_code=TP00036250015653",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420024547?i_code=TP00036420024547",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420025628?i_code=TP00036420025628",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090017725?i_code=TP00057090017725",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015529?i_code=TP00060920015529",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015408?i_code=TP00060920015408",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014101?i_code=TP00060920014101",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015377?i_code=TP00060920015377",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015178?i_code=TP00060920015178",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015420?i_code=TP00060920015420",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810016515?i_code=TP00064810016515",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810022756?i_code=TP00064810022756",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810019263?i_code=TP00064810019263",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810017139?i_code=TP00064810017139",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810016281?i_code=TP00064810016281",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690016090?i_code=TP00066690016090",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690015894?i_code=TP00066690015894",
+        "https://s.momoshop.com.tw/s/TIybU5FX",
+        "https://s.momoshop.com.tw/s/a2MJgvFr"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522074028-closet-laundry-bedroom-storage-products-2",
+      "slug": "closet-laundry-bedroom-storage-products-2",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014565?i_code=TP00060920014565",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920015186?i_code=TP00060920015186",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014336?i_code=TP00060920014336",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920012931?i_code=TP00060920012931",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014550?i_code=TP00060920014550",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920007019?i_code=TP00060920007019",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014531?i_code=TP00060920014531",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014571?i_code=TP00060920014571",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920011988?i_code=TP00060920011988",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920016088?i_code=TP00060920016088",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014575?i_code=TP00060920014575",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014549?i_code=TP00060920014549",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014566?i_code=TP00060920014566",
+        "https://www.momoshop.com.tw/TP/TP0006092/goodsDetail/TP00060920014520?i_code=TP00060920014520",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810023824?i_code=TP00064810023824",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810024367?i_code=TP00064810024367",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690015625?i_code=TP00066690015625",
+        "https://www.momoshop.com.tw/TP/TP0006669/goodsDetail/TP00066690016660?i_code=TP00066690016660",
+        "https://s.momoshop.com.tw/s/1Y3neDuT",
+        "https://s.momoshop.com.tw/s/J7U6IvY5"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520142748-cat-home-litter-toys-food-cleaning-order",
+      "slug": "cat-home-litter-toys-food-cleaning-order",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/O5Hol79Q",
+        "https://s.momoshop.com.tw/s/8eAD0A67",
+        "https://s.momoshop.com.tw/s/RHlpB4X8",
+        "https://s.momoshop.com.tw/s/RUGRNKlN",
+        "https://tw.elitefasion.com/lifestyle-culture/cat-home-litter-toys-food-cleaning-order.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/cat-home-litter-toys-food-cleaning-order.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520070134-quality-gifting-coffee-tea-massage-umbrella-custom",
+      "slug": "quality-gifting-coffee-tea-massage-umbrella-custom",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/6VaimQ3z",
+        "https://s.momoshop.com.tw/s/k0TRpEEQ",
+        "https://s.momoshop.com.tw/s/fQyUCDn2",
+        "https://s.momoshop.com.tw/s/f1zXSS5P",
+        "https://tw.elitefasion.com/lifestyle-culture/quality-gifting-coffee-tea-massage-umbrella-custom.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/quality-gifting-coffee-tea-massage-umbrella-custom.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520061048-consultant-remote-work-bag-charging-audio-presentation",
+      "slug": "consultant-remote-work-bag-charging-audio-presentation",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T17:02:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/LJfvOb7h",
+        "https://s.momoshop.com.tw/s/QRphUL7q",
+        "https://s.momoshop.com.tw/s/NbN84MXv",
+        "https://tw.elitefasion.com/ai-innovation/consultant-remote-work-bag-charging-audio-presentation.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/consultant-remote-work-bag-charging-audio-presentation.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
     {
       "articleId": "legacy-wellness-movement-yoga-focus-productivity-html",
       "slug": "yoga-focus-productivity",
