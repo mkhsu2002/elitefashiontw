@@ -915,8 +915,39 @@ def render_featured_brands(article: dict[str, Any]) -> str:
         </section>"""
 
 
+def product_identity(product: dict[str, Any]) -> str:
+    for key in ("merchantId", "sourceProductUrl", "affiliateUrl", "name"):
+        value = str(product.get(key) or "").strip()
+        if value:
+            return value
+    return json.dumps(product, ensure_ascii=False, sort_keys=True)
+
+
+def sidebar_products_for_article(article: dict[str, Any], *, minimum: int = 4, maximum: int = 6) -> list[dict[str, Any]]:
+    products: list[dict[str, Any]] = []
+    seen: set[str] = set()
+
+    def append_unique(product: Any) -> None:
+        if not isinstance(product, dict):
+            return
+        identity = product_identity(product)
+        if identity in seen:
+            return
+        seen.add(identity)
+        products.append(product)
+
+    for product in article.get("sidebarProducts") or []:
+        append_unique(product)
+    if len(products) < minimum:
+        for product in article.get("mainProducts") or []:
+            append_unique(product)
+            if len(products) >= maximum:
+                break
+    return products[:maximum]
+
+
 def render_product_sidebar(article: dict[str, Any], *, mobile: bool = False) -> str:
-    products = article.get("sidebarProducts") or []
+    products = sidebar_products_for_article(article)
     if not products:
         return ""
     cards = "\n".join(
@@ -1092,8 +1123,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
     category = categories.get(article["category"])
     category_label = category.label if category else article["category"]
     faq_items = "\n".join(
-        f"""
-            <details class="faq-item">
+        f"""            <details class="faq-item">
                 <summary>{html.escape(item['question'])}</summary>
                 <p>{html.escape(item['answer'])}</p>
             </details>"""
@@ -1210,12 +1240,13 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         featured_brands_html = render_featured_brands(article)
         desktop_sidebar_html = render_product_sidebar(article)
         mobile_sidebar_html = render_product_sidebar(article, mobile=True)
+        layout_class = "product-article-layout" if desktop_sidebar_html else "product-article-layout product-article-layout-single"
         lead_sections_html = "\n".join(section_parts[:2])
         middle_sections_html = "\n".join(section_parts[2:4])
         ending_sections_html = "\n".join(section_parts[4:])
         article_body_html = f"""
         <p class="article-intro-copy">{html.escape(article['intro'])}</p>
-        <div class="product-article-layout">
+        <div class="{layout_class}">
             <div class="product-article-main">
 {lead_sections_html}
 {product_grid_html}
@@ -1430,6 +1461,9 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
             grid-template-columns: minmax(0, 1fr) 320px;
             gap: 34px;
             align-items: start;
+        }}
+        .product-article-layout-single {{
+            grid-template-columns: minmax(0, 1fr);
         }}
         .product-article-main {{
             min-width: 0;

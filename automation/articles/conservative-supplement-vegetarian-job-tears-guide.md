@@ -96,10 +96,10 @@ BWYA 薏仁錠、JAYSUWAN-健素旺和本草養生 From Nature，可以從薏仁
 
 ## Elite 嚴選
 
-- [BWYA 薏仁錠創始品牌 選物頁](https://s.momoshop.com.tw/s/v6tYs77T)：可從薏仁錠、成分標示與保守日常補給方向參考。。本篇以使用情境、商品頁資訊與保守比較順序整理，不寫成單一答案。
-- [JAYSUWAN-健素旺 選物頁](https://s.momoshop.com.tw/s/a3NJCgKg)：適合作為素食營養與日常補給品項比較。。本篇以使用情境、商品頁資訊與保守比較順序整理，不寫成單一答案。
-- [本草養生From Nature 選物頁](https://s.momoshop.com.tw/s/c5vCEHr4)：可補充草本沖泡、一般飲品與日常補給脈絡。。本篇以使用情境、商品頁資訊與保守比較順序整理，不寫成單一答案。
-- [富達醫材 選物頁](https://s.momoshop.com.tw/s/muT80PtA)：適合查看醫材通路與相關生活用品標示。。本篇以使用情境、商品頁資訊與保守比較順序整理，不寫成單一答案。
+- [BWYA 薏仁錠創始品牌 選物頁](https://s.momoshop.com.tw/s/v6tYs77T)：可從薏仁錠、成分標示與保守日常補給方向參考；下單前請搭配商品頁的規格、材質與配送資訊確認。
+- [JAYSUWAN-健素旺 選物頁](https://s.momoshop.com.tw/s/a3NJCgKg)：適合作為素食營養與日常補給品項比較；下單前請搭配商品頁的規格、材質與配送資訊確認。
+- [本草養生From Nature 選物頁](https://s.momoshop.com.tw/s/c5vCEHr4)：可補充草本沖泡、一般飲品與日常補給脈絡；下單前請搭配商品頁的規格、材質與配送資訊確認。
+- [富達醫材 選物頁](https://s.momoshop.com.tw/s/muT80PtA)：適合查看醫材通路與相關生活用品標示；下單前請搭配商品頁的規格、材質與配送資訊確認。
 
 ## 同主題品牌參考
 

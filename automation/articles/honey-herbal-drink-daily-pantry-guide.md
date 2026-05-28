@@ -104,10 +104,10 @@
 
 ## Elite 嚴選
 
-- [本草養生From Nature 選物頁](https://s.momoshop.com.tw/s/c5vCEHr4)：可從草本飲、沖泡飲與日常補給方向參考。。本篇以使用情境、商品頁資訊與保守比較順序整理，不寫成單一答案。
-- [三代養蜂場【南投小農】 選物頁](https://s.momoshop.com.tw/s/9IfB6T5I)：適合查看蜂蜜、早餐搭配與小農伴手禮。。本篇以使用情境、商品頁資訊與保守比較順序整理，不寫成單一答案。
-- [BBHONEY 選物頁](https://s.momoshop.com.tw/s/Ch242VBU)：可補充蜂蜜、料理搭配與送禮選項。。本篇以使用情境、商品頁資訊與保守比較順序整理，不寫成單一答案。
-- [清涼酵素 Cingliang  Shiau Su 選物頁](https://s.momoshop.com.tw/s/cXwPt6mC)：適合作為風味飲品與沖泡情境參考。。本篇以使用情境、商品頁資訊與保守比較順序整理，不寫成單一答案。
+- [本草養生From Nature 選物頁](https://s.momoshop.com.tw/s/c5vCEHr4)：可從草本飲、沖泡飲與日常補給方向參考；下單前請搭配商品頁的規格、材質與配送資訊確認。
+- [三代養蜂場【南投小農】 選物頁](https://s.momoshop.com.tw/s/9IfB6T5I)：適合查看蜂蜜、早餐搭配與小農伴手禮；下單前請搭配商品頁的規格、材質與配送資訊確認。
+- [BBHONEY 選物頁](https://s.momoshop.com.tw/s/Ch242VBU)：可補充蜂蜜、料理搭配與送禮選項；下單前請搭配商品頁的規格、材質與配送資訊確認。
+- [清涼酵素 Cingliang  Shiau Su 選物頁](https://s.momoshop.com.tw/s/cXwPt6mC)：適合作為風味飲品與沖泡情境參考；下單前請搭配商品頁的規格、材質與配送資訊確認。
 
 ## 同主題品牌參考
 

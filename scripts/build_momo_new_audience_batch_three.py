@@ -661,6 +661,7 @@ def merchant_card(row: dict[str, str], article_slug: str, reason: str) -> dict[s
     brand = row["brand"].strip()
     promo = row.get("promo_link", "").strip()
     store = row.get("store_link", "").strip() or f"https://www.momoshop.com.tw/TP/{row['merchant_id']}/main"
+    public_reason = reason.rstrip("。.!！")
     return {
         "name": f"{brand} 選物頁",
         "merchantId": row["merchant_id"],
@@ -668,7 +669,7 @@ def merchant_card(row: dict[str, str], article_slug: str, reason: str) -> dict[s
         "affiliateUrl": promo or store,
         "sourceProductUrl": store,
         "imageCredit": f"圖片來源：momo 店家頁｜{brand}",
-        "selectionReason": f"{reason}。本篇以使用情境、商品頁資訊與保守比較順序整理，不寫成單一答案。",
+        "selectionReason": f"{public_reason}；下單前請搭配商品頁的規格、材質與配送資訊確認。",
         "riskNote": "規格、活動與即時販售資訊請以下單前商品頁公告為準。",
         "subId": f"{article_slug}_{row['merchant_id']}",
     }
@@ -754,7 +755,7 @@ def build_article(
         "status": "published",
         "queueId": QUEUE_ID,
         "mainProducts": cards[:4],
-        "sidebarProducts": cards[4:],
+        "sidebarProducts": cards[:6],
         "featuredBrands": [
             {
                 "name": row["brand"],

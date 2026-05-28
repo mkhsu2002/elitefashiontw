@@ -96,10 +96,10 @@ FienHome、上手家居和匠藝家居可以從小型收納、生活用品與家
 
 ## Elite 嚴選
 
-- [睿睿購文具舖 選物頁](https://s.momoshop.com.tw/s/kSuOB5AF)：適合作為手帳、文具與桌面辦公用品參考。。本篇以使用情境、商品頁資訊與保守比較順序整理，不寫成單一答案。
-- [御座椅業 選物頁](https://s.momoshop.com.tw/s/pKUujlHc)：可從椅子、座高與居家工作坐具方向比較。。本篇以使用情境、商品頁資訊與保守比較順序整理，不寫成單一答案。
-- [FienHome 選物頁](https://s.momoshop.com.tw/s/vvfddXLA)：可補充小宅收納、生活用品與桌面整理物件。。本篇以使用情境、商品頁資訊與保守比較順序整理，不寫成單一答案。
-- [上手家居(Comfort At Products) 選物頁](https://s.momoshop.com.tw/s/KCDYVHhE)：適合查看小家具、收納與居家舒適用品。。本篇以使用情境、商品頁資訊與保守比較順序整理，不寫成單一答案。
+- [睿睿購文具舖 選物頁](https://s.momoshop.com.tw/s/kSuOB5AF)：適合作為手帳、文具與桌面辦公用品參考；下單前請搭配商品頁的規格、材質與配送資訊確認。
+- [御座椅業 選物頁](https://s.momoshop.com.tw/s/pKUujlHc)：可從椅子、座高與居家工作坐具方向比較；下單前請搭配商品頁的規格、材質與配送資訊確認。
+- [FienHome 選物頁](https://s.momoshop.com.tw/s/vvfddXLA)：可補充小宅收納、生活用品與桌面整理物件；下單前請搭配商品頁的規格、材質與配送資訊確認。
+- [上手家居(Comfort At Products) 選物頁](https://s.momoshop.com.tw/s/KCDYVHhE)：適合查看小家具、收納與居家舒適用品；下單前請搭配商品頁的規格、材質與配送資訊確認。
 
 ## 同主題品牌參考
 
