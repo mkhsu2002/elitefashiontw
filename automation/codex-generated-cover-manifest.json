@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T14:20:00-07:00",
+  "updatedAt": "2026-05-28T23:16:24Z",
   "generator": "codex-imagegen-built-in",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -176,6 +176,78 @@
       "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0566c1c1739cc09e016a18b0d66f74819baa2307c8e5d82a7f.png",
       "sha256": "2f9b18cf9b391c596e082df967657bede4ab1d1ca6e00dba23263473a928a6e0",
       "promptSummary": "明亮廚房檯面上的無品牌補給瓶、素食點心、飲水杯、筆記本與收納托盤"
+    },
+    "bathroom-vanity-hair-scalp-makeup-storage": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18c72e585c81939fdff1bc6d5b362c.png",
+      "output": "images/optimized/article-covers/bathroom-vanity-hair-scalp-makeup-storage.jpg",
+      "sha256": "3a0375502e32a22e92c0ba8043fdbe8d1f59dd9d69afbc993da322e271669ddf",
+      "generatedAt": "2026-05-28T23:16:24Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "school-study-corner-stationery-books-kids-toothbrush": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18c7692d6081938c4165d2e92a35ce.png",
+      "output": "images/optimized/article-covers/school-study-corner-stationery-books-kids-toothbrush.jpg",
+      "sha256": "cfd14fae4dcd56858fe4c1be3172be72543f9cb0a80d880169b9bdacf84e013b",
+      "generatedAt": "2026-05-28T23:16:24Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "swimming-outdoor-class-kids-prep": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18c79df4ec81938817895351e2c17c.png",
+      "output": "images/optimized/article-covers/swimming-outdoor-class-kids-prep.jpg",
+      "sha256": "32654ddddee9e68084579307c30bc0360c6427f646034f9a0c96017ec3185783",
+      "generatedAt": "2026-05-28T23:16:24Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "road-trip-camping-dashcam-jump-starter-cookware": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18c7d631b08193b7fa1d11f4f2ca81.png",
+      "output": "images/optimized/article-covers/road-trip-camping-dashcam-jump-starter-cookware.jpg",
+      "sha256": "7ea5f1ba5cac2c99d54defcd6dce8ddcb0131400f3225bedf2830d989b908bac",
+      "generatedAt": "2026-05-28T23:16:24Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "elder-travel-vision-reading-sunglasses-luggage": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18c816a8e481939d18f3c03ba1e828.png",
+      "output": "images/optimized/article-covers/elder-travel-vision-reading-sunglasses-luggage.jpg",
+      "sha256": "ea6d42aa4b2103f5c37ef2f1675d44f59b5a28f880feb6538e154febd110b8bc",
+      "generatedAt": "2026-05-28T23:16:24Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "pet-birthday-gift-cake-snack-toy": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18c85e06748193a87b7419c0c05727.png",
+      "output": "images/optimized/article-covers/pet-birthday-gift-cake-snack-toy.jpg",
+      "sha256": "ac1cb9e1b1e8cfaab2f68d00c3c881b6cd609606b832d89cab3f49646a2d4eb5",
+      "generatedAt": "2026-05-28T23:16:24Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "aquarium-reptile-small-pet-restock-list": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18c8a255508193996f626efcc500f6.png",
+      "output": "images/optimized/article-covers/aquarium-reptile-small-pet-restock-list.jpg",
+      "sha256": "5fe43a4c8fbd050fd1e967e06ba13237dd419bb2d6beddb8957af3981899bad8",
+      "generatedAt": "2026-05-28T23:16:24Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "office-sitting-low-barrier-stretch-snack-pillow": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18c8e240008193af3865c18a3d88a9.png",
+      "output": "images/optimized/article-covers/office-sitting-low-barrier-stretch-snack-pillow.jpg",
+      "sha256": "698d878d796685a6dad9c7583c3e7ccaf9f84f13586117732351558116b6fa70",
+      "generatedAt": "2026-05-28T23:16:24Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
     }
   }
 }

@@ -1,7 +1,569 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T22:06:29Z",
+  "updatedAt": "2026-05-28T23:17:09Z",
   "entries": [
+    {
+      "articleId": "auto-20260528231624-office-sitting-low-barrier-stretch-snack-pillow",
+      "slug": "office-sitting-low-barrier-stretch-snack-pillow",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:17:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0008962/main",
+        "https://www.momoshop.com.tw/TP/TP0008981/main",
+        "https://www.momoshop.com.tw/TP/TP0006455/main",
+        "https://www.momoshop.com.tw/TP/TP0007439/main",
+        "https://s.momoshop.com.tw/s/zAAZtWYW",
+        "https://s.momoshop.com.tw/s/jpF4gRvm",
+        "https://s.momoshop.com.tw/s/Cv5Tr7rp",
+        "https://s.momoshop.com.tw/s/muT80PtA",
+        "https://tw.elitefasion.com/wellness-movement/office-sitting-low-barrier-stretch-snack-pillow.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/office-sitting-low-barrier-stretch-snack-pillow.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528231624-aquarium-reptile-small-pet-restock-list",
+      "slug": "aquarium-reptile-small-pet-restock-list",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:17:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0009226/main",
+        "https://www.momoshop.com.tw/TP/TP0008082/main",
+        "https://www.momoshop.com.tw/TP/TP0000551/main",
+        "https://www.momoshop.com.tw/TP/TP0004035/main",
+        "https://s.momoshop.com.tw/s/ISsEn1KG",
+        "https://s.momoshop.com.tw/s/jo08nrnp",
+        "https://s.momoshop.com.tw/s/KFdAhwTk",
+        "https://s.momoshop.com.tw/s/xPZAjTYg",
+        "https://tw.elitefasion.com/lifestyle-culture/aquarium-reptile-small-pet-restock-list.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/aquarium-reptile-small-pet-restock-list.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528231624-pet-birthday-gift-cake-snack-toy",
+      "slug": "pet-birthday-gift-cake-snack-toy",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:17:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0001817/main",
+        "https://www.momoshop.com.tw/TP/TP0009366/main",
+        "https://www.momoshop.com.tw/TP/TP0002315/main",
+        "https://www.momoshop.com.tw/TP/TP0000155/main",
+        "https://www.momoshop.com.tw/TP/TP0006730/main",
+        "https://s.momoshop.com.tw/s/SQzSppW8",
+        "https://s.momoshop.com.tw/s/YDyfAGk2",
+        "https://s.momoshop.com.tw/s/WhDreGli",
+        "https://s.momoshop.com.tw/s/OCsunL1u",
+        "https://s.momoshop.com.tw/s/CgErM8Xk",
+        "https://tw.elitefasion.com/lifestyle-culture/pet-birthday-gift-cake-snack-toy.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/pet-birthday-gift-cake-snack-toy.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528231624-elder-travel-vision-reading-sunglasses-luggage",
+      "slug": "elder-travel-vision-reading-sunglasses-luggage",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:17:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0009515/main",
+        "https://www.momoshop.com.tw/TP/TP0000151/main",
+        "https://www.momoshop.com.tw/TP/TP0005391/main",
+        "https://www.momoshop.com.tw/TP/TP0002546/main",
+        "https://s.momoshop.com.tw/s/dkaqpz0C",
+        "https://s.momoshop.com.tw/s/duBrTku1",
+        "https://s.momoshop.com.tw/s/uUX2ICw8",
+        "https://s.momoshop.com.tw/s/OagsJNH4",
+        "https://tw.elitefasion.com/outdoor-escapes/elder-travel-vision-reading-sunglasses-luggage.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/elder-travel-vision-reading-sunglasses-luggage.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528231624-road-trip-camping-dashcam-jump-starter-cookware",
+      "slug": "road-trip-camping-dashcam-jump-starter-cookware",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:17:08Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0001376/main",
+        "https://www.momoshop.com.tw/TP/TP0007559/main",
+        "https://www.momoshop.com.tw/TP/TP0000363/main",
+        "https://www.momoshop.com.tw/TP/TP0009471/main",
+        "https://www.momoshop.com.tw/TP/TP0000074/main",
+        "https://s.momoshop.com.tw/s/XZE0axlH",
+        "https://s.momoshop.com.tw/s/WlglCh1p",
+        "https://s.momoshop.com.tw/s/aT1BdnAJ",
+        "https://s.momoshop.com.tw/s/vRiQLpE7",
+        "https://s.momoshop.com.tw/s/Njmm2CjZ",
+        "https://tw.elitefasion.com/outdoor-escapes/road-trip-camping-dashcam-jump-starter-cookware.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/road-trip-camping-dashcam-jump-starter-cookware.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528231624-swimming-outdoor-class-kids-prep",
+      "slug": "swimming-outdoor-class-kids-prep",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:17:08Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003976/main",
+        "https://www.momoshop.com.tw/TP/TP0006789/main",
+        "https://www.momoshop.com.tw/TP/TP0004495/main",
+        "https://www.momoshop.com.tw/TP/TP0000485/main",
+        "https://www.momoshop.com.tw/TP/TP0003190/main",
+        "https://s.momoshop.com.tw/s/ffzVYIsx",
+        "https://s.momoshop.com.tw/s/IVRwz3Zx",
+        "https://s.momoshop.com.tw/s/2PMqts4h",
+        "https://s.momoshop.com.tw/s/tqbP8pEw",
+        "https://s.momoshop.com.tw/s/yLK57l7z",
+        "https://tw.elitefasion.com/outdoor-escapes/swimming-outdoor-class-kids-prep.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/swimming-outdoor-class-kids-prep.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528231624-school-study-corner-stationery-books-kids-toothbrush",
+      "slug": "school-study-corner-stationery-books-kids-toothbrush",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:17:08Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0001367/main",
+        "https://www.momoshop.com.tw/TP/TP0001495/main",
+        "https://www.momoshop.com.tw/TP/TP0001633/main",
+        "https://www.momoshop.com.tw/TP/TP0000500/main",
+        "https://www.momoshop.com.tw/TP/TP0004956/main",
+        "https://s.momoshop.com.tw/s/VsdUYUMZ",
+        "https://s.momoshop.com.tw/s/kSuOB5AF",
+        "https://s.momoshop.com.tw/s/Ydp75Zlm",
+        "https://s.momoshop.com.tw/s/R6oN3ZHI",
+        "https://s.momoshop.com.tw/s/WEcBeKWv",
+        "https://tw.elitefasion.com/lifestyle-culture/school-study-corner-stationery-books-kids-toothbrush.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/school-study-corner-stationery-books-kids-toothbrush.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528231624-bathroom-vanity-hair-scalp-makeup-storage",
+      "slug": "bathroom-vanity-hair-scalp-makeup-storage",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:17:08Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0009062/main",
+        "https://www.momoshop.com.tw/TP/TP0005464/main",
+        "https://www.momoshop.com.tw/TP/TP0003175/main",
+        "https://www.momoshop.com.tw/TP/TP0000997/main",
+        "https://www.momoshop.com.tw/TP/TP0001433/main",
+        "https://s.momoshop.com.tw/s/Pc4Jj68y",
+        "https://s.momoshop.com.tw/s/bvUcLx26",
+        "https://s.momoshop.com.tw/s/MOygyEfo",
+        "https://s.momoshop.com.tw/s/ZDHwH0NH",
+        "https://s.momoshop.com.tw/s/o1MnX7Kc",
+        "https://tw.elitefasion.com/lifestyle-culture/bathroom-vanity-hair-scalp-makeup-storage.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/bathroom-vanity-hair-scalp-makeup-storage.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
     {
       "articleId": "auto-20260528213744-conservative-supplement-vegetarian-job-tears-guide",
       "slug": "conservative-supplement-vegetarian-job-tears-guide",

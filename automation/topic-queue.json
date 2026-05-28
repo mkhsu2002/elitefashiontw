@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T21:37:44Z",
-  "nextQueueSequence": 16,
+  "updatedAt": "2026-05-28T23:16:24Z",
+  "nextQueueSequence": 17,
   "series": [
     {
       "queueId": "Q-0001",
@@ -966,6 +966,106 @@
       "direction": "延伸新受眾生活採買內容到居家工作桌、新家第一個月、韓系手機配件、實用衣櫥、小宅布品、週末餐桌、日常飲品與保守型補給；每篇以具體情境、限制條件與保守提醒建立選購順序。",
       "plannedCount": 8,
       "seriesName": "momo 新受眾第三批"
+    },
+    {
+      "queueId": "Q-0016",
+      "topic": "梳妝台、親子學習、戶外課、自駕旅行、寵物與辦公室活動補強",
+      "direction": "延伸新受眾到家庭學習、戶外移動、小眾寵物與辦公室低門檻活動；每篇以真實動線、保守提醒和可查證商品頁資訊建立選購順序。",
+      "plannedCount": 8,
+      "status": "completed",
+      "source": "momo-ab-new-audience-roadmap",
+      "createdAt": "2026-05-28T23:10:43Z",
+      "seriesName": "momo 新受眾第四批",
+      "items": [
+        {
+          "order": 1,
+          "slug": "bathroom-vanity-hair-scalp-makeup-storage",
+          "title": "頭髮、頭皮與妝容收納：把浴室與梳妝台整理成低壓工作站",
+          "targetReader": "上班族、日常保養、美妝入門讀者",
+          "category": "lifestyle-culture",
+          "status": "published",
+          "articleId": "auto-20260528231624-bathroom-vanity-hair-scalp-makeup-storage",
+          "file": "lifestyle-culture/bathroom-vanity-hair-scalp-makeup-storage.html",
+          "publishedAt": "2026-05-28T23:16:24Z"
+        },
+        {
+          "order": 2,
+          "slug": "school-study-corner-stationery-books-kids-toothbrush",
+          "title": "開學與學習角落整理：文具、考試書、兒童電動牙刷與生活用品",
+          "targetReader": "新手爸媽、家庭學習與日用品補貨讀者",
+          "category": "lifestyle-culture",
+          "status": "published",
+          "articleId": "auto-20260528231624-school-study-corner-stationery-books-kids-toothbrush",
+          "file": "lifestyle-culture/school-study-corner-stationery-books-kids-toothbrush.html",
+          "publishedAt": "2026-05-28T23:16:24Z"
+        },
+        {
+          "order": 3,
+          "slug": "swimming-outdoor-class-kids-prep",
+          "title": "游泳課與戶外課前準備：泳鏡、童裝、早餐與親子外出小物",
+          "targetReader": "親子家庭、戶外課與週末活動讀者",
+          "category": "outdoor-escapes",
+          "status": "published",
+          "articleId": "auto-20260528231624-swimming-outdoor-class-kids-prep",
+          "file": "outdoor-escapes/swimming-outdoor-class-kids-prep.html",
+          "publishedAt": "2026-05-28T23:16:24Z"
+        },
+        {
+          "order": 4,
+          "slug": "road-trip-camping-dashcam-jump-starter-cookware",
+          "title": "自駕與露營路上的備用清單：行車記錄器、救車電源、餐廚與戶外小物",
+          "targetReader": "自駕、家庭旅行與戶外移動讀者",
+          "category": "outdoor-escapes",
+          "status": "published",
+          "articleId": "auto-20260528231624-road-trip-camping-dashcam-jump-starter-cookware",
+          "file": "outdoor-escapes/road-trip-camping-dashcam-jump-starter-cookware.html",
+          "publishedAt": "2026-05-28T23:16:24Z"
+        },
+        {
+          "order": 5,
+          "slug": "elder-travel-vision-reading-sunglasses-luggage",
+          "title": "長輩與戶外旅行的視線管理：老花眼鏡、偏光太陽眼鏡與旅行配件",
+          "targetReader": "家庭旅行、戶外移動與送禮讀者",
+          "category": "outdoor-escapes",
+          "status": "published",
+          "articleId": "auto-20260528231624-elder-travel-vision-reading-sunglasses-luggage",
+          "file": "outdoor-escapes/elder-travel-vision-reading-sunglasses-luggage.html",
+          "publishedAt": "2026-05-28T23:16:24Z"
+        },
+        {
+          "order": 6,
+          "slug": "pet-birthday-gift-cake-snack-toy",
+          "title": "毛孩生日與送禮怎麼準備：寵物蛋糕、零食、玩具與慶生小物",
+          "targetReader": "寵物家庭、送禮與週末聚會讀者",
+          "category": "lifestyle-culture",
+          "status": "published",
+          "articleId": "auto-20260528231624-pet-birthday-gift-cake-snack-toy",
+          "file": "lifestyle-culture/pet-birthday-gift-cake-snack-toy.html",
+          "publishedAt": "2026-05-28T23:16:24Z"
+        },
+        {
+          "order": 7,
+          "slug": "aquarium-reptile-small-pet-restock-list",
+          "title": "不只貓狗：水族、爬蟲與小寵家庭的補貨清單",
+          "targetReader": "水族、爬蟲、小寵與寵物新手讀者",
+          "category": "lifestyle-culture",
+          "status": "published",
+          "articleId": "auto-20260528231624-aquarium-reptile-small-pet-restock-list",
+          "file": "lifestyle-culture/aquarium-reptile-small-pet-restock-list.html",
+          "publishedAt": "2026-05-28T23:16:24Z"
+        },
+        {
+          "order": 8,
+          "slug": "office-sitting-low-barrier-stretch-snack-pillow",
+          "title": "辦公室久坐後的低門檻活動清單：伸展小物、枕頭與低負擔點心",
+          "targetReader": "久坐上班族、輕運動與辦公室補給讀者",
+          "category": "wellness-movement",
+          "status": "published",
+          "articleId": "auto-20260528231624-office-sitting-low-barrier-stretch-snack-pillow",
+          "file": "wellness-movement/office-sitting-low-barrier-stretch-snack-pillow.html",
+          "publishedAt": "2026-05-28T23:16:24Z"
+        }
+      ]
     }
   ]
 }

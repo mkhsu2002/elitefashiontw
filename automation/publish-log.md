@@ -1,5 +1,69 @@
 # 發文紀錄
 
+## 2026-05-28T23:16:24Z｜辦公室久坐後的低門檻活動清單：伸展小物、枕頭與低負擔點心
+
+- 文章 ID：auto-20260528231624-office-sitting-low-barrier-stretch-snack-pillow
+- URL：https://tw.elitefasion.com/wellness-movement/office-sitting-low-barrier-stretch-snack-pillow.html
+- 檔案：wellness-movement/office-sitting-low-barrier-stretch-snack-pillow.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0016
+
+## 2026-05-28T23:16:24Z｜不只貓狗：水族、爬蟲與小寵家庭的補貨清單
+
+- 文章 ID：auto-20260528231624-aquarium-reptile-small-pet-restock-list
+- URL：https://tw.elitefasion.com/lifestyle-culture/aquarium-reptile-small-pet-restock-list.html
+- 檔案：lifestyle-culture/aquarium-reptile-small-pet-restock-list.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0016
+
+## 2026-05-28T23:16:24Z｜毛孩生日與送禮怎麼準備：寵物蛋糕、零食、玩具與慶生小物
+
+- 文章 ID：auto-20260528231624-pet-birthday-gift-cake-snack-toy
+- URL：https://tw.elitefasion.com/lifestyle-culture/pet-birthday-gift-cake-snack-toy.html
+- 檔案：lifestyle-culture/pet-birthday-gift-cake-snack-toy.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0016
+
+## 2026-05-28T23:16:24Z｜長輩與戶外旅行的視線管理：老花眼鏡、偏光太陽眼鏡與旅行配件
+
+- 文章 ID：auto-20260528231624-elder-travel-vision-reading-sunglasses-luggage
+- URL：https://tw.elitefasion.com/outdoor-escapes/elder-travel-vision-reading-sunglasses-luggage.html
+- 檔案：outdoor-escapes/elder-travel-vision-reading-sunglasses-luggage.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0016
+
+## 2026-05-28T23:16:24Z｜自駕與露營路上的備用清單：行車記錄器、救車電源、餐廚與戶外小物
+
+- 文章 ID：auto-20260528231624-road-trip-camping-dashcam-jump-starter-cookware
+- URL：https://tw.elitefasion.com/outdoor-escapes/road-trip-camping-dashcam-jump-starter-cookware.html
+- 檔案：outdoor-escapes/road-trip-camping-dashcam-jump-starter-cookware.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0016
+
+## 2026-05-28T23:16:24Z｜游泳課與戶外課前準備：泳鏡、童裝、早餐與親子外出小物
+
+- 文章 ID：auto-20260528231624-swimming-outdoor-class-kids-prep
+- URL：https://tw.elitefasion.com/outdoor-escapes/swimming-outdoor-class-kids-prep.html
+- 檔案：outdoor-escapes/swimming-outdoor-class-kids-prep.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0016
+
+## 2026-05-28T23:16:24Z｜開學與學習角落整理：文具、考試書、兒童電動牙刷與生活用品
+
+- 文章 ID：auto-20260528231624-school-study-corner-stationery-books-kids-toothbrush
+- URL：https://tw.elitefasion.com/lifestyle-culture/school-study-corner-stationery-books-kids-toothbrush.html
+- 檔案：lifestyle-culture/school-study-corner-stationery-books-kids-toothbrush.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0016
+
+## 2026-05-28T23:16:24Z｜頭髮、頭皮與妝容收納：把浴室與梳妝台整理成低壓工作站
+
+- 文章 ID：auto-20260528231624-bathroom-vanity-hair-scalp-makeup-storage
+- URL：https://tw.elitefasion.com/lifestyle-culture/bathroom-vanity-hair-scalp-makeup-storage.html
+- 檔案：lifestyle-culture/bathroom-vanity-hair-scalp-makeup-storage.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0016
+
 ## 2026-05-28T21:37:44Z｜保健食品不要亂堆：素食營養、薏仁錠與日常補給的保守選購法
 
 - 文章 ID：auto-20260528213744-conservative-supplement-vegetarian-job-tears-guide

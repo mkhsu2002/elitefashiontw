@@ -1,29 +1,29 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T21:37:44Z",
+  "updatedAt": "2026-05-28T23:16:24Z",
   "status": "generated",
   "triggerType": "manual-codex-momo-new-audience-no-newsletter",
-  "queueId": "Q-0015",
+  "queueId": "Q-0016",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260528213744-desk-life-reset-stationery-chair-home-office",
-    "auto-20260528213744-new-home-first-month-dining-mat-curtain-list",
-    "auto-20260528213744-korean-phone-case-magsafe-daily-style",
-    "auto-20260528213744-practical-wardrobe-gift-plus-size-formal-casual",
-    "auto-20260528213744-small-bedroom-bedding-pillow-textile-setup",
-    "auto-20260528213744-weekend-table-global-food-honey-dessert-hosting",
-    "auto-20260528213744-honey-herbal-drink-daily-pantry-guide",
-    "auto-20260528213744-conservative-supplement-vegetarian-job-tears-guide"
+    "auto-20260528231624-bathroom-vanity-hair-scalp-makeup-storage",
+    "auto-20260528231624-school-study-corner-stationery-books-kids-toothbrush",
+    "auto-20260528231624-swimming-outdoor-class-kids-prep",
+    "auto-20260528231624-road-trip-camping-dashcam-jump-starter-cookware",
+    "auto-20260528231624-elder-travel-vision-reading-sunglasses-luggage",
+    "auto-20260528231624-pet-birthday-gift-cake-snack-toy",
+    "auto-20260528231624-aquarium-reptile-small-pet-restock-list",
+    "auto-20260528231624-office-sitting-low-barrier-stretch-snack-pillow"
   ],
   "articleSlugs": [
-    "desk-life-reset-stationery-chair-home-office",
-    "new-home-first-month-dining-mat-curtain-list",
-    "korean-phone-case-magsafe-daily-style",
-    "practical-wardrobe-gift-plus-size-formal-casual",
-    "small-bedroom-bedding-pillow-textile-setup",
-    "weekend-table-global-food-honey-dessert-hosting",
-    "honey-herbal-drink-daily-pantry-guide",
-    "conservative-supplement-vegetarian-job-tears-guide"
+    "bathroom-vanity-hair-scalp-makeup-storage",
+    "school-study-corner-stationery-books-kids-toothbrush",
+    "swimming-outdoor-class-kids-prep",
+    "road-trip-camping-dashcam-jump-starter-cookware",
+    "elder-travel-vision-reading-sunglasses-luggage",
+    "pet-birthday-gift-cake-snack-toy",
+    "aquarium-reptile-small-pet-restock-list",
+    "office-sitting-low-barrier-stretch-snack-pillow"
   ],
   "notes": "Codex 手動分批撰文與封面生成；直接推上 main 不會自動寄送電子報。"
 }

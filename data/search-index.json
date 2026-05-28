@@ -1,5 +1,181 @@
 [
   {
+    "id": "auto-20260528231624-aquarium-reptile-small-pet-restock-list",
+    "title": "不只貓狗：水族、爬蟲與小寵家庭的補貨清單",
+    "excerpt": "小眾寵物家庭更需要固定補貨節奏，把餌料、底材、清潔工具與保存方式分清楚。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/aquarium-reptile-small-pet-restock-list.html",
+    "publishedDateText": "2026年5月28日",
+    "tags": [
+      "水族用品",
+      "爬蟲用品",
+      "小寵飼料",
+      "清潔工具",
+      "選物指南",
+      "生活採買"
+    ],
+    "faqQuestions": [
+      "這份清單可以直接照單購買嗎？",
+      "價格、活動或庫存可以以文章為準嗎？",
+      "涉及兒童、寵物、食品、照護或運動用品時要注意什麼？"
+    ]
+  },
+  {
+    "id": "auto-20260528231624-bathroom-vanity-hair-scalp-makeup-storage",
+    "title": "頭髮、頭皮與妝容收納：把浴室與梳妝台整理成低壓工作站",
+    "excerpt": "把髮品、保養與彩妝依早晨、洗後、補妝三條動線分開，梳妝台才不會每天重來一次。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/bathroom-vanity-hair-scalp-makeup-storage.html",
+    "publishedDateText": "2026年5月28日",
+    "tags": [
+      "髮品",
+      "頭皮照護",
+      "妝容收納",
+      "梳妝台",
+      "選物指南",
+      "生活採買"
+    ],
+    "faqQuestions": [
+      "這份清單可以直接照單購買嗎？",
+      "價格、活動或庫存可以以文章為準嗎？",
+      "涉及兒童、寵物、食品、照護或運動用品時要注意什麼？"
+    ]
+  },
+  {
+    "id": "auto-20260528231624-elder-travel-vision-reading-sunglasses-luggage",
+    "title": "長輩與戶外旅行的視線管理：老花眼鏡、偏光太陽眼鏡與旅行配件",
+    "excerpt": "家庭旅行不只要帶箱包，也要讓閱讀、看路、找票與戶外光線都有清楚的位置。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/elder-travel-vision-reading-sunglasses-luggage.html",
+    "publishedDateText": "2026年5月28日",
+    "tags": [
+      "老花眼鏡",
+      "偏光太陽眼鏡",
+      "旅行配件",
+      "箱包",
+      "選物指南",
+      "生活採買"
+    ],
+    "faqQuestions": [
+      "這份清單可以直接照單購買嗎？",
+      "價格、活動或庫存可以以文章為準嗎？",
+      "涉及兒童、寵物、食品、照護或運動用品時要注意什麼？"
+    ]
+  },
+  {
+    "id": "auto-20260528231624-office-sitting-low-barrier-stretch-snack-pillow",
+    "title": "辦公室久坐後的低門檻活動清單：伸展小物、枕頭與低負擔點心",
+    "excerpt": "久坐後先把能確實做得到的小活動放進工作日，伸展小物、枕頭與點心都要回到使用頻率判斷。",
+    "category": "wellness-movement",
+    "categoryLabel": "健康恢復",
+    "relativeUrl": "wellness-movement/office-sitting-low-barrier-stretch-snack-pillow.html",
+    "publishedDateText": "2026年5月28日",
+    "tags": [
+      "伸展小物",
+      "枕頭",
+      "低負擔點心",
+      "辦公室補給",
+      "選物指南",
+      "生活採買"
+    ],
+    "faqQuestions": [
+      "這份清單可以直接照單購買嗎？",
+      "價格、活動或庫存可以以文章為準嗎？",
+      "涉及兒童、寵物、食品、照護或運動用品時要注意什麼？"
+    ]
+  },
+  {
+    "id": "auto-20260528231624-pet-birthday-gift-cake-snack-toy",
+    "title": "毛孩生日與送禮怎麼準備：寵物蛋糕、零食、玩具與慶生小物",
+    "excerpt": "寵物生日不必買滿一整桌，先確認食用限制、清潔收尾、玩具安全與拍照動線，慶生才不會變成壓力。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/pet-birthday-gift-cake-snack-toy.html",
+    "publishedDateText": "2026年5月28日",
+    "tags": [
+      "寵物蛋糕",
+      "零食",
+      "玩具",
+      "慶生小物",
+      "選物指南",
+      "生活採買"
+    ],
+    "faqQuestions": [
+      "這份清單可以直接照單購買嗎？",
+      "價格、活動或庫存可以以文章為準嗎？",
+      "涉及兒童、寵物、食品、照護或運動用品時要注意什麼？"
+    ]
+  },
+  {
+    "id": "auto-20260528231624-road-trip-camping-dashcam-jump-starter-cookware",
+    "title": "自駕與露營路上的備用清單：行車記錄器、救車電源、餐廚與戶外小物",
+    "excerpt": "自駕與露營前先把車內、餐廚、雨天與回家收納分區，備用品才不會變成車廂雜物。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/road-trip-camping-dashcam-jump-starter-cookware.html",
+    "publishedDateText": "2026年5月28日",
+    "tags": [
+      "行車記錄器",
+      "救車電源",
+      "餐廚",
+      "戶外小物",
+      "選物指南",
+      "生活採買"
+    ],
+    "faqQuestions": [
+      "這份清單可以直接照單購買嗎？",
+      "價格、活動或庫存可以以文章為準嗎？",
+      "涉及兒童、寵物、食品、照護或運動用品時要注意什麼？"
+    ]
+  },
+  {
+    "id": "auto-20260528231624-school-study-corner-stationery-books-kids-toothbrush",
+    "title": "開學與學習角落整理：文具、考試書、兒童電動牙刷與生活用品",
+    "excerpt": "開學前先把書桌、書本、文具與早晚盥洗動線排好，家庭學習角落會比一次買齊更穩。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/school-study-corner-stationery-books-kids-toothbrush.html",
+    "publishedDateText": "2026年5月28日",
+    "tags": [
+      "文具",
+      "考試書",
+      "兒童電動牙刷",
+      "家庭用品",
+      "選物指南",
+      "生活採買"
+    ],
+    "faqQuestions": [
+      "這份清單可以直接照單購買嗎？",
+      "價格、活動或庫存可以以文章為準嗎？",
+      "涉及兒童、寵物、食品、照護或運動用品時要注意什麼？"
+    ]
+  },
+  {
+    "id": "auto-20260528231624-swimming-outdoor-class-kids-prep",
+    "title": "游泳課與戶外課前準備：泳鏡、童裝、早餐與親子外出小物",
+    "excerpt": "游泳課與戶外課要先把濕物、換洗衣物、早餐與回家後清潔動線排好，出門前才不會手忙腳亂。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/swimming-outdoor-class-kids-prep.html",
+    "publishedDateText": "2026年5月28日",
+    "tags": [
+      "泳鏡",
+      "童裝",
+      "早餐",
+      "外出小物",
+      "選物指南",
+      "生活採買"
+    ],
+    "faqQuestions": [
+      "這份清單可以直接照單購買嗎？",
+      "價格、活動或庫存可以以文章為準嗎？",
+      "涉及兒童、寵物、食品、照護或運動用品時要注意什麼？"
+    ]
+  },
+  {
     "id": "auto-20260528213744-conservative-supplement-vegetarian-job-tears-guide",
     "title": "保健食品不要亂堆：素食營養、薏仁錠與日常補給的保守選購法",
     "excerpt": "保健食品與日常補給應先從飲食缺口、標示、用藥與專業建議判斷，不應堆成一整排期待效果。",

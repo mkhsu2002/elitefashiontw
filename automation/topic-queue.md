@@ -179,3 +179,19 @@
 6. 週末餐桌升級：異國食材、台灣小農、蜂蜜與甜點的待客清單｜published｜自煮族、家庭料理、送禮與餐桌美學讀者｜lifestyle-culture｜文章 ID：auto-20260528213744-weekend-table-global-food-honey-dessert-hosting｜檔案：lifestyle-culture/weekend-table-global-food-honey-dessert-hosting.html
 7. 蜂蜜、草本飲與沖泡補給：日常飲品怎麼選得舒服不誇張｜published｜辦公室、下午茶、家庭補貨與低負擔飲品讀者｜lifestyle-culture｜文章 ID：auto-20260528213744-honey-herbal-drink-daily-pantry-guide｜檔案：lifestyle-culture/honey-herbal-drink-daily-pantry-guide.html
 8. 保健食品不要亂堆：素食營養、薏仁錠與日常補給的保守選購法｜published｜外食族、素食者、健身飲食、控糖或低醣關注者｜wellness-movement｜文章 ID：auto-20260528213744-conservative-supplement-vegetarian-job-tears-guide｜檔案：wellness-movement/conservative-supplement-vegetarian-job-tears-guide.html
+
+## Q-0016｜梳妝台、親子學習、戶外課、自駕旅行、寵物與辦公室活動補強
+
+- 狀態：completed
+- 規劃篇數：8
+- 補充方向：延伸新受眾到家庭學習、戶外移動、小眾寵物與辦公室低門檻活動；每篇以真實動線、保守提醒和可查證商品頁資訊建立選購順序。
+- 建立時間：2026-05-28T23:10:43Z
+
+1. 頭髮、頭皮與妝容收納：把浴室與梳妝台整理成低壓工作站｜published｜上班族、日常保養、美妝入門讀者｜lifestyle-culture｜文章 ID：auto-20260528231624-bathroom-vanity-hair-scalp-makeup-storage｜檔案：lifestyle-culture/bathroom-vanity-hair-scalp-makeup-storage.html
+2. 開學與學習角落整理：文具、考試書、兒童電動牙刷與生活用品｜published｜新手爸媽、家庭學習與日用品補貨讀者｜lifestyle-culture｜文章 ID：auto-20260528231624-school-study-corner-stationery-books-kids-toothbrush｜檔案：lifestyle-culture/school-study-corner-stationery-books-kids-toothbrush.html
+3. 游泳課與戶外課前準備：泳鏡、童裝、早餐與親子外出小物｜published｜親子家庭、戶外課與週末活動讀者｜outdoor-escapes｜文章 ID：auto-20260528231624-swimming-outdoor-class-kids-prep｜檔案：outdoor-escapes/swimming-outdoor-class-kids-prep.html
+4. 自駕與露營路上的備用清單：行車記錄器、救車電源、餐廚與戶外小物｜published｜自駕、家庭旅行與戶外移動讀者｜outdoor-escapes｜文章 ID：auto-20260528231624-road-trip-camping-dashcam-jump-starter-cookware｜檔案：outdoor-escapes/road-trip-camping-dashcam-jump-starter-cookware.html
+5. 長輩與戶外旅行的視線管理：老花眼鏡、偏光太陽眼鏡與旅行配件｜published｜家庭旅行、戶外移動與送禮讀者｜outdoor-escapes｜文章 ID：auto-20260528231624-elder-travel-vision-reading-sunglasses-luggage｜檔案：outdoor-escapes/elder-travel-vision-reading-sunglasses-luggage.html
+6. 毛孩生日與送禮怎麼準備：寵物蛋糕、零食、玩具與慶生小物｜published｜寵物家庭、送禮與週末聚會讀者｜lifestyle-culture｜文章 ID：auto-20260528231624-pet-birthday-gift-cake-snack-toy｜檔案：lifestyle-culture/pet-birthday-gift-cake-snack-toy.html
+7. 不只貓狗：水族、爬蟲與小寵家庭的補貨清單｜published｜水族、爬蟲、小寵與寵物新手讀者｜lifestyle-culture｜文章 ID：auto-20260528231624-aquarium-reptile-small-pet-restock-list｜檔案：lifestyle-culture/aquarium-reptile-small-pet-restock-list.html
+8. 辦公室久坐後的低門檻活動清單：伸展小物、枕頭與低負擔點心｜published｜久坐上班族、輕運動與辦公室補給讀者｜wellness-movement｜文章 ID：auto-20260528231624-office-sitting-low-barrier-stretch-snack-pillow｜檔案：wellness-movement/office-sitting-low-barrier-stretch-snack-pillow.html
