@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T18:21:46Z",
+  "updatedAt": "2026-05-28T18:46:17Z",
   "entries": [
     {
       "articleId": "auto-20260528182146-first-pet-shopping-food-toy-cleaning-outing-order",
       "slug": "first-pet-shopping-food-toy-cleaning-outing-order",
       "riskLevel": "high",
-      "checkedAt": "2026-05-28T18:21:46Z",
+      "checkedAt": "2026-05-28T18:46:17Z",
       "publishReady": true,
       "claimChecks": [
         {
@@ -48,11 +48,6 @@
           "name": "momo-tracker-status",
           "passed": true,
           "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
-        },
-        {
-          "name": "editorial-auditor",
-          "passed": true,
-          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
         }
       ],
       "requiredFixes": [],
@@ -78,20 +73,13 @@
         "https://www.instagram.com/northpath.ca",
         "https://www.facebook.com/northpathca/"
       ],
-      "reviewer": "automation",
-      "editorialAudit": {
-        "publishReady": true,
-        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
-        "checks": [],
-        "requiredFixes": [],
-        "skipped": true
-      }
+      "reviewer": "automation"
     },
     {
       "articleId": "auto-20260528182146-travel-luggage-front-open-carry-on-packing-system",
       "slug": "travel-luggage-front-open-carry-on-packing-system",
       "riskLevel": "high",
-      "checkedAt": "2026-05-28T18:21:46Z",
+      "checkedAt": "2026-05-28T18:46:16Z",
       "publishReady": true,
       "claimChecks": [
         {
@@ -133,11 +121,6 @@
           "name": "momo-tracker-status",
           "passed": true,
           "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
-        },
-        {
-          "name": "editorial-auditor",
-          "passed": true,
-          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
         }
       ],
       "requiredFixes": [],
@@ -159,20 +142,13 @@
         "https://www.instagram.com/northpath.ca",
         "https://www.facebook.com/northpathca/"
       ],
-      "reviewer": "automation",
-      "editorialAudit": {
-        "publishReady": true,
-        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
-        "checks": [],
-        "requiredFixes": [],
-        "skipped": true
-      }
+      "reviewer": "automation"
     },
     {
       "articleId": "auto-20260528182146-home-scent-incense-cleaning-odor-zones",
       "slug": "home-scent-incense-cleaning-odor-zones",
       "riskLevel": "high",
-      "checkedAt": "2026-05-28T18:21:46Z",
+      "checkedAt": "2026-05-28T18:46:16Z",
       "publishReady": true,
       "claimChecks": [
         {
@@ -214,11 +190,6 @@
           "name": "momo-tracker-status",
           "passed": true,
           "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
-        },
-        {
-          "name": "editorial-auditor",
-          "passed": true,
-          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
         }
       ],
       "requiredFixes": [],
@@ -242,20 +213,13 @@
         "https://www.instagram.com/northpath.ca",
         "https://www.facebook.com/northpathca/"
       ],
-      "reviewer": "automation",
-      "editorialAudit": {
-        "publishReady": true,
-        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
-        "checks": [],
-        "requiredFixes": [],
-        "skipped": true
-      }
+      "reviewer": "automation"
     },
     {
       "articleId": "auto-20260528182146-light-snack-cabinet-low-sugar-nuts-vegetarian",
       "slug": "light-snack-cabinet-low-sugar-nuts-vegetarian",
       "riskLevel": "high",
-      "checkedAt": "2026-05-28T18:21:46Z",
+      "checkedAt": "2026-05-28T18:46:16Z",
       "publishReady": true,
       "claimChecks": [
         {
@@ -297,11 +261,6 @@
           "name": "momo-tracker-status",
           "passed": true,
           "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
-        },
-        {
-          "name": "editorial-auditor",
-          "passed": true,
-          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
         }
       ],
       "requiredFixes": [],
@@ -323,20 +282,13 @@
         "https://www.instagram.com/northpath.ca",
         "https://www.facebook.com/northpathca/"
       ],
-      "reviewer": "automation",
-      "editorialAudit": {
-        "publishReady": true,
-        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
-        "checks": [],
-        "requiredFixes": [],
-        "skipped": true
-      }
+      "reviewer": "automation"
     },
     {
       "articleId": "auto-20260528182146-office-afternoon-tea-drink-pantry-guide",
       "slug": "office-afternoon-tea-drink-pantry-guide",
       "riskLevel": "high",
-      "checkedAt": "2026-05-28T18:21:46Z",
+      "checkedAt": "2026-05-28T18:46:16Z",
       "publishReady": true,
       "claimChecks": [
         {
@@ -378,11 +330,6 @@
           "name": "momo-tracker-status",
           "passed": true,
           "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
-        },
-        {
-          "name": "editorial-auditor",
-          "passed": true,
-          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
         }
       ],
       "requiredFixes": [],
@@ -406,20 +353,13 @@
         "https://www.instagram.com/northpath.ca",
         "https://www.facebook.com/northpathca/"
       ],
-      "reviewer": "automation",
-      "editorialAudit": {
-        "publishReady": true,
-        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
-        "checks": [],
-        "requiredFixes": [],
-        "skipped": true
-      }
+      "reviewer": "automation"
     },
     {
       "articleId": "auto-20260528182146-home-cooking-pan-tableware-tool-buying-order",
       "slug": "home-cooking-pan-tableware-tool-buying-order",
       "riskLevel": "high",
-      "checkedAt": "2026-05-28T18:21:46Z",
+      "checkedAt": "2026-05-28T18:46:16Z",
       "publishReady": true,
       "claimChecks": [
         {
@@ -461,11 +401,6 @@
           "name": "momo-tracker-status",
           "passed": true,
           "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
-        },
-        {
-          "name": "editorial-auditor",
-          "passed": true,
-          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
         }
       ],
       "requiredFixes": [],
@@ -487,20 +422,13 @@
         "https://www.instagram.com/northpath.ca",
         "https://www.facebook.com/northpathca/"
       ],
-      "reviewer": "automation",
-      "editorialAudit": {
-        "publishReady": true,
-        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
-        "checks": [],
-        "requiredFixes": [],
-        "skipped": true
-      }
+      "reviewer": "automation"
     },
     {
       "articleId": "auto-20260528182146-rental-small-appliance-kitchen-desk-cleaning",
       "slug": "rental-small-appliance-kitchen-desk-cleaning",
       "riskLevel": "high",
-      "checkedAt": "2026-05-28T18:21:46Z",
+      "checkedAt": "2026-05-28T18:46:16Z",
       "publishReady": true,
       "claimChecks": [
         {
@@ -542,11 +470,6 @@
           "name": "momo-tracker-status",
           "passed": true,
           "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
-        },
-        {
-          "name": "editorial-auditor",
-          "passed": true,
-          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
         }
       ],
       "requiredFixes": [],
@@ -568,20 +491,13 @@
         "https://www.instagram.com/northpath.ca",
         "https://www.facebook.com/northpathca/"
       ],
-      "reviewer": "automation",
-      "editorialAudit": {
-        "publishReady": true,
-        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
-        "checks": [],
-        "requiredFixes": [],
-        "skipped": true
-      }
+      "reviewer": "automation"
     },
     {
       "articleId": "auto-20260528182145-summer-airflow-fan-small-appliance-lighting",
       "slug": "summer-airflow-fan-small-appliance-lighting",
       "riskLevel": "high",
-      "checkedAt": "2026-05-28T18:21:45Z",
+      "checkedAt": "2026-05-28T18:46:16Z",
       "publishReady": true,
       "claimChecks": [
         {
@@ -623,11 +539,6 @@
           "name": "momo-tracker-status",
           "passed": true,
           "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
-        },
-        {
-          "name": "editorial-auditor",
-          "passed": true,
-          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
         }
       ],
       "requiredFixes": [],
@@ -649,14 +560,7 @@
         "https://www.instagram.com/northpath.ca",
         "https://www.facebook.com/northpathca/"
       ],
-      "reviewer": "automation",
-      "editorialAudit": {
-        "publishReady": true,
-        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
-        "checks": [],
-        "requiredFixes": [],
-        "skipped": true
-      }
+      "reviewer": "automation"
     },
     {
       "articleId": "legacy-runway-trends-autumn-winter-trends-2025-html",

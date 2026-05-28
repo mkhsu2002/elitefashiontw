@@ -755,7 +755,7 @@ def render_markdown_body(article: dict[str, Any]) -> str:
                 lines.append(f"- [{name}]({url})：{reason}")
         lines.append("")
     if article.get("featuredBrands"):
-        lines.append("## 可順手比較的品牌")
+        lines.append("## 同主題品牌參考")
         lines.append("")
         for brand in article.get("featuredBrands", []):
             name = str(brand.get("name", "")).strip()
@@ -908,7 +908,7 @@ def render_featured_brands(article: dict[str, Any]) -> str:
         return ""
     return f"""
         <section class="featured-brand-strip">
-            <h2>可順手比較的品牌</h2>
+            <h2>同主題品牌參考</h2>
             <div class="featured-brand-grid">
 {''.join(brands)}
             </div>
@@ -926,7 +926,7 @@ def render_product_sidebar(article: dict[str, Any], *, mobile: bool = False) -> 
         return ""
     wrapper = "section" if mobile else "aside"
     class_name = "product-sidebar product-sidebar-mobile" if mobile else "product-sidebar"
-    heading = "同場景可比較"
+    heading = "延伸選物"
     return f"""
         <{wrapper} class="{class_name}" aria-label="{heading}">
             <div class="product-sidebar-inner">
