@@ -1,6 +1,150 @@
 {
-  "updatedAt": "2026-05-28T18:45:06Z",
+  "updatedAt": "2026-05-28T19:27:31Z",
   "latest": [
+    {
+      "id": "auto-20260528192610-family-weekend-restock-kids-clothes-toys-breakfast",
+      "title": "親子家庭的週末補貨清單：童裝、玩具、早餐與兒童用品",
+      "excerpt": "把週末補貨分成衣物、玩具、早餐和出門用品，讓親子家庭少一點臨時採買。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+      "publishedAt": "2026-05-28T19:26:10Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "lifestyle-culture/family-weekend-restock-kids-clothes-toys-breakfast.html",
+      "heroImage": "images/optimized/article-covers/family-weekend-restock-kids-clothes-toys-breakfast.jpg",
+      "tags": [
+        "生活品味",
+        "生活採買",
+        "童裝",
+        "兒童用品"
+      ]
+    },
+    {
+      "id": "auto-20260528192610-home-care-supplies-medical-aid-consumables",
+      "title": "家裡有人需要照護時，先整理哪些用品：醫材通路、輔具與生活消耗品",
+      "excerpt": "照護用品先分成安全動線、日常消耗、清潔防護與專業確認，家裡才不會被臨時需求打亂。",
+      "category": "wellness-movement",
+      "categoryLabel": "健康恢復",
+      "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+      "publishedAt": "2026-05-28T19:26:10Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "wellness-movement/home-care-supplies-medical-aid-consumables.html",
+      "heroImage": "images/optimized/article-covers/home-care-supplies-medical-aid-consumables.jpg",
+      "tags": [
+        "健康恢復",
+        "生活採買",
+        "照護用品",
+        "生活消耗品"
+      ]
+    },
+    {
+      "id": "auto-20260528192610-phone-accessory-commute-car-charging-desk",
+      "title": "手機不是只要保護殼：通勤、車用、充電與桌面的配件整理法",
+      "excerpt": "手機配件先依通勤、車用、充電和桌面四個場景整理，保護殼只是第一步。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+      "publishedAt": "2026-05-28T19:26:10Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "ai-innovation/phone-accessory-commute-car-charging-desk.html",
+      "heroImage": "images/optimized/article-covers/phone-accessory-commute-car-charging-desk.jpg",
+      "tags": [
+        "人工智能",
+        "生活採買",
+        "手機殼",
+        "車用配件"
+      ]
+    },
+    {
+      "id": "auto-20260528192610-rental-home-refresh-sticker-light-storage",
+      "title": "不用裝潢，也能讓租屋處變好住：貼皮、燈具、收納與日用小物清單",
+      "excerpt": "租屋改造先抓可逆、低破壞、好清潔三個原則，再補貼皮、燈具和收納。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+      "publishedAt": "2026-05-28T19:26:10Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "lifestyle-culture/rental-home-refresh-sticker-light-storage.html",
+      "heroImage": "images/optimized/article-covers/rental-home-refresh-sticker-light-storage.jpg",
+      "tags": [
+        "生活品味",
+        "生活採買",
+        "貼皮",
+        "日用小物"
+      ]
+    },
+    {
+      "id": "auto-20260528192610-seasonal-bedding-tencel-cotton-protector-guide",
+      "title": "床包不是看花色而已：天絲、純棉、涼被與保潔墊的換季順序",
+      "excerpt": "換季寢具先看床墊尺寸、材質觸感、清洗頻率和收納空間，再決定花色。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+      "publishedAt": "2026-05-28T19:26:10Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "lifestyle-culture/seasonal-bedding-tencel-cotton-protector-guide.html",
+      "heroImage": "images/optimized/article-covers/seasonal-bedding-tencel-cotton-protector-guide.jpg",
+      "tags": [
+        "生活品味",
+        "生活採買",
+        "床包",
+        "枕套"
+      ]
+    },
+    {
+      "id": "auto-20260528192610-simple-skincare-haircare-day-night-routine",
+      "title": "保養流程越簡單越要選對：極簡保養、髮品與日夜照護清單",
+      "excerpt": "把保養和髮品拆成早晨、洗後與夜間三段，讓流程簡單但不隨便。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+      "publishedAt": "2026-05-28T19:26:10Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "lifestyle-culture/simple-skincare-haircare-day-night-routine.html",
+      "heroImage": "images/optimized/article-covers/simple-skincare-haircare-day-night-routine.jpg",
+      "tags": [
+        "生活品味",
+        "生活採買",
+        "極簡保養",
+        "浴室收納"
+      ]
+    },
+    {
+      "id": "auto-20260528192610-ten-minute-morning-grooming-lip-makeup-kit",
+      "title": "早上十分鐘也能整理好：唇膏、妝前保養與日系韓系美妝小物",
+      "excerpt": "把早晨儀容拆成唇色、底妝、眉眼和隨身補妝，十分鐘也能出門得體。",
+      "category": "casual-chic",
+      "categoryLabel": "休閒時尚",
+      "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+      "publishedAt": "2026-05-28T19:26:10Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "casual-chic/ten-minute-morning-grooming-lip-makeup-kit.html",
+      "heroImage": "images/optimized/article-covers/ten-minute-morning-grooming-lip-makeup-kit.jpg",
+      "tags": [
+        "休閒時尚",
+        "生活採買",
+        "唇膏",
+        "收納包"
+      ]
+    },
+    {
+      "id": "auto-20260528192609-mens-commute-shirt-trousers-jacket-shoes",
+      "title": "男士通勤不只一套西裝：襯衫、西裝褲、外套與皮鞋的場合清單",
+      "excerpt": "用會議、日常通勤、婚禮與面試四種場合，整理男士衣櫥真正需要先補的單品。",
+      "category": "casual-chic",
+      "categoryLabel": "休閒時尚",
+      "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+      "publishedAt": "2026-05-28T19:26:09Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "casual-chic/mens-commute-shirt-trousers-jacket-shoes.html",
+      "heroImage": "images/optimized/article-covers/mens-commute-shirt-trousers-jacket-shoes.jpg",
+      "tags": [
+        "休閒時尚",
+        "生活採買",
+        "襯衫",
+        "皮鞋"
+      ]
+    },
     {
       "id": "auto-20260528182146-first-pet-shopping-food-toy-cleaning-outing-order",
       "title": "第一次養寵物不要一次買太多：食品、玩具、清潔與外出用品順序",
@@ -72,160 +216,30 @@
         "低醣點心",
         "沖泡補給"
       ]
-    },
-    {
-      "id": "auto-20260528182146-office-afternoon-tea-drink-pantry-guide",
-      "title": "下午三點不要只喝手搖：無糖茶、花草茶與辦公室飲品清單",
-      "excerpt": "無糖茶、花草茶、氣泡飲與沖泡飲怎麼放進辦公室，讓下午三點有更穩定的選擇。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "新受眾生活採買指南",
-      "publishedAt": "2026-05-28T18:21:46Z",
-      "publishedDateText": "2026年5月28日",
-      "relativeUrl": "lifestyle-culture/office-afternoon-tea-drink-pantry-guide.html",
-      "heroImage": "images/optimized/article-covers/office-afternoon-tea-drink-pantry-guide.jpg",
-      "tags": [
-        "生活品味",
-        "生活採買",
-        "無糖茶",
-        "沖泡飲"
-      ]
-    },
-    {
-      "id": "auto-20260528182146-rental-small-appliance-kitchen-desk-cleaning",
-      "title": "租屋族小家電清單：廚房、桌面、清潔與季節電器先買哪些",
-      "excerpt": "租屋生活先分每天、每週、換季使用，再挑廚房、桌面、清潔與季節電器。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "新受眾生活採買指南",
-      "publishedAt": "2026-05-28T18:21:46Z",
-      "publishedDateText": "2026年5月28日",
-      "relativeUrl": "lifestyle-culture/rental-small-appliance-kitchen-desk-cleaning.html",
-      "heroImage": "images/optimized/article-covers/rental-small-appliance-kitchen-desk-cleaning.jpg",
-      "tags": [
-        "生活品味",
-        "生活採買",
-        "廚房小家電",
-        "季節電器"
-      ]
-    },
-    {
-      "id": "auto-20260528182146-travel-luggage-front-open-carry-on-packing-system",
-      "title": "出國前先整理箱包系統：前開式行李箱、登機箱與旅行收納",
-      "excerpt": "出國前先建立箱包系統，讓證件、工作物品、衣物與備用品各有位置。",
-      "category": "outdoor-escapes",
-      "categoryLabel": "戶外生活",
-      "series": "新受眾生活採買指南",
-      "publishedAt": "2026-05-28T18:21:46Z",
-      "publishedDateText": "2026年5月28日",
-      "relativeUrl": "outdoor-escapes/travel-luggage-front-open-carry-on-packing-system.html",
-      "heroImage": "images/optimized/article-covers/travel-luggage-front-open-carry-on-packing-system.jpg",
-      "tags": [
-        "戶外生活",
-        "生活採買",
-        "前開式行李箱",
-        "戶外小物"
-      ]
-    },
-    {
-      "id": "auto-20260528182145-summer-airflow-fan-small-appliance-lighting",
-      "title": "夏天前先整理家的空氣路線：循環扇、小家電與照明的舒適配置",
-      "excerpt": "從風向、插座與光源開始整理，讓夏天的家更好用，也避免小家電買回來無處可放。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "新受眾生活採買指南",
-      "publishedAt": "2026-05-28T18:21:45Z",
-      "publishedDateText": "2026年5月28日",
-      "relativeUrl": "lifestyle-culture/summer-airflow-fan-small-appliance-lighting.html",
-      "heroImage": "images/optimized/article-covers/summer-airflow-fan-small-appliance-lighting.jpg",
-      "tags": [
-        "生活品味",
-        "生活採買",
-        "循環扇",
-        "照明"
-      ]
-    },
-    {
-      "id": "auto-20260527064823-solo-living-rituals-entrepreneur-taiwan",
-      "title": "一個人也有儀式感：創業者的獨居日常整理清單",
-      "excerpt": "從晨起到睡前，盤點獨居創業者的儀式建立邏輯與環境設計方法，幫助你在家工作之餘，仍然活得像個有層次的人。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "創業者的一人生活提案：工作節奏、居家秩序與關係邊界",
-      "publishedAt": "2026-05-27T06:48:23Z",
-      "publishedDateText": "2026年5月27日",
-      "relativeUrl": "lifestyle-culture/solo-living-rituals-entrepreneur-taiwan.html",
-      "heroImage": "images/optimized/article-covers/solo-living-rituals-entrepreneur-taiwan.jpg",
-      "tags": [
-        "獨居儀式感",
-        "創業者生活節奏",
-        "一人生活",
-        "居家工作空間",
-        "生活品味"
-      ]
-    },
-    {
-      "id": "auto-20260523225922-solo-living-stabilization-taiwan-returnees",
-      "title": "一個人住得踏實：財務、健康與居家安全的 8 項穩定化做法",
-      "excerpt": "從緊急預備金到居家安全檢查，整理海歸返台後一人生活的穩定化清單，幫你把落地前三個月變成真正的起點。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "海歸返台的一人生活重構：居住、社交與日常節奏指南",
-      "publishedAt": "2026-05-23T22:59:22Z",
-      "publishedDateText": "2026年5月23日",
-      "relativeUrl": "lifestyle-culture/solo-living-stabilization-taiwan-returnees.html",
-      "heroImage": "images/optimized/article-covers/solo-living-stabilization-taiwan-returnees.jpg",
-      "tags": [
-        "一人生活",
-        "海歸返台",
-        "居住安全",
-        "財務規劃",
-        "健康接軌",
-        "生活品味"
-      ]
-    },
-    {
-      "id": "auto-20260523203212-rebuild-social-circle-after-returning-to-taiwan",
-      "title": "回台後去哪裡認識新朋友？高品質社交圈重建清單",
-      "excerpt": "從性格、興趣與時間資源出發，拆解7種可持續的社交路徑，重建屬於你的圈子。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "海歸返台的一人生活重構：居住、社交與日常節奏指南",
-      "publishedAt": "2026-05-23T20:32:12Z",
-      "publishedDateText": "2026年5月23日",
-      "relativeUrl": "lifestyle-culture/rebuild-social-circle-after-returning-to-taiwan.html",
-      "heroImage": "images/optimized/article-covers/rebuild-social-circle-after-returning-to-taiwan.jpg",
-      "tags": [
-        "海歸返台",
-        "社交生活",
-        "人際關係",
-        "生活品味",
-        "圈子重組"
-      ]
-    },
-    {
-      "id": "auto-20260522074354-drawer-storage-cabinet-small-home-products-52",
-      "title": "抽屜櫃讓零散物有家：11 件透明櫃、夾縫櫃與桌邊收納清單：第 52 組選擇",
-      "excerpt": "抽屜櫃適合每天會拿的小物，夾縫櫃適合補動線，挑選時要看深度、抽拉方向與擺放高度。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "小宅收納商品推薦",
-      "publishedAt": "2026-05-22T07:43:54Z",
-      "publishedDateText": "2026年5月22日",
-      "relativeUrl": "lifestyle-culture/drawer-storage-cabinet-small-home-products-52.html",
-      "heroImage": "images/optimized/article-covers/drawer-storage-cabinet-small-home-products-52.jpg",
-      "tags": [
-        "抽屜收納",
-        "商品推薦",
-        "選購清單",
-        "居家整理"
-      ]
     }
   ],
   "byCategory": {
     "ai-innovation": {
       "label": "人工智能",
       "items": [
+        {
+          "id": "auto-20260528192610-phone-accessory-commute-car-charging-desk",
+          "title": "手機不是只要保護殼：通勤、車用、充電與桌面的配件整理法",
+          "excerpt": "手機配件先依通勤、車用、充電和桌面四個場景整理，保護殼只是第一步。",
+          "category": "ai-innovation",
+          "categoryLabel": "人工智能",
+          "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+          "publishedAt": "2026-05-28T19:26:10Z",
+          "publishedDateText": "2026年5月28日",
+          "relativeUrl": "ai-innovation/phone-accessory-commute-car-charging-desk.html",
+          "heroImage": "images/optimized/article-covers/phone-accessory-commute-car-charging-desk.jpg",
+          "tags": [
+            "人工智能",
+            "生活採買",
+            "手機殼",
+            "車用配件"
+          ]
+        },
         {
           "id": "auto-20260522074353-ai-work-gadgets-translation-audio-products",
           "title": "AI 工作不是只有筆電：6 件翻譯、音訊與桌邊小物讓工作角落更完整",
@@ -314,24 +328,6 @@
             "商品推薦",
             "選購清單",
             "居家整理"
-          ]
-        },
-        {
-          "id": "auto-20260522072357-home-office-corner-desk-storage-furniture-guide",
-          "title": "在家工作角落怎麼配：書桌、邊櫃與桌面收納",
-          "excerpt": "把居家工作角落從臨時桌面變成穩定可用的日常配置。",
-          "category": "ai-innovation",
-          "categoryLabel": "人工智能",
-          "series": "小宅收納與居家整理商品推薦",
-          "publishedAt": "2026-05-22T07:23:57Z",
-          "publishedDateText": "2026年5月22日",
-          "relativeUrl": "ai-innovation/home-office-corner-desk-storage-furniture-guide.html",
-          "heroImage": "images/optimized/article-covers/home-office-corner-desk-storage-furniture-guide.jpg",
-          "tags": [
-            "居家辦公",
-            "工作角落",
-            "書桌",
-            "桌面收納"
           ]
         }
       ]
@@ -615,6 +611,42 @@
       "label": "休閒時尚",
       "items": [
         {
+          "id": "auto-20260528192610-ten-minute-morning-grooming-lip-makeup-kit",
+          "title": "早上十分鐘也能整理好：唇膏、妝前保養與日系韓系美妝小物",
+          "excerpt": "把早晨儀容拆成唇色、底妝、眉眼和隨身補妝，十分鐘也能出門得體。",
+          "category": "casual-chic",
+          "categoryLabel": "休閒時尚",
+          "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+          "publishedAt": "2026-05-28T19:26:10Z",
+          "publishedDateText": "2026年5月28日",
+          "relativeUrl": "casual-chic/ten-minute-morning-grooming-lip-makeup-kit.html",
+          "heroImage": "images/optimized/article-covers/ten-minute-morning-grooming-lip-makeup-kit.jpg",
+          "tags": [
+            "休閒時尚",
+            "生活採買",
+            "唇膏",
+            "收納包"
+          ]
+        },
+        {
+          "id": "auto-20260528192609-mens-commute-shirt-trousers-jacket-shoes",
+          "title": "男士通勤不只一套西裝：襯衫、西裝褲、外套與皮鞋的場合清單",
+          "excerpt": "用會議、日常通勤、婚禮與面試四種場合，整理男士衣櫥真正需要先補的單品。",
+          "category": "casual-chic",
+          "categoryLabel": "休閒時尚",
+          "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+          "publishedAt": "2026-05-28T19:26:09Z",
+          "publishedDateText": "2026年5月28日",
+          "relativeUrl": "casual-chic/mens-commute-shirt-trousers-jacket-shoes.html",
+          "heroImage": "images/optimized/article-covers/mens-commute-shirt-trousers-jacket-shoes.jpg",
+          "tags": [
+            "休閒時尚",
+            "生活採買",
+            "襯衫",
+            "皮鞋"
+          ]
+        },
+        {
           "id": "auto-20260522074352-hair-accessory-small-gift-products",
           "title": "小禮物不一定要很大盒：13 件髮飾、耳飾與包款配件怎麼挑",
           "excerpt": "髮飾、耳飾、小包與墨鏡適合輕量送禮，也適合通勤與週末穿搭搭配，重點是材質、尺寸與使用場合。",
@@ -685,48 +717,30 @@
             "雨傘",
             "通勤包"
           ]
-        },
-        {
-          "id": "auto-20260520145058-travel-shoes-bag-lightweight-crossbody-rain-backup",
-          "title": "Elite Fashion｜旅行鞋包配置怎麼做",
-          "excerpt": "從好走鞋、輕量包、貼身小包到雨天備案，整理更不臃腫的旅行鞋包配置。",
-          "category": "casual-chic",
-          "categoryLabel": "休閒時尚",
-          "series": "穿搭包款與城市移動補強",
-          "publishedAt": "2026-05-20T14:50:58Z",
-          "publishedDateText": "2026年5月20日",
-          "relativeUrl": "casual-chic/travel-shoes-bag-lightweight-crossbody-rain-backup.html",
-          "heroImage": "images/optimized/article-covers/travel-shoes-bag-lightweight-crossbody-rain-backup.jpg",
-          "tags": [
-            "旅行鞋包",
-            "輕量包",
-            "貼身小包",
-            "雨天備案"
-          ]
-        },
-        {
-          "id": "auto-20260520145058-weekend-light-outdoor-city-sun-jacket-shorts-small-bag",
-          "title": "Elite Fashion｜週末輕戶外穿搭怎麼搭",
-          "excerpt": "從防曬外套、短褲、休閒鞋、小包與帽款，整理城市與戶外之間的週末穿搭。",
-          "category": "casual-chic",
-          "categoryLabel": "休閒時尚",
-          "series": "穿搭包款與城市移動補強",
-          "publishedAt": "2026-05-20T14:50:58Z",
-          "publishedDateText": "2026年5月20日",
-          "relativeUrl": "casual-chic/weekend-light-outdoor-city-sun-jacket-shorts-small-bag.html",
-          "heroImage": "images/optimized/article-covers/weekend-light-outdoor-city-sun-jacket-shorts-small-bag.jpg",
-          "tags": [
-            "週末穿搭",
-            "輕戶外",
-            "防曬外套",
-            "小包"
-          ]
         }
       ]
     },
     "wellness-movement": {
       "label": "健康恢復",
       "items": [
+        {
+          "id": "auto-20260528192610-home-care-supplies-medical-aid-consumables",
+          "title": "家裡有人需要照護時，先整理哪些用品：醫材通路、輔具與生活消耗品",
+          "excerpt": "照護用品先分成安全動線、日常消耗、清潔防護與專業確認，家裡才不會被臨時需求打亂。",
+          "category": "wellness-movement",
+          "categoryLabel": "健康恢復",
+          "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+          "publishedAt": "2026-05-28T19:26:10Z",
+          "publishedDateText": "2026年5月28日",
+          "relativeUrl": "wellness-movement/home-care-supplies-medical-aid-consumables.html",
+          "heroImage": "images/optimized/article-covers/home-care-supplies-medical-aid-consumables.jpg",
+          "tags": [
+            "健康恢復",
+            "生活採買",
+            "照護用品",
+            "生活消耗品"
+          ]
+        },
         {
           "id": "auto-20260528182146-light-snack-cabinet-low-sugar-nuts-vegetarian",
           "title": "外食族的低負擔零食櫃：低醣點心、堅果、素食零嘴與沖泡飲",
@@ -815,24 +829,6 @@
             "護腰",
             "久坐久站",
             "工作日支撐"
-          ]
-        },
-        {
-          "id": "auto-20260520071636-summer-low-pressure-daily-cooling-sun-sleep-drinks",
-          "title": "Elite Fashion｜夏季低負擔日常怎麼安排",
-          "excerpt": "從防曬、涼感、睡眠降噪與飲品補給，整理更可持續的夏季日常順序。",
-          "category": "wellness-movement",
-          "categoryLabel": "健康恢復",
-          "series": "身體恢復與低壓伸展",
-          "publishedAt": "2026-05-20T07:16:36Z",
-          "publishedDateText": "2026年5月20日",
-          "relativeUrl": "wellness-movement/summer-low-pressure-daily-cooling-sun-sleep-drinks.html",
-          "heroImage": "images/optimized/article-covers/summer-low-pressure-daily-cooling-sun-sleep-drinks.jpg",
-          "tags": [
-            "夏季日常",
-            "防曬服飾",
-            "睡眠降噪",
-            "飲品補給"
           ]
         }
       ]
@@ -957,6 +953,78 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260528192610-family-weekend-restock-kids-clothes-toys-breakfast",
+          "title": "親子家庭的週末補貨清單：童裝、玩具、早餐與兒童用品",
+          "excerpt": "把週末補貨分成衣物、玩具、早餐和出門用品，讓親子家庭少一點臨時採買。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+          "publishedAt": "2026-05-28T19:26:10Z",
+          "publishedDateText": "2026年5月28日",
+          "relativeUrl": "lifestyle-culture/family-weekend-restock-kids-clothes-toys-breakfast.html",
+          "heroImage": "images/optimized/article-covers/family-weekend-restock-kids-clothes-toys-breakfast.jpg",
+          "tags": [
+            "生活品味",
+            "生活採買",
+            "童裝",
+            "兒童用品"
+          ]
+        },
+        {
+          "id": "auto-20260528192610-rental-home-refresh-sticker-light-storage",
+          "title": "不用裝潢，也能讓租屋處變好住：貼皮、燈具、收納與日用小物清單",
+          "excerpt": "租屋改造先抓可逆、低破壞、好清潔三個原則，再補貼皮、燈具和收納。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+          "publishedAt": "2026-05-28T19:26:10Z",
+          "publishedDateText": "2026年5月28日",
+          "relativeUrl": "lifestyle-culture/rental-home-refresh-sticker-light-storage.html",
+          "heroImage": "images/optimized/article-covers/rental-home-refresh-sticker-light-storage.jpg",
+          "tags": [
+            "生活品味",
+            "生活採買",
+            "貼皮",
+            "日用小物"
+          ]
+        },
+        {
+          "id": "auto-20260528192610-seasonal-bedding-tencel-cotton-protector-guide",
+          "title": "床包不是看花色而已：天絲、純棉、涼被與保潔墊的換季順序",
+          "excerpt": "換季寢具先看床墊尺寸、材質觸感、清洗頻率和收納空間，再決定花色。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+          "publishedAt": "2026-05-28T19:26:10Z",
+          "publishedDateText": "2026年5月28日",
+          "relativeUrl": "lifestyle-culture/seasonal-bedding-tencel-cotton-protector-guide.html",
+          "heroImage": "images/optimized/article-covers/seasonal-bedding-tencel-cotton-protector-guide.jpg",
+          "tags": [
+            "生活品味",
+            "生活採買",
+            "床包",
+            "枕套"
+          ]
+        },
+        {
+          "id": "auto-20260528192610-simple-skincare-haircare-day-night-routine",
+          "title": "保養流程越簡單越要選對：極簡保養、髮品與日夜照護清單",
+          "excerpt": "把保養和髮品拆成早晨、洗後與夜間三段，讓流程簡單但不隨便。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "通勤儀容、家庭補貨、照護與居家更新指南",
+          "publishedAt": "2026-05-28T19:26:10Z",
+          "publishedDateText": "2026年5月28日",
+          "relativeUrl": "lifestyle-culture/simple-skincare-haircare-day-night-routine.html",
+          "heroImage": "images/optimized/article-covers/simple-skincare-haircare-day-night-routine.jpg",
+          "tags": [
+            "生活品味",
+            "生活採買",
+            "極簡保養",
+            "浴室收納"
+          ]
+        },
+        {
           "id": "auto-20260528182146-first-pet-shopping-food-toy-cleaning-outing-order",
           "title": "第一次養寵物不要一次買太多：食品、玩具、清潔與外出用品順序",
           "excerpt": "新手寵物家庭不要一次買滿，先建立可替換、好清潔、能觀察反應的採買順序。",
@@ -990,78 +1058,6 @@
             "生活採買",
             "日本鍋具",
             "杯壺與工具"
-          ]
-        },
-        {
-          "id": "auto-20260528182146-home-scent-incense-cleaning-odor-zones",
-          "title": "家裡的味道也需要整理：香氛、香品、清潔與除味用品怎麼分工",
-          "excerpt": "香氛不是拿來蓋味道，而是最後的氣氛層；先從清潔、通風與分區開始。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "新受眾生活採買指南",
-          "publishedAt": "2026-05-28T18:21:46Z",
-          "publishedDateText": "2026年5月28日",
-          "relativeUrl": "lifestyle-culture/home-scent-incense-cleaning-odor-zones.html",
-          "heroImage": "images/optimized/article-covers/home-scent-incense-cleaning-odor-zones.jpg",
-          "tags": [
-            "生活品味",
-            "生活採買",
-            "香氛",
-            "清潔小物"
-          ]
-        },
-        {
-          "id": "auto-20260528182146-office-afternoon-tea-drink-pantry-guide",
-          "title": "下午三點不要只喝手搖：無糖茶、花草茶與辦公室飲品清單",
-          "excerpt": "無糖茶、花草茶、氣泡飲與沖泡飲怎麼放進辦公室，讓下午三點有更穩定的選擇。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "新受眾生活採買指南",
-          "publishedAt": "2026-05-28T18:21:46Z",
-          "publishedDateText": "2026年5月28日",
-          "relativeUrl": "lifestyle-culture/office-afternoon-tea-drink-pantry-guide.html",
-          "heroImage": "images/optimized/article-covers/office-afternoon-tea-drink-pantry-guide.jpg",
-          "tags": [
-            "生活品味",
-            "生活採買",
-            "無糖茶",
-            "沖泡飲"
-          ]
-        },
-        {
-          "id": "auto-20260528182146-rental-small-appliance-kitchen-desk-cleaning",
-          "title": "租屋族小家電清單：廚房、桌面、清潔與季節電器先買哪些",
-          "excerpt": "租屋生活先分每天、每週、換季使用，再挑廚房、桌面、清潔與季節電器。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "新受眾生活採買指南",
-          "publishedAt": "2026-05-28T18:21:46Z",
-          "publishedDateText": "2026年5月28日",
-          "relativeUrl": "lifestyle-culture/rental-small-appliance-kitchen-desk-cleaning.html",
-          "heroImage": "images/optimized/article-covers/rental-small-appliance-kitchen-desk-cleaning.jpg",
-          "tags": [
-            "生活品味",
-            "生活採買",
-            "廚房小家電",
-            "季節電器"
-          ]
-        },
-        {
-          "id": "auto-20260528182145-summer-airflow-fan-small-appliance-lighting",
-          "title": "夏天前先整理家的空氣路線：循環扇、小家電與照明的舒適配置",
-          "excerpt": "從風向、插座與光源開始整理，讓夏天的家更好用，也避免小家電買回來無處可放。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "新受眾生活採買指南",
-          "publishedAt": "2026-05-28T18:21:45Z",
-          "publishedDateText": "2026年5月28日",
-          "relativeUrl": "lifestyle-culture/summer-airflow-fan-small-appliance-lighting.html",
-          "heroImage": "images/optimized/article-covers/summer-airflow-fan-small-appliance-lighting.jpg",
-          "tags": [
-            "生活品味",
-            "生活採買",
-            "循環扇",
-            "照明"
           ]
         }
       ]

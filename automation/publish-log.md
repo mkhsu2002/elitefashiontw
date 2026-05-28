@@ -1,5 +1,69 @@
 # 發文紀錄
 
+## 2026-05-28T19:26:10Z｜不用裝潢，也能讓租屋處變好住：貼皮、燈具、收納與日用小物清單
+
+- 文章 ID：auto-20260528192610-rental-home-refresh-sticker-light-storage
+- URL：https://tw.elitefasion.com/lifestyle-culture/rental-home-refresh-sticker-light-storage.html
+- 檔案：lifestyle-culture/rental-home-refresh-sticker-light-storage.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0014
+
+## 2026-05-28T19:26:10Z｜床包不是看花色而已：天絲、純棉、涼被與保潔墊的換季順序
+
+- 文章 ID：auto-20260528192610-seasonal-bedding-tencel-cotton-protector-guide
+- URL：https://tw.elitefasion.com/lifestyle-culture/seasonal-bedding-tencel-cotton-protector-guide.html
+- 檔案：lifestyle-culture/seasonal-bedding-tencel-cotton-protector-guide.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0014
+
+## 2026-05-28T19:26:10Z｜手機不是只要保護殼：通勤、車用、充電與桌面的配件整理法
+
+- 文章 ID：auto-20260528192610-phone-accessory-commute-car-charging-desk
+- URL：https://tw.elitefasion.com/ai-innovation/phone-accessory-commute-car-charging-desk.html
+- 檔案：ai-innovation/phone-accessory-commute-car-charging-desk.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0014
+
+## 2026-05-28T19:26:10Z｜家裡有人需要照護時，先整理哪些用品：醫材通路、輔具與生活消耗品
+
+- 文章 ID：auto-20260528192610-home-care-supplies-medical-aid-consumables
+- URL：https://tw.elitefasion.com/wellness-movement/home-care-supplies-medical-aid-consumables.html
+- 檔案：wellness-movement/home-care-supplies-medical-aid-consumables.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0014
+
+## 2026-05-28T19:26:10Z｜保養流程越簡單越要選對：極簡保養、髮品與日夜照護清單
+
+- 文章 ID：auto-20260528192610-simple-skincare-haircare-day-night-routine
+- URL：https://tw.elitefasion.com/lifestyle-culture/simple-skincare-haircare-day-night-routine.html
+- 檔案：lifestyle-culture/simple-skincare-haircare-day-night-routine.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0014
+
+## 2026-05-28T19:26:10Z｜早上十分鐘也能整理好：唇膏、妝前保養與日系韓系美妝小物
+
+- 文章 ID：auto-20260528192610-ten-minute-morning-grooming-lip-makeup-kit
+- URL：https://tw.elitefasion.com/casual-chic/ten-minute-morning-grooming-lip-makeup-kit.html
+- 檔案：casual-chic/ten-minute-morning-grooming-lip-makeup-kit.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0014
+
+## 2026-05-28T19:26:10Z｜親子家庭的週末補貨清單：童裝、玩具、早餐與兒童用品
+
+- 文章 ID：auto-20260528192610-family-weekend-restock-kids-clothes-toys-breakfast
+- URL：https://tw.elitefasion.com/lifestyle-culture/family-weekend-restock-kids-clothes-toys-breakfast.html
+- 檔案：lifestyle-culture/family-weekend-restock-kids-clothes-toys-breakfast.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0014
+
+## 2026-05-28T19:26:09Z｜男士通勤不只一套西裝：襯衫、西裝褲、外套與皮鞋的場合清單
+
+- 文章 ID：auto-20260528192609-mens-commute-shirt-trousers-jacket-shoes
+- URL：https://tw.elitefasion.com/casual-chic/mens-commute-shirt-trousers-jacket-shoes.html
+- 檔案：casual-chic/mens-commute-shirt-trousers-jacket-shoes.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0014
+
 ## 2026-05-28T18:21:46Z｜第一次養寵物不要一次買太多：食品、玩具、清潔與外出用品順序
 
 - 文章 ID：auto-20260528182146-first-pet-shopping-food-toy-cleaning-outing-order

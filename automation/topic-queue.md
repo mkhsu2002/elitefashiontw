@@ -150,16 +150,16 @@
 
 ## Q-0014｜通勤儀容、家庭補貨、照護與居家更新指南
 
-- 狀態：planned
+- 狀態：completed
 - 規劃篇數：8
 - 補充方向：擴大生活採買內容到男性通勤、親子家庭、低壓儀容、保養髮品、居家照護、手機配件、換季寢具與租屋改造；健康、照護、保養與兒童用品保持保守語氣，商品資訊以商品頁為準。
 - 建立時間：2026-05-28T17:53:56Z
 
-1. 男士通勤不只一套西裝：襯衫、西裝褲、外套與皮鞋的場合清單｜planned｜男性上班族、伴侶送禮、婚禮與面試需求者｜casual-chic
-2. 親子家庭的週末補貨清單：童裝、玩具、早餐與兒童用品｜planned｜新手爸媽、親子禮物、家庭學習與日用品補貨｜lifestyle-culture
-3. 早上十分鐘也能整理好：唇膏、妝前保養與日系韓系美妝小物｜planned｜上班族、日常保養、送禮、美妝入門讀者｜casual-chic
-4. 保養流程越簡單越要選對：極簡保養、髮品與日夜照護清單｜planned｜上班族、日常保養、送禮、美妝入門讀者｜lifestyle-culture
-5. 家裡有人需要照護時，先整理哪些用品：醫材通路、輔具與生活消耗品｜planned｜照護家庭、久坐上班族、輕運動與長輩用品讀者｜wellness-movement
-6. 手機不是只要保護殼：通勤、車用、充電與桌面的配件整理法｜planned｜手機使用者、通勤族、手機拍攝與桌面控｜ai-innovation
-7. 床包不是看花色而已：天絲、純棉、涼被與保潔墊的換季順序｜planned｜重視居家舒適、剛搬家、換季整理讀者｜lifestyle-culture
-8. 不用裝潢，也能讓租屋處變好住：貼皮、燈具、收納與日用小物清單｜planned｜租屋族、小宅家庭、剛搬家讀者｜lifestyle-culture
+1. 男士通勤不只一套西裝：襯衫、西裝褲、外套與皮鞋的場合清單｜published｜男性上班族、伴侶送禮、婚禮與面試需求者｜casual-chic｜文章 ID：auto-20260528192609-mens-commute-shirt-trousers-jacket-shoes｜檔案：casual-chic/mens-commute-shirt-trousers-jacket-shoes.html
+2. 親子家庭的週末補貨清單：童裝、玩具、早餐與兒童用品｜published｜新手爸媽、親子禮物、家庭學習與日用品補貨｜lifestyle-culture｜文章 ID：auto-20260528192610-family-weekend-restock-kids-clothes-toys-breakfast｜檔案：lifestyle-culture/family-weekend-restock-kids-clothes-toys-breakfast.html
+3. 早上十分鐘也能整理好：唇膏、妝前保養與日系韓系美妝小物｜published｜上班族、日常保養、送禮、美妝入門讀者｜casual-chic｜文章 ID：auto-20260528192610-ten-minute-morning-grooming-lip-makeup-kit｜檔案：casual-chic/ten-minute-morning-grooming-lip-makeup-kit.html
+4. 保養流程越簡單越要選對：極簡保養、髮品與日夜照護清單｜published｜上班族、日常保養、送禮、美妝入門讀者｜lifestyle-culture｜文章 ID：auto-20260528192610-simple-skincare-haircare-day-night-routine｜檔案：lifestyle-culture/simple-skincare-haircare-day-night-routine.html
+5. 家裡有人需要照護時，先整理哪些用品：醫材通路、輔具與生活消耗品｜published｜照護家庭、久坐上班族、輕運動與長輩用品讀者｜wellness-movement｜文章 ID：auto-20260528192610-home-care-supplies-medical-aid-consumables｜檔案：wellness-movement/home-care-supplies-medical-aid-consumables.html
+6. 手機不是只要保護殼：通勤、車用、充電與桌面的配件整理法｜published｜手機使用者、通勤族、手機拍攝與桌面控｜ai-innovation｜文章 ID：auto-20260528192610-phone-accessory-commute-car-charging-desk｜檔案：ai-innovation/phone-accessory-commute-car-charging-desk.html
+7. 床包不是看花色而已：天絲、純棉、涼被與保潔墊的換季順序｜published｜重視居家舒適、剛搬家、換季整理讀者｜lifestyle-culture｜文章 ID：auto-20260528192610-seasonal-bedding-tencel-cotton-protector-guide｜檔案：lifestyle-culture/seasonal-bedding-tencel-cotton-protector-guide.html
+8. 不用裝潢，也能讓租屋處變好住：貼皮、燈具、收納與日用小物清單｜published｜租屋族、小宅家庭、剛搬家讀者｜lifestyle-culture｜文章 ID：auto-20260528192610-rental-home-refresh-sticker-light-storage｜檔案：lifestyle-culture/rental-home-refresh-sticker-light-storage.html

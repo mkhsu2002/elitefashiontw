@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T18:21:46Z",
+  "updatedAt": "2026-05-28T19:26:10Z",
   "nextQueueSequence": 15,
   "series": [
     {
@@ -741,7 +741,7 @@
       "topic": "通勤儀容、家庭補貨、照護與居家更新指南",
       "direction": "擴大生活採買內容到男性通勤、親子家庭、低壓儀容、保養髮品、居家照護、手機配件、換季寢具與租屋改造；健康、照護、保養與兒童用品保持保守語氣，商品資訊以商品頁為準。",
       "plannedCount": 8,
-      "status": "planned",
+      "status": "completed",
       "createdAt": "2026-05-28T17:53:56Z",
       "seriesName": "通勤儀容、家庭補貨、照護與居家更新指南",
       "items": [
@@ -755,9 +755,10 @@
           "series": "通勤儀容、家庭補貨、照護與居家更新指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528192609-mens-commute-shirt-trousers-jacket-shoes",
+          "file": "casual-chic/mens-commute-shirt-trousers-jacket-shoes.html",
+          "publishedAt": "2026-05-28T19:26:09Z"
         },
         {
           "order": 2,
@@ -769,9 +770,10 @@
           "series": "通勤儀容、家庭補貨、照護與居家更新指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528192610-family-weekend-restock-kids-clothes-toys-breakfast",
+          "file": "lifestyle-culture/family-weekend-restock-kids-clothes-toys-breakfast.html",
+          "publishedAt": "2026-05-28T19:26:10Z"
         },
         {
           "order": 3,
@@ -783,9 +785,10 @@
           "series": "通勤儀容、家庭補貨、照護與居家更新指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528192610-ten-minute-morning-grooming-lip-makeup-kit",
+          "file": "casual-chic/ten-minute-morning-grooming-lip-makeup-kit.html",
+          "publishedAt": "2026-05-28T19:26:10Z"
         },
         {
           "order": 4,
@@ -797,9 +800,10 @@
           "series": "通勤儀容、家庭補貨、照護與居家更新指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "本文僅供一般生活資訊與選購情境參考，不構成醫療、營養、獸醫、法律、保險或個人化建議；若涉及健康、照護、營養、視力或寵物狀況，請先諮詢合格專業人員，商品價格、規格、活動與庫存請以商品頁公告為準。",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528192610-simple-skincare-haircare-day-night-routine",
+          "file": "lifestyle-culture/simple-skincare-haircare-day-night-routine.html",
+          "publishedAt": "2026-05-28T19:26:10Z"
         },
         {
           "order": 5,
@@ -811,9 +815,10 @@
           "series": "通勤儀容、家庭補貨、照護與居家更新指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "本文僅供一般生活資訊與選購情境參考，不構成醫療、營養、獸醫、法律、保險或個人化建議；若涉及健康、照護、營養、視力或寵物狀況，請先諮詢合格專業人員，商品價格、規格、活動與庫存請以商品頁公告為準。",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528192610-home-care-supplies-medical-aid-consumables",
+          "file": "wellness-movement/home-care-supplies-medical-aid-consumables.html",
+          "publishedAt": "2026-05-28T19:26:10Z"
         },
         {
           "order": 6,
@@ -825,9 +830,10 @@
           "series": "通勤儀容、家庭補貨、照護與居家更新指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528192610-phone-accessory-commute-car-charging-desk",
+          "file": "ai-innovation/phone-accessory-commute-car-charging-desk.html",
+          "publishedAt": "2026-05-28T19:26:10Z"
         },
         {
           "order": 7,
@@ -839,9 +845,10 @@
           "series": "通勤儀容、家庭補貨、照護與居家更新指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528192610-seasonal-bedding-tencel-cotton-protector-guide",
+          "file": "lifestyle-culture/seasonal-bedding-tencel-cotton-protector-guide.html",
+          "publishedAt": "2026-05-28T19:26:10Z"
         },
         {
           "order": 8,
@@ -853,9 +860,10 @@
           "series": "通勤儀容、家庭補貨、照護與居家更新指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528192610-rental-home-refresh-sticker-light-storage",
+          "file": "lifestyle-culture/rental-home-refresh-sticker-light-storage.html",
+          "publishedAt": "2026-05-28T19:26:10Z"
         }
       ]
     }

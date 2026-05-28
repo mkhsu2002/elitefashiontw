@@ -1,7 +1,669 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T18:46:17Z",
+  "updatedAt": "2026-05-28T19:26:10Z",
   "entries": [
+    {
+      "articleId": "auto-20260528192610-rental-home-refresh-sticker-light-storage",
+      "slug": "rental-home-refresh-sticker-light-storage",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T19:26:10Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0009317/main",
+        "https://www.momoshop.com.tw/TP/TP0008153/main",
+        "https://www.momoshop.com.tw/TP/TP0004819/main",
+        "https://www.momoshop.com.tw/TP/TP0009671/main",
+        "https://www.momoshop.com.tw/TP/TP0008643/main",
+        "https://www.momoshop.com.tw/TP/TP0001200/main",
+        "https://s.momoshop.com.tw/s/4ku39MvY",
+        "https://s.momoshop.com.tw/s/PpgBFuRx",
+        "https://s.momoshop.com.tw/s/7mam5Wo4",
+        "https://s.momoshop.com.tw/s/AV3xvAYB",
+        "https://s.momoshop.com.tw/s/4oqadU70",
+        "https://s.momoshop.com.tw/s/MT34aFUI",
+        "https://tw.elitefasion.com/lifestyle-culture/rental-home-refresh-sticker-light-storage.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/rental-home-refresh-sticker-light-storage.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528192610-seasonal-bedding-tencel-cotton-protector-guide",
+      "slug": "seasonal-bedding-tencel-cotton-protector-guide",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T19:26:10Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0001300/main",
+        "https://www.momoshop.com.tw/TP/TP0001106/main",
+        "https://www.momoshop.com.tw/TP/TP0007471/main",
+        "https://www.momoshop.com.tw/TP/TP0002795/main",
+        "https://www.momoshop.com.tw/TP/TP0003841/main",
+        "https://s.momoshop.com.tw/s/ua5lQ0CY",
+        "https://s.momoshop.com.tw/s/DfBme4p7",
+        "https://s.momoshop.com.tw/s/jx4u1k0c",
+        "https://s.momoshop.com.tw/s/50BehBXe",
+        "https://s.momoshop.com.tw/s/kwu0QHC1",
+        "https://tw.elitefasion.com/lifestyle-culture/seasonal-bedding-tencel-cotton-protector-guide.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/seasonal-bedding-tencel-cotton-protector-guide.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528192610-phone-accessory-commute-car-charging-desk",
+      "slug": "phone-accessory-commute-car-charging-desk",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T19:26:10Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0000669/main",
+        "https://www.momoshop.com.tw/TP/TP0009160/main",
+        "https://www.momoshop.com.tw/TP/TP0007239/main",
+        "https://www.momoshop.com.tw/TP/TP0009130/main",
+        "https://www.momoshop.com.tw/TP/TP0006731/main",
+        "https://s.momoshop.com.tw/s/BZ5nqdds",
+        "https://s.momoshop.com.tw/s/g4etBL11",
+        "https://s.momoshop.com.tw/s/Fl1ZEZCT",
+        "https://s.momoshop.com.tw/s/QZfqv2RB",
+        "https://s.momoshop.com.tw/s/DGTgwfd6",
+        "https://tw.elitefasion.com/ai-innovation/phone-accessory-commute-car-charging-desk.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/phone-accessory-commute-car-charging-desk.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528192610-home-care-supplies-medical-aid-consumables",
+      "slug": "home-care-supplies-medical-aid-consumables",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T19:26:10Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0004194/main",
+        "https://www.momoshop.com.tw/TP/TP0005998/main",
+        "https://www.momoshop.com.tw/TP/TP0007439/main",
+        "https://www.momoshop.com.tw/TP/TP0005096/main",
+        "https://s.momoshop.com.tw/s/cZsA0nYx",
+        "https://s.momoshop.com.tw/s/IIcK5u8T",
+        "https://s.momoshop.com.tw/s/muT80PtA",
+        "https://s.momoshop.com.tw/s/BJygEgc9",
+        "https://tw.elitefasion.com/wellness-movement/home-care-supplies-medical-aid-consumables.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/home-care-supplies-medical-aid-consumables.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528192610-simple-skincare-haircare-day-night-routine",
+      "slug": "simple-skincare-haircare-day-night-routine",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T19:26:10Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0004588/main",
+        "https://www.momoshop.com.tw/TP/TP0001433/main",
+        "https://www.momoshop.com.tw/TP/TP0000997/main",
+        "https://www.momoshop.com.tw/TP/TP0008542/main",
+        "https://www.momoshop.com.tw/TP/TP0004045/main",
+        "https://www.momoshop.com.tw/TP/TP0008876/main",
+        "https://s.momoshop.com.tw/s/IUs7vMn9",
+        "https://s.momoshop.com.tw/s/o1MnX7Kc",
+        "https://s.momoshop.com.tw/s/ZDHwH0NH",
+        "https://s.momoshop.com.tw/s/2pct509O",
+        "https://s.momoshop.com.tw/s/XKQ7ozJ8",
+        "https://s.momoshop.com.tw/s/TGmZmhPU",
+        "https://tw.elitefasion.com/lifestyle-culture/simple-skincare-haircare-day-night-routine.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/simple-skincare-haircare-day-night-routine.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528192610-ten-minute-morning-grooming-lip-makeup-kit",
+      "slug": "ten-minute-morning-grooming-lip-makeup-kit",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T19:26:10Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003331/main",
+        "https://www.momoshop.com.tw/TP/TP0005089/main",
+        "https://www.momoshop.com.tw/TP/TP0009526/main",
+        "https://www.momoshop.com.tw/TP/TP0009171/main",
+        "https://www.momoshop.com.tw/TP/TP0007447/main",
+        "https://s.momoshop.com.tw/s/wvdj9DLn",
+        "https://s.momoshop.com.tw/s/FwKiHj24",
+        "https://s.momoshop.com.tw/s/8BiV47B1",
+        "https://s.momoshop.com.tw/s/pFVpv35G",
+        "https://s.momoshop.com.tw/s/bDmR4LR7",
+        "https://tw.elitefasion.com/casual-chic/ten-minute-morning-grooming-lip-makeup-kit.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/ten-minute-morning-grooming-lip-makeup-kit.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528192610-family-weekend-restock-kids-clothes-toys-breakfast",
+      "slug": "family-weekend-restock-kids-clothes-toys-breakfast",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T19:26:10Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003190/main",
+        "https://www.momoshop.com.tw/TP/TP0000485/main",
+        "https://www.momoshop.com.tw/TP/TP0006789/main",
+        "https://www.momoshop.com.tw/TP/TP0008430/main",
+        "https://www.momoshop.com.tw/TP/TP0004495/main",
+        "https://s.momoshop.com.tw/s/yLK57l7z",
+        "https://s.momoshop.com.tw/s/tqbP8pEw",
+        "https://s.momoshop.com.tw/s/IVRwz3Zx",
+        "https://s.momoshop.com.tw/s/VReXbvm5",
+        "https://s.momoshop.com.tw/s/2PMqts4h",
+        "https://tw.elitefasion.com/lifestyle-culture/family-weekend-restock-kids-clothes-toys-breakfast.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/family-weekend-restock-kids-clothes-toys-breakfast.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528192609-mens-commute-shirt-trousers-jacket-shoes",
+      "slug": "mens-commute-shirt-trousers-jacket-shoes",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T19:26:10Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003817/main",
+        "https://www.momoshop.com.tw/TP/TP0005310/main",
+        "https://www.momoshop.com.tw/TP/TP0003665/main",
+        "https://s.momoshop.com.tw/s/yGvekMs0",
+        "https://s.momoshop.com.tw/s/G7ow64Xj",
+        "https://s.momoshop.com.tw/s/XfdBDtlU",
+        "https://tw.elitefasion.com/casual-chic/mens-commute-shirt-trousers-jacket-shoes.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/mens-commute-shirt-trousers-jacket-shoes.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
     {
       "articleId": "auto-20260528182146-first-pet-shopping-food-toy-cleaning-outing-order",
       "slug": "first-pet-shopping-food-toy-cleaning-outing-order",

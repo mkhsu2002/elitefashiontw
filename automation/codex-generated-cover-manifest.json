@@ -80,6 +80,54 @@
       "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_07378535d8e99728016a18863c0aa0819b96974fc1e832be06.png",
       "sha256": "1d0203d1d60144c85a0df08a6b311041531e0ed3fed028ab02c3c6e97bcc797b",
       "promptSummary": "乾淨居家角落中的寵物碗、玩具、牽繩、清潔用品、收納籃與小床"
+    },
+    "mens-commute-shirt-trousers-jacket-shoes": {
+      "image": "images/optimized/article-covers/mens-commute-shirt-trousers-jacket-shoes.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_04a46ee67450d745016a1890c11e9c819681e4639de1d5e7de.png",
+      "sha256": "bf5f14d7e3e0608731765b58827635406393feeb6f1f6469f5c0a39e5157f37b",
+      "promptSummary": "明亮玄關裡整理好的男士襯衫、西裝褲、外套、皮鞋與通勤包"
+    },
+    "family-weekend-restock-kids-clothes-toys-breakfast": {
+      "image": "images/optimized/article-covers/family-weekend-restock-kids-clothes-toys-breakfast.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_04a46ee67450d745016a18913bf14881968f690318a8338cb5.png",
+      "sha256": "3a0007cfa4e9e18e2701300f903bcddc07b20a4541f3c08f092c7757ac23cfc3",
+      "promptSummary": "週末餐桌上整理好的童裝、玩具、早餐點心、水壺與兒童用品"
+    },
+    "ten-minute-morning-grooming-lip-makeup-kit": {
+      "image": "images/optimized/article-covers/ten-minute-morning-grooming-lip-makeup-kit.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_04a46ee67450d745016a1891837d28819693bca3f230b96647.png",
+      "sha256": "628b21d907084de579748c166e07f871c875838df4ecbdc916fc0bebb6f0dc03",
+      "promptSummary": "晨間梳妝台上的唇膏、妝前保養、粉盒、髮夾與小收納包"
+    },
+    "simple-skincare-haircare-day-night-routine": {
+      "image": "images/optimized/article-covers/simple-skincare-haircare-day-night-routine.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_04a46ee67450d745016a1891b9ac388196b4b68fc59a2eeab6.png",
+      "sha256": "13e58d40fe833e7f9ea0074c11cba50de4c5002b2d969a1ce805b536f4846565",
+      "promptSummary": "明亮浴室與臥室交界處的保養托盤、髮品、毛巾、梳子與夜燈"
+    },
+    "home-care-supplies-medical-aid-consumables": {
+      "image": "images/optimized/article-covers/home-care-supplies-medical-aid-consumables.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_04a46ee67450d745016a18923cf5f081969bbc5b587c0b7c74.png",
+      "sha256": "89b6c2c83ba4736efeb11a288fdda732d2034bd1b62f1aa851307d13f1078f50",
+      "promptSummary": "居家桌面上整理好的口罩、酒精、收納籃、輔助握把、筆記本與照護用品"
+    },
+    "phone-accessory-commute-car-charging-desk": {
+      "image": "images/optimized/article-covers/phone-accessory-commute-car-charging-desk.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_04a46ee67450d745016a1892885cc8819694fd8ea80f76d37c.png",
+      "sha256": "2941f39a3ee6f6e2982e6250e5605bad501449eab0fcb7fffcda265b1eb6bf37",
+      "promptSummary": "通勤桌面上的手機殼、保護貼、充電線、車用支架、行動電源與耳機盒"
+    },
+    "seasonal-bedding-tencel-cotton-protector-guide": {
+      "image": "images/optimized/article-covers/seasonal-bedding-tencel-cotton-protector-guide.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_04a46ee67450d745016a1892e7dc548196becd336c6fe56899.png",
+      "sha256": "24e285fc1f5aa2aae4c38473a2ebb23108f6783372c2053b3418cf72f632e544",
+      "promptSummary": "明亮臥室裡正在更換的床包、純棉寢具、涼被、枕套與保潔墊"
+    },
+    "rental-home-refresh-sticker-light-storage": {
+      "image": "images/optimized/article-covers/rental-home-refresh-sticker-light-storage.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_04a46ee67450d745016a189329efc081968f5e9fcb5a49c15b.png",
+      "sha256": "a04cf542e037bee54a2fca542aa78e7f4c004c543df5bdf416742fc9ecdee739",
+      "promptSummary": "小型租屋房間裡的貼皮樣本、桌燈、收納籃、量尺、掛鉤與生活小物"
     }
   }
 }

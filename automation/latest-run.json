@@ -1,29 +1,29 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T18:21:46Z",
+  "updatedAt": "2026-05-28T19:26:10Z",
   "status": "generated",
   "triggerType": "manual-codex-momo-new-audience-no-newsletter",
-  "queueId": "Q-0013",
+  "queueId": "Q-0014",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260528182145-summer-airflow-fan-small-appliance-lighting",
-    "auto-20260528182146-rental-small-appliance-kitchen-desk-cleaning",
-    "auto-20260528182146-home-cooking-pan-tableware-tool-buying-order",
-    "auto-20260528182146-office-afternoon-tea-drink-pantry-guide",
-    "auto-20260528182146-light-snack-cabinet-low-sugar-nuts-vegetarian",
-    "auto-20260528182146-home-scent-incense-cleaning-odor-zones",
-    "auto-20260528182146-travel-luggage-front-open-carry-on-packing-system",
-    "auto-20260528182146-first-pet-shopping-food-toy-cleaning-outing-order"
+    "auto-20260528192609-mens-commute-shirt-trousers-jacket-shoes",
+    "auto-20260528192610-family-weekend-restock-kids-clothes-toys-breakfast",
+    "auto-20260528192610-ten-minute-morning-grooming-lip-makeup-kit",
+    "auto-20260528192610-simple-skincare-haircare-day-night-routine",
+    "auto-20260528192610-home-care-supplies-medical-aid-consumables",
+    "auto-20260528192610-phone-accessory-commute-car-charging-desk",
+    "auto-20260528192610-seasonal-bedding-tencel-cotton-protector-guide",
+    "auto-20260528192610-rental-home-refresh-sticker-light-storage"
   ],
   "articleSlugs": [
-    "summer-airflow-fan-small-appliance-lighting",
-    "rental-small-appliance-kitchen-desk-cleaning",
-    "home-cooking-pan-tableware-tool-buying-order",
-    "office-afternoon-tea-drink-pantry-guide",
-    "light-snack-cabinet-low-sugar-nuts-vegetarian",
-    "home-scent-incense-cleaning-odor-zones",
-    "travel-luggage-front-open-carry-on-packing-system",
-    "first-pet-shopping-food-toy-cleaning-outing-order"
+    "mens-commute-shirt-trousers-jacket-shoes",
+    "family-weekend-restock-kids-clothes-toys-breakfast",
+    "ten-minute-morning-grooming-lip-makeup-kit",
+    "simple-skincare-haircare-day-night-routine",
+    "home-care-supplies-medical-aid-consumables",
+    "phone-accessory-commute-car-charging-desk",
+    "seasonal-bedding-tencel-cotton-protector-guide",
+    "rental-home-refresh-sticker-light-storage"
   ],
   "notes": "Codex 手動分批撰文與封面生成；直接推上 main 不會自動寄送電子報。"
 }
