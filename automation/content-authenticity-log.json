@@ -1,7 +1,3308 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T16:36:01Z",
+  "updatedAt": "2026-05-28T16:58:49Z",
   "entries": [
+    {
+      "articleId": "legacy-wellness-movement-yoga-focus-productivity-html",
+      "slug": "yoga-focus-productivity",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:49Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/wellness-movement/yoga-focus-productivity.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/yoga-focus-productivity.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-wellness-movement-sports-nutrition-html",
+      "slug": "sports-nutrition",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/wellness-movement/sports-nutrition.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/sports-nutrition.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-wellness-movement-sarcopenia-prevention-html",
+      "slug": "sarcopenia-prevention",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/wellness-movement/sarcopenia-prevention.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/sarcopenia-prevention.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-wellness-movement-recovery-tech-html",
+      "slug": "recovery-tech",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/wellness-movement/recovery-tech.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/recovery-tech.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-wellness-movement-nutrition-efficiency-html",
+      "slug": "nutrition-efficiency",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/wellness-movement/nutrition-efficiency.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/nutrition-efficiency.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-wellness-movement-neuro-feedback-yoga-2026-html",
+      "slug": "neuro-feedback-yoga-2026",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/wellness-movement/neuro-feedback-yoga-2026.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/neuro-feedback-yoga-2026.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-wellness-movement-morning-yoga-html",
+      "slug": "morning-yoga",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/wellness-movement/morning-yoga.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/morning-yoga.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-wellness-movement-mindful-living-html",
+      "slug": "mindful-living",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/wellness-movement/mindful-living.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/mindful-living.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-wellness-movement-light-therapy-activewear-html",
+      "slug": "light-therapy-activewear",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/wellness-movement/light-therapy-activewear.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/light-therapy-activewear.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-wellness-movement-home-fitness-revolution-html",
+      "slug": "home-fitness-revolution",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/wellness-movement/home-fitness-revolution.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/home-fitness-revolution.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-wellness-movement-holographic-wellness-2026-html",
+      "slug": "holographic-wellness-2026",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/wellness-movement/holographic-wellness-2026.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/holographic-wellness-2026.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-wellness-movement-comprehensive-fitness-plan-html",
+      "slug": "comprehensive-fitness-plan",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/wellness-movement/comprehensive-fitness-plan.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/comprehensive-fitness-plan.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-wellness-movement-athleisure-aesthetics-html",
+      "slug": "athleisure-aesthetics",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/wellness-movement/athleisure-aesthetics.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/athleisure-aesthetics.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-sugar-detox-impact-html",
+      "slug": "sugar-detox-impact",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/sugar-detox-impact.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/sugar-detox-impact.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-smile-makeover-dental-html",
+      "slug": "smile-makeover-dental",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/smile-makeover-dental.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/smile-makeover-dental.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-sleep-well-menopause-html",
+      "slug": "sleep-well-menopause",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/sleep-well-menopause.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/sleep-well-menopause.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-sisterhood-female-support-html",
+      "slug": "sisterhood-female-support",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/sisterhood-female-support.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/sisterhood-female-support.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-self-massage-lymphatic-html",
+      "slug": "self-massage-lymphatic",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/self-massage-lymphatic.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/self-massage-lymphatic.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-sandwich-generation-care-html",
+      "slug": "sandwich-generation-care",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/sandwich-generation-care.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/sandwich-generation-care.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-psychology-of-money-abundance-html",
+      "slug": "psychology-of-money-abundance",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/psychology-of-money-abundance.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/psychology-of-money-abundance.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-posture-correction-youth-html",
+      "slug": "posture-correction-youth",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/posture-correction-youth.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/posture-correction-youth.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-minimalism-skincare-html",
+      "slug": "minimalism-skincare",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/minimalism-skincare.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/minimalism-skincare.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-menopause-is-second-youth-html",
+      "slug": "menopause-is-second-youth",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/menopause-is-second-youth.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/menopause-is-second-youth.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-joint-health-travel-html",
+      "slug": "joint-health-travel",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/joint-health-travel.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/joint-health-travel.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-hot-flashes-diet-html",
+      "slug": "hot-flashes-diet",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/hot-flashes-diet.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/hot-flashes-diet.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-gut-health-second-brain-html",
+      "slug": "gut-health-second-brain",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/gut-health-second-brain.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/gut-health-second-brain.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-emotional-eating-truth-html",
+      "slug": "emotional-eating-truth",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/emotional-eating-truth.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/emotional-eating-truth.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-digital-detox-eye-brain-html",
+      "slug": "digital-detox-eye-brain",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/digital-detox-eye-brain.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/digital-detox-eye-brain.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-breathing-for-anxiety-html",
+      "slug": "breathing-for-anxiety",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/breathing-for-anxiety.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/breathing-for-anxiety.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-bone-health-anti-aging-html",
+      "slug": "bone-health-anti-aging",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/bone-health-anti-aging.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/bone-health-anti-aging.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-ai-career-navigation-for-managers-html",
+      "slug": "ai-career-navigation-for-managers",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/ai-career-navigation-for-managers.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/ai-career-navigation-for-managers.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/future-navigator"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-10-min-micro-exercise-html",
+      "slug": "10-min-micro-exercise",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/10-min-micro-exercise.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/10-min-micro-exercise.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260507180055-mature-women-spring-summer-cooling-sleep",
+      "slug": "mature-women-spring-summer-cooling-sleep",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/wellness-movement/mature-women-spring-summer-cooling-sleep.html",
+        "https://tw.elitefasion.com/images/generated/wellness-1.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260502201120-一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作",
+      "slug": "一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/一人生活的每週日常清單-高效但有溫度的形象-居家與時間管理實作.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260527064823-solo-living-rituals-entrepreneur-taiwan",
+      "slug": "solo-living-rituals-entrepreneur-taiwan",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/solo-living-rituals-entrepreneur-taiwan.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/solo-living-rituals-entrepreneur-taiwan.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260509202550-single-women-relationship-strategies-after-40",
+      "slug": "single-women-relationship-strategies-after-40",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/single-women-relationship-strategies-after-40.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/single-women-relationship-strategies-after-40.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260425181422-post-divorce-social-boundaries-highly-educated-women",
+      "slug": "post-divorce-social-boundaries-highly-educated-women",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/post-divorce-social-boundaries-highly-educated-women.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/post-divorce-social-boundaries-highly-educated-women.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260425202627-divorcee-return-taiwan-career-income-plan",
+      "slug": "divorcee-return-taiwan-career-income-plan",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://tw.elitefasion.com/lifestyle-culture/divorcee-return-taiwan-career-income-plan.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/divorcee-return-taiwan-career-income-plan.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260425191139-canada-real-estate-for-taiwanese-beginners",
+      "slug": "canada-real-estate-for-taiwanese-beginners",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://insightestate.ca/zh-hant",
+        "https://tw.elitefasion.com/lifestyle-culture/canada-real-estate-for-taiwanese-beginners.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/canada-real-estate-for-taiwanese-beginners.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-life-proposals-financial-literacy-kids-html",
+      "slug": "financial-literacy-kids",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/life-proposals/financial-literacy-kids.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/financial-literacy-kids.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://flypigai.icareu.tw/articles-index"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "legacy-yoga-complete-html",
+      "slug": "yoga-complete",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.googletagmanager.com/gtag/js?id=G-YGMJG52MQH",
+        "https://tw.elitefasion.com/yoga-complete.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/yoga-complete.jpg",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://tw.elitefasion.com/images/logo.jpg",
+        "https://www.icareushop.com.tw/page/fsc.yogamat"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520141022-scalp-haircare-shampoo-color-styling-brush",
+      "slug": "scalp-haircare-shampoo-color-styling-brush",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/vRmO2Mp9",
+        "https://s.momoshop.com.tw/s/cxVGPA8r",
+        "https://s.momoshop.com.tw/s/DvSMpO6o",
+        "https://s.momoshop.com.tw/s/7PRBCAqu",
+        "https://tw.elitefasion.com/lifestyle-culture/scalp-haircare-shampoo-color-styling-brush.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/scalp-haircare-shampoo-color-styling-brush.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520142748-parent-child-outing-tableware-oral-care-maternity-bag",
+      "slug": "parent-child-outing-tableware-oral-care-maternity-bag",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/rCMnDvTY",
+        "https://s.momoshop.com.tw/s/fZ9miz2D",
+        "https://s.momoshop.com.tw/s/wTKIyJrs",
+        "https://s.momoshop.com.tw/s/VlBLru4t",
+        "https://tw.elitefasion.com/lifestyle-culture/parent-child-outing-tableware-oral-care-maternity-bag.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/parent-child-outing-tableware-oral-care-maternity-bag.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520070134-cold-brew-tea-gift-box-afternoon-guide",
+      "slug": "cold-brew-tea-gift-box-afternoon-guide",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/fQyUCDn2",
+        "https://s.momoshop.com.tw/s/2f9JvlfV",
+        "https://s.momoshop.com.tw/s/FXa0ctAP",
+        "https://s.momoshop.com.tw/s/TwflpBsn",
+        "https://tw.elitefasion.com/lifestyle-culture/cold-brew-tea-gift-box-afternoon-guide.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/cold-brew-tea-gift-box-afternoon-guide.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260505060825-petek-smart-pet-care-project",
+      "slug": "petek-smart-pet-care-project",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.icareushop.com.tw/SalePage/Index/9256154",
+        "https://www.icareushop.com.tw/SalePage/Index/10397938",
+        "https://www.icareushop.com.tw/SalePage/Index/10403295",
+        "https://tw.elitefasion.com/ai-innovation/petek-smart-pet-care-project.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/petek-smart-pet-care-project.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520071636-summer-low-pressure-daily-cooling-sun-sleep-drinks",
+      "slug": "summer-low-pressure-daily-cooling-sun-sleep-drinks",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3",
+        "https://s.momoshop.com.tw/s/bw69kfhb",
+        "https://s.momoshop.com.tw/s/zymRpNpU",
+        "https://s.momoshop.com.tw/s/iujoS6F4",
+        "https://tw.elitefasion.com/wellness-movement/summer-low-pressure-daily-cooling-sun-sleep-drinks.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/summer-low-pressure-daily-cooling-sun-sleep-drinks.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520071636-knee-back-support-brace-workday-guide",
+      "slug": "knee-back-support-brace-workday-guide",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/ARNPduxj",
+        "https://s.momoshop.com.tw/s/BtMjBpkA",
+        "https://s.momoshop.com.tw/s/ksTIUNxO",
+        "https://tw.elitefasion.com/wellness-movement/knee-back-support-brace-workday-guide.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/knee-back-support-brace-workday-guide.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520071636-home-stretch-corner-yoga-mat-light-scent",
+      "slug": "home-stretch-corner-yoga-mat-light-scent",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/pWKboyhs",
+        "https://s.momoshop.com.tw/s/4sSbnDHc",
+        "https://s.momoshop.com.tw/s/94QtsVvN",
+        "https://s.momoshop.com.tw/s/ZzrRLijd",
+        "https://tw.elitefasion.com/wellness-movement/home-stretch-corner-yoga-mat-light-scent.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/home-stretch-corner-yoga-mat-light-scent.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520071636-home-comfort-massage-device-brace-gift-guide",
+      "slug": "home-comfort-massage-device-brace-gift-guide",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/f1zXSS5P",
+        "https://s.momoshop.com.tw/s/vAGOj7Co",
+        "https://s.momoshop.com.tw/s/3gYTg55i",
+        "https://s.momoshop.com.tw/s/ksTIUNxO",
+        "https://tw.elitefasion.com/wellness-movement/home-comfort-massage-device-brace-gift-guide.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/home-comfort-massage-device-brace-gift-guide.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520071636-home-care-flow-bathing-transfer-storage-safety",
+      "slug": "home-care-flow-bathing-transfer-storage-safety",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/2EwkaNe8",
+        "https://s.momoshop.com.tw/s/4sSbnDHc",
+        "https://s.momoshop.com.tw/s/3gYTg55i",
+        "https://s.momoshop.com.tw/s/HRLuciO6",
+        "https://tw.elitefasion.com/wellness-movement/home-care-flow-bathing-transfer-storage-safety.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/home-care-flow-bathing-transfer-storage-safety.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520070134-freezer-meal-prep-chicken-sweet-potato-vegetables",
+      "slug": "freezer-meal-prep-chicken-sweet-potato-vegetables",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/xt5xEjrq",
+        "https://s.momoshop.com.tw/s/mlf6SOpU",
+        "https://s.momoshop.com.tw/s/HBcbp9F5",
+        "https://s.momoshop.com.tw/s/NWgCjxNU",
+        "https://tw.elitefasion.com/wellness-movement/freezer-meal-prep-chicken-sweet-potato-vegetables.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/freezer-meal-prep-chicken-sweet-potato-vegetables.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520045205-bedtime-home-ritual-earplugs-pillow-scent-light",
+      "slug": "bedtime-home-ritual-earplugs-pillow-scent-light",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/zymRpNpU",
+        "https://s.momoshop.com.tw/s/Vo7R2DY6",
+        "https://s.momoshop.com.tw/s/DPcxp3dk",
+        "https://tw.elitefasion.com/wellness-movement/bedtime-home-ritual-earplugs-pillow-scent-light.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/bedtime-home-ritual-earplugs-pillow-scent-light.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260519221627-summer-outdoor-sun-protection-rain-gear",
+      "slug": "summer-outdoor-sun-protection-rain-gear",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3",
+        "https://s.momoshop.com.tw/s/swCkSJDA",
+        "https://s.momoshop.com.tw/s/ryfM995D",
+        "https://tw.elitefasion.com/outdoor-escapes/summer-outdoor-sun-protection-rain-gear.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/summer-outdoor-sun-protection-rain-gear.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260519221627-japanese-camping-style-entry-gear-order",
+      "slug": "japanese-camping-style-entry-gear-order",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/iLAlQeGq",
+        "https://s.momoshop.com.tw/s/4MGgnllr",
+        "https://s.momoshop.com.tw/s/zqRxPzAK",
+        "https://tw.elitefasion.com/outdoor-escapes/japanese-camping-style-entry-gear-order.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/japanese-camping-style-entry-gear-order.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260519221627-day-trip-bag-essentials-sun-charging-rainwear",
+      "slug": "day-trip-bag-essentials-sun-charging-rainwear",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/fZ9miz2D",
+        "https://s.momoshop.com.tw/s/LJfvOb7h",
+        "https://s.momoshop.com.tw/s/zymRpNpU",
+        "https://tw.elitefasion.com/outdoor-escapes/day-trip-bag-essentials-sun-charging-rainwear.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/day-trip-bag-essentials-sun-charging-rainwear.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260519221627-beginner-hiking-gear-order-light-trail",
+      "slug": "beginner-hiking-gear-order-light-trail",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/osiHlmau",
+        "https://s.momoshop.com.tw/s/ARNPduxj",
+        "https://s.momoshop.com.tw/s/BtMjBpkA",
+        "https://tw.elitefasion.com/outdoor-escapes/beginner-hiking-gear-order-light-trail.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/beginner-hiking-gear-order-light-trail.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520070134-office-drinks-sparkling-plant-milk-tea-coffee",
+      "slug": "office-drinks-sparkling-plant-milk-tea-coffee",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/bw69kfhb",
+        "https://s.momoshop.com.tw/s/ftLQRw5g",
+        "https://s.momoshop.com.tw/s/iujoS6F4",
+        "https://s.momoshop.com.tw/s/fQyUCDn2",
+        "https://tw.elitefasion.com/lifestyle-culture/office-drinks-sparkling-plant-milk-tea-coffee.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/office-drinks-sparkling-plant-milk-tea-coffee.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520045418-living-room-work-corner-lighting-scent-storage",
+      "slug": "living-room-work-corner-lighting-scent-storage",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/94QtsVvN",
+        "https://s.momoshop.com.tw/s/AFFq5jUk",
+        "https://s.momoshop.com.tw/s/hduo9ZBp",
+        "https://tw.elitefasion.com/lifestyle-culture/living-room-work-corner-lighting-scent-storage.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/living-room-work-corner-lighting-scent-storage.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520045205-home-evening-scent-lighting-storage-ritual",
+      "slug": "home-evening-scent-lighting-storage-ritual",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/ZzrRLijd",
+        "https://s.momoshop.com.tw/s/DPcxp3dk",
+        "https://s.momoshop.com.tw/s/94QtsVvN",
+        "https://tw.elitefasion.com/lifestyle-culture/home-evening-scent-lighting-storage-ritual.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/home-evening-scent-lighting-storage-ritual.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520010743-spring-summer-commute-sun-protection-umbrella-light-bag",
+      "slug": "spring-summer-commute-sun-protection-umbrella-light-bag",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3",
+        "https://s.momoshop.com.tw/s/swCkSJDA",
+        "https://s.momoshop.com.tw/s/fZ9miz2D",
+        "https://tw.elitefasion.com/casual-chic/spring-summer-commute-sun-protection-umbrella-light-bag.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/spring-summer-commute-sun-protection-umbrella-light-bag.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520010743-commute-bag-capacity-weight-strap-formality-guide",
+      "slug": "commute-bag-capacity-weight-strap-formality-guide",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/fZ9miz2D",
+        "https://s.momoshop.com.tw/s/jEp8GjC8",
+        "https://s.momoshop.com.tw/s/b4R6xjGv",
+        "https://tw.elitefasion.com/casual-chic/commute-bag-capacity-weight-strap-formality-guide.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/commute-bag-capacity-weight-strap-formality-guide.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260520010743-city-travel-crossbody-anti-theft-small-bag-setup",
+      "slug": "city-travel-crossbody-anti-theft-small-bag-setup",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://s.momoshop.com.tw/s/jEp8GjC8",
+        "https://s.momoshop.com.tw/s/fZ9miz2D",
+        "https://s.momoshop.com.tw/s/bm7c4Ing",
+        "https://tw.elitefasion.com/casual-chic/city-travel-crossbody-anti-theft-small-bag-setup.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/city-travel-crossbody-anti-theft-small-bag-setup.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260522072357-home-office-corner-desk-storage-furniture-guide",
+      "slug": "home-office-corner-desk-storage-furniture-guide",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T16:58:48Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070008959?i_code=TP00074070008959",
+        "https://www.momoshop.com.tw/TP/TP0005709/goodsDetail/TP00057090017605?i_code=TP00057090017605",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250008928?i_code=TP00036250008928",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420030389?i_code=TP00036420030389",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070006604?i_code=TP00074070006604",
+        "https://www.momoshop.com.tw/TP/TP0007407/goodsDetail/TP00074070006142?i_code=TP00074070006142",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015397?i_code=TP00036250015397",
+        "https://www.momoshop.com.tw/TP/TP0006348/goodsDetail/TP00063480000421?i_code=TP00063480000421",
+        "https://www.momoshop.com.tw/TP/TP0003625/goodsDetail/TP00036250015650?i_code=TP00036250015650",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600007773?i_code=TP00068600007773",
+        "https://www.momoshop.com.tw/TP/TP0006860/goodsDetail/TP00068600008563?i_code=TP00068600008563",
+        "https://www.momoshop.com.tw/TP/TP0006481/goodsDetail/TP00064810020083?i_code=TP00064810020083",
+        "https://www.momoshop.com.tw/TP/TP0003642/goodsDetail/TP00036420027143?i_code=TP00036420027143",
+        "https://s.momoshop.com.tw/s/YQmiH83q",
+        "https://s.momoshop.com.tw/s/QcGjnjRK",
+        "https://www.momoshop.com.tw/TP/TP0007407/main",
+        "https://www.momoshop.com.tw/TP/TP0005709/main",
+        "https://www.momoshop.com.tw/TP/TP0003625/main",
+        "https://www.momoshop.com.tw/TP/TP0003642/main",
+        "https://s.momoshop.com.tw/s/XGDkVMuL"
+      ],
+      "reviewer": "automation"
+    },
     {
       "articleId": "auto-20260515180349-chatgpt-image-2-prompts-elite-women",
       "slug": "chatgpt-image-2-prompts-elite-women",
