@@ -1,0 +1,338 @@
+# momo 聯盟推薦覆蓋盤點（2026-05-28）
+
+## 盤點口徑
+
+- 商品層級來源：`automation/momo-product-placement-report.json`。
+- 品牌/店家層級來源：`automation/momo-brand-recommendation-tracker.csv`，並輔以目前公開 HTML 反查品牌名稱、merchant id、momo 短連結與店鋪連結。
+- 排除口徑：`coverage_status=needs-verification/paused`、`recommendation_grade=D`、`brand_role=暫緩/排除候選` 或 `assigned_theme=needs-verification`。
+- 已推薦口徑：非排除標的中，任一條件成立即視為已推薦：`coverage_status=live`、`article_created=true`、有 `article_slug/live_url`、`mention_count>0`，或目前 HTML 可反查到品牌/連結。
+
+## 總覽
+
+- 商品層級：來源商品 600 個；已排除 48 個；符合條件 552 個；已置入推薦 552 個；尚未置入 0 個。
+- 品牌/店家層級：追蹤表 399 筆；排除/暫緩/需查證 123 筆；可推薦 276 筆；已推薦 146 筆；尚未推薦 130 筆。
+
+## 可推薦品牌狀態分布
+
+### 依等級
+- B: 185
+- A: 83
+- C: 5
+- A+: 3
+
+### 依主題
+- home-ritual-lifestyle: 99
+- mobile-wardrobe-accessories: 50
+- outdoor-mobile-living: 36
+- daily-food-drink-ritual: 30
+- creator-work-gear: 24
+- wellness-recovery-support: 18
+- family-parenting-future: 11
+- pet-lifestyle-future: 8
+
+### 依角色
+- 配角候選: 171
+- 主推候選: 78
+- 推薦店家: 19
+- 背景詞/待查證: 5
+- 主角候選: 3
+
+## 已推薦品牌/店家
+
+- Cliff Top 台灣製車充 機車充電手機架｜TP0000092｜B｜creator-work-gear｜提及 1｜mobile-photography-cpl-rig-outdoor-creator-kit
+- EZstick 3C商品保護賣場｜TP0006238｜B｜creator-work-gear｜提及 1｜ai-workflow-laptop-spec-warranty-monitor-backup
+- GoRig行動攝錄影專賣｜TP0002918｜A｜creator-work-gear｜提及 2｜faceless-content-phone-rig-filter-light-audio, mobile-photography-cpl-rig-outdoor-creator-kit
+- LamiFans｜TP0006348｜A｜creator-work-gear｜提及 5｜consultant-remote-work-bag-charging-audio-presentation, quality-gifting-coffee-tea-massage-umbrella-custom, jewelry-leather-gift-ring-silver-wallet-small-bag, home-office-corner-desk-storage-furniture-guide
+- REAICE｜外接式螢幕、充電線材、3C周邊｜TP0005967｜A｜creator-work-gear｜提及 3｜second-monitor-laptop-desk-setup-ai-workflow, consultant-remote-work-bag-charging-audio-presentation, ai-workflow-laptop-spec-warranty-monitor-backup
+- 【 凱銓科技 】電競/水冷電腦 專業設計｜TP0006865｜A｜creator-work-gear｜提及 1｜ai-workflow-laptop-spec-warranty-monitor-backup
+- 墊腳石書店｜TP0002688｜B｜creator-work-gear｜提及 1｜family-gifts-blocks-books-puzzles-learning-toys
+- 日本橋3C｜TP0007010｜B｜creator-work-gear｜提及 3｜second-monitor-laptop-desk-setup-ai-workflow, consultant-remote-work-bag-charging-audio-presentation, ai-workflow-laptop-spec-warranty-monitor-backup
+- 曜暘音響｜TP0007934｜A｜creator-work-gear｜提及 1｜consultant-remote-work-bag-charging-audio-presentation
+- 聯威電腦｜TP0000858｜B｜creator-work-gear｜提及 3｜second-monitor-laptop-desk-setup-ai-workflow, consultant-remote-work-bag-charging-audio-presentation, ai-workflow-laptop-spec-warranty-monitor-backup
+- 華克電腦-高效筆電專賣平台、專業服務與精選方案｜TP0002753｜A｜creator-work-gear｜提及 3｜second-monitor-laptop-desk-setup-ai-workflow, consultant-remote-work-bag-charging-audio-presentation, ai-workflow-laptop-spec-warranty-monitor-backup
+- DEHpet德培特｜TP0009045｜A｜daily-food-drink-ritual｜提及 1｜pet-daily-supplies-food-snack-cleaning-outing
+- KKM 健康飲食 專賣-植物奶|果汁|穀物果乾｜TP0000776｜A｜daily-food-drink-ritual｜提及 3｜freezer-meal-prep-chicken-sweet-potato-vegetables, office-drinks-sparkling-plant-milk-tea-coffee, summer-low-pressure-daily-cooling-sun-sleep-drinks
+- LEOBUNA 里昂布納精品咖啡｜TP0006698｜A｜daily-food-drink-ritual｜提及 2｜camping-coffee-outdoor-meal-prep, office-coffee-beans-drip-bags-workday-guide
+- PV女性微甜草本飲｜Pistina Vioya｜TP0009026｜A｜daily-food-drink-ritual｜提及 2｜office-drinks-sparkling-plant-milk-tea-coffee, summer-low-pressure-daily-cooling-sun-sleep-drinks
+- Tails Life 毛孩食舖｜TP0002193｜A｜daily-food-drink-ritual｜提及 1｜pet-daily-supplies-food-snack-cleaning-outing
+- Zymoïde 天然酵素飲專賣｜TP0008341｜A｜daily-food-drink-ritual｜提及 2｜office-drinks-sparkling-plant-milk-tea-coffee, summer-low-pressure-daily-cooling-sun-sleep-drinks
+- 台酒旗艦店｜TP0001441｜A｜daily-food-drink-ritual｜提及 1｜cold-brew-tea-gift-box-afternoon-guide
+- 尾巴丘毛孩選物｜TP0008435｜B｜daily-food-drink-ritual｜提及 3｜pet-daily-supplies-food-snack-cleaning-outing, cat-home-litter-toys-food-cleaning-order, pet-friendly-home-cleaning-floor-laundry-storage
+- 恩亞生活 enyalife｜TP0001663｜B｜daily-food-drink-ritual｜提及 1｜office-drinks-sparkling-plant-milk-tea-coffee
+- 愛貓聯盟｜TP0000547｜A｜daily-food-drink-ritual｜提及 1｜cat-home-litter-toys-food-cleaning-order
+- 暮朝食粹Muzhao | 創新食尚的伴手禮｜醬油 米餅 茶｜TP0003333｜A｜daily-food-drink-ritual｜提及 1｜cold-brew-tea-gift-box-afternoon-guide
+- 馬克老爹專賣好咖啡 MARK-ODS Co. LTD｜TP0009388｜A｜daily-food-drink-ritual｜提及 3｜camping-coffee-outdoor-meal-prep, office-coffee-beans-drip-bags-workday-guide, quality-gifting-coffee-tea-massage-umbrella-custom
+- 888便利購 兒童玩具專賣店｜TP0002179｜A｜family-parenting-future｜提及 8｜family-gifts-blocks-books-puzzles-learning-toys, family-gift-toys-puzzles-kites-storage-guide, drawer-storage-cabinet-small-home-products-52, drawer-storage-cabinet-small-home-products 等 6 篇
+- WA-GU-MI｜TP0003052｜B｜family-parenting-future｜提及 1｜family-gifts-blocks-books-puzzles-learning-toys
+- 寶寶共和國Babyrepublic｜TP0000319｜B｜family-parenting-future｜提及 2｜family-gifts-blocks-books-puzzles-learning-toys, parent-child-outing-tableware-oral-care-maternity-bag
+- 磚星球樂高專賣店｜TP0002275｜A｜family-parenting-future｜提及 1｜family-gifts-blocks-books-puzzles-learning-toys
+- 2angels質感矽膠嬰幼餐具｜TP0002712｜A｜home-ritual-lifestyle｜提及 1｜parent-child-outing-tableware-oral-care-maternity-bag
+- ART64銀飾設計訂製｜TP0000144｜B｜home-ritual-lifestyle｜提及 2｜home-nail-makeup-tools-beginner-storage, jewelry-leather-gift-ring-silver-wallet-small-bag
+- Awayuki淡雪 日本製精品｜TP0007021｜B｜home-ritual-lifestyle｜提及 2｜small-home-entry-closet-desk-cleaning-storage, scent-bodycare-gift-essential-oil-towel-small-goods
+- BAYBEYLA 貝貝拉-專業彩妝刷具店｜TP0000439｜B｜home-ritual-lifestyle｜提及 2｜home-nail-makeup-tools-beginner-storage, meeting-grooming-kit-hair-makeup-scent-small-bag
+- Desire & Passion 天森無患｜TP0007302｜A｜home-ritual-lifestyle｜提及 1｜home-cleaning-products-bathroom-kitchen-odor-guide
+- FUN HOUSE｜GOODS-fun-house｜B｜home-ritual-lifestyle｜提及 1｜family-table-toys-puzzles-gifts-products
+- GINGER MAKE UP｜魔法化妝箱｜TP0008424｜A｜home-ritual-lifestyle｜提及 2｜home-nail-makeup-tools-beginner-storage, meeting-grooming-kit-hair-makeup-scent-small-bag
+- GW 水玻璃｜TP0009124｜A｜home-ritual-lifestyle｜提及 1｜home-cleaning-products-bathroom-kitchen-odor-guide
+- Hysure海說官方旗艦店｜TP0004799｜B｜home-ritual-lifestyle｜提及 1｜living-room-work-corner-lighting-scent-storage
+- JINKO 淨科｜TP0003749｜A｜home-ritual-lifestyle｜提及 2｜home-cleaning-products-bathroom-kitchen-odor-guide, pet-friendly-home-cleaning-floor-laundry-storage
+- MORINO摩力諾生活館|毛巾 浴巾 襪子 除臭襪 史努比｜TP0002031｜A｜home-ritual-lifestyle｜提及 3｜scent-bodycare-gift-essential-oil-towel-small-goods, meeting-grooming-kit-hair-makeup-scent-small-bag, pet-friendly-home-cleaning-floor-laundry-storage
+- MPB巴黎小姐 官方旗艦店 熱蠟除毛  補色洗髮精｜TP0004416｜A｜home-ritual-lifestyle｜提及 1｜scalp-haircare-shampoo-color-styling-brush
+- Mommywant×全方位母嬰寵物用品｜TP0003220｜B｜home-ritual-lifestyle｜提及 2｜pet-daily-supplies-food-snack-cleaning-outing, cat-home-litter-toys-food-cleaning-order
+- RED HOUSE 家具工廠｜TP0007407｜B｜home-ritual-lifestyle｜提及 21｜small-home-storage-products-entry-closet-underbed, entryway-shoe-cabinet-umbrella-rack-product-guide, home-office-corner-desk-storage-furniture-guide, home-organization-cleaning-kitchen-storage-products 等 14 篇
+- SENGLI 質感家電 x 生活選物｜TP0007694｜A｜home-ritual-lifestyle｜提及 2｜living-room-work-corner-lighting-scent-storage, second-monitor-laptop-desk-setup-ai-workflow
+- SUSS Living生活良品｜TP0002948｜B｜home-ritual-lifestyle｜提及 3｜small-home-entry-closet-desk-cleaning-storage, family-gifts-blocks-books-puzzles-learning-toys, parent-child-outing-tableware-oral-care-maternity-bag
+- THANN官方直營｜TP0002458｜A｜home-ritual-lifestyle｜提及 6｜home-evening-scent-lighting-storage-ritual, bedtime-home-ritual-earplugs-pillow-scent-light, home-stretch-corner-yoga-mat-light-scent, daily-skincare-essence-mask-body-sunscreen-order 等 6 篇
+- TZUMii-DIY傢俱官方直營旗艦店｜TP0005954｜B｜home-ritual-lifestyle｜提及 1｜small-home-entry-closet-desk-cleaning-storage
+- au fait 無非｜手作香氛館｜TP0009429｜A｜home-ritual-lifestyle｜提及 5｜home-evening-scent-lighting-storage-ritual, living-room-work-corner-lighting-scent-storage, home-stretch-corner-yoga-mat-light-scent, scent-bodycare-gift-essential-oil-towel-small-goods 等 5 篇
+- ☁凌雲家居｜TP0003625｜B｜home-ritual-lifestyle｜提及 19｜small-home-storage-products-entry-closet-underbed, entryway-shoe-cabinet-umbrella-rack-product-guide, home-office-corner-desk-storage-furniture-guide, family-gift-toys-puzzles-kites-storage-guide 等 15 篇
+- 【官方直營】淨淨Clean Clean｜TP0005724｜A｜home-ritual-lifestyle｜提及 3｜home-cleaning-products-bathroom-kitchen-odor-guide, cat-home-litter-toys-food-cleaning-order, pet-friendly-home-cleaning-floor-laundry-storage
+- 佑澄企業社｜TP0006860｜B｜home-ritual-lifestyle｜提及 23｜small-home-storage-products-entry-closet-underbed, entryway-shoe-cabinet-umbrella-rack-product-guide, home-office-corner-desk-storage-furniture-guide, home-organization-cleaning-kitchen-storage-products 等 16 篇
+- 凱莎精選家具城｜TP0004379｜B｜home-ritual-lifestyle｜提及 4｜home-organization-cleaning-kitchen-storage-products, compact-large-furniture-dining-bed-sofa-products-2, compact-large-furniture-dining-bed-sofa-products
+- 卡雅仕KYOGOKU｜日本原廠直營店｜TP0004518｜A｜home-ritual-lifestyle｜提及 1｜scalp-haircare-shampoo-color-styling-brush
+- 唯詩生醫｜醫美診所指定品牌、保養品， 符合FDA國際規範｜TP0002583｜A｜home-ritual-lifestyle｜提及 1｜daily-skincare-essence-mask-body-sunscreen-order
+- 多彩家居｜TP0003807｜B｜home-ritual-lifestyle｜提及 1｜small-home-entry-closet-desk-cleaning-storage
+- 大檜仁心｜TP0009548｜A｜home-ritual-lifestyle｜提及 6｜home-evening-scent-lighting-storage-ritual, bedtime-home-ritual-earplugs-pillow-scent-light, quality-gifting-coffee-tea-massage-umbrella-custom, scent-bodycare-gift-essential-oil-towel-small-goods 等 5 篇
+- 女王美學美甲材料旗艦店 - DIY美甲新手友善店 免費教學｜TP0005240｜A｜home-ritual-lifestyle｜提及 1｜home-nail-makeup-tools-beginner-storage
+- 悅家傢具城｜TP0006481｜B｜home-ritual-lifestyle｜提及 21｜small-home-storage-products-entry-closet-underbed, entryway-shoe-cabinet-umbrella-rack-product-guide, home-office-corner-desk-storage-furniture-guide, home-organization-cleaning-kitchen-storage-products 等 16 篇
+- 愛貓聯萌｜TP0000351｜A｜home-ritual-lifestyle｜提及 1｜cat-home-litter-toys-food-cleaning-order
+- 景敦商行｜TP0006669｜B｜home-ritual-lifestyle｜提及 22｜small-home-storage-products-entry-closet-underbed, entryway-shoe-cabinet-umbrella-rack-product-guide, home-organization-cleaning-kitchen-storage-products, drawer-storage-cabinet-small-home-products-51 等 17 篇
+- 有喵病｜TP0007761｜A｜home-ritual-lifestyle｜提及 1｜cat-home-litter-toys-food-cleaning-order
+- 森格諾傢居｜TP0003585｜B｜home-ritual-lifestyle｜提及 14｜hair-accessory-small-gift-products, drawer-storage-cabinet-small-home-products-52, drawer-storage-cabinet-small-home-products, desk-work-corner-furniture-products 等 12 篇
+- 森活家居選物｜TP0006092｜B｜home-ritual-lifestyle｜提及 18｜hair-accessory-small-gift-products, drawer-storage-cabinet-small-home-products-52, desk-work-corner-furniture-products, drawer-storage-cabinet-small-home-products-3 等 16 篇
+- 楡青企業社｜TP0003642｜B｜home-ritual-lifestyle｜提及 21｜small-home-storage-products-entry-closet-underbed, entryway-shoe-cabinet-umbrella-rack-product-guide, home-office-corner-desk-storage-furniture-guide, home-organization-cleaning-kitchen-storage-products 等 17 篇
+- 灰調 生活家飾選品 香氛 精油 花器 燈飾｜TP0004627｜A｜home-ritual-lifestyle｜提及 3｜home-evening-scent-lighting-storage-ritual, living-room-work-corner-lighting-scent-storage, home-stretch-corner-yoga-mat-light-scent
+- 燈后- LED居家/智能/照明/五金/居家生活用品｜TP0007295｜A｜home-ritual-lifestyle｜提及 5｜home-evening-scent-lighting-storage-ritual, bedtime-home-ritual-earplugs-pillow-scent-light, living-room-work-corner-lighting-scent-storage, faceless-content-phone-rig-filter-light-audio 等 5 篇
+- 牙齒寶寶TeethBaby專業口腔｜TP0002971｜B｜home-ritual-lifestyle｜提及 1｜parent-child-outing-tableware-oral-care-maternity-bag
+- 真蓁嚴選清潔生活館-專賣平板拖把、掃把、掃除用品｜TP0000922｜A｜home-ritual-lifestyle｜提及 3｜small-home-entry-closet-desk-cleaning-storage, home-cleaning-products-bathroom-kitchen-odor-guide, pet-friendly-home-cleaning-floor-laundry-storage
+- 美利購清潔劑專賣店｜TP0003487｜A｜home-ritual-lifestyle｜提及 1｜home-cleaning-products-bathroom-kitchen-odor-guide
+- 職人椅YA｜TP0000488｜B｜home-ritual-lifestyle｜提及 1｜living-room-work-corner-lighting-scent-storage
+- 艾寵聯萌｜犬貓美容 寵物保健 驅蟲潔牙 除臭噴霧 毛孩護理｜TP0008976｜A+｜home-ritual-lifestyle｜提及 1｜pet-friendly-home-cleaning-floor-laundry-storage
+- 蒔柒・療癒生活選品｜秘魯聖木香氛・居家淨化｜TP0005162｜A｜home-ritual-lifestyle｜提及 2｜home-evening-scent-lighting-storage-ritual, scent-bodycare-gift-essential-oil-towel-small-goods
+- 藤木居家具｜TP0005709｜B｜home-ritual-lifestyle｜提及 20｜small-home-storage-products-entry-closet-underbed, entryway-shoe-cabinet-umbrella-rack-product-guide, home-office-corner-desk-storage-furniture-guide, family-gift-toys-puzzles-kites-storage-guide 等 16 篇
+- 蝸居客製｜TP0003624｜B｜home-ritual-lifestyle｜提及 7｜drawer-storage-cabinet-small-home-products-51, drawer-storage-cabinet-small-home-products, closet-laundry-bedroom-storage-products, family-table-toys-puzzles-gifts-products 等 6 篇
+- 輕氧家居｜TP0008114｜B｜home-ritual-lifestyle｜提及 2｜ai-work-gadgets-translation-audio-products
+- 酷狗地板｜TP0009640｜A｜home-ritual-lifestyle｜提及 1｜pet-friendly-home-cleaning-floor-laundry-storage
+- 醫美保養品牌-Bioyona｜TP0005312｜B｜home-ritual-lifestyle｜提及 1｜daily-skincare-essence-mask-body-sunscreen-order
+- 雪亞緹 Sheer Arctic 純淨美妝 無毒保養｜TP0008148｜A｜home-ritual-lifestyle｜提及 1｜daily-skincare-essence-mask-body-sunscreen-order
+- 95 SNEAKER｜TP0003634｜B｜mobile-wardrobe-accessories｜提及 2｜weekend-light-outdoor-city-sun-jacket-shorts-small-bag, travel-shoes-bag-lightweight-crossbody-rain-backup
+- ACE TEA蒔宇茶｜TP0008786｜B｜mobile-wardrobe-accessories｜提及 1｜cold-brew-tea-gift-box-afternoon-guide
+- B+大尺碼專家｜TP0000405｜B｜mobile-wardrobe-accessories｜提及 1｜plus-size-office-travel-weekend-outfit-order
+- Babyshare時尚孕婦裝｜TP0006972｜B｜mobile-wardrobe-accessories｜提及 1｜parent-child-outing-tableware-oral-care-maternity-bag
+- Cell Secret 細胞泌密｜TP0008453｜A+｜mobile-wardrobe-accessories｜提及 1｜daily-skincare-essence-mask-body-sunscreen-order
+- DTAudio聆翔 官方旗艦店-你的耳機喇叭專門家｜TP0001204｜B｜mobile-wardrobe-accessories｜提及 2｜faceless-content-phone-rig-filter-light-audio, consultant-remote-work-bag-charging-audio-presentation
+- Haida 台灣總代理｜TP0009335｜A｜mobile-wardrobe-accessories｜提及 2｜faceless-content-phone-rig-filter-light-audio, mobile-photography-cpl-rig-outdoor-creator-kit
+- Juan瑜珈｜TP0009115｜A｜mobile-wardrobe-accessories｜提及 1｜home-stretch-corner-yoga-mat-light-scent
+- MiffyBaby婦幼用品｜TP0000587｜B｜mobile-wardrobe-accessories｜提及 1｜parent-child-outing-tableware-oral-care-maternity-bag
+- Mister手作皮件專門店｜TP0003337｜C｜mobile-wardrobe-accessories｜提及 6｜commute-bag-capacity-weight-strap-formality-guide, quality-gifting-coffee-tea-massage-umbrella-custom, home-nail-makeup-tools-beginner-storage, meeting-grooming-kit-hair-makeup-scent-small-bag 等 6 篇
+- PPBOX 官方旗艦店 - 英國袋鼠 KANGOL｜TP0003240｜B｜mobile-wardrobe-accessories｜提及 7｜commute-bag-capacity-weight-strap-formality-guide, city-travel-crossbody-anti-theft-small-bag-setup, plus-size-office-travel-weekend-outfit-order, rainy-workday-rain-boots-coat-umbrella-bag-materials 等 7 篇
+- SPRING 包包｜TP0000176｜C｜mobile-wardrobe-accessories｜提及 2｜commute-bag-capacity-weight-strap-formality-guide, city-travel-crossbody-anti-theft-small-bag-setup
+- Sports Support 健身裝備 護腕補劑腰帶｜TP0002618｜B｜mobile-wardrobe-accessories｜提及 1｜knee-back-support-brace-workday-guide
+- S′AIME東京企劃｜TP0007070｜A｜mobile-wardrobe-accessories｜提及 14｜day-trip-bag-essentials-sun-charging-rainwear, commute-bag-capacity-weight-strap-formality-guide, city-travel-crossbody-anti-theft-small-bag-setup, spring-summer-commute-sun-protection-umbrella-light-bag 等 13 篇
+- TWyzy新世代(充氣)沐浴床包｜TP0008844｜A｜mobile-wardrobe-accessories｜提及 1｜home-care-flow-bathing-transfer-storage-safety
+- Teavoya - 嘉柏茶業｜TP0005142｜A｜mobile-wardrobe-accessories｜提及 3｜cold-brew-tea-gift-box-afternoon-guide, office-drinks-sparkling-plant-milk-tea-coffee, quality-gifting-coffee-tea-massage-umbrella-custom
+- VENUSY｜漢南小姐・正韓服飾｜TP0008908｜C｜mobile-wardrobe-accessories｜提及 1｜plus-size-office-travel-weekend-outfit-order
+- Xinto Coffee 世界雙金咖啡烘豆廠 鑫圖咖啡｜TP0006151｜A｜mobile-wardrobe-accessories｜提及 3｜camping-coffee-outdoor-meal-prep, office-coffee-beans-drip-bags-workday-guide, office-drinks-sparkling-plant-milk-tea-coffee
+- vacanza｜GOODS-vacanza｜A｜mobile-wardrobe-accessories｜提及 2｜hair-accessory-small-gift-products
+- 嘉嶼 CATTEA®｜TP0007428｜B｜mobile-wardrobe-accessories｜提及 1｜cold-brew-tea-gift-box-afternoon-guide
+- 小嚼士冷凍食品 | 極品生鮮食材｜TP0002665｜A｜mobile-wardrobe-accessories｜提及 3｜camping-coffee-outdoor-meal-prep, freezer-meal-prep-chicken-sweet-potato-vegetables, summer-low-pressure-daily-cooling-sun-sleep-drinks
+- 歐力咖啡 Olly Coffee｜實體店面同步販售｜TP0000706｜A｜mobile-wardrobe-accessories｜提及 1｜office-coffee-beans-drip-bags-workday-guide
+- 玖伍Jiuwu jewelry·原創設計飾品｜TP0007932｜B｜mobile-wardrobe-accessories｜提及 2｜home-nail-makeup-tools-beginner-storage, jewelry-leather-gift-ring-silver-wallet-small-bag
+- 禾肯居家｜北歐風床包被套枕套 中式床罩 保潔墊 IKEA床包｜TP0002413｜B｜mobile-wardrobe-accessories｜提及 1｜bedtime-home-ritual-earplugs-pillow-scent-light
+- 紳娜多家居官方店｜獨立筒枕 乳膠床 飯店枕 床包 被套 枕套｜TP0001001｜B｜mobile-wardrobe-accessories｜提及 1｜bedtime-home-ritual-earplugs-pillow-scent-light
+- 鞋掌櫃商行｜TP0004643｜C｜mobile-wardrobe-accessories｜提及 2｜weekend-light-outdoor-city-sun-jacket-shorts-small-bag, travel-shoes-bag-lightweight-crossbody-rain-backup
+- ANPING 安平 - 戶外用品專賣｜TP0009177｜B｜outdoor-mobile-living｜提及 3｜light-camping-starter-kit-women-over-50, japanese-camping-style-entry-gear-order, beginner-hiking-gear-order-light-trail
+- AYSWE 愛蕊友肌｜TP0001343｜B｜outdoor-mobile-living｜提及 1｜daily-skincare-essence-mask-body-sunscreen-order
+- BINCOO官方旗艦店｜TP0009303｜B｜outdoor-mobile-living｜提及 2｜camping-coffee-outdoor-meal-prep, office-coffee-beans-drip-bags-workday-guide
+- Be yourself官方｜TP0002198｜B｜outdoor-mobile-living｜提及 2｜plus-size-office-travel-weekend-outfit-order, weekend-light-outdoor-city-sun-jacket-shorts-small-bag
+- CLOEE 品牌旗艦店｜TP0008576｜A｜outdoor-mobile-living｜提及 1｜scalp-haircare-shampoo-color-styling-brush
+- DA 生活選物｜GOODS-da｜B｜outdoor-mobile-living｜提及 4｜mobile-outdoor-rain-bottle-fan-products, ai-work-gadgets-translation-audio-products
+- FULTON 富爾頓皇家晴雨傘｜TP0005684｜A｜outdoor-mobile-living｜提及 7｜summer-outdoor-sun-protection-rain-gear, scooter-commute-rain-gear-reflective-accessories, day-trip-bag-essentials-sun-charging-rainwear, spring-summer-commute-sun-protection-umbrella-light-bag 等 7 篇
+- Heine海恩後背包｜TP0004592｜C｜outdoor-mobile-living｜提及 4｜commute-bag-capacity-weight-strap-formality-guide, city-travel-crossbody-anti-theft-small-bag-setup, rainy-workday-rain-boots-coat-umbrella-bag-materials, travel-shoes-bag-lightweight-crossbody-rain-backup
+- LFM機車精品網路旗艦店｜TP0005110｜A｜outdoor-mobile-living｜提及 2｜scooter-commute-rain-gear-reflective-accessories, rainy-workday-rain-boots-coat-umbrella-bag-materials
+- Litume 意都美 露營 登山 戶外 旅遊用品｜TP0007424｜A｜outdoor-mobile-living｜提及 6｜light-camping-starter-kit-women-over-50, summer-outdoor-sun-protection-rain-gear, day-trip-bag-essentials-sun-charging-rainwear, beginner-hiking-gear-order-light-trail 等 6 篇
+- Momax Taiwan 摩米士台灣品牌旗艦店｜TP0009476｜A｜outdoor-mobile-living｜提及 7｜day-trip-bag-essentials-sun-charging-rainwear, night-mobility-reflective-dashcam-support-sleep-kit, second-monitor-laptop-desk-setup-ai-workflow, faceless-content-phone-rig-filter-light-audio 等 7 篇
+- OMBRA 雨傘 雨衣 雨鞋 旗艦店｜TP0001609｜A｜outdoor-mobile-living｜提及 6｜summer-outdoor-sun-protection-rain-gear, scooter-commute-rain-gear-reflective-accessories, night-mobility-reflective-dashcam-support-sleep-kit, spring-summer-commute-sun-protection-umbrella-light-bag 等 6 篇
+- SANSUI山水 官方旗艦店｜TP0005820｜A｜outdoor-mobile-living｜提及 2｜faceless-content-phone-rig-filter-light-audio, scalp-haircare-shampoo-color-styling-brush
+- Snow Peak Taiwan 官方旗艦館｜TP0007737｜A｜outdoor-mobile-living｜提及 1｜japanese-camping-style-entry-gear-order
+- UD LAB｜TP0009277｜B｜outdoor-mobile-living｜提及 12｜day-trip-bag-essentials-sun-charging-rainwear, commute-bag-capacity-weight-strap-formality-guide, city-travel-crossbody-anti-theft-small-bag-setup, spring-summer-commute-sun-protection-umbrella-light-bag 等 12 篇
+- UV100專業機能防曬服飾｜TP0000116｜A｜outdoor-mobile-living｜提及 10｜light-camping-starter-kit-women-over-50, summer-outdoor-sun-protection-rain-gear, scooter-commute-rain-gear-reflective-accessories, day-trip-bag-essentials-sun-charging-rainwear 等 10 篇
+- campingflying 想露飛飛｜TP0006752｜A+｜outdoor-mobile-living｜提及 2｜light-camping-starter-kit-women-over-50, japanese-camping-style-entry-gear-order
+- 北方狼(官方授權經銷商)｜TP0000976｜B｜outdoor-mobile-living｜提及 1｜beginner-hiking-gear-order-light-trail
+- 反光屋FKW｜TP0000034｜A｜outdoor-mobile-living｜提及 3｜scooter-commute-rain-gear-reflective-accessories, beginner-hiking-gear-order-light-trail, night-mobility-reflective-dashcam-support-sleep-kit
+- 呷什麵 SHIA SHEN MIAN 官方直營商城｜TP0001794｜A｜outdoor-mobile-living｜提及 2｜camping-coffee-outdoor-meal-prep, freezer-meal-prep-chicken-sweet-potato-vegetables
+- 壹品輕奢家居館｜TP0006338｜B｜outdoor-mobile-living｜提及 1｜small-home-entry-closet-desk-cleaning-storage
+- 安鈦科技行車記錄器 HP惠普 響尾蛇 聲寶 總代理｜TP0001272｜B｜outdoor-mobile-living｜提及 1｜night-mobility-reflective-dashcam-support-sleep-kit
+- 尋露戶外用品館｜TP0003812｜B｜outdoor-mobile-living｜提及 1｜light-camping-starter-kit-women-over-50
+- 左都雨傘官方旗艦店｜TP0005647｜B｜outdoor-mobile-living｜提及 4｜summer-outdoor-sun-protection-rain-gear, scooter-commute-rain-gear-reflective-accessories, spring-summer-commute-sun-protection-umbrella-light-bag, rainy-workday-rain-boots-coat-umbrella-bag-materials
+- 未來戶外城市｜TP0009528｜B｜outdoor-mobile-living｜提及 1｜japanese-camping-style-entry-gear-order
+- 江大露營裝備｜TP0003074｜B｜outdoor-mobile-living｜提及 2｜light-camping-starter-kit-women-over-50, japanese-camping-style-entry-gear-order
+- 耳根清靜 - 耳塞/優質睡眠專賣店｜TP0003593｜A｜outdoor-mobile-living｜提及 4｜day-trip-bag-essentials-sun-charging-rainwear, night-mobility-reflective-dashcam-support-sleep-kit, bedtime-home-ritual-earplugs-pillow-scent-light, summer-low-pressure-daily-cooling-sun-sleep-drinks
+- HeroMama官方直營｜TP0009203｜A｜pet-lifestyle-future｜提及 1｜pet-daily-supplies-food-snack-cleaning-outing
+- petit沛蒂| 獸醫師指定貓狗保健寵物品牌｜TP0005844｜A｜pet-lifestyle-future｜提及 1｜pet-daily-supplies-food-snack-cleaning-outing
+- 寵物王國 PetKingdom｜TP0007478｜B｜pet-lifestyle-future｜提及 2｜pet-daily-supplies-food-snack-cleaning-outing, pet-friendly-home-cleaning-floor-laundry-storage
+- Apode 歐美專業髮品｜TP0005448｜A｜wellness-recovery-support｜提及 2｜scalp-haircare-shampoo-color-styling-brush, meeting-grooming-kit-hair-makeup-scent-small-bag
+- BELEX - 專業醫療護具品牌｜TP0003385｜A｜wellness-recovery-support｜提及 5｜beginner-hiking-gear-order-light-trail, night-mobility-reflective-dashcam-support-sleep-kit, knee-back-support-brace-workday-guide, home-comfort-massage-device-brace-gift-guide 等 5 篇
+- BETENSH 床墊 | 官方旗艦店｜TP0001941｜A｜wellness-recovery-support｜提及 1｜bedtime-home-ritual-earplugs-pillow-scent-light
+- COZZY嚴選-品牌官方旗艦店-園藝/按摩用品/質感選物｜TP0003894｜B｜wellness-recovery-support｜提及 2｜home-comfort-massage-device-brace-gift-guide, home-care-flow-bathing-transfer-storage-safety
+- Cool Sport Support 巴酷運動｜TP0008160｜B｜wellness-recovery-support｜提及 1｜knee-back-support-brace-workday-guide
+- EVERPOLL 愛科濾淨實業股份有限公司 官方直營｜TP0004949｜A｜wellness-recovery-support｜提及 1｜home-care-flow-bathing-transfer-storage-safety
+- GUMi低碳｜TP0002736｜A｜wellness-recovery-support｜提及 2｜freezer-meal-prep-chicken-sweet-potato-vegetables, summer-low-pressure-daily-cooling-sun-sleep-drinks
+- Jasper 大來護具 Mo+ 官方商店 │護膝 護腰 護踝｜TP0006750｜A｜wellness-recovery-support｜提及 5｜beginner-hiking-gear-order-light-trail, night-mobility-reflective-dashcam-support-sleep-kit, knee-back-support-brace-workday-guide, home-comfort-massage-device-brace-gift-guide 等 5 篇
+- 一然健康｜TP0005698｜A｜wellness-recovery-support｜提及 2｜home-comfort-massage-device-brace-gift-guide, home-care-flow-bathing-transfer-storage-safety
+- 安里嚴選-台灣本土品牌，用心經營健康按摩產業｜TP0009161｜B｜wellness-recovery-support｜提及 3｜knee-back-support-brace-workday-guide, home-comfort-massage-device-brace-gift-guide, home-care-flow-bathing-transfer-storage-safety
+- 完美主義 官方直營｜TP0005953｜B｜wellness-recovery-support｜提及 5｜home-evening-scent-lighting-storage-ritual, small-home-entry-closet-desk-cleaning-storage, living-room-work-corner-lighting-scent-storage, home-stretch-corner-yoga-mat-light-scent 等 5 篇
+- 田食原-冰烤地瓜 舒肥雞胸肉 冷凍蔬菜 自產自銷 冷凍食品｜TP0005993｜A｜wellness-recovery-support｜提及 3｜camping-coffee-outdoor-meal-prep, freezer-meal-prep-chicken-sweet-potato-vegetables, summer-low-pressure-daily-cooling-sun-sleep-drinks
+- 老饕廚房│低溫烹調舒肥料理專門店｜TP0001851｜B｜wellness-recovery-support｜提及 1｜freezer-meal-prep-chicken-sweet-potato-vegetables
+- 輝葉良品 官方旗艦店｜TP0008485｜A｜wellness-recovery-support｜提及 2｜quality-gifting-coffee-tea-massage-umbrella-custom, home-comfort-massage-device-brace-gift-guide
+
+## 尚未推薦但未被排除的品牌/店家
+
+- 生活創意家 Life Creative KINYO 家電｜TP0005764｜A｜score 81.0｜creator-work-gear｜主推候選｜KINYO 小家電、生活電器、廚房家電、個人照護電器
+- Airmate艾美特｜TP0006567｜A｜score 77.0｜creator-work-gear｜主推候選｜電風扇、循環扇、暖器、空氣調節與小家電
+- 廚藝日本鍋具館｜TP0001754｜A｜score 76.0｜daily-food-drink-ritual｜主推候選｜日本鍋具、炒鍋、湯鍋、廚房烹飪用品
+- 本草養生From Nature｜TP0002822｜A｜score 76.0｜daily-food-drink-ritual｜主推候選｜草本養生食品、沖泡飲、日常保健食品
+- BWYA 薏仁錠創始品牌｜TP0003281｜A｜score 58.0｜daily-food-drink-ritual｜主推候選｜薏仁錠、亮白/代謝/美容保健食品
+- D醣一刻｜TP0006455｜A｜score 56.0｜wellness-recovery-support｜主推候選｜低醣點心、控糖食品、健康零食
+- GenePet.tw｜TP0008082｜A｜score 54.0｜pet-lifestyle-future｜主推候選｜寵物健康、檢測、保健或用品
+- Home & Ceramics｜TP0005971｜A｜score 51.0｜home-ritual-lifestyle｜主推候選｜陶瓷餐具、杯盤、居家擺設
+- JAYSUWAN-健素旺｜TP0008420｜A｜score 50.0｜daily-food-drink-ritual｜主推候選｜素食營養品、保健食品或健康食品
+- 奇米家 輕鬆更換 愜意風格 DIY貼皮｜TP0009317｜B｜score 76.0｜home-ritual-lifestyle｜配角候選｜木紋貼皮、PVC自黏貼皮、壁貼、桌面貼紙、刮板工具
+- Aqua Corner 角落水族｜TP0009226｜B｜score 76.0｜pet-lifestyle-future｜配角候選｜冷凍赤蟲、冷凍餌料、爬蟲主食罐、生態砂、小寵飼料與零食
+- NiNiJA 妮妮家 寵物蛋糕與用品選物店｜TP0001817｜B｜score 76.0｜pet-lifestyle-future｜配角候選｜寵物蛋糕、寵物零食、生日用品與選物
+- 食材玩家-精選全球美味🌍｜TP0003278｜B｜score 75.0｜daily-food-drink-ritual｜配角候選｜全球精選食材、零食、調味與餐桌美味
+- 花漾饅頭屋 | 天然手作真食材老麵發酵好味道｜TP0004495｜B｜score 74.0｜family-parenting-future｜配角候選｜手作饅頭、老麵發酵早餐、冷凍麵食
+- 囍素堅果｜TP0003486｜B｜score 73.0｜daily-food-drink-ritual｜配角候選｜海苔堅果脆片、堅果棒、南棗核桃糕、素肉乾、蔬果脆片
+- 清涼酵素 Cingliang  Shiau Su｜TP0004512｜B｜score 73.0｜daily-food-drink-ritual｜配角候選｜酵素飲、機能飲、日常飲品補給
+- 【泳遠｜SwimSight】看得更清楚，游得更遠！｜TP0003976｜B｜score 73.0｜family-parenting-future｜配角候選｜泳鏡、泳具配件；品牌訴求為看得更清楚、游得更遠
+- Arvo Home | 家飾 床包 枕套 被套 枕頭 沙發墊｜TP0001300｜B｜score 73.0｜mobile-wardrobe-accessories｜配角候選｜床包、枕套、被套、枕頭、沙發墊與家飾布品
+- 久賴家居｜質感寢具 棉被 天絲床包 涼被 枕頭 網紅推薦｜TP0001106｜B｜score 73.0｜mobile-wardrobe-accessories｜配角候選｜天絲床包、棉被、涼被、枕頭、寢具組
+- 大正餐具批發零售｜TP0000363｜B｜score 73.0｜outdoor-mobile-living｜配角候選｜平底鍋、鑄鐵鍋、咖啡/茶飲器具、刀具、刀叉、玻璃杯壺、不鏽鋼與竹木餐具
+- 戶外趣｜TP0000074｜B｜score 73.0｜outdoor-mobile-living｜配角候選｜露營用品、登山配件、戶外休閒商品
+- 嬌寵醫生｜TP0000199｜B｜score 72.0｜home-ritual-lifestyle｜配角候選｜寵物照護、保健或清潔用品待確認
+- 心科技･生活家電館｜TP0005935｜B｜score 72.0｜home-ritual-lifestyle｜配角候選｜生活家電、廚房小家電、清潔電器、日用電器
+- Baby童衣/Augelute品牌旗艦店｜TP0006789｜B｜score 72.0｜mobile-wardrobe-accessories｜配角候選｜嬰幼兒服飾、童裝、親子穿搭
+- 夢露家居｜床包 被套 兩用被 枕頭 床單 床罩 涼被 保潔墊｜TP0007471｜B｜score 72.0｜mobile-wardrobe-accessories｜配角候選｜床包、被套、兩用被、枕頭、床單、床罩、涼被、保潔墊
+- 宜室家居｜床包 被套 兩用被 枕頭 床單 床罩 涼被 保潔墊｜TP0002795｜B｜score 72.0｜mobile-wardrobe-accessories｜配角候選｜床包、被套、兩用被、枕頭、床單、床罩、涼被、保潔墊
+- 日創家居｜床包 被套 兩用被 枕頭 床單 床罩 保潔墊 涼被｜TP0003841｜B｜score 72.0｜mobile-wardrobe-accessories｜配角候選｜床包、被套、兩用被、枕頭、床單、床罩、保潔墊、涼被
+- DW優選家官方直營店—行李箱｜TP0005391｜B｜score 72.0｜outdoor-mobile-living｜配角候選｜行李箱、登機箱、旅行收納與出差用品
+- 🇹🇼 🏃‍♂️趴趴走🏃‍♀️戶外部品店 🇹🇼｜TP0009471｜B｜score 72.0｜outdoor-mobile-living｜配角候選｜戶外部品；需確認是否偏機車、露營、旅行或運動配件
+- 手些小子3C 專營Apple蘋果周邊配件｜TP0000669｜B｜score 71.0｜creator-work-gear｜配角候選｜Apple手機殼、保護貼、充電線、MagSafe與蘋果周邊
+- 鐵本舖台灣鐵鍋｜TP0008921｜B｜score 71.0｜daily-food-drink-ritual｜配角候選｜台灣鐵鍋、炒鍋、煎鍋、料理鍋具
+- MIDODO母嬰 ⁁ 生活居家｜TP0004956｜B｜score 71.0｜home-ritual-lifestyle｜配角候選｜母嬰用品與居家生活商品；需確認主力線
+- 傳奇今生唇膏 官方授權店｜TP0003331｜B｜score 71.0｜home-ritual-lifestyle｜配角候選｜唇膏、護唇膏、唇部保養與彩妝組合
+- CHIMGU 寢谷家居｜TP0005856｜B｜score 71.0｜mobile-wardrobe-accessories｜配角候選｜床包、被套、棉被、枕頭、居家布品
+- GIBBON男裝 官方旗艦店｜TP0003817｜B｜score 71.0｜mobile-wardrobe-accessories｜配角候選｜短袖/長袖上衣、休閒長褲、西裝褲、保暖衣、外套
+- 蝦米寢具【官方旗艦店】｜TP0008768｜B｜score 71.0｜mobile-wardrobe-accessories｜配角候選｜床包、被套、兩用被、枕頭、涼被、保潔墊
+- 愛喵樂寵物｜TP0007661｜B｜score 71.0｜pet-lifestyle-future｜配角候選｜貓咪用品、貓砂、零食、玩具或照護用品待確認
+- TG3C 手機配件旗艦館｜TP0009160｜B｜score 70.0｜creator-work-gear｜配角候選｜手機殼、保護貼、充電線、車用與日常3C配件
+- TOUCH-KR 韓國手機配件/生活雜貨代購｜TP0003608｜B｜score 70.0｜creator-work-gear｜配角候選｜韓國手機配件、生活雜貨、美感小物代購
+- 水魔素m+官方店｜TP0004250｜B｜score 70.0｜daily-food-drink-ritual｜配角候選｜水魔素、補水/美容保健、機能飲品或保養品推定
+- 花兒朵朵Flower DoDo親子幸福館｜TP0003190｜B｜score 70.0｜family-parenting-future｜配角候選｜親子生活用品、兒童用品、家庭生活小物
+- 71小舖 Chiyaoshop寵物精品館｜TP0002315｜B｜score 70.0｜home-ritual-lifestyle｜配角候選｜寵物精品、玩具、外出用品、日常用品
+- OBHL極簡保養｜TP0004588｜B｜score 70.0｜home-ritual-lifestyle｜配角候選｜臉部保養、清潔、精華、乳霜或身體保養
+- Q貝比嬰兒用品~寵物用品~家居百貨｜TP0000500｜B｜score 70.0｜home-ritual-lifestyle｜配角候選｜嬰兒用品、寵物用品、家居生活百貨
+- 靚點燈飾 LED吸頂燈專賣店｜TP0008153｜B｜score 70.0｜home-ritual-lifestyle｜配角候選｜LED吸頂燈、燈具、居家照明、空間照明配件
+- 包寧安/櫻桃小丸子/嬰舒寶 官方旗艦店｜TP0008430｜B｜score 70.0｜mobile-wardrobe-accessories｜配角候選｜包寧安、櫻桃小丸子授權商品、嬰幼兒/生活用品
+- 在生活中加點甜｜魏姐包心粉圓｜TP0004237｜B｜score 70.0｜mobile-wardrobe-accessories｜配角候選｜包心粉圓、甜品配料、冷凍/常溫甜點
+- 毛雪旺寵物周邊旗艦店｜TP0009366｜B｜score 70.0｜mobile-wardrobe-accessories｜配角候選｜寵物周邊、服飾、玩具、生活用品
+- 雅各Jacob寢具的生活創意浪漫家-天絲、純棉、涼被、寢具｜TP0005202｜B｜score 70.0｜mobile-wardrobe-accessories｜配角候選｜天絲床包、純棉寢具、涼被、枕套、床包被套組
+- ENDUO恩多箱包｜TP0002546｜B｜score 70.0｜outdoor-mobile-living｜配角候選｜前開式行李箱、深倉旅行箱、拉鍊/鋁框行李箱、旅行箱周邊
+- Go 2 運動生活館旗艦店｜TP0008962｜B｜score 70.0｜wellness-recovery-support｜配角候選｜運動配件、健身用品、生活運動選物
+- 河洛台灣精品館｜TP0006281｜B｜score 69.0｜daily-food-drink-ritual｜配角候選｜花蓮桑椹濃縮原汁、台灣在地美食與土產精品
+- LA.VAOLORE菈薇奧兒｜TP0007128｜B｜score 69.0｜home-ritual-lifestyle｜配角候選｜美妝保養、香氛或女性生活選品
+- 免睏寵物樂園Stayup Pets｜TP0000155｜B｜score 69.0｜home-ritual-lifestyle｜配角候選｜寵物日用品、玩具、清潔與生活用品
+- 安啦居家｜TP0003706｜B｜score 69.0｜home-ritual-lifestyle｜配角候選｜調味罐、便攜餐具、廚餘桶、廚房收納用品
+- 寵物好事達｜TP0000823｜B｜score 69.0｜home-ritual-lifestyle｜配角候選｜寵物日用品、零食、玩具與照護用品
+- 🚅新幹線 JAPAN-日本彩妝.日本保養｜TP0009171｜B｜score 69.0｜home-ritual-lifestyle｜配角候選｜日本彩妝、保養品、美妝小物
+- 福媽寵物特選店｜TP0000551｜B｜score 69.0｜pet-lifestyle-future｜配角候選｜寵物日用品、零食、照護與精選商品
+- ADAN CREST 艾登巔峰 官方旗艦店 | 海外直送｜TP0008981｜B｜score 69.0｜wellness-recovery-support｜配角候選｜記憶枕、乳膠枕、人體工學枕、居家寢具
+- Angel & Me 珠寶銀飾｜TP0003071｜B｜score 68.7｜mobile-wardrobe-accessories｜配角候選｜銀飾、項鍊、戒指、耳環、手鍊、送禮飾品
+- 三代養蜂場【南投小農】｜TP0007409｜B｜score 68.2｜daily-food-drink-ritual｜配角候選｜蜂蜜、蜂產品、農產禮盒
+- 芭娜娜毛孩良品｜TP0001094｜B｜score 68.0｜daily-food-drink-ritual｜配角候選｜毛孩食品、零食、用品推定
+- Arbea購物、童裝、玩具、母嬰用品｜TP0000485｜B｜score 68.0｜family-parenting-future｜配角候選｜童裝、玩具、母嬰日用品
+- K-Belle 韓國正品彩妝保養代購｜TP0005089｜B｜score 68.0｜home-ritual-lifestyle｜配角候選｜韓國彩妝、保養品、韓系美妝小物
+- 匠藝家居【官方旗艦店】｜TP0003354｜B｜score 68.0｜home-ritual-lifestyle｜配角候選｜家具、家飾、收納、居家生活選物
+- 威杰爾寵物｜TP0006730｜B｜score 68.0｜home-ritual-lifestyle｜配角候選｜寵物日用品、食品/零食或照護商品待確認
+- 摩摩寵物專門店｜TP0000651｜B｜score 68.0｜home-ritual-lifestyle｜配角候選｜寵物日用品、清潔、食品或玩具待確認
+- 派派寵物館｜TP0004035｜B｜score 68.0｜home-ritual-lifestyle｜配角候選｜寵物食品、日用品、清潔或玩具待確認
+- LANS藍星3C配件專賣店｜TP0005421｜B｜score 68.0｜mobile-wardrobe-accessories｜配角候選｜手機殼、螢幕保護貼、充電線、行動電源與週邊配件
+- NARMES （主營大尺碼服裝 大尺碼長褲 上衣等）｜TP0003665｜B｜score 68.0｜mobile-wardrobe-accessories｜配角候選｜大尺碼上衣、長褲、洋裝、日常女裝
+- Want-Meow®招財貓旺鋪60kg↑女中大碼衣著台灣賣家｜TP0000798｜B｜score 68.0｜mobile-wardrobe-accessories｜配角候選｜60kg以上女中大碼服飾
+- 里享生活醫材｜TP0004194｜B｜score 68.0｜wellness-recovery-support｜配角候選｜照護用品、輔具、醫材通路推定
+- KINYO 官方旗艦店｜TP0005409｜B｜score 67.0｜creator-work-gear｜配角候選｜KINYO 家電、生活小家電、電腦/手機周邊類產品
+- COCOLO 官方旗艦館｜TP0001879｜B｜score 67.0｜family-parenting-future｜配角候選｜保濕舒緩、抗老緊緻、精華液、童顏系列
+- Urban Nest 悠巢 - 生活家居用品專賣店｜TP0008643｜B｜score 67.0｜home-ritual-lifestyle｜配角候選｜居家生活用品、收納、佈置小物、日用百貨
+- 上手家居(Comfort At Products)｜TP0000026｜B｜score 67.0｜home-ritual-lifestyle｜配角候選｜家居用品、舒適生活配件、收納或布品
+- 富居閣精選 | 客製化地毯、地墊、窗簾 | 居家百貨｜TP0002173｜B｜score 67.0｜home-ritual-lifestyle｜配角候選｜客製化地毯、地墊、窗簾、居家百貨
+- 毛孩站起來＆源境｜TP0009490｜B｜score 67.0｜home-ritual-lifestyle｜配角候選｜寵物用品；可能偏毛孩站立、健康照護或居家用品，需確認
+- philo飛樂 / arlink 生活美學｜TP0007559｜B｜score 67.0｜outdoor-mobile-living｜配角候選｜Arlink氣炸鍋/電火鍋、Philo救車行動電源、行李箱等
+- 騰鼎沉檀香 台灣製香 香品專家｜TP0002661｜B｜score 66.6｜home-ritual-lifestyle｜配角候選｜香氛、精油、清潔用品、居家除味與天然洗劑
+- 強哥批發 口罩 酒精 生活用品 美妝用品 醫療器材 保健食品｜TP0005998｜B｜score 66.0｜daily-food-drink-ritual｜配角候選｜口罩、酒精、生活用品、美妝用品、醫療器材與保健食品
+- H母嬰 形象店｜TP0009118｜B｜score 66.0｜home-ritual-lifestyle｜配角候選｜母嬰日用品、嬰幼兒照護用品、親子生活選物
+- XINGMU 興沐 燈飾旗艦店｜TP0004819｜B｜score 66.0｜home-ritual-lifestyle｜配角候選｜吊扇燈、吸頂燈、風扇燈、廚房家電部分商品
+- 尊爵家Monarch 居家生活館｜TP0002808｜B｜score 66.0｜home-ritual-lifestyle｜配角候選｜家居用品、生活百貨、家飾或寢具
+- 韓國美妝精選｜TP0009526｜B｜score 66.0｜home-ritual-lifestyle｜配角候選｜韓國保養品、彩妝、面膜與美妝選物
+- 💖趁財財燈飾💖｜TP0009671｜B｜score 66.0｜home-ritual-lifestyle｜配角候選｜吸頂燈、吊燈、壁燈、居家照明
+- 極光視覺 Polars Design | 百搭美學選鏡｜TP0009515｜B｜score 66.0｜outdoor-mobile-living｜配角候選｜MIT老花眼鏡、偏光太陽眼鏡、藍光/運動眼鏡推定
+- 【志遠書局】中醫叢書保健器材｜TP0005096｜B｜score 65.0｜home-ritual-lifestyle｜配角候選｜中醫叢書、養生書、保健器材
+- 御座椅業｜TP0005263｜B｜score 65.0｜home-ritual-lifestyle｜配角候選｜辦公椅、餐椅、休閒椅或椅類家具
+- 睿睿購文具舖｜TP0001495｜B｜score 65.0｜home-ritual-lifestyle｜配角候選｜文具、辦公用品、學生用品、手帳用品
+- 藍貓BlueCat家居生活館｜TP0001200｜B｜score 65.0｜home-ritual-lifestyle｜配角候選｜居家生活用品、日用百貨、收納或布品
+- 富達醫材｜TP0007439｜B｜score 63.6｜mobile-wardrobe-accessories｜配角候選｜保健食品、機能食品、護理用品或健康選物
+- 豪挺紳士西服｜HaoTing Suit｜TP0005310｜B｜score 63.0｜mobile-wardrobe-accessories｜配角候選｜西裝、襯衫、皮鞋、領帶、領結、袖扣等
+- 城市漫遊-旅行用品專賣｜TP0000151｜B｜score 63.0｜outdoor-mobile-living｜配角候選｜旅行收納、行李箱周邊、旅遊小物推定
+- 潛伏者行車記錄器系列.批發.零售｜TP0001376｜B｜score 63.0｜outdoor-mobile-living｜配角候選｜後視鏡式行車記錄器、雙鏡頭、GPS測速、CarPlay流媒體電子後視鏡
+- 德利豆乾｜TP0002208｜B｜score 61.6｜daily-food-drink-ritual｜配角候選｜咖啡豆、濾掛咖啡、沖煮器具或飲品選物
+- 豆韻｜TP0009178｜B｜score 61.6｜daily-food-drink-ritual｜配角候選｜咖啡豆、濾掛咖啡、沖煮器具或飲品選物
+- Lingscent｜TP0009664｜B｜score 61.6｜home-ritual-lifestyle｜配角候選｜香氛、精油、清潔用品、居家除味與天然洗劑
+- 引香室 Aromatique Home｜TP0002941｜B｜score 61.6｜home-ritual-lifestyle｜配角候選｜香氛、精油、清潔用品、居家除味與天然洗劑
+- 鼎曨沉檀香 沉香專家 天然香品｜TP0004752｜B｜score 61.6｜home-ritual-lifestyle｜配角候選｜香氛、精油、清潔用品、居家除味與天然洗劑
+- muni 3C手機平板週邊配件專賣店｜TP0007239｜B｜score 61.4｜creator-work-gear｜配角候選｜手機配件、充電線材、音訊設備、電腦周邊
+- LING CHÁ｜TP0008451｜B｜score 60.6｜mobile-wardrobe-accessories｜配角候選｜茶葉、茶包、花草茶或機能飲品
+- love, charlotte 樂芙夏｜TP0002361｜B｜score 60.6｜mobile-wardrobe-accessories｜配角候選｜茶葉、茶包、花草茶或機能飲品
+- 超激食驗室ChaoJiFoodLab｜TP0000525｜B｜score 60.6｜mobile-wardrobe-accessories｜配角候選｜茶葉、茶包、花草茶或機能飲品
+- 智忠書局考試用書專賣網路書店｜TP0001367｜B｜score 60.2｜family-parenting-future｜配角候選｜親子用品、童裝、玩具、文具或教育型商品
+- Kris 克里酥｜TP0008550｜B｜score 59.6｜daily-food-drink-ritual｜配角候選｜零食、糕餅、即食食品、伴手禮或地方特色食品
+- MEDUSA 曼度莎｜TP0001433｜B｜score 59.6｜home-ritual-lifestyle｜配角候選｜保養品、彩妝、髮品、頭皮護理或美容工具
+- Make Friends｜TP0000997｜B｜score 59.6｜home-ritual-lifestyle｜配角候選｜保養品、彩妝、髮品、頭皮護理或美容工具
+- 宜品香舖｜TP0005358｜B｜score 59.6｜home-ritual-lifestyle｜配角候選｜香氛、精油、清潔用品、居家除味與天然洗劑
+- ENIE 雅如詩專業髮品｜TP0008542｜B｜score 58.4｜home-ritual-lifestyle｜配角候選｜保養品、彩妝、髮品、頭皮護理或美容工具
+- 港記酥皇｜TP0001990｜B｜score 57.6｜daily-food-drink-ritual｜配角候選｜零食、糕餅、即食食品、伴手禮或地方特色食品
+- LOYE 樂妍｜TP0004045｜B｜score 57.6｜home-ritual-lifestyle｜配角候選｜保養品、彩妝、髮品、頭皮護理或美容工具
+- 廚Fun生活工坊｜TP0000217｜B｜score 57.6｜home-ritual-lifestyle｜配角候選｜餐具、鍋具、杯壺、陶瓷器皿或料理工具
+- 澄妍選品｜TP0005464｜B｜score 57.6｜home-ritual-lifestyle｜配角候選｜保養品、彩妝、髮品、頭皮護理或美容工具
+- 髮克希企業社｜TP0009062｜B｜score 57.6｜home-ritual-lifestyle｜配角候選｜保養品、彩妝、髮品、頭皮護理或美容工具
+- AiHome｜專業智慧充電生活｜TP0009130｜B｜score 56.4｜creator-work-gear｜配角候選｜手機配件、充電線材、音訊設備、電腦周邊
+- Ches3c 生活智能館｜TP0008881｜B｜score 56.4｜creator-work-gear｜配角候選｜手機配件、充電線材、音訊設備、電腦周邊
+- 湯米3C-手機配件｜TP0006731｜B｜score 56.4｜creator-work-gear｜配角候選｜手機配件、充電線材、音訊設備、電腦周邊
+- youlijing優立淨 兒童電動牙刷 電動牙刷 品牌專售店｜TP0001633｜B｜score 56.4｜family-parenting-future｜配角候選｜親子用品、童裝、玩具、文具或教育型商品
+- PALLARIFY鈀鎰科技有限公司｜TP0008198｜B｜score 55.6｜creator-work-gear｜配角候選｜手機配件、充電線材、音訊設備、電腦周邊
+- 卡仕科技●菲歐娜品牌館｜TP0001470｜B｜score 55.6｜creator-work-gear｜配角候選｜手機配件、充電線材、音訊設備、電腦周邊
+- 潮欣達科技 TSTAR｜TP0004489｜B｜score 55.6｜creator-work-gear｜配角候選｜手機配件、充電線材、音訊設備、電腦周邊
+- BBHONEY｜TP0000839｜B｜score 49.0｜daily-food-drink-ritual｜配角候選｜蜂蜜、蜂產品、甜味調理/養生食品
+- JDT_Beauty Plan｜TP0003175｜B｜score 48.0｜home-ritual-lifestyle｜配角候選｜美容保養、彩妝或美體用品
+- BOACUP 波卡｜TP0000296｜B｜score 48.0｜mobile-wardrobe-accessories｜配角候選｜水杯、保溫杯、咖啡杯或杯具配件
+- KoreaTop 韓物通｜TP0008924｜B｜score 48.0｜mobile-wardrobe-accessories｜配角候選｜韓國食品、美妝、生活雜貨或服飾
+- HOME MAMA Shop｜TP0007362｜B｜score 47.0｜home-ritual-lifestyle｜配角候選｜居家生活用品、廚房、收納或親子家庭用品
+- FienHome｜TP0000065｜B｜score 46.0｜home-ritual-lifestyle｜配角候選｜居家用品、收納、家具或生活小物
+- IRIYA伊麗雅｜TP0008876｜B｜score 44.0｜home-ritual-lifestyle｜配角候選｜保養品、美容用品或香氛美體
+- KORENA 珂蕾娜｜TP0007447｜B｜score 44.0｜home-ritual-lifestyle｜配角候選｜保養品、彩妝或美體用品
+
+## 已排除/暫緩/需查證標的摘要
+
+- coverage_status=needs-verification: 77
+- coverage_status=paused: 43
+- coverage_status=pending-assignment: 3
+- grade=C: 77
+- grade=D: 43
+- grade=B: 3
+
+## 商品層級已排除原因 Top
+
+- 大型工程或農用設備: 20
+- 寵物與動物用品: 13
+- 大型泡澡桶與浴缸: 5
+- 宗教祈福與效果承諾: 4
+- 醫療照護或安全風險: 4
+- 兒童交通工具高風險: 2
