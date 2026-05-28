@@ -1,7 +1,663 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T17:21:55Z",
+  "updatedAt": "2026-05-28T18:21:46Z",
   "entries": [
+    {
+      "articleId": "auto-20260528182146-first-pet-shopping-food-toy-cleaning-outing-order",
+      "slug": "first-pet-shopping-food-toy-cleaning-outing-order",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T18:21:46Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0008082/main",
+        "https://www.momoshop.com.tw/TP/TP0007661/main",
+        "https://www.momoshop.com.tw/TP/TP0000551/main",
+        "https://www.momoshop.com.tw/TP/TP0000823/main",
+        "https://www.momoshop.com.tw/TP/TP0000651/main",
+        "https://www.momoshop.com.tw/TP/TP0004035/main",
+        "https://s.momoshop.com.tw/s/jo08nrnp",
+        "https://s.momoshop.com.tw/s/34zf1m5H",
+        "https://s.momoshop.com.tw/s/KFdAhwTk",
+        "https://s.momoshop.com.tw/s/kmBQvs6a",
+        "https://s.momoshop.com.tw/s/UEB2evBk",
+        "https://s.momoshop.com.tw/s/xPZAjTYg",
+        "https://tw.elitefasion.com/lifestyle-culture/first-pet-shopping-food-toy-cleaning-outing-order.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/first-pet-shopping-food-toy-cleaning-outing-order.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528182146-travel-luggage-front-open-carry-on-packing-system",
+      "slug": "travel-luggage-front-open-carry-on-packing-system",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T18:21:46Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0002546/main",
+        "https://www.momoshop.com.tw/TP/TP0005391/main",
+        "https://www.momoshop.com.tw/TP/TP0000151/main",
+        "https://www.momoshop.com.tw/TP/TP0000074/main",
+        "https://s.momoshop.com.tw/s/OagsJNH4",
+        "https://s.momoshop.com.tw/s/uUX2ICw8",
+        "https://s.momoshop.com.tw/s/duBrTku1",
+        "https://s.momoshop.com.tw/s/Njmm2CjZ",
+        "https://tw.elitefasion.com/outdoor-escapes/travel-luggage-front-open-carry-on-packing-system.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/travel-luggage-front-open-carry-on-packing-system.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528182146-home-scent-incense-cleaning-odor-zones",
+      "slug": "home-scent-incense-cleaning-odor-zones",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T18:21:46Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0009664/main",
+        "https://www.momoshop.com.tw/TP/TP0002941/main",
+        "https://www.momoshop.com.tw/TP/TP0002661/main",
+        "https://www.momoshop.com.tw/TP/TP0004752/main",
+        "https://www.momoshop.com.tw/TP/TP0005358/main",
+        "https://s.momoshop.com.tw/s/iANUM2le",
+        "https://s.momoshop.com.tw/s/WhqRlgA9",
+        "https://s.momoshop.com.tw/s/VgxnNW7U",
+        "https://s.momoshop.com.tw/s/ZZj8fPPW",
+        "https://s.momoshop.com.tw/s/nwLr0GLD",
+        "https://tw.elitefasion.com/lifestyle-culture/home-scent-incense-cleaning-odor-zones.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/home-scent-incense-cleaning-odor-zones.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528182146-light-snack-cabinet-low-sugar-nuts-vegetarian",
+      "slug": "light-snack-cabinet-low-sugar-nuts-vegetarian",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T18:21:46Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006455/main",
+        "https://www.momoshop.com.tw/TP/TP0003486/main",
+        "https://www.momoshop.com.tw/TP/TP0002822/main",
+        "https://www.momoshop.com.tw/TP/TP0008420/main",
+        "https://s.momoshop.com.tw/s/Cv5Tr7rp",
+        "https://s.momoshop.com.tw/s/13xEqcPN",
+        "https://s.momoshop.com.tw/s/c5vCEHr4",
+        "https://s.momoshop.com.tw/s/a3NJCgKg",
+        "https://tw.elitefasion.com/wellness-movement/light-snack-cabinet-low-sugar-nuts-vegetarian.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/light-snack-cabinet-low-sugar-nuts-vegetarian.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528182146-office-afternoon-tea-drink-pantry-guide",
+      "slug": "office-afternoon-tea-drink-pantry-guide",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T18:21:46Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0008451/main",
+        "https://www.momoshop.com.tw/TP/TP0002361/main",
+        "https://www.momoshop.com.tw/TP/TP0000525/main",
+        "https://www.momoshop.com.tw/TP/TP0004250/main",
+        "https://www.momoshop.com.tw/TP/TP0004512/main",
+        "https://s.momoshop.com.tw/s/um6COh50",
+        "https://s.momoshop.com.tw/s/cF4xxyGJ",
+        "https://s.momoshop.com.tw/s/CagEinFj",
+        "https://s.momoshop.com.tw/s/wu0u3KVA",
+        "https://s.momoshop.com.tw/s/cXwPt6mC",
+        "https://tw.elitefasion.com/lifestyle-culture/office-afternoon-tea-drink-pantry-guide.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/office-afternoon-tea-drink-pantry-guide.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528182146-home-cooking-pan-tableware-tool-buying-order",
+      "slug": "home-cooking-pan-tableware-tool-buying-order",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T18:21:46Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0001754/main",
+        "https://www.momoshop.com.tw/TP/TP0008921/main",
+        "https://www.momoshop.com.tw/TP/TP0000363/main",
+        "https://www.momoshop.com.tw/TP/TP0005971/main",
+        "https://s.momoshop.com.tw/s/8zFXfd8k",
+        "https://s.momoshop.com.tw/s/lv1Fa9gi",
+        "https://s.momoshop.com.tw/s/aT1BdnAJ",
+        "https://s.momoshop.com.tw/s/I9OkFkrZ",
+        "https://tw.elitefasion.com/lifestyle-culture/home-cooking-pan-tableware-tool-buying-order.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/home-cooking-pan-tableware-tool-buying-order.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528182146-rental-small-appliance-kitchen-desk-cleaning",
+      "slug": "rental-small-appliance-kitchen-desk-cleaning",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T18:21:46Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005764/main",
+        "https://www.momoshop.com.tw/TP/TP0005409/main",
+        "https://www.momoshop.com.tw/TP/TP0006567/main",
+        "https://www.momoshop.com.tw/TP/TP0007559/main",
+        "https://s.momoshop.com.tw/s/ZpHylFwi",
+        "https://s.momoshop.com.tw/s/HOl8BAYI",
+        "https://s.momoshop.com.tw/s/tPIXt2SN",
+        "https://s.momoshop.com.tw/s/WlglCh1p",
+        "https://tw.elitefasion.com/lifestyle-culture/rental-small-appliance-kitchen-desk-cleaning.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/rental-small-appliance-kitchen-desk-cleaning.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260528182145-summer-airflow-fan-small-appliance-lighting",
+      "slug": "summer-airflow-fan-small-appliance-lighting",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T18:21:45Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005764/main",
+        "https://www.momoshop.com.tw/TP/TP0006567/main",
+        "https://www.momoshop.com.tw/TP/TP0005409/main",
+        "https://www.momoshop.com.tw/TP/TP0005935/main",
+        "https://s.momoshop.com.tw/s/ZpHylFwi",
+        "https://s.momoshop.com.tw/s/tPIXt2SN",
+        "https://s.momoshop.com.tw/s/HOl8BAYI",
+        "https://s.momoshop.com.tw/s/cxsF8Zc3",
+        "https://tw.elitefasion.com/lifestyle-culture/summer-airflow-fan-small-appliance-lighting.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/summer-airflow-fan-small-appliance-lighting.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
     {
       "articleId": "legacy-runway-trends-autumn-winter-trends-2025-html",
       "slug": "autumn-winter-trends-2025",

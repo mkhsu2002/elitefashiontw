@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-22T00:00:00-07:00",
+  "updatedAt": "2026-05-28T00:00:00-07:00",
   "generator": "codex-imagegen-built-in",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -32,6 +32,54 @@
       "source": "/Users/mkhsu/.codex/generated_images/019e4e04-34ea-7211-b532-044a16dd954d/ig_0a2ca5d890306b2e016a107ef5e3148193a1594ea2b2aa04c0.png",
       "sha256": "f351dfca5430063513fc4efdf97281c79659c6f9f5ac38d4b5dfb4fe5987696f",
       "promptSummary": "Family gift still life with puzzle, kite, drawing board, gift wrap, and storage box; no text or logos."
+    },
+    "summer-airflow-fan-small-appliance-lighting": {
+      "image": "images/optimized/article-covers/summer-airflow-fan-small-appliance-lighting.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_07378535d8e99728016a188471473c819b9750298790e603ad.png",
+      "sha256": "bb63fc96a5276cc0d30d77dba5d84cc86e67c54007bc57406ff827973ed5165a",
+      "promptSummary": "明亮客廳裡的循環扇、小家電、桌燈與開窗採光配置"
+    },
+    "rental-small-appliance-kitchen-desk-cleaning": {
+      "image": "images/optimized/article-covers/rental-small-appliance-kitchen-desk-cleaning.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_07378535d8e99728016a1884b60c60819bbe65c0c8a8e6a6b9.png",
+      "sha256": "c30606df5a4a5c1d8e5c5a2ed01c402d56c5f9b4cb5b1b646ebda4732f901a0f",
+      "promptSummary": "租屋廚房與工作桌旁整理好的小家電、層架與清潔用品"
+    },
+    "home-cooking-pan-tableware-tool-buying-order": {
+      "image": "images/optimized/article-covers/home-cooking-pan-tableware-tool-buying-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_07378535d8e99728016a1884f1345c819b8b1393f7951d55a8.png",
+      "sha256": "137200e437e8105228b55c09cd51c70360584a6d6b9cc936b659a35b6e7c132e",
+      "promptSummary": "餐桌上的鍋具、鐵鍋、陶瓷餐具、木製餐具與新鮮食材"
+    },
+    "office-afternoon-tea-drink-pantry-guide": {
+      "image": "images/optimized/article-covers/office-afternoon-tea-drink-pantry-guide.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_07378535d8e99728016a1885271238819b853cf69768aaace0.png",
+      "sha256": "ac7ac886a24b9b758f21624c5e5361b87ee04596e7cb3d57b2fdd171fdd5643f",
+      "promptSummary": "辦公室茶水角落裡的茶包、玻璃水壺、杯具、筆記本與城市窗景"
+    },
+    "light-snack-cabinet-low-sugar-nuts-vegetarian": {
+      "image": "images/optimized/article-covers/light-snack-cabinet-low-sugar-nuts-vegetarian.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_07378535d8e99728016a18855b6ee8819baa641451b03bd36e.png",
+      "sha256": "b7da4a73d29296e09f6f48671212c38e59cc68699918162de82ca3cab78bd113",
+      "promptSummary": "辦公桌旁整理好的低負擔點心櫃、堅果、小點心、茶包與午餐袋"
+    },
+    "home-scent-incense-cleaning-odor-zones": {
+      "image": "images/optimized/article-covers/home-scent-incense-cleaning-odor-zones.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_07378535d8e99728016a188597c174819ba78c1babff19d36d.png",
+      "sha256": "5974476263ee5f475c975f46be6839e96ea037a39306ef30a4658afc135d6362",
+      "promptSummary": "玄關與浴室旁的香氛、香品、毛巾、清潔用品與自然採光"
+    },
+    "travel-luggage-front-open-carry-on-packing-system": {
+      "image": "images/optimized/article-covers/travel-luggage-front-open-carry-on-packing-system.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_07378535d8e99728016a1885c2f198819b98f3f960dde38587.png",
+      "sha256": "1554662ad0e44d87719be40286af36d1a26966c2c6a181ec7fbb883ab4f9af92",
+      "promptSummary": "陽光公寓地板上打開的行李箱、收納袋、旅行外套與小物"
+    },
+    "first-pet-shopping-food-toy-cleaning-outing-order": {
+      "image": "images/optimized/article-covers/first-pet-shopping-food-toy-cleaning-outing-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_07378535d8e99728016a18863c0aa0819b96974fc1e832be06.png",
+      "sha256": "1d0203d1d60144c85a0df08a6b311041531e0ed3fed028ab02c3c6e97bcc797b",
+      "promptSummary": "乾淨居家角落中的寵物碗、玩具、牽繩、清潔用品、收納籃與小床"
     }
   }
 }

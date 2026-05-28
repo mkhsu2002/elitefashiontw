@@ -1,9 +1,29 @@
 {
+  "version": 1,
+  "updatedAt": "2026-05-28T18:21:46Z",
   "status": "generated",
-  "updatedAt": "2026-05-27T06:48:23Z",
-  "articleId": "auto-20260527064823-solo-living-rituals-entrepreneur-taiwan",
-  "url": "https://tw.elitefasion.com/lifestyle-culture/solo-living-rituals-entrepreneur-taiwan.html",
-  "title": "一個人也有儀式感：創業者的獨居日常整理清單",
-  "queueId": "Q-0007",
-  "triggerType": "queue"
+  "triggerType": "manual-codex-momo-new-audience-no-newsletter",
+  "queueId": "Q-0013",
+  "newsletter": "not_sent_manual_codex_publish",
+  "articleIds": [
+    "auto-20260528182145-summer-airflow-fan-small-appliance-lighting",
+    "auto-20260528182146-rental-small-appliance-kitchen-desk-cleaning",
+    "auto-20260528182146-home-cooking-pan-tableware-tool-buying-order",
+    "auto-20260528182146-office-afternoon-tea-drink-pantry-guide",
+    "auto-20260528182146-light-snack-cabinet-low-sugar-nuts-vegetarian",
+    "auto-20260528182146-home-scent-incense-cleaning-odor-zones",
+    "auto-20260528182146-travel-luggage-front-open-carry-on-packing-system",
+    "auto-20260528182146-first-pet-shopping-food-toy-cleaning-outing-order"
+  ],
+  "articleSlugs": [
+    "summer-airflow-fan-small-appliance-lighting",
+    "rental-small-appliance-kitchen-desk-cleaning",
+    "home-cooking-pan-tableware-tool-buying-order",
+    "office-afternoon-tea-drink-pantry-guide",
+    "light-snack-cabinet-low-sugar-nuts-vegetarian",
+    "home-scent-incense-cleaning-odor-zones",
+    "travel-luggage-front-open-carry-on-packing-system",
+    "first-pet-shopping-food-toy-cleaning-outing-order"
+  ],
+  "notes": "Codex 手動分批撰文與封面生成；直接推上 main 不會自動寄送電子報。"
 }

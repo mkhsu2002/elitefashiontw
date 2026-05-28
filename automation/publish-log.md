@@ -1,5 +1,69 @@
 # 發文紀錄
 
+## 2026-05-28T18:21:46Z｜第一次養寵物不要一次買太多：食品、玩具、清潔與外出用品順序
+
+- 文章 ID：auto-20260528182146-first-pet-shopping-food-toy-cleaning-outing-order
+- URL：https://tw.elitefasion.com/lifestyle-culture/first-pet-shopping-food-toy-cleaning-outing-order.html
+- 檔案：lifestyle-culture/first-pet-shopping-food-toy-cleaning-outing-order.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0013
+
+## 2026-05-28T18:21:46Z｜出國前先整理箱包系統：前開式行李箱、登機箱與旅行收納
+
+- 文章 ID：auto-20260528182146-travel-luggage-front-open-carry-on-packing-system
+- URL：https://tw.elitefasion.com/outdoor-escapes/travel-luggage-front-open-carry-on-packing-system.html
+- 檔案：outdoor-escapes/travel-luggage-front-open-carry-on-packing-system.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0013
+
+## 2026-05-28T18:21:46Z｜家裡的味道也需要整理：香氛、香品、清潔與除味用品怎麼分工
+
+- 文章 ID：auto-20260528182146-home-scent-incense-cleaning-odor-zones
+- URL：https://tw.elitefasion.com/lifestyle-culture/home-scent-incense-cleaning-odor-zones.html
+- 檔案：lifestyle-culture/home-scent-incense-cleaning-odor-zones.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0013
+
+## 2026-05-28T18:21:46Z｜外食族的低負擔零食櫃：低醣點心、堅果、素食零嘴與沖泡飲
+
+- 文章 ID：auto-20260528182146-light-snack-cabinet-low-sugar-nuts-vegetarian
+- URL：https://tw.elitefasion.com/wellness-movement/light-snack-cabinet-low-sugar-nuts-vegetarian.html
+- 檔案：wellness-movement/light-snack-cabinet-low-sugar-nuts-vegetarian.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0013
+
+## 2026-05-28T18:21:46Z｜下午三點不要只喝手搖：無糖茶、花草茶與辦公室飲品清單
+
+- 文章 ID：auto-20260528182146-office-afternoon-tea-drink-pantry-guide
+- URL：https://tw.elitefasion.com/lifestyle-culture/office-afternoon-tea-drink-pantry-guide.html
+- 檔案：lifestyle-culture/office-afternoon-tea-drink-pantry-guide.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0013
+
+## 2026-05-28T18:21:46Z｜自煮生活先買鍋還是餐具：日本鍋具、鐵鍋與餐桌工具的選購順序
+
+- 文章 ID：auto-20260528182146-home-cooking-pan-tableware-tool-buying-order
+- URL：https://tw.elitefasion.com/lifestyle-culture/home-cooking-pan-tableware-tool-buying-order.html
+- 檔案：lifestyle-culture/home-cooking-pan-tableware-tool-buying-order.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0013
+
+## 2026-05-28T18:21:46Z｜租屋族小家電清單：廚房、桌面、清潔與季節電器先買哪些
+
+- 文章 ID：auto-20260528182146-rental-small-appliance-kitchen-desk-cleaning
+- URL：https://tw.elitefasion.com/lifestyle-culture/rental-small-appliance-kitchen-desk-cleaning.html
+- 檔案：lifestyle-culture/rental-small-appliance-kitchen-desk-cleaning.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0013
+
+## 2026-05-28T18:21:45Z｜夏天前先整理家的空氣路線：循環扇、小家電與照明的舒適配置
+
+- 文章 ID：auto-20260528182145-summer-airflow-fan-small-appliance-lighting
+- URL：https://tw.elitefasion.com/lifestyle-culture/summer-airflow-fan-small-appliance-lighting.html
+- 檔案：lifestyle-culture/summer-airflow-fan-small-appliance-lighting.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0013
+
 ## 2026-05-27T06:48:23Z｜一個人也有儀式感：創業者的獨居日常整理清單
 
 - 文章 ID：auto-20260527064823-solo-living-rituals-entrepreneur-taiwan

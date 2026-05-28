@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T17:53:56Z",
+  "updatedAt": "2026-05-28T18:21:46Z",
   "nextQueueSequence": 15,
   "series": [
     {
@@ -610,7 +610,7 @@
       "topic": "小宅、餐桌、飲品與寵物新手的生活採買指南",
       "direction": "擴大生活採買內容到租屋生活、季節家電、料理餐桌、日常飲品、低負擔點心、旅行收納與寵物新手情境；每篇以 3 到 7 個店家建立選購順序，不寫單品牌薄頁，避免價格、庫存、療效或安全保證。",
       "plannedCount": 8,
-      "status": "planned",
+      "status": "completed",
       "createdAt": "2026-05-28T17:53:56Z",
       "seriesName": "小宅、餐桌、飲品與寵物新手的生活採買指南",
       "items": [
@@ -624,9 +624,10 @@
           "series": "小宅、餐桌、飲品與寵物新手的生活採買指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "本文僅供一般生活資訊與選購情境參考，不構成醫療、營養、獸醫、法律、保險或個人化建議；若涉及健康、照護、營養、視力或寵物狀況，請先諮詢合格專業人員，商品價格、規格、活動與庫存請以商品頁公告為準。",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528182145-summer-airflow-fan-small-appliance-lighting",
+          "file": "lifestyle-culture/summer-airflow-fan-small-appliance-lighting.html",
+          "publishedAt": "2026-05-28T18:21:45Z"
         },
         {
           "order": 2,
@@ -638,9 +639,10 @@
           "series": "小宅、餐桌、飲品與寵物新手的生活採買指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528182146-rental-small-appliance-kitchen-desk-cleaning",
+          "file": "lifestyle-culture/rental-small-appliance-kitchen-desk-cleaning.html",
+          "publishedAt": "2026-05-28T18:21:46Z"
         },
         {
           "order": 3,
@@ -652,9 +654,10 @@
           "series": "小宅、餐桌、飲品與寵物新手的生活採買指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528182146-home-cooking-pan-tableware-tool-buying-order",
+          "file": "lifestyle-culture/home-cooking-pan-tableware-tool-buying-order.html",
+          "publishedAt": "2026-05-28T18:21:46Z"
         },
         {
           "order": 4,
@@ -666,9 +669,10 @@
           "series": "小宅、餐桌、飲品與寵物新手的生活採買指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528182146-office-afternoon-tea-drink-pantry-guide",
+          "file": "lifestyle-culture/office-afternoon-tea-drink-pantry-guide.html",
+          "publishedAt": "2026-05-28T18:21:46Z"
         },
         {
           "order": 5,
@@ -680,9 +684,10 @@
           "series": "小宅、餐桌、飲品與寵物新手的生活採買指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "本文僅供一般生活資訊與選購情境參考，不構成醫療、營養、獸醫、法律、保險或個人化建議；若涉及健康、照護、營養、視力或寵物狀況，請先諮詢合格專業人員，商品價格、規格、活動與庫存請以商品頁公告為準。",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528182146-light-snack-cabinet-low-sugar-nuts-vegetarian",
+          "file": "wellness-movement/light-snack-cabinet-low-sugar-nuts-vegetarian.html",
+          "publishedAt": "2026-05-28T18:21:46Z"
         },
         {
           "order": 6,
@@ -694,9 +699,10 @@
           "series": "小宅、餐桌、飲品與寵物新手的生活採買指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "本文僅供一般生活資訊與選購情境參考，不構成醫療、營養、獸醫、法律、保險或個人化建議；若涉及健康、照護、營養、視力或寵物狀況，請先諮詢合格專業人員，商品價格、規格、活動與庫存請以商品頁公告為準。",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528182146-home-scent-incense-cleaning-odor-zones",
+          "file": "lifestyle-culture/home-scent-incense-cleaning-odor-zones.html",
+          "publishedAt": "2026-05-28T18:21:46Z"
         },
         {
           "order": 7,
@@ -708,9 +714,10 @@
           "series": "小宅、餐桌、飲品與寵物新手的生活採買指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528182146-travel-luggage-front-open-carry-on-packing-system",
+          "file": "outdoor-escapes/travel-luggage-front-open-carry-on-packing-system.html",
+          "publishedAt": "2026-05-28T18:21:46Z"
         },
         {
           "order": 8,
@@ -722,9 +729,10 @@
           "series": "小宅、餐桌、飲品與寵物新手的生活採買指南",
           "ctaHint": "導向同系列下一篇，並在文末保留導購揭露。",
           "disclaimerText": "本文僅供一般生活資訊與選購情境參考，不構成醫療、營養、獸醫、法律、保險或個人化建議；若涉及健康、照護、營養、視力或寵物狀況，請先諮詢合格專業人員，商品價格、規格、活動與庫存請以商品頁公告為準。",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260528182146-first-pet-shopping-food-toy-cleaning-outing-order",
+          "file": "lifestyle-culture/first-pet-shopping-food-toy-cleaning-outing-order.html",
+          "publishedAt": "2026-05-28T18:21:46Z"
         }
       ]
     },

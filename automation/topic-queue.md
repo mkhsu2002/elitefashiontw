@@ -134,19 +134,19 @@
 
 ## Q-0013｜小宅、餐桌、飲品與寵物新手的生活採買指南
 
-- 狀態：planned
+- 狀態：completed
 - 規劃篇數：8
 - 補充方向：擴大生活採買內容到租屋生活、季節家電、料理餐桌、日常飲品、低負擔點心、旅行收納與寵物新手情境；每篇以 3 到 7 個店家建立選購順序，不寫單品牌薄頁，避免價格、庫存、療效或安全保證。
 - 建立時間：2026-05-28T17:53:56Z
 
-1. 夏天前先整理家的空氣路線：循環扇、小家電與照明的舒適配置｜planned｜家庭、小資租屋族、辦公室與季節家電需求者｜lifestyle-culture
-2. 租屋族小家電清單：廚房、桌面、清潔與季節電器先買哪些｜planned｜家庭、小資租屋族、辦公室與季節家電需求者｜lifestyle-culture
-3. 自煮生活先買鍋還是餐具：日本鍋具、鐵鍋與餐桌工具的選購順序｜planned｜自煮族、家庭料理、送禮與餐桌美學讀者｜lifestyle-culture
-4. 下午三點不要只喝手搖：無糖茶、花草茶與辦公室飲品清單｜planned｜辦公室、下午茶、家庭補貨與低負擔飲品讀者｜lifestyle-culture
-5. 外食族的低負擔零食櫃：低醣點心、堅果、素食零嘴與沖泡飲｜planned｜外食族、素食者、健身飲食、控糖或低醣關注者｜wellness-movement
-6. 家裡的味道也需要整理：香氛、香品、清潔與除味用品怎麼分工｜planned｜居家儀式、空間氣味、送禮、清潔除味讀者｜lifestyle-culture
-7. 出國前先整理箱包系統：前開式行李箱、登機箱與旅行收納｜planned｜出差族、家庭旅行、自駕與戶外移動讀者｜outdoor-escapes
-8. 第一次養寵物不要一次買太多：食品、玩具、清潔與外出用品順序｜planned｜新手毛孩家庭、貓奴、爬蟲/水族、小寵主人｜lifestyle-culture
+1. 夏天前先整理家的空氣路線：循環扇、小家電與照明的舒適配置｜published｜家庭、小資租屋族、辦公室與季節家電需求者｜lifestyle-culture｜文章 ID：auto-20260528182145-summer-airflow-fan-small-appliance-lighting｜檔案：lifestyle-culture/summer-airflow-fan-small-appliance-lighting.html
+2. 租屋族小家電清單：廚房、桌面、清潔與季節電器先買哪些｜published｜家庭、小資租屋族、辦公室與季節家電需求者｜lifestyle-culture｜文章 ID：auto-20260528182146-rental-small-appliance-kitchen-desk-cleaning｜檔案：lifestyle-culture/rental-small-appliance-kitchen-desk-cleaning.html
+3. 自煮生活先買鍋還是餐具：日本鍋具、鐵鍋與餐桌工具的選購順序｜published｜自煮族、家庭料理、送禮與餐桌美學讀者｜lifestyle-culture｜文章 ID：auto-20260528182146-home-cooking-pan-tableware-tool-buying-order｜檔案：lifestyle-culture/home-cooking-pan-tableware-tool-buying-order.html
+4. 下午三點不要只喝手搖：無糖茶、花草茶與辦公室飲品清單｜published｜辦公室、下午茶、家庭補貨與低負擔飲品讀者｜lifestyle-culture｜文章 ID：auto-20260528182146-office-afternoon-tea-drink-pantry-guide｜檔案：lifestyle-culture/office-afternoon-tea-drink-pantry-guide.html
+5. 外食族的低負擔零食櫃：低醣點心、堅果、素食零嘴與沖泡飲｜published｜外食族、素食者、健身飲食、控糖或低醣關注者｜wellness-movement｜文章 ID：auto-20260528182146-light-snack-cabinet-low-sugar-nuts-vegetarian｜檔案：wellness-movement/light-snack-cabinet-low-sugar-nuts-vegetarian.html
+6. 家裡的味道也需要整理：香氛、香品、清潔與除味用品怎麼分工｜published｜居家儀式、空間氣味、送禮、清潔除味讀者｜lifestyle-culture｜文章 ID：auto-20260528182146-home-scent-incense-cleaning-odor-zones｜檔案：lifestyle-culture/home-scent-incense-cleaning-odor-zones.html
+7. 出國前先整理箱包系統：前開式行李箱、登機箱與旅行收納｜published｜出差族、家庭旅行、自駕與戶外移動讀者｜outdoor-escapes｜文章 ID：auto-20260528182146-travel-luggage-front-open-carry-on-packing-system｜檔案：outdoor-escapes/travel-luggage-front-open-carry-on-packing-system.html
+8. 第一次養寵物不要一次買太多：食品、玩具、清潔與外出用品順序｜published｜新手毛孩家庭、貓奴、爬蟲/水族、小寵主人｜lifestyle-culture｜文章 ID：auto-20260528182146-first-pet-shopping-food-toy-cleaning-outing-order｜檔案：lifestyle-culture/first-pet-shopping-food-toy-cleaning-outing-order.html
 
 ## Q-0014｜通勤儀容、家庭補貨、照護與居家更新指南
 
