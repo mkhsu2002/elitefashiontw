@@ -23,6 +23,11 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
+try:
+    from content_authenticity_audit import audit_article_for_publish, upsert_audit_log
+except ModuleNotFoundError:
+    from scripts.content_authenticity_audit import audit_article_for_publish, upsert_audit_log
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "automation" / "site-config.json"
@@ -992,6 +997,10 @@ FRONTEND_FORBIDDEN_COPY = (
     "批次",
     "分潤",
     "SEO",
+    "prompt",
+    "模型",
+    "AI 生成流程",
+    "內部審稿",
     "主角品牌",
     "配角品牌",
     "矩陣",
@@ -2526,6 +2535,37 @@ def ensure_unique_slug(slug: str, registry: list[dict[str, Any]]) -> str:
     return f"{slug}-{suffix}"
 
 
+def article_needs_conservative_disclaimer(article: dict[str, Any], brief: dict[str, Any]) -> bool:
+    text = " ".join(
+        str(value)
+        for value in (
+            article.get("title"),
+            article.get("category"),
+            brief.get("title"),
+            brief.get("category"),
+            brief.get("angle"),
+            brief.get("targetReader"),
+        )
+        if value
+    )
+    high_risk_terms = (
+        "wellness-movement",
+        "健康",
+        "醫療",
+        "護具",
+        "保健",
+        "長照",
+        "法律",
+        "保險",
+        "投資",
+        "房地產",
+        "貸款",
+        "稅",
+        "財務",
+    )
+    return any(term in text for term in high_risk_terms)
+
+
 def apply_article_defaults(article: dict[str, Any], brief: dict[str, Any], categories: dict[str, CategoryConfig]) -> dict[str, Any]:
     category_key = article.get("category") or brief["category"]
     if category_key not in categories:
@@ -2569,6 +2609,11 @@ def apply_article_defaults(article: dict[str, Any], brief: dict[str, Any], categ
             article["cta"]["text"] = brief["ctaText"]
     if brief.get("disclaimerText"):
         article["disclaimer"] = brief["disclaimerText"]
+    if not article.get("disclaimer") and article_needs_conservative_disclaimer(article, brief):
+        article["disclaimer"] = (
+            "本文僅供一般生活資訊與選購情境參考，不構成醫療、法律、投資、稅務、保險或財務建議。"
+            "涉及個人狀況請諮詢合格專業人士；商品價格、規格、活動與庫存請以官方或商品頁公告為準。"
+        )
     return article
 
 
@@ -3121,6 +3166,71 @@ def validate_generated_article(article: dict[str, Any], config: dict[str, Any]) 
         raise PipelineError("文章品質門檻未通過：" + "；".join(quality_errors))
 
 
+def authenticity_model_audit_enabled(config: dict[str, Any]) -> bool:
+    value = os.getenv("CONTENT_AUTHENTICITY_MODEL_AUDIT", "true").strip().lower()
+    if value in {"0", "false", "off", "no", "disabled"}:
+        return False
+    return bool(os.getenv(config["model"]["apiKeySecretName"]))
+
+
+def run_editorial_model_audit(article: dict[str, Any], config: dict[str, Any], authenticity_review: dict[str, Any]) -> dict[str, Any]:
+    if not authenticity_model_audit_enabled(config):
+        return {
+            "publishReady": True,
+            "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+            "checks": [],
+            "requiredFixes": [],
+            "skipped": True,
+        }
+    result = model_request(
+        config,
+        ROOT / "automation" / "prompts" / "editorial-auditor.md",
+        {
+            "strategy": (ROOT / config["paths"]["strategyFile"]).read_text(encoding="utf-8"),
+            "reviewChecklist": (ROOT / config["paths"]["reviewChecklistFile"]).read_text(encoding="utf-8"),
+            "article": article,
+            "authenticityReview": authenticity_review,
+        },
+        planner=False,
+    )
+    if not isinstance(result, dict):
+        raise PipelineError("模型校稿回傳格式錯誤，無法判定 publishReady。")
+    return result
+
+
+def run_authenticity_review(article: dict[str, Any], config: dict[str, Any]) -> dict[str, Any]:
+    try:
+        review = audit_article_for_publish(article, reviewer="automation", write_log=True)
+    except RuntimeError as error:
+        raise PipelineError(str(error)) from error
+
+    editorial_audit = run_editorial_model_audit(article, config, review)
+    review["editorialAudit"] = editorial_audit
+    if editorial_audit.get("publishReady") is not True:
+        fixes = editorial_audit.get("requiredFixes") or ["模型校稿判定文章不可發布。"]
+        review["publishReady"] = False
+        review["requiredFixes"].extend(str(item) for item in fixes)
+        review["claimChecks"].append(
+            {
+                "name": "editorial-auditor",
+                "passed": False,
+                "note": editorial_audit.get("summary") or "模型校稿未通過。",
+            }
+        )
+        upsert_audit_log(review)
+        raise PipelineError("模型校稿未通過：" + "；".join(str(item) for item in fixes))
+
+    review["claimChecks"].append(
+        {
+            "name": "editorial-auditor",
+            "passed": True,
+            "note": editorial_audit.get("summary") or "模型校稿通過。",
+        }
+    )
+    upsert_audit_log(review)
+    return review
+
+
 def generate_article_from_item(config: dict[str, Any], categories: dict[str, CategoryConfig], item: dict[str, Any], *, queue_id: str | None, trigger_type: str, fixture: bool = False) -> dict[str, Any]:
     registry = build_registry(config, categories)
     existing_titles = [record["title"] for record in registry]
@@ -3155,6 +3265,8 @@ def generate_article_from_item(config: dict[str, Any], categories: dict[str, Cat
         article["heroImage"] = choose_balanced_hero_image(article, registry, config, categories)
     saved = save_generated_article(article, queue_id, config, categories)
     validate_generated_article(saved, config)
+    saved["authenticityReview"] = run_authenticity_review(saved, config)
+    write_json(ROOT / config["paths"]["generatedArticlesDir"] / f"{saved['slug']}.json", saved)
     append_publish_log(config, saved, trigger_type=trigger_type, queue_id=queue_id)
     return saved
 

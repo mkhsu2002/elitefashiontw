@@ -81,6 +81,25 @@ jobs:
             python3 scripts/content_pipeline.py command --instruction "${{ inputs.instruction }}"
           fi
 
+      - name: Check Latest Run Status
+        id: latest
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          payload = json.loads(Path("automation/latest-run.json").read_text())
+          status = payload.get("status", "")
+          with open(Path.cwd() / Path(".latest-status"), "w", encoding="utf-8") as handle:
+              handle.write(status)
+          print(status)
+          PY
+          echo "status=$(cat .latest-status)" >> "$GITHUB_OUTPUT"
+
+      - name: Content Authenticity Audit
+        if: steps.latest.outputs.status == 'generated'
+        run: |
+          python3 scripts/content_authenticity_audit.py --latest
+
       - name: Check Changes
         id: diff
         run: |
@@ -101,21 +120,6 @@ jobs:
       - name: Push Changes
         if: steps.diff.outputs.has_changes == 'true'
         run: git push origin HEAD:main
-
-      - name: Check Latest Run Status
-        if: steps.diff.outputs.has_changes == 'true'
-        id: latest
-        run: |
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          payload = json.loads(Path("automation/latest-run.json").read_text())
-          status = payload.get("status", "")
-          with open(Path.cwd() / Path(".latest-status"), "w", encoding="utf-8") as handle:
-              handle.write(status)
-          print(status)
-          PY
-          echo "status=$(cat .latest-status)" >> "$GITHUB_OUTPUT"
 
       - name: Wait For Production
         if: steps.diff.outputs.has_changes == 'true' && steps.latest.outputs.status == 'generated'
