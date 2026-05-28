@@ -1,7 +1,87 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T19:26:10Z",
+  "updatedAt": "2026-05-28T21:37:44Z",
   "entries": [
+    {
+      "articleId": "auto-20260528213744-conservative-supplement-vegetarian-job-tears-guide",
+      "title": "保健食品不要亂堆：素食營養、薏仁錠與日常補給的保守選購法",
+      "publishedAt": "2026-05-28T21:37:44Z",
+      "url": "https://tw.elitefasion.com/wellness-movement/conservative-supplement-vegetarian-job-tears-guide.html",
+      "file": "wellness-movement/conservative-supplement-vegetarian-job-tears-guide.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/conservative-supplement-vegetarian-job-tears-guide.jpg",
+      "queueId": "Q-0015",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260528213744-honey-herbal-drink-daily-pantry-guide",
+      "title": "蜂蜜、草本飲與沖泡補給：日常飲品怎麼選得舒服不誇張",
+      "publishedAt": "2026-05-28T21:37:44Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/honey-herbal-drink-daily-pantry-guide.html",
+      "file": "lifestyle-culture/honey-herbal-drink-daily-pantry-guide.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/honey-herbal-drink-daily-pantry-guide.jpg",
+      "queueId": "Q-0015",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260528213744-weekend-table-global-food-honey-dessert-hosting",
+      "title": "週末餐桌升級：異國食材、台灣小農、蜂蜜與甜點的待客清單",
+      "publishedAt": "2026-05-28T21:37:44Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/weekend-table-global-food-honey-dessert-hosting.html",
+      "file": "lifestyle-culture/weekend-table-global-food-honey-dessert-hosting.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/weekend-table-global-food-honey-dessert-hosting.jpg",
+      "queueId": "Q-0015",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260528213744-small-bedroom-bedding-pillow-textile-setup",
+      "title": "小宅睡眠空間整理：床包、枕頭、沙發墊與布品怎麼搭才不亂",
+      "publishedAt": "2026-05-28T21:37:44Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/small-bedroom-bedding-pillow-textile-setup.html",
+      "file": "lifestyle-culture/small-bedroom-bedding-pillow-textile-setup.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/small-bedroom-bedding-pillow-textile-setup.jpg",
+      "queueId": "Q-0015",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260528213744-practical-wardrobe-gift-plus-size-formal-casual",
+      "title": "給伴侶或家人的實用衣櫥更新：大尺碼、正式場合與日常休閒怎麼選",
+      "publishedAt": "2026-05-28T21:37:44Z",
+      "url": "https://tw.elitefasion.com/casual-chic/practical-wardrobe-gift-plus-size-formal-casual.html",
+      "file": "casual-chic/practical-wardrobe-gift-plus-size-formal-casual.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/practical-wardrobe-gift-plus-size-formal-casual.jpg",
+      "queueId": "Q-0015",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260528213744-korean-phone-case-magsafe-daily-style",
+      "title": "韓系手機殼到 MagSafe：把手機配件整理成日常風格的一部分",
+      "publishedAt": "2026-05-28T21:37:44Z",
+      "url": "https://tw.elitefasion.com/ai-innovation/korean-phone-case-magsafe-daily-style.html",
+      "file": "ai-innovation/korean-phone-case-magsafe-daily-style.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/korean-phone-case-magsafe-daily-style.jpg",
+      "queueId": "Q-0015",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260528213744-new-home-first-month-dining-mat-curtain-list",
+      "title": "新家第一個月不要亂買：餐具、地墊、窗簾與生活用品的採買順序",
+      "publishedAt": "2026-05-28T21:37:44Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/new-home-first-month-dining-mat-curtain-list.html",
+      "file": "lifestyle-culture/new-home-first-month-dining-mat-curtain-list.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/new-home-first-month-dining-mat-curtain-list.jpg",
+      "queueId": "Q-0015",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260528213744-desk-life-reset-stationery-chair-home-office",
+      "title": "一張桌子重整生活：居家辦公、手帳文具與椅子怎麼一起選",
+      "publishedAt": "2026-05-28T21:37:44Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/desk-life-reset-stationery-chair-home-office.html",
+      "file": "lifestyle-culture/desk-life-reset-stationery-chair-home-office.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/desk-life-reset-stationery-chair-home-office.jpg",
+      "queueId": "Q-0015",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
     {
       "articleId": "auto-20260528192610-rental-home-refresh-sticker-light-storage",
       "title": "不用裝潢，也能讓租屋處變好住：貼皮、燈具、收納與日用小物清單",

@@ -1,29 +1,29 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T19:26:10Z",
+  "updatedAt": "2026-05-28T21:37:44Z",
   "status": "generated",
   "triggerType": "manual-codex-momo-new-audience-no-newsletter",
-  "queueId": "Q-0014",
+  "queueId": "Q-0015",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260528192609-mens-commute-shirt-trousers-jacket-shoes",
-    "auto-20260528192610-family-weekend-restock-kids-clothes-toys-breakfast",
-    "auto-20260528192610-ten-minute-morning-grooming-lip-makeup-kit",
-    "auto-20260528192610-simple-skincare-haircare-day-night-routine",
-    "auto-20260528192610-home-care-supplies-medical-aid-consumables",
-    "auto-20260528192610-phone-accessory-commute-car-charging-desk",
-    "auto-20260528192610-seasonal-bedding-tencel-cotton-protector-guide",
-    "auto-20260528192610-rental-home-refresh-sticker-light-storage"
+    "auto-20260528213744-desk-life-reset-stationery-chair-home-office",
+    "auto-20260528213744-new-home-first-month-dining-mat-curtain-list",
+    "auto-20260528213744-korean-phone-case-magsafe-daily-style",
+    "auto-20260528213744-practical-wardrobe-gift-plus-size-formal-casual",
+    "auto-20260528213744-small-bedroom-bedding-pillow-textile-setup",
+    "auto-20260528213744-weekend-table-global-food-honey-dessert-hosting",
+    "auto-20260528213744-honey-herbal-drink-daily-pantry-guide",
+    "auto-20260528213744-conservative-supplement-vegetarian-job-tears-guide"
   ],
   "articleSlugs": [
-    "mens-commute-shirt-trousers-jacket-shoes",
-    "family-weekend-restock-kids-clothes-toys-breakfast",
-    "ten-minute-morning-grooming-lip-makeup-kit",
-    "simple-skincare-haircare-day-night-routine",
-    "home-care-supplies-medical-aid-consumables",
-    "phone-accessory-commute-car-charging-desk",
-    "seasonal-bedding-tencel-cotton-protector-guide",
-    "rental-home-refresh-sticker-light-storage"
+    "desk-life-reset-stationery-chair-home-office",
+    "new-home-first-month-dining-mat-curtain-list",
+    "korean-phone-case-magsafe-daily-style",
+    "practical-wardrobe-gift-plus-size-formal-casual",
+    "small-bedroom-bedding-pillow-textile-setup",
+    "weekend-table-global-food-honey-dessert-hosting",
+    "honey-herbal-drink-daily-pantry-guide",
+    "conservative-supplement-vegetarian-job-tears-guide"
   ],
   "notes": "Codex 手動分批撰文與封面生成；直接推上 main 不會自動寄送電子報。"
 }

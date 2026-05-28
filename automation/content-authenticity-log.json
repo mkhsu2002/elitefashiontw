@@ -1,7 +1,562 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T19:26:10Z",
+  "updatedAt": "2026-05-28T21:40:00Z",
   "entries": [
+    {
+      "articleId": "auto-20260528213744-weekend-table-global-food-honey-dessert-hosting",
+      "slug": "weekend-table-global-food-honey-dessert-hosting",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T21:39:57Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003278/main",
+        "https://www.momoshop.com.tw/TP/TP0006281/main",
+        "https://www.momoshop.com.tw/TP/TP0007409/main",
+        "https://www.momoshop.com.tw/TP/TP0000839/main",
+        "https://www.momoshop.com.tw/TP/TP0008550/main",
+        "https://www.momoshop.com.tw/TP/TP0001990/main",
+        "https://s.momoshop.com.tw/s/gvc06pk4",
+        "https://s.momoshop.com.tw/s/CeaTUEd2",
+        "https://s.momoshop.com.tw/s/9IfB6T5I",
+        "https://s.momoshop.com.tw/s/Ch242VBU",
+        "https://s.momoshop.com.tw/s/YB8BkEET",
+        "https://s.momoshop.com.tw/s/kbNje3EU",
+        "https://tw.elitefasion.com/lifestyle-culture/weekend-table-global-food-honey-dessert-hosting.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/weekend-table-global-food-honey-dessert-hosting.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528213744-small-bedroom-bedding-pillow-textile-setup",
+      "slug": "small-bedroom-bedding-pillow-textile-setup",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T21:39:57Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0008768/main",
+        "https://www.momoshop.com.tw/TP/TP0005856/main",
+        "https://www.momoshop.com.tw/TP/TP0005202/main",
+        "https://www.momoshop.com.tw/TP/TP0001300/main",
+        "https://www.momoshop.com.tw/TP/TP0001106/main",
+        "https://s.momoshop.com.tw/s/VpUqu3J4",
+        "https://s.momoshop.com.tw/s/2XzYevv4",
+        "https://s.momoshop.com.tw/s/z64goJW9",
+        "https://s.momoshop.com.tw/s/ua5lQ0CY",
+        "https://s.momoshop.com.tw/s/DfBme4p7",
+        "https://tw.elitefasion.com/lifestyle-culture/small-bedroom-bedding-pillow-textile-setup.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/small-bedroom-bedding-pillow-textile-setup.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528213744-practical-wardrobe-gift-plus-size-formal-casual",
+      "slug": "practical-wardrobe-gift-plus-size-formal-casual",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T21:39:57Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003817/main",
+        "https://www.momoshop.com.tw/TP/TP0003665/main",
+        "https://www.momoshop.com.tw/TP/TP0000798/main",
+        "https://www.momoshop.com.tw/TP/TP0005310/main",
+        "https://s.momoshop.com.tw/s/yGvekMs0",
+        "https://s.momoshop.com.tw/s/XfdBDtlU",
+        "https://s.momoshop.com.tw/s/pjMhhPU3",
+        "https://s.momoshop.com.tw/s/G7ow64Xj",
+        "https://tw.elitefasion.com/casual-chic/practical-wardrobe-gift-plus-size-formal-casual.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/practical-wardrobe-gift-plus-size-formal-casual.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528213744-new-home-first-month-dining-mat-curtain-list",
+      "slug": "new-home-first-month-dining-mat-curtain-list",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T21:39:57Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005971/main",
+        "https://www.momoshop.com.tw/TP/TP0002173/main",
+        "https://www.momoshop.com.tw/TP/TP0002808/main",
+        "https://www.momoshop.com.tw/TP/TP0003706/main",
+        "https://www.momoshop.com.tw/TP/TP0000217/main",
+        "https://s.momoshop.com.tw/s/I9OkFkrZ",
+        "https://s.momoshop.com.tw/s/ZXi3USMR",
+        "https://s.momoshop.com.tw/s/9wZF3SRN",
+        "https://s.momoshop.com.tw/s/WdhiCrGU",
+        "https://s.momoshop.com.tw/s/VaAZAukG",
+        "https://tw.elitefasion.com/lifestyle-culture/new-home-first-month-dining-mat-curtain-list.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/new-home-first-month-dining-mat-curtain-list.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528213744-korean-phone-case-magsafe-daily-style",
+      "slug": "korean-phone-case-magsafe-daily-style",
+      "riskLevel": "medium",
+      "checkedAt": "2026-05-28T21:39:57Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003608/main",
+        "https://www.momoshop.com.tw/TP/TP0005421/main",
+        "https://www.momoshop.com.tw/TP/TP0008881/main",
+        "https://www.momoshop.com.tw/TP/TP0008198/main",
+        "https://www.momoshop.com.tw/TP/TP0004489/main",
+        "https://www.momoshop.com.tw/TP/TP0001470/main",
+        "https://s.momoshop.com.tw/s/7lJg1j20",
+        "https://s.momoshop.com.tw/s/XdquU34a",
+        "https://s.momoshop.com.tw/s/Eukw5zpf",
+        "https://s.momoshop.com.tw/s/iHAIUcpv",
+        "https://s.momoshop.com.tw/s/BHpHyIzy",
+        "https://s.momoshop.com.tw/s/obnBk3GB",
+        "https://tw.elitefasion.com/ai-innovation/korean-phone-case-magsafe-daily-style.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/korean-phone-case-magsafe-daily-style.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528213744-honey-herbal-drink-daily-pantry-guide",
+      "slug": "honey-herbal-drink-daily-pantry-guide",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T21:39:57Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0002822/main",
+        "https://www.momoshop.com.tw/TP/TP0007409/main",
+        "https://www.momoshop.com.tw/TP/TP0000839/main",
+        "https://www.momoshop.com.tw/TP/TP0004512/main",
+        "https://www.momoshop.com.tw/TP/TP0004250/main",
+        "https://s.momoshop.com.tw/s/c5vCEHr4",
+        "https://s.momoshop.com.tw/s/9IfB6T5I",
+        "https://s.momoshop.com.tw/s/Ch242VBU",
+        "https://s.momoshop.com.tw/s/cXwPt6mC",
+        "https://s.momoshop.com.tw/s/wu0u3KVA",
+        "https://tw.elitefasion.com/lifestyle-culture/honey-herbal-drink-daily-pantry-guide.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/honey-herbal-drink-daily-pantry-guide.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528213744-desk-life-reset-stationery-chair-home-office",
+      "slug": "desk-life-reset-stationery-chair-home-office",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T21:39:57Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0001495/main",
+        "https://www.momoshop.com.tw/TP/TP0005263/main",
+        "https://www.momoshop.com.tw/TP/TP0000065/main",
+        "https://www.momoshop.com.tw/TP/TP0000026/main",
+        "https://www.momoshop.com.tw/TP/TP0003354/main",
+        "https://s.momoshop.com.tw/s/kSuOB5AF",
+        "https://s.momoshop.com.tw/s/pKUujlHc",
+        "https://s.momoshop.com.tw/s/vvfddXLA",
+        "https://s.momoshop.com.tw/s/KCDYVHhE",
+        "https://s.momoshop.com.tw/s/5JEXtodA",
+        "https://tw.elitefasion.com/lifestyle-culture/desk-life-reset-stationery-chair-home-office.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/desk-life-reset-stationery-chair-home-office.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528213744-conservative-supplement-vegetarian-job-tears-guide",
+      "slug": "conservative-supplement-vegetarian-job-tears-guide",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T21:39:57Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003281/main",
+        "https://www.momoshop.com.tw/TP/TP0008420/main",
+        "https://www.momoshop.com.tw/TP/TP0002822/main",
+        "https://www.momoshop.com.tw/TP/TP0007439/main",
+        "https://www.momoshop.com.tw/TP/TP0005998/main",
+        "https://s.momoshop.com.tw/s/v6tYs77T",
+        "https://s.momoshop.com.tw/s/a3NJCgKg",
+        "https://s.momoshop.com.tw/s/c5vCEHr4",
+        "https://s.momoshop.com.tw/s/muT80PtA",
+        "https://s.momoshop.com.tw/s/IIcK5u8T",
+        "https://tw.elitefasion.com/wellness-movement/conservative-supplement-vegetarian-job-tears-guide.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/conservative-supplement-vegetarian-job-tears-guide.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
     {
       "articleId": "auto-20260528192610-rental-home-refresh-sticker-light-storage",
       "slug": "rental-home-refresh-sticker-light-storage",

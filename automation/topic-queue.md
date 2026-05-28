@@ -163,3 +163,19 @@
 6. 手機不是只要保護殼：通勤、車用、充電與桌面的配件整理法｜published｜手機使用者、通勤族、手機拍攝與桌面控｜ai-innovation｜文章 ID：auto-20260528192610-phone-accessory-commute-car-charging-desk｜檔案：ai-innovation/phone-accessory-commute-car-charging-desk.html
 7. 床包不是看花色而已：天絲、純棉、涼被與保潔墊的換季順序｜published｜重視居家舒適、剛搬家、換季整理讀者｜lifestyle-culture｜文章 ID：auto-20260528192610-seasonal-bedding-tencel-cotton-protector-guide｜檔案：lifestyle-culture/seasonal-bedding-tencel-cotton-protector-guide.html
 8. 不用裝潢，也能讓租屋處變好住：貼皮、燈具、收納與日用小物清單｜published｜租屋族、小宅家庭、剛搬家讀者｜lifestyle-culture｜文章 ID：auto-20260528192610-rental-home-refresh-sticker-light-storage｜檔案：lifestyle-culture/rental-home-refresh-sticker-light-storage.html
+
+## Q-0015｜桌面、新家、手機配件、衣櫥、寢具、餐桌與飲品補給指南
+
+- 狀態：completed
+- 規劃篇數：8
+- 補充方向：延伸新受眾生活採買內容到居家工作桌、新家第一個月、韓系手機配件、實用衣櫥、小宅布品、週末餐桌、日常飲品與保守型補給；每篇以具體情境、限制條件與保守提醒建立選購順序。
+- 建立時間：2026-05-28T21:35:45Z
+
+1. 一張桌子重整生活：居家辦公、手帳文具與椅子怎麼一起選｜published｜租屋族、小宅家庭、剛搬家讀者｜lifestyle-culture｜文章 ID：auto-20260528213744-desk-life-reset-stationery-chair-home-office｜檔案：lifestyle-culture/desk-life-reset-stationery-chair-home-office.html
+2. 新家第一個月不要亂買：餐具、地墊、窗簾與生活用品的採買順序｜published｜租屋族、小宅家庭、剛搬家讀者｜lifestyle-culture｜文章 ID：auto-20260528213744-new-home-first-month-dining-mat-curtain-list｜檔案：lifestyle-culture/new-home-first-month-dining-mat-curtain-list.html
+3. 韓系手機殼到 MagSafe：把手機配件整理成日常風格的一部分｜published｜手機使用者、通勤族、手機拍攝與桌面控｜ai-innovation｜文章 ID：auto-20260528213744-korean-phone-case-magsafe-daily-style｜檔案：ai-innovation/korean-phone-case-magsafe-daily-style.html
+4. 給伴侶或家人的實用衣櫥更新：大尺碼、正式場合與日常休閒怎麼選｜published｜男性上班族、伴侶送禮、婚禮與面試需求者｜casual-chic｜文章 ID：auto-20260528213744-practical-wardrobe-gift-plus-size-formal-casual｜檔案：casual-chic/practical-wardrobe-gift-plus-size-formal-casual.html
+5. 小宅睡眠空間整理：床包、枕頭、沙發墊與布品怎麼搭才不亂｜published｜重視居家舒適、剛搬家、換季整理讀者｜lifestyle-culture｜文章 ID：auto-20260528213744-small-bedroom-bedding-pillow-textile-setup｜檔案：lifestyle-culture/small-bedroom-bedding-pillow-textile-setup.html
+6. 週末餐桌升級：異國食材、台灣小農、蜂蜜與甜點的待客清單｜published｜自煮族、家庭料理、送禮與餐桌美學讀者｜lifestyle-culture｜文章 ID：auto-20260528213744-weekend-table-global-food-honey-dessert-hosting｜檔案：lifestyle-culture/weekend-table-global-food-honey-dessert-hosting.html
+7. 蜂蜜、草本飲與沖泡補給：日常飲品怎麼選得舒服不誇張｜published｜辦公室、下午茶、家庭補貨與低負擔飲品讀者｜lifestyle-culture｜文章 ID：auto-20260528213744-honey-herbal-drink-daily-pantry-guide｜檔案：lifestyle-culture/honey-herbal-drink-daily-pantry-guide.html
+8. 保健食品不要亂堆：素食營養、薏仁錠與日常補給的保守選購法｜published｜外食族、素食者、健身飲食、控糖或低醣關注者｜wellness-movement｜文章 ID：auto-20260528213744-conservative-supplement-vegetarian-job-tears-guide｜檔案：wellness-movement/conservative-supplement-vegetarian-job-tears-guide.html

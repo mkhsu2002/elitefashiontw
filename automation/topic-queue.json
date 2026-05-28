@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T19:26:10Z",
-  "nextQueueSequence": 15,
+  "updatedAt": "2026-05-28T21:37:44Z",
+  "nextQueueSequence": 16,
   "series": [
     {
       "queueId": "Q-0001",
@@ -866,6 +866,106 @@
           "publishedAt": "2026-05-28T19:26:10Z"
         }
       ]
+    },
+    {
+      "queueId": "Q-0015",
+      "status": "completed",
+      "source": "momo-ab-new-audience-roadmap",
+      "createdAt": "2026-05-28T21:35:45Z",
+      "items": [
+        {
+          "slug": "desk-life-reset-stationery-chair-home-office",
+          "title": "一張桌子重整生活：居家辦公、手帳文具與椅子怎麼一起選",
+          "category": "lifestyle-culture",
+          "status": "published",
+          "articleId": "auto-20260528213744-desk-life-reset-stationery-chair-home-office",
+          "file": "lifestyle-culture/desk-life-reset-stationery-chair-home-office.html",
+          "publishedAt": "2026-05-28T21:37:44Z",
+          "order": 1,
+          "targetReader": "租屋族、小宅家庭、剛搬家讀者"
+        },
+        {
+          "slug": "new-home-first-month-dining-mat-curtain-list",
+          "title": "新家第一個月不要亂買：餐具、地墊、窗簾與生活用品的採買順序",
+          "category": "lifestyle-culture",
+          "status": "published",
+          "articleId": "auto-20260528213744-new-home-first-month-dining-mat-curtain-list",
+          "file": "lifestyle-culture/new-home-first-month-dining-mat-curtain-list.html",
+          "publishedAt": "2026-05-28T21:37:44Z",
+          "order": 2,
+          "targetReader": "租屋族、小宅家庭、剛搬家讀者"
+        },
+        {
+          "slug": "korean-phone-case-magsafe-daily-style",
+          "title": "韓系手機殼到 MagSafe：把手機配件整理成日常風格的一部分",
+          "category": "ai-innovation",
+          "status": "published",
+          "articleId": "auto-20260528213744-korean-phone-case-magsafe-daily-style",
+          "file": "ai-innovation/korean-phone-case-magsafe-daily-style.html",
+          "publishedAt": "2026-05-28T21:37:44Z",
+          "order": 3,
+          "targetReader": "手機使用者、通勤族、手機拍攝與桌面控"
+        },
+        {
+          "slug": "practical-wardrobe-gift-plus-size-formal-casual",
+          "title": "給伴侶或家人的實用衣櫥更新：大尺碼、正式場合與日常休閒怎麼選",
+          "category": "casual-chic",
+          "status": "published",
+          "articleId": "auto-20260528213744-practical-wardrobe-gift-plus-size-formal-casual",
+          "file": "casual-chic/practical-wardrobe-gift-plus-size-formal-casual.html",
+          "publishedAt": "2026-05-28T21:37:44Z",
+          "order": 4,
+          "targetReader": "男性上班族、伴侶送禮、婚禮與面試需求者"
+        },
+        {
+          "slug": "small-bedroom-bedding-pillow-textile-setup",
+          "title": "小宅睡眠空間整理：床包、枕頭、沙發墊與布品怎麼搭才不亂",
+          "category": "lifestyle-culture",
+          "status": "published",
+          "articleId": "auto-20260528213744-small-bedroom-bedding-pillow-textile-setup",
+          "file": "lifestyle-culture/small-bedroom-bedding-pillow-textile-setup.html",
+          "publishedAt": "2026-05-28T21:37:44Z",
+          "order": 5,
+          "targetReader": "重視居家舒適、剛搬家、換季整理讀者"
+        },
+        {
+          "slug": "weekend-table-global-food-honey-dessert-hosting",
+          "title": "週末餐桌升級：異國食材、台灣小農、蜂蜜與甜點的待客清單",
+          "category": "lifestyle-culture",
+          "status": "published",
+          "articleId": "auto-20260528213744-weekend-table-global-food-honey-dessert-hosting",
+          "file": "lifestyle-culture/weekend-table-global-food-honey-dessert-hosting.html",
+          "publishedAt": "2026-05-28T21:37:44Z",
+          "order": 6,
+          "targetReader": "自煮族、家庭料理、送禮與餐桌美學讀者"
+        },
+        {
+          "slug": "honey-herbal-drink-daily-pantry-guide",
+          "title": "蜂蜜、草本飲與沖泡補給：日常飲品怎麼選得舒服不誇張",
+          "category": "lifestyle-culture",
+          "status": "published",
+          "articleId": "auto-20260528213744-honey-herbal-drink-daily-pantry-guide",
+          "file": "lifestyle-culture/honey-herbal-drink-daily-pantry-guide.html",
+          "publishedAt": "2026-05-28T21:37:44Z",
+          "order": 7,
+          "targetReader": "辦公室、下午茶、家庭補貨與低負擔飲品讀者"
+        },
+        {
+          "slug": "conservative-supplement-vegetarian-job-tears-guide",
+          "title": "保健食品不要亂堆：素食營養、薏仁錠與日常補給的保守選購法",
+          "category": "wellness-movement",
+          "status": "published",
+          "articleId": "auto-20260528213744-conservative-supplement-vegetarian-job-tears-guide",
+          "file": "wellness-movement/conservative-supplement-vegetarian-job-tears-guide.html",
+          "publishedAt": "2026-05-28T21:37:44Z",
+          "order": 8,
+          "targetReader": "外食族、素食者、健身飲食、控糖或低醣關注者"
+        }
+      ],
+      "topic": "桌面、新家、手機配件、衣櫥、寢具、餐桌與飲品補給指南",
+      "direction": "延伸新受眾生活採買內容到居家工作桌、新家第一個月、韓系手機配件、實用衣櫥、小宅布品、週末餐桌、日常飲品與保守型補給；每篇以具體情境、限制條件與保守提醒建立選購順序。",
+      "plannedCount": 8,
+      "seriesName": "momo 新受眾第三批"
     }
   ]
 }

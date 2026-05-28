@@ -1,5 +1,69 @@
 # 發文紀錄
 
+## 2026-05-28T21:37:44Z｜保健食品不要亂堆：素食營養、薏仁錠與日常補給的保守選購法
+
+- 文章 ID：auto-20260528213744-conservative-supplement-vegetarian-job-tears-guide
+- URL：https://tw.elitefasion.com/wellness-movement/conservative-supplement-vegetarian-job-tears-guide.html
+- 檔案：wellness-movement/conservative-supplement-vegetarian-job-tears-guide.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0015
+
+## 2026-05-28T21:37:44Z｜蜂蜜、草本飲與沖泡補給：日常飲品怎麼選得舒服不誇張
+
+- 文章 ID：auto-20260528213744-honey-herbal-drink-daily-pantry-guide
+- URL：https://tw.elitefasion.com/lifestyle-culture/honey-herbal-drink-daily-pantry-guide.html
+- 檔案：lifestyle-culture/honey-herbal-drink-daily-pantry-guide.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0015
+
+## 2026-05-28T21:37:44Z｜週末餐桌升級：異國食材、台灣小農、蜂蜜與甜點的待客清單
+
+- 文章 ID：auto-20260528213744-weekend-table-global-food-honey-dessert-hosting
+- URL：https://tw.elitefasion.com/lifestyle-culture/weekend-table-global-food-honey-dessert-hosting.html
+- 檔案：lifestyle-culture/weekend-table-global-food-honey-dessert-hosting.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0015
+
+## 2026-05-28T21:37:44Z｜小宅睡眠空間整理：床包、枕頭、沙發墊與布品怎麼搭才不亂
+
+- 文章 ID：auto-20260528213744-small-bedroom-bedding-pillow-textile-setup
+- URL：https://tw.elitefasion.com/lifestyle-culture/small-bedroom-bedding-pillow-textile-setup.html
+- 檔案：lifestyle-culture/small-bedroom-bedding-pillow-textile-setup.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0015
+
+## 2026-05-28T21:37:44Z｜給伴侶或家人的實用衣櫥更新：大尺碼、正式場合與日常休閒怎麼選
+
+- 文章 ID：auto-20260528213744-practical-wardrobe-gift-plus-size-formal-casual
+- URL：https://tw.elitefasion.com/casual-chic/practical-wardrobe-gift-plus-size-formal-casual.html
+- 檔案：casual-chic/practical-wardrobe-gift-plus-size-formal-casual.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0015
+
+## 2026-05-28T21:37:44Z｜韓系手機殼到 MagSafe：把手機配件整理成日常風格的一部分
+
+- 文章 ID：auto-20260528213744-korean-phone-case-magsafe-daily-style
+- URL：https://tw.elitefasion.com/ai-innovation/korean-phone-case-magsafe-daily-style.html
+- 檔案：ai-innovation/korean-phone-case-magsafe-daily-style.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0015
+
+## 2026-05-28T21:37:44Z｜新家第一個月不要亂買：餐具、地墊、窗簾與生活用品的採買順序
+
+- 文章 ID：auto-20260528213744-new-home-first-month-dining-mat-curtain-list
+- URL：https://tw.elitefasion.com/lifestyle-culture/new-home-first-month-dining-mat-curtain-list.html
+- 檔案：lifestyle-culture/new-home-first-month-dining-mat-curtain-list.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0015
+
+## 2026-05-28T21:37:44Z｜一張桌子重整生活：居家辦公、手帳文具與椅子怎麼一起選
+
+- 文章 ID：auto-20260528213744-desk-life-reset-stationery-chair-home-office
+- URL：https://tw.elitefasion.com/lifestyle-culture/desk-life-reset-stationery-chair-home-office.html
+- 檔案：lifestyle-culture/desk-life-reset-stationery-chair-home-office.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0015
+
 ## 2026-05-28T19:26:10Z｜不用裝潢，也能讓租屋處變好住：貼皮、燈具、收納與日用小物清單
 
 - 文章 ID：auto-20260528192610-rental-home-refresh-sticker-light-storage

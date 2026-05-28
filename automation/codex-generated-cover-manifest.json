@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T00:00:00-07:00",
+  "updatedAt": "2026-05-28T14:20:00-07:00",
   "generator": "codex-imagegen-built-in",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -128,6 +128,54 @@
       "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_04a46ee67450d745016a189329efc081968f5e9fcb5a49c15b.png",
       "sha256": "a04cf542e037bee54a2fca542aa78e7f4c004c543df5bdf416742fc9ecdee739",
       "promptSummary": "小型租屋房間裡的貼皮樣本、桌燈、收納籃、量尺、掛鉤與生活小物"
+    },
+    "desk-life-reset-stationery-chair-home-office": {
+      "image": "images/optimized/article-covers/desk-life-reset-stationery-chair-home-office.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0566c1c1739cc09e016a18aecb5398819bbaf3accb44f19ebd.png",
+      "sha256": "c777f4c15cf05a4b693f2d166e6b4ac8f51722e31cbdfdaaf183e5ab6108e521",
+      "promptSummary": "窗邊木桌上的手帳、文具托盤、桌燈、椅子與小型收納盒"
+    },
+    "new-home-first-month-dining-mat-curtain-list": {
+      "image": "images/optimized/article-covers/new-home-first-month-dining-mat-curtain-list.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0566c1c1739cc09e016a18aefea92c819b97b69da5a313c000.png",
+      "sha256": "612e91a1b5b2c5c4dc256dc0f9afe0dacfe52550b08f6c4fad43b9ef50f226ac",
+      "promptSummary": "新家餐桌旁的陶瓷餐具、地墊樣本、窗簾布料、廚房工具與搬家紙箱"
+    },
+    "korean-phone-case-magsafe-daily-style": {
+      "image": "images/optimized/article-covers/korean-phone-case-magsafe-daily-style.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0566c1c1739cc09e016a18af326e74819baca65ae86b75f294.png",
+      "sha256": "1d9d13bb77c55b11aac6b31cbf1a797eb4a65729f932d5b166341aa45a684e1d",
+      "promptSummary": "城市咖啡桌上的韓系手機殼、磁吸充電器、線材收納包與手機配件"
+    },
+    "practical-wardrobe-gift-plus-size-formal-casual": {
+      "image": "images/optimized/article-covers/practical-wardrobe-gift-plus-size-formal-casual.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0566c1c1739cc09e016a18af68d27c819b96aba8ffe84566bb.png",
+      "sha256": "2ccafb0c8a9638b912786380c769ad4b76c5fed3823a510df67144ba214220c0",
+      "promptSummary": "臥室衣櫥前整理好的襯衫、針織衫、長褲、外套、鞋子與禮盒"
+    },
+    "small-bedroom-bedding-pillow-textile-setup": {
+      "image": "images/optimized/article-covers/small-bedroom-bedding-pillow-textile-setup.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0566c1c1739cc09e016a18af9ee41c819baa394e1d5c3166f8.png",
+      "sha256": "11b8554797f9acd951d305ec7ffecb8444c41e32bd4eb919fe61184fdc13f15d",
+      "promptSummary": "小宅臥室裡整理好的床包、枕頭、沙發墊、布品收納籃與窗邊採光"
+    },
+    "weekend-table-global-food-honey-dessert-hosting": {
+      "image": "images/optimized/article-covers/weekend-table-global-food-honey-dessert-hosting.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0566c1c1739cc09e016a18aff36678819bb901b1abc8dcd855.png",
+      "sha256": "8e80646f50aa2b169fc2f0226e2b1d25d294cafda3f4c293922f690ab148c934",
+      "promptSummary": "週末陽光餐桌上的蜂蜜、麵包、甜點、水果、茶杯與陶瓷餐具"
+    },
+    "honey-herbal-drink-daily-pantry-guide": {
+      "image": "images/optimized/article-covers/honey-herbal-drink-daily-pantry-guide.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0566c1c1739cc09e016a18b09b9628819bbd22de749f0e7fb8.png",
+      "sha256": "7cf6ca60f732eb6721559274afe2eb0737fbdb0c095bf9182cda7b85dbdf708e",
+      "promptSummary": "明亮廚房櫃檯上的蜂蜜罐、草本茶包、陶瓷杯、水壺與飲品收納架"
+    },
+    "conservative-supplement-vegetarian-job-tears-guide": {
+      "image": "images/optimized/article-covers/conservative-supplement-vegetarian-job-tears-guide.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0566c1c1739cc09e016a18b0d66f74819baa2307c8e5d82a7f.png",
+      "sha256": "2f9b18cf9b391c596e082df967657bede4ab1d1ca6e00dba23263473a928a6e0",
+      "promptSummary": "明亮廚房檯面上的無品牌補給瓶、素食點心、飲水杯、筆記本與收納托盤"
     }
   }
 }
