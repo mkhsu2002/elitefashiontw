@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-29T00:31:22Z",
+  "updatedAt": "2026-05-29T04:05:33Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-new-audience-no-newsletter",
-  "queueId": "Q-0018",
+  "triggerType": "manual-codex-researched-editorial",
+  "queueId": "Q-0019",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260529003122-elder-home-reading-care-vision-layout-supplies"
+    "auto-20260529040533-global-top-travel-destinations-2026"
   ],
   "articleSlugs": [
-    "elder-home-reading-care-vision-layout-supplies"
+    "global-top-travel-destinations-2026"
   ],
-  "notes": "Codex 手動分批撰文與封面生成；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動研究撰文與封面生成；直接推上 main 不會自動寄送電子報。"
 }

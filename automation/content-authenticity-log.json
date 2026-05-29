@@ -1,7 +1,53 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-29T00:31:45Z",
+  "updatedAt": "2026-05-29T04:05:55Z",
   "entries": [
+    {
+      "articleId": "auto-20260529040533-global-top-travel-destinations-2026",
+      "slug": "global-top-travel-destinations-2026",
+      "riskLevel": "low",
+      "checkedAt": "2026-05-29T04:05:55Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "未偵測到導購連結。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.nationalgeographic.com/travel/article/best-of-the-world-2026",
+        "https://www.tripadvisor.com/TravelersChoice-Destinations-cTrending-g1",
+        "https://route66centennial.org/",
+        "https://www.esa.int/Science_Exploration/Space_Science/Join_ESA_for_a_total_solar_eclipse_on_12_August_2026",
+        "https://milanocortina2026.olympics.com/",
+        "https://tw.elitefasion.com/outdoor-escapes/global-top-travel-destinations-2026.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/global-top-travel-destinations-2026.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
     {
       "articleId": "auto-20260529003122-elder-home-reading-care-vision-layout-supplies",
       "slug": "elder-home-reading-care-vision-layout-supplies",

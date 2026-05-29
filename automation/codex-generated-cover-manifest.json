@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-29T00:31:22Z",
+  "updatedAt": "2026-05-29T04:05:33Z",
   "generator": "codex-imagegen-built-in",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -309,6 +309,15 @@
       "output": "images/optimized/article-covers/elder-home-reading-care-vision-layout-supplies.jpg",
       "sha256": "a5411b60c72cb35b7c0a693df7b119571eeafa49c2d1d2aa67e54056942463ae",
       "generatedAt": "2026-05-29T00:31:22Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "global-top-travel-destinations-2026": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0ef2b638c70c8783016a190f37bdd88195ae1480580fa21cb4.png",
+      "output": "images/optimized/article-covers/global-top-travel-destinations-2026.jpg",
+      "sha256": "bc4e2f095479536224d82e19e9747a1f894bec196fe895e2b025254e5f73c49e",
+      "generatedAt": "2026-05-29T04:05:33Z",
       "usage": "cover-og-twitter",
       "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
     }

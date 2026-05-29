@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-05-29T00:31:22Z",
+  "updatedAt": "2026-05-29T04:05:34Z",
   "latest": [
+    {
+      "id": "auto-20260529040533-global-top-travel-destinations-2026",
+      "title": "2026 全球五大最新熱門旅遊景點",
+      "excerpt": "從日蝕海岸、百年公路到火山島慢旅，整理五個 2026 值得被看見的目的地。",
+      "category": "outdoor-escapes",
+      "categoryLabel": "戶外生活",
+      "series": "全球旅行趨勢觀察",
+      "publishedAt": "2026-05-29T04:05:33Z",
+      "publishedDateText": "2026年5月29日",
+      "relativeUrl": "outdoor-escapes/global-top-travel-destinations-2026.html",
+      "heroImage": "/images/optimized/article-covers/global-top-travel-destinations-2026.jpg",
+      "tags": [
+        "2026 旅遊",
+        "熱門旅遊景點",
+        "國際旅行",
+        "文化旅行",
+        "戶外生活"
+      ]
+    },
     {
       "id": "auto-20260529003122-elder-home-reading-care-vision-layout-supplies",
       "title": "長輩用品不只看功能：閱讀、照護、眼鏡與居家動線的準備順序",
@@ -217,26 +236,6 @@
         "枕頭",
         "低負擔點心",
         "辦公室補給",
-        "選物指南",
-        "生活採買"
-      ]
-    },
-    {
-      "id": "auto-20260528231624-pet-birthday-gift-cake-snack-toy",
-      "title": "毛孩生日與送禮怎麼準備：寵物蛋糕、零食、玩具與慶生小物",
-      "excerpt": "寵物生日不必買滿一整桌，先確認食用限制、清潔收尾、玩具安全與拍照動線，慶生才不會變成壓力。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "日常選物指南",
-      "publishedAt": "2026-05-28T23:16:24Z",
-      "publishedDateText": "2026年5月28日",
-      "relativeUrl": "lifestyle-culture/pet-birthday-gift-cake-snack-toy.html",
-      "heroImage": "/images/optimized/article-covers/pet-birthday-gift-cake-snack-toy.jpg",
-      "tags": [
-        "寵物蛋糕",
-        "零食",
-        "玩具",
-        "慶生小物",
         "選物指南",
         "生活採買"
       ]
@@ -865,6 +864,25 @@
       "label": "戶外生活",
       "items": [
         {
+          "id": "auto-20260529040533-global-top-travel-destinations-2026",
+          "title": "2026 全球五大最新熱門旅遊景點",
+          "excerpt": "從日蝕海岸、百年公路到火山島慢旅，整理五個 2026 值得被看見的目的地。",
+          "category": "outdoor-escapes",
+          "categoryLabel": "戶外生活",
+          "series": "全球旅行趨勢觀察",
+          "publishedAt": "2026-05-29T04:05:33Z",
+          "publishedDateText": "2026年5月29日",
+          "relativeUrl": "outdoor-escapes/global-top-travel-destinations-2026.html",
+          "heroImage": "/images/optimized/article-covers/global-top-travel-destinations-2026.jpg",
+          "tags": [
+            "2026 旅遊",
+            "熱門旅遊景點",
+            "國際旅行",
+            "文化旅行",
+            "戶外生活"
+          ]
+        },
+        {
           "id": "auto-20260528231624-elder-travel-vision-reading-sunglasses-luggage",
           "title": "長輩與戶外旅行的視線管理：老花眼鏡、偏光太陽眼鏡與旅行配件",
           "excerpt": "家庭旅行不只要帶箱包，也要讓閱讀、看路、找票與戶外光線都有清楚的位置。",
@@ -955,24 +973,6 @@
           "heroImage": "images/optimized/article-covers/mobile-outdoor-rain-bottle-fan-products.jpg",
           "tags": [
             "移動小物",
-            "商品推薦",
-            "選購清單",
-            "居家整理"
-          ]
-        },
-        {
-          "id": "auto-20260522074210-outdoor-patio-umbrella-garden-products",
-          "title": "陽台、庭院與戶外角落怎麼準備：14 件遮陽傘、花器與戶外收納清單",
-          "excerpt": "戶外商品要看尺寸、收納、天候與使用頻率，尤其是遮陽傘、花器與大件戶外物件。",
-          "category": "outdoor-escapes",
-          "categoryLabel": "戶外生活",
-          "series": "戶外生活商品推薦",
-          "publishedAt": "2026-05-22T07:42:10Z",
-          "publishedDateText": "2026年5月22日",
-          "relativeUrl": "outdoor-escapes/outdoor-patio-umbrella-garden-products.html",
-          "heroImage": "images/optimized/article-covers/outdoor-patio-umbrella-garden-products.jpg",
-          "tags": [
-            "戶外庭院",
             "商品推薦",
             "選購清單",
             "居家整理"

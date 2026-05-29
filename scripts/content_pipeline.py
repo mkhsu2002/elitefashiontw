@@ -3010,6 +3010,7 @@ def enqueue_topic(config: dict[str, Any], categories: dict[str, CategoryConfig],
             ROOT / "automation" / "prompts" / "series-planner.md",
             {
                 "strategy": (ROOT / config["paths"]["strategyFile"]).read_text(encoding="utf-8"),
+                "editorialStyleGuide": (ROOT / config["paths"]["editorialStyleGuideFile"]).read_text(encoding="utf-8"),
                 "reviewChecklist": (ROOT / config["paths"]["reviewChecklistFile"]).read_text(encoding="utf-8"),
                 "topic": topic,
                 "count": count,
@@ -3283,6 +3284,7 @@ def generate_article_from_item(config: dict[str, Any], categories: dict[str, Cat
             ROOT / "automation" / "prompts" / "article-writer.md",
             {
                 "strategy": (ROOT / config["paths"]["strategyFile"]).read_text(encoding="utf-8"),
+                "editorialStyleGuide": (ROOT / config["paths"]["editorialStyleGuideFile"]).read_text(encoding="utf-8"),
                 "reviewChecklist": (ROOT / config["paths"]["reviewChecklistFile"]).read_text(encoding="utf-8"),
                 "brief": brief,
                 "existingTitles": title_context,

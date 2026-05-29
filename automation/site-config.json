@@ -23,6 +23,7 @@
   },
   "paths": {
     "strategyFile": "automation/content-strategy.md",
+    "editorialStyleGuideFile": "automation/editorial-style-guide.md",
     "reviewChecklistFile": "automation/editorial-review-checklist.md",
     "topicBacklogFile": "automation/topic-backlog.json",
     "queueJson": "automation/topic-queue.json",

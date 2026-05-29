@@ -1,5 +1,13 @@
 # 發文紀錄
 
+## 2026-05-29T04:05:33Z｜2026 全球五大最新熱門旅遊景點：五個正在改變旅行節奏的地方
+
+- 文章 ID：auto-20260529040533-global-top-travel-destinations-2026
+- URL：https://tw.elitefasion.com/outdoor-escapes/global-top-travel-destinations-2026.html
+- 檔案：outdoor-escapes/global-top-travel-destinations-2026.html
+- 類型：manual-codex-researched-editorial
+- Queue：Q-0019
+
 ## 2026-05-29T00:31:22Z｜長輩用品不只看功能：閱讀、照護、眼鏡與居家動線的準備順序
 
 - 文章 ID：auto-20260529003122-elder-home-reading-care-vision-layout-supplies
