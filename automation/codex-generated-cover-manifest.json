@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-29T04:05:33Z",
+  "updatedAt": "2026-05-29T04:15:08Z",
   "generator": "codex-imagegen-built-in",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -317,7 +317,7 @@
       "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0ef2b638c70c8783016a190f37bdd88195ae1480580fa21cb4.png",
       "output": "images/optimized/article-covers/global-top-travel-destinations-2026.jpg",
       "sha256": "bc4e2f095479536224d82e19e9747a1f894bec196fe895e2b025254e5f73c49e",
-      "generatedAt": "2026-05-29T04:05:33Z",
+      "generatedAt": "2026-05-29T04:15:08Z",
       "usage": "cover-og-twitter",
       "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
     }

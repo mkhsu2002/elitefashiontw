@@ -3185,6 +3185,7 @@ def validate_generated_article(article: dict[str, Any], config: dict[str, Any]) 
     paragraph_count = sum(len(section.get("paragraphs") or []) for section in sections)
     faq_count = len(article.get("faq") or [])
     read_time = int(article.get("readTimeMinutes") or 0)
+    product_count = len(sidebar_products_for_article(article))
 
     quality_errors: list[str] = []
     if text_units < int(quality.get("minTextUnits", 0)):
@@ -3197,6 +3198,10 @@ def validate_generated_article(article: dict[str, Any], config: dict[str, Any]) 
         quality_errors.append(f"FAQ 數不足：{faq_count} < {quality['minFaqItems']}")
     if read_time < int(quality.get("minReadTimeMinutes", 0)):
         quality_errors.append(f"閱讀時間不足：{read_time} < {quality['minReadTimeMinutes']}")
+    if quality.get("requireProductPlacement") and not article.get("productPlacementSkippedReason"):
+        min_products = int(quality.get("minProductPlacementItems", 4))
+        if product_count < min_products:
+            quality_errors.append(f"商品置入不足：{product_count} < {min_products}；若確實不適合，需填 productPlacementSkippedReason")
     if quality_errors:
         raise PipelineError("文章品質門檻未通過：" + "；".join(quality_errors))
 

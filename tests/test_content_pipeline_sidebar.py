@@ -34,6 +34,43 @@ class ContentPipelineSidebarTest(unittest.TestCase):
         self.assertEqual(len(products), 5)
         self.assertEqual(len({item["merchantId"] for item in products}), 5)
 
+    def test_validate_blocks_missing_required_product_placement(self):
+        article = {
+            "markdownBody": "測試文章",
+            "sections": [],
+            "faq": [],
+            "readTimeMinutes": 0,
+            "mainProducts": [product(1), product(2), product(3)],
+        }
+        config = {
+            "articleContract": {"requiredFields": []},
+            "articleQuality": {
+                "requireProductPlacement": True,
+                "minProductPlacementItems": 4,
+            },
+        }
+
+        with self.assertRaisesRegex(pipeline.PipelineError, "商品置入不足"):
+            pipeline.validate_generated_article(article, config)
+
+    def test_validate_allows_skipped_product_placement_with_reason(self):
+        article = {
+            "markdownBody": "測試文章",
+            "sections": [],
+            "faq": [],
+            "readTimeMinutes": 0,
+            "productPlacementSkippedReason": "純站務公告，沒有自然商品延伸。",
+        }
+        config = {
+            "articleContract": {"requiredFields": []},
+            "articleQuality": {
+                "requireProductPlacement": True,
+                "minProductPlacementItems": 4,
+            },
+        }
+
+        pipeline.validate_generated_article(article, config)
+
 
 if __name__ == "__main__":
     unittest.main()

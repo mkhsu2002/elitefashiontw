@@ -226,4 +226,4 @@
 - 補充方向：依公開榜單、官方活動與旅遊動能撰寫，展示 Elite Fashion 新編輯風格。
 - 建立時間：2026-05-29T04:05:33Z
 
-1. 2026 全球五大最新熱門旅遊景點：五個正在改變旅行節奏的地方｜published｜正在規劃 2026 長程旅行、文化旅行與自然系旅程的讀者｜outdoor-escapes｜文章 ID：auto-20260529040533-global-top-travel-destinations-2026｜檔案：outdoor-escapes/global-top-travel-destinations-2026.html
+1. 2026 全球五大最新熱門旅遊景點：五個正在改變旅行節奏的地方｜published｜正在規劃 2026 長程旅行、文化旅行與自然系旅程的讀者｜outdoor-escapes｜文章 ID：auto-20260529041508-global-top-travel-destinations-2026｜檔案：outdoor-escapes/global-top-travel-destinations-2026.html

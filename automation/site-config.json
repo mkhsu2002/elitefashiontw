@@ -78,7 +78,9 @@
     "minSections": 5,
     "minParagraphs": 12,
     "minFaqItems": 3,
-    "minReadTimeMinutes": 8
+    "minReadTimeMinutes": 8,
+    "requireProductPlacement": true,
+    "minProductPlacementItems": 4
   },
   "articleContract": {
     "requiredFields": [

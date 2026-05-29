@@ -2,7 +2,9 @@
 from __future__ import annotations
 
 import hashlib
+import csv
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 from PIL import Image, ImageOps
@@ -16,8 +18,17 @@ GENERATED_IMAGE = Path(
     "ig_0ef2b638c70c8783016a190f37bdd88195ae1480580fa21cb4.png"
 )
 COVER_MANIFEST = ROOT / "automation" / "codex-generated-cover-manifest.json"
+TRACKER_CSV = ROOT / "automation" / "momo-brand-recommendation-tracker.csv"
 QUEUE_ID = "Q-0019"
 TRIGGER_TYPE = "manual-codex-researched-editorial"
+PRODUCT_MERCHANTS = {
+    "TP0002546": "適合先看行李箱、登機箱與長程旅行收納的容量分配。",
+    "TP0000151": "可補充旅行收納、票券包與出國小物，適合跨城市行程。",
+    "TP0005684": "適合雨天、日照與城市步行時的晴雨傘準備。",
+    "TP0009515": "可從偏光太陽眼鏡與閱讀眼鏡方向，檢查戶外視線與旅途閱讀需求。",
+    "TP0000116": "適合日照強、戶外步行多的旅程，先看防曬服飾與穿著層次。",
+    "TP0009476": "可補足長程移動中的充電、線材與行動裝置配件整理。",
+}
 
 
 def prepare_cover(slug: str) -> str:
@@ -43,8 +54,37 @@ def prepare_cover(slug: str) -> str:
     return f"/images/optimized/article-covers/{slug}.jpg"
 
 
-def build_article() -> dict:
+def load_tracker() -> tuple[list[dict[str, str]], dict[str, dict[str, str]], list[str]]:
+    with TRACKER_CSV.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        rows = list(reader)
+        fieldnames = reader.fieldnames or []
+    return rows, {row["merchant_id"]: row for row in rows}, fieldnames
+
+
+def merchant_card(row: dict[str, str], slug: str, reason: str) -> dict[str, str]:
+    brand = row["brand"].strip()
+    promo = row.get("promo_link", "").strip()
+    store = row.get("store_link", "").strip() or f"https://www.momoshop.com.tw/TP/{row['merchant_id']}/main"
+    return {
+        "name": f"{brand} 選物頁",
+        "merchantId": row["merchant_id"],
+        "brandName": brand,
+        "affiliateUrl": promo or store,
+        "sourceProductUrl": store,
+        "imageCredit": f"圖片來源：momo 店家頁｜{brand}",
+        "selectionReason": f"{reason} 下單前請回到商品頁確認尺寸、材質、規格、配送與即時販售資訊。",
+        "riskNote": "價格、活動、庫存與規格請以下單前商品頁公告為準。",
+        "subId": f"{slug}_{row['merchant_id']}",
+    }
+
+
+def build_article(rows_by_merchant: dict[str, dict[str, str]]) -> dict:
     slug = "global-top-travel-destinations-2026"
+    cards = [
+        merchant_card(rows_by_merchant[merchant_id], slug, reason)
+        for merchant_id, reason in PRODUCT_MERCHANTS.items()
+    ]
     return {
         "slug": slug,
         "category": "outdoor-escapes",
@@ -182,6 +222,18 @@ def build_article() -> dict:
             "text": "若你正在規劃 2026 旅行，先把目的地分成自然、文化、事件與移動方式四類，再回到官方資訊確認日期、交通與住宿條件。",
         },
         "disclaimer": "本文依 2026-05-29 前後可查公開資訊整理，目的地活動、交通、簽證、住宿與開放條件可能變動；實際訂票與出發前，請以官方旅遊、活動與交通單位公告為準。",
+        "mainProducts": cards[:4],
+        "sidebarProducts": cards,
+        "featuredBrands": [
+            {
+                "name": rows_by_merchant[merchant_id]["brand"],
+                "merchantId": merchant_id,
+                "role": "旅行準備參考",
+                "reason": reason,
+                "url": rows_by_merchant[merchant_id].get("promo_link") or rows_by_merchant[merchant_id].get("store_link"),
+            }
+            for merchant_id, reason in PRODUCT_MERCHANTS.items()
+        ],
         "sourceType": "manual-codex-researched-editorial",
         "status": "published",
         "queueId": QUEUE_ID,
@@ -193,6 +245,44 @@ def build_article() -> dict:
             "Milano Cortina 2026 official Olympic information",
         ],
     }
+
+
+def update_tracker(article: dict, tracker_rows: list[dict[str, str]], fieldnames: list[str]) -> None:
+    by_merchant = {row["merchant_id"]: row for row in tracker_rows}
+    mentions: dict[str, list[dict]] = defaultdict(list)
+    merchant_ids = {product["merchantId"] for product in [*article.get("mainProducts", []), *article.get("sidebarProducts", [])]}
+    merchant_ids.update(brand["merchantId"] for brand in article.get("featuredBrands", []))
+    for merchant_id in merchant_ids:
+        mentions[merchant_id].append(article)
+
+    for merchant_id, hits in mentions.items():
+        row = by_merchant[merchant_id]
+        row["coverage_status"] = "live"
+        row["article_created"] = "true"
+        row["link_status"] = "usable"
+        row["risk_notes"] = row.get("risk_notes") or "不使用誇大推薦語氣，商品規格以 momo 商品頁為準"
+        existing_slugs = [part for part in row.get("article_slug", "").split(";") if part]
+        existing_urls = [part for part in row.get("live_url", "").split(";") if part]
+        increment = 0
+        for hit in hits:
+            if hit["slug"] not in existing_slugs:
+                existing_slugs.append(hit["slug"])
+                increment += 1
+            if hit["url"] not in existing_urls:
+                existing_urls.append(hit["url"])
+        row["article_slug"] = ";".join(existing_slugs)
+        row["live_url"] = ";".join(existing_urls)
+        if increment:
+            row["mention_count"] = str(int(row.get("mention_count") or 0) + increment)
+        row["last_mentioned_at"] = "2026-05-28"
+        note = "2026-05-28 2026 全球旅遊目的地示範文已置入旅行準備選物。"
+        if note not in row.get("notes", ""):
+            row["notes"] = (row.get("notes", "").rstrip() + (" " if row.get("notes", "").strip() else "") + note).strip()
+
+    with TRACKER_CSV.open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(tracker_rows)
 
 
 def update_queue(article: dict, config: dict) -> None:
@@ -256,7 +346,11 @@ def reset_existing_records(config: dict, slug: str) -> None:
 
 def main() -> int:
     config, categories = pipeline.load_config()
-    article = build_article()
+    tracker_rows, rows_by_merchant, fieldnames = load_tracker()
+    missing = sorted(set(PRODUCT_MERCHANTS) - set(rows_by_merchant))
+    if missing:
+        raise SystemExit(f"Tracker missing merchants: {', '.join(missing)}")
+    article = build_article(rows_by_merchant)
     reset_existing_records(config, article["slug"])
     saved = pipeline.save_generated_article(article, QUEUE_ID, config, categories)
     pipeline.validate_generated_article(saved, config)
@@ -265,6 +359,7 @@ def main() -> int:
     pipeline.write_text(ROOT / config["paths"]["generatedArticlesDir"] / f"{saved['slug']}.md", saved["markdownBody"])
     pipeline.append_publish_log(config, saved, trigger_type=TRIGGER_TYPE, queue_id=QUEUE_ID)
     update_queue(saved, config)
+    update_tracker(saved, tracker_rows, fieldnames)
     pipeline.write_json(
         ROOT / config["paths"]["latestRunJson"],
         {

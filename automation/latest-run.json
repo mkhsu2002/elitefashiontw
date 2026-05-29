@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-29T04:05:33Z",
+  "updatedAt": "2026-05-29T04:15:08Z",
   "status": "generated",
   "triggerType": "manual-codex-researched-editorial",
   "queueId": "Q-0019",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260529040533-global-top-travel-destinations-2026"
+    "auto-20260529041508-global-top-travel-destinations-2026"
   ],
   "articleSlugs": [
     "global-top-travel-destinations-2026"
