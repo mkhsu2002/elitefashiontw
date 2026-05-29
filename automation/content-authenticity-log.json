@@ -1,7 +1,441 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T23:17:09Z",
+  "updatedAt": "2026-05-28T23:58:15Z",
   "entries": [
+    {
+      "articleId": "auto-20260528235744-beauty-scent-gift-shelf-before-buying",
+      "slug": "beauty-scent-gift-shelf-before-buying",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:58:15Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0001879/main",
+        "https://www.momoshop.com.tw/TP/TP0007128/main",
+        "https://www.momoshop.com.tw/TP/TP0003071/main",
+        "https://www.momoshop.com.tw/TP/TP0004588/main",
+        "https://www.momoshop.com.tw/TP/TP0005089/main",
+        "https://www.momoshop.com.tw/TP/TP0007447/main",
+        "https://s.momoshop.com.tw/s/2DX2Fm8j",
+        "https://s.momoshop.com.tw/s/KWZqUAVR",
+        "https://s.momoshop.com.tw/s/L1CllgZ8",
+        "https://s.momoshop.com.tw/s/IUs7vMn9",
+        "https://s.momoshop.com.tw/s/FwKiHj24",
+        "https://s.momoshop.com.tw/s/bDmR4LR7",
+        "https://tw.elitefasion.com/lifestyle-culture/beauty-scent-gift-shelf-before-buying.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/beauty-scent-gift-shelf-before-buying.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528235744-family-entry-bathroom-home-supplies",
+      "slug": "family-entry-bathroom-home-supplies",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:58:15Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0009118/main",
+        "https://www.momoshop.com.tw/TP/TP0007362/main",
+        "https://www.momoshop.com.tw/TP/TP0000500/main",
+        "https://www.momoshop.com.tw/TP/TP0004956/main",
+        "https://www.momoshop.com.tw/TP/TP0001633/main",
+        "https://s.momoshop.com.tw/s/NJiNvXKo",
+        "https://s.momoshop.com.tw/s/fHR1Minn",
+        "https://s.momoshop.com.tw/s/R6oN3ZHI",
+        "https://s.momoshop.com.tw/s/WEcBeKWv",
+        "https://s.momoshop.com.tw/s/Ydp75Zlm",
+        "https://tw.elitefasion.com/lifestyle-culture/family-entry-bathroom-home-supplies.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/family-entry-bathroom-home-supplies.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528235744-pet-label-cleaning-restock-without-claims",
+      "slug": "pet-label-cleaning-restock-without-claims",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:58:15Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0000199/main",
+        "https://www.momoshop.com.tw/TP/TP0001094/main",
+        "https://www.momoshop.com.tw/TP/TP0009490/main",
+        "https://www.momoshop.com.tw/TP/TP0008082/main",
+        "https://www.momoshop.com.tw/TP/TP0000551/main",
+        "https://www.momoshop.com.tw/TP/TP0004035/main",
+        "https://s.momoshop.com.tw/s/X6c4ZbRG",
+        "https://s.momoshop.com.tw/s/0Shr6nfL",
+        "https://s.momoshop.com.tw/s/CGs3RjmI",
+        "https://s.momoshop.com.tw/s/jo08nrnp",
+        "https://s.momoshop.com.tw/s/KFdAhwTk",
+        "https://s.momoshop.com.tw/s/xPZAjTYg",
+        "https://tw.elitefasion.com/lifestyle-culture/pet-label-cleaning-restock-without-claims.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/pet-label-cleaning-restock-without-claims.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528235744-coffee-cup-desk-afternoon-reset",
+      "slug": "coffee-cup-desk-afternoon-reset",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:58:15Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0000296/main",
+        "https://www.momoshop.com.tw/TP/TP0002361/main",
+        "https://www.momoshop.com.tw/TP/TP0003278/main",
+        "https://www.momoshop.com.tw/TP/TP0007409/main",
+        "https://www.momoshop.com.tw/TP/TP0002208/main",
+        "https://www.momoshop.com.tw/TP/TP0009178/main",
+        "https://s.momoshop.com.tw/s/GDJKwZwI",
+        "https://s.momoshop.com.tw/s/cF4xxyGJ",
+        "https://s.momoshop.com.tw/s/gvc06pk4",
+        "https://s.momoshop.com.tw/s/9IfB6T5I",
+        "https://s.momoshop.com.tw/s/XmxJdbbC",
+        "https://s.momoshop.com.tw/s/GCeNJLav",
+        "https://tw.elitefasion.com/lifestyle-culture/coffee-cup-desk-afternoon-reset.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/coffee-cup-desk-afternoon-reset.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528235744-office-home-snack-cabinet-nuts-tea-dessert",
+      "slug": "office-home-snack-cabinet-nuts-tea-dessert",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:58:14Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0004237/main",
+        "https://www.momoshop.com.tw/TP/TP0002208/main",
+        "https://www.momoshop.com.tw/TP/TP0009178/main",
+        "https://www.momoshop.com.tw/TP/TP0000296/main",
+        "https://www.momoshop.com.tw/TP/TP0008924/main",
+        "https://www.momoshop.com.tw/TP/TP0008451/main",
+        "https://s.momoshop.com.tw/s/FLLhd2Mt",
+        "https://s.momoshop.com.tw/s/XmxJdbbC",
+        "https://s.momoshop.com.tw/s/GCeNJLav",
+        "https://s.momoshop.com.tw/s/GDJKwZwI",
+        "https://s.momoshop.com.tw/s/gOGiUf0K",
+        "https://s.momoshop.com.tw/s/um6COh50",
+        "https://tw.elitefasion.com/lifestyle-culture/office-home-snack-cabinet-nuts-tea-dessert.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/office-home-snack-cabinet-nuts-tea-dessert.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
+    {
+      "articleId": "auto-20260528235744-entry-living-bathroom-scent-routine",
+      "slug": "entry-living-bathroom-scent-routine",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-28T23:58:14Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0007128/main",
+        "https://www.momoshop.com.tw/TP/TP0009664/main",
+        "https://www.momoshop.com.tw/TP/TP0002941/main",
+        "https://www.momoshop.com.tw/TP/TP0005358/main",
+        "https://www.momoshop.com.tw/TP/TP0003706/main",
+        "https://s.momoshop.com.tw/s/KWZqUAVR",
+        "https://s.momoshop.com.tw/s/iANUM2le",
+        "https://s.momoshop.com.tw/s/WhqRlgA9",
+        "https://s.momoshop.com.tw/s/nwLr0GLD",
+        "https://s.momoshop.com.tw/s/WdhiCrGU",
+        "https://tw.elitefasion.com/lifestyle-culture/entry-living-bathroom-scent-routine.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/entry-living-bathroom-scent-routine.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
     {
       "articleId": "auto-20260528231624-office-sitting-low-barrier-stretch-snack-pillow",
       "slug": "office-sitting-low-barrier-stretch-snack-pillow",

@@ -1,6 +1,126 @@
 {
-  "updatedAt": "2026-05-28T23:16:25Z",
+  "updatedAt": "2026-05-28T23:57:45Z",
   "latest": [
+    {
+      "id": "auto-20260528235744-beauty-scent-gift-shelf-before-buying",
+      "title": "保養、香氛與小飾品送禮前先確認：膚況、氣味、保存與退換",
+      "excerpt": "保養、香氛和小飾品很適合送禮，但越貼近身體的物品，越需要先確認膚況、氣味偏好與退換規則。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "日常選物指南",
+      "publishedAt": "2026-05-28T23:57:44Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "lifestyle-culture/beauty-scent-gift-shelf-before-buying.html",
+      "heroImage": "/images/optimized/article-covers/beauty-scent-gift-shelf-before-buying.jpg",
+      "tags": [
+        "保養",
+        "香氛",
+        "小飾品",
+        "送禮",
+        "選物指南",
+        "生活採買"
+      ]
+    },
+    {
+      "id": "auto-20260528235744-coffee-cup-desk-afternoon-reset",
+      "title": "咖啡杯與下午茶角落：杯具、咖啡豆、濾掛與小點心的補貨順序",
+      "excerpt": "下午茶角落先從杯具、沖泡動線和小點心保存開始，才不會越買越像臨時堆放。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "日常選物指南",
+      "publishedAt": "2026-05-28T23:57:44Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "lifestyle-culture/coffee-cup-desk-afternoon-reset.html",
+      "heroImage": "/images/optimized/article-covers/coffee-cup-desk-afternoon-reset.jpg",
+      "tags": [
+        "杯具",
+        "咖啡",
+        "濾掛",
+        "小點心",
+        "選物指南",
+        "生活採買"
+      ]
+    },
+    {
+      "id": "auto-20260528235744-entry-living-bathroom-scent-routine",
+      "title": "不靠大量香味堆疊：玄關、客廳、浴室的氣味管理清單",
+      "excerpt": "氣味管理不是把香味加到最滿，而是先處理玄關、客廳與浴室的來源、通風與收尾。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "日常選物指南",
+      "publishedAt": "2026-05-28T23:57:44Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "lifestyle-culture/entry-living-bathroom-scent-routine.html",
+      "heroImage": "/images/optimized/article-covers/entry-living-bathroom-scent-routine.jpg",
+      "tags": [
+        "香氛",
+        "香品",
+        "清潔用品",
+        "除味用品",
+        "選物指南",
+        "生活採買"
+      ]
+    },
+    {
+      "id": "auto-20260528235744-family-entry-bathroom-home-supplies",
+      "title": "家庭玄關與浴室備品：母嬰用品、牙刷、濕紙巾與居家小物怎麼放",
+      "excerpt": "家庭備品要先分玄關、浴室與外出包，不要把母嬰用品、牙刷和濕紙巾全部塞在同一格。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "日常選物指南",
+      "publishedAt": "2026-05-28T23:57:44Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "lifestyle-culture/family-entry-bathroom-home-supplies.html",
+      "heroImage": "/images/optimized/article-covers/family-entry-bathroom-home-supplies.jpg",
+      "tags": [
+        "母嬰用品",
+        "牙刷",
+        "濕紙巾",
+        "居家小物",
+        "選物指南",
+        "生活採買"
+      ]
+    },
+    {
+      "id": "auto-20260528235744-office-home-snack-cabinet-nuts-tea-dessert",
+      "title": "辦公室與家庭都能放的點心櫃：甜點、豆乾、咖啡與茶飲怎麼搭",
+      "excerpt": "點心櫃要好用，關鍵不是囤滿零食，而是把保存、分享、補貨與飲品搭配先分清楚。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "日常選物指南",
+      "publishedAt": "2026-05-28T23:57:44Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "lifestyle-culture/office-home-snack-cabinet-nuts-tea-dessert.html",
+      "heroImage": "/images/optimized/article-covers/office-home-snack-cabinet-nuts-tea-dessert.jpg",
+      "tags": [
+        "甜點",
+        "豆乾",
+        "咖啡",
+        "茶飲",
+        "選物指南",
+        "生活採買"
+      ]
+    },
+    {
+      "id": "auto-20260528235744-pet-label-cleaning-restock-without-claims",
+      "title": "寵物用品補貨先看標示：食品、清潔、玩具與日常記錄怎麼分區",
+      "excerpt": "寵物用品不要只靠喜好補貨，先把食品、清潔、玩具與開封日期分區，才看得出真正需要什麼。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "日常選物指南",
+      "publishedAt": "2026-05-28T23:57:44Z",
+      "publishedDateText": "2026年5月28日",
+      "relativeUrl": "lifestyle-culture/pet-label-cleaning-restock-without-claims.html",
+      "heroImage": "/images/optimized/article-covers/pet-label-cleaning-restock-without-claims.jpg",
+      "tags": [
+        "寵物食品",
+        "清潔用品",
+        "玩具",
+        "日常記錄",
+        "選物指南",
+        "生活採買"
+      ]
+    },
     {
       "id": "auto-20260528231624-aquarium-reptile-small-pet-restock-list",
       "title": "不只貓狗：水族、爬蟲與小寵家庭的補貨清單",
@@ -119,118 +239,6 @@
         "戶外小物",
         "選物指南",
         "生活採買"
-      ]
-    },
-    {
-      "id": "auto-20260528231624-school-study-corner-stationery-books-kids-toothbrush",
-      "title": "開學與學習角落整理：文具、考試書、兒童電動牙刷與生活用品",
-      "excerpt": "開學前先把書桌、書本、文具與早晚盥洗動線排好，家庭學習角落會比一次買齊更穩。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "日常選物指南",
-      "publishedAt": "2026-05-28T23:16:24Z",
-      "publishedDateText": "2026年5月28日",
-      "relativeUrl": "lifestyle-culture/school-study-corner-stationery-books-kids-toothbrush.html",
-      "heroImage": "/images/optimized/article-covers/school-study-corner-stationery-books-kids-toothbrush.jpg",
-      "tags": [
-        "文具",
-        "考試書",
-        "兒童電動牙刷",
-        "家庭用品",
-        "選物指南",
-        "生活採買"
-      ]
-    },
-    {
-      "id": "auto-20260528231624-swimming-outdoor-class-kids-prep",
-      "title": "游泳課與戶外課前準備：泳鏡、童裝、早餐與親子外出小物",
-      "excerpt": "游泳課與戶外課要先把濕物、換洗衣物、早餐與回家後清潔動線排好，出門前才不會手忙腳亂。",
-      "category": "outdoor-escapes",
-      "categoryLabel": "戶外生活",
-      "series": "日常選物指南",
-      "publishedAt": "2026-05-28T23:16:24Z",
-      "publishedDateText": "2026年5月28日",
-      "relativeUrl": "outdoor-escapes/swimming-outdoor-class-kids-prep.html",
-      "heroImage": "/images/optimized/article-covers/swimming-outdoor-class-kids-prep.jpg",
-      "tags": [
-        "泳鏡",
-        "童裝",
-        "早餐",
-        "外出小物",
-        "選物指南",
-        "生活採買"
-      ]
-    },
-    {
-      "id": "auto-20260528213744-conservative-supplement-vegetarian-job-tears-guide",
-      "title": "保健食品不要亂堆：素食營養、薏仁錠與日常補給的保守選購法",
-      "excerpt": "保健食品與日常補給應先從飲食缺口、標示、用藥與專業建議判斷，不應堆成一整排期待效果。",
-      "category": "wellness-movement",
-      "categoryLabel": "健康恢復",
-      "series": "新受眾生活採買指南",
-      "publishedAt": "2026-05-28T21:37:44Z",
-      "publishedDateText": "2026年5月28日",
-      "relativeUrl": "wellness-movement/conservative-supplement-vegetarian-job-tears-guide.html",
-      "heroImage": "images/optimized/article-covers/conservative-supplement-vegetarian-job-tears-guide.jpg",
-      "tags": [
-        "健康恢復",
-        "生活採買",
-        "保健食品",
-        "日常補給"
-      ]
-    },
-    {
-      "id": "auto-20260528213744-desk-life-reset-stationery-chair-home-office",
-      "title": "一張桌子重整生活：居家辦公、手帳文具與椅子怎麼一起選",
-      "excerpt": "把桌面當成生活節奏的控制台，從文具、椅子、燈光和收納建立更穩的居家工作角落。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "新受眾生活採買指南",
-      "publishedAt": "2026-05-28T21:37:44Z",
-      "publishedDateText": "2026年5月28日",
-      "relativeUrl": "lifestyle-culture/desk-life-reset-stationery-chair-home-office.html",
-      "heroImage": "images/optimized/article-covers/desk-life-reset-stationery-chair-home-office.jpg",
-      "tags": [
-        "生活品味",
-        "生活採買",
-        "居家辦公",
-        "桌面收納"
-      ]
-    },
-    {
-      "id": "auto-20260528213744-honey-herbal-drink-daily-pantry-guide",
-      "title": "蜂蜜、草本飲與沖泡補給：日常飲品怎麼選得舒服不誇張",
-      "excerpt": "日常飲品可以先從口味、沖泡方式、保存和飲用時段整理，不必把每一杯都寫成保健答案。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "新受眾生活採買指南",
-      "publishedAt": "2026-05-28T21:37:44Z",
-      "publishedDateText": "2026年5月28日",
-      "relativeUrl": "lifestyle-culture/honey-herbal-drink-daily-pantry-guide.html",
-      "heroImage": "images/optimized/article-covers/honey-herbal-drink-daily-pantry-guide.jpg",
-      "tags": [
-        "生活品味",
-        "生活採買",
-        "蜂蜜",
-        "日常飲品"
-      ]
-    },
-    {
-      "id": "auto-20260528213744-korean-phone-case-magsafe-daily-style",
-      "title": "韓系手機殼到 MagSafe：把手機配件整理成日常風格的一部分",
-      "excerpt": "手機殼不只保護手機，也會影響通勤、拍照、桌面充電和每天拿在手上的風格一致性。",
-      "category": "ai-innovation",
-      "categoryLabel": "人工智能",
-      "series": "新受眾生活採買指南",
-      "publishedAt": "2026-05-28T21:37:44Z",
-      "publishedDateText": "2026年5月28日",
-      "relativeUrl": "ai-innovation/korean-phone-case-magsafe-daily-style.html",
-      "heroImage": "images/optimized/article-covers/korean-phone-case-magsafe-daily-style.jpg",
-      "tags": [
-        "人工智能",
-        "生活採買",
-        "手機殼",
-        "桌面小物"
       ]
     }
   ],
@@ -974,119 +982,123 @@
       "label": "生活品味",
       "items": [
         {
-          "id": "auto-20260528231624-aquarium-reptile-small-pet-restock-list",
-          "title": "不只貓狗：水族、爬蟲與小寵家庭的補貨清單",
-          "excerpt": "小眾寵物家庭更需要固定補貨節奏，把餌料、底材、清潔工具與保存方式分清楚。",
+          "id": "auto-20260528235744-beauty-scent-gift-shelf-before-buying",
+          "title": "保養、香氛與小飾品送禮前先確認：膚況、氣味、保存與退換",
+          "excerpt": "保養、香氛和小飾品很適合送禮，但越貼近身體的物品，越需要先確認膚況、氣味偏好與退換規則。",
           "category": "lifestyle-culture",
           "categoryLabel": "生活品味",
           "series": "日常選物指南",
-          "publishedAt": "2026-05-28T23:16:24Z",
+          "publishedAt": "2026-05-28T23:57:44Z",
           "publishedDateText": "2026年5月28日",
-          "relativeUrl": "lifestyle-culture/aquarium-reptile-small-pet-restock-list.html",
-          "heroImage": "/images/optimized/article-covers/aquarium-reptile-small-pet-restock-list.jpg",
+          "relativeUrl": "lifestyle-culture/beauty-scent-gift-shelf-before-buying.html",
+          "heroImage": "/images/optimized/article-covers/beauty-scent-gift-shelf-before-buying.jpg",
           "tags": [
-            "水族用品",
-            "爬蟲用品",
-            "小寵飼料",
-            "清潔工具",
+            "保養",
+            "香氛",
+            "小飾品",
+            "送禮",
             "選物指南",
             "生活採買"
           ]
         },
         {
-          "id": "auto-20260528231624-bathroom-vanity-hair-scalp-makeup-storage",
-          "title": "頭髮、頭皮與妝容收納：把浴室與梳妝台整理成低壓工作站",
-          "excerpt": "把髮品、保養與彩妝依早晨、洗後、補妝三條動線分開，梳妝台才不會每天重來一次。",
+          "id": "auto-20260528235744-coffee-cup-desk-afternoon-reset",
+          "title": "咖啡杯與下午茶角落：杯具、咖啡豆、濾掛與小點心的補貨順序",
+          "excerpt": "下午茶角落先從杯具、沖泡動線和小點心保存開始，才不會越買越像臨時堆放。",
           "category": "lifestyle-culture",
           "categoryLabel": "生活品味",
           "series": "日常選物指南",
-          "publishedAt": "2026-05-28T23:16:24Z",
+          "publishedAt": "2026-05-28T23:57:44Z",
           "publishedDateText": "2026年5月28日",
-          "relativeUrl": "lifestyle-culture/bathroom-vanity-hair-scalp-makeup-storage.html",
-          "heroImage": "/images/optimized/article-covers/bathroom-vanity-hair-scalp-makeup-storage.jpg",
+          "relativeUrl": "lifestyle-culture/coffee-cup-desk-afternoon-reset.html",
+          "heroImage": "/images/optimized/article-covers/coffee-cup-desk-afternoon-reset.jpg",
           "tags": [
-            "髮品",
-            "頭皮照護",
-            "妝容收納",
-            "梳妝台",
+            "杯具",
+            "咖啡",
+            "濾掛",
+            "小點心",
             "選物指南",
             "生活採買"
           ]
         },
         {
-          "id": "auto-20260528231624-pet-birthday-gift-cake-snack-toy",
-          "title": "毛孩生日與送禮怎麼準備：寵物蛋糕、零食、玩具與慶生小物",
-          "excerpt": "寵物生日不必買滿一整桌，先確認食用限制、清潔收尾、玩具安全與拍照動線，慶生才不會變成壓力。",
+          "id": "auto-20260528235744-entry-living-bathroom-scent-routine",
+          "title": "不靠大量香味堆疊：玄關、客廳、浴室的氣味管理清單",
+          "excerpt": "氣味管理不是把香味加到最滿，而是先處理玄關、客廳與浴室的來源、通風與收尾。",
           "category": "lifestyle-culture",
           "categoryLabel": "生活品味",
           "series": "日常選物指南",
-          "publishedAt": "2026-05-28T23:16:24Z",
+          "publishedAt": "2026-05-28T23:57:44Z",
           "publishedDateText": "2026年5月28日",
-          "relativeUrl": "lifestyle-culture/pet-birthday-gift-cake-snack-toy.html",
-          "heroImage": "/images/optimized/article-covers/pet-birthday-gift-cake-snack-toy.jpg",
+          "relativeUrl": "lifestyle-culture/entry-living-bathroom-scent-routine.html",
+          "heroImage": "/images/optimized/article-covers/entry-living-bathroom-scent-routine.jpg",
           "tags": [
-            "寵物蛋糕",
-            "零食",
+            "香氛",
+            "香品",
+            "清潔用品",
+            "除味用品",
+            "選物指南",
+            "生活採買"
+          ]
+        },
+        {
+          "id": "auto-20260528235744-family-entry-bathroom-home-supplies",
+          "title": "家庭玄關與浴室備品：母嬰用品、牙刷、濕紙巾與居家小物怎麼放",
+          "excerpt": "家庭備品要先分玄關、浴室與外出包，不要把母嬰用品、牙刷和濕紙巾全部塞在同一格。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "日常選物指南",
+          "publishedAt": "2026-05-28T23:57:44Z",
+          "publishedDateText": "2026年5月28日",
+          "relativeUrl": "lifestyle-culture/family-entry-bathroom-home-supplies.html",
+          "heroImage": "/images/optimized/article-covers/family-entry-bathroom-home-supplies.jpg",
+          "tags": [
+            "母嬰用品",
+            "牙刷",
+            "濕紙巾",
+            "居家小物",
+            "選物指南",
+            "生活採買"
+          ]
+        },
+        {
+          "id": "auto-20260528235744-office-home-snack-cabinet-nuts-tea-dessert",
+          "title": "辦公室與家庭都能放的點心櫃：甜點、豆乾、咖啡與茶飲怎麼搭",
+          "excerpt": "點心櫃要好用，關鍵不是囤滿零食，而是把保存、分享、補貨與飲品搭配先分清楚。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "日常選物指南",
+          "publishedAt": "2026-05-28T23:57:44Z",
+          "publishedDateText": "2026年5月28日",
+          "relativeUrl": "lifestyle-culture/office-home-snack-cabinet-nuts-tea-dessert.html",
+          "heroImage": "/images/optimized/article-covers/office-home-snack-cabinet-nuts-tea-dessert.jpg",
+          "tags": [
+            "甜點",
+            "豆乾",
+            "咖啡",
+            "茶飲",
+            "選物指南",
+            "生活採買"
+          ]
+        },
+        {
+          "id": "auto-20260528235744-pet-label-cleaning-restock-without-claims",
+          "title": "寵物用品補貨先看標示：食品、清潔、玩具與日常記錄怎麼分區",
+          "excerpt": "寵物用品不要只靠喜好補貨，先把食品、清潔、玩具與開封日期分區，才看得出真正需要什麼。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "日常選物指南",
+          "publishedAt": "2026-05-28T23:57:44Z",
+          "publishedDateText": "2026年5月28日",
+          "relativeUrl": "lifestyle-culture/pet-label-cleaning-restock-without-claims.html",
+          "heroImage": "/images/optimized/article-covers/pet-label-cleaning-restock-without-claims.jpg",
+          "tags": [
+            "寵物食品",
+            "清潔用品",
             "玩具",
-            "慶生小物",
+            "日常記錄",
             "選物指南",
             "生活採買"
-          ]
-        },
-        {
-          "id": "auto-20260528231624-school-study-corner-stationery-books-kids-toothbrush",
-          "title": "開學與學習角落整理：文具、考試書、兒童電動牙刷與生活用品",
-          "excerpt": "開學前先把書桌、書本、文具與早晚盥洗動線排好，家庭學習角落會比一次買齊更穩。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "日常選物指南",
-          "publishedAt": "2026-05-28T23:16:24Z",
-          "publishedDateText": "2026年5月28日",
-          "relativeUrl": "lifestyle-culture/school-study-corner-stationery-books-kids-toothbrush.html",
-          "heroImage": "/images/optimized/article-covers/school-study-corner-stationery-books-kids-toothbrush.jpg",
-          "tags": [
-            "文具",
-            "考試書",
-            "兒童電動牙刷",
-            "家庭用品",
-            "選物指南",
-            "生活採買"
-          ]
-        },
-        {
-          "id": "auto-20260528213744-desk-life-reset-stationery-chair-home-office",
-          "title": "一張桌子重整生活：居家辦公、手帳文具與椅子怎麼一起選",
-          "excerpt": "把桌面當成生活節奏的控制台，從文具、椅子、燈光和收納建立更穩的居家工作角落。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "新受眾生活採買指南",
-          "publishedAt": "2026-05-28T21:37:44Z",
-          "publishedDateText": "2026年5月28日",
-          "relativeUrl": "lifestyle-culture/desk-life-reset-stationery-chair-home-office.html",
-          "heroImage": "images/optimized/article-covers/desk-life-reset-stationery-chair-home-office.jpg",
-          "tags": [
-            "生活品味",
-            "生活採買",
-            "居家辦公",
-            "桌面收納"
-          ]
-        },
-        {
-          "id": "auto-20260528213744-honey-herbal-drink-daily-pantry-guide",
-          "title": "蜂蜜、草本飲與沖泡補給：日常飲品怎麼選得舒服不誇張",
-          "excerpt": "日常飲品可以先從口味、沖泡方式、保存和飲用時段整理，不必把每一杯都寫成保健答案。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "新受眾生活採買指南",
-          "publishedAt": "2026-05-28T21:37:44Z",
-          "publishedDateText": "2026年5月28日",
-          "relativeUrl": "lifestyle-culture/honey-herbal-drink-daily-pantry-guide.html",
-          "heroImage": "images/optimized/article-covers/honey-herbal-drink-daily-pantry-guide.jpg",
-          "tags": [
-            "生活品味",
-            "生活採買",
-            "蜂蜜",
-            "日常飲品"
           ]
         }
       ]

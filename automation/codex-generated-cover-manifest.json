@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T23:16:24Z",
+  "updatedAt": "2026-05-28T23:57:44Z",
   "generator": "codex-imagegen-built-in",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -246,6 +246,60 @@
       "output": "images/optimized/article-covers/office-sitting-low-barrier-stretch-snack-pillow.jpg",
       "sha256": "698d878d796685a6dad9c7583c3e7ccaf9f84f13586117732351558116b6fa70",
       "generatedAt": "2026-05-28T23:16:24Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "entry-living-bathroom-scent-routine": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18d2e98e1c81939b001ed19e3930ce.png",
+      "output": "images/optimized/article-covers/entry-living-bathroom-scent-routine.jpg",
+      "sha256": "18f348c53edd801f3eb0873c266b2b7ec88b6680bdf515f2625d2008e225efbd",
+      "generatedAt": "2026-05-28T23:57:44Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "office-home-snack-cabinet-nuts-tea-dessert": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18d33209608193b51ca280bf2c3d22.png",
+      "output": "images/optimized/article-covers/office-home-snack-cabinet-nuts-tea-dessert.jpg",
+      "sha256": "e0ac55f1d7b161431cf4091dc88cfa8584220841a69f9112ef04f4d2d637927b",
+      "generatedAt": "2026-05-28T23:57:44Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "coffee-cup-desk-afternoon-reset": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18d3743c148193a7b0392ddec4ad14.png",
+      "output": "images/optimized/article-covers/coffee-cup-desk-afternoon-reset.jpg",
+      "sha256": "776ba685059e696fa84c182153a4aee867a1d41ecc50b167a4cf6ee5d44bad47",
+      "generatedAt": "2026-05-28T23:57:44Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "pet-label-cleaning-restock-without-claims": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18d3b0556081938d4c29b7a9bd9e16.png",
+      "output": "images/optimized/article-covers/pet-label-cleaning-restock-without-claims.jpg",
+      "sha256": "3b302f605c2a50a2b618696789a4e39a188d698e72652199f0f4439d1cfa2c5f",
+      "generatedAt": "2026-05-28T23:57:44Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "family-entry-bathroom-home-supplies": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18d3f4e28c81938591c9087cf246f4.png",
+      "output": "images/optimized/article-covers/family-entry-bathroom-home-supplies.jpg",
+      "sha256": "d54b3f00b4fa63eb69e89aedfc25180a6d5d6b3c1efefa9f996ebe437f850e72",
+      "generatedAt": "2026-05-28T23:57:44Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "beauty-scent-gift-shelf-before-buying": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0dafceb8339b7ef4016a18d43e1ef081939be385c9970e3372.png",
+      "output": "images/optimized/article-covers/beauty-scent-gift-shelf-before-buying.jpg",
+      "sha256": "38fe8f6e9c9a200641302d8416fbb1a4b9514bef2be5a1d57529bcd9d7159954",
+      "generatedAt": "2026-05-28T23:57:44Z",
       "usage": "cover-og-twitter",
       "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
     }

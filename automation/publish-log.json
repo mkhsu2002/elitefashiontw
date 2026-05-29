@@ -1,7 +1,67 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T23:16:24Z",
+  "updatedAt": "2026-05-28T23:57:44Z",
   "entries": [
+    {
+      "articleId": "auto-20260528235744-beauty-scent-gift-shelf-before-buying",
+      "title": "保養、香氛與小飾品送禮前先確認：膚況、氣味、保存與退換",
+      "publishedAt": "2026-05-28T23:57:44Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/beauty-scent-gift-shelf-before-buying.html",
+      "file": "lifestyle-culture/beauty-scent-gift-shelf-before-buying.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/beauty-scent-gift-shelf-before-buying.jpg",
+      "queueId": "Q-0017",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260528235744-family-entry-bathroom-home-supplies",
+      "title": "家庭玄關與浴室備品：母嬰用品、牙刷、濕紙巾與居家小物怎麼放",
+      "publishedAt": "2026-05-28T23:57:44Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/family-entry-bathroom-home-supplies.html",
+      "file": "lifestyle-culture/family-entry-bathroom-home-supplies.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/family-entry-bathroom-home-supplies.jpg",
+      "queueId": "Q-0017",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260528235744-pet-label-cleaning-restock-without-claims",
+      "title": "寵物用品補貨先看標示：食品、清潔、玩具與日常記錄怎麼分區",
+      "publishedAt": "2026-05-28T23:57:44Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/pet-label-cleaning-restock-without-claims.html",
+      "file": "lifestyle-culture/pet-label-cleaning-restock-without-claims.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/pet-label-cleaning-restock-without-claims.jpg",
+      "queueId": "Q-0017",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260528235744-coffee-cup-desk-afternoon-reset",
+      "title": "咖啡杯與下午茶角落：杯具、咖啡豆、濾掛與小點心的補貨順序",
+      "publishedAt": "2026-05-28T23:57:44Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/coffee-cup-desk-afternoon-reset.html",
+      "file": "lifestyle-culture/coffee-cup-desk-afternoon-reset.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/coffee-cup-desk-afternoon-reset.jpg",
+      "queueId": "Q-0017",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260528235744-office-home-snack-cabinet-nuts-tea-dessert",
+      "title": "辦公室與家庭都能放的點心櫃：甜點、豆乾、咖啡與茶飲怎麼搭",
+      "publishedAt": "2026-05-28T23:57:44Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/office-home-snack-cabinet-nuts-tea-dessert.html",
+      "file": "lifestyle-culture/office-home-snack-cabinet-nuts-tea-dessert.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/office-home-snack-cabinet-nuts-tea-dessert.jpg",
+      "queueId": "Q-0017",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260528235744-entry-living-bathroom-scent-routine",
+      "title": "不靠大量香味堆疊：玄關、客廳、浴室的氣味管理清單",
+      "publishedAt": "2026-05-28T23:57:44Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/entry-living-bathroom-scent-routine.html",
+      "file": "lifestyle-culture/entry-living-bathroom-scent-routine.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/entry-living-bathroom-scent-routine.jpg",
+      "queueId": "Q-0017",
+      "triggerType": "manual-codex-momo-new-audience-no-newsletter"
+    },
     {
       "articleId": "auto-20260528231624-office-sitting-low-barrier-stretch-snack-pillow",
       "title": "辦公室久坐後的低門檻活動清單：伸展小物、枕頭與低負擔點心",

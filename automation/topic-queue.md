@@ -195,3 +195,17 @@
 6. 毛孩生日與送禮怎麼準備：寵物蛋糕、零食、玩具與慶生小物｜published｜寵物家庭、送禮與週末聚會讀者｜lifestyle-culture｜文章 ID：auto-20260528231624-pet-birthday-gift-cake-snack-toy｜檔案：lifestyle-culture/pet-birthday-gift-cake-snack-toy.html
 7. 不只貓狗：水族、爬蟲與小寵家庭的補貨清單｜published｜水族、爬蟲、小寵與寵物新手讀者｜lifestyle-culture｜文章 ID：auto-20260528231624-aquarium-reptile-small-pet-restock-list｜檔案：lifestyle-culture/aquarium-reptile-small-pet-restock-list.html
 8. 辦公室久坐後的低門檻活動清單：伸展小物、枕頭與低負擔點心｜published｜久坐上班族、輕運動與辦公室補給讀者｜wellness-movement｜文章 ID：auto-20260528231624-office-sitting-low-barrier-stretch-snack-pillow｜檔案：wellness-movement/office-sitting-low-barrier-stretch-snack-pillow.html
+
+## Q-0017｜氣味管理、點心飲品、寵物補貨、家庭備品與送禮選物延伸
+
+- 狀態：completed
+- 規劃篇數：6
+- 補充方向：延伸剩餘可用 momo A/B 品牌到日常補貨與送禮情境；公開文章聚焦讀者採買順序、保存限制與可查證商品頁資訊。
+- 建立時間：2026-05-28T23:54:32Z
+
+1. 不靠大量香味堆疊：玄關、客廳、浴室的氣味管理清單｜published｜居家儀式、空間氣味、送禮與清潔除味讀者｜lifestyle-culture｜文章 ID：auto-20260528235744-entry-living-bathroom-scent-routine｜檔案：lifestyle-culture/entry-living-bathroom-scent-routine.html
+2. 辦公室與家庭都能放的點心櫃：甜點、豆乾、咖啡與茶飲怎麼搭｜published｜辦公室、家庭補貨、下午茶與點心分享讀者｜lifestyle-culture｜文章 ID：auto-20260528235744-office-home-snack-cabinet-nuts-tea-dessert｜檔案：lifestyle-culture/office-home-snack-cabinet-nuts-tea-dessert.html
+3. 咖啡杯與下午茶角落：杯具、咖啡豆、濾掛與小點心的補貨順序｜published｜居家辦公、下午茶、咖啡與茶飲補貨讀者｜lifestyle-culture｜文章 ID：auto-20260528235744-coffee-cup-desk-afternoon-reset｜檔案：lifestyle-culture/coffee-cup-desk-afternoon-reset.html
+4. 寵物用品補貨先看標示：食品、清潔、玩具與日常記錄怎麼分區｜published｜新手寵物家庭、貓狗用品補貨與清潔整理讀者｜lifestyle-culture｜文章 ID：auto-20260528235744-pet-label-cleaning-restock-without-claims｜檔案：lifestyle-culture/pet-label-cleaning-restock-without-claims.html
+5. 家庭玄關與浴室備品：母嬰用品、牙刷、濕紙巾與居家小物怎麼放｜published｜家庭補貨、親子日用品與小宅收納讀者｜lifestyle-culture｜文章 ID：auto-20260528235744-family-entry-bathroom-home-supplies｜檔案：lifestyle-culture/family-entry-bathroom-home-supplies.html
+6. 保養、香氛與小飾品送禮前先確認：膚況、氣味、保存與退換｜published｜日常保養、香氛送禮、美妝入門與伴手禮讀者｜lifestyle-culture｜文章 ID：auto-20260528235744-beauty-scent-gift-shelf-before-buying｜檔案：lifestyle-culture/beauty-scent-gift-shelf-before-buying.html

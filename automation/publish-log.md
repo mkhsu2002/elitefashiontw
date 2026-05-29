@@ -1,5 +1,53 @@
 # 發文紀錄
 
+## 2026-05-28T23:57:44Z｜保養、香氛與小飾品送禮前先確認：膚況、氣味、保存與退換
+
+- 文章 ID：auto-20260528235744-beauty-scent-gift-shelf-before-buying
+- URL：https://tw.elitefasion.com/lifestyle-culture/beauty-scent-gift-shelf-before-buying.html
+- 檔案：lifestyle-culture/beauty-scent-gift-shelf-before-buying.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0017
+
+## 2026-05-28T23:57:44Z｜家庭玄關與浴室備品：母嬰用品、牙刷、濕紙巾與居家小物怎麼放
+
+- 文章 ID：auto-20260528235744-family-entry-bathroom-home-supplies
+- URL：https://tw.elitefasion.com/lifestyle-culture/family-entry-bathroom-home-supplies.html
+- 檔案：lifestyle-culture/family-entry-bathroom-home-supplies.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0017
+
+## 2026-05-28T23:57:44Z｜寵物用品補貨先看標示：食品、清潔、玩具與日常記錄怎麼分區
+
+- 文章 ID：auto-20260528235744-pet-label-cleaning-restock-without-claims
+- URL：https://tw.elitefasion.com/lifestyle-culture/pet-label-cleaning-restock-without-claims.html
+- 檔案：lifestyle-culture/pet-label-cleaning-restock-without-claims.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0017
+
+## 2026-05-28T23:57:44Z｜咖啡杯與下午茶角落：杯具、咖啡豆、濾掛與小點心的補貨順序
+
+- 文章 ID：auto-20260528235744-coffee-cup-desk-afternoon-reset
+- URL：https://tw.elitefasion.com/lifestyle-culture/coffee-cup-desk-afternoon-reset.html
+- 檔案：lifestyle-culture/coffee-cup-desk-afternoon-reset.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0017
+
+## 2026-05-28T23:57:44Z｜辦公室與家庭都能放的點心櫃：甜點、豆乾、咖啡與茶飲怎麼搭
+
+- 文章 ID：auto-20260528235744-office-home-snack-cabinet-nuts-tea-dessert
+- URL：https://tw.elitefasion.com/lifestyle-culture/office-home-snack-cabinet-nuts-tea-dessert.html
+- 檔案：lifestyle-culture/office-home-snack-cabinet-nuts-tea-dessert.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0017
+
+## 2026-05-28T23:57:44Z｜不靠大量香味堆疊：玄關、客廳、浴室的氣味管理清單
+
+- 文章 ID：auto-20260528235744-entry-living-bathroom-scent-routine
+- URL：https://tw.elitefasion.com/lifestyle-culture/entry-living-bathroom-scent-routine.html
+- 檔案：lifestyle-culture/entry-living-bathroom-scent-routine.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0017
+
 ## 2026-05-28T23:16:24Z｜辦公室久坐後的低門檻活動清單：伸展小物、枕頭與低負擔點心
 
 - 文章 ID：auto-20260528231624-office-sitting-low-barrier-stretch-snack-pillow

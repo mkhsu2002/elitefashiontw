@@ -1,29 +1,25 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T23:16:24Z",
+  "updatedAt": "2026-05-28T23:57:44Z",
   "status": "generated",
   "triggerType": "manual-codex-momo-new-audience-no-newsletter",
-  "queueId": "Q-0016",
+  "queueId": "Q-0017",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260528231624-bathroom-vanity-hair-scalp-makeup-storage",
-    "auto-20260528231624-school-study-corner-stationery-books-kids-toothbrush",
-    "auto-20260528231624-swimming-outdoor-class-kids-prep",
-    "auto-20260528231624-road-trip-camping-dashcam-jump-starter-cookware",
-    "auto-20260528231624-elder-travel-vision-reading-sunglasses-luggage",
-    "auto-20260528231624-pet-birthday-gift-cake-snack-toy",
-    "auto-20260528231624-aquarium-reptile-small-pet-restock-list",
-    "auto-20260528231624-office-sitting-low-barrier-stretch-snack-pillow"
+    "auto-20260528235744-entry-living-bathroom-scent-routine",
+    "auto-20260528235744-office-home-snack-cabinet-nuts-tea-dessert",
+    "auto-20260528235744-coffee-cup-desk-afternoon-reset",
+    "auto-20260528235744-pet-label-cleaning-restock-without-claims",
+    "auto-20260528235744-family-entry-bathroom-home-supplies",
+    "auto-20260528235744-beauty-scent-gift-shelf-before-buying"
   ],
   "articleSlugs": [
-    "bathroom-vanity-hair-scalp-makeup-storage",
-    "school-study-corner-stationery-books-kids-toothbrush",
-    "swimming-outdoor-class-kids-prep",
-    "road-trip-camping-dashcam-jump-starter-cookware",
-    "elder-travel-vision-reading-sunglasses-luggage",
-    "pet-birthday-gift-cake-snack-toy",
-    "aquarium-reptile-small-pet-restock-list",
-    "office-sitting-low-barrier-stretch-snack-pillow"
+    "entry-living-bathroom-scent-routine",
+    "office-home-snack-cabinet-nuts-tea-dessert",
+    "coffee-cup-desk-afternoon-reset",
+    "pet-label-cleaning-restock-without-claims",
+    "family-entry-bathroom-home-supplies",
+    "beauty-scent-gift-shelf-before-buying"
   ],
   "notes": "Codex 手動分批撰文與封面生成；直接推上 main 不會自動寄送電子報。"
 }
