@@ -1,5 +1,141 @@
 # 發文紀錄
 
+## 2026-05-29T07:35:00Z｜長期一人生活的決策地圖：居家安全、管家化外包與未來資源配置檢核表
+
+- 文章 ID：auto-20260529073500-long-term-solo-living-home-safety-support-map
+- URL：https://tw.elitefasion.com/lifestyle-culture/long-term-solo-living-home-safety-support-map.html
+- 檔案：lifestyle-culture/long-term-solo-living-home-safety-support-map.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0012
+
+## 2026-05-29T07:35:00Z｜面對董事會與團隊：如何在公開場域保留真實哀傷，同時維持領導力
+
+- 文章 ID：auto-20260529073500-executive-public-grief-board-team-leadership
+- URL：https://tw.elitefasion.com/lifestyle-culture/executive-public-grief-board-team-leadership.html
+- 檔案：lifestyle-culture/executive-public-grief-board-team-leadership.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0012
+
+## 2026-05-29T07:35:00Z｜喪偶後的第一個月：高階主管必做的 30 天穩定計畫
+
+- 文章 ID：auto-20260529073500-executive-widowed-first-month-stability-plan
+- URL：https://tw.elitefasion.com/lifestyle-culture/executive-widowed-first-month-stability-plan.html
+- 檔案：lifestyle-culture/executive-widowed-first-month-stability-plan.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0012
+
+## 2026-05-29T07:35:00Z｜重建生活節奏與長期韌性：財務、社群與自我照護藍圖
+
+- 文章 ID：auto-20260529073500-entrepreneur-long-term-resilience-finance-community-selfcare
+- URL：https://tw.elitefasion.com/lifestyle-culture/entrepreneur-long-term-resilience-finance-community-selfcare.html
+- 檔案：lifestyle-culture/entrepreneur-long-term-resilience-finance-community-selfcare.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0011
+
+## 2026-05-29T07:35:00Z｜把公司交給系統與團隊：委外、授權與緊急代理清單
+
+- 文章 ID：auto-20260529073500-delegate-business-team-emergency-agent-checklist
+- URL：https://tw.elitefasion.com/lifestyle-culture/delegate-business-team-emergency-agent-checklist.html
+- 檔案：lifestyle-culture/delegate-business-team-emergency-agent-checklist.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0011
+
+## 2026-05-29T07:35:00Z｜喪偶後的前 90 天：創業者如何同時照顧悲傷與維持公司運營
+
+- 文章 ID：auto-20260529073500-widowed-entrepreneur-first-90-days-business-grief
+- URL：https://tw.elitefasion.com/lifestyle-culture/widowed-entrepreneur-first-90-days-business-grief.html
+- 檔案：lifestyle-culture/widowed-entrepreneur-first-90-days-business-grief.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0011
+
+## 2026-05-29T07:35:00Z｜把跨國記憶留住，也讓生活向前：情感紀念、家庭對話與自我重建
+
+- 文章 ID：auto-20260529073500-cross-border-memory-family-dialogue-forward
+- URL：https://tw.elitefasion.com/lifestyle-culture/cross-border-memory-family-dialogue-forward.html
+- 檔案：lifestyle-culture/cross-border-memory-family-dialogue-forward.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0010
+
+## 2026-05-29T07:34:59Z｜回台後的第一年：如何建立日常與重建高品質社交圈
+
+- 文章 ID：auto-20260529073459-first-year-back-taiwan-daily-life-social-circle
+- URL：https://tw.elitefasion.com/lifestyle-culture/first-year-back-taiwan-daily-life-social-circle.html
+- 檔案：lifestyle-culture/first-year-back-taiwan-daily-life-social-circle.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0010
+
+## 2026-05-29T07:34:59Z｜返台前要想清的 4 件事：住所、財務、人際與情緒的決策清單
+
+- 文章 ID：auto-20260529073459-widowed-return-taiwan-housing-money-people-checklist
+- URL：https://tw.elitefasion.com/lifestyle-culture/widowed-return-taiwan-housing-money-people-checklist.html
+- 檔案：lifestyle-culture/widowed-return-taiwan-housing-money-people-checklist.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0010
+
+## 2026-05-29T07:34:59Z｜一人生活的錢與文件：喪偶後的財務、保險與重要文件整理指南
+
+- 文章 ID：auto-20260529073459-widowed-money-documents-insurance-file-guide
+- URL：https://tw.elitefasion.com/lifestyle-culture/widowed-money-documents-insurance-file-guide.html
+- 檔案：lifestyle-culture/widowed-money-documents-insurance-file-guide.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0009
+
+## 2026-05-29T07:34:59Z｜獨居不等於孤單：家務、時間與社交節奏的實務重整指南
+
+- 文章 ID：auto-20260529073459-widowed-home-chores-time-social-rhythm
+- URL：https://tw.elitefasion.com/lifestyle-culture/widowed-home-chores-time-social-rhythm.html
+- 檔案：lifestyle-culture/widowed-home-chores-time-social-rhythm.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0009
+
+## 2026-05-29T07:34:59Z｜剛喪偶怎麼做？30 天情緒與日常重建清單
+
+- 文章 ID：auto-20260529073459-widowed-first-30-days-emotional-daily-reset
+- URL：https://tw.elitefasion.com/lifestyle-culture/widowed-first-30-days-emotional-daily-reset.html
+- 檔案：lifestyle-culture/widowed-first-30-days-emotional-daily-reset.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0009
+
+## 2026-05-29T07:34:59Z｜不想回家只有冷氣與泡麵：一人生活的情感支持網絡與關係邊界
+
+- 文章 ID：auto-20260529073459-solo-home-emotional-support-boundaries
+- URL：https://tw.elitefasion.com/lifestyle-culture/solo-home-emotional-support-boundaries.html
+- 檔案：lifestyle-culture/solo-home-emotional-support-boundaries.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0008
+
+## 2026-05-29T07:34:59Z｜工作強度高，如何把時間留給自己？高階工作者的日常節奏與居家佈局
+
+- 文章 ID：auto-20260529073459-high-intensity-work-home-rhythm-layout
+- URL：https://tw.elitefasion.com/lifestyle-culture/high-intensity-work-home-rhythm-layout.html
+- 檔案：lifestyle-culture/high-intensity-work-home-rhythm-layout.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0008
+
+## 2026-05-29T07:34:59Z｜為什麼選擇一人生活不是退步？先問清楚這 6 個現實問題
+
+- 文章 ID：auto-20260529073459-solo-living-not-a-step-back-six-questions
+- URL：https://tw.elitefasion.com/lifestyle-culture/solo-living-not-a-step-back-six-questions.html
+- 檔案：lifestyle-culture/solo-living-not-a-step-back-six-questions.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0008
+
+## 2026-05-29T07:34:59Z｜不靠別人也安心：創業者的財務、醫療與居住安全三步驟
+
+- 文章 ID：auto-20260529073459-entrepreneur-finance-health-home-security-steps
+- URL：https://tw.elitefasion.com/lifestyle-culture/entrepreneur-finance-health-home-security-steps.html
+- 檔案：lifestyle-culture/entrepreneur-finance-health-home-security-steps.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0007
+
+## 2026-05-29T07:34:59Z｜情感與界線：創業者如何維繫親密又保留獨立空間
+
+- 文章 ID：auto-20260529073459-entrepreneur-emotional-boundaries-independent-space
+- URL：https://tw.elitefasion.com/lifestyle-culture/entrepreneur-emotional-boundaries-independent-space.html
+- 檔案：lifestyle-culture/entrepreneur-emotional-boundaries-independent-space.html
+- 類型：manual-codex-solo-living-affiliate-no-newsletter
+- Queue：Q-0007
+
 ## 2026-05-29T04:15:08Z｜2026 全球五大最新熱門旅遊景點：五個正在改變旅行節奏的地方
 
 - 文章 ID：auto-20260529041508-global-top-travel-destinations-2026

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-29T04:15:08Z",
+  "updatedAt": "2026-05-29T07:35:00Z",
   "nextQueueSequence": 20,
   "series": [
     {
@@ -326,7 +326,7 @@
       "topic": "創業者如何建立一人生活",
       "direction": "聚焦成功創業但未婚的讀者，關注事業之外的私人生活、情感空間、照顧自己與長期生活布局。",
       "plannedCount": 3,
-      "status": "in_progress",
+      "status": "completed",
       "createdAt": "2026-04-25T16:37:32Z",
       "seriesName": "創業者的一人生活提案：工作節奏、居家秩序與關係邊界",
       "items": [
@@ -352,9 +352,10 @@
           "category": "lifestyle-culture",
           "series": "創業者的一人生活提案：工作節奏、居家秩序與關係邊界",
           "ctaHint": "閱讀第三篇：規劃長期生活安全與財務醫護安排",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073459-entrepreneur-emotional-boundaries-independent-space",
+          "file": "lifestyle-culture/entrepreneur-emotional-boundaries-independent-space.html",
+          "publishedAt": "2026-05-29T07:34:59Z"
         },
         {
           "order": 3,
@@ -364,9 +365,10 @@
           "category": "lifestyle-culture",
           "series": "創業者的一人生活提案：工作節奏、居家秩序與關係邊界",
           "ctaHint": "查看站內『生活與財務』專題頁以延伸閱讀",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073459-entrepreneur-finance-health-home-security-steps",
+          "file": "lifestyle-culture/entrepreneur-finance-health-home-security-steps.html",
+          "publishedAt": "2026-05-29T07:34:59Z"
         }
       ]
     },
@@ -375,7 +377,7 @@
       "topic": "高階工作者如何建立一人生活",
       "direction": "聚焦高階工作者，關注工作成就與私人孤獨之間的平衡、關係邊界、時間品質與成熟獨居。",
       "plannedCount": 3,
-      "status": "planned",
+      "status": "completed",
       "createdAt": "2026-04-25T16:38:01Z",
       "seriesName": "高階工作者的一人生活：事業、獨處與支持系統",
       "items": [
@@ -387,9 +389,10 @@
           "category": "lifestyle-culture",
           "series": "高階工作者的一人生活：事業、獨處與支持系統",
           "ctaHint": "閱讀下一篇：打造既高效又溫暖的獨居日常",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073459-solo-living-not-a-step-back-six-questions",
+          "file": "lifestyle-culture/solo-living-not-a-step-back-six-questions.html",
+          "publishedAt": "2026-05-29T07:34:59Z"
         },
         {
           "order": 2,
@@ -399,9 +402,10 @@
           "category": "lifestyle-culture",
           "series": "高階工作者的一人生活：事業、獨處與支持系統",
           "ctaHint": "閱讀第三篇：建立情感支持與關係邊界的實戰手冊",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073459-high-intensity-work-home-rhythm-layout",
+          "file": "lifestyle-culture/high-intensity-work-home-rhythm-layout.html",
+          "publishedAt": "2026-05-29T07:34:59Z"
         },
         {
           "order": 3,
@@ -411,9 +415,10 @@
           "category": "lifestyle-culture",
           "series": "高階工作者的一人生活：事業、獨處與支持系統",
           "ctaHint": "瀏覽更多人生與社交策略專題",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073459-solo-home-emotional-support-boundaries",
+          "file": "lifestyle-culture/solo-home-emotional-support-boundaries.html",
+          "publishedAt": "2026-05-29T07:34:59Z"
         }
       ]
     },
@@ -422,7 +427,7 @@
       "topic": "喪偶後高知工作者如何重建一人生活",
       "direction": "聚焦喪偶後的高知識讀者，關注哀傷後的日常重建、生活秩序、身分轉換與溫和但不失理性的前行。",
       "plannedCount": 3,
-      "status": "planned",
+      "status": "completed",
       "createdAt": "2026-04-25T16:38:28Z",
       "seriesName": "重新一人：高知工作者的喪偶後生活重建系列",
       "items": [
@@ -434,9 +439,10 @@
           "category": "lifestyle-culture",
           "series": "重新一人：高知工作者的喪偶後生活重建系列",
           "ctaHint": "導向同系列第二篇：建立穩定日常的 8 個步驟",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073459-widowed-first-30-days-emotional-daily-reset",
+          "file": "lifestyle-culture/widowed-first-30-days-emotional-daily-reset.html",
+          "publishedAt": "2026-05-29T07:34:59Z"
         },
         {
           "order": 2,
@@ -446,9 +452,10 @@
           "category": "lifestyle-culture",
           "series": "重新一人：高知工作者的喪偶後生活重建系列",
           "ctaHint": "導向同系列第三篇：一人生活的錢與文件整理指南",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073459-widowed-home-chores-time-social-rhythm",
+          "file": "lifestyle-culture/widowed-home-chores-time-social-rhythm.html",
+          "publishedAt": "2026-05-29T07:34:59Z"
         },
         {
           "order": 3,
@@ -458,9 +465,10 @@
           "category": "lifestyle-culture",
           "series": "重新一人：高知工作者的喪偶後生活重建系列",
           "ctaHint": "下載站內『喪偶後生活整理一頁檢核表』並實作優先清單",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073459-widowed-money-documents-insurance-file-guide",
+          "file": "lifestyle-culture/widowed-money-documents-insurance-file-guide.html",
+          "publishedAt": "2026-05-29T07:34:59Z"
         }
       ]
     },
@@ -469,7 +477,7 @@
       "topic": "喪偶後海歸返台如何重建一人生活",
       "direction": "聚焦海外背景、返台後面對喪偶的人生重整，關注失落、歸屬、跨文化記憶與重新建立生活重心。",
       "plannedCount": 3,
-      "status": "planned",
+      "status": "completed",
       "createdAt": "2026-04-25T16:38:56Z",
       "seriesName": "返台再生：海歸喪偶後的一人生活重建指南",
       "items": [
@@ -481,9 +489,10 @@
           "category": "lifestyle-culture",
           "series": "返台再生：海歸喪偶後的一人生活重建指南",
           "ctaHint": "下載『返台生活準備清單』（一頁 PDF）",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073459-widowed-return-taiwan-housing-money-people-checklist",
+          "file": "lifestyle-culture/widowed-return-taiwan-housing-money-people-checklist.html",
+          "publishedAt": "2026-05-29T07:34:59Z"
         },
         {
           "order": 2,
@@ -493,9 +502,10 @@
           "category": "lifestyle-culture",
           "series": "返台再生：海歸喪偶後的一人生活重建指南",
           "ctaHint": "閱讀同系列第三篇：跨文化記憶與身分重構策略",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073459-first-year-back-taiwan-daily-life-social-circle",
+          "file": "lifestyle-culture/first-year-back-taiwan-daily-life-social-circle.html",
+          "publishedAt": "2026-05-29T07:34:59Z"
         },
         {
           "order": 3,
@@ -505,9 +515,10 @@
           "category": "lifestyle-culture",
           "series": "返台再生：海歸喪偶後的一人生活重建指南",
           "ctaHint": "閱讀延伸：〈40 歲後，妳的名字不只是媽媽：奪回生活主權的五個提案〉",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073500-cross-border-memory-family-dialogue-forward",
+          "file": "lifestyle-culture/cross-border-memory-family-dialogue-forward.html",
+          "publishedAt": "2026-05-29T07:35:00Z"
         }
       ]
     },
@@ -516,7 +527,7 @@
       "topic": "喪偶後創業者如何重建一人生活",
       "direction": "聚焦企業經營者在喪偶後如何穩住自己，關注悲傷與營運並存、支援系統、生活節奏與長期韌性。",
       "plannedCount": 3,
-      "status": "planned",
+      "status": "completed",
       "createdAt": "2026-04-25T16:39:25Z",
       "seriesName": "喪偶後的創業：自我照護與公司穩定指南",
       "items": [
@@ -528,9 +539,10 @@
           "category": "lifestyle-culture",
           "series": "喪偶後的創業：自我照護與公司穩定指南",
           "ctaHint": "閱讀同系列第2篇：把公司交給系統與團隊（實作委外與緊急代理清單）",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073500-widowed-entrepreneur-first-90-days-business-grief",
+          "file": "lifestyle-culture/widowed-entrepreneur-first-90-days-business-grief.html",
+          "publishedAt": "2026-05-29T07:35:00Z"
         },
         {
           "order": 2,
@@ -540,9 +552,10 @@
           "category": "lifestyle-culture",
           "series": "喪偶後的創業：自我照護與公司穩定指南",
           "ctaHint": "閱讀同系列第3篇：重建生活節奏與長期韌性（財務、社交與再出發藍圖）",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073500-delegate-business-team-emergency-agent-checklist",
+          "file": "lifestyle-culture/delegate-business-team-emergency-agent-checklist.html",
+          "publishedAt": "2026-05-29T07:35:00Z"
         },
         {
           "order": 3,
@@ -552,9 +565,10 @@
           "category": "lifestyle-culture",
           "series": "喪偶後的創業：自我照護與公司穩定指南",
           "ctaHint": "前往站內「40歲後創業」主題頁，瀏覽更多實作案例與延伸閱讀",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073500-entrepreneur-long-term-resilience-finance-community-selfcare",
+          "file": "lifestyle-culture/entrepreneur-long-term-resilience-finance-community-selfcare.html",
+          "publishedAt": "2026-05-29T07:35:00Z"
         }
       ]
     },
@@ -563,7 +577,7 @@
       "topic": "喪偶後高階主管如何重建一人生活",
       "direction": "聚焦高階主管喪偶後的生活重建，關注高壓決策、公開形象、私人哀傷與一個人重新安排未來。",
       "plannedCount": 3,
-      "status": "planned",
+      "status": "completed",
       "createdAt": "2026-04-25T16:39:53Z",
       "seriesName": "一個人的再出發：喪偶後的高管生活重建",
       "items": [
@@ -575,9 +589,10 @@
           "category": "lifestyle-culture",
           "series": "一個人的再出發：喪偶後的高管生活重建",
           "ctaHint": "下載本篇專用的「30 天穩定計畫表」並套用到妳的日程",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073500-executive-widowed-first-month-stability-plan",
+          "file": "lifestyle-culture/executive-widowed-first-month-stability-plan.html",
+          "publishedAt": "2026-05-29T07:35:00Z"
         },
         {
           "order": 2,
@@ -587,9 +602,10 @@
           "category": "lifestyle-culture",
           "series": "一個人的再出發：喪偶後的高管生活重建",
           "ctaHint": "下載並調整我們的「哀傷職場溝通範本」作為妳的發言稿草案",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073500-executive-public-grief-board-team-leadership",
+          "file": "lifestyle-culture/executive-public-grief-board-team-leadership.html",
+          "publishedAt": "2026-05-29T07:35:00Z"
         },
         {
           "order": 3,
@@ -599,9 +615,10 @@
           "category": "lifestyle-culture",
           "series": "一個人的再出發：喪偶後的高管生活重建",
           "ctaHint": "查看並下載「一個人生活長期規劃檢核表」，作為妳的安排清單",
-          "status": "planned",
-          "articleId": null,
-          "file": null
+          "status": "published",
+          "articleId": "auto-20260529073500-long-term-solo-living-home-safety-support-map",
+          "file": "lifestyle-culture/long-term-solo-living-home-safety-support-map.html",
+          "publishedAt": "2026-05-29T07:35:00Z"
         }
       ]
     },

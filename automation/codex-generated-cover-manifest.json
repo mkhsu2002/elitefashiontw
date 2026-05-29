@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-29T04:15:08Z",
+  "updatedAt": "2026-05-29T07:35:00Z",
   "generator": "codex-imagegen-built-in",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -320,6 +320,142 @@
       "generatedAt": "2026-05-29T04:15:08Z",
       "usage": "cover-og-twitter",
       "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "entrepreneur-emotional-boundaries-independent-space": {
+      "image": "images/optimized/article-covers/entrepreneur-emotional-boundaries-independent-space.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a1938079b88819b9e143a1764367c3a.png",
+      "sha256": "f0ab9fb92afb69eaffab0a059d8c58851dd6295ea44ce1f4202b2223254b1c31",
+      "promptSummary": "明亮希望感的創業者獨處居家場景，無文字與商標。",
+      "generatedAt": "2026-05-29T07:34:59Z",
+      "usage": "cover-og-twitter"
+    },
+    "entrepreneur-finance-health-home-security-steps": {
+      "image": "images/optimized/article-covers/entrepreneur-finance-health-home-security-steps.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a1938535840819b8d1304ae5085ee05.png",
+      "sha256": "910b4f1cbebb2852429669468e86281af6dc688d4e3537a33eb50d794e1560a8",
+      "promptSummary": "明亮玄關與生活備援感，呈現創業者一人生活基礎整理。",
+      "generatedAt": "2026-05-29T07:34:59Z",
+      "usage": "cover-og-twitter"
+    },
+    "solo-living-not-a-step-back-six-questions": {
+      "image": "images/optimized/article-covers/solo-living-not-a-step-back-six-questions.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a1938a2eca4819bbfacc28237894dfd.png",
+      "sha256": "d8f518bc0f0c9e0711166c711bd9e39df353e0ed0613a71652ceb28547e3673e",
+      "promptSummary": "明亮小宅與個人選擇感，呈現一人生活新開始。",
+      "generatedAt": "2026-05-29T07:34:59Z",
+      "usage": "cover-og-twitter"
+    },
+    "high-intensity-work-home-rhythm-layout": {
+      "image": "images/optimized/article-covers/high-intensity-work-home-rhythm-layout.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a1938e7d3c8819babed1b73c85df542.png",
+      "sha256": "88ae510a9e5ce11a61ee23c9774908c47a45e1ed34c528ffb2e41ddf315d66fd",
+      "promptSummary": "高階工作者明亮居家轉場與桌面節奏，無文字商標。",
+      "generatedAt": "2026-05-29T07:34:59Z",
+      "usage": "cover-og-twitter"
+    },
+    "solo-home-emotional-support-boundaries": {
+      "image": "images/optimized/article-covers/solo-home-emotional-support-boundaries.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a193938addc819b9b3fd21a882f724a.png",
+      "sha256": "20182172bc65aff84d895e0c13cf09c8601ef52a65decd218898adaf6c0a0370",
+      "promptSummary": "明亮一人餐桌與溫暖社交可能性，無文字與商標。",
+      "generatedAt": "2026-05-29T07:34:59Z",
+      "usage": "cover-og-twitter"
+    },
+    "widowed-first-30-days-emotional-daily-reset": {
+      "image": "images/optimized/article-covers/widowed-first-30-days-emotional-daily-reset.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a19398f2324819b84fb8bb93aa5aa40.png",
+      "sha256": "6c346ce6833cf2df488f3913bca5ba986cbbb806ac9af3f0fdc1e048cfe269f1",
+      "promptSummary": "喪偶後前 30 天的明亮臥室重整場景，保持希望感。",
+      "generatedAt": "2026-05-29T07:34:59Z",
+      "usage": "cover-og-twitter"
+    },
+    "widowed-home-chores-time-social-rhythm": {
+      "image": "images/optimized/article-covers/widowed-home-chores-time-social-rhythm.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a193a2b9ea0819b98b70238ee771055.png",
+      "sha256": "556b1ace5fb5811b89b7c1ed76f4fc7d17e0e1906c391406250d80b01ba0c230",
+      "promptSummary": "明亮家務重整與社交節奏感，避免悲傷與灰暗。",
+      "generatedAt": "2026-05-29T07:34:59Z",
+      "usage": "cover-og-twitter"
+    },
+    "widowed-money-documents-insurance-file-guide": {
+      "image": "images/optimized/article-covers/widowed-money-documents-insurance-file-guide.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a193a70c17c819b84663c0939bfa4fe.png",
+      "sha256": "eba7445677409a0c1955785886660cd2318367012c96ed6a4fc53ad38426578d",
+      "promptSummary": "重要文件整理的明亮桌面場景，無文字與商標。",
+      "generatedAt": "2026-05-29T07:34:59Z",
+      "usage": "cover-og-twitter"
+    },
+    "widowed-return-taiwan-housing-money-people-checklist": {
+      "image": "images/optimized/article-covers/widowed-return-taiwan-housing-money-people-checklist.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a193abb215c819b8847bfd440d257a5.png",
+      "sha256": "55554650c91853eef37f8a558aae7b25ae6f60f51ded47bfe470c694abd38ed3",
+      "promptSummary": "返台前明亮打包場景，呈現希望與重新落地。",
+      "generatedAt": "2026-05-29T07:34:59Z",
+      "usage": "cover-og-twitter"
+    },
+    "first-year-back-taiwan-daily-life-social-circle": {
+      "image": "images/optimized/article-covers/first-year-back-taiwan-daily-life-social-circle.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a193b02c544819b83c54457d230e4a4.png",
+      "sha256": "7d831f5c4a4d9e22fb4f8c99a3828b12884b019b5621fd1bf4a2fcdfb1485826",
+      "promptSummary": "返台後社交重建的明亮咖啡場景，輕盈不孤單。",
+      "generatedAt": "2026-05-29T07:34:59Z",
+      "usage": "cover-og-twitter"
+    },
+    "cross-border-memory-family-dialogue-forward": {
+      "image": "images/optimized/article-covers/cross-border-memory-family-dialogue-forward.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a193b52b9c0819b92b9b33f8cd41283.png",
+      "sha256": "308bd6cd3c5775289080bf002d772e9f680221262f01768d30f688e0d2cbb882",
+      "promptSummary": "跨國記憶與自我重建的明亮紀念角落，無文字。",
+      "generatedAt": "2026-05-29T07:35:00Z",
+      "usage": "cover-og-twitter"
+    },
+    "widowed-entrepreneur-first-90-days-business-grief": {
+      "image": "images/optimized/article-covers/widowed-entrepreneur-first-90-days-business-grief.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a193bbcfc04819ba11ef0976bb88d02.png",
+      "sha256": "09d5e50cf7a039678140f516cb292e1ab573083863e6097c30026fab2f790eed",
+      "promptSummary": "創業者照顧悲傷與維持營運的明亮居家工作場景。",
+      "generatedAt": "2026-05-29T07:35:00Z",
+      "usage": "cover-og-twitter"
+    },
+    "delegate-business-team-emergency-agent-checklist": {
+      "image": "images/optimized/article-covers/delegate-business-team-emergency-agent-checklist.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a193c0d9844819b964bca34c7f464f5.png",
+      "sha256": "cccdaf5c25952e7376a1d78ab820b5a562c2bf780c2a299983f2df4e9e269ba5",
+      "promptSummary": "委外授權與團隊交接的明亮工作場景，無文字。",
+      "generatedAt": "2026-05-29T07:35:00Z",
+      "usage": "cover-og-twitter"
+    },
+    "entrepreneur-long-term-resilience-finance-community-selfcare": {
+      "image": "images/optimized/article-covers/entrepreneur-long-term-resilience-finance-community-selfcare.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a193c821f9c819bb1e5493a35ea7150.png",
+      "sha256": "64b3fee6402c38e7f1755d2735b277ceca4d7f5755d6ed449b88c053a3bb3e13",
+      "promptSummary": "長期韌性的明亮居家伸展與自我照護場景。",
+      "generatedAt": "2026-05-29T07:35:00Z",
+      "usage": "cover-og-twitter"
+    },
+    "executive-widowed-first-month-stability-plan": {
+      "image": "images/optimized/article-covers/executive-widowed-first-month-stability-plan.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a193d6a37a8819b973da04f82a627e0.png",
+      "sha256": "143190c72c9bc36c2200bc654c3272b2e03385ecd1b1d5b0bbbd5730195d397e",
+      "promptSummary": "明亮屋頂花園中的高階主管重啟場景，和居家封面拉開差異。",
+      "generatedAt": "2026-05-29T07:35:00Z",
+      "usage": "cover-og-twitter"
+    },
+    "executive-public-grief-board-team-leadership": {
+      "image": "images/optimized/article-covers/executive-public-grief-board-team-leadership.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a193dbfece0819baf18d114dd58b339.png",
+      "sha256": "5c75a5c89c1b1a6ef6cd18be59d2a057e84742b1d84668c9b2ebf3038c498f3a",
+      "promptSummary": "玻璃中庭與公開領導場景，明亮、沉著、無文字。",
+      "generatedAt": "2026-05-29T07:35:00Z",
+      "usage": "cover-og-twitter"
+    },
+    "long-term-solo-living-home-safety-support-map": {
+      "image": "images/optimized/article-covers/long-term-solo-living-home-safety-support-map.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0b3eb31c27f6c56f016a193e278954819b981a354001371fa6.png",
+      "sha256": "ad881bdd2a1c25b85ffc63cd9a5e476ac81acebadd60071e4bce01dd3289d80c",
+      "promptSummary": "明亮廚房家務與長期一人生活系統場景，和前面封面拉開差異。",
+      "generatedAt": "2026-05-29T07:35:00Z",
+      "usage": "cover-og-twitter"
     }
   }
 }

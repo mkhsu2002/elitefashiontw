@@ -1,5 +1,345 @@
 [
   {
+    "id": "auto-20260529073500-cross-border-memory-family-dialogue-forward",
+    "title": "跨國記憶、家庭對話與自我重建",
+    "excerpt": "記憶不必被收進箱子裡，也不必佔據整個家；它可以有一個位置，讓生活繼續往前。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/cross-border-memory-family-dialogue-forward.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "返台生活",
+      "情感紀念",
+      "家庭對話",
+      "自我重建"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073500-delegate-business-team-emergency-agent-checklist",
+    "title": "委外、授權與緊急代理清單",
+    "excerpt": "能暫時放手，不代表失去控制；真正成熟的公司，應該在創辦人需要休息時仍有基本秩序。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/delegate-business-team-emergency-agent-checklist.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "創業者",
+      "委外",
+      "授權",
+      "營運系統"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073500-entrepreneur-long-term-resilience-finance-community-selfcare",
+    "title": "創業者重建生活節奏與長期韌性",
+    "excerpt": "長期韌性不是永遠撐住，而是知道錢、身體、社群與公司各自需要怎樣的節奏。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/entrepreneur-long-term-resilience-finance-community-selfcare.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "創業者",
+      "生活韌性",
+      "財務邊界",
+      "自我照護"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073500-executive-public-grief-board-team-leadership",
+    "title": "公開場域裡保留真實哀傷與領導力",
+    "excerpt": "公開場域需要的是清楚與分寸，不是把私人悲傷表演給所有人看，也不是假裝一切沒有發生。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/executive-public-grief-board-team-leadership.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "高階主管",
+      "喪偶",
+      "領導力",
+      "公開溝通"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073500-executive-widowed-first-month-stability-plan",
+    "title": "高階主管喪偶後第一個月穩定計畫",
+    "excerpt": "第一個月不必急著恢復完美狀態，只要讓公開角色、私人悲傷與日常基本運作先有界線。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/executive-widowed-first-month-stability-plan.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "喪偶",
+      "高階主管",
+      "公開角色",
+      "一人生活"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073500-long-term-solo-living-home-safety-support-map",
+    "title": "長期一人生活的居家安全與資源配置檢核表",
+    "excerpt": "長期一人生活不是把所有事都自己做，而是建立一套找得到人、用得到物、查得到資料的生活系統。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/long-term-solo-living-home-safety-support-map.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "一人生活",
+      "居家安全",
+      "外包家務",
+      "資源配置"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073500-widowed-entrepreneur-first-90-days-business-grief",
+    "title": "喪偶後前 90 天如何照顧悲傷與公司運營",
+    "excerpt": "前 90 天的目標不是表現堅強，而是讓公司有最低限度運作，也讓悲傷有被照顧的位置。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/widowed-entrepreneur-first-90-days-business-grief.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "創業者",
+      "喪偶",
+      "公司營運",
+      "生活韌性"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073459-entrepreneur-emotional-boundaries-independent-space",
+    "title": "創業者如何維繫親密又保留獨立空間",
+    "excerpt": "創業者的一人生活，不是把所有人推開，而是替親密、工作與安靜時段各自留下位置。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/entrepreneur-emotional-boundaries-independent-space.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "一人生活",
+      "創業者",
+      "關係界線",
+      "生活品味"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073459-entrepreneur-finance-health-home-security-steps",
+    "title": "創業者的財務、醫療與居住安全三步驟",
+    "excerpt": "一個人的安心感，不來自把風險想完，而是把文件、住家動線與可求助名單放在找得到的位置。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/entrepreneur-finance-health-home-security-steps.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "一人生活",
+      "創業者",
+      "財務整理",
+      "居家動線"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073459-first-year-back-taiwan-daily-life-social-circle",
+    "title": "回台後第一年如何建立日常與社交圈",
+    "excerpt": "回台第一年不用急著找回從前的人生，只要先讓城市裡有幾條你願意重複走的路。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/first-year-back-taiwan-daily-life-social-circle.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "返台生活",
+      "社交圈",
+      "喪偶",
+      "一人生活"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073459-high-intensity-work-home-rhythm-layout",
+    "title": "高階工作者如何把時間留給自己",
+    "excerpt": "工作強度越高，越需要讓家裡的每個角落替自己減少決策，而不是延長白天的緊繃。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/high-intensity-work-home-rhythm-layout.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "高階工作者",
+      "居家佈局",
+      "一人生活",
+      "工作節奏"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073459-solo-home-emotional-support-boundaries",
+    "title": "一人生活的情感支持網絡與關係邊界",
+    "excerpt": "真正好的獨處，不是家裡只有冷氣聲，而是知道何時安靜、何時開門、何時把人請進生活裡。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/solo-home-emotional-support-boundaries.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "一人生活",
+      "情感支持",
+      "社交界線",
+      "生活品味"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073459-solo-living-not-a-step-back-six-questions",
+    "title": "選擇一人生活前先問清楚 6 個現實問題",
+    "excerpt": "選擇一人生活之前，先問清楚自己要的是安靜、自由、恢復，還是重新取得生活的主導權。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/solo-living-not-a-step-back-six-questions.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "一人生活",
+      "高階工作者",
+      "獨居評估",
+      "生活品味"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073459-widowed-first-30-days-emotional-daily-reset",
+    "title": "喪偶後 30 天情緒與日常重建清單",
+    "excerpt": "最初 30 天不需要證明自己很好，只需要讓早晨、夜晚、文件與求助名單先回到可承受的位置。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/widowed-first-30-days-emotional-daily-reset.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "喪偶",
+      "一人生活",
+      "情緒支持",
+      "日常重建"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073459-widowed-home-chores-time-social-rhythm",
+    "title": "獨居後家務、時間與社交節奏的實務重整",
+    "excerpt": "獨居不是把生活關起來，而是重新安排家務、時間與社交，讓每一週都有能被依靠的節點。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/widowed-home-chores-time-social-rhythm.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "喪偶",
+      "獨居",
+      "家務整理",
+      "社交支持"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073459-widowed-money-documents-insurance-file-guide",
+    "title": "喪偶後財務、保險與重要文件整理指南",
+    "excerpt": "文件整理的目的不是立刻做所有決定，而是讓帳戶、保險、稅務與聯絡人回到可查找的位置。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/widowed-money-documents-insurance-file-guide.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "喪偶",
+      "財務文件",
+      "保險",
+      "一人生活"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
+    "id": "auto-20260529073459-widowed-return-taiwan-housing-money-people-checklist",
+    "title": "返台前住所、財務、人際與情緒決策清單",
+    "excerpt": "返台不是單純搬家，而是把住所、財務、人際與情緒支持重新接回一個能生活的城市。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/widowed-return-taiwan-housing-money-people-checklist.html",
+    "publishedDateText": "2026年5月29日",
+    "tags": [
+      "返台生活",
+      "喪偶",
+      "海歸",
+      "一人生活"
+    ],
+    "faqQuestions": [
+      "這篇文章可以取代專業諮詢嗎？",
+      "為什麼這類文章仍然放入延伸選物？",
+      "如果只能先做一件事，應該從哪裡開始？"
+    ]
+  },
+  {
     "id": "auto-20260529041508-global-top-travel-destinations-2026",
     "title": "2026 全球五大最新熱門旅遊景點",
     "excerpt": "從日蝕海岸、百年公路到火山島慢旅，整理五個 2026 值得被看見的目的地。",

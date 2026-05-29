@@ -1,15 +1,46 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-29T04:15:08Z",
+  "updatedAt": "2026-05-29T07:35:00Z",
   "status": "generated",
-  "triggerType": "manual-codex-researched-editorial",
-  "queueId": "Q-0019",
+  "triggerType": "manual-codex-solo-living-affiliate-no-newsletter",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260529041508-global-top-travel-destinations-2026"
+    "auto-20260529073459-entrepreneur-emotional-boundaries-independent-space",
+    "auto-20260529073459-entrepreneur-finance-health-home-security-steps",
+    "auto-20260529073459-solo-living-not-a-step-back-six-questions",
+    "auto-20260529073459-high-intensity-work-home-rhythm-layout",
+    "auto-20260529073459-solo-home-emotional-support-boundaries",
+    "auto-20260529073459-widowed-first-30-days-emotional-daily-reset",
+    "auto-20260529073459-widowed-home-chores-time-social-rhythm",
+    "auto-20260529073459-widowed-money-documents-insurance-file-guide",
+    "auto-20260529073459-widowed-return-taiwan-housing-money-people-checklist",
+    "auto-20260529073459-first-year-back-taiwan-daily-life-social-circle",
+    "auto-20260529073500-cross-border-memory-family-dialogue-forward",
+    "auto-20260529073500-widowed-entrepreneur-first-90-days-business-grief",
+    "auto-20260529073500-delegate-business-team-emergency-agent-checklist",
+    "auto-20260529073500-entrepreneur-long-term-resilience-finance-community-selfcare",
+    "auto-20260529073500-executive-widowed-first-month-stability-plan",
+    "auto-20260529073500-executive-public-grief-board-team-leadership",
+    "auto-20260529073500-long-term-solo-living-home-safety-support-map"
   ],
   "articleSlugs": [
-    "global-top-travel-destinations-2026"
+    "entrepreneur-emotional-boundaries-independent-space",
+    "entrepreneur-finance-health-home-security-steps",
+    "solo-living-not-a-step-back-six-questions",
+    "high-intensity-work-home-rhythm-layout",
+    "solo-home-emotional-support-boundaries",
+    "widowed-first-30-days-emotional-daily-reset",
+    "widowed-home-chores-time-social-rhythm",
+    "widowed-money-documents-insurance-file-guide",
+    "widowed-return-taiwan-housing-money-people-checklist",
+    "first-year-back-taiwan-daily-life-social-circle",
+    "cross-border-memory-family-dialogue-forward",
+    "widowed-entrepreneur-first-90-days-business-grief",
+    "delegate-business-team-emergency-agent-checklist",
+    "entrepreneur-long-term-resilience-finance-community-selfcare",
+    "executive-widowed-first-month-stability-plan",
+    "executive-public-grief-board-team-leadership",
+    "long-term-solo-living-home-safety-support-map"
   ],
-  "notes": "Codex 手動研究撰文與封面生成；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動批次撰文與封面生成；直接推上 main 不會自動寄送電子報。"
 }
