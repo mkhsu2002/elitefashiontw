@@ -1,25 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T23:57:44Z",
+  "updatedAt": "2026-05-29T00:31:22Z",
   "status": "generated",
   "triggerType": "manual-codex-momo-new-audience-no-newsletter",
-  "queueId": "Q-0017",
+  "queueId": "Q-0018",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260528235744-entry-living-bathroom-scent-routine",
-    "auto-20260528235744-office-home-snack-cabinet-nuts-tea-dessert",
-    "auto-20260528235744-coffee-cup-desk-afternoon-reset",
-    "auto-20260528235744-pet-label-cleaning-restock-without-claims",
-    "auto-20260528235744-family-entry-bathroom-home-supplies",
-    "auto-20260528235744-beauty-scent-gift-shelf-before-buying"
+    "auto-20260529003122-elder-home-reading-care-vision-layout-supplies"
   ],
   "articleSlugs": [
-    "entry-living-bathroom-scent-routine",
-    "office-home-snack-cabinet-nuts-tea-dessert",
-    "coffee-cup-desk-afternoon-reset",
-    "pet-label-cleaning-restock-without-claims",
-    "family-entry-bathroom-home-supplies",
-    "beauty-scent-gift-shelf-before-buying"
+    "elder-home-reading-care-vision-layout-supplies"
   ],
   "notes": "Codex 手動分批撰文與封面生成；直接推上 main 不會自動寄送電子報。"
 }

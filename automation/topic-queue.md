@@ -209,3 +209,12 @@
 4. 寵物用品補貨先看標示：食品、清潔、玩具與日常記錄怎麼分區｜published｜新手寵物家庭、貓狗用品補貨與清潔整理讀者｜lifestyle-culture｜文章 ID：auto-20260528235744-pet-label-cleaning-restock-without-claims｜檔案：lifestyle-culture/pet-label-cleaning-restock-without-claims.html
 5. 家庭玄關與浴室備品：母嬰用品、牙刷、濕紙巾與居家小物怎麼放｜published｜家庭補貨、親子日用品與小宅收納讀者｜lifestyle-culture｜文章 ID：auto-20260528235744-family-entry-bathroom-home-supplies｜檔案：lifestyle-culture/family-entry-bathroom-home-supplies.html
 6. 保養、香氛與小飾品送禮前先確認：膚況、氣味、保存與退換｜published｜日常保養、香氛送禮、美妝入門與伴手禮讀者｜lifestyle-culture｜文章 ID：auto-20260528235744-beauty-scent-gift-shelf-before-buying｜檔案：lifestyle-culture/beauty-scent-gift-shelf-before-buying.html
+
+## Q-0018｜長輩閱讀、照護備品與居家動線補齊
+
+- 狀態：completed
+- 規劃篇數：1
+- 補充方向：補齊既定 momo 新受眾規劃中尚未發布的長輩用品題目；公開文章聚焦閱讀光線、眼鏡拿取、照護備品位置與家人協作，不使用療效或安全保證語氣。
+- 建立時間：2026-05-29T00:31:22Z
+
+1. 長輩用品不只看功能：閱讀、照護、眼鏡與居家動線的準備順序｜published｜照護家庭、家庭旅行、閱讀與居家備品整理讀者｜wellness-movement｜文章 ID：auto-20260529003122-elder-home-reading-care-vision-layout-supplies｜檔案：wellness-movement/elder-home-reading-care-vision-layout-supplies.html

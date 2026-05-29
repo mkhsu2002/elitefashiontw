@@ -1,5 +1,13 @@
 # 發文紀錄
 
+## 2026-05-29T00:31:22Z｜長輩用品不只看功能：閱讀、照護、眼鏡與居家動線的準備順序
+
+- 文章 ID：auto-20260529003122-elder-home-reading-care-vision-layout-supplies
+- URL：https://tw.elitefasion.com/wellness-movement/elder-home-reading-care-vision-layout-supplies.html
+- 檔案：wellness-movement/elder-home-reading-care-vision-layout-supplies.html
+- 類型：manual-codex-momo-new-audience-no-newsletter
+- Queue：Q-0018
+
 ## 2026-05-28T23:57:44Z｜保養、香氛與小飾品送禮前先確認：膚況、氣味、保存與退換
 
 - 文章 ID：auto-20260528235744-beauty-scent-gift-shelf-before-buying

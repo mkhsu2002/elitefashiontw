@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-05-28T23:57:45Z",
+  "updatedAt": "2026-05-29T00:31:22Z",
   "latest": [
+    {
+      "id": "auto-20260529003122-elder-home-reading-care-vision-layout-supplies",
+      "title": "長輩用品不只看功能：閱讀、照護、眼鏡與居家動線的準備順序",
+      "excerpt": "替長輩準備用品時，功能只是第一步；真正影響日常的是拿取高度、閱讀光線、備品位置與家人協作。",
+      "category": "wellness-movement",
+      "categoryLabel": "健康恢復",
+      "series": "日常選物指南",
+      "publishedAt": "2026-05-29T00:31:22Z",
+      "publishedDateText": "2026年5月29日",
+      "relativeUrl": "wellness-movement/elder-home-reading-care-vision-layout-supplies.html",
+      "heroImage": "/images/optimized/article-covers/elder-home-reading-care-vision-layout-supplies.jpg",
+      "tags": [
+        "閱讀用品",
+        "照護備品",
+        "眼鏡",
+        "居家動線",
+        "選物指南",
+        "生活採買"
+      ]
+    },
     {
       "id": "auto-20260528235744-beauty-scent-gift-shelf-before-buying",
       "title": "保養、香氛與小飾品送禮前先確認：膚況、氣味、保存與退換",
@@ -217,26 +237,6 @@
         "零食",
         "玩具",
         "慶生小物",
-        "選物指南",
-        "生活採買"
-      ]
-    },
-    {
-      "id": "auto-20260528231624-road-trip-camping-dashcam-jump-starter-cookware",
-      "title": "自駕與露營路上的備用清單：行車記錄器、救車電源、餐廚與戶外小物",
-      "excerpt": "自駕與露營前先把車內、餐廚、雨天與回家收納分區，備用品才不會變成車廂雜物。",
-      "category": "outdoor-escapes",
-      "categoryLabel": "戶外生活",
-      "series": "日常選物指南",
-      "publishedAt": "2026-05-28T23:16:24Z",
-      "publishedDateText": "2026年5月28日",
-      "relativeUrl": "outdoor-escapes/road-trip-camping-dashcam-jump-starter-cookware.html",
-      "heroImage": "/images/optimized/article-covers/road-trip-camping-dashcam-jump-starter-cookware.jpg",
-      "tags": [
-        "行車記錄器",
-        "救車電源",
-        "餐廚",
-        "戶外小物",
         "選物指南",
         "生活採買"
       ]
@@ -748,6 +748,26 @@
       "label": "健康恢復",
       "items": [
         {
+          "id": "auto-20260529003122-elder-home-reading-care-vision-layout-supplies",
+          "title": "長輩用品不只看功能：閱讀、照護、眼鏡與居家動線的準備順序",
+          "excerpt": "替長輩準備用品時，功能只是第一步；真正影響日常的是拿取高度、閱讀光線、備品位置與家人協作。",
+          "category": "wellness-movement",
+          "categoryLabel": "健康恢復",
+          "series": "日常選物指南",
+          "publishedAt": "2026-05-29T00:31:22Z",
+          "publishedDateText": "2026年5月29日",
+          "relativeUrl": "wellness-movement/elder-home-reading-care-vision-layout-supplies.html",
+          "heroImage": "/images/optimized/article-covers/elder-home-reading-care-vision-layout-supplies.jpg",
+          "tags": [
+            "閱讀用品",
+            "照護備品",
+            "眼鏡",
+            "居家動線",
+            "選物指南",
+            "生活採買"
+          ]
+        },
+        {
           "id": "auto-20260528231624-office-sitting-low-barrier-stretch-snack-pillow",
           "title": "辦公室久坐後的低門檻活動清單：伸展小物、枕頭與低負擔點心",
           "excerpt": "久坐後先把能確實做得到的小活動放進工作日，伸展小物、枕頭與點心都要回到使用頻率判斷。",
@@ -837,24 +857,6 @@
             "浴室動線",
             "收納",
             "安全提醒"
-          ]
-        },
-        {
-          "id": "auto-20260520071636-home-comfort-massage-device-brace-gift-guide",
-          "title": "Elite Fashion｜給家人的居家舒適設備怎麼看",
-          "excerpt": "從空間、收納、使用習慣與提醒事項，整理按摩椅、按摩槍、護具與生活用品的選擇順序。",
-          "category": "wellness-movement",
-          "categoryLabel": "健康恢復",
-          "series": "身體恢復與低壓伸展",
-          "publishedAt": "2026-05-20T07:16:36Z",
-          "publishedDateText": "2026年5月20日",
-          "relativeUrl": "wellness-movement/home-comfort-massage-device-brace-gift-guide.html",
-          "heroImage": "images/optimized/article-covers/home-comfort-massage-device-brace-gift-guide.jpg",
-          "tags": [
-            "居家舒適設備",
-            "按摩椅",
-            "按摩槍",
-            "家人禮物"
           ]
         }
       ]

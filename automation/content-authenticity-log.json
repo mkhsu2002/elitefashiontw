@@ -1,7 +1,76 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T23:58:15Z",
+  "updatedAt": "2026-05-29T00:31:45Z",
   "entries": [
+    {
+      "articleId": "auto-20260529003122-elder-home-reading-care-vision-layout-supplies",
+      "slug": "elder-home-reading-care-vision-layout-supplies",
+      "riskLevel": "high",
+      "checkedAt": "2026-05-29T00:31:45Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005096/main",
+        "https://www.momoshop.com.tw/TP/TP0004194/main",
+        "https://www.momoshop.com.tw/TP/TP0009515/main",
+        "https://www.momoshop.com.tw/TP/TP0008981/main",
+        "https://s.momoshop.com.tw/s/BJygEgc9",
+        "https://s.momoshop.com.tw/s/cZsA0nYx",
+        "https://s.momoshop.com.tw/s/dkaqpz0C",
+        "https://s.momoshop.com.tw/s/jpF4gRvm",
+        "https://tw.elitefasion.com/wellness-movement/elder-home-reading-care-vision-layout-supplies.html",
+        "https://tw.elitefasion.com/images/optimized/article-covers/elder-home-reading-care-vision-layout-supplies.jpg",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca",
+        "https://www.facebook.com/northpathca/"
+      ],
+      "reviewer": "automation"
+    },
     {
       "articleId": "auto-20260528235744-beauty-scent-gift-shelf-before-buying",
       "slug": "beauty-scent-gift-shelf-before-buying",

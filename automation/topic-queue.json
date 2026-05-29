@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T23:57:44Z",
-  "nextQueueSequence": 18,
+  "updatedAt": "2026-05-29T00:31:22Z",
+  "nextQueueSequence": 19,
   "series": [
     {
       "queueId": "Q-0001",
@@ -1142,6 +1142,29 @@
           "articleId": "auto-20260528235744-beauty-scent-gift-shelf-before-buying",
           "file": "lifestyle-culture/beauty-scent-gift-shelf-before-buying.html",
           "publishedAt": "2026-05-28T23:57:44Z"
+        }
+      ]
+    },
+    {
+      "queueId": "Q-0018",
+      "topic": "長輩閱讀、照護備品與居家動線補齊",
+      "direction": "補齊既定 momo 新受眾規劃中尚未發布的長輩用品題目；公開文章聚焦閱讀光線、眼鏡拿取、照護備品位置與家人協作，不使用療效或安全保證語氣。",
+      "plannedCount": 1,
+      "status": "completed",
+      "source": "momo-ab-new-audience-roadmap",
+      "createdAt": "2026-05-29T00:31:22Z",
+      "seriesName": "momo 新受眾規劃補齊",
+      "items": [
+        {
+          "order": 1,
+          "slug": "elder-home-reading-care-vision-layout-supplies",
+          "title": "長輩用品不只看功能：閱讀、照護、眼鏡與居家動線的準備順序",
+          "targetReader": "照護家庭、家庭旅行、閱讀與居家備品整理讀者",
+          "category": "wellness-movement",
+          "status": "published",
+          "articleId": "auto-20260529003122-elder-home-reading-care-vision-layout-supplies",
+          "file": "wellness-movement/elder-home-reading-care-vision-layout-supplies.html",
+          "publishedAt": "2026-05-29T00:31:22Z"
         }
       ]
     }

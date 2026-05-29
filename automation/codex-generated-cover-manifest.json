@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T23:57:44Z",
+  "updatedAt": "2026-05-29T00:31:22Z",
   "generator": "codex-imagegen-built-in",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -300,6 +300,15 @@
       "output": "images/optimized/article-covers/beauty-scent-gift-shelf-before-buying.jpg",
       "sha256": "38fe8f6e9c9a200641302d8416fbb1a4b9514bef2be5a1d57529bcd9d7159954",
       "generatedAt": "2026-05-28T23:57:44Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
+    },
+    "elder-home-reading-care-vision-layout-supplies": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019e6f48-25a3-70e3-af05-01a11108fe4d/ig_0612535e4e875d3d016a18ddcf903c819892f3ad3e8b68ccb7.png",
+      "output": "images/optimized/article-covers/elder-home-reading-care-vision-layout-supplies.jpg",
+      "sha256": "a5411b60c72cb35b7c0a693df7b119571eeafa49c2d1d2aa67e54056942463ae",
+      "generatedAt": "2026-05-29T00:31:22Z",
       "usage": "cover-og-twitter",
       "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。"
     }
