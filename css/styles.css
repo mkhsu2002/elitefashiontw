@@ -173,6 +173,162 @@ ul {
 }
 
 /* ==========================================
+   Cornerstone Hubs and SEO Link Paths
+   ========================================== */
+.cornerstone-hero {
+    background: linear-gradient(135deg, #f6f3ed 0%, #eef3f0 100%);
+}
+
+.cornerstone-eyebrow,
+.cornerstone-updated {
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+.cornerstone-eyebrow {
+    margin-bottom: 0.8rem;
+}
+
+.cornerstone-updated {
+    margin-top: 1rem;
+}
+
+.cornerstone-intro {
+    padding: 4.5rem 0 2rem;
+}
+
+.cornerstone-share-image {
+    margin: 0 auto 2.6rem;
+    max-width: 960px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--surface-warm);
+    box-shadow: var(--shadow-md);
+}
+
+.cornerstone-share-image img {
+    width: 100%;
+    aspect-ratio: 1200 / 630;
+    object-fit: cover;
+}
+
+.cornerstone-share-image figcaption {
+    padding: 0.85rem 1rem;
+    color: var(--text-light);
+    font-size: 0.92rem;
+}
+
+.cornerstone-prose {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.cornerstone-prose p {
+    margin-bottom: 1.25rem;
+    font-size: 1.08rem;
+    color: #2d2d2d;
+}
+
+.hub-link-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.hub-link-card a {
+    display: grid;
+    grid-template-columns: 54px minmax(0, 1fr);
+    gap: 1rem;
+    min-height: 96px;
+    padding: 1.2rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: var(--shadow-sm);
+}
+
+.hub-link-card span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: 800;
+}
+
+.hub-link-card h3 {
+    align-self: center;
+    font-size: 1.04rem;
+    line-height: 1.45;
+}
+
+.cornerstone-category-link {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.cornerstone-category-link a,
+.seo-cluster-links a {
+    color: var(--accent-color);
+}
+
+.cornerstone-faq .faq-item,
+.policy-section {
+    max-width: 880px;
+    margin: 0 auto 1rem;
+    padding: 1.1rem 1.25rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: #fffdf8;
+}
+
+.cornerstone-faq .faq-item summary {
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.policy-page .container {
+    max-width: 960px;
+}
+
+.policy-section h2 {
+    margin-bottom: 0.65rem;
+    font-family: var(--font-serif);
+    font-size: 1.65rem;
+}
+
+.seo-cluster-links {
+    margin-top: 2.5rem;
+    padding: 1.4rem;
+    border-radius: 8px;
+    background: var(--surface-sage);
+}
+
+.seo-cluster-links p {
+    margin-bottom: 1rem;
+}
+
+.seo-cluster-links ul {
+    padding-left: 1.2rem;
+    list-style: disc;
+}
+
+@media (max-width: 720px) {
+    .hub-link-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hub-link-card a {
+        grid-template-columns: 46px minmax(0, 1fr);
+        padding: 1rem;
+    }
+}
+
+/* ==========================================
    Hero Section
    ========================================== */
 .hero {

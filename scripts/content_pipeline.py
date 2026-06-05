@@ -343,6 +343,10 @@ def relative_to_root(path: Path) -> str:
 
 
 def path_to_url(base_url: str, relative_path: str) -> str:
+    if relative_path == "index.html":
+        return f"{base_url.rstrip('/')}/"
+    if relative_path.endswith(".html"):
+        relative_path = relative_path[:-5]
     return f"{base_url.rstrip('/')}/{relative_path.lstrip('/')}"
 
 
@@ -1100,6 +1104,7 @@ def render_site_footer(prefix: str = "") -> str:
                         <h4>關於與聯絡</h4>
                         <ul>
                             <li><a href="{prefix}about.html">關於我們</a></li>
+                            <li><a href="{prefix}editorial-policy.html">編輯政策與更正說明</a></li>
                             <li><a href="{prefix}contact.html">聯絡我們</a></li>
                             <li><a href="mailto:northpathca@gmail.com">northpathca@gmail.com</a></li>
                             <li><a href="https://www.instagram.com/northpath.ca" target="_blank" rel="noopener">Instagram</a></li>
@@ -1286,6 +1291,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
     <meta name="twitter:image" content="{html.escape(hero_image_url)}">
     <meta name="twitter:image:alt" content="{html.escape(article.get('heroImageAlt') or article['title'])}">
     <link rel="canonical" href="{html.escape(canonical)}">
+    <link rel="alternate" type="application/rss+xml" title="Elite Fashion RSS" href="{html.escape(config['baseUrl'].rstrip('/'))}/feed.xml">
     <link rel="stylesheet" href="../css/styles.css?v=1.2">
     <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -2185,6 +2191,7 @@ def rebuild_outputs(config: dict[str, Any], categories: dict[str, CategoryConfig
         replace_marker_block(ROOT / category.page, f"category-{key}-latest", cards)
 
     subprocess.run([sys.executable, str(ROOT / "generate_sitemap.py")], cwd=ROOT, check=True)
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "seo_site_maintenance.py")], cwd=ROOT, check=True)
     return registry
 
 
