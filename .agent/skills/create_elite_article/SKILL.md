@@ -1,82 +1,56 @@
 ---
 name: create_elite_article
-description: Creates a high-value, SEO-optimized article for Elite Fashion, ensuring deep content, premium aesthetics, and complete social sharing tags.
+description: Create, edit, or review Elite Fashion TW articles with the project's Traditional Chinese editorial voice, article taxonomy, hub assignments, affiliate disclosure, and SEO/schema requirements.
 ---
 
-# Skill: Create Elite Article
+# Elite Fashion 文章產製 Skill
 
-This skill encapsulates the editorial standards for creating "Deep Long-form" content for the Elite Fashion brand. Use this skill whenever the user requests a new article or series of articles.
+## 使用時機
 
-## 1. Preparation Phase
-- **Consult Editorial Guidelines**: Understand the core objective: High-Value Affiliate Monetization.
-- **Audience Targeting**: Focus on High-Net-Worth Individuals (HNWIs) in Taiwan/Asia.
-- **SEO Research**: Identify high commercial intent keywords (e.g., "Best...", "Review", "Guide").
-- **Title Selection**: Create a compelling H1 that includes the current year (e.g., "2026") and a strong promise or benefit.
+- 新增、改寫、審核或批次產生 Elite Fashion TW 文章。
+- 調整文章分類、hub 歸屬、內鏈、FAQ、導購揭露、封面或 schema。
+- 檢查文章是否符合專案 AGENTS 與 `automation/seo-content-execution-rules.md`。
 
-## 2. Content Structure (Deep Long-form)
-- **Word Count**: Target 2,500+ words (or sufficient depth to dominate SEO).
-- **Hierarchy**: Use strict `H1 -> H2 -> H3 -> H4 -> H5` nesting.
-- **Essential Elements**:
-    -   **Data Tables**: MUST include at least one CSS-styled comparison table (Product A vs Product B).
-    -   **Expert Quotes**: Use real or realistic industry quotes to build authority.
-    -   **Local Context**: MUST reference Taiwan (Taipei, Xinyi District, Dcard, PTT) to build trust.
-    -   **Affiliate CTAs**: Place distinct, professional buttons (e.g., "View Offer", "Check Price") after product mentions.
+## 必讀檔案
 
-## 3. Visual & Aesthetic Standards
-- **Cover Image**:
-    -   Use `curl` to download a high-quality, relevant stock photo from `loremflickr.com` or similar.
-    -   AVOID repetitive AI-generated style if possible; prefer realistic photography.
-    -   Image Path: `images/generated/ai/[filename].png` (or appropriate category folder).
-- **Styling**:
-    -   Font: `Playfair Display` for headers (Luxury), `Inter` for body (Readability).
-    -   Spacing: Use generous whitespace (`line-height: 1.8`, padding).
-    -   Color Palette: Adhere to the brand's premium palette (Gold, Dark Grey, White).
+先讀這些專案檔，避免寫出與現行流程衝突的內容：
 
-## 4. Technical Requirements (Critical)
-- **Meta Tags**:
-    -   `description`: Compelling summary for SERP (Search Engine Results Page).
-    -   `keywords`: 5-8 relevant tags.
-- **Open Graph (Social Sharing) - NON-NEGOTIABLE**:
-    -   `og:type`: `article`
-    -   `og:title`: Same as page title.
-    -   `og:description`: Same as meta description.
-    -   `og:url`: Full absolute URL (e.g., `https://mkhsu2002.github.io/elitefashiontw/...`).
-    -   `og:image`: Full absolute URL to the cover image. **This is crucial for social sharing.**
+- `AGENTS.md`
+- `automation/seo-content-execution-rules.md`
+- `automation/editorial-style-guide.md`
+- `automation/momo-affiliate-content-architecture.md`（只有 momo 聯盟文章需要）
+- `automation/momo-brand-recommendation-tracker.csv`（只有 momo 聯盟文章需要）
+- `scripts/article_taxonomy.py`
 
-## 5. Implementation Steps
-1.  **Drafting**: Write the HTML content following the structure above.
-2.  **Image Sourcing**: Download the cover image.
-3.  **Review**: Verify all tags (especially OG tags) and local context references.
-4.  **Integration**: Add the new article card to the relevant landing page grid.
-5.  **Commit**: Git commit with a descriptive message.
+## 文章資訊架構
 
-## Example HTML Structure
-```html
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <title>Article Title | Elite Fashion</title>
-    <meta name="description" content="...">
-    <meta name="keywords" content="...">
-    <!-- Open Graph Tags -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="...">
-    <meta property="og:description" content="...">
-    <meta property="og:url" content="...">
-    <meta property="og:image" content="...">
-    <link rel="stylesheet" href="../css/styles.css">
-    <!-- Fonts & Styles -->
-    ...
-</head>
-<body>
-    <!-- Navbar -->
-    <div class="article-container">
-        <!-- Meta Info -->
-        <!-- Image -->
-        <!-- Content -->
-    </div>
-    <!-- Footer -->
-</body>
-</html>
+- 每篇文章必須有且只能有 1 個 `primaryHub`。
+- 每篇文章可有 0 到 2 個 `secondaryHubs`，不可與 `primaryHub` 重複。
+- 文章 breadcrumb 使用 `primaryHub`，不是只使用大分類。
+- `secondaryHubs` 只作為延伸主題閱讀，不要在前台使用「secondaryHub」這種內部字。
+- 每個 cornerstone hub 頁只顯示 8 到 12 篇核心文章；核心清單由 `scripts/article_taxonomy.py` 的 `CORE_HUB_LINKS` 管理。
+- 穩定細分類使用 `topicCategory` / `topicCategoryLabel`，數量維持 16 到 24 個；不要因單篇文章新增臨時分類。
+- 大分類仍沿用 `automation/site-config.json` 的既有分類；除非使用者明確要求，不新增大分類頁。
+
+## 內容規則
+
+- 全文繁體中文，語氣像雜誌編輯團隊，不暴露 AI、prompt、SEO、批次、品牌池、矩陣、導流等內部語言。
+- 文章需先有雜誌式引言與讀者問題框架，再進入商品、品牌或工具。
+- 每篇文章需有具體判斷段落，例如台灣情境、使用頻率、取捨順序、常見錯誤或選購順序。
+- FAQ、CTA、重要內鏈與導購揭露必須存在於初始 HTML，不可只靠 JavaScript 載入。
+- 涉及健康、睡眠、食品、護具、照護、美容成分或身體不適時，不承諾療效、減重、保健或抗老效果。
+- 若含導購連結，正文最末端必須有可見導購揭露，連結使用 `rel="sponsored nofollow"`。
+
+## 產出與驗證
+
+完成文章或分類/hub 調整後，至少執行：
+
+```bash
+python3 scripts/content_pipeline.py sync
+python3 -m py_compile scripts/content_pipeline.py scripts/seo_site_maintenance.py scripts/article_taxonomy.py generate_sitemap.py
+python3 -m unittest discover tests
 ```
+
+若變更 sitemap/feed/schema，再檢查 `sitemap.xml`、`feed.xml`、`rss.xml` 可被 XML parser 解析。
+
+不要自動 commit / push；只有使用者明確要求發布或推送時才執行。

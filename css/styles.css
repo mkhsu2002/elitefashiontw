@@ -317,8 +317,41 @@ ul {
     list-style: disc;
 }
 
+.category-archive-section {
+    background: var(--bg-light);
+}
+
+.category-archive-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem 1rem;
+}
+
+.category-archive-list li {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.category-archive-list a {
+    display: block;
+    padding: 0.75rem 0;
+    font-weight: 700;
+    line-height: 1.55;
+}
+
+.category-archive-list span {
+    display: block;
+    margin-bottom: 0.2rem;
+    color: var(--accent-color);
+    font-size: 0.78rem;
+    font-weight: 800;
+}
+
 @media (max-width: 720px) {
     .hub-link-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .category-archive-list {
         grid-template-columns: 1fr;
     }
 

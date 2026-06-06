@@ -28,6 +28,11 @@ try:
 except ModuleNotFoundError:
     from scripts.content_authenticity_audit import audit_article_for_publish, upsert_audit_log
 
+try:
+    from article_taxonomy import enrich_article_record, validate_article_taxonomy
+except ModuleNotFoundError:
+    from scripts.article_taxonomy import enrich_article_record, validate_article_taxonomy
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "automation" / "site-config.json"
@@ -47,6 +52,9 @@ TOP_LEVEL_NON_ARTICLE_PAGES = {
     "runway-trends.html",
     "search.html",
     "body-rhythm-reset.html",
+    "commute-style-reset.html",
+    "editorial-policy.html",
+    "outdoor-travel-reset.html",
     "spring-summer-capsule-wardrobe.html",
     "spring-summer-2026.html",
     "trend-translation-2026.html",
@@ -62,6 +70,48 @@ LEGACY_CATEGORY_LABELS = {
     "life-proposals": "人生提案",
     "special-features": "特輯",
     "uap-ufo-declassified": "特輯",
+}
+LEGACY_LIFE_PROPOSALS_CATEGORY_OVERRIDES = {
+    "10-min-micro-exercise.html": "wellness-movement",
+    "40-body-revolution.html": "wellness-movement",
+    "ai-career-navigation-for-managers.html": "ai-innovation",
+    "ai-second-curve-for-career-pivot.html": "ai-innovation",
+    "ai-side-hustle-for-experts.html": "ai-innovation",
+    "aromatherapy-hormones.html": "wellness-movement",
+    "art-of-scarves.html": "casual-chic",
+    "bone-health-anti-aging.html": "wellness-movement",
+    "breathing-for-anxiety.html": "wellness-movement",
+    "capsule-wardrobe-basics.html": "casual-chic",
+    "comfortable-stylish-shoes.html": "casual-chic",
+    "dressing-for-body-type-curves.html": "casual-chic",
+    "eye-care-presbyopia.html": "wellness-movement",
+    "fabric-matters-cashmere-silk.html": "casual-chic",
+    "finding-your-style-at-40.html": "casual-chic",
+    "glasses-chic-accessory.html": "casual-chic",
+    "grey-hair-revolution.html": "casual-chic",
+    "gut-health-second-brain.html": "wellness-movement",
+    "hair-loss-scalp-care.html": "wellness-movement",
+    "hairstyle-frames-your-face.html": "casual-chic",
+    "hand-neck-care-secrets.html": "wellness-movement",
+    "health-check-list-40plus.html": "wellness-movement",
+    "hot-flashes-diet.html": "wellness-movement",
+    "jewelry-statement-pieces.html": "casual-chic",
+    "joint-health-travel.html": "wellness-movement",
+    "lingerie-internal-confidence.html": "casual-chic",
+    "makeup-for-mature-skin.html": "casual-chic",
+    "manicure-magic-nails.html": "casual-chic",
+    "menopause-is-second-youth.html": "wellness-movement",
+    "minimalism-skincare.html": "casual-chic",
+    "posture-correction-youth.html": "wellness-movement",
+    "self-massage-lymphatic.html": "wellness-movement",
+    "signature-scent-fragrance.html": "lifestyle-culture",
+    "skincare-glow-not-anti-aging.html": "casual-chic",
+    "sleep-well-menopause.html": "wellness-movement",
+    "smile-makeover-dental.html": "wellness-movement",
+    "sugar-detox-impact.html": "wellness-movement",
+    "tcm-woman-40.html": "wellness-movement",
+    "timeless-bag-investment.html": "casual-chic",
+    "water-hydration-anti-aging.html": "wellness-movement",
 }
 MARKER_PREFIX = "AUTO-GENERATED"
 CURATED_CATEGORY_IMAGE_POOLS = {
@@ -542,6 +592,10 @@ def detect_category(path: Path, categories: dict[str, CategoryConfig]) -> tuple[
         key = path.parent.name
         if key == "uap-ufo-declassified":
             return "special-features", LEGACY_CATEGORY_LABELS["special-features"]
+        if key == "life-proposals":
+            mapped = LEGACY_LIFE_PROPOSALS_CATEGORY_OVERRIDES.get(path.name, "lifestyle-culture")
+            if mapped in categories:
+                return mapped, categories[mapped].label
         if key in categories:
             return key, categories[key].label
         return key, LEGACY_CATEGORY_LABELS.get(key, key.replace("-", " ").title())
@@ -668,6 +722,11 @@ def build_registry(config: dict[str, Any], categories: dict[str, CategoryConfig]
         records.append(record)
     records.extend(generated.values())
     records.sort(key=lambda item: item.get("publishedAt", ""), reverse=True)
+    for record in records:
+        enrich_article_record(record)
+    taxonomy_errors = validate_article_taxonomy(records)
+    if taxonomy_errors:
+        raise PipelineError("Article taxonomy validation failed:\n" + "\n".join(taxonomy_errors[:50]))
     return records
 
 
@@ -3386,8 +3445,6 @@ def verify_outputs(config: dict[str, Any], categories: dict[str, CategoryConfig]
 
 def command_sync(config: dict[str, Any], categories: dict[str, CategoryConfig]) -> None:
     rebuild_outputs(config, categories)
-    latest_run_path = ROOT / config["paths"]["latestRunJson"]
-    write_json(latest_run_path, {"status": "synced", "updatedAt": now_iso()})
 
 
 def command_generate_now(config: dict[str, Any], categories: dict[str, CategoryConfig], topic: str, *, fixture: bool = False) -> dict[str, Any]:

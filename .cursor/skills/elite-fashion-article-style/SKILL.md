@@ -13,7 +13,7 @@ description: Ensures Elite Fashion TW article content is grammatically correct, 
 ## 一、語氣與定位
 
 - **角色**：專業生活時尚編輯，不是行銷文案或 AI 講稿。
-- **讀者**：40+ 台灣女性，追求質感與實用並重。
+- **讀者**：台灣高效率生活讀者、白領菁英與重視質感日常的人；前台不要直白寫出年齡標籤，除非主題本身需要。
 - **語氣**：理性、有顧問感；多用「您」；每段不宜過長，便於手機閱讀。
 - **用詞**：台灣慣用語優先——使用「影片」而非「視頻」、「軟體」而非「軟件」、「資訊」而非「信息」。價格標註 TWD 或 USD。
 
@@ -42,6 +42,14 @@ description: Ensures Elite Fashion TW article content is grammatically correct, 
 - **小標（h2/h3）**：依邏輯順序（例如：概念 → 實作 → 在地建議 → 總結），編號若使用則一致（一、二、三 或 1. 2. 3.），且**不要出現兩個相同編號**（如兩個「二、」）。
 - **段落**：每段 2～4 句為宜，必要時用條列（ul/ol）或短 bullet，方便掃讀。
 - **結尾**：收束在具體建議或一句有餘韻的話，避免重複口號型句子（如「Elite Fashion 邀請您…絕對主權」）。
+
+## 三之一、文章資訊架構
+
+- 每篇文章只能有 1 個 `primaryHub`，可有 0 到 2 個 `secondaryHubs`。
+- 文章 breadcrumb 使用 `primaryHub`；`secondaryHubs` 只作為延伸主題閱讀。
+- 每個 cornerstone hub 頁只顯示 8 到 12 篇核心文章。
+- 穩定細分類使用 `scripts/article_taxonomy.py` 的 16 到 24 個 `topicCategory`，不要為單篇文章新增臨時分類。
+- 前台可寫「主題策展」「延伸主題」「相關文章」，不要出現 `primaryHub`、`secondaryHubs`、`taxonomy`、`cluster`、`SEO`、`矩陣`、`批次`。
 
 ## 四、文法與格式
 
@@ -79,5 +87,6 @@ description: Ensures Elite Fashion TW article content is grammatically correct, 
 - [ ] 沒有重複「對於 Elite 讀者而言」「本文將深度拆解…」
 - [ ] 小標編號連續且不重複，段落長度適中
 - [ ] 使用「您」、台灣用語（影片／軟體／資訊）、必要時 TWD
+- [ ] breadcrumb、延伸閱讀與分類歸屬符合 `scripts/article_taxonomy.py`
 - [ ] HTML 內無 `**粗體**`，標籤皆正確閉合
 - [ ] 結尾為具體建議或一句收束，而非口號重複

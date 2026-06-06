@@ -51,6 +51,16 @@ CATEGORY_PAGES = {
     "lifestyle-culture": ("生活品味", "lifestyle-culture.html"),
 }
 
+try:
+    from scripts.content_pipeline import LEGACY_LIFE_PROPOSALS_CATEGORY_OVERRIDES
+except Exception:
+    LEGACY_LIFE_PROPOSALS_CATEGORY_OVERRIDES = {}
+
+try:
+    from scripts.article_taxonomy import CORE_HUB_LINKS, enrich_article_record, hub_payload
+except Exception:
+    from article_taxonomy import CORE_HUB_LINKS, enrich_article_record, hub_payload
+
 
 def load_json(path: Path, default: Any) -> Any:
     if not path.exists():
@@ -170,6 +180,9 @@ def classify_page(path: Path) -> tuple[str, str, str]:
     if category_key in CATEGORY_PAGES:
         return "article", CATEGORY_PAGES[category_key][0], category_key
     if category_key == "life-proposals":
+        mapped = LEGACY_LIFE_PROPOSALS_CATEGORY_OVERRIDES.get(path.name, "lifestyle-culture")
+        if mapped in CATEGORY_PAGES:
+            return "article", CATEGORY_PAGES[mapped][0], mapped
         return "article", "生活品味", "lifestyle-culture"
     if category_key == "uap-ufo-declassified":
         return "article", "特輯", "special-features"
@@ -201,11 +214,27 @@ def extract_internal_links(content: str, page_path: Path, limit: int = 15) -> li
     return links
 
 
-def breadcrumb_schema(page_path: Path, title: str, category_key: str) -> dict[str, Any]:
+def breadcrumb_schema(
+    page_path: Path,
+    title: str,
+    category_key: str,
+    *,
+    page_type: str = "",
+    primary_hub: dict[str, str] | None = None,
+) -> dict[str, Any]:
     items = [
         {"@type": "ListItem", "position": 1, "name": "首頁", "item": f"{BASE_URL}/"},
     ]
-    if category_key in CATEGORY_PAGES and page_path.name != CATEGORY_PAGES[category_key][1]:
+    if page_type == "article" and primary_hub:
+        items.append(
+            {
+                "@type": "ListItem",
+                "position": len(items) + 1,
+                "name": primary_hub["title"],
+                "item": canonical_url(primary_hub["file"]),
+            }
+        )
+    elif category_key in CATEGORY_PAGES and page_path.name != CATEGORY_PAGES[category_key][1]:
         label, category_page = CATEGORY_PAGES[category_key]
         items.append(
             {
@@ -234,6 +263,18 @@ def maintenance_schema(page_path: Path, content: str) -> dict[str, Any]:
     description = extract_meta(content, "description") or extract_first_paragraph(content) or title
     image = extract_meta(content, "og:image", attr="property") or f"{BASE_URL}/images/og-main.jpg"
     modified = datetime.fromtimestamp(page_path.stat().st_mtime, tz=timezone.utc).isoformat()
+    taxonomy_record = enrich_article_record(
+        {
+            "file": relative,
+            "relativeUrl": relative,
+            "category": category_key,
+            "categoryLabel": category_label,
+            "title": title,
+            "excerpt": description,
+            "tags": [item.strip() for item in extract_meta(content, "keywords").split(",") if item.strip()],
+        }
+    )
+    primary_hub = taxonomy_record.get("primaryHub") if page_type == "article" else None
     graph: list[dict[str, Any]] = [
         {
             "@type": "Organization",
@@ -262,24 +303,29 @@ def maintenance_schema(page_path: Path, content: str) -> dict[str, Any]:
                 "query-input": "required name=search_term_string",
             },
         },
-        breadcrumb_schema(page_path, title, category_key),
+        breadcrumb_schema(page_path, title, category_key, page_type=page_type, primary_hub=primary_hub),
     ]
     if page_type == "article":
-        graph.append(
-            {
-                "@type": "Article",
-                "@id": f"{url}#article",
-                "headline": title,
-                "description": description,
-                "image": image,
-                "author": {"@id": f"{BASE_URL}/#organization"},
-                "publisher": {"@id": f"{BASE_URL}/#organization"},
-                "mainEntityOfPage": url,
-                "dateModified": modified,
-                "inLanguage": "zh-TW",
-                "articleSection": category_label,
-            }
-        )
+        article_schema = {
+            "@type": "Article",
+            "@id": f"{url}#article",
+            "headline": title,
+            "description": description,
+            "image": image,
+            "author": {"@id": f"{BASE_URL}/#organization"},
+            "publisher": {"@id": f"{BASE_URL}/#organization"},
+            "mainEntityOfPage": url,
+            "dateModified": modified,
+            "inLanguage": "zh-TW",
+            "articleSection": taxonomy_record.get("topicCategoryLabel") or category_label,
+            "about": [
+                {"@type": "Thing", "name": category_label},
+                {"@type": "Thing", "name": taxonomy_record.get("topicCategoryLabel") or category_label},
+            ],
+        }
+        if primary_hub:
+            article_schema["isPartOf"] = {"@id": f"{canonical_url(primary_hub['file'])}#webpage"}
+        graph.append(article_schema)
     else:
         graph.append(
             {
@@ -561,6 +607,11 @@ HUBS: list[dict[str, Any]] = [
         ],
     },
 ]
+
+
+for hub in HUBS:
+    hub["key"] = extensionless_path(hub["file"])
+    hub["links"] = CORE_HUB_LINKS.get(hub["key"], hub["links"])[:12]
 
 
 def render_nav(active: str = "") -> str:
@@ -966,44 +1017,121 @@ def inject_category_hub_blocks() -> None:
         path.write_text(content, encoding="utf-8")
 
 
-def inject_article_cluster_links() -> None:
-    for hub in HUBS:
-        category_label, category_page = CATEGORY_PAGES[hub["category"]]
-        paths = [ROOT / link_path for _, link_path in hub["links"] if (ROOT / link_path).exists()]
-        for index, path in enumerate(paths):
-            content = path.read_text(encoding="utf-8")
-            content = re.sub(
-                r"\s*<!-- SEO-CLUSTER:START -->.*?<!-- SEO-CLUSTER:END -->",
-                "",
-                content,
-                flags=re.I | re.S,
-            )
-            related = []
-            for offset in (1, 2):
-                label, rel = hub["links"][(index + offset) % len(hub["links"])]
-                related.append((label, rel))
-            related_links = "\n".join(
-                f'                    <li><a href="{extensionless_path(rel)}">{html.escape(label)}</a></li>'
-                for label, rel in related
-            )
-            block = f"""
-        <!-- SEO-CLUSTER:START -->
-        <section class="article-related seo-cluster-links" aria-label="主題延伸路徑">
-            <h2>主題延伸路徑</h2>
-            <p>若你想把這個主題讀成完整脈絡，可以先回到 <a href="/{extensionless_path(hub['file'])}">{html.escape(hub['title'])}</a>，再依序延伸到相關文章與分類總覽。</p>
-            <ul>
-                <li><a href="/{extensionless_path(hub['file'])}">回到{html.escape(hub['title'])}</a></li>
-{related_links}
-                <li><a href="/{extensionless_path(category_page)}">瀏覽更多{html.escape(category_label)}文章</a></li>
+def inject_category_archives() -> None:
+    index_payload = load_json(ROOT / "data" / "articles-index.json", {"items": []})
+    grouped: dict[str, list[dict[str, Any]]] = {key: [] for key in CATEGORY_PAGES}
+    for item in index_payload.get("items", []):
+        category = item.get("category")
+        if category in grouped:
+            grouped[category].append(item)
+    for category_key, items in grouped.items():
+        _, category_page = CATEGORY_PAGES[category_key]
+        path = ROOT / category_page
+        if not path.exists():
+            continue
+        content = path.read_text(encoding="utf-8")
+        content = re.sub(
+            r"\s*<!-- SEO-CATEGORY-ARCHIVE:START -->.*?<!-- SEO-CATEGORY-ARCHIVE:END -->",
+            "",
+            content,
+            flags=re.I | re.S,
+        )
+        links = "\n".join(
+            f"""                    <li>
+                        <a href="{extensionless_path(item.get('file') or item.get('relativeUrl') or '')}">
+                            <span>{html.escape(' · '.join(part for part in [item.get('categoryLabel'), item.get('topicCategoryLabel')] if part))}</span>
+                            {html.escape(item.get('title') or item.get('listingTitle') or 'Elite Fashion 文章')}
+                        </a>
+                    </li>"""
+            for item in items
+        )
+        block = f"""
+    <!-- SEO-CATEGORY-ARCHIVE:START -->
+    <section class="content-section category-archive-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">本分類完整文章索引</h2>
+                <p class="section-subtitle">依更新時間整理，方便從主題分類頁直接進入所有相關文章。</p>
+            </div>
+            <ul class="category-archive-list">
+{links}
             </ul>
+        </div>
+    </section>
+    <!-- SEO-CATEGORY-ARCHIVE:END -->
+"""
+        footer_pos = content.find('<footer class="footer">')
+        if footer_pos != -1:
+            content = content[:footer_pos] + block + "\n" + content[footer_pos:]
+        else:
+            content = content.replace("</body>", block + "\n</body>", 1)
+        path.write_text(content, encoding="utf-8")
+
+
+def inject_article_cluster_links() -> None:
+    index_payload = load_json(ROOT / "data" / "articles-index.json", {"items": []})
+    for item in index_payload.get("items", []):
+        record = enrich_article_record(dict(item))
+        relative = record.get("file") or record.get("relativeUrl") or ""
+        path = ROOT / str(relative)
+        if not relative or not path.exists():
+            continue
+        content = path.read_text(encoding="utf-8")
+        content = re.sub(
+            r"\s*<!-- SEO-CLUSTER:START -->.*?<!-- SEO-CLUSTER:END -->",
+            "",
+            content,
+            flags=re.I | re.S,
+        )
+        primary = record.get("primaryHub") or {}
+        secondary = record.get("secondaryHubs") or []
+        category_key = record.get("category")
+        category_label, category_page = CATEGORY_PAGES.get(
+            category_key,
+            (record.get("categoryLabel") or "文章", "all-articles.html"),
+        )
+        core_links = CORE_HUB_LINKS.get(primary.get("key"), [])
+        related_core = [
+            (label, link_path)
+            for label, link_path in core_links
+            if link_path != relative and (ROOT / link_path).exists()
+        ][:2]
+        related_core_links = "\n".join(
+            f'                <li><a href="/{extensionless_path(link_path)}">{html.escape(label)}</a></li>'
+            for label, link_path in related_core
+        )
+        secondary_links = "\n".join(
+            f'                <li><a href="{html.escape(hub["url"])}">{html.escape(hub["title"])}</a></li>'
+            for hub in secondary
+            if isinstance(hub, dict) and hub.get("url") and hub.get("title")
+        )
+        secondary_block = (
+            f"""
+            <h3>延伸主題</h3>
+            <ul>
+{secondary_links}
+            </ul>"""
+            if secondary_links
+            else ""
+        )
+        block = f"""
+        <!-- SEO-CLUSTER:START -->
+        <section class="article-related seo-cluster-links" aria-label="主題延伸閱讀">
+            <h2>主題延伸閱讀</h2>
+            <p>這篇文章歸入 <a href="{html.escape(primary.get('url', '/all-articles'))}">{html.escape(primary.get('title', 'Elite Fashion 主題策展'))}</a>，可從同一條閱讀路徑繼續延伸。</p>
+            <ul>
+                <li><a href="{html.escape(primary.get('url', '/all-articles'))}">回到{html.escape(primary.get('title', 'Elite Fashion 主題策展'))}</a></li>
+{related_core_links}
+                <li><a href="/{extensionless_path(category_page)}">瀏覽更多{html.escape(category_label)}文章</a></li>
+            </ul>{secondary_block}
         </section>
         <!-- SEO-CLUSTER:END -->
 """
-            if "</main>" in content:
-                content = content.replace("</main>", block + "\n    </main>", 1)
-            elif '<footer class="footer">' in content:
-                content = content.replace('<footer class="footer">', block + "\n    <footer class=\"footer\">", 1)
-            path.write_text(content, encoding="utf-8")
+        if "</main>" in content:
+            content = content.replace("</main>", block + "\n    </main>", 1)
+        elif '<footer class="footer">' in content:
+            content = content.replace('<footer class="footer">', block + "\n    <footer class=\"footer\">", 1)
+        path.write_text(content, encoding="utf-8")
 
 
 def add_editorial_policy_to_footers() -> None:
@@ -1105,6 +1233,7 @@ def build_feed() -> None:
 def main() -> None:
     write_hub_pages()
     inject_category_hub_blocks()
+    inject_category_archives()
     inject_article_cluster_links()
     add_editorial_policy_to_footers()
     update_all_html()
