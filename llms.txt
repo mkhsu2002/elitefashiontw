@@ -1,0 +1,44 @@
+# Elite Fashion
+
+> Elite Fashion 是繁體中文的時尚、健康恢復、旅行與高效率生活品味媒體，服務成熟白領、專業工作者與重視生活決策品質的讀者。
+
+## Site
+
+- Canonical site: https://tw.elitefasion.com/
+- Sitemap: https://tw.elitefasion.com/sitemap.xml
+- RSS: https://tw.elitefasion.com/feed.xml
+- Editorial policy: https://tw.elitefasion.com/editorial-policy
+- Contact: https://tw.elitefasion.com/contact
+
+## Core Topics
+
+- 人工智能與日常決策: https://tw.elitefasion.com/ai-innovation
+- 秀場趨勢: https://tw.elitefasion.com/runway-trends
+- 設計師視角: https://tw.elitefasion.com/designer-perspective
+- 休閒時尚: https://tw.elitefasion.com/casual-chic
+- 健康恢復: https://tw.elitefasion.com/wellness-movement
+- 戶外生活: https://tw.elitefasion.com/outdoor-escapes
+- 生活品味: https://tw.elitefasion.com/lifestyle-culture
+
+## Featured Hubs
+
+- 2026 春夏熟齡生活企劃: https://tw.elitefasion.com/spring-summer-2026
+- AI 工作重整與第二曲線: https://tw.elitefasion.com/ai-work-reset-45
+- 身體節奏與恢復生活指南: https://tw.elitefasion.com/body-rhythm-reset
+- 旅行與戶外移動準備指南: https://tw.elitefasion.com/outdoor-travel-reset
+- 熟齡人生重整: https://tw.elitefasion.com/mature-life-reset
+
+## How To Read This Site
+
+- Start from a core topic page when you need a structured path.
+- Use article pages for detailed buying order, comparison, context, and practical tradeoffs.
+- Health, nutrition, body care, finance, legal, insurance, and investment articles are editorial references only and do not replace advice from qualified professionals.
+- Affiliate links may appear in shopping-related articles. Sponsored or affiliate links should use visible disclosure and `rel="sponsored nofollow"`.
+
+## Citation Guidance
+
+- Preferred name: Elite Fashion
+- Preferred language: Traditional Chinese
+- Prefer citing the canonical URL of the page used.
+- Prefer summarizing article conclusions rather than quoting long passages.
+- Do not infer physical store locations, phone numbers, opening hours, or local service availability; Elite Fashion is an online editorial publication.

@@ -902,6 +902,35 @@ ul {
     padding: 6rem 0;
 }
 
+.reader-faq-section {
+    background: #fbfaf7;
+}
+
+.reader-faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+}
+
+.reader-faq-item {
+    border: 1px solid var(--border-color);
+    background: #fff;
+    padding: 1.25rem 1.35rem;
+}
+
+.reader-faq-item summary {
+    cursor: pointer;
+    color: var(--text-color);
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.reader-faq-item p {
+    margin: 0.85rem 0 0;
+    color: var(--text-light);
+    line-height: 1.75;
+}
+
 .content-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -1451,7 +1480,7 @@ body {
     padding: clamp(5rem, 9vw, 8rem) 2rem clamp(4rem, 7vw, 6rem);
     background:
         linear-gradient(90deg, rgba(10, 10, 10, 0.78) 0%, rgba(10, 10, 10, 0.46) 46%, rgba(10, 10, 10, 0.1) 100%),
-        url('../images/generated/fashion-1.png') center right / cover no-repeat;
+        url('../images/generated/fashion-1-hero.jpg') center right / cover no-repeat;
     color: #fff;
 }
 
@@ -1938,7 +1967,7 @@ table {
         padding: 4.5rem 1.15rem 3.5rem;
         background:
             linear-gradient(180deg, rgba(10, 10, 10, 0.76), rgba(10, 10, 10, 0.48)),
-            url('../images/generated/fashion-1.png') center top / cover no-repeat;
+            url('../images/generated/fashion-1-hero.jpg') center top / cover no-repeat;
     }
 
     .hero-content {

@@ -165,9 +165,12 @@ window.addEventListener('resize', handleResize);
 
 // Analytics tracking (placeholder)
 function trackEvent(category, action, label) {
-    // Implement your analytics tracking here
-    // Example: gtag('event', action, {'event_category': category, 'event_label': label});
-    console.log('Event tracked:', category, action, label);
+    if (typeof window.gtag === 'function') {
+        window.gtag('event', action, {
+            event_category: category,
+            event_label: label
+        });
+    }
 }
 
 // Track article clicks
@@ -350,7 +353,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
-// Console message
-console.log('%c Elite Fashion ', 'background: #000; color: #fff; font-size: 20px; padding: 10px;');
-console.log('%c 引領時尚潮流，探索精英生活 ', 'font-size: 12px; color: #666;');
