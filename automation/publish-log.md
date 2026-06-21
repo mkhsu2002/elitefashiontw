@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-21T05:36:33Z｜睡前環境怎麼整理：耳塞、枕頭、燈光與香氛的低壓順序
+
+- 文章 ID：auto-20260621053633-bedtime-environment-earplugs-pillow-light-scent-order
+- URL：https://tw.elitefasion.com/wellness-movement/bedtime-environment-earplugs-pillow-light-scent-order
+- 檔案：wellness-movement/bedtime-environment-earplugs-pillow-light-scent-order.html
+- 類型：manual-codex-momo-revenue-growth-batch-one-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01
+
+## 2026-06-21T05:36:33Z｜辦公室咖啡補給怎麼選：咖啡豆、濾掛、掛耳包與送禮盒
+
+- 文章 ID：auto-20260621053633-office-coffee-beans-drip-bag-gift-box-guide
+- URL：https://tw.elitefasion.com/lifestyle-culture/office-coffee-beans-drip-bag-gift-box-guide
+- 檔案：lifestyle-culture/office-coffee-beans-drip-bag-gift-box-guide.html
+- 類型：manual-codex-momo-revenue-growth-batch-one-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01
+
+## 2026-06-21T05:36:33Z｜手機不是只靠保護殼：車用、桌面、充電與 MagSafe 配件整理法
+
+- 文章 ID：auto-20260621053633-phone-accessory-car-desk-charging-magsafe-system
+- URL：https://tw.elitefasion.com/ai-innovation/phone-accessory-car-desk-charging-magsafe-system
+- 檔案：ai-innovation/phone-accessory-car-desk-charging-magsafe-system.html
+- 類型：manual-codex-momo-revenue-growth-batch-one-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01
+
+## 2026-06-21T05:36:33Z｜雨天上班不失控：抗風傘、雨鞋、雨衣與包款材質清單
+
+- 文章 ID：auto-20260621053633-rainy-commute-umbrella-rain-shoes-bag-materials
+- URL：https://tw.elitefasion.com/casual-chic/rainy-commute-umbrella-rain-shoes-bag-materials
+- 檔案：casual-chic/rainy-commute-umbrella-rain-shoes-bag-materials.html
+- 類型：manual-codex-momo-revenue-growth-batch-one-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01
+
+## 2026-06-21T05:36:33Z｜通勤包不是越大越好：容量、肩帶、正式感與雨天備案怎麼選
+
+- 文章 ID：auto-20260621053633-commute-bag-size-strap-formality-rain-backup
+- URL：https://tw.elitefasion.com/casual-chic/commute-bag-size-strap-formality-rain-backup
+- 檔案：casual-chic/commute-bag-size-strap-formality-rain-backup.html
+- 類型：manual-codex-momo-revenue-growth-batch-one-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01
+
 ## 2026-05-29T07:35:00Z｜長期一人生活的決策地圖：居家安全、管家化外包與未來資源配置檢核表
 
 - 文章 ID：auto-20260529073500-long-term-solo-living-home-safety-support-map

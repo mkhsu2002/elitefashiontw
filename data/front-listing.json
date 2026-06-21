@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-06-06T22:50:49Z",
+  "updatedAt": "2026-06-21T05:36:34Z",
   "latest": [
+    {
+      "id": "auto-20260621053633-bedtime-environment-earplugs-pillow-light-scent-order",
+      "title": "睡前環境怎麼整理：耳塞、枕頭、燈光與香氛的低壓順序",
+      "excerpt": "睡前環境應先處理聲音、光線與枕寢支撐，再考慮香氛；任何睡眠困擾都不應只靠商品解決。",
+      "category": "wellness-movement",
+      "categoryLabel": "健康恢復",
+      "series": "城市效率選物",
+      "publishedAt": "2026-06-21T05:36:33Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "wellness-movement/bedtime-environment-earplugs-pillow-light-scent-order",
+      "heroImage": "images/optimized/article-covers/bedtime-environment-earplugs-pillow-light-scent-order.png",
+      "tags": [
+        "睡前環境",
+        "耳塞",
+        "枕頭",
+        "居家燈光"
+      ]
+    },
+    {
+      "id": "auto-20260621053633-commute-bag-size-strap-formality-rain-backup",
+      "title": "通勤包不是越大越好：容量、肩帶、正式感與雨天備案怎麼選",
+      "excerpt": "通勤包的價值不在容量最大，而在每天真正會帶什麼、肩帶是否舒服，以及進會議室時是否仍然得體。",
+      "category": "casual-chic",
+      "categoryLabel": "休閒時尚",
+      "series": "城市效率選物",
+      "publishedAt": "2026-06-21T05:36:33Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "casual-chic/commute-bag-size-strap-formality-rain-backup",
+      "heroImage": "images/optimized/article-covers/commute-bag-size-strap-formality-rain-backup.png",
+      "tags": [
+        "通勤包",
+        "雨天上班",
+        "包款選購",
+        "城市穿搭"
+      ]
+    },
+    {
+      "id": "auto-20260621053633-office-coffee-beans-drip-bag-gift-box-guide",
+      "title": "辦公室咖啡補給怎麼選：咖啡豆、濾掛、掛耳包與送禮盒",
+      "excerpt": "辦公室咖啡補給先看沖泡門檻、保存方式與共享情境，再決定咖啡豆、濾掛、掛耳包或禮盒。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市效率選物",
+      "publishedAt": "2026-06-21T05:36:33Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "lifestyle-culture/office-coffee-beans-drip-bag-gift-box-guide",
+      "heroImage": "images/optimized/article-covers/office-coffee-beans-drip-bag-gift-box-guide.png",
+      "tags": [
+        "辦公室咖啡",
+        "濾掛咖啡",
+        "咖啡禮盒",
+        "下午茶"
+      ]
+    },
+    {
+      "id": "auto-20260621053633-phone-accessory-car-desk-charging-magsafe-system",
+      "title": "手機不是只靠保護殼：車用、桌面、充電與 MagSafe 配件整理法",
+      "excerpt": "手機配件不該只看保護殼外觀，車用、桌面、充電與外出收納各自有不同判斷順序。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "城市效率選物",
+      "publishedAt": "2026-06-21T05:36:33Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "ai-innovation/phone-accessory-car-desk-charging-magsafe-system",
+      "heroImage": "images/optimized/article-covers/phone-accessory-car-desk-charging-magsafe-system.png",
+      "tags": [
+        "手機配件",
+        "MagSafe",
+        "車用手機架",
+        "桌面充電"
+      ]
+    },
+    {
+      "id": "auto-20260621053633-rainy-commute-umbrella-rain-shoes-bag-materials",
+      "title": "雨天上班不失控：抗風傘、雨鞋、雨衣與包款材質清單",
+      "excerpt": "雨天上班的關鍵不是買最多雨具，而是把抵達前、進門後與收納時的狼狽感降到最低。",
+      "category": "casual-chic",
+      "categoryLabel": "休閒時尚",
+      "series": "城市效率選物",
+      "publishedAt": "2026-06-21T05:36:33Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "casual-chic/rainy-commute-umbrella-rain-shoes-bag-materials",
+      "heroImage": "images/optimized/article-covers/rainy-commute-umbrella-rain-shoes-bag-materials.png",
+      "tags": [
+        "雨天通勤",
+        "抗風傘",
+        "雨鞋",
+        "上班穿搭"
+      ]
+    },
     {
       "id": "auto-20260529073500-cross-border-memory-family-dialogue-forward",
       "title": "跨國記憶、家庭對話與自我重建",
@@ -126,102 +216,30 @@
         "公司營運",
         "生活韌性"
       ]
-    },
-    {
-      "id": "auto-20260529073459-entrepreneur-emotional-boundaries-independent-space",
-      "title": "創業者如何維繫親密又保留獨立空間",
-      "excerpt": "創業者的一人生活，不是把所有人推開，而是替親密、工作與安靜時段各自留下位置。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "創業者的一人生活提案：工作節奏、居家秩序與關係邊界",
-      "publishedAt": "2026-05-29T07:34:59Z",
-      "publishedDateText": "2026年5月29日",
-      "relativeUrl": "lifestyle-culture/entrepreneur-emotional-boundaries-independent-space.html",
-      "heroImage": "/images/optimized/article-covers/entrepreneur-emotional-boundaries-independent-space.jpg",
-      "tags": [
-        "一人生活",
-        "創業者",
-        "關係界線",
-        "生活品味"
-      ]
-    },
-    {
-      "id": "auto-20260529073459-entrepreneur-finance-health-home-security-steps",
-      "title": "創業者的財務、醫療與居住安全三步驟",
-      "excerpt": "一個人的安心感，不來自把風險想完，而是把文件、住家動線與可求助名單放在找得到的位置。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "創業者的一人生活提案：工作節奏、居家秩序與關係邊界",
-      "publishedAt": "2026-05-29T07:34:59Z",
-      "publishedDateText": "2026年5月29日",
-      "relativeUrl": "lifestyle-culture/entrepreneur-finance-health-home-security-steps.html",
-      "heroImage": "/images/optimized/article-covers/entrepreneur-finance-health-home-security-steps.jpg",
-      "tags": [
-        "一人生活",
-        "創業者",
-        "財務整理",
-        "居家動線"
-      ]
-    },
-    {
-      "id": "auto-20260529073459-first-year-back-taiwan-daily-life-social-circle",
-      "title": "回台後第一年如何建立日常與社交圈",
-      "excerpt": "回台第一年不用急著找回從前的人生，只要先讓城市裡有幾條你願意重複走的路。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "喪偶後海歸返台的一人生活重建",
-      "publishedAt": "2026-05-29T07:34:59Z",
-      "publishedDateText": "2026年5月29日",
-      "relativeUrl": "lifestyle-culture/first-year-back-taiwan-daily-life-social-circle.html",
-      "heroImage": "/images/optimized/article-covers/first-year-back-taiwan-daily-life-social-circle.jpg",
-      "tags": [
-        "返台生活",
-        "社交圈",
-        "喪偶",
-        "一人生活"
-      ]
-    },
-    {
-      "id": "auto-20260529073459-high-intensity-work-home-rhythm-layout",
-      "title": "高階工作者如何把時間留給自己",
-      "excerpt": "工作強度越高，越需要讓家裡的每個角落替自己減少決策，而不是延長白天的緊繃。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "高階工作者的一人生活：事業、獨處與支持系統",
-      "publishedAt": "2026-05-29T07:34:59Z",
-      "publishedDateText": "2026年5月29日",
-      "relativeUrl": "lifestyle-culture/high-intensity-work-home-rhythm-layout.html",
-      "heroImage": "/images/optimized/article-covers/high-intensity-work-home-rhythm-layout.jpg",
-      "tags": [
-        "高階工作者",
-        "居家佈局",
-        "一人生活",
-        "工作節奏"
-      ]
-    },
-    {
-      "id": "auto-20260529073459-solo-home-emotional-support-boundaries",
-      "title": "一人生活的情感支持網絡與關係邊界",
-      "excerpt": "真正好的獨處，不是家裡只有冷氣聲，而是知道何時安靜、何時開門、何時把人請進生活裡。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "高階工作者的一人生活：事業、獨處與支持系統",
-      "publishedAt": "2026-05-29T07:34:59Z",
-      "publishedDateText": "2026年5月29日",
-      "relativeUrl": "lifestyle-culture/solo-home-emotional-support-boundaries.html",
-      "heroImage": "/images/optimized/article-covers/solo-home-emotional-support-boundaries.jpg",
-      "tags": [
-        "一人生活",
-        "情感支持",
-        "社交界線",
-        "生活品味"
-      ]
     }
   ],
   "byCategory": {
     "ai-innovation": {
       "label": "人工智能",
       "items": [
+        {
+          "id": "auto-20260621053633-phone-accessory-car-desk-charging-magsafe-system",
+          "title": "手機不是只靠保護殼：車用、桌面、充電與 MagSafe 配件整理法",
+          "excerpt": "手機配件不該只看保護殼外觀，車用、桌面、充電與外出收納各自有不同判斷順序。",
+          "category": "ai-innovation",
+          "categoryLabel": "人工智能",
+          "series": "城市效率選物",
+          "publishedAt": "2026-06-21T05:36:33Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "ai-innovation/phone-accessory-car-desk-charging-magsafe-system",
+          "heroImage": "images/optimized/article-covers/phone-accessory-car-desk-charging-magsafe-system.png",
+          "tags": [
+            "手機配件",
+            "MagSafe",
+            "車用手機架",
+            "桌面充電"
+          ]
+        },
         {
           "id": "auto-20260528213744-korean-phone-case-magsafe-daily-style",
           "title": "韓系手機殼到 MagSafe：把手機配件整理成日常風格的一部分",
@@ -311,24 +329,6 @@
             "選購清單",
             "居家整理"
           ]
-        },
-        {
-          "id": "auto-20260522074051-chair-cushion-home-office-products",
-          "title": "椅子、靠枕與短休息角落：18 件工作與閱讀座位單品怎麼搭",
-          "excerpt": "工作座位要看桌高、坐姿切換與空間動線；椅子與靠枕只能輔助，仍需依個人尺寸與使用時間評估。",
-          "category": "ai-innovation",
-          "categoryLabel": "人工智能",
-          "series": "工作角落商品推薦",
-          "publishedAt": "2026-05-22T07:40:51Z",
-          "publishedDateText": "2026年5月22日",
-          "relativeUrl": "ai-innovation/chair-cushion-home-office-products.html",
-          "heroImage": "images/optimized/article-covers/chair-cushion-home-office-products.jpg",
-          "tags": [
-            "椅子靠枕",
-            "商品推薦",
-            "選購清單",
-            "居家整理"
-          ]
         }
       ]
     },
@@ -338,7 +338,7 @@
         {
           "id": "legacy-runway-trends-virtual-identity-fashion-2026-html",
           "title": "2026 虛擬身分時尚革命：重塑『第二層肌膚』與數位權威的深度思辨",
-          "excerpt": "深入解析 2026 倫敦時裝週虛實整合趨勢。Elite Fashion 為您拆解數位自我如何成為當代精英的新型態身分識別，探索 AR 時尚與虛擬權威的未來風景。",
+          "excerpt": "深入解析 2026 倫敦時裝週虛實整合趨勢。Elite Fashion 為你拆解數位自我如何成為當代精英的新型態身分識別，探索 AR 時尚與虛擬權威的未來風景。解析秀場語言、材質工藝與造型趨勢，幫助讀者把國際時尚轉譯成可理解的風格判斷。",
           "category": "runway-trends",
           "categoryLabel": "秀場趨勢",
           "series": "秀場趨勢",
@@ -360,7 +360,7 @@
         {
           "id": "legacy-runway-trends-silver-power-runway-2026-html",
           "title": "熟齡風格走上秀場：銀髮、線條與年齡感如何成為美的一部分",
-          "excerpt": "2026 時尚趨勢深度報告：銀髮力量的崛起。Elite Fashion 為您解析熟齡模特如何重塑奢侈品價值體系，以及這場『無齡化運動』對現代熟齡女性的深遠啟示。",
+          "excerpt": "2026 時尚趨勢深度報告：年長力量的崛起。Elite Fashion 為你解析成熟模特如何重塑奢侈品價值體系，以及這場『無齡化運動』對現代讀者的深遠啟示。解析秀場語言、材質工藝與造型趨勢，幫助讀者把國際時尚轉譯成可理解的風格判斷。",
           "category": "runway-trends",
           "categoryLabel": "秀場趨勢",
           "series": "秀場趨勢",
@@ -382,7 +382,7 @@
         {
           "id": "legacy-runway-trends-quiet-luxury-evolution-2026-html",
           "title": "2026 靜奢風 2.0 演進：為什麼情緒價值是當代精英的最後奢華？",
-          "excerpt": "解析 2026 年靜奢風 2.0 如何回到材質、輪廓、低維護與日常安定感，整理熟齡女性更容易落地的穿搭方向。",
+          "excerpt": "解析 2026 年靜奢風 2.0 如何回到材質、輪廓、低維護與日常安定感，整理讀者更容易落地的穿搭方向。解析秀場語言、材質工藝與造型趨勢，幫助讀者把國際時尚轉譯成可理解的風格判斷。並補充適合台灣日常的檢查重點與延伸閱讀，方便搜尋後快速掌握方向。",
           "category": "runway-trends",
           "categoryLabel": "秀場趨勢",
           "series": "秀場趨勢",
@@ -404,7 +404,7 @@
         {
           "id": "legacy-runway-trends-paris-fashion-week-2025-spring-summer-html",
           "title": "2025 春夏巴黎時裝週權威評析：極簡回歸、奢華重塑與法式美學的絕對主權",
-          "excerpt": "深入探索 2025 春夏巴黎時裝週。Elite Fashion 為您解析 Chanel 的優雅、Saint Laurent 的鋒芒，以及極簡主義如何在全球動盪中成為最後的時尚信仰。",
+          "excerpt": "深入探索 2025 春夏巴黎時裝週。Elite Fashion 為你解析 Chanel 的優雅、Saint Laurent 的鋒芒，以及極簡主義如何在全球動盪中成為最後的時尚信仰。解析秀場語言、材質工藝與造型趨勢，幫助讀者把國際時尚轉譯成可理解的風格判斷。",
           "category": "runway-trends",
           "categoryLabel": "秀場趨勢",
           "series": "秀場趨勢",
@@ -426,7 +426,7 @@
         {
           "id": "legacy-runway-trends-new-york-fashion-week-street-culture-html",
           "title": "2025 紐約時裝週深度解析：街頭文化、高級時裝與『大眾主權』的權威碰撞",
-          "excerpt": "深入探索 2025 紐約時裝週。Elite Fashion 為您拆解 Marc Jacobs 的街頭奢華、Tommy Hilfiger 的美式精髓，以及次文化如何登堂入室成為當代權威。",
+          "excerpt": "深入探索 2025 紐約時裝週。Elite Fashion 為你拆解 Marc Jacobs 的街頭奢華、Tommy Hilfiger 的美式精髓，以及次文化如何登堂入室成為當代權威。解析秀場語言、材質工藝與造型趨勢，幫助讀者把國際時尚轉譯成可理解的風格判斷。",
           "category": "runway-trends",
           "categoryLabel": "秀場趨勢",
           "series": "秀場趨勢",
@@ -448,7 +448,7 @@
         {
           "id": "legacy-runway-trends-milan-fashion-week-2025-colors-html",
           "title": "2025 米蘭時裝週色彩革命：大膽用色、義式美感與視覺心理的權威深度解析",
-          "excerpt": "深入探索 2025 米蘭時裝週的色彩趨勢。Elite Fashion 為您解析 Versace 的霓虹光譜、Prada 的柔和粉彩，以及義大利設計師如何定義新時代的視覺主權。",
+          "excerpt": "深入探索 2025 米蘭時裝週的色彩趨勢。Elite Fashion 為你解析 Versace 的霓虹光譜、Prada 的柔和粉彩，以及義大利設計師如何定義新時代的視覺主權。解析秀場語言、材質工藝與造型趨勢，幫助讀者把國際時尚轉譯成可理解的風格判斷。",
           "category": "runway-trends",
           "categoryLabel": "秀場趨勢",
           "series": "秀場趨勢",
@@ -475,7 +475,7 @@
         {
           "id": "legacy-designer-perspective-ai-design-renaissance-2026-html",
           "title": "AI 創意革命：創意主權的重新定義",
-          "excerpt": "專訪 2026 年尖端設計師，探討 AI 如何從輔助工具演變為設計靈感的核心。探討人工智慧的跨界美學與創意過程，涵蓋台灣設計界的實踐。",
+          "excerpt": "專訪 2026 年尖端設計師，探討 AI 如何從輔助工具演變為設計靈感的核心。探討人工智慧的跨界美學與創意過程，涵蓋台灣設計界的實踐。拆解設計師思維、工藝細節與品牌更新，幫助讀者看懂作品背後的美學選擇與產業脈絡。並補充適合台灣日常的檢查重點與延伸閱讀，方便搜尋後快速掌握方向。",
           "category": "designer-perspective",
           "categoryLabel": "設計師視角",
           "series": "設計師視角",
@@ -497,7 +497,7 @@
         {
           "id": "legacy-designer-perspective-brand-renewal-art-html",
           "title": "品牌重塑的藝術：經典與未來的優雅角力",
-          "excerpt": "深入探討百年奢侈品牌的重塑之路。專訪創意總監 Alessandro Rossi，解析如何平衡品牌遺產與現代創新，並結合台灣高端市場洞察。",
+          "excerpt": "深入探討百年奢侈品牌的重塑之路。專訪創意總監 Alessandro Rossi，解析如何平衡品牌遺產與現代創新，並結合台灣高端市場洞察。拆解設計師思維、工藝細節與品牌更新，幫助讀者看懂作品背後的美學選擇與產業脈絡。並補充適合台灣日常的檢查重點與延伸閱讀，方便搜尋後快速掌握方向。",
           "category": "designer-perspective",
           "categoryLabel": "設計師視角",
           "series": "設計師視角",
@@ -518,7 +518,7 @@
         {
           "id": "legacy-designer-perspective-craftsmanship-tech-fusion-html",
           "title": "工藝復興：重新定義「手工」的維度",
-          "excerpt": "探索 2026 年精品趨勢：3D 列印與傳統皮革工藝的革命性融合。Elite Fashion 為您解析數位工藝如何重塑頂級奢華包袋，並結合台北與全球工坊實踐。",
+          "excerpt": "探索 2026 年精品趨勢：3D 列印與傳統皮革工藝的革命性融合。Elite Fashion 為你解析數位工藝如何重塑頂級奢華包袋，並結合台北與全球工坊實踐。拆解設計師思維、工藝細節與品牌更新，幫助讀者看懂作品背後的美學選擇與產業脈絡。",
           "category": "designer-perspective",
           "categoryLabel": "設計師視角",
           "series": "設計師視角",
@@ -563,7 +563,7 @@
         {
           "id": "legacy-designer-perspective-digital-craft-designer-html",
           "title": "數位工藝的新主權：專訪新銳設計師 Emma Chen",
-          "excerpt": "專訪新銳設計師 Emma Chen，解析如何利用 3D 列印與數位製衣技術重塑時尚邊界。結合台北時裝週與金點設計獎評選，探討數位與人文溫度的完美融合。",
+          "excerpt": "專訪新銳設計師 Emma Chen，解析如何利用 3D 列印與數位製衣技術重塑時尚邊界。結合台北時裝週與金點設計獎評選，探討數位與人文溫度的完美融合。拆解設計師思維、工藝細節與品牌更新，幫助讀者看懂作品背後的美學選擇與產業脈絡。",
           "category": "designer-perspective",
           "categoryLabel": "設計師視角",
           "series": "設計師視角",
@@ -610,6 +610,42 @@
     "casual-chic": {
       "label": "休閒時尚",
       "items": [
+        {
+          "id": "auto-20260621053633-commute-bag-size-strap-formality-rain-backup",
+          "title": "通勤包不是越大越好：容量、肩帶、正式感與雨天備案怎麼選",
+          "excerpt": "通勤包的價值不在容量最大，而在每天真正會帶什麼、肩帶是否舒服，以及進會議室時是否仍然得體。",
+          "category": "casual-chic",
+          "categoryLabel": "休閒時尚",
+          "series": "城市效率選物",
+          "publishedAt": "2026-06-21T05:36:33Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "casual-chic/commute-bag-size-strap-formality-rain-backup",
+          "heroImage": "images/optimized/article-covers/commute-bag-size-strap-formality-rain-backup.png",
+          "tags": [
+            "通勤包",
+            "雨天上班",
+            "包款選購",
+            "城市穿搭"
+          ]
+        },
+        {
+          "id": "auto-20260621053633-rainy-commute-umbrella-rain-shoes-bag-materials",
+          "title": "雨天上班不失控：抗風傘、雨鞋、雨衣與包款材質清單",
+          "excerpt": "雨天上班的關鍵不是買最多雨具，而是把抵達前、進門後與收納時的狼狽感降到最低。",
+          "category": "casual-chic",
+          "categoryLabel": "休閒時尚",
+          "series": "城市效率選物",
+          "publishedAt": "2026-06-21T05:36:33Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "casual-chic/rainy-commute-umbrella-rain-shoes-bag-materials",
+          "heroImage": "images/optimized/article-covers/rainy-commute-umbrella-rain-shoes-bag-materials.png",
+          "tags": [
+            "雨天通勤",
+            "抗風傘",
+            "雨鞋",
+            "上班穿搭"
+          ]
+        },
         {
           "id": "auto-20260528213744-practical-wardrobe-gift-plus-size-formal-casual",
           "title": "給伴侶或家人的實用衣櫥更新：大尺碼、正式場合與日常休閒怎麼選",
@@ -681,48 +717,30 @@
             "選購清單",
             "居家整理"
           ]
-        },
-        {
-          "id": "auto-20260520145058-jewelry-leather-gift-ring-silver-wallet-small-bag",
-          "title": "Elite Fashion｜飾品與皮件送禮怎麼選",
-          "excerpt": "從關係距離、尺寸風險、日常使用率與客製細節，整理飾品與皮件送禮順序。",
-          "category": "casual-chic",
-          "categoryLabel": "休閒時尚",
-          "series": "穿搭包款與城市移動補強",
-          "publishedAt": "2026-05-20T14:50:58Z",
-          "publishedDateText": "2026年5月20日",
-          "relativeUrl": "casual-chic/jewelry-leather-gift-ring-silver-wallet-small-bag.html",
-          "heroImage": "images/optimized/article-covers/jewelry-leather-gift-ring-silver-wallet-small-bag.jpg",
-          "tags": [
-            "飾品送禮",
-            "皮件送禮",
-            "銀飾",
-            "小包"
-          ]
-        },
-        {
-          "id": "auto-20260520145058-plus-size-office-travel-weekend-outfit-order",
-          "title": "Elite Fashion｜大尺碼穿搭也能俐落",
-          "excerpt": "從版型、材質、層次與場合順序，整理上班、旅行與週末都能轉換的穿搭選法。",
-          "category": "casual-chic",
-          "categoryLabel": "休閒時尚",
-          "series": "穿搭包款與城市移動補強",
-          "publishedAt": "2026-05-20T14:50:58Z",
-          "publishedDateText": "2026年5月20日",
-          "relativeUrl": "casual-chic/plus-size-office-travel-weekend-outfit-order.html",
-          "heroImage": "images/optimized/article-covers/plus-size-office-travel-weekend-outfit-order.jpg",
-          "tags": [
-            "大尺碼穿搭",
-            "上班穿搭",
-            "旅行穿搭",
-            "週末穿搭"
-          ]
         }
       ]
     },
     "wellness-movement": {
       "label": "健康恢復",
       "items": [
+        {
+          "id": "auto-20260621053633-bedtime-environment-earplugs-pillow-light-scent-order",
+          "title": "睡前環境怎麼整理：耳塞、枕頭、燈光與香氛的低壓順序",
+          "excerpt": "睡前環境應先處理聲音、光線與枕寢支撐，再考慮香氛；任何睡眠困擾都不應只靠商品解決。",
+          "category": "wellness-movement",
+          "categoryLabel": "健康恢復",
+          "series": "城市效率選物",
+          "publishedAt": "2026-06-21T05:36:33Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "wellness-movement/bedtime-environment-earplugs-pillow-light-scent-order",
+          "heroImage": "images/optimized/article-covers/bedtime-environment-earplugs-pillow-light-scent-order.png",
+          "tags": [
+            "睡前環境",
+            "耳塞",
+            "枕頭",
+            "居家燈光"
+          ]
+        },
         {
           "id": "auto-20260529003122-elder-home-reading-care-vision-layout-supplies",
           "title": "長輩用品不只看功能：閱讀、照護、眼鏡與居家動線的準備順序",
@@ -815,24 +833,6 @@
             "生活採買",
             "低醣點心",
             "沖泡補給"
-          ]
-        },
-        {
-          "id": "auto-20260520071636-home-care-flow-bathing-transfer-storage-safety",
-          "title": "Elite Fashion｜家中照護動線怎麼整理",
-          "excerpt": "從浴室、移位、收納、濾水與家人協作，整理更清楚的居家照護用品判斷。",
-          "category": "wellness-movement",
-          "categoryLabel": "健康恢復",
-          "series": "身體恢復與低壓伸展",
-          "publishedAt": "2026-05-20T07:16:36Z",
-          "publishedDateText": "2026年5月20日",
-          "relativeUrl": "wellness-movement/home-care-flow-bathing-transfer-storage-safety.html",
-          "heroImage": "images/optimized/article-covers/home-care-flow-bathing-transfer-storage-safety.jpg",
-          "tags": [
-            "居家照護",
-            "浴室動線",
-            "收納",
-            "安全提醒"
           ]
         }
       ]
@@ -961,6 +961,24 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260621053633-office-coffee-beans-drip-bag-gift-box-guide",
+          "title": "辦公室咖啡補給怎麼選：咖啡豆、濾掛、掛耳包與送禮盒",
+          "excerpt": "辦公室咖啡補給先看沖泡門檻、保存方式與共享情境，再決定咖啡豆、濾掛、掛耳包或禮盒。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市效率選物",
+          "publishedAt": "2026-06-21T05:36:33Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "lifestyle-culture/office-coffee-beans-drip-bag-gift-box-guide",
+          "heroImage": "images/optimized/article-covers/office-coffee-beans-drip-bag-gift-box-guide.png",
+          "tags": [
+            "辦公室咖啡",
+            "濾掛咖啡",
+            "咖啡禮盒",
+            "下午茶"
+          ]
+        },
+        {
           "id": "auto-20260529073500-cross-border-memory-family-dialogue-forward",
           "title": "跨國記憶、家庭對話與自我重建",
           "excerpt": "記憶不必被收進箱子裡，也不必佔據整個家；它可以有一個位置，讓生活繼續往前。",
@@ -1048,24 +1066,6 @@
             "高階主管",
             "公開角色",
             "一人生活"
-          ]
-        },
-        {
-          "id": "auto-20260529073500-long-term-solo-living-home-safety-support-map",
-          "title": "長期一人生活的居家安全與資源配置檢核表",
-          "excerpt": "長期一人生活不是把所有事都自己做，而是建立一套找得到人、用得到物、查得到資料的生活系統。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "喪偶後高階主管的一人生活與公開角色",
-          "publishedAt": "2026-05-29T07:35:00Z",
-          "publishedDateText": "2026年5月29日",
-          "relativeUrl": "lifestyle-culture/long-term-solo-living-home-safety-support-map.html",
-          "heroImage": "/images/optimized/article-covers/long-term-solo-living-home-safety-support-map.jpg",
-          "tags": [
-            "一人生活",
-            "居家安全",
-            "外包家務",
-            "資源配置"
           ]
         }
       ]

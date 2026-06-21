@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-29T07:35:00Z",
-  "generator": "codex-imagegen-built-in",
+  "updatedAt": "2026-06-21T05:36:33Z",
+  "generator": "codex-pil-editorial-cover",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
       "image": "images/optimized/article-covers/small-home-storage-products-entry-closet-underbed.jpg",
@@ -456,6 +456,31 @@
       "promptSummary": "明亮廚房家務與長期一人生活系統場景，和前面封面拉開差異。",
       "generatedAt": "2026-05-29T07:35:00Z",
       "usage": "cover-og-twitter"
+    },
+    "commute-bag-size-strap-formality-rain-backup": {
+      "image": "images/optimized/article-covers/commute-bag-size-strap-formality-rain-backup.png",
+      "sha256": "37cfdd545fdc2e8d16a71d6c5a8ead27ed05a546dcf9bb31a7edb3bd78783fa5",
+      "promptSummary": "明亮通勤玄關中，一只結構俐落的肩背包、雨傘、筆記本與輕外套放在木質長凳旁"
+    },
+    "rainy-commute-umbrella-rain-shoes-bag-materials": {
+      "image": "images/optimized/article-covers/rainy-commute-umbrella-rain-shoes-bag-materials.png",
+      "sha256": "a097eb9b89fc8f0bcf5c14b6815b15a7296d9f5457574681e6a3064fb6784b1d",
+      "promptSummary": "城市雨天玄關裡整齊放著抗風傘、雨鞋、防雨外套與深色通勤包"
+    },
+    "phone-accessory-car-desk-charging-magsafe-system": {
+      "image": "images/optimized/article-covers/phone-accessory-car-desk-charging-magsafe-system.png",
+      "sha256": "7a1a8f4884e6c0ecf5506c34e3af5a857a90d73348be54c71c8d41322cfcd565",
+      "promptSummary": "整潔工作桌與車用收納盤上放著手機支架、充電線、磁吸配件與耳機"
+    },
+    "office-coffee-beans-drip-bag-gift-box-guide": {
+      "image": "images/optimized/article-covers/office-coffee-beans-drip-bag-gift-box-guide.png",
+      "sha256": "867e1335a2c56f4ace58be8f64cdc76dcb8db662658e7c7f4e91dde290e7b6b6",
+      "promptSummary": "辦公室茶水角落中擺放咖啡豆、濾掛包、掛耳包、馬克杯與簡潔禮盒"
+    },
+    "bedtime-environment-earplugs-pillow-light-scent-order": {
+      "image": "images/optimized/article-covers/bedtime-environment-earplugs-pillow-light-scent-order.png",
+      "sha256": "0fb46cdd4ed4f4f38646eae331c1721dc00053cbd85c3e703d542b27fc7e8fb6",
+      "promptSummary": "安靜臥室床邊放著耳塞、小夜燈、枕頭、香氛瓶與一本合上的書"
     }
   }
 }
