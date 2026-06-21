@@ -1,7 +1,417 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T07:32:09Z",
+  "updatedAt": "2026-06-21T07:55:40Z",
   "entries": [
+    {
+      "articleId": "auto-20260621075540-office-snack-cabinet-low-sugar-nuts-vegetarian-drinks",
+      "slug": "office-snack-cabinet-low-sugar-nuts-vegetarian-drinks",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T07:55:40Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006455/main",
+        "https://www.momoshop.com.tw/TP/TP0003486/main",
+        "https://www.momoshop.com.tw/TP/TP0002822/main",
+        "https://www.momoshop.com.tw/TP/TP0008420/main",
+        "https://www.momoshop.com.tw/TP/TP0000776/main",
+        "https://www.momoshop.com.tw/TP/TP0009026/main",
+        "https://s.momoshop.com.tw/s/Cv5Tr7rp",
+        "https://s.momoshop.com.tw/s/13xEqcPN",
+        "https://s.momoshop.com.tw/s/c5vCEHr4",
+        "https://s.momoshop.com.tw/s/a3NJCgKg",
+        "https://s.momoshop.com.tw/s/bw69kfhb",
+        "https://s.momoshop.com.tw/s/iujoS6F4",
+        "https://tw.elitefasion.com/wellness-movement/office-snack-cabinet-low-sugar-nuts-vegetarian-drinks",
+        "https://tw.elitefasion.com/images/optimized/article-covers/office-snack-cabinet-low-sugar-nuts-vegetarian-drinks.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621075540-workday-knee-back-support-cushion-bag-weight-guide",
+      "slug": "workday-knee-back-support-cushion-bag-weight-guide",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T07:55:40Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003385/main",
+        "https://www.momoshop.com.tw/TP/TP0006750/main",
+        "https://www.momoshop.com.tw/TP/TP0002618/main",
+        "https://www.momoshop.com.tw/TP/TP0008160/main",
+        "https://www.momoshop.com.tw/TP/TP0009277/main",
+        "https://www.momoshop.com.tw/TP/TP0005953/main",
+        "https://s.momoshop.com.tw/s/ARNPduxj",
+        "https://s.momoshop.com.tw/s/BtMjBpkA",
+        "https://s.momoshop.com.tw/s/69BfcPtk",
+        "https://s.momoshop.com.tw/s/Zuh8f2pp",
+        "https://s.momoshop.com.tw/s/jEp8GjC8",
+        "https://s.momoshop.com.tw/s/4sSbnDHc",
+        "https://tw.elitefasion.com/wellness-movement/workday-knee-back-support-cushion-bag-weight-guide",
+        "https://tw.elitefasion.com/images/optimized/article-covers/workday-knee-back-support-cushion-bag-weight-guide.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621075540-small-home-entry-closet-desk-cleaning-storage-order",
+      "slug": "small-home-entry-closet-desk-cleaning-storage-order",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T07:55:40Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005953/main",
+        "https://www.momoshop.com.tw/TP/TP0000922/main",
+        "https://www.momoshop.com.tw/TP/TP0006338/main",
+        "https://www.momoshop.com.tw/TP/TP0002948/main",
+        "https://www.momoshop.com.tw/TP/TP0007021/main",
+        "https://www.momoshop.com.tw/TP/TP0004627/main",
+        "https://s.momoshop.com.tw/s/4sSbnDHc",
+        "https://s.momoshop.com.tw/s/NaHe80dq",
+        "https://s.momoshop.com.tw/s/ZlVRcrJD",
+        "https://s.momoshop.com.tw/s/ft0gO7mj",
+        "https://s.momoshop.com.tw/s/MvtdaHga",
+        "https://s.momoshop.com.tw/s/AFFq5jUk",
+        "https://tw.elitefasion.com/lifestyle-culture/small-home-entry-closet-desk-cleaning-storage-order",
+        "https://tw.elitefasion.com/images/optimized/article-covers/small-home-entry-closet-desk-cleaning-storage-order.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621075540-travel-luggage-front-open-carry-on-packing-system-2",
+      "slug": "travel-luggage-front-open-carry-on-packing-system-2",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T07:55:40Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0002546/main",
+        "https://www.momoshop.com.tw/TP/TP0005391/main",
+        "https://www.momoshop.com.tw/TP/TP0000074/main",
+        "https://www.momoshop.com.tw/TP/TP0009277/main",
+        "https://www.momoshop.com.tw/TP/TP0005684/main",
+        "https://www.momoshop.com.tw/TP/TP0007070/main",
+        "https://s.momoshop.com.tw/s/OagsJNH4",
+        "https://s.momoshop.com.tw/s/uUX2ICw8",
+        "https://s.momoshop.com.tw/s/Njmm2CjZ",
+        "https://s.momoshop.com.tw/s/jEp8GjC8",
+        "https://s.momoshop.com.tw/s/swCkSJDA",
+        "https://s.momoshop.com.tw/s/fZ9miz2D",
+        "https://tw.elitefasion.com/outdoor-escapes/travel-luggage-front-open-carry-on-packing-system-2",
+        "https://tw.elitefasion.com/images/optimized/article-covers/travel-luggage-front-open-carry-on-packing-system-2.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621075540-meeting-grooming-hair-makeup-scent-small-bag-kit",
+      "slug": "meeting-grooming-hair-makeup-scent-small-bag-kit",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T07:55:40Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0007070/main",
+        "https://www.momoshop.com.tw/TP/TP0005448/main",
+        "https://www.momoshop.com.tw/TP/TP0008424/main",
+        "https://www.momoshop.com.tw/TP/TP0000439/main",
+        "https://www.momoshop.com.tw/TP/TP0002031/main",
+        "https://www.momoshop.com.tw/TP/TP0009277/main",
+        "https://s.momoshop.com.tw/s/fZ9miz2D",
+        "https://s.momoshop.com.tw/s/vRmO2Mp9",
+        "https://s.momoshop.com.tw/s/xWCenaTS",
+        "https://s.momoshop.com.tw/s/wZtIcgSw",
+        "https://s.momoshop.com.tw/s/Fnh7Tv2f",
+        "https://s.momoshop.com.tw/s/jEp8GjC8",
+        "https://tw.elitefasion.com/casual-chic/meeting-grooming-hair-makeup-scent-small-bag-kit",
+        "https://tw.elitefasion.com/images/optimized/article-covers/meeting-grooming-hair-makeup-scent-small-bag-kit.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
     {
       "articleId": "auto-20260621073209-office-afternoon-drinks-tea-sparkling-pantry-guide",
       "slug": "office-afternoon-drinks-tea-sparkling-pantry-guide",

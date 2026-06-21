@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-06-21T07:32:09Z",
+  "updatedAt": "2026-06-21T07:55:41Z",
   "latest": [
+    {
+      "id": "auto-20260621075540-meeting-grooming-hair-makeup-scent-small-bag-kit",
+      "title": "會議前後的整理包：髮品、補妝、香氛與小包怎麼放",
+      "excerpt": "會議整理包不是把浴室搬進包裡，而是把會議前五分鐘最常用到的髮品、補妝工具與小包位置排清楚。",
+      "category": "casual-chic",
+      "categoryLabel": "休閒時尚",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T07:55:40Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "casual-chic/meeting-grooming-hair-makeup-scent-small-bag-kit",
+      "heroImage": "/images/optimized/article-covers/meeting-grooming-hair-makeup-scent-small-bag-kit.jpg",
+      "tags": [
+        "會議整理包",
+        "補妝工具",
+        "小包收納",
+        "通勤儀容"
+      ]
+    },
+    {
+      "id": "auto-20260621075540-office-snack-cabinet-low-sugar-nuts-vegetarian-drinks",
+      "title": "外食日的零食櫃：低醣點心、堅果、素食零嘴與沖泡飲怎麼放",
+      "excerpt": "低負擔零食櫃要看份量、保存與口味疲乏，不把低醣、堅果、素食零嘴或沖泡飲寫成健康捷徑。",
+      "category": "wellness-movement",
+      "categoryLabel": "健康恢復",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T07:55:40Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "wellness-movement/office-snack-cabinet-low-sugar-nuts-vegetarian-drinks",
+      "heroImage": "/images/optimized/article-covers/office-snack-cabinet-low-sugar-nuts-vegetarian-drinks.jpg",
+      "tags": [
+        "辦公室零食",
+        "低醣點心",
+        "堅果",
+        "沖泡飲"
+      ]
+    },
+    {
+      "id": "auto-20260621075540-small-home-entry-closet-desk-cleaning-storage-order",
+      "title": "小宅收納不是買更多盒子：玄關、衣櫃、書桌與清潔工具配置",
+      "excerpt": "小宅收納的核心不是買更多盒子，而是先替物品安排停靠點，再看玄關、衣櫃、書桌與清潔工具如何接上動線。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T07:55:40Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "lifestyle-culture/small-home-entry-closet-desk-cleaning-storage-order",
+      "heroImage": "/images/optimized/article-covers/small-home-entry-closet-desk-cleaning-storage-order.jpg",
+      "tags": [
+        "小宅收納",
+        "玄關整理",
+        "衣櫃收納",
+        "清潔工具"
+      ]
+    },
+    {
+      "id": "auto-20260621075540-travel-luggage-front-open-carry-on-packing-system-2",
+      "title": "出國前先整理箱包系統：前開式行李箱、登機箱與收納袋",
+      "excerpt": "箱包系統要先用旅程天數與拿取頻率決定箱體，再比較前開式行李箱、登機箱與收納袋。",
+      "category": "outdoor-escapes",
+      "categoryLabel": "戶外生活",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T07:55:40Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "outdoor-escapes/travel-luggage-front-open-carry-on-packing-system-2",
+      "heroImage": "/images/optimized/article-covers/travel-luggage-front-open-carry-on-packing-system-2.jpg",
+      "tags": [
+        "前開式行李箱",
+        "登機箱",
+        "旅行收納",
+        "出國準備"
+      ]
+    },
+    {
+      "id": "auto-20260621075540-workday-knee-back-support-cushion-bag-weight-guide",
+      "title": "久坐工作日的腰背與膝蓋支撐：護具、坐墊、鞋包重量怎麼看",
+      "excerpt": "腰背與膝蓋支撐用品只能協助日常配置，選購前要先看疼痛是否需要專業協助，再比較護具、坐墊與鞋包重量。",
+      "category": "wellness-movement",
+      "categoryLabel": "健康恢復",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T07:55:40Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "wellness-movement/workday-knee-back-support-cushion-bag-weight-guide",
+      "heroImage": "/images/optimized/article-covers/workday-knee-back-support-cushion-bag-weight-guide.jpg",
+      "tags": [
+        "久坐支撐",
+        "護膝護腰",
+        "坐墊",
+        "通勤包重量"
+      ]
+    },
     {
       "id": "auto-20260621073209-office-afternoon-drinks-tea-sparkling-pantry-guide",
       "title": "下午三點喝什麼：無糖茶、花草茶、氣泡飲與沖泡飲怎麼放辦公室",
@@ -125,96 +215,6 @@
         "雨天上班",
         "包款選購",
         "城市穿搭"
-      ]
-    },
-    {
-      "id": "auto-20260621053633-office-coffee-beans-drip-bag-gift-box-guide",
-      "title": "辦公室咖啡補給怎麼選：咖啡豆、濾掛、掛耳包與送禮盒",
-      "excerpt": "辦公室咖啡補給先看沖泡門檻、保存方式與共享情境，再決定咖啡豆、濾掛、掛耳包或禮盒。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市效率選物",
-      "publishedAt": "2026-06-21T05:36:33Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "lifestyle-culture/office-coffee-beans-drip-bag-gift-box-guide",
-      "heroImage": "images/optimized/article-covers/office-coffee-beans-drip-bag-gift-box-guide.jpg",
-      "tags": [
-        "辦公室咖啡",
-        "濾掛咖啡",
-        "咖啡禮盒",
-        "下午茶"
-      ]
-    },
-    {
-      "id": "auto-20260621053633-phone-accessory-car-desk-charging-magsafe-system",
-      "title": "手機不是只靠保護殼：車用、桌面、充電與 MagSafe 配件整理法",
-      "excerpt": "手機配件不該只看保護殼外觀，車用、桌面、充電與外出收納各自有不同判斷順序。",
-      "category": "ai-innovation",
-      "categoryLabel": "人工智能",
-      "series": "城市效率選物",
-      "publishedAt": "2026-06-21T05:36:33Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "ai-innovation/phone-accessory-car-desk-charging-magsafe-system",
-      "heroImage": "images/optimized/article-covers/phone-accessory-car-desk-charging-magsafe-system.jpg",
-      "tags": [
-        "手機配件",
-        "MagSafe",
-        "車用手機架",
-        "桌面充電"
-      ]
-    },
-    {
-      "id": "auto-20260621053633-rainy-commute-umbrella-rain-shoes-bag-materials",
-      "title": "雨天上班不失控：抗風傘、雨鞋、雨衣與包款材質清單",
-      "excerpt": "雨天上班的關鍵不是買最多雨具，而是把抵達前、進門後與收納時的狼狽感降到最低。",
-      "category": "casual-chic",
-      "categoryLabel": "休閒時尚",
-      "series": "城市效率選物",
-      "publishedAt": "2026-06-21T05:36:33Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "casual-chic/rainy-commute-umbrella-rain-shoes-bag-materials",
-      "heroImage": "images/optimized/article-covers/rainy-commute-umbrella-rain-shoes-bag-materials.jpg",
-      "tags": [
-        "雨天通勤",
-        "抗風傘",
-        "雨鞋",
-        "上班穿搭"
-      ]
-    },
-    {
-      "id": "auto-20260529073500-cross-border-memory-family-dialogue-forward",
-      "title": "跨國記憶、家庭對話與自我重建",
-      "excerpt": "記憶不必被收進箱子裡，也不必佔據整個家；它可以有一個位置，讓生活繼續往前。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "喪偶後海歸返台的一人生活重建",
-      "publishedAt": "2026-05-29T07:35:00Z",
-      "publishedDateText": "2026年5月29日",
-      "relativeUrl": "lifestyle-culture/cross-border-memory-family-dialogue-forward.html",
-      "heroImage": "/images/optimized/article-covers/cross-border-memory-family-dialogue-forward.jpg",
-      "tags": [
-        "返台生活",
-        "情感紀念",
-        "家庭對話",
-        "自我重建"
-      ]
-    },
-    {
-      "id": "auto-20260529073500-delegate-business-team-emergency-agent-checklist",
-      "title": "委外、授權與緊急代理清單",
-      "excerpt": "能暫時放手，不代表失去控制；真正成熟的公司，應該在創辦人需要休息時仍有基本秩序。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "喪偶後創業者的一人生活與事業韌性",
-      "publishedAt": "2026-05-29T07:35:00Z",
-      "publishedDateText": "2026年5月29日",
-      "relativeUrl": "lifestyle-culture/delegate-business-team-emergency-agent-checklist.html",
-      "heroImage": "/images/optimized/article-covers/delegate-business-team-emergency-agent-checklist.jpg",
-      "tags": [
-        "創業者",
-        "委外",
-        "授權",
-        "營運系統"
       ]
     }
   ],
@@ -611,6 +611,24 @@
       "label": "休閒時尚",
       "items": [
         {
+          "id": "auto-20260621075540-meeting-grooming-hair-makeup-scent-small-bag-kit",
+          "title": "會議前後的整理包：髮品、補妝、香氛與小包怎麼放",
+          "excerpt": "會議整理包不是把浴室搬進包裡，而是把會議前五分鐘最常用到的髮品、補妝工具與小包位置排清楚。",
+          "category": "casual-chic",
+          "categoryLabel": "休閒時尚",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T07:55:40Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "casual-chic/meeting-grooming-hair-makeup-scent-small-bag-kit",
+          "heroImage": "/images/optimized/article-covers/meeting-grooming-hair-makeup-scent-small-bag-kit.jpg",
+          "tags": [
+            "會議整理包",
+            "補妝工具",
+            "小包收納",
+            "通勤儀容"
+          ]
+        },
+        {
           "id": "auto-20260621053633-commute-bag-size-strap-formality-rain-backup",
           "title": "通勤包不是越大越好：容量、肩帶、正式感與雨天備案怎麼選",
           "excerpt": "通勤包的價值不在容量最大，而在每天真正會帶什麼、肩帶是否舒服，以及進會議室時是否仍然得體。",
@@ -699,30 +717,48 @@
             "襯衫",
             "皮鞋"
           ]
-        },
-        {
-          "id": "auto-20260522074352-hair-accessory-small-gift-products",
-          "title": "小禮物不一定要很大盒：13 件髮飾、耳飾與包款配件怎麼挑",
-          "excerpt": "髮飾、耳飾、小包與墨鏡適合輕量送禮，也適合通勤與週末穿搭搭配，重點是材質、尺寸與使用場合。",
-          "category": "casual-chic",
-          "categoryLabel": "休閒時尚",
-          "series": "配件禮物商品推薦",
-          "publishedAt": "2026-05-22T07:43:52Z",
-          "publishedDateText": "2026年5月22日",
-          "relativeUrl": "casual-chic/hair-accessory-small-gift-products.html",
-          "heroImage": "images/optimized/article-covers/hair-accessory-small-gift-products.jpg",
-          "tags": [
-            "髮飾配件",
-            "商品推薦",
-            "選購清單",
-            "居家整理"
-          ]
         }
       ]
     },
     "wellness-movement": {
       "label": "健康恢復",
       "items": [
+        {
+          "id": "auto-20260621075540-office-snack-cabinet-low-sugar-nuts-vegetarian-drinks",
+          "title": "外食日的零食櫃：低醣點心、堅果、素食零嘴與沖泡飲怎麼放",
+          "excerpt": "低負擔零食櫃要看份量、保存與口味疲乏，不把低醣、堅果、素食零嘴或沖泡飲寫成健康捷徑。",
+          "category": "wellness-movement",
+          "categoryLabel": "健康恢復",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T07:55:40Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "wellness-movement/office-snack-cabinet-low-sugar-nuts-vegetarian-drinks",
+          "heroImage": "/images/optimized/article-covers/office-snack-cabinet-low-sugar-nuts-vegetarian-drinks.jpg",
+          "tags": [
+            "辦公室零食",
+            "低醣點心",
+            "堅果",
+            "沖泡飲"
+          ]
+        },
+        {
+          "id": "auto-20260621075540-workday-knee-back-support-cushion-bag-weight-guide",
+          "title": "久坐工作日的腰背與膝蓋支撐：護具、坐墊、鞋包重量怎麼看",
+          "excerpt": "腰背與膝蓋支撐用品只能協助日常配置，選購前要先看疼痛是否需要專業協助，再比較護具、坐墊與鞋包重量。",
+          "category": "wellness-movement",
+          "categoryLabel": "健康恢復",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T07:55:40Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "wellness-movement/workday-knee-back-support-cushion-bag-weight-guide",
+          "heroImage": "/images/optimized/article-covers/workday-knee-back-support-cushion-bag-weight-guide.jpg",
+          "tags": [
+            "久坐支撐",
+            "護膝護腰",
+            "坐墊",
+            "通勤包重量"
+          ]
+        },
         {
           "id": "auto-20260621053633-bedtime-environment-earplugs-pillow-light-scent-order",
           "title": "睡前環境怎麼整理：耳塞、枕頭、燈光與香氛的低壓順序",
@@ -798,48 +834,30 @@
             "保健食品",
             "日常補給"
           ]
-        },
-        {
-          "id": "auto-20260528192610-home-care-supplies-medical-aid-consumables",
-          "title": "家裡有人需要照護時，先整理哪些用品：醫材通路、輔具與生活消耗品",
-          "excerpt": "照護用品先分成安全動線、日常消耗、清潔防護與專業確認，家裡才不會被臨時需求打亂。",
-          "category": "wellness-movement",
-          "categoryLabel": "健康恢復",
-          "series": "通勤儀容、家庭補貨、照護與居家更新指南",
-          "publishedAt": "2026-05-28T19:26:10Z",
-          "publishedDateText": "2026年5月28日",
-          "relativeUrl": "wellness-movement/home-care-supplies-medical-aid-consumables.html",
-          "heroImage": "images/optimized/article-covers/home-care-supplies-medical-aid-consumables.jpg",
-          "tags": [
-            "健康恢復",
-            "生活採買",
-            "照護用品",
-            "生活消耗品"
-          ]
-        },
-        {
-          "id": "auto-20260528182146-light-snack-cabinet-low-sugar-nuts-vegetarian",
-          "title": "外食族的低負擔零食櫃：低醣點心、堅果、素食零嘴與沖泡飲",
-          "excerpt": "把加班、通勤和下午空檔的點心準備好，避免臨時用高壓情緒決定吃什麼。",
-          "category": "wellness-movement",
-          "categoryLabel": "健康恢復",
-          "series": "新受眾生活採買指南",
-          "publishedAt": "2026-05-28T18:21:46Z",
-          "publishedDateText": "2026年5月28日",
-          "relativeUrl": "wellness-movement/light-snack-cabinet-low-sugar-nuts-vegetarian.html",
-          "heroImage": "images/optimized/article-covers/light-snack-cabinet-low-sugar-nuts-vegetarian.jpg",
-          "tags": [
-            "健康恢復",
-            "生活採買",
-            "低醣點心",
-            "沖泡補給"
-          ]
         }
       ]
     },
     "outdoor-escapes": {
       "label": "戶外生活",
       "items": [
+        {
+          "id": "auto-20260621075540-travel-luggage-front-open-carry-on-packing-system-2",
+          "title": "出國前先整理箱包系統：前開式行李箱、登機箱與收納袋",
+          "excerpt": "箱包系統要先用旅程天數與拿取頻率決定箱體，再比較前開式行李箱、登機箱與收納袋。",
+          "category": "outdoor-escapes",
+          "categoryLabel": "戶外生活",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T07:55:40Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "outdoor-escapes/travel-luggage-front-open-carry-on-packing-system-2",
+          "heroImage": "/images/optimized/article-covers/travel-luggage-front-open-carry-on-packing-system-2.jpg",
+          "tags": [
+            "前開式行李箱",
+            "登機箱",
+            "旅行收納",
+            "出國準備"
+          ]
+        },
         {
           "id": "auto-20260621073208-day-trip-bag-sun-charging-earplug-rainwear-checklist",
           "title": "一日輕旅行包裡放什麼：防曬、充電、耳塞、雨具與小包",
@@ -936,30 +954,30 @@
             "選物指南",
             "生活採買"
           ]
-        },
-        {
-          "id": "auto-20260528182146-travel-luggage-front-open-carry-on-packing-system",
-          "title": "出國前先整理箱包系統：前開式行李箱、登機箱與旅行收納",
-          "excerpt": "出國前先建立箱包系統，讓證件、工作物品、衣物與備用品各有位置。",
-          "category": "outdoor-escapes",
-          "categoryLabel": "戶外生活",
-          "series": "新受眾生活採買指南",
-          "publishedAt": "2026-05-28T18:21:46Z",
-          "publishedDateText": "2026年5月28日",
-          "relativeUrl": "outdoor-escapes/travel-luggage-front-open-carry-on-packing-system.html",
-          "heroImage": "images/optimized/article-covers/travel-luggage-front-open-carry-on-packing-system.jpg",
-          "tags": [
-            "戶外生活",
-            "生活採買",
-            "前開式行李箱",
-            "戶外小物"
-          ]
         }
       ]
     },
     "lifestyle-culture": {
       "label": "生活品味",
       "items": [
+        {
+          "id": "auto-20260621075540-small-home-entry-closet-desk-cleaning-storage-order",
+          "title": "小宅收納不是買更多盒子：玄關、衣櫃、書桌與清潔工具配置",
+          "excerpt": "小宅收納的核心不是買更多盒子，而是先替物品安排停靠點，再看玄關、衣櫃、書桌與清潔工具如何接上動線。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T07:55:40Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "lifestyle-culture/small-home-entry-closet-desk-cleaning-storage-order",
+          "heroImage": "/images/optimized/article-covers/small-home-entry-closet-desk-cleaning-storage-order.jpg",
+          "tags": [
+            "小宅收納",
+            "玄關整理",
+            "衣櫃收納",
+            "清潔工具"
+          ]
+        },
         {
           "id": "auto-20260621073209-office-afternoon-drinks-tea-sparkling-pantry-guide",
           "title": "下午三點喝什麼：無糖茶、花草茶、氣泡飲與沖泡飲怎麼放辦公室",
@@ -1048,24 +1066,6 @@
             "情感紀念",
             "家庭對話",
             "自我重建"
-          ]
-        },
-        {
-          "id": "auto-20260529073500-delegate-business-team-emergency-agent-checklist",
-          "title": "委外、授權與緊急代理清單",
-          "excerpt": "能暫時放手，不代表失去控制；真正成熟的公司，應該在創辦人需要休息時仍有基本秩序。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "喪偶後創業者的一人生活與事業韌性",
-          "publishedAt": "2026-05-29T07:35:00Z",
-          "publishedDateText": "2026年5月29日",
-          "relativeUrl": "lifestyle-culture/delegate-business-team-emergency-agent-checklist.html",
-          "heroImage": "/images/optimized/article-covers/delegate-business-team-emergency-agent-checklist.jpg",
-          "tags": [
-            "創業者",
-            "委外",
-            "授權",
-            "營運系統"
           ]
         }
       ]

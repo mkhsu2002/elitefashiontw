@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T07:32:09Z",
+  "updatedAt": "2026-06-21T07:55:40Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -555,6 +555,66 @@
       "generatedAt": "2026-06-21T07:32:09Z",
       "usage": "cover-og-twitter",
       "promptSummary": "辦公室茶水間午後光線下，無標籤茶壺、玻璃氣泡水、空白紙盒飲品、茶包與杯具整齊排列",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "meeting-grooming-hair-makeup-scent-small-bag-kit": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/meeting-grooming-hair-makeup-scent-small-bag-kit.jpg",
+      "output": "images/optimized/article-covers/meeting-grooming-hair-makeup-scent-small-bag-kit.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a37958aa90c81909f8718321f6aafaf.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a37958aa90c81909f8718321f6aafaf.png",
+      "sha256": "bdb5a35146ec9cf0d640ebfe1a3da9eaad3e092bf599e7e8288b7739574ff005",
+      "generatedAt": "2026-06-21T07:55:40Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮化妝台上有無品牌米色整理包、黑色手提包、木柄髮刷、補妝刷具、小鏡子與柔軟毛巾",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "travel-luggage-front-open-carry-on-packing-system-2": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/travel-luggage-front-open-carry-on-packing-system-2.jpg",
+      "output": "images/optimized/article-covers/travel-luggage-front-open-carry-on-packing-system-2.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a3795d246648190a485863cb327a6ae.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a3795d246648190a485863cb327a6ae.png",
+      "sha256": "4a99866399ec2f9acff8b1733bb2eba87e92db03b0a1350f52c8a94d91d46933",
+      "generatedAt": "2026-06-21T07:55:40Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "陽光臥室中，無品牌前開式行李箱、登機箱、收納袋、折傘、旅行小包與衣物整齊排列",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "small-home-entry-closet-desk-cleaning-storage-order": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/small-home-entry-closet-desk-cleaning-storage-order.jpg",
+      "output": "images/optimized/article-covers/small-home-entry-closet-desk-cleaning-storage-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a379621c7fc81908b8bfd008c92014e.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a379621c7fc81908b8bfd008c92014e.png",
+      "sha256": "d573b0aae45a7120ab2bcd6c8ee3121f5caa0ab623a25b2a19c9e7e9428a61c8",
+      "generatedAt": "2026-06-21T07:55:40Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "小宅玄關、衣櫃、書桌與清潔工具區整齊連成一排，木質家具、綠色布品與收納盒形成清爽生活感",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "workday-knee-back-support-cushion-bag-weight-guide": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/workday-knee-back-support-cushion-bag-weight-guide.jpg",
+      "output": "images/optimized/article-covers/workday-knee-back-support-cushion-bag-weight-guide.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a379680d0c8819099730c52bf3db7aa.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a379680d0c8819099730c52bf3db7aa.png",
+      "sha256": "89110c5b822ef664b7fde388c3fb7c88586f1c2641e0e152bdcb157dedadc1af",
+      "generatedAt": "2026-06-21T07:55:40Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮辦公室裡，無品牌人體工學椅、腰靠坐墊、膝部支撐套、灰色工作包與休閒鞋排列在木桌旁",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "office-snack-cabinet-low-sugar-nuts-vegetarian-drinks": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/office-snack-cabinet-low-sugar-nuts-vegetarian-drinks.jpg",
+      "output": "images/optimized/article-covers/office-snack-cabinet-low-sugar-nuts-vegetarian-drinks.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a3796e3e9808190b86cacff052312e5.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a3796e3e9808190b86cacff052312e5.png",
+      "sha256": "685ced8a106d5546da85f1e9b61d9b86c4d6c9a2515676e7490a90eb694274e8",
+      "generatedAt": "2026-06-21T07:55:40Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "辦公室木質零食櫃裡，玻璃罐裝堅果、素食零嘴、無字紙袋與沖泡飲小包整齊分層收納",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }

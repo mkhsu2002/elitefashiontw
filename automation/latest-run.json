@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T07:32:09Z",
+  "updatedAt": "2026-06-21T07:55:40Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-two-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01-B02",
+  "triggerType": "manual-codex-momo-revenue-growth-batch-three-no-newsletter",
+  "queueId": "MOMO-REV-2026-06-21-W01-B03",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260621073208-summer-airflow-fan-small-appliance-lighting-system",
-    "auto-20260621073208-day-trip-bag-sun-charging-earplug-rainwear-checklist",
-    "auto-20260621073208-after-work-home-scent-light-storage-upgrade-order",
-    "auto-20260621073209-second-monitor-laptop-stand-backup-work-setup",
-    "auto-20260621073209-office-afternoon-drinks-tea-sparkling-pantry-guide"
+    "auto-20260621075540-meeting-grooming-hair-makeup-scent-small-bag-kit",
+    "auto-20260621075540-travel-luggage-front-open-carry-on-packing-system-2",
+    "auto-20260621075540-small-home-entry-closet-desk-cleaning-storage-order",
+    "auto-20260621075540-workday-knee-back-support-cushion-bag-weight-guide",
+    "auto-20260621075540-office-snack-cabinet-low-sugar-nuts-vegetarian-drinks"
   ],
   "articleSlugs": [
-    "summer-airflow-fan-small-appliance-lighting-system",
-    "day-trip-bag-sun-charging-earplug-rainwear-checklist",
-    "after-work-home-scent-light-storage-upgrade-order",
-    "second-monitor-laptop-stand-backup-work-setup",
-    "office-afternoon-drinks-tea-sparkling-pantry-guide"
+    "meeting-grooming-hair-makeup-scent-small-bag-kit",
+    "travel-luggage-front-open-carry-on-packing-system-2",
+    "small-home-entry-closet-desk-cleaning-storage-order",
+    "workday-knee-back-support-cushion-bag-weight-guide",
+    "office-snack-cabinet-low-sugar-nuts-vegetarian-drinks"
   ],
-  "notes": "Codex 手動生成 momo 收益型內容第二組；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動生成 momo 收益型內容第三組；直接推上 main 不會自動寄送電子報。"
 }
