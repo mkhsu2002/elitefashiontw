@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-21T07:32:09Z｜下午三點喝什麼：無糖茶、花草茶、氣泡飲與沖泡飲怎麼放辦公室
+
+- 文章 ID：auto-20260621073209-office-afternoon-drinks-tea-sparkling-pantry-guide
+- URL：https://tw.elitefasion.com/lifestyle-culture/office-afternoon-drinks-tea-sparkling-pantry-guide
+- 檔案：lifestyle-culture/office-afternoon-drinks-tea-sparkling-pantry-guide.html
+- 類型：manual-codex-momo-revenue-growth-batch-two-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B02
+
+## 2026-06-21T07:32:09Z｜第二螢幕怎麼選：外接螢幕、筆電、支架與資料備份的工作配置
+
+- 文章 ID：auto-20260621073209-second-monitor-laptop-stand-backup-work-setup
+- URL：https://tw.elitefasion.com/ai-innovation/second-monitor-laptop-stand-backup-work-setup
+- 檔案：ai-innovation/second-monitor-laptop-stand-backup-work-setup.html
+- 類型：manual-codex-momo-revenue-growth-batch-two-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B02
+
+## 2026-06-21T07:32:08Z｜下班後的家要先安靜下來：香氛、燈光與收納的升級順序
+
+- 文章 ID：auto-20260621073208-after-work-home-scent-light-storage-upgrade-order
+- URL：https://tw.elitefasion.com/lifestyle-culture/after-work-home-scent-light-storage-upgrade-order
+- 檔案：lifestyle-culture/after-work-home-scent-light-storage-upgrade-order.html
+- 類型：manual-codex-momo-revenue-growth-batch-two-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B02
+
+## 2026-06-21T07:32:08Z｜一日輕旅行包裡放什麼：防曬、充電、耳塞、雨具與小包
+
+- 文章 ID：auto-20260621073208-day-trip-bag-sun-charging-earplug-rainwear-checklist
+- URL：https://tw.elitefasion.com/outdoor-escapes/day-trip-bag-sun-charging-earplug-rainwear-checklist
+- 檔案：outdoor-escapes/day-trip-bag-sun-charging-earplug-rainwear-checklist.html
+- 類型：manual-codex-momo-revenue-growth-batch-two-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B02
+
+## 2026-06-21T07:32:08Z｜夏天前整理家的空氣路線：循環扇、小家電與照明怎麼配
+
+- 文章 ID：auto-20260621073208-summer-airflow-fan-small-appliance-lighting-system
+- URL：https://tw.elitefasion.com/lifestyle-culture/summer-airflow-fan-small-appliance-lighting-system
+- 檔案：lifestyle-culture/summer-airflow-fan-small-appliance-lighting-system.html
+- 類型：manual-codex-momo-revenue-growth-batch-two-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B02
+
 ## 2026-06-21T05:36:33Z｜睡前環境怎麼整理：耳塞、枕頭、燈光與香氛的低壓順序
 
 - 文章 ID：auto-20260621053633-bedtime-environment-earplugs-pillow-light-scent-order

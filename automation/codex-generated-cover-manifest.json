@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T07:03:00Z",
+  "updatedAt": "2026-06-21T07:32:09Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -496,6 +496,66 @@
       "promptSummary": "Codex image_gen blue-hour bedroom still life: pillow, lamp, blank book, scent vessel and earplugs; no text, no logo.",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label.",
       "styleDifferentiation": "Part of a five-image batch with varied scene, color palette, lighting, and composition."
+    },
+    "summer-airflow-fan-small-appliance-lighting-system": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/summer-airflow-fan-small-appliance-lighting-system.jpg",
+      "output": "images/optimized/article-covers/summer-airflow-fan-small-appliance-lighting-system.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a378f6ed63c8190917e6646daa56d74.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a378f6ed63c8190917e6646daa56d74.png",
+      "sha256": "2303b5d27e8f8e88e91f4dac12d78adfe9bbe09271feba3dff1f861c10ece4d4",
+      "generatedAt": "2026-06-21T07:32:08Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "夏日明亮客廳裡，循環扇、落地燈、小家電與窗邊綠植形成通風動線",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "day-trip-bag-sun-charging-earplug-rainwear-checklist": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/day-trip-bag-sun-charging-earplug-rainwear-checklist.jpg",
+      "output": "images/optimized/article-covers/day-trip-bag-sun-charging-earplug-rainwear-checklist.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a378fb4bc2081908f4952f8e4a26f9c.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a378fb4bc2081908f4952f8e4a26f9c.png",
+      "sha256": "2eebdb481202af4e03af17760c308adbe6748bc3da13770c8b980b9da5bc7158",
+      "generatedAt": "2026-06-21T07:32:08Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "海邊一日輕旅行長椅上，無品牌小包、防曬用品、行動電源、耳塞盒、雨衣與折傘整齊排列",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "after-work-home-scent-light-storage-upgrade-order": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/after-work-home-scent-light-storage-upgrade-order.jpg",
+      "output": "images/optimized/article-covers/after-work-home-scent-light-storage-upgrade-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a37900ef87481909572b45f37204299.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a37900ef87481909572b45f37204299.png",
+      "sha256": "cc21f93d14b6a56709df8fbbfdacb000a3bd41abcad6eab08070b248053fe45f",
+      "generatedAt": "2026-06-21T07:32:08Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "下班後的現代客廳，溫暖桌燈、無字香氛陶器、收納盒、托盤與折疊毯安靜擺放",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "second-monitor-laptop-stand-backup-work-setup": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/second-monitor-laptop-stand-backup-work-setup.jpg",
+      "output": "images/optimized/article-covers/second-monitor-laptop-stand-backup-work-setup.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a3790668c388190b7783efd1049fd96.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a3790668c388190b7783efd1049fd96.png",
+      "sha256": "345661d643716837b0e86f83128f2ebaeee27bf2938ee79555cbf291e773f05c",
+      "generatedAt": "2026-06-21T07:32:09Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮工作桌上，無品牌外接螢幕、筆電支架、備份硬碟、線材整理與桌燈形成高效率配置",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "office-afternoon-drinks-tea-sparkling-pantry-guide": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/office-afternoon-drinks-tea-sparkling-pantry-guide.jpg",
+      "output": "images/optimized/article-covers/office-afternoon-drinks-tea-sparkling-pantry-guide.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a3790bd7ba08190a4ded45e927abcd1.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a3790bd7ba08190a4ded45e927abcd1.png",
+      "sha256": "e3a0080af9ad08c80d33da105251b784b276ebfdb46f70d9d3ff1dbac3586f89",
+      "generatedAt": "2026-06-21T07:32:09Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "辦公室茶水間午後光線下，無標籤茶壺、玻璃氣泡水、空白紙盒飲品、茶包與杯具整齊排列",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }
 }

@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T05:36:33Z",
+  "updatedAt": "2026-06-21T07:32:09Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-one-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01",
+  "triggerType": "manual-codex-momo-revenue-growth-batch-two-no-newsletter",
+  "queueId": "MOMO-REV-2026-06-21-W01-B02",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260621053633-commute-bag-size-strap-formality-rain-backup",
-    "auto-20260621053633-rainy-commute-umbrella-rain-shoes-bag-materials",
-    "auto-20260621053633-phone-accessory-car-desk-charging-magsafe-system",
-    "auto-20260621053633-office-coffee-beans-drip-bag-gift-box-guide",
-    "auto-20260621053633-bedtime-environment-earplugs-pillow-light-scent-order"
+    "auto-20260621073208-summer-airflow-fan-small-appliance-lighting-system",
+    "auto-20260621073208-day-trip-bag-sun-charging-earplug-rainwear-checklist",
+    "auto-20260621073208-after-work-home-scent-light-storage-upgrade-order",
+    "auto-20260621073209-second-monitor-laptop-stand-backup-work-setup",
+    "auto-20260621073209-office-afternoon-drinks-tea-sparkling-pantry-guide"
   ],
   "articleSlugs": [
-    "commute-bag-size-strap-formality-rain-backup",
-    "rainy-commute-umbrella-rain-shoes-bag-materials",
-    "phone-accessory-car-desk-charging-magsafe-system",
-    "office-coffee-beans-drip-bag-gift-box-guide",
-    "bedtime-environment-earplugs-pillow-light-scent-order"
+    "summer-airflow-fan-small-appliance-lighting-system",
+    "day-trip-bag-sun-charging-earplug-rainwear-checklist",
+    "after-work-home-scent-light-storage-upgrade-order",
+    "second-monitor-laptop-stand-backup-work-setup",
+    "office-afternoon-drinks-tea-sparkling-pantry-guide"
   ],
-  "notes": "Codex 手動生成 momo 收益型內容第一批；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動生成 momo 收益型內容第二組；直接推上 main 不會自動寄送電子報。"
 }

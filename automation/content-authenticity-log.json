@@ -1,7 +1,422 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T05:36:33Z",
+  "updatedAt": "2026-06-21T07:32:09Z",
   "entries": [
+    {
+      "articleId": "auto-20260621073209-office-afternoon-drinks-tea-sparkling-pantry-guide",
+      "slug": "office-afternoon-drinks-tea-sparkling-pantry-guide",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T07:32:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005142/main",
+        "https://www.momoshop.com.tw/TP/TP0008786/main",
+        "https://www.momoshop.com.tw/TP/TP0000776/main",
+        "https://www.momoshop.com.tw/TP/TP0009026/main",
+        "https://www.momoshop.com.tw/TP/TP0001663/main",
+        "https://www.momoshop.com.tw/TP/TP0008341/main",
+        "https://s.momoshop.com.tw/s/fQyUCDn2",
+        "https://s.momoshop.com.tw/s/TwflpBsn",
+        "https://s.momoshop.com.tw/s/bw69kfhb",
+        "https://s.momoshop.com.tw/s/iujoS6F4",
+        "https://s.momoshop.com.tw/s/v7Cbs9S5",
+        "https://s.momoshop.com.tw/s/ftLQRw5g",
+        "https://tw.elitefasion.com/lifestyle-culture/office-afternoon-drinks-tea-sparkling-pantry-guide",
+        "https://tw.elitefasion.com/images/optimized/article-covers/office-afternoon-drinks-tea-sparkling-pantry-guide.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621073209-second-monitor-laptop-stand-backup-work-setup",
+      "slug": "second-monitor-laptop-stand-backup-work-setup",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T07:32:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005967/main",
+        "https://www.momoshop.com.tw/TP/TP0002753/main",
+        "https://www.momoshop.com.tw/TP/TP0007010/main",
+        "https://www.momoshop.com.tw/TP/TP0000858/main",
+        "https://www.momoshop.com.tw/TP/TP0009476/main",
+        "https://www.momoshop.com.tw/TP/TP0006238/main",
+        "https://s.momoshop.com.tw/s/NbN84MXv",
+        "https://s.momoshop.com.tw/s/7CYQWKtd",
+        "https://s.momoshop.com.tw/s/Mr1gVZvp",
+        "https://s.momoshop.com.tw/s/hRqB1cCU",
+        "https://s.momoshop.com.tw/s/LJfvOb7h",
+        "https://s.momoshop.com.tw/s/tHzRb51a",
+        "https://tw.elitefasion.com/ai-innovation/second-monitor-laptop-stand-backup-work-setup",
+        "https://tw.elitefasion.com/images/optimized/article-covers/second-monitor-laptop-stand-backup-work-setup.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621073208-after-work-home-scent-light-storage-upgrade-order",
+      "slug": "after-work-home-scent-light-storage-upgrade-order",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T07:32:09Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0002458/main",
+        "https://www.momoshop.com.tw/TP/TP0007295/main",
+        "https://www.momoshop.com.tw/TP/TP0005953/main",
+        "https://www.momoshop.com.tw/TP/TP0004627/main",
+        "https://www.momoshop.com.tw/TP/TP0009429/main",
+        "https://www.momoshop.com.tw/TP/TP0005162/main",
+        "https://s.momoshop.com.tw/s/ZzrRLijd",
+        "https://s.momoshop.com.tw/s/94QtsVvN",
+        "https://s.momoshop.com.tw/s/4sSbnDHc",
+        "https://s.momoshop.com.tw/s/AFFq5jUk",
+        "https://s.momoshop.com.tw/s/zG2mE8Uf",
+        "https://s.momoshop.com.tw/s/yVfDXA0J",
+        "https://tw.elitefasion.com/lifestyle-culture/after-work-home-scent-light-storage-upgrade-order",
+        "https://tw.elitefasion.com/images/optimized/article-covers/after-work-home-scent-light-storage-upgrade-order.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621073208-day-trip-bag-sun-charging-earplug-rainwear-checklist",
+      "slug": "day-trip-bag-sun-charging-earplug-rainwear-checklist",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T07:32:08Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0007070/main",
+        "https://www.momoshop.com.tw/TP/TP0009476/main",
+        "https://www.momoshop.com.tw/TP/TP0003593/main",
+        "https://www.momoshop.com.tw/TP/TP0000116/main",
+        "https://www.momoshop.com.tw/TP/TP0005684/main",
+        "https://www.momoshop.com.tw/TP/TP0009277/main",
+        "https://s.momoshop.com.tw/s/fZ9miz2D",
+        "https://s.momoshop.com.tw/s/LJfvOb7h",
+        "https://s.momoshop.com.tw/s/zymRpNpU",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3",
+        "https://s.momoshop.com.tw/s/swCkSJDA",
+        "https://s.momoshop.com.tw/s/jEp8GjC8",
+        "https://tw.elitefasion.com/outdoor-escapes/day-trip-bag-sun-charging-earplug-rainwear-checklist",
+        "https://tw.elitefasion.com/images/optimized/article-covers/day-trip-bag-sun-charging-earplug-rainwear-checklist.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621073208-summer-airflow-fan-small-appliance-lighting-system",
+      "slug": "summer-airflow-fan-small-appliance-lighting-system",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T07:32:08Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006567/main",
+        "https://www.momoshop.com.tw/TP/TP0005764/main",
+        "https://www.momoshop.com.tw/TP/TP0007295/main",
+        "https://www.momoshop.com.tw/TP/TP0005935/main",
+        "https://www.momoshop.com.tw/TP/TP0007694/main",
+        "https://www.momoshop.com.tw/TP/TP0004799/main",
+        "https://s.momoshop.com.tw/s/tPIXt2SN",
+        "https://s.momoshop.com.tw/s/ZpHylFwi",
+        "https://s.momoshop.com.tw/s/94QtsVvN",
+        "https://s.momoshop.com.tw/s/cxsF8Zc3",
+        "https://s.momoshop.com.tw/s/hduo9ZBp",
+        "https://s.momoshop.com.tw/s/lehbUric",
+        "https://tw.elitefasion.com/lifestyle-culture/summer-airflow-fan-small-appliance-lighting-system",
+        "https://tw.elitefasion.com/images/optimized/article-covers/summer-airflow-fan-small-appliance-lighting-system.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
     {
       "articleId": "auto-20260621053633-bedtime-environment-earplugs-pillow-light-scent-order",
       "slug": "bedtime-environment-earplugs-pillow-light-scent-order",
