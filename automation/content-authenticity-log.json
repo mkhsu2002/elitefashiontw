@@ -1,7 +1,427 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T08:30:00Z",
+  "updatedAt": "2026-06-21T09:01:56Z",
   "entries": [
+    {
+      "articleId": "auto-20260621090156-daily-skincare-essence-mask-body-sunscreen-order-2",
+      "slug": "daily-skincare-essence-mask-body-sunscreen-order-2",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T09:01:56Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0008453/main",
+        "https://www.momoshop.com.tw/TP/TP0001343/main",
+        "https://www.momoshop.com.tw/TP/TP0002583/main",
+        "https://www.momoshop.com.tw/TP/TP0008148/main",
+        "https://www.momoshop.com.tw/TP/TP0002458/main",
+        "https://www.momoshop.com.tw/TP/TP0005312/main",
+        "https://s.momoshop.com.tw/s/sKHLaOjH",
+        "https://s.momoshop.com.tw/s/PGqWPtwc",
+        "https://s.momoshop.com.tw/s/ZtqN2FYu",
+        "https://s.momoshop.com.tw/s/pvDynmuC",
+        "https://s.momoshop.com.tw/s/ZzrRLijd",
+        "https://s.momoshop.com.tw/s/SoDl70aO",
+        "https://tw.elitefasion.com/lifestyle-culture/daily-skincare-essence-mask-body-sunscreen-order-2",
+        "https://tw.elitefasion.com/images/optimized/article-covers/daily-skincare-essence-mask-body-sunscreen-order-2.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621090156-japanese-camping-style-table-stove-cup-storage-order",
+      "slug": "japanese-camping-style-table-stove-cup-storage-order",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T09:01:56Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0007737/main",
+        "https://www.momoshop.com.tw/TP/TP0006752/main",
+        "https://www.momoshop.com.tw/TP/TP0003074/main",
+        "https://www.momoshop.com.tw/TP/TP0009177/main",
+        "https://www.momoshop.com.tw/TP/TP0009528/main",
+        "https://www.momoshop.com.tw/TP/TP0007424/main",
+        "https://s.momoshop.com.tw/s/iLAlQeGq",
+        "https://s.momoshop.com.tw/s/4MGgnllr",
+        "https://s.momoshop.com.tw/s/0zqgZYNg",
+        "https://s.momoshop.com.tw/s/2I9FbCHZ",
+        "https://s.momoshop.com.tw/s/zqRxPzAK",
+        "https://s.momoshop.com.tw/s/osiHlmau",
+        "https://tw.elitefasion.com/outdoor-escapes/japanese-camping-style-table-stove-cup-storage-order",
+        "https://tw.elitefasion.com/images/optimized/article-covers/japanese-camping-style-table-stove-cup-storage-order.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621090156-pet-friendly-home-cleaning-floor-laundry-storage-order",
+      "slug": "pet-friendly-home-cleaning-floor-laundry-storage-order",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T09:01:56Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0008976/main",
+        "https://www.momoshop.com.tw/TP/TP0009640/main",
+        "https://www.momoshop.com.tw/TP/TP0005724/main",
+        "https://www.momoshop.com.tw/TP/TP0003749/main",
+        "https://www.momoshop.com.tw/TP/TP0007478/main",
+        "https://www.momoshop.com.tw/TP/TP0000922/main",
+        "https://s.momoshop.com.tw/s/U6ssO1bs",
+        "https://s.momoshop.com.tw/s/oKlc1t2I",
+        "https://s.momoshop.com.tw/s/zwczlnq2",
+        "https://s.momoshop.com.tw/s/krK2QPdO",
+        "https://s.momoshop.com.tw/s/1ZVmRBtY",
+        "https://s.momoshop.com.tw/s/NaHe80dq",
+        "https://tw.elitefasion.com/lifestyle-culture/pet-friendly-home-cleaning-floor-laundry-storage-order",
+        "https://tw.elitefasion.com/images/optimized/article-covers/pet-friendly-home-cleaning-floor-laundry-storage-order.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621090156-freezer-meal-prep-chicken-sweet-potato-vegetables-pack",
+      "slug": "freezer-meal-prep-chicken-sweet-potato-vegetables-pack",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T09:01:56Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005993/main",
+        "https://www.momoshop.com.tw/TP/TP0002665/main",
+        "https://www.momoshop.com.tw/TP/TP0001851/main",
+        "https://www.momoshop.com.tw/TP/TP0001794/main",
+        "https://www.momoshop.com.tw/TP/TP0000776/main",
+        "https://www.momoshop.com.tw/TP/TP0002736/main",
+        "https://s.momoshop.com.tw/s/xt5xEjrq",
+        "https://s.momoshop.com.tw/s/HBcbp9F5",
+        "https://s.momoshop.com.tw/s/NWgCjxNU",
+        "https://s.momoshop.com.tw/s/mlf6SOpU",
+        "https://s.momoshop.com.tw/s/bw69kfhb",
+        "https://s.momoshop.com.tw/s/wQRqLAAY",
+        "https://tw.elitefasion.com/wellness-movement/freezer-meal-prep-chicken-sweet-potato-vegetables-pack",
+        "https://tw.elitefasion.com/images/optimized/article-covers/freezer-meal-prep-chicken-sweet-potato-vegetables-pack.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621090156-home-comfort-massage-device-brace-care-supplies-order",
+      "slug": "home-comfort-massage-device-brace-care-supplies-order",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T09:01:56Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0008485/main",
+        "https://www.momoshop.com.tw/TP/TP0005698/main",
+        "https://www.momoshop.com.tw/TP/TP0009161/main",
+        "https://www.momoshop.com.tw/TP/TP0003385/main",
+        "https://www.momoshop.com.tw/TP/TP0006750/main",
+        "https://www.momoshop.com.tw/TP/TP0003894/main",
+        "https://s.momoshop.com.tw/s/f1zXSS5P",
+        "https://s.momoshop.com.tw/s/3gYTg55i",
+        "https://s.momoshop.com.tw/s/ksTIUNxO",
+        "https://s.momoshop.com.tw/s/ARNPduxj",
+        "https://s.momoshop.com.tw/s/BtMjBpkA",
+        "https://s.momoshop.com.tw/s/vAGOj7Co",
+        "https://tw.elitefasion.com/wellness-movement/home-comfort-massage-device-brace-care-supplies-order",
+        "https://tw.elitefasion.com/images/optimized/article-covers/home-comfort-massage-device-brace-care-supplies-order.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
     {
       "articleId": "auto-20260621083000-ai-workflow-laptop-monitor-cable-protection-backup",
       "slug": "ai-workflow-laptop-monitor-cable-protection-backup",

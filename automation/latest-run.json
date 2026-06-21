@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T08:30:00Z",
+  "updatedAt": "2026-06-21T09:01:56Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-five-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01-B05",
+  "triggerType": "manual-codex-momo-revenue-growth-batch-six-no-newsletter",
+  "queueId": "MOMO-REV-2026-06-21-W01-B06",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260621083000-home-cooking-pan-tableware-storage-order",
-    "auto-20260621083000-rental-small-appliance-kitchen-desk-cleaning-seasonal",
-    "auto-20260621083000-travel-shoes-light-bag-crossbody-rain-backup-system",
-    "auto-20260621083000-living-room-work-corner-lighting-scent-storage-system",
-    "auto-20260621083000-ai-workflow-laptop-monitor-cable-protection-backup"
+    "auto-20260621090156-home-comfort-massage-device-brace-care-supplies-order",
+    "auto-20260621090156-freezer-meal-prep-chicken-sweet-potato-vegetables-pack",
+    "auto-20260621090156-pet-friendly-home-cleaning-floor-laundry-storage-order",
+    "auto-20260621090156-japanese-camping-style-table-stove-cup-storage-order",
+    "auto-20260621090156-daily-skincare-essence-mask-body-sunscreen-order-2"
   ],
   "articleSlugs": [
-    "home-cooking-pan-tableware-storage-order",
-    "rental-small-appliance-kitchen-desk-cleaning-seasonal",
-    "travel-shoes-light-bag-crossbody-rain-backup-system",
-    "living-room-work-corner-lighting-scent-storage-system",
-    "ai-workflow-laptop-monitor-cable-protection-backup"
+    "home-comfort-massage-device-brace-care-supplies-order",
+    "freezer-meal-prep-chicken-sweet-potato-vegetables-pack",
+    "pet-friendly-home-cleaning-floor-laundry-storage-order",
+    "japanese-camping-style-table-stove-cup-storage-order",
+    "daily-skincare-essence-mask-body-sunscreen-order-2"
   ],
-  "notes": "Codex 手動生成 momo 收益型內容第五組；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動生成 momo 收益型內容第六組；直接推上 main 不會自動寄送電子報。"
 }

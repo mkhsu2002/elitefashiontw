@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T08:30:00Z",
+  "updatedAt": "2026-06-21T09:01:56Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -735,6 +735,66 @@
       "generatedAt": "2026-06-21T08:30:00Z",
       "usage": "cover-og-twitter",
       "promptSummary": "石墨色工作桌上有無品牌筆電、外接螢幕、USB-C 線材、透明保護貼、備份硬碟與空白筆記本",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "home-comfort-massage-device-brace-care-supplies-order": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/home-comfort-massage-device-brace-care-supplies-order.jpg",
+      "output": "images/optimized/article-covers/home-comfort-massage-device-brace-care-supplies-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37a2cfc560819b8e69ede903ac6d67.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37a2cfc560819b8e69ede903ac6d67.png",
+      "sha256": "28dd774619db5091080128ac752a7fafaed9e94f58439b02dd68e7c1429be465",
+      "generatedAt": "2026-06-21T09:01:56Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "暖光客廳裡有無品牌按摩椅、按摩槍、護具、毛毯、收納籃與水杯，呈現安靜居家照護角落",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "freezer-meal-prep-chicken-sweet-potato-vegetables-pack": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/freezer-meal-prep-chicken-sweet-potato-vegetables-pack.jpg",
+      "output": "images/optimized/article-covers/freezer-meal-prep-chicken-sweet-potato-vegetables-pack.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37a3387810819b9e3df4c0e235737a.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37a3387810819b9e3df4c0e235737a.png",
+      "sha256": "0586c423dbafcab718d2748786a8d78f45f214187fe303ba17a83afb6293a9ff",
+      "generatedAt": "2026-06-21T09:01:56Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "打開的冷凍庫與廚房檯面上有分裝雞胸、地瓜、冷凍蔬菜、空白料理包與透明保鮮盒",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "pet-friendly-home-cleaning-floor-laundry-storage-order": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/pet-friendly-home-cleaning-floor-laundry-storage-order.jpg",
+      "output": "images/optimized/article-covers/pet-friendly-home-cleaning-floor-laundry-storage-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37a39986c4819b95a62de640cf01f4.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37a39986c4819b95a62de640cf01f4.png",
+      "sha256": "2ba2a6ec7bcb99d0e0501a452b8eb9c719c03892fe1600b1a5f6cea8f53e8a93",
+      "generatedAt": "2026-06-21T09:01:56Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮寵物友善居家洗衣玄關區，有空白清潔瓶、拖把、洗衣籃、收納盒、地板與安靜休息的貓狗",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "japanese-camping-style-table-stove-cup-storage-order": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/japanese-camping-style-table-stove-cup-storage-order.jpg",
+      "output": "images/optimized/article-covers/japanese-camping-style-table-stove-cup-storage-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37a522a154819bbe3bb9c26ebcbacf.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37a522a154819bbe3bb9c26ebcbacf.png",
+      "sha256": "4adf51bac8d19607039916d8b69ec424921a852dbf5a88d40fd8a5f4bcc58ff8",
+      "generatedAt": "2026-06-21T09:01:56Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "森林湖畔金色光線下，無品牌低桌、折疊椅、未點火爐具、琺瑯杯、木箱與素色收納布安靜排列",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "daily-skincare-essence-mask-body-sunscreen-order-2": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/daily-skincare-essence-mask-body-sunscreen-order-2.jpg",
+      "output": "images/optimized/article-covers/daily-skincare-essence-mask-body-sunscreen-order-2.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37a460842c819baf4dc1334d805a6e.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37a460842c819baf4dc1334d805a6e.png",
+      "sha256": "e2c631ccf1ed6599fc42bb79f097792618d474104625601625b770d506aa563b",
+      "generatedAt": "2026-06-21T09:01:56Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "晨光浴室檯面上有無品牌精華瓶、空白面膜包、身體乳瓶、防曬管、陶瓷托盤與淡紫毛巾",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }

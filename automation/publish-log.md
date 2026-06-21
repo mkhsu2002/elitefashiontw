@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-21T09:01:56Z｜日常保養別堆太多：精華、面膜、身體保養與防曬怎麼排
+
+- 文章 ID：auto-20260621090156-daily-skincare-essence-mask-body-sunscreen-order-2
+- URL：https://tw.elitefasion.com/lifestyle-culture/daily-skincare-essence-mask-body-sunscreen-order-2
+- 檔案：lifestyle-culture/daily-skincare-essence-mask-body-sunscreen-order-2.html
+- 類型：manual-codex-momo-revenue-growth-batch-six-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B06
+
+## 2026-06-21T09:01:56Z｜日系露營風格入門：桌椅、爐具、杯具與收納小物順序
+
+- 文章 ID：auto-20260621090156-japanese-camping-style-table-stove-cup-storage-order
+- URL：https://tw.elitefasion.com/outdoor-escapes/japanese-camping-style-table-stove-cup-storage-order
+- 檔案：outdoor-escapes/japanese-camping-style-table-stove-cup-storage-order.html
+- 類型：manual-codex-momo-revenue-growth-batch-six-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B06
+
+## 2026-06-21T09:01:56Z｜寵物友善居家清潔：除味、地板、洗衣與收納用品怎麼看
+
+- 文章 ID：auto-20260621090156-pet-friendly-home-cleaning-floor-laundry-storage-order
+- URL：https://tw.elitefasion.com/lifestyle-culture/pet-friendly-home-cleaning-floor-laundry-storage-order
+- 檔案：lifestyle-culture/pet-friendly-home-cleaning-floor-laundry-storage-order.html
+- 類型：manual-codex-momo-revenue-growth-batch-six-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B06
+
+## 2026-06-21T09:01:56Z｜冷凍庫備餐清單：舒肥雞胸、地瓜、冷凍蔬菜與料理包
+
+- 文章 ID：auto-20260621090156-freezer-meal-prep-chicken-sweet-potato-vegetables-pack
+- URL：https://tw.elitefasion.com/wellness-movement/freezer-meal-prep-chicken-sweet-potato-vegetables-pack
+- 檔案：wellness-movement/freezer-meal-prep-chicken-sweet-potato-vegetables-pack.html
+- 類型：manual-codex-momo-revenue-growth-batch-six-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B06
+
+## 2026-06-21T09:01:56Z｜給家人的居家舒壓設備：按摩椅、按摩槍、護具與照護用品
+
+- 文章 ID：auto-20260621090156-home-comfort-massage-device-brace-care-supplies-order
+- URL：https://tw.elitefasion.com/wellness-movement/home-comfort-massage-device-brace-care-supplies-order
+- 檔案：wellness-movement/home-comfort-massage-device-brace-care-supplies-order.html
+- 類型：manual-codex-momo-revenue-growth-batch-six-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B06
+
 ## 2026-06-21T08:30:00Z｜AI 工作流需要什麼筆電周邊：螢幕、線材、保護貼與備份
 
 - 文章 ID：auto-20260621083000-ai-workflow-laptop-monitor-cable-protection-backup
