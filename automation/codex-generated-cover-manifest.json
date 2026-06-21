@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T05:36:33Z",
-  "generator": "codex-pil-editorial-cover",
+  "updatedAt": "2026-06-21T07:03:00Z",
+  "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
       "image": "images/optimized/article-covers/small-home-storage-products-entry-closet-underbed.jpg",
@@ -459,28 +459,43 @@
     },
     "commute-bag-size-strap-formality-rain-backup": {
       "image": "images/optimized/article-covers/commute-bag-size-strap-formality-rain-backup.jpg",
-      "sha256": "37cfdd545fdc2e8d16a71d6c5a8ead27ed05a546dcf9bb31a7edb3bd78783fa5",
-      "promptSummary": "明亮通勤玄關中，一只結構俐落的肩背包、雨傘、筆記本與輕外套放在木質長凳旁"
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a378b80cc608190997a6af20a4c76d8.png",
+      "sha256": "3b3654dd8fe3a0b182fe8d2df024bc4b51384ae2eed9a95c4d7d741fc8e69e93",
+      "promptSummary": "Codex image_gen editorial still life: unbranded commuter bag, umbrella, notebook and city entryway; no text, no logo.",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label.",
+      "styleDifferentiation": "Part of a five-image batch with varied scene, color palette, lighting, and composition."
     },
     "rainy-commute-umbrella-rain-shoes-bag-materials": {
       "image": "images/optimized/article-covers/rainy-commute-umbrella-rain-shoes-bag-materials.jpg",
-      "sha256": "a097eb9b89fc8f0bcf5c14b6815b15a7296d9f5457574681e6a3064fb6784b1d",
-      "promptSummary": "城市雨天玄關裡整齊放著抗風傘、雨鞋、防雨外套與深色通勤包"
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a378bab65208190958f4c19c29b591f.png",
+      "sha256": "cce1f3f030902ed638368f5508b10d8af37fbd6de82338463eeaf5439371d687",
+      "promptSummary": "Codex image_gen rainy city editorial: unbranded umbrella, rain boots, jacket, tote and towel; no text, no logo.",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label.",
+      "styleDifferentiation": "Part of a five-image batch with varied scene, color palette, lighting, and composition."
     },
     "phone-accessory-car-desk-charging-magsafe-system": {
       "image": "images/optimized/article-covers/phone-accessory-car-desk-charging-magsafe-system.jpg",
-      "sha256": "7a1a8f4884e6c0ecf5506c34e3af5a857a90d73348be54c71c8d41322cfcd565",
-      "promptSummary": "整潔工作桌與車用收納盤上放著手機支架、充電線、磁吸配件與耳機"
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a378cad581c81908e1a25ab5eca6fd7.png",
+      "sha256": "52ed50be1d7af750835c94ff1f5d32c96fd25e366d988af12b6018f4569d7c39",
+      "promptSummary": "Codex image_gen generic tech desk still life: unbranded phone slab, charging disc, cable, stand, pouch and power bank; no text, no logo.",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label.",
+      "styleDifferentiation": "Part of a five-image batch with varied scene, color palette, lighting, and composition."
     },
     "office-coffee-beans-drip-bag-gift-box-guide": {
       "image": "images/optimized/article-covers/office-coffee-beans-drip-bag-gift-box-guide.jpg",
-      "sha256": "867e1335a2c56f4ace58be8f64cdc76dcb8db662658e7c7f4e91dde290e7b6b6",
-      "promptSummary": "辦公室茶水角落中擺放咖啡豆、濾掛包、掛耳包、馬克杯與簡潔禮盒"
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a378c0edac8819097ec6ce46087ef33.png",
+      "sha256": "3bcd1f01d3bde1d881b6cc63acfd33638f4c3dfef2adb054b3bd320200508d86",
+      "promptSummary": "Codex image_gen warm office coffee still life: blank drip bags, beans, mug, kettle and gift box; no text, no logo.",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label.",
+      "styleDifferentiation": "Part of a five-image batch with varied scene, color palette, lighting, and composition."
     },
     "bedtime-environment-earplugs-pillow-light-scent-order": {
       "image": "images/optimized/article-covers/bedtime-environment-earplugs-pillow-light-scent-order.jpg",
-      "sha256": "0fb46cdd4ed4f4f38646eae331c1721dc00053cbd85c3e703d542b27fc7e8fb6",
-      "promptSummary": "安靜臥室床邊放著耳塞、小夜燈、枕頭、香氛瓶與一本合上的書"
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0385f433edfc8f52016a378c4ec15081909cf9db320d1c0d2e.png",
+      "sha256": "af9c3f19d1a61f24ea62b6da64c4bf0e6b25d41ac92d48add9852ab580e8baa2",
+      "promptSummary": "Codex image_gen blue-hour bedroom still life: pillow, lamp, blank book, scent vessel and earplugs; no text, no logo.",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label.",
+      "styleDifferentiation": "Part of a five-image batch with varied scene, color palette, lighting, and composition."
     }
   }
 }
