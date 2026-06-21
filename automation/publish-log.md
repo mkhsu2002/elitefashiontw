@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-21T11:14:01Z｜露營咖啡與戶外餐食：手沖、濾掛、鍋具與冷凍食材
+
+- 文章 ID：auto-20260621111401-camping-coffee-outdoor-meal-prep-cookware-food
+- URL：https://tw.elitefasion.com/outdoor-escapes/camping-coffee-outdoor-meal-prep-cookware-food
+- 檔案：outdoor-escapes/camping-coffee-outdoor-meal-prep-cookware-food.html
+- 類型：manual-codex-momo-revenue-growth-batch-ten-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B10
+
+## 2026-06-21T11:14:01Z｜大尺碼工作與旅行穿搭：比例、舒適度、外套與包款
+
+- 文章 ID：auto-20260621111401-plus-size-work-travel-outfit-jacket-bag-order
+- URL：https://tw.elitefasion.com/casual-chic/plus-size-work-travel-outfit-jacket-bag-order
+- 檔案：casual-chic/plus-size-work-travel-outfit-jacket-bag-order.html
+- 類型：manual-codex-momo-revenue-growth-batch-ten-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B10
+
+## 2026-06-21T11:14:00Z｜男士通勤衣櫥：襯衫、長褲、外套與鞋包怎麼排
+
+- 文章 ID：auto-20260621111400-mens-commute-shirt-trousers-jacket-shoes-wardrobe
+- URL：https://tw.elitefasion.com/casual-chic/mens-commute-shirt-trousers-jacket-shoes-wardrobe
+- 檔案：casual-chic/mens-commute-shirt-trousers-jacket-shoes-wardrobe.html
+- 類型：manual-codex-momo-revenue-growth-batch-ten-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B10
+
+## 2026-06-21T11:14:00Z｜飾品與皮件送禮：銀飾、戒指、皮夾與日常小包
+
+- 文章 ID：auto-20260621111400-jewelry-leather-gift-ring-wallet-small-bag
+- URL：https://tw.elitefasion.com/casual-chic/jewelry-leather-gift-ring-wallet-small-bag
+- 檔案：casual-chic/jewelry-leather-gift-ring-wallet-small-bag.html
+- 類型：manual-codex-momo-revenue-growth-batch-ten-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B10
+
+## 2026-06-21T11:14:00Z｜居家美甲與彩妝工具：新手材料、刷具與收納怎麼買
+
+- 文章 ID：auto-20260621111400-home-nail-makeup-tools-brush-storage-beginner
+- URL：https://tw.elitefasion.com/casual-chic/home-nail-makeup-tools-brush-storage-beginner
+- 檔案：casual-chic/home-nail-makeup-tools-brush-storage-beginner.html
+- 類型：manual-codex-momo-revenue-growth-batch-ten-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B10
+
 ## 2026-06-21T10:47:17Z｜香氛與身體保養送禮：精油、蠟燭、毛巾與生活小物
 
 - 文章 ID：auto-20260621104717-scent-bodycare-gift-essential-oil-towel-goods

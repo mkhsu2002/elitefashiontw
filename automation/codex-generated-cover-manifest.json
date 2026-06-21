@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T10:47:17Z",
+  "updatedAt": "2026-06-21T11:14:01Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -975,6 +975,66 @@
       "generatedAt": "2026-06-21T10:47:17Z",
       "usage": "cover-og-twitter",
       "promptSummary": "深色梳妝台上有空白琥珀精油瓶、無品牌陶瓷蠟燭、折疊毛巾、無字香皂、禮盒與木質小物",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "home-nail-makeup-tools-brush-storage-beginner": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/home-nail-makeup-tools-brush-storage-beginner.jpg",
+      "output": "images/optimized/article-covers/home-nail-makeup-tools-brush-storage-beginner.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37c2d0b2988193ba99c6a7095c37e9.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37c2d0b2988193ba99c6a7095c37e9.png",
+      "sha256": "c73906cf31b4c2ebb6d5a45d46855d42565259c661109c369980ebd34160a39a",
+      "generatedAt": "2026-06-21T11:14:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮梳妝台上有無品牌指甲油瓶、美甲工具、彩妝刷具、化妝箱、分格收納盤與銀色飾品",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "jewelry-leather-gift-ring-wallet-small-bag": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/jewelry-leather-gift-ring-wallet-small-bag.jpg",
+      "output": "images/optimized/article-covers/jewelry-leather-gift-ring-wallet-small-bag.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37c37cb3d08193b1bd8c91e378ab7f.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37c37cb3d08193b1bd8c91e378ab7f.png",
+      "sha256": "8cb63aaba491869f92d3f3815193a991cec1bb245277bc76ab4a0ad5b4d5a091",
+      "generatedAt": "2026-06-21T11:14:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "精品禮物桌上有無品牌銀戒、素面皮夾、小型斜背包、空白禮盒、緞帶與柔和窗光",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "mens-commute-shirt-trousers-jacket-shoes-wardrobe": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/mens-commute-shirt-trousers-jacket-shoes-wardrobe.jpg",
+      "output": "images/optimized/article-covers/mens-commute-shirt-trousers-jacket-shoes-wardrobe.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37c42895348193b09fff6e6e89e533.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37c42895348193b09fff6e6e89e533.png",
+      "sha256": "bed79602533b617ee06d549f9b7418350ba5d1ed399ccd9a4ee083e4ed8637bc",
+      "generatedAt": "2026-06-21T11:14:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "現代玄關衣櫥裡有無品牌男士襯衫、長褲、輕外套、素色鞋款、通勤包與折傘",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "plus-size-work-travel-outfit-jacket-bag-order": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/plus-size-work-travel-outfit-jacket-bag-order.jpg",
+      "output": "images/optimized/article-covers/plus-size-work-travel-outfit-jacket-bag-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37c4817f9c8193ab6437d619c31e40.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37c4817f9c8193ab6437d619c31e40.png",
+      "sha256": "f5eac55e837ebf6ff68e5f1e4c3389651a0d2175465a0b6ae44527ce926e1d98",
+      "generatedAt": "2026-06-21T11:14:01Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "飯店房間衣架上有無品牌大尺碼西裝外套、柔軟上衣、寬褲、旅行托特包、行李箱與舒適鞋",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "camping-coffee-outdoor-meal-prep-cookware-food": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/camping-coffee-outdoor-meal-prep-cookware-food.jpg",
+      "output": "images/optimized/article-covers/camping-coffee-outdoor-meal-prep-cookware-food.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37c4e31c0c819399405d2141463ef0.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37c4e31c0c819399405d2141463ef0.png",
+      "sha256": "4d3ebf352a3b7bd6dc122390446dfaf02f073f8b5bc8868e97aca4d5f1283d35",
+      "generatedAt": "2026-06-21T11:14:01Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "森林露營桌上有無品牌手沖壺、濾杯、空白咖啡袋、鍋具、琺瑯杯、冷藏餐盒與蔬菜餐食",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }

@@ -1,7 +1,57 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T10:47:17Z",
+  "updatedAt": "2026-06-21T11:14:01Z",
   "entries": [
+    {
+      "articleId": "auto-20260621111401-camping-coffee-outdoor-meal-prep-cookware-food",
+      "title": "露營咖啡與戶外餐食：手沖、濾掛、鍋具與冷凍食材",
+      "publishedAt": "2026-06-21T11:14:01Z",
+      "url": "https://tw.elitefasion.com/outdoor-escapes/camping-coffee-outdoor-meal-prep-cookware-food",
+      "file": "outdoor-escapes/camping-coffee-outdoor-meal-prep-cookware-food.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/camping-coffee-outdoor-meal-prep-cookware-food.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B10",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-ten-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260621111401-plus-size-work-travel-outfit-jacket-bag-order",
+      "title": "大尺碼工作與旅行穿搭：比例、舒適度、外套與包款",
+      "publishedAt": "2026-06-21T11:14:01Z",
+      "url": "https://tw.elitefasion.com/casual-chic/plus-size-work-travel-outfit-jacket-bag-order",
+      "file": "casual-chic/plus-size-work-travel-outfit-jacket-bag-order.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/plus-size-work-travel-outfit-jacket-bag-order.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B10",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-ten-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260621111400-mens-commute-shirt-trousers-jacket-shoes-wardrobe",
+      "title": "男士通勤衣櫥：襯衫、長褲、外套與鞋包怎麼排",
+      "publishedAt": "2026-06-21T11:14:00Z",
+      "url": "https://tw.elitefasion.com/casual-chic/mens-commute-shirt-trousers-jacket-shoes-wardrobe",
+      "file": "casual-chic/mens-commute-shirt-trousers-jacket-shoes-wardrobe.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/mens-commute-shirt-trousers-jacket-shoes-wardrobe.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B10",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-ten-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260621111400-jewelry-leather-gift-ring-wallet-small-bag",
+      "title": "飾品與皮件送禮：銀飾、戒指、皮夾與日常小包",
+      "publishedAt": "2026-06-21T11:14:00Z",
+      "url": "https://tw.elitefasion.com/casual-chic/jewelry-leather-gift-ring-wallet-small-bag",
+      "file": "casual-chic/jewelry-leather-gift-ring-wallet-small-bag.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/jewelry-leather-gift-ring-wallet-small-bag.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B10",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-ten-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260621111400-home-nail-makeup-tools-brush-storage-beginner",
+      "title": "居家美甲與彩妝工具：新手材料、刷具與收納怎麼買",
+      "publishedAt": "2026-06-21T11:14:00Z",
+      "url": "https://tw.elitefasion.com/casual-chic/home-nail-makeup-tools-brush-storage-beginner",
+      "file": "casual-chic/home-nail-makeup-tools-brush-storage-beginner.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/home-nail-makeup-tools-brush-storage-beginner.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B10",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-ten-no-newsletter"
+    },
     {
       "articleId": "auto-20260621104717-scent-bodycare-gift-essential-oil-towel-goods",
       "title": "香氛與身體保養送禮：精油、蠟燭、毛巾與生活小物",

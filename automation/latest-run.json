@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T10:47:17Z",
+  "updatedAt": "2026-06-21T11:14:01Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-nine-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01-B09",
+  "triggerType": "manual-codex-momo-revenue-growth-batch-ten-no-newsletter",
+  "queueId": "MOMO-REV-2026-06-21-W01-B10",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260621104716-remote-work-bag-charging-audio-presentation-storage",
-    "auto-20260621104717-desk-cable-charger-monitor-protection-backup-organizer",
-    "auto-20260621104717-summer-low-pressure-sun-sleep-drink-light-food",
-    "auto-20260621104717-home-care-bathing-transfer-storage-safety-flow",
-    "auto-20260621104717-scent-bodycare-gift-essential-oil-towel-goods"
+    "auto-20260621111400-home-nail-makeup-tools-brush-storage-beginner",
+    "auto-20260621111400-jewelry-leather-gift-ring-wallet-small-bag",
+    "auto-20260621111400-mens-commute-shirt-trousers-jacket-shoes-wardrobe",
+    "auto-20260621111401-plus-size-work-travel-outfit-jacket-bag-order",
+    "auto-20260621111401-camping-coffee-outdoor-meal-prep-cookware-food"
   ],
   "articleSlugs": [
-    "remote-work-bag-charging-audio-presentation-storage",
-    "desk-cable-charger-monitor-protection-backup-organizer",
-    "summer-low-pressure-sun-sleep-drink-light-food",
-    "home-care-bathing-transfer-storage-safety-flow",
-    "scent-bodycare-gift-essential-oil-towel-goods"
+    "home-nail-makeup-tools-brush-storage-beginner",
+    "jewelry-leather-gift-ring-wallet-small-bag",
+    "mens-commute-shirt-trousers-jacket-shoes-wardrobe",
+    "plus-size-work-travel-outfit-jacket-bag-order",
+    "camping-coffee-outdoor-meal-prep-cookware-food"
   ],
-  "notes": "Codex 手動生成 momo 收益型內容第九組；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動生成 momo 收益型內容第十組；直接推上 main 不會自動寄送電子報。"
 }

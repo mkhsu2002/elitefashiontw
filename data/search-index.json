@@ -1,5 +1,105 @@
 [
   {
+    "id": "auto-20260621111401-camping-coffee-outdoor-meal-prep-cookware-food",
+    "title": "露營咖啡與戶外餐食：手沖、濾掛、鍋具與冷凍食材",
+    "excerpt": "露營咖啡與戶外餐食要先看手沖流程、鍋具收納、冷凍食材保存與收洗動線。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/camping-coffee-outdoor-meal-prep-cookware-food",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "露營咖啡",
+      "戶外餐食",
+      "手沖鍋具",
+      "冷凍食材"
+    ],
+    "faqQuestions": [
+      "露營咖啡要先買手沖器具嗎？",
+      "冷凍食材適合露營嗎？",
+      "鍋具怎麼避免帶太多？"
+    ]
+  },
+  {
+    "id": "auto-20260621111401-plus-size-work-travel-outfit-jacket-bag-order",
+    "title": "大尺碼工作與旅行穿搭：比例、舒適度、外套與包款",
+    "excerpt": "大尺碼工作與旅行穿搭要先看版型比例、舒適度、外套層次與包款容量，再比較品牌。",
+    "category": "casual-chic",
+    "categoryLabel": "休閒時尚",
+    "relativeUrl": "casual-chic/plus-size-work-travel-outfit-jacket-bag-order",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "大尺碼穿搭",
+      "工作旅行",
+      "外套包款",
+      "比例舒適"
+    ],
+    "faqQuestions": [
+      "大尺碼穿搭要先買外套嗎？",
+      "可以只看顯瘦照片選衣服嗎？",
+      "旅行包款怎麼選？"
+    ]
+  },
+  {
+    "id": "auto-20260621111400-home-nail-makeup-tools-brush-storage-beginner",
+    "title": "居家美甲與彩妝工具：新手材料、刷具與收納怎麼買",
+    "excerpt": "居家美甲與彩妝工具要先分材料、刷具、清潔與收納，再比較品牌和組合。",
+    "category": "casual-chic",
+    "categoryLabel": "休閒時尚",
+    "relativeUrl": "casual-chic/home-nail-makeup-tools-brush-storage-beginner",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "居家美甲",
+      "彩妝刷具",
+      "化妝箱",
+      "工具收納"
+    ],
+    "faqQuestions": [
+      "新手居家美甲要先買完整套組嗎？",
+      "彩妝刷具怎麼避免堆滿桌面？",
+      "飾品要一起買嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260621111400-jewelry-leather-gift-ring-wallet-small-bag",
+    "title": "飾品與皮件送禮：銀飾、戒指、皮夾與日常小包",
+    "excerpt": "飾品與皮件送禮要先看尺寸、材質、日常使用率與保養方式，再選銀飾、戒指、皮夾與小包。",
+    "category": "casual-chic",
+    "categoryLabel": "休閒時尚",
+    "relativeUrl": "casual-chic/jewelry-leather-gift-ring-wallet-small-bag",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "飾品送禮",
+      "銀飾戒指",
+      "皮件",
+      "日常小包"
+    ],
+    "faqQuestions": [
+      "戒指送禮最需要確認什麼？",
+      "皮夾和小包哪個更適合送禮？",
+      "銀飾需要注意保養嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260621111400-mens-commute-shirt-trousers-jacket-shoes-wardrobe",
+    "title": "男士通勤衣櫥：襯衫、長褲、外套與鞋包怎麼排",
+    "excerpt": "男士通勤衣櫥要先看辦公室正式度、天氣、步行距離與清洗頻率，再比較單品。",
+    "category": "casual-chic",
+    "categoryLabel": "休閒時尚",
+    "relativeUrl": "casual-chic/mens-commute-shirt-trousers-jacket-shoes-wardrobe",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "男士通勤",
+      "襯衫長褲",
+      "外套鞋包",
+      "一週衣櫥"
+    ],
+    "faqQuestions": [
+      "男士通勤衣櫥先買襯衫還是鞋？",
+      "外套要怎麼選？",
+      "雨具需要放進衣櫥規劃嗎？"
+    ]
+  },
+  {
     "id": "auto-20260621104717-desk-cable-charger-monitor-protection-backup-organizer",
     "title": "桌面線材怎麼整理：充電器、螢幕線、保護貼與備份小物",
     "excerpt": "桌面線材要先看設備數量、接口、充電位置與備份流程，再買收納和保護周邊。",
