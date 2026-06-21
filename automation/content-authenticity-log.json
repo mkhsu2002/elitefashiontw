@@ -1,7 +1,417 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T08:10:59Z",
+  "updatedAt": "2026-06-21T08:30:00Z",
   "entries": [
+    {
+      "articleId": "auto-20260621083000-ai-workflow-laptop-monitor-cable-protection-backup",
+      "slug": "ai-workflow-laptop-monitor-cable-protection-backup",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T08:30:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0002753/main",
+        "https://www.momoshop.com.tw/TP/TP0005967/main",
+        "https://www.momoshop.com.tw/TP/TP0006238/main",
+        "https://www.momoshop.com.tw/TP/TP0007010/main",
+        "https://www.momoshop.com.tw/TP/TP0000858/main",
+        "https://www.momoshop.com.tw/TP/TP0009476/main",
+        "https://s.momoshop.com.tw/s/7CYQWKtd",
+        "https://s.momoshop.com.tw/s/NbN84MXv",
+        "https://s.momoshop.com.tw/s/tHzRb51a",
+        "https://s.momoshop.com.tw/s/Mr1gVZvp",
+        "https://s.momoshop.com.tw/s/hRqB1cCU",
+        "https://s.momoshop.com.tw/s/LJfvOb7h",
+        "https://tw.elitefasion.com/ai-innovation/ai-workflow-laptop-monitor-cable-protection-backup",
+        "https://tw.elitefasion.com/images/optimized/article-covers/ai-workflow-laptop-monitor-cable-protection-backup.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621083000-living-room-work-corner-lighting-scent-storage-system",
+      "slug": "living-room-work-corner-lighting-scent-storage-system",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T08:30:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0007295/main",
+        "https://www.momoshop.com.tw/TP/TP0004627/main",
+        "https://www.momoshop.com.tw/TP/TP0007694/main",
+        "https://www.momoshop.com.tw/TP/TP0004799/main",
+        "https://www.momoshop.com.tw/TP/TP0009429/main",
+        "https://www.momoshop.com.tw/TP/TP0005953/main",
+        "https://s.momoshop.com.tw/s/94QtsVvN",
+        "https://s.momoshop.com.tw/s/AFFq5jUk",
+        "https://s.momoshop.com.tw/s/hduo9ZBp",
+        "https://s.momoshop.com.tw/s/lehbUric",
+        "https://s.momoshop.com.tw/s/zG2mE8Uf",
+        "https://s.momoshop.com.tw/s/4sSbnDHc",
+        "https://tw.elitefasion.com/lifestyle-culture/living-room-work-corner-lighting-scent-storage-system",
+        "https://tw.elitefasion.com/images/optimized/article-covers/living-room-work-corner-lighting-scent-storage-system.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621083000-travel-shoes-light-bag-crossbody-rain-backup-system",
+      "slug": "travel-shoes-light-bag-crossbody-rain-backup-system",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T08:30:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0009277/main",
+        "https://www.momoshop.com.tw/TP/TP0007070/main",
+        "https://www.momoshop.com.tw/TP/TP0003634/main",
+        "https://www.momoshop.com.tw/TP/TP0005684/main",
+        "https://www.momoshop.com.tw/TP/TP0004592/main",
+        "https://www.momoshop.com.tw/TP/TP0003240/main",
+        "https://s.momoshop.com.tw/s/jEp8GjC8",
+        "https://s.momoshop.com.tw/s/fZ9miz2D",
+        "https://s.momoshop.com.tw/s/eUqae1YQ",
+        "https://s.momoshop.com.tw/s/swCkSJDA",
+        "https://s.momoshop.com.tw/s/b4R6xjGv",
+        "https://s.momoshop.com.tw/s/bm7c4Ing",
+        "https://tw.elitefasion.com/casual-chic/travel-shoes-light-bag-crossbody-rain-backup-system",
+        "https://tw.elitefasion.com/images/optimized/article-covers/travel-shoes-light-bag-crossbody-rain-backup-system.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621083000-rental-small-appliance-kitchen-desk-cleaning-seasonal",
+      "slug": "rental-small-appliance-kitchen-desk-cleaning-seasonal",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T08:30:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005764/main",
+        "https://www.momoshop.com.tw/TP/TP0006567/main",
+        "https://www.momoshop.com.tw/TP/TP0005935/main",
+        "https://www.momoshop.com.tw/TP/TP0007295/main",
+        "https://www.momoshop.com.tw/TP/TP0007694/main",
+        "https://www.momoshop.com.tw/TP/TP0000922/main",
+        "https://s.momoshop.com.tw/s/ZpHylFwi",
+        "https://s.momoshop.com.tw/s/tPIXt2SN",
+        "https://s.momoshop.com.tw/s/cxsF8Zc3",
+        "https://s.momoshop.com.tw/s/94QtsVvN",
+        "https://s.momoshop.com.tw/s/hduo9ZBp",
+        "https://s.momoshop.com.tw/s/NaHe80dq",
+        "https://tw.elitefasion.com/lifestyle-culture/rental-small-appliance-kitchen-desk-cleaning-seasonal",
+        "https://tw.elitefasion.com/images/optimized/article-covers/rental-small-appliance-kitchen-desk-cleaning-seasonal.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621083000-home-cooking-pan-tableware-storage-order",
+      "slug": "home-cooking-pan-tableware-storage-order",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T08:30:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0001754/main",
+        "https://www.momoshop.com.tw/TP/TP0000363/main",
+        "https://www.momoshop.com.tw/TP/TP0005971/main",
+        "https://www.momoshop.com.tw/TP/TP0008921/main",
+        "https://www.momoshop.com.tw/TP/TP0003333/main",
+        "https://www.momoshop.com.tw/TP/TP0005142/main",
+        "https://s.momoshop.com.tw/s/8zFXfd8k",
+        "https://s.momoshop.com.tw/s/aT1BdnAJ",
+        "https://s.momoshop.com.tw/s/I9OkFkrZ",
+        "https://s.momoshop.com.tw/s/lv1Fa9gi",
+        "https://s.momoshop.com.tw/s/2f9JvlfV",
+        "https://s.momoshop.com.tw/s/fQyUCDn2",
+        "https://tw.elitefasion.com/lifestyle-culture/home-cooking-pan-tableware-storage-order",
+        "https://tw.elitefasion.com/images/optimized/article-covers/home-cooking-pan-tableware-storage-order.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
     {
       "articleId": "auto-20260621081059-beginner-hiking-shirt-rainwear-knee-support-storage-order",
       "slug": "beginner-hiking-shirt-rainwear-knee-support-storage-order",

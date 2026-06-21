@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-21T08:30:00Z｜AI 工作流需要什麼筆電周邊：螢幕、線材、保護貼與備份
+
+- 文章 ID：auto-20260621083000-ai-workflow-laptop-monitor-cable-protection-backup
+- URL：https://tw.elitefasion.com/ai-innovation/ai-workflow-laptop-monitor-cable-protection-backup
+- 檔案：ai-innovation/ai-workflow-laptop-monitor-cable-protection-backup.html
+- 類型：manual-codex-momo-revenue-growth-batch-five-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B05
+
+## 2026-06-21T08:30:00Z｜客廳與工作角落照明：吸頂燈、桌燈、香氛與收納怎麼搭
+
+- 文章 ID：auto-20260621083000-living-room-work-corner-lighting-scent-storage-system
+- URL：https://tw.elitefasion.com/lifestyle-culture/living-room-work-corner-lighting-scent-storage-system
+- 檔案：lifestyle-culture/living-room-work-corner-lighting-scent-storage-system.html
+- 類型：manual-codex-momo-revenue-growth-batch-five-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B05
+
+## 2026-06-21T08:30:00Z｜旅行鞋包配置：好走鞋、輕量包、貼身小包與雨天備案
+
+- 文章 ID：auto-20260621083000-travel-shoes-light-bag-crossbody-rain-backup-system
+- URL：https://tw.elitefasion.com/casual-chic/travel-shoes-light-bag-crossbody-rain-backup-system
+- 檔案：casual-chic/travel-shoes-light-bag-crossbody-rain-backup-system.html
+- 類型：manual-codex-momo-revenue-growth-batch-five-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B05
+
+## 2026-06-21T08:30:00Z｜租屋小家電不要一次買滿：廚房、桌面、清潔與季節電器
+
+- 文章 ID：auto-20260621083000-rental-small-appliance-kitchen-desk-cleaning-seasonal
+- URL：https://tw.elitefasion.com/lifestyle-culture/rental-small-appliance-kitchen-desk-cleaning-seasonal
+- 檔案：lifestyle-culture/rental-small-appliance-kitchen-desk-cleaning-seasonal.html
+- 類型：manual-codex-momo-revenue-growth-batch-five-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B05
+
+## 2026-06-21T08:30:00Z｜居家餐桌先買鍋還是杯盤：鍋具、餐具與收納工具的順序
+
+- 文章 ID：auto-20260621083000-home-cooking-pan-tableware-storage-order
+- URL：https://tw.elitefasion.com/lifestyle-culture/home-cooking-pan-tableware-storage-order
+- 檔案：lifestyle-culture/home-cooking-pan-tableware-storage-order.html
+- 類型：manual-codex-momo-revenue-growth-batch-five-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B05
+
 ## 2026-06-21T08:10:59Z｜新手登山先買什麼：排汗衣、雨衣褲、護膝與輕量收納順序
 
 - 文章 ID：auto-20260621081059-beginner-hiking-shirt-rainwear-knee-support-storage-order

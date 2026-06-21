@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T08:10:59Z",
+  "updatedAt": "2026-06-21T08:30:00Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -675,6 +675,66 @@
       "generatedAt": "2026-06-21T08:10:59Z",
       "usage": "cover-og-twitter",
       "promptSummary": "霧氣山徑旁木桌上有排汗衣、灰色雨衣褲、護膝、輕量收納袋、水瓶與橘色反光配件",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "home-cooking-pan-tableware-storage-order": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/home-cooking-pan-tableware-storage-order.jpg",
+      "output": "images/optimized/article-covers/home-cooking-pan-tableware-storage-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379ddbe740819b9cea6ecc4ffa9443.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379ddbe740819b9cea6ecc4ffa9443.png",
+      "sha256": "ea4b67051afe54952191130aba9f33af75ffaff200a813ba7aeec49d14251f48",
+      "generatedAt": "2026-06-21T08:30:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "陽光木質餐桌上有無品牌黑色鐵鍋、陶瓷杯盤、茶壺、餐具收納盒、布巾與玻璃罐",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "rental-small-appliance-kitchen-desk-cleaning-seasonal": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/rental-small-appliance-kitchen-desk-cleaning-seasonal.jpg",
+      "output": "images/optimized/article-covers/rental-small-appliance-kitchen-desk-cleaning-seasonal.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379e2b5710819b96ba7cb7f3eb3ba7.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379e2b5710819b96ba7cb7f3eb3ba7.png",
+      "sha256": "67b39f21dbfd79fe3328794b4076d417fae69fa9af0bf78afeac4cce3a6ea28f",
+      "generatedAt": "2026-06-21T08:30:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮租屋套房裡有無品牌小電鍋、快煮壺、小風扇、桌燈、清潔刷具、毛巾與收納推車",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "travel-shoes-light-bag-crossbody-rain-backup-system": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/travel-shoes-light-bag-crossbody-rain-backup-system.jpg",
+      "output": "images/optimized/article-covers/travel-shoes-light-bag-crossbody-rain-backup-system.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379e7a8328819b924746cc05b29ae1.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379e7a8328819b924746cc05b29ae1.png",
+      "sha256": "ff968d9f724b028e016de8c6ba11dbf4f41d6c2d2683974ed7cfb2a2dc28292a",
+      "generatedAt": "2026-06-21T08:30:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "飯店床邊擺放無品牌白色好走鞋、深藍輕量包、米色貼身小包、折傘、收納袋與旅行衣物",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "living-room-work-corner-lighting-scent-storage-system": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/living-room-work-corner-lighting-scent-storage-system.jpg",
+      "output": "images/optimized/article-covers/living-room-work-corner-lighting-scent-storage-system.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379ecc0508819b90016ef008906558.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379ecc0508819b90016ef008906558.png",
+      "sha256": "8290021c3db14cf5b84f2a2dd564776cfacb9830596ac002860f46a773b24ad9",
+      "generatedAt": "2026-06-21T08:30:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "夜晚客廳工作角落有黑色桌燈、暖色層架燈、無標籤香氛瓶、收納盒、植物與無品牌筆電",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "ai-workflow-laptop-monitor-cable-protection-backup": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/ai-workflow-laptop-monitor-cable-protection-backup.jpg",
+      "output": "images/optimized/article-covers/ai-workflow-laptop-monitor-cable-protection-backup.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379f21a9b8819bab404f0fce304a01.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379f21a9b8819bab404f0fce304a01.png",
+      "sha256": "3bd4653995f0b144e7188f9e7aae66ab5f1025e5351788c24629da9a6c31ffe2",
+      "generatedAt": "2026-06-21T08:30:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "石墨色工作桌上有無品牌筆電、外接螢幕、USB-C 線材、透明保護貼、備份硬碟與空白筆記本",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }

@@ -1,5 +1,105 @@
 [
   {
+    "id": "auto-20260621083000-ai-workflow-laptop-monitor-cable-protection-backup",
+    "title": "AI 工作流需要什麼筆電周邊：螢幕、線材、保護貼與備份",
+    "excerpt": "AI 工作流周邊不是只買更強筆電，而是先處理螢幕動線、線材相容、保護與備份。",
+    "category": "ai-innovation",
+    "categoryLabel": "人工智能",
+    "relativeUrl": "ai-innovation/ai-workflow-laptop-monitor-cable-protection-backup",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "AI 工作流",
+      "外接螢幕",
+      "筆電周邊",
+      "資料備份"
+    ],
+    "faqQuestions": [
+      "AI 工作流一定需要外接螢幕嗎？",
+      "線材可以到貨後再補嗎？",
+      "備份設備應該什麼時候買？"
+    ]
+  },
+  {
+    "id": "auto-20260621083000-home-cooking-pan-tableware-storage-order",
+    "title": "居家餐桌先買鍋還是杯盤：鍋具、餐具與收納工具的順序",
+    "excerpt": "居家餐桌不是先買最漂亮的鍋或杯盤，而是先看一週真正開火幾次、如何收納、誰會一起使用。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/home-cooking-pan-tableware-storage-order",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "居家餐桌",
+      "鍋具",
+      "餐具",
+      "收納工具"
+    ],
+    "faqQuestions": [
+      "居家餐桌應先買鍋還是杯盤？",
+      "餐具要一次買整套嗎？",
+      "茶食可以當成健康推薦嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260621083000-living-room-work-corner-lighting-scent-storage-system",
+    "title": "客廳與工作角落照明：吸頂燈、桌燈、香氛與收納怎麼搭",
+    "excerpt": "客廳與工作角落照明要先讓空間分工，再搭配香氛與收納，不要只靠一盞燈解決所有情境。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/living-room-work-corner-lighting-scent-storage-system",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "客廳照明",
+      "工作角落",
+      "香氛",
+      "收納"
+    ],
+    "faqQuestions": [
+      "客廳工作角落先買桌燈嗎？",
+      "香氛能改善睡眠或情緒嗎？",
+      "收納盒要放哪裡？"
+    ]
+  },
+  {
+    "id": "auto-20260621083000-rental-small-appliance-kitchen-desk-cleaning-seasonal",
+    "title": "租屋小家電不要一次買滿：廚房、桌面、清潔與季節電器",
+    "excerpt": "租屋小家電不要一次買滿，先看插座、收納、清潔與季節需求，再決定廚房、桌面與清潔電器。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/rental-small-appliance-kitchen-desk-cleaning-seasonal",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "租屋小家電",
+      "小宅生活",
+      "季節電器",
+      "清潔工具"
+    ],
+    "faqQuestions": [
+      "租屋小家電可以一次買齊嗎？",
+      "季節電器什麼時候買？",
+      "清潔工具要怎麼選？"
+    ]
+  },
+  {
+    "id": "auto-20260621083000-travel-shoes-light-bag-crossbody-rain-backup-system",
+    "title": "旅行鞋包配置：好走鞋、輕量包、貼身小包與雨天備案",
+    "excerpt": "旅行鞋包配置要先看步行距離、拿取頻率與雨天備案，再決定好走鞋、輕量包與貼身小包。",
+    "category": "casual-chic",
+    "categoryLabel": "休閒時尚",
+    "relativeUrl": "casual-chic/travel-shoes-light-bag-crossbody-rain-backup-system",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "旅行鞋",
+      "輕量包",
+      "貼身小包",
+      "雨天備案"
+    ],
+    "faqQuestions": [
+      "旅行一定要帶貼身小包嗎？",
+      "好走鞋怎麼選？",
+      "雨具應該放哪裡？"
+    ]
+  },
+  {
     "id": "auto-20260621081059-beginner-hiking-shirt-rainwear-knee-support-storage-order",
     "title": "新手登山先買什麼：排汗衣、雨衣褲、護膝與輕量收納順序",
     "excerpt": "新手登山裝備要先處理天氣、支撐與收納，再談品牌完整度和風格小物。",

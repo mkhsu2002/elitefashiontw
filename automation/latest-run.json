@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T08:10:59Z",
+  "updatedAt": "2026-06-21T08:30:00Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-four-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01-B04",
+  "triggerType": "manual-codex-momo-revenue-growth-batch-five-no-newsletter",
+  "queueId": "MOMO-REV-2026-06-21-W01-B05",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260621081058-spring-summer-commute-sun-umbrella-light-bag-outfit",
-    "auto-20260621081058-faceless-content-rig-light-filter-audio-buying-order",
-    "auto-20260621081058-quality-gifting-coffee-tea-massage-umbrella-custom-goods",
-    "auto-20260621081058-bathroom-kitchen-cleaning-scale-grease-odor-tool-storage",
-    "auto-20260621081059-beginner-hiking-shirt-rainwear-knee-support-storage-order"
+    "auto-20260621083000-home-cooking-pan-tableware-storage-order",
+    "auto-20260621083000-rental-small-appliance-kitchen-desk-cleaning-seasonal",
+    "auto-20260621083000-travel-shoes-light-bag-crossbody-rain-backup-system",
+    "auto-20260621083000-living-room-work-corner-lighting-scent-storage-system",
+    "auto-20260621083000-ai-workflow-laptop-monitor-cable-protection-backup"
   ],
   "articleSlugs": [
-    "spring-summer-commute-sun-umbrella-light-bag-outfit",
-    "faceless-content-rig-light-filter-audio-buying-order",
-    "quality-gifting-coffee-tea-massage-umbrella-custom-goods",
-    "bathroom-kitchen-cleaning-scale-grease-odor-tool-storage",
-    "beginner-hiking-shirt-rainwear-knee-support-storage-order"
+    "home-cooking-pan-tableware-storage-order",
+    "rental-small-appliance-kitchen-desk-cleaning-seasonal",
+    "travel-shoes-light-bag-crossbody-rain-backup-system",
+    "living-room-work-corner-lighting-scent-storage-system",
+    "ai-workflow-laptop-monitor-cable-protection-backup"
   ],
-  "notes": "Codex 手動生成 momo 收益型內容第四組；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動生成 momo 收益型內容第五組；直接推上 main 不會自動寄送電子報。"
 }

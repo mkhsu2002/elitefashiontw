@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-06-21T08:10:59Z",
+  "updatedAt": "2026-06-21T08:30:01Z",
   "latest": [
+    {
+      "id": "auto-20260621083000-ai-workflow-laptop-monitor-cable-protection-backup",
+      "title": "AI 工作流需要什麼筆電周邊：螢幕、線材、保護貼與備份",
+      "excerpt": "AI 工作流周邊不是只買更強筆電，而是先處理螢幕動線、線材相容、保護與備份。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T08:30:00Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "ai-innovation/ai-workflow-laptop-monitor-cable-protection-backup",
+      "heroImage": "/images/optimized/article-covers/ai-workflow-laptop-monitor-cable-protection-backup.jpg",
+      "tags": [
+        "AI 工作流",
+        "外接螢幕",
+        "筆電周邊",
+        "資料備份"
+      ]
+    },
+    {
+      "id": "auto-20260621083000-home-cooking-pan-tableware-storage-order",
+      "title": "居家餐桌先買鍋還是杯盤：鍋具、餐具與收納工具的順序",
+      "excerpt": "居家餐桌不是先買最漂亮的鍋或杯盤，而是先看一週真正開火幾次、如何收納、誰會一起使用。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T08:30:00Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "lifestyle-culture/home-cooking-pan-tableware-storage-order",
+      "heroImage": "/images/optimized/article-covers/home-cooking-pan-tableware-storage-order.jpg",
+      "tags": [
+        "居家餐桌",
+        "鍋具",
+        "餐具",
+        "收納工具"
+      ]
+    },
+    {
+      "id": "auto-20260621083000-living-room-work-corner-lighting-scent-storage-system",
+      "title": "客廳與工作角落照明：吸頂燈、桌燈、香氛與收納怎麼搭",
+      "excerpt": "客廳與工作角落照明要先讓空間分工，再搭配香氛與收納，不要只靠一盞燈解決所有情境。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T08:30:00Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "lifestyle-culture/living-room-work-corner-lighting-scent-storage-system",
+      "heroImage": "/images/optimized/article-covers/living-room-work-corner-lighting-scent-storage-system.jpg",
+      "tags": [
+        "客廳照明",
+        "工作角落",
+        "香氛",
+        "收納"
+      ]
+    },
+    {
+      "id": "auto-20260621083000-rental-small-appliance-kitchen-desk-cleaning-seasonal",
+      "title": "租屋小家電不要一次買滿：廚房、桌面、清潔與季節電器",
+      "excerpt": "租屋小家電不要一次買滿，先看插座、收納、清潔與季節需求，再決定廚房、桌面與清潔電器。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T08:30:00Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "lifestyle-culture/rental-small-appliance-kitchen-desk-cleaning-seasonal",
+      "heroImage": "/images/optimized/article-covers/rental-small-appliance-kitchen-desk-cleaning-seasonal.jpg",
+      "tags": [
+        "租屋小家電",
+        "小宅生活",
+        "季節電器",
+        "清潔工具"
+      ]
+    },
+    {
+      "id": "auto-20260621083000-travel-shoes-light-bag-crossbody-rain-backup-system",
+      "title": "旅行鞋包配置：好走鞋、輕量包、貼身小包與雨天備案",
+      "excerpt": "旅行鞋包配置要先看步行距離、拿取頻率與雨天備案，再決定好走鞋、輕量包與貼身小包。",
+      "category": "casual-chic",
+      "categoryLabel": "休閒時尚",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T08:30:00Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "casual-chic/travel-shoes-light-bag-crossbody-rain-backup-system",
+      "heroImage": "/images/optimized/article-covers/travel-shoes-light-bag-crossbody-rain-backup-system.jpg",
+      "tags": [
+        "旅行鞋",
+        "輕量包",
+        "貼身小包",
+        "雨天備案"
+      ]
+    },
     {
       "id": "auto-20260621081059-beginner-hiking-shirt-rainwear-knee-support-storage-order",
       "title": "新手登山先買什麼：排汗衣、雨衣褲、護膝與輕量收納順序",
@@ -126,102 +216,30 @@
         "堅果",
         "沖泡飲"
       ]
-    },
-    {
-      "id": "auto-20260621075540-small-home-entry-closet-desk-cleaning-storage-order",
-      "title": "小宅收納不是買更多盒子：玄關、衣櫃、書桌與清潔工具配置",
-      "excerpt": "小宅收納的核心不是買更多盒子，而是先替物品安排停靠點，再看玄關、衣櫃、書桌與清潔工具如何接上動線。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T07:55:40Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "lifestyle-culture/small-home-entry-closet-desk-cleaning-storage-order",
-      "heroImage": "/images/optimized/article-covers/small-home-entry-closet-desk-cleaning-storage-order.jpg",
-      "tags": [
-        "小宅收納",
-        "玄關整理",
-        "衣櫃收納",
-        "清潔工具"
-      ]
-    },
-    {
-      "id": "auto-20260621075540-travel-luggage-front-open-carry-on-packing-system-2",
-      "title": "出國前先整理箱包系統：前開式行李箱、登機箱與收納袋",
-      "excerpt": "箱包系統要先用旅程天數與拿取頻率決定箱體，再比較前開式行李箱、登機箱與收納袋。",
-      "category": "outdoor-escapes",
-      "categoryLabel": "戶外生活",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T07:55:40Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "outdoor-escapes/travel-luggage-front-open-carry-on-packing-system-2",
-      "heroImage": "/images/optimized/article-covers/travel-luggage-front-open-carry-on-packing-system-2.jpg",
-      "tags": [
-        "前開式行李箱",
-        "登機箱",
-        "旅行收納",
-        "出國準備"
-      ]
-    },
-    {
-      "id": "auto-20260621075540-workday-knee-back-support-cushion-bag-weight-guide",
-      "title": "久坐工作日的腰背與膝蓋支撐：護具、坐墊、鞋包重量怎麼看",
-      "excerpt": "腰背與膝蓋支撐用品只能協助日常配置，選購前要先看疼痛是否需要專業協助，再比較護具、坐墊與鞋包重量。",
-      "category": "wellness-movement",
-      "categoryLabel": "健康恢復",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T07:55:40Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "wellness-movement/workday-knee-back-support-cushion-bag-weight-guide",
-      "heroImage": "/images/optimized/article-covers/workday-knee-back-support-cushion-bag-weight-guide.jpg",
-      "tags": [
-        "久坐支撐",
-        "護膝護腰",
-        "坐墊",
-        "通勤包重量"
-      ]
-    },
-    {
-      "id": "auto-20260621073209-office-afternoon-drinks-tea-sparkling-pantry-guide",
-      "title": "下午三點喝什麼：無糖茶、花草茶、氣泡飲與沖泡飲怎麼放辦公室",
-      "excerpt": "辦公室飲品應以保存方式、糖度與共享便利性決定，無糖茶、氣泡飲與沖泡飲不要全部混在一起補。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T07:32:09Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "lifestyle-culture/office-afternoon-drinks-tea-sparkling-pantry-guide",
-      "heroImage": "/images/optimized/article-covers/office-afternoon-drinks-tea-sparkling-pantry-guide.jpg",
-      "tags": [
-        "辦公室飲品",
-        "無糖茶",
-        "氣泡飲",
-        "下午茶補給"
-      ]
-    },
-    {
-      "id": "auto-20260621073209-second-monitor-laptop-stand-backup-work-setup",
-      "title": "第二螢幕怎麼選：外接螢幕、筆電、支架與資料備份的工作配置",
-      "excerpt": "第二螢幕的價值在於工作動線，不是單純追求大尺寸；先看視窗數量、攜帶需求與資料備份。",
-      "category": "ai-innovation",
-      "categoryLabel": "人工智能",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T07:32:09Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "ai-innovation/second-monitor-laptop-stand-backup-work-setup",
-      "heroImage": "/images/optimized/article-covers/second-monitor-laptop-stand-backup-work-setup.jpg",
-      "tags": [
-        "第二螢幕",
-        "筆電支架",
-        "資料備份",
-        "工作桌配置"
-      ]
     }
   ],
   "byCategory": {
     "ai-innovation": {
       "label": "人工智能",
       "items": [
+        {
+          "id": "auto-20260621083000-ai-workflow-laptop-monitor-cable-protection-backup",
+          "title": "AI 工作流需要什麼筆電周邊：螢幕、線材、保護貼與備份",
+          "excerpt": "AI 工作流周邊不是只買更強筆電，而是先處理螢幕動線、線材相容、保護與備份。",
+          "category": "ai-innovation",
+          "categoryLabel": "人工智能",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T08:30:00Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "ai-innovation/ai-workflow-laptop-monitor-cable-protection-backup",
+          "heroImage": "/images/optimized/article-covers/ai-workflow-laptop-monitor-cable-protection-backup.jpg",
+          "tags": [
+            "AI 工作流",
+            "外接螢幕",
+            "筆電周邊",
+            "資料備份"
+          ]
+        },
         {
           "id": "auto-20260621081058-faceless-content-rig-light-filter-audio-buying-order",
           "title": "不露臉內容也需要設備順序：支架、燈光、濾鏡與收音怎麼買",
@@ -310,24 +328,6 @@
             "生活採買",
             "手機殼",
             "車用配件"
-          ]
-        },
-        {
-          "id": "auto-20260522074353-ai-work-gadgets-translation-audio-products",
-          "title": "AI 工作不是只有筆電：6 件翻譯、音訊與桌邊小物讓工作角落更完整",
-          "excerpt": "工作小物要放回真實流程裡看：會議、外出、記錄、音訊與桌面收納，規格仍以商品頁為準。",
-          "category": "ai-innovation",
-          "categoryLabel": "人工智能",
-          "series": "AI 工作小物商品推薦",
-          "publishedAt": "2026-05-22T07:43:53Z",
-          "publishedDateText": "2026年5月22日",
-          "relativeUrl": "ai-innovation/ai-work-gadgets-translation-audio-products.html",
-          "heroImage": "images/optimized/article-covers/ai-work-gadgets-translation-audio-products.jpg",
-          "tags": [
-            "工作小物",
-            "商品推薦",
-            "選購清單",
-            "居家整理"
           ]
         }
       ]
@@ -611,6 +611,24 @@
       "label": "休閒時尚",
       "items": [
         {
+          "id": "auto-20260621083000-travel-shoes-light-bag-crossbody-rain-backup-system",
+          "title": "旅行鞋包配置：好走鞋、輕量包、貼身小包與雨天備案",
+          "excerpt": "旅行鞋包配置要先看步行距離、拿取頻率與雨天備案，再決定好走鞋、輕量包與貼身小包。",
+          "category": "casual-chic",
+          "categoryLabel": "休閒時尚",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T08:30:00Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "casual-chic/travel-shoes-light-bag-crossbody-rain-backup-system",
+          "heroImage": "/images/optimized/article-covers/travel-shoes-light-bag-crossbody-rain-backup-system.jpg",
+          "tags": [
+            "旅行鞋",
+            "輕量包",
+            "貼身小包",
+            "雨天備案"
+          ]
+        },
+        {
           "id": "auto-20260621081058-spring-summer-commute-sun-umbrella-light-bag-outfit",
           "title": "春夏通勤防曬穿搭：防曬外套、抗風傘與輕量包怎麼不狼狽",
           "excerpt": "春夏通勤防曬要同時處理遮蔽、收納與正式感，不能只靠一件外套或一把傘。",
@@ -698,24 +716,6 @@
             "生活採買",
             "大尺碼服裝",
             "送禮衣櫥"
-          ]
-        },
-        {
-          "id": "auto-20260528192610-ten-minute-morning-grooming-lip-makeup-kit",
-          "title": "早上十分鐘也能整理好：唇膏、妝前保養與日系韓系美妝小物",
-          "excerpt": "把早晨儀容拆成唇色、底妝、眉眼和隨身補妝，十分鐘也能出門得體。",
-          "category": "casual-chic",
-          "categoryLabel": "休閒時尚",
-          "series": "通勤儀容、家庭補貨、照護與居家更新指南",
-          "publishedAt": "2026-05-28T19:26:10Z",
-          "publishedDateText": "2026年5月28日",
-          "relativeUrl": "casual-chic/ten-minute-morning-grooming-lip-makeup-kit.html",
-          "heroImage": "images/optimized/article-covers/ten-minute-morning-grooming-lip-makeup-kit.jpg",
-          "tags": [
-            "休閒時尚",
-            "生活採買",
-            "唇膏",
-            "收納包"
           ]
         }
       ]
@@ -959,6 +959,60 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260621083000-home-cooking-pan-tableware-storage-order",
+          "title": "居家餐桌先買鍋還是杯盤：鍋具、餐具與收納工具的順序",
+          "excerpt": "居家餐桌不是先買最漂亮的鍋或杯盤，而是先看一週真正開火幾次、如何收納、誰會一起使用。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T08:30:00Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "lifestyle-culture/home-cooking-pan-tableware-storage-order",
+          "heroImage": "/images/optimized/article-covers/home-cooking-pan-tableware-storage-order.jpg",
+          "tags": [
+            "居家餐桌",
+            "鍋具",
+            "餐具",
+            "收納工具"
+          ]
+        },
+        {
+          "id": "auto-20260621083000-living-room-work-corner-lighting-scent-storage-system",
+          "title": "客廳與工作角落照明：吸頂燈、桌燈、香氛與收納怎麼搭",
+          "excerpt": "客廳與工作角落照明要先讓空間分工，再搭配香氛與收納，不要只靠一盞燈解決所有情境。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T08:30:00Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "lifestyle-culture/living-room-work-corner-lighting-scent-storage-system",
+          "heroImage": "/images/optimized/article-covers/living-room-work-corner-lighting-scent-storage-system.jpg",
+          "tags": [
+            "客廳照明",
+            "工作角落",
+            "香氛",
+            "收納"
+          ]
+        },
+        {
+          "id": "auto-20260621083000-rental-small-appliance-kitchen-desk-cleaning-seasonal",
+          "title": "租屋小家電不要一次買滿：廚房、桌面、清潔與季節電器",
+          "excerpt": "租屋小家電不要一次買滿，先看插座、收納、清潔與季節需求，再決定廚房、桌面與清潔電器。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T08:30:00Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "lifestyle-culture/rental-small-appliance-kitchen-desk-cleaning-seasonal",
+          "heroImage": "/images/optimized/article-covers/rental-small-appliance-kitchen-desk-cleaning-seasonal.jpg",
+          "tags": [
+            "租屋小家電",
+            "小宅生活",
+            "季節電器",
+            "清潔工具"
+          ]
+        },
+        {
           "id": "auto-20260621081058-bathroom-kitchen-cleaning-scale-grease-odor-tool-storage",
           "title": "浴室與廚房清潔怎麼分工：水垢、油污、除味與工具收納",
           "excerpt": "浴室與廚房清潔要先分污垢來源，再分工具與收納；香味不是清潔完成的證明。",
@@ -1010,60 +1064,6 @@
             "玄關整理",
             "衣櫃收納",
             "清潔工具"
-          ]
-        },
-        {
-          "id": "auto-20260621073209-office-afternoon-drinks-tea-sparkling-pantry-guide",
-          "title": "下午三點喝什麼：無糖茶、花草茶、氣泡飲與沖泡飲怎麼放辦公室",
-          "excerpt": "辦公室飲品應以保存方式、糖度與共享便利性決定，無糖茶、氣泡飲與沖泡飲不要全部混在一起補。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T07:32:09Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/office-afternoon-drinks-tea-sparkling-pantry-guide",
-          "heroImage": "/images/optimized/article-covers/office-afternoon-drinks-tea-sparkling-pantry-guide.jpg",
-          "tags": [
-            "辦公室飲品",
-            "無糖茶",
-            "氣泡飲",
-            "下午茶補給"
-          ]
-        },
-        {
-          "id": "auto-20260621073208-after-work-home-scent-light-storage-upgrade-order",
-          "title": "下班後的家要先安靜下來：香氛、燈光與收納的升級順序",
-          "excerpt": "下班後的居家升級應從收納與光線開始，香氛只負責最後一層情緒，不該拿來掩蓋混亂。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T07:32:08Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/after-work-home-scent-light-storage-upgrade-order",
-          "heroImage": "/images/optimized/article-covers/after-work-home-scent-light-storage-upgrade-order.jpg",
-          "tags": [
-            "居家儀式",
-            "香氛",
-            "照明",
-            "收納"
-          ]
-        },
-        {
-          "id": "auto-20260621073208-summer-airflow-fan-small-appliance-lighting-system",
-          "title": "夏天前整理家的空氣路線：循環扇、小家電與照明怎麼配",
-          "excerpt": "夏季小家電不是越多越好，先看風從哪裡進、熱停在哪裡，再決定循環扇、小家電與照明的位置。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T07:32:08Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/summer-airflow-fan-small-appliance-lighting-system",
-          "heroImage": "/images/optimized/article-covers/summer-airflow-fan-small-appliance-lighting-system.jpg",
-          "tags": [
-            "夏季小家電",
-            "循環扇",
-            "居家照明",
-            "空氣動線"
           ]
         }
       ]
