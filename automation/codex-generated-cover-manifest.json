@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T11:45:00Z",
+  "updatedAt": "2026-06-21T12:37:03Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -1095,6 +1095,66 @@
       "generatedAt": "2026-06-21T11:45:00Z",
       "usage": "cover-og-twitter",
       "promptSummary": "明亮居家慶祝角落有無字寵物蛋糕、空白零食罐、玩具、清潔布、無標籤清潔瓶、收納籃與安靜貓狗",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "office-snack-cabinet-nuts-dessert-tea-coffee-layers": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/office-snack-cabinet-nuts-dessert-tea-coffee-layers.jpg",
+      "output": "images/optimized/article-covers/office-snack-cabinet-nuts-dessert-tea-coffee-layers.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37d2417f0881938bbb2202ff61a2a5.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37d2417f0881938bbb2202ff61a2a5.png",
+      "sha256": "3b626d9517965ae105df77d157b2c7761f01bd949a31a9613fd69ddda58ba92c",
+      "generatedAt": "2026-06-21T12:37:03Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮辦公室點心櫃有透明堅果罐、甜點盤、無字茶罐、咖啡豆、空白植物奶紙盒與收納籃",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "family-weekend-table-frozen-food-cookware-tableware-tea": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/family-weekend-table-frozen-food-cookware-tableware-tea.jpg",
+      "output": "images/optimized/article-covers/family-weekend-table-frozen-food-cookware-tableware-tea.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37d29e4d6881939d9925f56812a4ad.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37d29e4d6881939d9925f56812a4ad.png",
+      "sha256": "0bbd58d95df9e0d39c03516690fb420971b8517a7df3cd3a7854c728704a0a01",
+      "generatedAt": "2026-06-21T12:37:03Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "週末家庭廚房島台有無品牌鍋具、餐具、冷凍食材盒、地瓜蔬菜、茶壺與茶點",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "breakfast-freezer-buns-sweet-potato-chicken-drinks": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/breakfast-freezer-buns-sweet-potato-chicken-drinks.jpg",
+      "output": "images/optimized/article-covers/breakfast-freezer-buns-sweet-potato-chicken-drinks.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37d3027f94819395795efc9b343b95.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37d3027f94819395795efc9b343b95.png",
+      "sha256": "f11079eef72dd71445adc682590a932b3feefb2d3e869e4cbb20be0d4d83c357",
+      "generatedAt": "2026-06-21T12:37:03Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "晨光廚房有蒸籠饅頭、地瓜、雞胸蔬菜餐盒、空白沖泡飲罐、冷凍抽屜與早餐杯碗",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "solo-living-tableware-cookware-coffee-tea-cleaning-storage": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/solo-living-tableware-cookware-coffee-tea-cleaning-storage.jpg",
+      "output": "images/optimized/article-covers/solo-living-tableware-cookware-coffee-tea-cleaning-storage.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37d364a6c88193a28780026dd9a7d1.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37d364a6c88193a28780026dd9a7d1.png",
+      "sha256": "b078612b01914bc39cac390d55978a4e3ba014dc958d9840302e6ed202070270",
+      "generatedAt": "2026-06-21T12:37:03Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "小宅餐桌上有兩只杯盤、小鍋平底鍋、咖啡濾杯、茶壺、清潔刷、擦拭布與收納籃",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "entryway-shoe-cabinet-umbrella-bag-cleaning-tools": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/entryway-shoe-cabinet-umbrella-bag-cleaning-tools.jpg",
+      "output": "images/optimized/article-covers/entryway-shoe-cabinet-umbrella-bag-cleaning-tools.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37d3d247308193961221b46d097726.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37d3d247308193961221b46d097726.png",
+      "sha256": "74e799f03a86955c16573ef7a00373e2c1b3b329a7122e037175a3fc18bd0c05",
+      "generatedAt": "2026-06-21T12:37:03Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "現代玄關有鞋櫃、傘架、無品牌外出包、清潔工具收納架、掛鉤、鏡子與植栽",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }

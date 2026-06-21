@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-06-21T11:45:01Z",
+  "updatedAt": "2026-06-21T12:37:04Z",
   "latest": [
+    {
+      "id": "auto-20260621123703-breakfast-freezer-buns-sweet-potato-chicken-drinks",
+      "title": "早餐與冷凍麵食補貨：饅頭、地瓜、雞胸與沖泡飲",
+      "excerpt": "早餐與冷凍麵食補貨要先看冷凍容量、加熱方式、份量與飲品保存，再比較饅頭、地瓜、雞胸與沖泡飲。",
+      "category": "wellness-movement",
+      "categoryLabel": "健康恢復",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T12:37:03Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "wellness-movement/breakfast-freezer-buns-sweet-potato-chicken-drinks",
+      "heroImage": "/images/optimized/article-covers/breakfast-freezer-buns-sweet-potato-chicken-drinks.jpg",
+      "tags": [
+        "早餐補貨",
+        "冷凍麵食",
+        "地瓜雞胸",
+        "沖泡飲"
+      ]
+    },
+    {
+      "id": "auto-20260621123703-entryway-shoe-cabinet-umbrella-bag-cleaning-tools",
+      "title": "玄關不是倉庫：鞋櫃、傘架、外出包與清潔工具怎麼分工",
+      "excerpt": "玄關分工要先看鞋櫃容量、傘具濕物、外出包暫放與清潔工具位置，再比較家具與收納品。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T12:37:03Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "lifestyle-culture/entryway-shoe-cabinet-umbrella-bag-cleaning-tools",
+      "heroImage": "/images/optimized/article-covers/entryway-shoe-cabinet-umbrella-bag-cleaning-tools.jpg",
+      "tags": [
+        "玄關收納",
+        "鞋櫃傘架",
+        "外出包",
+        "清潔工具"
+      ]
+    },
+    {
+      "id": "auto-20260621123703-family-weekend-table-frozen-food-cookware-tableware-tea",
+      "title": "家庭餐桌週末補貨：冷凍食品、鍋具、餐具與茶點",
+      "excerpt": "家庭餐桌週末補貨要先看冷凍保存、鍋具容量、餐具數量與茶點時段，再比較品牌。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T12:37:03Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "lifestyle-culture/family-weekend-table-frozen-food-cookware-tableware-tea",
+      "heroImage": "/images/optimized/article-covers/family-weekend-table-frozen-food-cookware-tableware-tea.jpg",
+      "tags": [
+        "家庭餐桌",
+        "冷凍食品",
+        "鍋具餐具",
+        "茶點補貨"
+      ]
+    },
+    {
+      "id": "auto-20260621123703-office-snack-cabinet-nuts-dessert-tea-coffee-layers",
+      "title": "辦公室點心櫃：堅果、甜點、茶飲與咖啡怎麼分層",
+      "excerpt": "辦公室點心櫃要先看保存、份量、咖啡因與共享便利性，再分堅果、甜點、茶飲與咖啡。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T12:37:03Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "lifestyle-culture/office-snack-cabinet-nuts-dessert-tea-coffee-layers",
+      "heroImage": "/images/optimized/article-covers/office-snack-cabinet-nuts-dessert-tea-coffee-layers.jpg",
+      "tags": [
+        "辦公室點心",
+        "堅果甜點",
+        "茶飲咖啡",
+        "茶水間收納"
+      ]
+    },
+    {
+      "id": "auto-20260621123703-solo-living-tableware-cookware-coffee-tea-cleaning-storage",
+      "title": "一人生活的餐具清單：杯盤、鍋具、咖啡茶與清潔收納",
+      "excerpt": "一人生活餐具清單要先看杯盤數量、鍋具尺寸、咖啡茶習慣與清潔收納，再比較品牌。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T12:37:03Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "lifestyle-culture/solo-living-tableware-cookware-coffee-tea-cleaning-storage",
+      "heroImage": "/images/optimized/article-covers/solo-living-tableware-cookware-coffee-tea-cleaning-storage.jpg",
+      "tags": [
+        "一人生活",
+        "餐具清單",
+        "咖啡茶",
+        "清潔收納"
+      ]
+    },
     {
       "id": "auto-20260621114500-aquarium-reptile-small-pet-food-cleaning-habitat-storage",
       "title": "水族與小寵補貨清單：飼料、清潔、棲地與收納",
@@ -125,96 +215,6 @@
         "工作旅行",
         "外套包款",
         "比例舒適"
-      ]
-    },
-    {
-      "id": "auto-20260621111400-home-nail-makeup-tools-brush-storage-beginner",
-      "title": "居家美甲與彩妝工具：新手材料、刷具與收納怎麼買",
-      "excerpt": "居家美甲與彩妝工具要先分材料、刷具、清潔與收納，再比較品牌和組合。",
-      "category": "casual-chic",
-      "categoryLabel": "休閒時尚",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T11:14:00Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "casual-chic/home-nail-makeup-tools-brush-storage-beginner",
-      "heroImage": "/images/optimized/article-covers/home-nail-makeup-tools-brush-storage-beginner.jpg",
-      "tags": [
-        "居家美甲",
-        "彩妝刷具",
-        "化妝箱",
-        "工具收納"
-      ]
-    },
-    {
-      "id": "auto-20260621111400-jewelry-leather-gift-ring-wallet-small-bag",
-      "title": "飾品與皮件送禮：銀飾、戒指、皮夾與日常小包",
-      "excerpt": "飾品與皮件送禮要先看尺寸、材質、日常使用率與保養方式，再選銀飾、戒指、皮夾與小包。",
-      "category": "casual-chic",
-      "categoryLabel": "休閒時尚",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T11:14:00Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "casual-chic/jewelry-leather-gift-ring-wallet-small-bag",
-      "heroImage": "/images/optimized/article-covers/jewelry-leather-gift-ring-wallet-small-bag.jpg",
-      "tags": [
-        "飾品送禮",
-        "銀飾戒指",
-        "皮件",
-        "日常小包"
-      ]
-    },
-    {
-      "id": "auto-20260621111400-mens-commute-shirt-trousers-jacket-shoes-wardrobe",
-      "title": "男士通勤衣櫥：襯衫、長褲、外套與鞋包怎麼排",
-      "excerpt": "男士通勤衣櫥要先看辦公室正式度、天氣、步行距離與清洗頻率，再比較單品。",
-      "category": "casual-chic",
-      "categoryLabel": "休閒時尚",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T11:14:00Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "casual-chic/mens-commute-shirt-trousers-jacket-shoes-wardrobe",
-      "heroImage": "/images/optimized/article-covers/mens-commute-shirt-trousers-jacket-shoes-wardrobe.jpg",
-      "tags": [
-        "男士通勤",
-        "襯衫長褲",
-        "外套鞋包",
-        "一週衣櫥"
-      ]
-    },
-    {
-      "id": "auto-20260621104717-desk-cable-charger-monitor-protection-backup-organizer",
-      "title": "桌面線材怎麼整理：充電器、螢幕線、保護貼與備份小物",
-      "excerpt": "桌面線材要先看設備數量、接口、充電位置與備份流程，再買收納和保護周邊。",
-      "category": "ai-innovation",
-      "categoryLabel": "人工智能",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T10:47:17Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "ai-innovation/desk-cable-charger-monitor-protection-backup-organizer",
-      "heroImage": "/images/optimized/article-covers/desk-cable-charger-monitor-protection-backup-organizer.jpg",
-      "tags": [
-        "桌面線材",
-        "充電器",
-        "螢幕線",
-        "備份收納"
-      ]
-    },
-    {
-      "id": "auto-20260621104717-home-care-bathing-transfer-storage-safety-flow",
-      "title": "居家照護動線：沐浴、移位、收納與安全提醒怎麼看",
-      "excerpt": "居家照護動線要先看沐浴、移位、收納與照顧者流程，再比較輔具、濾淨、按摩與收納品。",
-      "category": "wellness-movement",
-      "categoryLabel": "健康恢復",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T10:47:17Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "wellness-movement/home-care-bathing-transfer-storage-safety-flow",
-      "heroImage": "/images/optimized/article-covers/home-care-bathing-transfer-storage-safety-flow.jpg",
-      "tags": [
-        "居家照護",
-        "沐浴動線",
-        "移位收納",
-        "照顧者流程"
       ]
     }
   ],
@@ -724,6 +724,24 @@
       "label": "健康恢復",
       "items": [
         {
+          "id": "auto-20260621123703-breakfast-freezer-buns-sweet-potato-chicken-drinks",
+          "title": "早餐與冷凍麵食補貨：饅頭、地瓜、雞胸與沖泡飲",
+          "excerpt": "早餐與冷凍麵食補貨要先看冷凍容量、加熱方式、份量與飲品保存，再比較饅頭、地瓜、雞胸與沖泡飲。",
+          "category": "wellness-movement",
+          "categoryLabel": "健康恢復",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T12:37:03Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "wellness-movement/breakfast-freezer-buns-sweet-potato-chicken-drinks",
+          "heroImage": "/images/optimized/article-covers/breakfast-freezer-buns-sweet-potato-chicken-drinks.jpg",
+          "tags": [
+            "早餐補貨",
+            "冷凍麵食",
+            "地瓜雞胸",
+            "沖泡飲"
+          ]
+        },
+        {
           "id": "auto-20260621104717-home-care-bathing-transfer-storage-safety-flow",
           "title": "居家照護動線：沐浴、移位、收納與安全提醒怎麼看",
           "excerpt": "居家照護動線要先看沐浴、移位、收納與照顧者流程，再比較輔具、濾淨、按摩與收納品。",
@@ -811,24 +829,6 @@
             "按摩設備",
             "護具",
             "照護用品"
-          ]
-        },
-        {
-          "id": "auto-20260621075540-office-snack-cabinet-low-sugar-nuts-vegetarian-drinks",
-          "title": "外食日的零食櫃：低醣點心、堅果、素食零嘴與沖泡飲怎麼放",
-          "excerpt": "低負擔零食櫃要看份量、保存與口味疲乏，不把低醣、堅果、素食零嘴或沖泡飲寫成健康捷徑。",
-          "category": "wellness-movement",
-          "categoryLabel": "健康恢復",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T07:55:40Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "wellness-movement/office-snack-cabinet-low-sugar-nuts-vegetarian-drinks",
-          "heroImage": "/images/optimized/article-covers/office-snack-cabinet-low-sugar-nuts-vegetarian-drinks.jpg",
-          "tags": [
-            "辦公室零食",
-            "低醣點心",
-            "堅果",
-            "沖泡飲"
           ]
         }
       ]
@@ -950,6 +950,78 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260621123703-entryway-shoe-cabinet-umbrella-bag-cleaning-tools",
+          "title": "玄關不是倉庫：鞋櫃、傘架、外出包與清潔工具怎麼分工",
+          "excerpt": "玄關分工要先看鞋櫃容量、傘具濕物、外出包暫放與清潔工具位置，再比較家具與收納品。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T12:37:03Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "lifestyle-culture/entryway-shoe-cabinet-umbrella-bag-cleaning-tools",
+          "heroImage": "/images/optimized/article-covers/entryway-shoe-cabinet-umbrella-bag-cleaning-tools.jpg",
+          "tags": [
+            "玄關收納",
+            "鞋櫃傘架",
+            "外出包",
+            "清潔工具"
+          ]
+        },
+        {
+          "id": "auto-20260621123703-family-weekend-table-frozen-food-cookware-tableware-tea",
+          "title": "家庭餐桌週末補貨：冷凍食品、鍋具、餐具與茶點",
+          "excerpt": "家庭餐桌週末補貨要先看冷凍保存、鍋具容量、餐具數量與茶點時段，再比較品牌。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T12:37:03Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "lifestyle-culture/family-weekend-table-frozen-food-cookware-tableware-tea",
+          "heroImage": "/images/optimized/article-covers/family-weekend-table-frozen-food-cookware-tableware-tea.jpg",
+          "tags": [
+            "家庭餐桌",
+            "冷凍食品",
+            "鍋具餐具",
+            "茶點補貨"
+          ]
+        },
+        {
+          "id": "auto-20260621123703-office-snack-cabinet-nuts-dessert-tea-coffee-layers",
+          "title": "辦公室點心櫃：堅果、甜點、茶飲與咖啡怎麼分層",
+          "excerpt": "辦公室點心櫃要先看保存、份量、咖啡因與共享便利性，再分堅果、甜點、茶飲與咖啡。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T12:37:03Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "lifestyle-culture/office-snack-cabinet-nuts-dessert-tea-coffee-layers",
+          "heroImage": "/images/optimized/article-covers/office-snack-cabinet-nuts-dessert-tea-coffee-layers.jpg",
+          "tags": [
+            "辦公室點心",
+            "堅果甜點",
+            "茶飲咖啡",
+            "茶水間收納"
+          ]
+        },
+        {
+          "id": "auto-20260621123703-solo-living-tableware-cookware-coffee-tea-cleaning-storage",
+          "title": "一人生活的餐具清單：杯盤、鍋具、咖啡茶與清潔收納",
+          "excerpt": "一人生活餐具清單要先看杯盤數量、鍋具尺寸、咖啡茶習慣與清潔收納，再比較品牌。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T12:37:03Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "lifestyle-culture/solo-living-tableware-cookware-coffee-tea-cleaning-storage",
+          "heroImage": "/images/optimized/article-covers/solo-living-tableware-cookware-coffee-tea-cleaning-storage.jpg",
+          "tags": [
+            "一人生活",
+            "餐具清單",
+            "咖啡茶",
+            "清潔收納"
+          ]
+        },
+        {
           "id": "auto-20260621114500-aquarium-reptile-small-pet-food-cleaning-habitat-storage",
           "title": "水族與小寵補貨清單：飼料、清潔、棲地與收納",
           "excerpt": "水族與小寵補貨要先分飼料、清潔、棲地與收納，再比較水族、寵物與清潔用品。",
@@ -983,78 +1055,6 @@
             "寵物食品",
             "清潔玩具",
             "外出用品"
-          ]
-        },
-        {
-          "id": "auto-20260621114500-pet-birthday-gift-cake-snack-toy-cleaning",
-          "title": "寵物生日禮物：蛋糕、零食、玩具與清潔備案",
-          "excerpt": "寵物生日禮物要先看蛋糕、零食、玩具與清潔備案，再比較造型和品牌。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T11:45:00Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/pet-birthday-gift-cake-snack-toy-cleaning",
-          "heroImage": "/images/optimized/article-covers/pet-birthday-gift-cake-snack-toy-cleaning.jpg",
-          "tags": [
-            "寵物生日",
-            "寵物蛋糕",
-            "零食玩具",
-            "清潔備案"
-          ]
-        },
-        {
-          "id": "auto-20260621104717-scent-bodycare-gift-essential-oil-towel-goods",
-          "title": "香氛與身體保養送禮：精油、蠟燭、毛巾與生活小物",
-          "excerpt": "香氛與身體保養送禮要先分氣味、布品、身體清潔與生活小物，再看品牌和預算。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T10:47:17Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/scent-bodycare-gift-essential-oil-towel-goods",
-          "heroImage": "/images/optimized/article-covers/scent-bodycare-gift-essential-oil-towel-goods.jpg",
-          "tags": [
-            "香氛送禮",
-            "精油蠟燭",
-            "毛巾浴巾",
-            "身體保養"
-          ]
-        },
-        {
-          "id": "auto-20260621102801-cold-brew-tea-gift-box-afternoon-decision",
-          "title": "冷泡茶與茶禮盒：日常飲用、送禮與下午茶的不同判斷",
-          "excerpt": "冷泡茶與茶禮盒要先分日常飲用、送禮與下午茶，再看茶種、保存與份量。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T10:28:01Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/cold-brew-tea-gift-box-afternoon-decision",
-          "heroImage": "/images/optimized/article-covers/cold-brew-tea-gift-box-afternoon-decision.jpg",
-          "tags": [
-            "冷泡茶",
-            "茶禮盒",
-            "下午茶",
-            "送禮選物"
-          ]
-        },
-        {
-          "id": "auto-20260621102801-family-gift-blocks-board-games-puzzles-books",
-          "title": "家庭禮物與益智玩具：積木、桌遊、拼圖與書店選物",
-          "excerpt": "家庭禮物與益智玩具要先看年齡、共同使用、收納與安全標示，再選積木、桌遊、拼圖與書。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T10:28:01Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/family-gift-blocks-board-games-puzzles-books",
-          "heroImage": "/images/optimized/article-covers/family-gift-blocks-board-games-puzzles-books.jpg",
-          "tags": [
-            "家庭禮物",
-            "積木桌遊",
-            "拼圖",
-            "書店選物"
           ]
         }
       ]

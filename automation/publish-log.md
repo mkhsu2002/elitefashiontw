@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-21T12:37:03Z｜玄關不是倉庫：鞋櫃、傘架、外出包與清潔工具怎麼分工
+
+- 文章 ID：auto-20260621123703-entryway-shoe-cabinet-umbrella-bag-cleaning-tools
+- URL：https://tw.elitefasion.com/lifestyle-culture/entryway-shoe-cabinet-umbrella-bag-cleaning-tools
+- 檔案：lifestyle-culture/entryway-shoe-cabinet-umbrella-bag-cleaning-tools.html
+- 類型：manual-codex-momo-revenue-growth-batch-twelve-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B12
+
+## 2026-06-21T12:37:03Z｜一人生活的餐具清單：杯盤、鍋具、咖啡茶與清潔收納
+
+- 文章 ID：auto-20260621123703-solo-living-tableware-cookware-coffee-tea-cleaning-storage
+- URL：https://tw.elitefasion.com/lifestyle-culture/solo-living-tableware-cookware-coffee-tea-cleaning-storage
+- 檔案：lifestyle-culture/solo-living-tableware-cookware-coffee-tea-cleaning-storage.html
+- 類型：manual-codex-momo-revenue-growth-batch-twelve-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B12
+
+## 2026-06-21T12:37:03Z｜早餐與冷凍麵食補貨：饅頭、地瓜、雞胸與沖泡飲
+
+- 文章 ID：auto-20260621123703-breakfast-freezer-buns-sweet-potato-chicken-drinks
+- URL：https://tw.elitefasion.com/wellness-movement/breakfast-freezer-buns-sweet-potato-chicken-drinks
+- 檔案：wellness-movement/breakfast-freezer-buns-sweet-potato-chicken-drinks.html
+- 類型：manual-codex-momo-revenue-growth-batch-twelve-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B12
+
+## 2026-06-21T12:37:03Z｜家庭餐桌週末補貨：冷凍食品、鍋具、餐具與茶點
+
+- 文章 ID：auto-20260621123703-family-weekend-table-frozen-food-cookware-tableware-tea
+- URL：https://tw.elitefasion.com/lifestyle-culture/family-weekend-table-frozen-food-cookware-tableware-tea
+- 檔案：lifestyle-culture/family-weekend-table-frozen-food-cookware-tableware-tea.html
+- 類型：manual-codex-momo-revenue-growth-batch-twelve-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B12
+
+## 2026-06-21T12:37:03Z｜辦公室點心櫃：堅果、甜點、茶飲與咖啡怎麼分層
+
+- 文章 ID：auto-20260621123703-office-snack-cabinet-nuts-dessert-tea-coffee-layers
+- URL：https://tw.elitefasion.com/lifestyle-culture/office-snack-cabinet-nuts-dessert-tea-coffee-layers
+- 檔案：lifestyle-culture/office-snack-cabinet-nuts-dessert-tea-coffee-layers.html
+- 類型：manual-codex-momo-revenue-growth-batch-twelve-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B12
+
 ## 2026-06-21T11:45:00Z｜寵物生日禮物：蛋糕、零食、玩具與清潔備案
 
 - 文章 ID：auto-20260621114500-pet-birthday-gift-cake-snack-toy-cleaning

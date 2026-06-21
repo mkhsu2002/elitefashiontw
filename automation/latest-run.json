@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T11:45:00Z",
+  "updatedAt": "2026-06-21T12:37:03Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-eleven-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01-B11",
+  "triggerType": "manual-codex-momo-revenue-growth-batch-twelve-no-newsletter",
+  "queueId": "MOMO-REV-2026-06-21-W01-B12",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260621114459-night-mobility-reflective-dashcam-rain-earplug-kit",
-    "auto-20260621114500-family-weekend-outing-sun-tableware-toys-rain-storage",
-    "auto-20260621114500-first-pet-shopping-food-toy-cleaning-outing-order-2",
-    "auto-20260621114500-aquarium-reptile-small-pet-food-cleaning-habitat-storage",
-    "auto-20260621114500-pet-birthday-gift-cake-snack-toy-cleaning"
+    "auto-20260621123703-office-snack-cabinet-nuts-dessert-tea-coffee-layers",
+    "auto-20260621123703-family-weekend-table-frozen-food-cookware-tableware-tea",
+    "auto-20260621123703-breakfast-freezer-buns-sweet-potato-chicken-drinks",
+    "auto-20260621123703-solo-living-tableware-cookware-coffee-tea-cleaning-storage",
+    "auto-20260621123703-entryway-shoe-cabinet-umbrella-bag-cleaning-tools"
   ],
   "articleSlugs": [
-    "night-mobility-reflective-dashcam-rain-earplug-kit",
-    "family-weekend-outing-sun-tableware-toys-rain-storage",
-    "first-pet-shopping-food-toy-cleaning-outing-order-2",
-    "aquarium-reptile-small-pet-food-cleaning-habitat-storage",
-    "pet-birthday-gift-cake-snack-toy-cleaning"
+    "office-snack-cabinet-nuts-dessert-tea-coffee-layers",
+    "family-weekend-table-frozen-food-cookware-tableware-tea",
+    "breakfast-freezer-buns-sweet-potato-chicken-drinks",
+    "solo-living-tableware-cookware-coffee-tea-cleaning-storage",
+    "entryway-shoe-cabinet-umbrella-bag-cleaning-tools"
   ],
-  "notes": "Codex 手動生成 momo 收益型內容第十一組；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動生成 momo 收益型內容第十二組；直接推上 main 不會自動寄送電子報。"
 }

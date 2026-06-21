@@ -1,5 +1,105 @@
 [
   {
+    "id": "auto-20260621123703-breakfast-freezer-buns-sweet-potato-chicken-drinks",
+    "title": "早餐與冷凍麵食補貨：饅頭、地瓜、雞胸與沖泡飲",
+    "excerpt": "早餐與冷凍麵食補貨要先看冷凍容量、加熱方式、份量與飲品保存，再比較饅頭、地瓜、雞胸與沖泡飲。",
+    "category": "wellness-movement",
+    "categoryLabel": "健康恢復",
+    "relativeUrl": "wellness-movement/breakfast-freezer-buns-sweet-potato-chicken-drinks",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "早餐補貨",
+      "冷凍麵食",
+      "地瓜雞胸",
+      "沖泡飲"
+    ],
+    "faqQuestions": [
+      "早餐冷凍補貨先買什麼？",
+      "沖泡飲怎麼放？",
+      "怎麼避免補太多？"
+    ]
+  },
+  {
+    "id": "auto-20260621123703-entryway-shoe-cabinet-umbrella-bag-cleaning-tools",
+    "title": "玄關不是倉庫：鞋櫃、傘架、外出包與清潔工具怎麼分工",
+    "excerpt": "玄關分工要先看鞋櫃容量、傘具濕物、外出包暫放與清潔工具位置，再比較家具與收納品。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/entryway-shoe-cabinet-umbrella-bag-cleaning-tools",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "玄關收納",
+      "鞋櫃傘架",
+      "外出包",
+      "清潔工具"
+    ],
+    "faqQuestions": [
+      "玄關第一步整理什麼？",
+      "鞋櫃越大越好嗎？",
+      "清潔工具可以藏起來嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260621123703-family-weekend-table-frozen-food-cookware-tableware-tea",
+    "title": "家庭餐桌週末補貨：冷凍食品、鍋具、餐具與茶點",
+    "excerpt": "家庭餐桌週末補貨要先看冷凍保存、鍋具容量、餐具數量與茶點時段，再比較品牌。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/family-weekend-table-frozen-food-cookware-tableware-tea",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "家庭餐桌",
+      "冷凍食品",
+      "鍋具餐具",
+      "茶點補貨"
+    ],
+    "faqQuestions": [
+      "週末餐桌先補冷凍食品嗎？",
+      "鍋具要怎麼選？",
+      "茶點需要買很多嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260621123703-office-snack-cabinet-nuts-dessert-tea-coffee-layers",
+    "title": "辦公室點心櫃：堅果、甜點、茶飲與咖啡怎麼分層",
+    "excerpt": "辦公室點心櫃要先看保存、份量、咖啡因與共享便利性，再分堅果、甜點、茶飲與咖啡。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/office-snack-cabinet-nuts-dessert-tea-coffee-layers",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "辦公室點心",
+      "堅果甜點",
+      "茶飲咖啡",
+      "茶水間收納"
+    ],
+    "faqQuestions": [
+      "辦公室點心櫃先買哪類？",
+      "咖啡和茶要分開放嗎？",
+      "怎麼避免買太多？"
+    ]
+  },
+  {
+    "id": "auto-20260621123703-solo-living-tableware-cookware-coffee-tea-cleaning-storage",
+    "title": "一人生活的餐具清單：杯盤、鍋具、咖啡茶與清潔收納",
+    "excerpt": "一人生活餐具清單要先看杯盤數量、鍋具尺寸、咖啡茶習慣與清潔收納，再比較品牌。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/solo-living-tableware-cookware-coffee-tea-cleaning-storage",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "一人生活",
+      "餐具清單",
+      "咖啡茶",
+      "清潔收納"
+    ],
+    "faqQuestions": [
+      "一人生活餐具要買幾人份？",
+      "小鍋和平底鍋都需要嗎？",
+      "清潔用品要一起規劃嗎？"
+    ]
+  },
+  {
     "id": "auto-20260621114500-aquarium-reptile-small-pet-food-cleaning-habitat-storage",
     "title": "水族與小寵補貨清單：飼料、清潔、棲地與收納",
     "excerpt": "水族與小寵補貨要先分飼料、清潔、棲地與收納，再比較水族、寵物與清潔用品。",
