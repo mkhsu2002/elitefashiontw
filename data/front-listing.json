@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-06-21T09:55:58Z",
+  "updatedAt": "2026-06-21T10:28:01Z",
   "latest": [
+    {
+      "id": "auto-20260621102801-cold-brew-tea-gift-box-afternoon-decision",
+      "title": "冷泡茶與茶禮盒：日常飲用、送禮與下午茶的不同判斷",
+      "excerpt": "冷泡茶與茶禮盒要先分日常飲用、送禮與下午茶，再看茶種、保存與份量。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T10:28:01Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "lifestyle-culture/cold-brew-tea-gift-box-afternoon-decision",
+      "heroImage": "/images/optimized/article-covers/cold-brew-tea-gift-box-afternoon-decision.jpg",
+      "tags": [
+        "冷泡茶",
+        "茶禮盒",
+        "下午茶",
+        "送禮選物"
+      ]
+    },
+    {
+      "id": "auto-20260621102801-family-gift-blocks-board-games-puzzles-books",
+      "title": "家庭禮物與益智玩具：積木、桌遊、拼圖與書店選物",
+      "excerpt": "家庭禮物與益智玩具要先看年齡、共同使用、收納與安全標示，再選積木、桌遊、拼圖與書。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T10:28:01Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "lifestyle-culture/family-gift-blocks-board-games-puzzles-books",
+      "heroImage": "/images/optimized/article-covers/family-gift-blocks-board-games-puzzles-books.jpg",
+      "tags": [
+        "家庭禮物",
+        "積木桌遊",
+        "拼圖",
+        "書店選物"
+      ]
+    },
+    {
+      "id": "auto-20260621102801-sun-rain-gear-entryway-commute-bag-scooter-storage",
+      "title": "防曬與雨具收納：玄關、通勤包與車廂裡各放什麼",
+      "excerpt": "防曬與雨具收納要先分玄關、通勤包與車廂，並安排乾濕分流。",
+      "category": "casual-chic",
+      "categoryLabel": "休閒時尚",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T10:28:01Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "casual-chic/sun-rain-gear-entryway-commute-bag-scooter-storage",
+      "heroImage": "/images/optimized/article-covers/sun-rain-gear-entryway-commute-bag-scooter-storage.jpg",
+      "tags": [
+        "防曬雨具",
+        "玄關收納",
+        "通勤包",
+        "機車車廂"
+      ]
+    },
+    {
+      "id": "auto-20260621102800-office-drink-cabinet-plant-milk-tea-coffee-sparkling",
+      "title": "辦公室飲品櫃：植物奶、茶包、咖啡與氣泡飲怎麼搭",
+      "excerpt": "辦公室飲品櫃要先看保存、咖啡因、糖度與共享便利性，再補植物奶、茶、咖啡與氣泡飲。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T10:28:00Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "lifestyle-culture/office-drink-cabinet-plant-milk-tea-coffee-sparkling",
+      "heroImage": "/images/optimized/article-covers/office-drink-cabinet-plant-milk-tea-coffee-sparkling.jpg",
+      "tags": [
+        "辦公室飲品",
+        "植物奶",
+        "茶包",
+        "咖啡氣泡飲"
+      ]
+    },
+    {
+      "id": "auto-20260621102800-road-scooter-dashcam-reflective-rain-charging-kit",
+      "title": "自駕與機車移動備案：行車紀錄、反光配件、雨具與充電",
+      "excerpt": "自駕與機車備案要先看路線、天氣、安裝與充電，再比較行車紀錄、反光、雨具與電力。",
+      "category": "outdoor-escapes",
+      "categoryLabel": "戶外生活",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-21T10:28:00Z",
+      "publishedDateText": "2026年6月21日",
+      "relativeUrl": "outdoor-escapes/road-scooter-dashcam-reflective-rain-charging-kit",
+      "heroImage": "/images/optimized/article-covers/road-scooter-dashcam-reflective-rain-charging-kit.jpg",
+      "tags": [
+        "機車通勤",
+        "行車紀錄器",
+        "反光配件",
+        "雨具充電"
+      ]
+    },
     {
       "id": "auto-20260621095557-cat-living-litter-toys-food-cleaning-order",
       "title": "貓咪生活採買順序：貓砂、玩具、食品與清潔用品",
@@ -125,96 +215,6 @@
         "雞胸",
         "地瓜",
         "冷凍蔬菜"
-      ]
-    },
-    {
-      "id": "auto-20260621090156-home-comfort-massage-device-brace-care-supplies-order",
-      "title": "給家人的居家舒壓設備：按摩椅、按摩槍、護具與照護用品",
-      "excerpt": "居家舒壓設備要先確認是否適合使用，再看尺寸、力道、清潔與收納，不把設備當成照護答案。",
-      "category": "wellness-movement",
-      "categoryLabel": "健康恢復",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T09:01:56Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "wellness-movement/home-comfort-massage-device-brace-care-supplies-order",
-      "heroImage": "/images/optimized/article-covers/home-comfort-massage-device-brace-care-supplies-order.jpg",
-      "tags": [
-        "居家舒壓",
-        "按摩設備",
-        "護具",
-        "照護用品"
-      ]
-    },
-    {
-      "id": "auto-20260621090156-japanese-camping-style-table-stove-cup-storage-order",
-      "title": "日系露營風格入門：桌椅、爐具、杯具與收納小物順序",
-      "excerpt": "日系露營入門先從桌椅穩定、爐具條件、杯具與收納開始，再談風格完整度。",
-      "category": "outdoor-escapes",
-      "categoryLabel": "戶外生活",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T09:01:56Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "outdoor-escapes/japanese-camping-style-table-stove-cup-storage-order",
-      "heroImage": "/images/optimized/article-covers/japanese-camping-style-table-stove-cup-storage-order.jpg",
-      "tags": [
-        "日系露營",
-        "露營桌椅",
-        "露營爐具",
-        "戶外收納"
-      ]
-    },
-    {
-      "id": "auto-20260621090156-pet-friendly-home-cleaning-floor-laundry-storage-order",
-      "title": "寵物友善居家清潔：除味、地板、洗衣與收納用品怎麼看",
-      "excerpt": "寵物友善清潔要先分地板、布品、除味與收納，並保守看待成分與使用限制。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T09:01:56Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "lifestyle-culture/pet-friendly-home-cleaning-floor-laundry-storage-order",
-      "heroImage": "/images/optimized/article-covers/pet-friendly-home-cleaning-floor-laundry-storage-order.jpg",
-      "tags": [
-        "寵物友善清潔",
-        "地板清潔",
-        "洗衣收納",
-        "除味"
-      ]
-    },
-    {
-      "id": "auto-20260621083000-ai-workflow-laptop-monitor-cable-protection-backup",
-      "title": "AI 工作流需要什麼筆電周邊：螢幕、線材、保護貼與備份",
-      "excerpt": "AI 工作流周邊不是只買更強筆電，而是先處理螢幕動線、線材相容、保護與備份。",
-      "category": "ai-innovation",
-      "categoryLabel": "人工智能",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T08:30:00Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "ai-innovation/ai-workflow-laptop-monitor-cable-protection-backup",
-      "heroImage": "/images/optimized/article-covers/ai-workflow-laptop-monitor-cable-protection-backup.jpg",
-      "tags": [
-        "AI 工作流",
-        "外接螢幕",
-        "筆電周邊",
-        "資料備份"
-      ]
-    },
-    {
-      "id": "auto-20260621083000-home-cooking-pan-tableware-storage-order",
-      "title": "居家餐桌先買鍋還是杯盤：鍋具、餐具與收納工具的順序",
-      "excerpt": "居家餐桌不是先買最漂亮的鍋或杯盤，而是先看一週真正開火幾次、如何收納、誰會一起使用。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T08:30:00Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "lifestyle-culture/home-cooking-pan-tableware-storage-order",
-      "heroImage": "/images/optimized/article-covers/home-cooking-pan-tableware-storage-order.jpg",
-      "tags": [
-        "居家餐桌",
-        "鍋具",
-        "餐具",
-        "收納工具"
       ]
     }
   ],
@@ -611,6 +611,24 @@
       "label": "休閒時尚",
       "items": [
         {
+          "id": "auto-20260621102801-sun-rain-gear-entryway-commute-bag-scooter-storage",
+          "title": "防曬與雨具收納：玄關、通勤包與車廂裡各放什麼",
+          "excerpt": "防曬與雨具收納要先分玄關、通勤包與車廂，並安排乾濕分流。",
+          "category": "casual-chic",
+          "categoryLabel": "休閒時尚",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T10:28:01Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "casual-chic/sun-rain-gear-entryway-commute-bag-scooter-storage",
+          "heroImage": "/images/optimized/article-covers/sun-rain-gear-entryway-commute-bag-scooter-storage.jpg",
+          "tags": [
+            "防曬雨具",
+            "玄關收納",
+            "通勤包",
+            "機車車廂"
+          ]
+        },
+        {
           "id": "auto-20260621095557-weekend-city-outdoor-sun-jacket-shorts-small-bag",
           "title": "週末輕戶外穿搭：城市感、防曬外套、短褲與小包怎麼搭",
           "excerpt": "週末輕戶外穿搭要先看行程距離、遮蔽、鞋包容量與回程收納，再談風格。",
@@ -698,24 +716,6 @@
             "雨天上班",
             "包款選購",
             "城市穿搭"
-          ]
-        },
-        {
-          "id": "auto-20260621053633-rainy-commute-umbrella-rain-shoes-bag-materials",
-          "title": "雨天上班不失控：抗風傘、雨鞋、雨衣與包款材質清單",
-          "excerpt": "雨天上班的關鍵不是買最多雨具，而是把抵達前、進門後與收納時的狼狽感降到最低。",
-          "category": "casual-chic",
-          "categoryLabel": "休閒時尚",
-          "series": "城市效率選物",
-          "publishedAt": "2026-06-21T05:36:33Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "casual-chic/rainy-commute-umbrella-rain-shoes-bag-materials",
-          "heroImage": "images/optimized/article-covers/rainy-commute-umbrella-rain-shoes-bag-materials.jpg",
-          "tags": [
-            "雨天通勤",
-            "抗風傘",
-            "雨鞋",
-            "上班穿搭"
           ]
         }
       ]
@@ -837,6 +837,24 @@
       "label": "戶外生活",
       "items": [
         {
+          "id": "auto-20260621102800-road-scooter-dashcam-reflective-rain-charging-kit",
+          "title": "自駕與機車移動備案：行車紀錄、反光配件、雨具與充電",
+          "excerpt": "自駕與機車備案要先看路線、天氣、安裝與充電，再比較行車紀錄、反光、雨具與電力。",
+          "category": "outdoor-escapes",
+          "categoryLabel": "戶外生活",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T10:28:00Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "outdoor-escapes/road-scooter-dashcam-reflective-rain-charging-kit",
+          "heroImage": "/images/optimized/article-covers/road-scooter-dashcam-reflective-rain-charging-kit.jpg",
+          "tags": [
+            "機車通勤",
+            "行車紀錄器",
+            "反光配件",
+            "雨具充電"
+          ]
+        },
+        {
           "id": "auto-20260621090156-japanese-camping-style-table-stove-cup-storage-order",
           "title": "日系露營風格入門：桌椅、爐具、杯具與收納小物順序",
           "excerpt": "日系露營入門先從桌椅穩定、爐具條件、杯具與收納開始，再談風格完整度。",
@@ -926,32 +944,66 @@
             "文化旅行",
             "戶外生活"
           ]
-        },
-        {
-          "id": "auto-20260528231624-elder-travel-vision-reading-sunglasses-luggage",
-          "title": "長輩與戶外旅行的視線管理：老花眼鏡、偏光太陽眼鏡與旅行配件",
-          "excerpt": "家庭旅行不只要帶箱包，也要讓閱讀、看路、找票與戶外光線都有清楚的位置。",
-          "category": "outdoor-escapes",
-          "categoryLabel": "戶外生活",
-          "series": "日常選物指南",
-          "publishedAt": "2026-05-28T23:16:24Z",
-          "publishedDateText": "2026年5月28日",
-          "relativeUrl": "outdoor-escapes/elder-travel-vision-reading-sunglasses-luggage.html",
-          "heroImage": "/images/optimized/article-covers/elder-travel-vision-reading-sunglasses-luggage.jpg",
-          "tags": [
-            "老花眼鏡",
-            "偏光太陽眼鏡",
-            "旅行配件",
-            "箱包",
-            "選物指南",
-            "生活採買"
-          ]
         }
       ]
     },
     "lifestyle-culture": {
       "label": "生活品味",
       "items": [
+        {
+          "id": "auto-20260621102801-cold-brew-tea-gift-box-afternoon-decision",
+          "title": "冷泡茶與茶禮盒：日常飲用、送禮與下午茶的不同判斷",
+          "excerpt": "冷泡茶與茶禮盒要先分日常飲用、送禮與下午茶，再看茶種、保存與份量。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T10:28:01Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "lifestyle-culture/cold-brew-tea-gift-box-afternoon-decision",
+          "heroImage": "/images/optimized/article-covers/cold-brew-tea-gift-box-afternoon-decision.jpg",
+          "tags": [
+            "冷泡茶",
+            "茶禮盒",
+            "下午茶",
+            "送禮選物"
+          ]
+        },
+        {
+          "id": "auto-20260621102801-family-gift-blocks-board-games-puzzles-books",
+          "title": "家庭禮物與益智玩具：積木、桌遊、拼圖與書店選物",
+          "excerpt": "家庭禮物與益智玩具要先看年齡、共同使用、收納與安全標示，再選積木、桌遊、拼圖與書。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T10:28:01Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "lifestyle-culture/family-gift-blocks-board-games-puzzles-books",
+          "heroImage": "/images/optimized/article-covers/family-gift-blocks-board-games-puzzles-books.jpg",
+          "tags": [
+            "家庭禮物",
+            "積木桌遊",
+            "拼圖",
+            "書店選物"
+          ]
+        },
+        {
+          "id": "auto-20260621102800-office-drink-cabinet-plant-milk-tea-coffee-sparkling",
+          "title": "辦公室飲品櫃：植物奶、茶包、咖啡與氣泡飲怎麼搭",
+          "excerpt": "辦公室飲品櫃要先看保存、咖啡因、糖度與共享便利性，再補植物奶、茶、咖啡與氣泡飲。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-21T10:28:00Z",
+          "publishedDateText": "2026年6月21日",
+          "relativeUrl": "lifestyle-culture/office-drink-cabinet-plant-milk-tea-coffee-sparkling",
+          "heroImage": "/images/optimized/article-covers/office-drink-cabinet-plant-milk-tea-coffee-sparkling.jpg",
+          "tags": [
+            "辦公室飲品",
+            "植物奶",
+            "茶包",
+            "咖啡氣泡飲"
+          ]
+        },
         {
           "id": "auto-20260621095557-cat-living-litter-toys-food-cleaning-order",
           "title": "貓咪生活採買順序：貓砂、玩具、食品與清潔用品",
@@ -1004,60 +1056,6 @@
             "洗髮",
             "染護",
             "造型工具"
-          ]
-        },
-        {
-          "id": "auto-20260621090156-daily-skincare-essence-mask-body-sunscreen-order-2",
-          "title": "日常保養別堆太多：精華、面膜、身體保養與防曬怎麼排",
-          "excerpt": "日常保養應先分早晚、頻率與肌膚耐受，再看精華、面膜、身體保養與防曬。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T09:01:56Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/daily-skincare-essence-mask-body-sunscreen-order-2",
-          "heroImage": "/images/optimized/article-covers/daily-skincare-essence-mask-body-sunscreen-order-2.jpg",
-          "tags": [
-            "日常保養",
-            "精華",
-            "面膜",
-            "防曬"
-          ]
-        },
-        {
-          "id": "auto-20260621090156-pet-friendly-home-cleaning-floor-laundry-storage-order",
-          "title": "寵物友善居家清潔：除味、地板、洗衣與收納用品怎麼看",
-          "excerpt": "寵物友善清潔要先分地板、布品、除味與收納，並保守看待成分與使用限制。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T09:01:56Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/pet-friendly-home-cleaning-floor-laundry-storage-order",
-          "heroImage": "/images/optimized/article-covers/pet-friendly-home-cleaning-floor-laundry-storage-order.jpg",
-          "tags": [
-            "寵物友善清潔",
-            "地板清潔",
-            "洗衣收納",
-            "除味"
-          ]
-        },
-        {
-          "id": "auto-20260621083000-home-cooking-pan-tableware-storage-order",
-          "title": "居家餐桌先買鍋還是杯盤：鍋具、餐具與收納工具的順序",
-          "excerpt": "居家餐桌不是先買最漂亮的鍋或杯盤，而是先看一週真正開火幾次、如何收納、誰會一起使用。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T08:30:00Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/home-cooking-pan-tableware-storage-order",
-          "heroImage": "/images/optimized/article-covers/home-cooking-pan-tableware-storage-order.jpg",
-          "tags": [
-            "居家餐桌",
-            "鍋具",
-            "餐具",
-            "收納工具"
           ]
         }
       ]

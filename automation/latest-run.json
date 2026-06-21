@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T09:55:57Z",
+  "updatedAt": "2026-06-21T10:28:01Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-seven-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01-B07",
+  "triggerType": "manual-codex-momo-revenue-growth-batch-eight-no-newsletter",
+  "queueId": "MOMO-REV-2026-06-21-W01-B08",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260621095557-scalp-haircare-shampoo-color-styling-brush-choice",
-    "auto-20260621095557-home-stretch-yoga-mat-props-light-scent-corner",
-    "auto-20260621095557-weekend-city-outdoor-sun-jacket-shorts-small-bag",
-    "auto-20260621095557-cat-living-litter-toys-food-cleaning-order",
-    "auto-20260621095557-parent-child-outing-tableware-oral-care-maternity-bag-kit"
+    "auto-20260621102800-office-drink-cabinet-plant-milk-tea-coffee-sparkling",
+    "auto-20260621102800-road-scooter-dashcam-reflective-rain-charging-kit",
+    "auto-20260621102801-family-gift-blocks-board-games-puzzles-books",
+    "auto-20260621102801-sun-rain-gear-entryway-commute-bag-scooter-storage",
+    "auto-20260621102801-cold-brew-tea-gift-box-afternoon-decision"
   ],
   "articleSlugs": [
-    "scalp-haircare-shampoo-color-styling-brush-choice",
-    "home-stretch-yoga-mat-props-light-scent-corner",
-    "weekend-city-outdoor-sun-jacket-shorts-small-bag",
-    "cat-living-litter-toys-food-cleaning-order",
-    "parent-child-outing-tableware-oral-care-maternity-bag-kit"
+    "office-drink-cabinet-plant-milk-tea-coffee-sparkling",
+    "road-scooter-dashcam-reflective-rain-charging-kit",
+    "family-gift-blocks-board-games-puzzles-books",
+    "sun-rain-gear-entryway-commute-bag-scooter-storage",
+    "cold-brew-tea-gift-box-afternoon-decision"
   ],
-  "notes": "Codex 手動生成 momo 收益型內容第七組；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動生成 momo 收益型內容第八組；直接推上 main 不會自動寄送電子報。"
 }

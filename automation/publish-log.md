@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-21T10:28:01Z｜冷泡茶與茶禮盒：日常飲用、送禮與下午茶的不同判斷
+
+- 文章 ID：auto-20260621102801-cold-brew-tea-gift-box-afternoon-decision
+- URL：https://tw.elitefasion.com/lifestyle-culture/cold-brew-tea-gift-box-afternoon-decision
+- 檔案：lifestyle-culture/cold-brew-tea-gift-box-afternoon-decision.html
+- 類型：manual-codex-momo-revenue-growth-batch-eight-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B08
+
+## 2026-06-21T10:28:01Z｜防曬與雨具收納：玄關、通勤包與車廂裡各放什麼
+
+- 文章 ID：auto-20260621102801-sun-rain-gear-entryway-commute-bag-scooter-storage
+- URL：https://tw.elitefasion.com/casual-chic/sun-rain-gear-entryway-commute-bag-scooter-storage
+- 檔案：casual-chic/sun-rain-gear-entryway-commute-bag-scooter-storage.html
+- 類型：manual-codex-momo-revenue-growth-batch-eight-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B08
+
+## 2026-06-21T10:28:01Z｜家庭禮物與益智玩具：積木、桌遊、拼圖與書店選物
+
+- 文章 ID：auto-20260621102801-family-gift-blocks-board-games-puzzles-books
+- URL：https://tw.elitefasion.com/lifestyle-culture/family-gift-blocks-board-games-puzzles-books
+- 檔案：lifestyle-culture/family-gift-blocks-board-games-puzzles-books.html
+- 類型：manual-codex-momo-revenue-growth-batch-eight-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B08
+
+## 2026-06-21T10:28:00Z｜自駕與機車移動備案：行車紀錄、反光配件、雨具與充電
+
+- 文章 ID：auto-20260621102800-road-scooter-dashcam-reflective-rain-charging-kit
+- URL：https://tw.elitefasion.com/outdoor-escapes/road-scooter-dashcam-reflective-rain-charging-kit
+- 檔案：outdoor-escapes/road-scooter-dashcam-reflective-rain-charging-kit.html
+- 類型：manual-codex-momo-revenue-growth-batch-eight-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B08
+
+## 2026-06-21T10:28:00Z｜辦公室飲品櫃：植物奶、茶包、咖啡與氣泡飲怎麼搭
+
+- 文章 ID：auto-20260621102800-office-drink-cabinet-plant-milk-tea-coffee-sparkling
+- URL：https://tw.elitefasion.com/lifestyle-culture/office-drink-cabinet-plant-milk-tea-coffee-sparkling
+- 檔案：lifestyle-culture/office-drink-cabinet-plant-milk-tea-coffee-sparkling.html
+- 類型：manual-codex-momo-revenue-growth-batch-eight-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B08
+
 ## 2026-06-21T09:55:57Z｜親子外出小物：餐具、口腔清潔、孕產穿搭與外出包
 
 - 文章 ID：auto-20260621095557-parent-child-outing-tableware-oral-care-maternity-bag-kit

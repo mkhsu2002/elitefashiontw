@@ -1,5 +1,105 @@
 [
   {
+    "id": "auto-20260621102801-cold-brew-tea-gift-box-afternoon-decision",
+    "title": "冷泡茶與茶禮盒：日常飲用、送禮與下午茶的不同判斷",
+    "excerpt": "冷泡茶與茶禮盒要先分日常飲用、送禮與下午茶，再看茶種、保存與份量。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/cold-brew-tea-gift-box-afternoon-decision",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "冷泡茶",
+      "茶禮盒",
+      "下午茶",
+      "送禮選物"
+    ],
+    "faqQuestions": [
+      "冷泡茶適合送禮嗎？",
+      "茶可以寫成身體狀態建議嗎？",
+      "茶禮盒怎麼避免送了不用？"
+    ]
+  },
+  {
+    "id": "auto-20260621102801-family-gift-blocks-board-games-puzzles-books",
+    "title": "家庭禮物與益智玩具：積木、桌遊、拼圖與書店選物",
+    "excerpt": "家庭禮物與益智玩具要先看年齡、共同使用、收納與安全標示，再選積木、桌遊、拼圖與書。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/family-gift-blocks-board-games-puzzles-books",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "家庭禮物",
+      "積木桌遊",
+      "拼圖",
+      "書店選物"
+    ],
+    "faqQuestions": [
+      "家庭禮物要選積木、桌遊還是書？",
+      "益智玩具可以寫成能力改變嗎？",
+      "拼圖片數怎麼抓？"
+    ]
+  },
+  {
+    "id": "auto-20260621102801-sun-rain-gear-entryway-commute-bag-scooter-storage",
+    "title": "防曬與雨具收納：玄關、通勤包與車廂裡各放什麼",
+    "excerpt": "防曬與雨具收納要先分玄關、通勤包與車廂，並安排乾濕分流。",
+    "category": "casual-chic",
+    "categoryLabel": "休閒時尚",
+    "relativeUrl": "casual-chic/sun-rain-gear-entryway-commute-bag-scooter-storage",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "防曬雨具",
+      "玄關收納",
+      "通勤包",
+      "機車車廂"
+    ],
+    "faqQuestions": [
+      "防曬外套和傘要放哪裡？",
+      "商品標示的防曬、防潑或抗風怎麼看？",
+      "車廂可以長期放雨具嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260621102800-office-drink-cabinet-plant-milk-tea-coffee-sparkling",
+    "title": "辦公室飲品櫃：植物奶、茶包、咖啡與氣泡飲怎麼搭",
+    "excerpt": "辦公室飲品櫃要先看保存、咖啡因、糖度與共享便利性，再補植物奶、茶、咖啡與氣泡飲。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/office-drink-cabinet-plant-milk-tea-coffee-sparkling",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "辦公室飲品",
+      "植物奶",
+      "茶包",
+      "咖啡氣泡飲"
+    ],
+    "faqQuestions": [
+      "辦公室飲品櫃要先買哪一類？",
+      "草本飲、酵素飲或植物奶可以當成健康建議嗎？",
+      "怎麼避免飲品越買越多？"
+    ]
+  },
+  {
+    "id": "auto-20260621102800-road-scooter-dashcam-reflective-rain-charging-kit",
+    "title": "自駕與機車移動備案：行車紀錄、反光配件、雨具與充電",
+    "excerpt": "自駕與機車備案要先看路線、天氣、安裝與充電，再比較行車紀錄、反光、雨具與電力。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/road-scooter-dashcam-reflective-rain-charging-kit",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "機車通勤",
+      "行車紀錄器",
+      "反光配件",
+      "雨具充電"
+    ],
+    "faqQuestions": [
+      "行車紀錄器要怎麼先判斷？",
+      "反光配件可以保證移動安全嗎？",
+      "雨衣和傘要不要都放車上？"
+    ]
+  },
+  {
     "id": "auto-20260621095557-cat-living-litter-toys-food-cleaning-order",
     "title": "貓咪生活採買順序：貓砂、玩具、食品與清潔用品",
     "excerpt": "貓咪生活用品要先處理砂盆、食品、玩具與清潔分工，並保守看待成分與使用限制。",

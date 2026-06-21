@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T09:55:57Z",
+  "updatedAt": "2026-06-21T10:28:01Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -855,6 +855,66 @@
       "generatedAt": "2026-06-21T09:55:57Z",
       "usage": "cover-og-twitter",
       "promptSummary": "明亮玄關桌上有無品牌幼兒餐具、口腔清潔小包、柔軟孕產外套、外出托特包、水瓶與空白濕巾袋",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "office-drink-cabinet-plant-milk-tea-coffee-sparkling": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/office-drink-cabinet-plant-milk-tea-coffee-sparkling.jpg",
+      "output": "images/optimized/article-covers/office-drink-cabinet-plant-milk-tea-coffee-sparkling.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37b79a3f94819b81cea963af00c418.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37b79a3f94819b81cea963af00c418.png",
+      "sha256": "152fd8dd4d039d865b84712877110f8aa2ca6d059aa3815f8f1ca8a50657cd91",
+      "generatedAt": "2026-06-21T10:28:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮辦公室茶水間層架上有空白紙盒飲品、茶罐、咖啡豆、透明氣泡水瓶與杯具",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "road-scooter-dashcam-reflective-rain-charging-kit": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/road-scooter-dashcam-reflective-rain-charging-kit.jpg",
+      "output": "images/optimized/article-covers/road-scooter-dashcam-reflective-rain-charging-kit.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37b7fa31dc819b9c2d3ea3fc4d9df6.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37b7fa31dc819b9c2d3ea3fc4d9df6.png",
+      "sha256": "ac7de35e5241822bea757990b45f0dc6a8d83e127c16b7aa2a4dbaed71669eea",
+      "generatedAt": "2026-06-21T10:28:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "深色車庫工作桌上有無品牌行車紀錄器、反光配件、雨衣、折傘、充電線與行動電源，旁邊停著沒有標誌的機車",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "family-gift-blocks-board-games-puzzles-books": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/family-gift-blocks-board-games-puzzles-books.jpg",
+      "output": "images/optimized/article-covers/family-gift-blocks-board-games-puzzles-books.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37b867fbc4819bb2e983596e4bfacb.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37b867fbc4819bb2e983596e4bfacb.png",
+      "sha256": "ab118ce315a0268e783817997c469cb66b8758be419291add8c73624e7fb6803",
+      "generatedAt": "2026-06-21T10:28:01Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "陽光客廳木桌上有無品牌積木、桌遊棋盤、拼圖、空白書本、彩色鉛筆與禮盒",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "sun-rain-gear-entryway-commute-bag-scooter-storage": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/sun-rain-gear-entryway-commute-bag-scooter-storage.jpg",
+      "output": "images/optimized/article-covers/sun-rain-gear-entryway-commute-bag-scooter-storage.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37b8de33e4819bb26337db769dc5d2.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37b8de33e4819bb26337db769dc5d2.png",
+      "sha256": "86ec4f950b2409453b6f1a511fcf01ca21b97eafda1bab62bd5b922b8013c6ed",
+      "generatedAt": "2026-06-21T10:28:01Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮玄關長椅旁有素色防曬外套、折傘、雨傘、通勤包、無品牌安全帽與機車車廂",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "cold-brew-tea-gift-box-afternoon-decision": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/cold-brew-tea-gift-box-afternoon-decision.jpg",
+      "output": "images/optimized/article-covers/cold-brew-tea-gift-box-afternoon-decision.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37b95c2bcc819bb70a1536e27a0f47.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37b95c2bcc819bb70a1536e27a0f47.png",
+      "sha256": "3c55e2d3096cfb02fa63a883aab4e482f4f3d501efa475d86436a87040f17078",
+      "generatedAt": "2026-06-21T10:28:01Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "窗邊餐桌上有玻璃冷泡茶壺、無字茶包、素色茶禮盒、小點心、茶杯與綠色緞帶",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }
