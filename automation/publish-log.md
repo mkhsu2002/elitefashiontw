@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-21T08:10:59Z｜新手登山先買什麼：排汗衣、雨衣褲、護膝與輕量收納順序
+
+- 文章 ID：auto-20260621081059-beginner-hiking-shirt-rainwear-knee-support-storage-order
+- URL：https://tw.elitefasion.com/outdoor-escapes/beginner-hiking-shirt-rainwear-knee-support-storage-order
+- 檔案：outdoor-escapes/beginner-hiking-shirt-rainwear-knee-support-storage-order.html
+- 類型：manual-codex-momo-revenue-growth-batch-four-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B04
+
+## 2026-06-21T08:10:58Z｜浴室與廚房清潔怎麼分工：水垢、油污、除味與工具收納
+
+- 文章 ID：auto-20260621081058-bathroom-kitchen-cleaning-scale-grease-odor-tool-storage
+- URL：https://tw.elitefasion.com/lifestyle-culture/bathroom-kitchen-cleaning-scale-grease-odor-tool-storage
+- 檔案：lifestyle-culture/bathroom-kitchen-cleaning-scale-grease-odor-tool-storage.html
+- 類型：manual-codex-momo-revenue-growth-batch-four-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B04
+
+## 2026-06-21T08:10:58Z｜質感送禮不必用力：咖啡、茶、按摩設備、雨傘與客製小物
+
+- 文章 ID：auto-20260621081058-quality-gifting-coffee-tea-massage-umbrella-custom-goods
+- URL：https://tw.elitefasion.com/lifestyle-culture/quality-gifting-coffee-tea-massage-umbrella-custom-goods
+- 檔案：lifestyle-culture/quality-gifting-coffee-tea-massage-umbrella-custom-goods.html
+- 類型：manual-codex-momo-revenue-growth-batch-four-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B04
+
+## 2026-06-21T08:10:58Z｜不露臉內容也需要設備順序：支架、燈光、濾鏡與收音怎麼買
+
+- 文章 ID：auto-20260621081058-faceless-content-rig-light-filter-audio-buying-order
+- URL：https://tw.elitefasion.com/ai-innovation/faceless-content-rig-light-filter-audio-buying-order
+- 檔案：ai-innovation/faceless-content-rig-light-filter-audio-buying-order.html
+- 類型：manual-codex-momo-revenue-growth-batch-four-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B04
+
+## 2026-06-21T08:10:58Z｜春夏通勤防曬穿搭：防曬外套、抗風傘與輕量包怎麼不狼狽
+
+- 文章 ID：auto-20260621081058-spring-summer-commute-sun-umbrella-light-bag-outfit
+- URL：https://tw.elitefasion.com/casual-chic/spring-summer-commute-sun-umbrella-light-bag-outfit
+- 檔案：casual-chic/spring-summer-commute-sun-umbrella-light-bag-outfit.html
+- 類型：manual-codex-momo-revenue-growth-batch-four-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B04
+
 ## 2026-06-21T07:55:40Z｜外食日的零食櫃：低醣點心、堅果、素食零嘴與沖泡飲怎麼放
 
 - 文章 ID：auto-20260621075540-office-snack-cabinet-low-sugar-nuts-vegetarian-drinks

@@ -1,7 +1,417 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T07:55:40Z",
+  "updatedAt": "2026-06-21T08:10:59Z",
   "entries": [
+    {
+      "articleId": "auto-20260621081059-beginner-hiking-shirt-rainwear-knee-support-storage-order",
+      "slug": "beginner-hiking-shirt-rainwear-knee-support-storage-order",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T08:10:59Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0007424/main",
+        "https://www.momoshop.com.tw/TP/TP0003385/main",
+        "https://www.momoshop.com.tw/TP/TP0006750/main",
+        "https://www.momoshop.com.tw/TP/TP0000976/main",
+        "https://www.momoshop.com.tw/TP/TP0009177/main",
+        "https://www.momoshop.com.tw/TP/TP0000034/main",
+        "https://s.momoshop.com.tw/s/osiHlmau",
+        "https://s.momoshop.com.tw/s/ARNPduxj",
+        "https://s.momoshop.com.tw/s/BtMjBpkA",
+        "https://s.momoshop.com.tw/s/9N2O7K03",
+        "https://s.momoshop.com.tw/s/2I9FbCHZ",
+        "https://s.momoshop.com.tw/s/tvga771o",
+        "https://tw.elitefasion.com/outdoor-escapes/beginner-hiking-shirt-rainwear-knee-support-storage-order",
+        "https://tw.elitefasion.com/images/optimized/article-covers/beginner-hiking-shirt-rainwear-knee-support-storage-order.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621081058-bathroom-kitchen-cleaning-scale-grease-odor-tool-storage",
+      "slug": "bathroom-kitchen-cleaning-scale-grease-odor-tool-storage",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T08:10:58Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003487/main",
+        "https://www.momoshop.com.tw/TP/TP0007302/main",
+        "https://www.momoshop.com.tw/TP/TP0003749/main",
+        "https://www.momoshop.com.tw/TP/TP0005724/main",
+        "https://www.momoshop.com.tw/TP/TP0000922/main",
+        "https://www.momoshop.com.tw/TP/TP0002031/main",
+        "https://s.momoshop.com.tw/s/lPy3YzOW",
+        "https://s.momoshop.com.tw/s/PDdeWsws",
+        "https://s.momoshop.com.tw/s/krK2QPdO",
+        "https://s.momoshop.com.tw/s/zwczlnq2",
+        "https://s.momoshop.com.tw/s/NaHe80dq",
+        "https://s.momoshop.com.tw/s/Fnh7Tv2f",
+        "https://tw.elitefasion.com/lifestyle-culture/bathroom-kitchen-cleaning-scale-grease-odor-tool-storage",
+        "https://tw.elitefasion.com/images/optimized/article-covers/bathroom-kitchen-cleaning-scale-grease-odor-tool-storage.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621081058-quality-gifting-coffee-tea-massage-umbrella-custom-goods",
+      "slug": "quality-gifting-coffee-tea-massage-umbrella-custom-goods",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T08:10:58Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005142/main",
+        "https://www.momoshop.com.tw/TP/TP0006348/main",
+        "https://www.momoshop.com.tw/TP/TP0008485/main",
+        "https://www.momoshop.com.tw/TP/TP0009388/main",
+        "https://www.momoshop.com.tw/TP/TP0005684/main",
+        "https://www.momoshop.com.tw/TP/TP0009548/main",
+        "https://s.momoshop.com.tw/s/fQyUCDn2",
+        "https://s.momoshop.com.tw/s/6VaimQ3z",
+        "https://s.momoshop.com.tw/s/f1zXSS5P",
+        "https://s.momoshop.com.tw/s/8fdDrXQw",
+        "https://s.momoshop.com.tw/s/swCkSJDA",
+        "https://s.momoshop.com.tw/s/DPcxp3dk",
+        "https://tw.elitefasion.com/lifestyle-culture/quality-gifting-coffee-tea-massage-umbrella-custom-goods",
+        "https://tw.elitefasion.com/images/optimized/article-covers/quality-gifting-coffee-tea-massage-umbrella-custom-goods.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621081058-faceless-content-rig-light-filter-audio-buying-order",
+      "slug": "faceless-content-rig-light-filter-audio-buying-order",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T08:10:58Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0002918/main",
+        "https://www.momoshop.com.tw/TP/TP0009335/main",
+        "https://www.momoshop.com.tw/TP/TP0001204/main",
+        "https://www.momoshop.com.tw/TP/TP0007295/main",
+        "https://www.momoshop.com.tw/TP/TP0005820/main",
+        "https://www.momoshop.com.tw/TP/TP0009476/main",
+        "https://s.momoshop.com.tw/s/3dzd3eM8",
+        "https://s.momoshop.com.tw/s/FYL1kuHK",
+        "https://s.momoshop.com.tw/s/QRphUL7q",
+        "https://s.momoshop.com.tw/s/94QtsVvN",
+        "https://s.momoshop.com.tw/s/Q9CErvYD",
+        "https://s.momoshop.com.tw/s/LJfvOb7h",
+        "https://tw.elitefasion.com/ai-innovation/faceless-content-rig-light-filter-audio-buying-order",
+        "https://tw.elitefasion.com/images/optimized/article-covers/faceless-content-rig-light-filter-audio-buying-order.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621081058-spring-summer-commute-sun-umbrella-light-bag-outfit",
+      "slug": "spring-summer-commute-sun-umbrella-light-bag-outfit",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T08:10:58Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0000116/main",
+        "https://www.momoshop.com.tw/TP/TP0005684/main",
+        "https://www.momoshop.com.tw/TP/TP0007070/main",
+        "https://www.momoshop.com.tw/TP/TP0001609/main",
+        "https://www.momoshop.com.tw/TP/TP0005647/main",
+        "https://www.momoshop.com.tw/TP/TP0009277/main",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3",
+        "https://s.momoshop.com.tw/s/swCkSJDA",
+        "https://s.momoshop.com.tw/s/fZ9miz2D",
+        "https://s.momoshop.com.tw/s/ryfM995D",
+        "https://s.momoshop.com.tw/s/nc15Ko0V",
+        "https://s.momoshop.com.tw/s/jEp8GjC8",
+        "https://tw.elitefasion.com/casual-chic/spring-summer-commute-sun-umbrella-light-bag-outfit",
+        "https://tw.elitefasion.com/images/optimized/article-covers/spring-summer-commute-sun-umbrella-light-bag-outfit.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
     {
       "articleId": "auto-20260621075540-office-snack-cabinet-low-sugar-nuts-vegetarian-drinks",
       "slug": "office-snack-cabinet-low-sugar-nuts-vegetarian-drinks",

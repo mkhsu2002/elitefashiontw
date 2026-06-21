@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T07:55:40Z",
+  "updatedAt": "2026-06-21T08:10:59Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -615,6 +615,66 @@
       "generatedAt": "2026-06-21T07:55:40Z",
       "usage": "cover-og-twitter",
       "promptSummary": "辦公室木質零食櫃裡，玻璃罐裝堅果、素食零嘴、無字紙袋與沖泡飲小包整齊分層收納",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "spring-summer-commute-sun-umbrella-light-bag-outfit": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/spring-summer-commute-sun-umbrella-light-bag-outfit.jpg",
+      "output": "images/optimized/article-covers/spring-summer-commute-sun-umbrella-light-bag-outfit.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a3799ed0464819bbfb1063d3fe69162.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a3799ed0464819bbfb1063d3fe69162.png",
+      "sha256": "f20e294c0a71c6cdc83306c5fb923a9c71bbb121b547b4922e45ce7dca90cfe8",
+      "generatedAt": "2026-06-21T08:10:58Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "春夏晴朗通勤天橋長椅上，淡綠防曬外套、淺色小包、折傘、樂福鞋與水瓶形成清爽穿搭配置",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "faceless-content-rig-light-filter-audio-buying-order": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/faceless-content-rig-light-filter-audio-buying-order.jpg",
+      "output": "images/optimized/article-covers/faceless-content-rig-light-filter-audio-buying-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379b35d648819ba23b2e6a9cbb53a7.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379b35d648819ba23b2e6a9cbb53a7.png",
+      "sha256": "651ae9657f557f39a83e8eaae28f27ff6aaf256c94c2d1b408e76689b59db4e2",
+      "generatedAt": "2026-06-21T08:10:58Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "暗色創作者桌面上有無品牌攝影固定架、LED 面板燈、桌上麥克風、濾鏡片與線材收納包",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "quality-gifting-coffee-tea-massage-umbrella-custom-goods": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/quality-gifting-coffee-tea-massage-umbrella-custom-goods.jpg",
+      "output": "images/optimized/article-covers/quality-gifting-coffee-tea-massage-umbrella-custom-goods.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379a73d2d0819b85f5614de0c4c337.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379a73d2d0819b85f5614de0c4c337.png",
+      "sha256": "4710aaa8fe35462ed78ce7ae676d483a2f18043b097a9311300f6ffd4693f23d",
+      "generatedAt": "2026-06-21T08:10:58Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "木桌上有無字禮盒、陶瓷茶具、玻璃罐咖啡豆、黑色折傘、無品牌按摩設備與木質小物",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "bathroom-kitchen-cleaning-scale-grease-odor-tool-storage": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/bathroom-kitchen-cleaning-scale-grease-odor-tool-storage.jpg",
+      "output": "images/optimized/article-covers/bathroom-kitchen-cleaning-scale-grease-odor-tool-storage.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379ab3a7d0819bb102cc73497c288e.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379ab3a7d0819bb102cc73497c288e.png",
+      "sha256": "d8d8ea221e8a9dfc44a903d96be988f5e0ad04b5efcf25b4b79dbb8d7f185dd9",
+      "generatedAt": "2026-06-21T08:10:58Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮浴室與廚房交界檯面上，空白清潔噴瓶、刷具、抹布、刮水器、小水桶與綠植整齊分工",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "beginner-hiking-shirt-rainwear-knee-support-storage-order": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/beginner-hiking-shirt-rainwear-knee-support-storage-order.jpg",
+      "output": "images/optimized/article-covers/beginner-hiking-shirt-rainwear-knee-support-storage-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379af2b0ec819b8a9a38429d6b0081.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a379af2b0ec819b8a9a38429d6b0081.png",
+      "sha256": "3975c984ea4b3f1f6ce96ed913d5a6b3469d141db4e91ea44eb03095143f21e5",
+      "generatedAt": "2026-06-21T08:10:59Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "霧氣山徑旁木桌上有排汗衣、灰色雨衣褲、護膝、輕量收納袋、水瓶與橘色反光配件",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }

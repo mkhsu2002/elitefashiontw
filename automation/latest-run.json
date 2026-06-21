@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T07:55:40Z",
+  "updatedAt": "2026-06-21T08:10:59Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-three-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01-B03",
+  "triggerType": "manual-codex-momo-revenue-growth-batch-four-no-newsletter",
+  "queueId": "MOMO-REV-2026-06-21-W01-B04",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260621075540-meeting-grooming-hair-makeup-scent-small-bag-kit",
-    "auto-20260621075540-travel-luggage-front-open-carry-on-packing-system-2",
-    "auto-20260621075540-small-home-entry-closet-desk-cleaning-storage-order",
-    "auto-20260621075540-workday-knee-back-support-cushion-bag-weight-guide",
-    "auto-20260621075540-office-snack-cabinet-low-sugar-nuts-vegetarian-drinks"
+    "auto-20260621081058-spring-summer-commute-sun-umbrella-light-bag-outfit",
+    "auto-20260621081058-faceless-content-rig-light-filter-audio-buying-order",
+    "auto-20260621081058-quality-gifting-coffee-tea-massage-umbrella-custom-goods",
+    "auto-20260621081058-bathroom-kitchen-cleaning-scale-grease-odor-tool-storage",
+    "auto-20260621081059-beginner-hiking-shirt-rainwear-knee-support-storage-order"
   ],
   "articleSlugs": [
-    "meeting-grooming-hair-makeup-scent-small-bag-kit",
-    "travel-luggage-front-open-carry-on-packing-system-2",
-    "small-home-entry-closet-desk-cleaning-storage-order",
-    "workday-knee-back-support-cushion-bag-weight-guide",
-    "office-snack-cabinet-low-sugar-nuts-vegetarian-drinks"
+    "spring-summer-commute-sun-umbrella-light-bag-outfit",
+    "faceless-content-rig-light-filter-audio-buying-order",
+    "quality-gifting-coffee-tea-massage-umbrella-custom-goods",
+    "bathroom-kitchen-cleaning-scale-grease-odor-tool-storage",
+    "beginner-hiking-shirt-rainwear-knee-support-storage-order"
   ],
-  "notes": "Codex 手動生成 momo 收益型內容第三組；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動生成 momo 收益型內容第四組；直接推上 main 不會自動寄送電子報。"
 }
