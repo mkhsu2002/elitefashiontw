@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T09:01:56Z",
+  "updatedAt": "2026-06-21T09:55:57Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-six-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01-B06",
+  "triggerType": "manual-codex-momo-revenue-growth-batch-seven-no-newsletter",
+  "queueId": "MOMO-REV-2026-06-21-W01-B07",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260621090156-home-comfort-massage-device-brace-care-supplies-order",
-    "auto-20260621090156-freezer-meal-prep-chicken-sweet-potato-vegetables-pack",
-    "auto-20260621090156-pet-friendly-home-cleaning-floor-laundry-storage-order",
-    "auto-20260621090156-japanese-camping-style-table-stove-cup-storage-order",
-    "auto-20260621090156-daily-skincare-essence-mask-body-sunscreen-order-2"
+    "auto-20260621095557-scalp-haircare-shampoo-color-styling-brush-choice",
+    "auto-20260621095557-home-stretch-yoga-mat-props-light-scent-corner",
+    "auto-20260621095557-weekend-city-outdoor-sun-jacket-shorts-small-bag",
+    "auto-20260621095557-cat-living-litter-toys-food-cleaning-order",
+    "auto-20260621095557-parent-child-outing-tableware-oral-care-maternity-bag-kit"
   ],
   "articleSlugs": [
-    "home-comfort-massage-device-brace-care-supplies-order",
-    "freezer-meal-prep-chicken-sweet-potato-vegetables-pack",
-    "pet-friendly-home-cleaning-floor-laundry-storage-order",
-    "japanese-camping-style-table-stove-cup-storage-order",
-    "daily-skincare-essence-mask-body-sunscreen-order-2"
+    "scalp-haircare-shampoo-color-styling-brush-choice",
+    "home-stretch-yoga-mat-props-light-scent-corner",
+    "weekend-city-outdoor-sun-jacket-shorts-small-bag",
+    "cat-living-litter-toys-food-cleaning-order",
+    "parent-child-outing-tableware-oral-care-maternity-bag-kit"
   ],
-  "notes": "Codex 手動生成 momo 收益型內容第六組；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動生成 momo 收益型內容第七組；直接推上 main 不會自動寄送電子報。"
 }

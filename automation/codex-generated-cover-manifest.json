@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T09:01:56Z",
+  "updatedAt": "2026-06-21T09:55:57Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -795,6 +795,66 @@
       "generatedAt": "2026-06-21T09:01:56Z",
       "usage": "cover-og-twitter",
       "promptSummary": "晨光浴室檯面上有無品牌精華瓶、空白面膜包、身體乳瓶、防曬管、陶瓷托盤與淡紫毛巾",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "scalp-haircare-shampoo-color-styling-brush-choice": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/scalp-haircare-shampoo-color-styling-brush-choice.jpg",
+      "output": "images/optimized/article-covers/scalp-haircare-shampoo-color-styling-brush-choice.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37aace4fe4819b8078e255f76b8b49.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37aace4fe4819b8078e255f76b8b49.png",
+      "sha256": "68e4bdc1e6f21d9a296a935520a012ee88c95a97b0773e3bf43b3a1418f95474",
+      "generatedAt": "2026-06-21T09:55:57Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "晨光浴室檯面上有無品牌洗髮瓶、髮巾、木質頭皮梳、造型梳與陶瓷托盤",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "home-stretch-yoga-mat-props-light-scent-corner": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/home-stretch-yoga-mat-props-light-scent-corner.jpg",
+      "output": "images/optimized/article-covers/home-stretch-yoga-mat-props-light-scent-corner.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37ab4b5588819bacef0098c5cd8606.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37ab4b5588819bacef0098c5cd8606.png",
+      "sha256": "50b4b7fa760707586564caaf351fd1a7f2c3e394a24a28728217a9e7bab6adb0",
+      "generatedAt": "2026-06-21T09:55:57Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "安靜公寓角落有素色瑜珈墊、瑜珈磚、伸展帶、抱枕、暖光落地燈與無標籤香氛器",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "weekend-city-outdoor-sun-jacket-shorts-small-bag": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/weekend-city-outdoor-sun-jacket-shorts-small-bag.jpg",
+      "output": "images/optimized/article-covers/weekend-city-outdoor-sun-jacket-shorts-small-bag.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37abc462a8819bad9c6fa09afa0110.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37abc462a8819bad9c6fa09afa0110.png",
+      "sha256": "bd127399aee8195a92bffd8e76dc0f0774d3ebdd0e04cdcc360a7778f67d327f",
+      "generatedAt": "2026-06-21T09:55:57Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "城市公園長椅上有無品牌輕薄外套、短褲、小包、白色休閒鞋、水瓶與素色帽子",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "cat-living-litter-toys-food-cleaning-order": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/cat-living-litter-toys-food-cleaning-order.jpg",
+      "output": "images/optimized/article-covers/cat-living-litter-toys-food-cleaning-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37ac3db3ac819bad1709d1d05851d8.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37ac3db3ac819bad1709d1d05851d8.png",
+      "sha256": "e4f304f33db3b1dafde31ae1cfafc8b5122ab77ea81206bf91de49df48781270",
+      "generatedAt": "2026-06-21T09:55:57Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮貓咪生活角落，有乾淨砂盆、陶瓷碗、空白食品袋、貓玩具、清潔瓶、收納籃與安靜坐著的貓",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "parent-child-outing-tableware-oral-care-maternity-bag-kit": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/parent-child-outing-tableware-oral-care-maternity-bag-kit.jpg",
+      "output": "images/optimized/article-covers/parent-child-outing-tableware-oral-care-maternity-bag-kit.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37ad370e4c819ba83f53c9032aa7d7.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0dff854c67f09b75016a37ad370e4c819ba83f53c9032aa7d7.png",
+      "sha256": "8d33645eb866bab6b8b91f46101201f0c31598cd42cdf13d9f27de6930bc85b8",
+      "generatedAt": "2026-06-21T09:55:57Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮玄關桌上有無品牌幼兒餐具、口腔清潔小包、柔軟孕產外套、外出托特包、水瓶與空白濕巾袋",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }

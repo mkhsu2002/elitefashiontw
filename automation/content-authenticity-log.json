@@ -1,7 +1,427 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T09:01:56Z",
+  "updatedAt": "2026-06-21T09:55:57Z",
   "entries": [
+    {
+      "articleId": "auto-20260621095557-parent-child-outing-tableware-oral-care-maternity-bag-kit",
+      "slug": "parent-child-outing-tableware-oral-care-maternity-bag-kit",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T09:55:57Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0002712/main",
+        "https://www.momoshop.com.tw/TP/TP0002971/main",
+        "https://www.momoshop.com.tw/TP/TP0006972/main",
+        "https://www.momoshop.com.tw/TP/TP0000587/main",
+        "https://www.momoshop.com.tw/TP/TP0000319/main",
+        "https://www.momoshop.com.tw/TP/TP0007070/main",
+        "https://s.momoshop.com.tw/s/rCMnDvTY",
+        "https://s.momoshop.com.tw/s/wTKIyJrs",
+        "https://s.momoshop.com.tw/s/VlBLru4t",
+        "https://s.momoshop.com.tw/s/eFm5EK3m",
+        "https://s.momoshop.com.tw/s/OWhpTTPv",
+        "https://s.momoshop.com.tw/s/fZ9miz2D",
+        "https://tw.elitefasion.com/lifestyle-culture/parent-child-outing-tableware-oral-care-maternity-bag-kit",
+        "https://tw.elitefasion.com/images/optimized/article-covers/parent-child-outing-tableware-oral-care-maternity-bag-kit.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621095557-cat-living-litter-toys-food-cleaning-order",
+      "slug": "cat-living-litter-toys-food-cleaning-order",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T09:55:57Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0000547/main",
+        "https://www.momoshop.com.tw/TP/TP0000351/main",
+        "https://www.momoshop.com.tw/TP/TP0008435/main",
+        "https://www.momoshop.com.tw/TP/TP0003220/main",
+        "https://www.momoshop.com.tw/TP/TP0007761/main",
+        "https://www.momoshop.com.tw/TP/TP0005724/main",
+        "https://s.momoshop.com.tw/s/RHlpB4X8",
+        "https://s.momoshop.com.tw/s/RUGRNKlN",
+        "https://s.momoshop.com.tw/s/mfFnLSfH",
+        "https://s.momoshop.com.tw/s/8eAD0A67",
+        "https://s.momoshop.com.tw/s/O5Hol79Q",
+        "https://s.momoshop.com.tw/s/zwczlnq2",
+        "https://tw.elitefasion.com/lifestyle-culture/cat-living-litter-toys-food-cleaning-order",
+        "https://tw.elitefasion.com/images/optimized/article-covers/cat-living-litter-toys-food-cleaning-order.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621095557-weekend-city-outdoor-sun-jacket-shorts-small-bag",
+      "slug": "weekend-city-outdoor-sun-jacket-shorts-small-bag",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T09:55:57Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0007424/main",
+        "https://www.momoshop.com.tw/TP/TP0000116/main",
+        "https://www.momoshop.com.tw/TP/TP0009277/main",
+        "https://www.momoshop.com.tw/TP/TP0002198/main",
+        "https://www.momoshop.com.tw/TP/TP0003240/main",
+        "https://www.momoshop.com.tw/TP/TP0003634/main",
+        "https://s.momoshop.com.tw/s/osiHlmau",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3",
+        "https://s.momoshop.com.tw/s/jEp8GjC8",
+        "https://s.momoshop.com.tw/s/WJYLaxDX",
+        "https://s.momoshop.com.tw/s/bm7c4Ing",
+        "https://s.momoshop.com.tw/s/eUqae1YQ",
+        "https://tw.elitefasion.com/casual-chic/weekend-city-outdoor-sun-jacket-shorts-small-bag",
+        "https://tw.elitefasion.com/images/optimized/article-covers/weekend-city-outdoor-sun-jacket-shorts-small-bag.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621095557-home-stretch-yoga-mat-props-light-scent-corner",
+      "slug": "home-stretch-yoga-mat-props-light-scent-corner",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T09:55:57Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0009115/main",
+        "https://www.momoshop.com.tw/TP/TP0007295/main",
+        "https://www.momoshop.com.tw/TP/TP0002458/main",
+        "https://www.momoshop.com.tw/TP/TP0005953/main",
+        "https://www.momoshop.com.tw/TP/TP0004627/main",
+        "https://www.momoshop.com.tw/TP/TP0009429/main",
+        "https://s.momoshop.com.tw/s/pWKboyhs",
+        "https://s.momoshop.com.tw/s/94QtsVvN",
+        "https://s.momoshop.com.tw/s/ZzrRLijd",
+        "https://s.momoshop.com.tw/s/4sSbnDHc",
+        "https://s.momoshop.com.tw/s/AFFq5jUk",
+        "https://s.momoshop.com.tw/s/zG2mE8Uf",
+        "https://tw.elitefasion.com/wellness-movement/home-stretch-yoga-mat-props-light-scent-corner",
+        "https://tw.elitefasion.com/images/optimized/article-covers/home-stretch-yoga-mat-props-light-scent-corner.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621095557-scalp-haircare-shampoo-color-styling-brush-choice",
+      "slug": "scalp-haircare-shampoo-color-styling-brush-choice",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T09:55:57Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0005448/main",
+        "https://www.momoshop.com.tw/TP/TP0008576/main",
+        "https://www.momoshop.com.tw/TP/TP0004518/main",
+        "https://www.momoshop.com.tw/TP/TP0004416/main",
+        "https://www.momoshop.com.tw/TP/TP0005820/main",
+        "https://www.momoshop.com.tw/TP/TP0008424/main",
+        "https://s.momoshop.com.tw/s/vRmO2Mp9",
+        "https://s.momoshop.com.tw/s/DvSMpO6o",
+        "https://s.momoshop.com.tw/s/7PRBCAqu",
+        "https://s.momoshop.com.tw/s/cxVGPA8r",
+        "https://s.momoshop.com.tw/s/Q9CErvYD",
+        "https://s.momoshop.com.tw/s/xWCenaTS",
+        "https://tw.elitefasion.com/lifestyle-culture/scalp-haircare-shampoo-color-styling-brush-choice",
+        "https://tw.elitefasion.com/images/optimized/article-covers/scalp-haircare-shampoo-color-styling-brush-choice.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
     {
       "articleId": "auto-20260621090156-daily-skincare-essence-mask-body-sunscreen-order-2",
       "slug": "daily-skincare-essence-mask-body-sunscreen-order-2",

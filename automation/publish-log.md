@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-21T09:55:57Z｜親子外出小物：餐具、口腔清潔、孕產穿搭與外出包
+
+- 文章 ID：auto-20260621095557-parent-child-outing-tableware-oral-care-maternity-bag-kit
+- URL：https://tw.elitefasion.com/lifestyle-culture/parent-child-outing-tableware-oral-care-maternity-bag-kit
+- 檔案：lifestyle-culture/parent-child-outing-tableware-oral-care-maternity-bag-kit.html
+- 類型：manual-codex-momo-revenue-growth-batch-seven-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B07
+
+## 2026-06-21T09:55:57Z｜貓咪生活採買順序：貓砂、玩具、食品與清潔用品
+
+- 文章 ID：auto-20260621095557-cat-living-litter-toys-food-cleaning-order
+- URL：https://tw.elitefasion.com/lifestyle-culture/cat-living-litter-toys-food-cleaning-order
+- 檔案：lifestyle-culture/cat-living-litter-toys-food-cleaning-order.html
+- 類型：manual-codex-momo-revenue-growth-batch-seven-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B07
+
+## 2026-06-21T09:55:57Z｜週末輕戶外穿搭：城市感、防曬外套、短褲與小包怎麼搭
+
+- 文章 ID：auto-20260621095557-weekend-city-outdoor-sun-jacket-shorts-small-bag
+- URL：https://tw.elitefasion.com/casual-chic/weekend-city-outdoor-sun-jacket-shorts-small-bag
+- 檔案：casual-chic/weekend-city-outdoor-sun-jacket-shorts-small-bag.html
+- 類型：manual-codex-momo-revenue-growth-batch-seven-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B07
+
+## 2026-06-21T09:55:57Z｜居家伸展角落：瑜珈墊、輔具、燈光與香氛的低壓配置
+
+- 文章 ID：auto-20260621095557-home-stretch-yoga-mat-props-light-scent-corner
+- URL：https://tw.elitefasion.com/wellness-movement/home-stretch-yoga-mat-props-light-scent-corner
+- 檔案：wellness-movement/home-stretch-yoga-mat-props-light-scent-corner.html
+- 類型：manual-codex-momo-revenue-growth-batch-seven-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B07
+
+## 2026-06-21T09:55:57Z｜頭皮與髮品整理：洗髮、染護、造型與按摩梳的選擇
+
+- 文章 ID：auto-20260621095557-scalp-haircare-shampoo-color-styling-brush-choice
+- URL：https://tw.elitefasion.com/lifestyle-culture/scalp-haircare-shampoo-color-styling-brush-choice
+- 檔案：lifestyle-culture/scalp-haircare-shampoo-color-styling-brush-choice.html
+- 類型：manual-codex-momo-revenue-growth-batch-seven-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B07
+
 ## 2026-06-21T09:01:56Z｜日常保養別堆太多：精華、面膜、身體保養與防曬怎麼排
 
 - 文章 ID：auto-20260621090156-daily-skincare-essence-mask-body-sunscreen-order-2
