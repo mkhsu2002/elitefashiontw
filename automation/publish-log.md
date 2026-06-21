@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-21T18:08:52Z｜租屋改造不動工：貼皮、燈光、收納與可移動家具
+
+- 文章 ID：auto-20260621180852-rental-refresh-sticker-light-storage-movable-furniture
+- URL：https://tw.elitefasion.com/lifestyle-culture/rental-refresh-sticker-light-storage-movable-furniture
+- 檔案：lifestyle-culture/rental-refresh-sticker-light-storage-movable-furniture.html
+- 類型：manual-codex-momo-revenue-growth-batch-thirteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B13
+
+## 2026-06-21T18:08:52Z｜居家清潔工具牆：平板拖把、掃把、水槽清潔與垃圾桶
+
+- 文章 ID：auto-20260621180852-home-cleaning-tool-wall-mop-broom-sink-trash-bin
+- URL：https://tw.elitefasion.com/lifestyle-culture/home-cleaning-tool-wall-mop-broom-sink-trash-bin
+- 檔案：lifestyle-culture/home-cleaning-tool-wall-mop-broom-sink-trash-bin.html
+- 類型：manual-codex-momo-revenue-growth-batch-thirteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B13
+
+## 2026-06-21T18:08:52Z｜夏季床寢怎麼換：天絲、棉被、保潔墊與涼被的順序
+
+- 文章 ID：auto-20260621180852-summer-bedding-tencel-quilt-protector-cool-blanket-order
+- URL：https://tw.elitefasion.com/wellness-movement/summer-bedding-tencel-quilt-protector-cool-blanket-order
+- 檔案：wellness-movement/summer-bedding-tencel-quilt-protector-cool-blanket-order.html
+- 類型：manual-codex-momo-revenue-growth-batch-thirteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B13
+
+## 2026-06-21T18:08:52Z｜床邊櫃與睡前小物：耳塞、閱讀燈、香氛與床寢怎麼放
+
+- 文章 ID：auto-20260621180852-nightstand-bedtime-earplug-reading-light-scent-bedding
+- URL：https://tw.elitefasion.com/wellness-movement/nightstand-bedtime-earplug-reading-light-scent-bedding
+- 檔案：wellness-movement/nightstand-bedtime-earplug-reading-light-scent-bedding.html
+- 類型：manual-codex-momo-revenue-growth-batch-thirteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B13
+
+## 2026-06-21T18:08:52Z｜衣櫃與洗衣區整理：衣架、收納箱、毛巾與床寢備品
+
+- 文章 ID：auto-20260621180852-closet-laundry-hanger-storage-towel-bedding-supplies
+- URL：https://tw.elitefasion.com/lifestyle-culture/closet-laundry-hanger-storage-towel-bedding-supplies
+- 檔案：lifestyle-culture/closet-laundry-hanger-storage-towel-bedding-supplies.html
+- 類型：manual-codex-momo-revenue-growth-batch-thirteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B13
+
 ## 2026-06-21T12:37:03Z｜玄關不是倉庫：鞋櫃、傘架、外出包與清潔工具怎麼分工
 
 - 文章 ID：auto-20260621123703-entryway-shoe-cabinet-umbrella-bag-cleaning-tools

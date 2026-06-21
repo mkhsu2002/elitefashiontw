@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T12:37:03Z",
+  "updatedAt": "2026-06-21T18:08:52Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-twelve-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01-B12",
+  "triggerType": "manual-codex-momo-revenue-growth-batch-thirteen-no-newsletter",
+  "queueId": "MOMO-REV-2026-06-21-W01-B13",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260621123703-office-snack-cabinet-nuts-dessert-tea-coffee-layers",
-    "auto-20260621123703-family-weekend-table-frozen-food-cookware-tableware-tea",
-    "auto-20260621123703-breakfast-freezer-buns-sweet-potato-chicken-drinks",
-    "auto-20260621123703-solo-living-tableware-cookware-coffee-tea-cleaning-storage",
-    "auto-20260621123703-entryway-shoe-cabinet-umbrella-bag-cleaning-tools"
+    "auto-20260621180852-closet-laundry-hanger-storage-towel-bedding-supplies",
+    "auto-20260621180852-nightstand-bedtime-earplug-reading-light-scent-bedding",
+    "auto-20260621180852-summer-bedding-tencel-quilt-protector-cool-blanket-order",
+    "auto-20260621180852-home-cleaning-tool-wall-mop-broom-sink-trash-bin",
+    "auto-20260621180852-rental-refresh-sticker-light-storage-movable-furniture"
   ],
   "articleSlugs": [
-    "office-snack-cabinet-nuts-dessert-tea-coffee-layers",
-    "family-weekend-table-frozen-food-cookware-tableware-tea",
-    "breakfast-freezer-buns-sweet-potato-chicken-drinks",
-    "solo-living-tableware-cookware-coffee-tea-cleaning-storage",
-    "entryway-shoe-cabinet-umbrella-bag-cleaning-tools"
+    "closet-laundry-hanger-storage-towel-bedding-supplies",
+    "nightstand-bedtime-earplug-reading-light-scent-bedding",
+    "summer-bedding-tencel-quilt-protector-cool-blanket-order",
+    "home-cleaning-tool-wall-mop-broom-sink-trash-bin",
+    "rental-refresh-sticker-light-storage-movable-furniture"
   ],
-  "notes": "Codex 手動生成 momo 收益型內容第十二組；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動生成 momo 收益型內容第十三組；直接推上 main 不會自動寄送電子報。"
 }

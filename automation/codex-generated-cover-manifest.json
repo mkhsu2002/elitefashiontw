@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T12:37:03Z",
+  "updatedAt": "2026-06-21T18:08:52Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -1155,6 +1155,66 @@
       "generatedAt": "2026-06-21T12:37:03Z",
       "usage": "cover-og-twitter",
       "promptSummary": "現代玄關有鞋櫃、傘架、無品牌外出包、清潔工具收納架、掛鉤、鏡子與植栽",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "closet-laundry-hanger-storage-towel-bedding-supplies": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/closet-laundry-hanger-storage-towel-bedding-supplies.jpg",
+      "output": "images/optimized/article-covers/closet-laundry-hanger-storage-towel-bedding-supplies.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a38279661108198acf1af8bb9123bd3.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a38279661108198acf1af8bb9123bd3.png",
+      "sha256": "369d9af2d2ecbb9007168e31ba95dc72a1d95396d4878e9c96feace86e84b7e1",
+      "generatedAt": "2026-06-21T18:08:52Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "晨光中的衣櫃與洗衣收納區，有木質衣架、藤編籃、摺疊毛巾、淺色床寢與綠植",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "nightstand-bedtime-earplug-reading-light-scent-bedding": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/nightstand-bedtime-earplug-reading-light-scent-bedding.jpg",
+      "output": "images/optimized/article-covers/nightstand-bedtime-earplug-reading-light-scent-bedding.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a382692d50c8198ac8c3e88712be41b.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a382692d50c8198ac8c3e88712be41b.png",
+      "sha256": "a5798be38f7cdade1b8522dca98df8cee7b4b16c66e9265d2e12b6a9b19e5151",
+      "generatedAt": "2026-06-21T18:08:52Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "夜晚床邊櫃有暖色閱讀燈、無字耳塞盒、陶瓷香氛瓶、水杯、托盤、亞麻床寢與打開的書",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "summer-bedding-tencel-quilt-protector-cool-blanket-order": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/summer-bedding-tencel-quilt-protector-cool-blanket-order.jpg",
+      "output": "images/optimized/article-covers/summer-bedding-tencel-quilt-protector-cool-blanket-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a3826bfcafc8198ad94fa6cb34e82e7.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a3826bfcafc8198ad94fa6cb34e82e7.png",
+      "sha256": "75f6369450fe7c19020f74eca2b2f312c41fe437cf769309bd2615ea29173ea4",
+      "generatedAt": "2026-06-21T18:08:52Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "陽光通透的夏季臥室，白色床鋪上有淺藍床單、薄被、保潔墊層次與薄荷色涼被",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "home-cleaning-tool-wall-mop-broom-sink-trash-bin": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/home-cleaning-tool-wall-mop-broom-sink-trash-bin.jpg",
+      "output": "images/optimized/article-covers/home-cleaning-tool-wall-mop-broom-sink-trash-bin.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a3826f14fdc8198b3434416457fab86.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a3826f14fdc8198b3434416457fab86.png",
+      "sha256": "481367432f83283ebe65dd34dcd1ca9073bafef6c3770dc9c2aa0bdad2b46be4",
+      "generatedAt": "2026-06-21T18:08:52Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮廚房旁的清潔工具牆，有平板拖把、掃把、水槽刷、抹布籃、簡約垃圾桶與植栽",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "rental-refresh-sticker-light-storage-movable-furniture": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/rental-refresh-sticker-light-storage-movable-furniture.jpg",
+      "output": "images/optimized/article-covers/rental-refresh-sticker-light-storage-movable-furniture.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a38272435808198bddf43417a4b2b0f.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a38272435808198bddf43417a4b2b0f.png",
+      "sha256": "1aa2e1ad96e91776a47212a19bfa79b16c6959ef46c902f18d55e96320277a36",
+      "generatedAt": "2026-06-21T18:08:52Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "色彩豐富的租屋客廳，有可移動推車、立燈、收納格、貼皮板材樣片、單椅、窗簾與綠植",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }

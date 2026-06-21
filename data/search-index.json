@@ -1,5 +1,105 @@
 [
   {
+    "id": "auto-20260621180852-closet-laundry-hanger-storage-towel-bedding-supplies",
+    "title": "衣櫃與洗衣區整理：衣架、收納箱、毛巾與床寢備品",
+    "excerpt": "衣櫃與洗衣區不是收越多越好，先分每天拿、每週洗、換季收，才知道衣架、收納箱、毛巾與床寢要買到哪裡。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/closet-laundry-hanger-storage-towel-bedding-supplies",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "衣櫃收納",
+      "洗衣區整理",
+      "毛巾床寢",
+      "居家備品"
+    ],
+    "faqQuestions": [
+      "衣櫃和洗衣區要一起整理嗎？",
+      "毛巾備品要準備多少？",
+      "收納箱越多越好嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260621180852-home-cleaning-tool-wall-mop-broom-sink-trash-bin",
+    "title": "居家清潔工具牆：平板拖把、掃把、水槽清潔與垃圾桶",
+    "excerpt": "清潔工具牆要先分地面、水槽、垃圾與擦拭四類，再決定平板拖把、掃把、刷具與垃圾桶放哪裡。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/home-cleaning-tool-wall-mop-broom-sink-trash-bin",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "清潔工具",
+      "平板拖把",
+      "水槽清潔",
+      "垃圾桶收納"
+    ],
+    "faqQuestions": [
+      "清潔工具牆適合小宅嗎？",
+      "拖把和掃把要掛起來嗎？",
+      "垃圾桶要買大一點嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260621180852-nightstand-bedtime-earplug-reading-light-scent-bedding",
+    "title": "床邊櫃與睡前小物：耳塞、閱讀燈、香氛與床寢怎麼放",
+    "excerpt": "床邊櫃只放睡前最後十五分鐘會用到的物件，耳塞、閱讀燈、香氛與床寢才不會變成雜物展示。",
+    "category": "wellness-movement",
+    "categoryLabel": "健康恢復",
+    "relativeUrl": "wellness-movement/nightstand-bedtime-earplug-reading-light-scent-bedding",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "床邊櫃",
+      "睡前小物",
+      "閱讀燈",
+      "香氛床寢"
+    ],
+    "faqQuestions": [
+      "床邊櫃應該放香氛嗎？",
+      "耳塞需要固定放床邊嗎？",
+      "閱讀燈怎麼選？"
+    ]
+  },
+  {
+    "id": "auto-20260621180852-rental-refresh-sticker-light-storage-movable-furniture",
+    "title": "租屋改造不動工：貼皮、燈光、收納與可移動家具",
+    "excerpt": "租屋改造不動工要先看可復原性、插座位置、收納容量與搬家成本，再比較貼皮、燈具與可移動家具。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/rental-refresh-sticker-light-storage-movable-furniture",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "租屋改造",
+      "不動工佈置",
+      "可移動家具",
+      "居家收納"
+    ],
+    "faqQuestions": [
+      "租屋可以用貼皮改造嗎？",
+      "租屋最先買燈還是收納？",
+      "可移動家具怎麼選？"
+    ]
+  },
+  {
+    "id": "auto-20260621180852-summer-bedding-tencel-quilt-protector-cool-blanket-order",
+    "title": "夏季床寢怎麼換：天絲、棉被、保潔墊與涼被的順序",
+    "excerpt": "夏季床寢更換要從貼身層開始，再看保潔墊、薄被與冷氣房習慣，不要只因為熱就一次買滿。",
+    "category": "wellness-movement",
+    "categoryLabel": "健康恢復",
+    "relativeUrl": "wellness-movement/summer-bedding-tencel-quilt-protector-cool-blanket-order",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "夏季床寢",
+      "天絲床包",
+      "保潔墊",
+      "涼被"
+    ],
+    "faqQuestions": [
+      "夏季床寢先買涼被嗎？",
+      "保潔墊會不會太悶？",
+      "床寢需要準備幾組？"
+    ]
+  },
+  {
     "id": "auto-20260621123703-breakfast-freezer-buns-sweet-potato-chicken-drinks",
     "title": "早餐與冷凍麵食補貨：饅頭、地瓜、雞胸與沖泡飲",
     "excerpt": "早餐與冷凍麵食補貨要先看冷凍容量、加熱方式、份量與飲品保存，再比較饅頭、地瓜、雞胸與沖泡飲。",
