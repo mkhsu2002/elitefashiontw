@@ -6,6 +6,7 @@ import hashlib
 import json
 import math
 import struct
+import subprocess
 import sys
 import zlib
 from collections import defaultdict
@@ -409,11 +410,33 @@ def draw_cover(theme: str, path: Path) -> None:
         canvas.ellipse((865, 205, 925, 245), "#fff5d6")
         canvas.rounded_rect((210, 390, 270, 445), 18, ink)
 
-    write_png(path, 1200, 630, canvas.pixels)
+    if path.suffix.lower() == ".jpg":
+        png_path = path.with_suffix(".tmp.png")
+        write_png(png_path, 1200, 630, canvas.pixels)
+        subprocess.run(
+            [
+                "ffmpeg",
+                "-y",
+                "-hide_banner",
+                "-loglevel",
+                "error",
+                "-i",
+                str(png_path),
+                "-frames:v",
+                "1",
+                "-q:v",
+                "2",
+                str(path),
+            ],
+            check=True,
+        )
+        png_path.unlink(missing_ok=True)
+    else:
+        write_png(path, 1200, 630, canvas.pixels)
 
 
 def prepare_cover(article: dict[str, Any]) -> str:
-    target = ROOT / "images" / "optimized" / "article-covers" / f"{article['slug']}.png"
+    target = ROOT / "images" / "optimized" / "article-covers" / f"{article['slug']}.jpg"
     target.parent.mkdir(parents=True, exist_ok=True)
     draw_cover(article["coverTheme"], target)
     manifest = json.loads(COVER_MANIFEST.read_text(encoding="utf-8")) if COVER_MANIFEST.exists() else {"version": 1, "covers": {}}
