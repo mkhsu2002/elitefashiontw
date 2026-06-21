@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T11:14:01Z",
+  "updatedAt": "2026-06-21T11:45:00Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -1035,6 +1035,66 @@
       "generatedAt": "2026-06-21T11:14:01Z",
       "usage": "cover-og-twitter",
       "promptSummary": "森林露營桌上有無品牌手沖壺、濾杯、空白咖啡袋、鍋具、琺瑯杯、冷藏餐盒與蔬菜餐食",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "night-mobility-reflective-dashcam-rain-earplug-kit": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/night-mobility-reflective-dashcam-rain-earplug-kit.jpg",
+      "output": "images/optimized/article-covers/night-mobility-reflective-dashcam-rain-earplug-kit.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37ca0b0d8c8193a0f3178d5dd9d1f0.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37ca0b0d8c8193a0f3178d5dd9d1f0.png",
+      "sha256": "9ac196143936ba1255c8e3d22aea511564cab04a713a2e491ac91116e42dc3b3",
+      "generatedAt": "2026-06-21T11:44:59Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "夜間玄關車庫桌面上有無品牌反光配件、行車紀錄器、雨衣、耳塞盒、充電線與行動電源",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "family-weekend-outing-sun-tableware-toys-rain-storage": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/family-weekend-outing-sun-tableware-toys-rain-storage.jpg",
+      "output": "images/optimized/article-covers/family-weekend-outing-sun-tableware-toys-rain-storage.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37ca6bf8a48193b36138a0bf8c5a04.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37ca6bf8a48193b36138a0bf8c5a04.png",
+      "sha256": "c0c168d631e044b949478f66f1ded2c5ec743f24fb09b6b477d3c5acb0a6ae6e",
+      "generatedAt": "2026-06-21T11:45:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "陽光公園野餐桌上有無品牌防曬外套、嬰幼餐具、木質玩具、折傘、小包與乾濕收納袋",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "first-pet-shopping-food-toy-cleaning-outing-order-2": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/first-pet-shopping-food-toy-cleaning-outing-order-2.jpg",
+      "output": "images/optimized/article-covers/first-pet-shopping-food-toy-cleaning-outing-order-2.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37cad4f54881939a44d55fdcd2e5ed.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37cad4f54881939a44d55fdcd2e5ed.png",
+      "sha256": "64906c1226cfd74e441cecebdf9f88106f778245508c8e908db368e07c3ddd30",
+      "generatedAt": "2026-06-21T11:45:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "溫暖居家角落有空白寵物食品袋、陶瓷碗、玩具、牽繩、外出包、清潔瓶、收納籃與安靜貓狗",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "aquarium-reptile-small-pet-food-cleaning-habitat-storage": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/aquarium-reptile-small-pet-food-cleaning-habitat-storage.jpg",
+      "output": "images/optimized/article-covers/aquarium-reptile-small-pet-food-cleaning-habitat-storage.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37cb27aaa48193a76a8c99108d4152.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37cb27aaa48193a76a8c99108d4152.png",
+      "sha256": "911662f97026d91c8a288fa46fd2a04934773112d1a81cde93a122fce22d46af",
+      "generatedAt": "2026-06-21T11:45:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮居家水族櫃旁有水草魚缸、小型棲地、空白飼料罐、清潔刷、虹吸管、收納盒與擦拭布",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "pet-birthday-gift-cake-snack-toy-cleaning": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/pet-birthday-gift-cake-snack-toy-cleaning.jpg",
+      "output": "images/optimized/article-covers/pet-birthday-gift-cake-snack-toy-cleaning.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37cb86e29c8193914cf0070bf16b36.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37cb86e29c8193914cf0070bf16b36.png",
+      "sha256": "bd5bd97fae79a58616c5f8a62fb27c8efbbebafa2b96b8ad223534d01eecc36f",
+      "generatedAt": "2026-06-21T11:45:00Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮居家慶祝角落有無字寵物蛋糕、空白零食罐、玩具、清潔布、無標籤清潔瓶、收納籃與安靜貓狗",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }

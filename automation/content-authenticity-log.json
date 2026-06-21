@@ -1,7 +1,417 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T11:14:01Z",
+  "updatedAt": "2026-06-21T11:45:00Z",
   "entries": [
+    {
+      "articleId": "auto-20260621114500-pet-birthday-gift-cake-snack-toy-cleaning",
+      "slug": "pet-birthday-gift-cake-snack-toy-cleaning",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T11:45:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0001817/main",
+        "https://www.momoshop.com.tw/TP/TP0002193/main",
+        "https://www.momoshop.com.tw/TP/TP0007478/main",
+        "https://www.momoshop.com.tw/TP/TP0009203/main",
+        "https://www.momoshop.com.tw/TP/TP0008435/main",
+        "https://www.momoshop.com.tw/TP/TP0005724/main",
+        "https://s.momoshop.com.tw/s/SQzSppW8",
+        "https://s.momoshop.com.tw/s/pZcJQohH",
+        "https://s.momoshop.com.tw/s/1ZVmRBtY",
+        "https://s.momoshop.com.tw/s/HPO6XLAm",
+        "https://s.momoshop.com.tw/s/mfFnLSfH",
+        "https://s.momoshop.com.tw/s/zwczlnq2",
+        "https://tw.elitefasion.com/lifestyle-culture/pet-birthday-gift-cake-snack-toy-cleaning",
+        "https://tw.elitefasion.com/images/optimized/article-covers/pet-birthday-gift-cake-snack-toy-cleaning.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621114500-aquarium-reptile-small-pet-food-cleaning-habitat-storage",
+      "slug": "aquarium-reptile-small-pet-food-cleaning-habitat-storage",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T11:45:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0009226/main",
+        "https://www.momoshop.com.tw/TP/TP0007478/main",
+        "https://www.momoshop.com.tw/TP/TP0008435/main",
+        "https://www.momoshop.com.tw/TP/TP0005724/main",
+        "https://www.momoshop.com.tw/TP/TP0003749/main",
+        "https://www.momoshop.com.tw/TP/TP0000922/main",
+        "https://s.momoshop.com.tw/s/ISsEn1KG",
+        "https://s.momoshop.com.tw/s/1ZVmRBtY",
+        "https://s.momoshop.com.tw/s/mfFnLSfH",
+        "https://s.momoshop.com.tw/s/zwczlnq2",
+        "https://s.momoshop.com.tw/s/krK2QPdO",
+        "https://s.momoshop.com.tw/s/NaHe80dq",
+        "https://tw.elitefasion.com/lifestyle-culture/aquarium-reptile-small-pet-food-cleaning-habitat-storage",
+        "https://tw.elitefasion.com/images/optimized/article-covers/aquarium-reptile-small-pet-food-cleaning-habitat-storage.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621114500-first-pet-shopping-food-toy-cleaning-outing-order-2",
+      "slug": "first-pet-shopping-food-toy-cleaning-outing-order-2",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T11:45:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0009203/main",
+        "https://www.momoshop.com.tw/TP/TP0002193/main",
+        "https://www.momoshop.com.tw/TP/TP0007478/main",
+        "https://www.momoshop.com.tw/TP/TP0005844/main",
+        "https://www.momoshop.com.tw/TP/TP0008435/main",
+        "https://www.momoshop.com.tw/TP/TP0005724/main",
+        "https://s.momoshop.com.tw/s/HPO6XLAm",
+        "https://s.momoshop.com.tw/s/pZcJQohH",
+        "https://s.momoshop.com.tw/s/1ZVmRBtY",
+        "https://s.momoshop.com.tw/s/99GiIWkP",
+        "https://s.momoshop.com.tw/s/mfFnLSfH",
+        "https://s.momoshop.com.tw/s/zwczlnq2",
+        "https://tw.elitefasion.com/lifestyle-culture/first-pet-shopping-food-toy-cleaning-outing-order-2",
+        "https://tw.elitefasion.com/images/optimized/article-covers/first-pet-shopping-food-toy-cleaning-outing-order-2.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621114500-family-weekend-outing-sun-tableware-toys-rain-storage",
+      "slug": "family-weekend-outing-sun-tableware-toys-rain-storage",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-21T11:45:00Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0000116/main",
+        "https://www.momoshop.com.tw/TP/TP0002712/main",
+        "https://www.momoshop.com.tw/TP/TP0002179/main",
+        "https://www.momoshop.com.tw/TP/TP0005684/main",
+        "https://www.momoshop.com.tw/TP/TP0007070/main",
+        "https://www.momoshop.com.tw/TP/TP0002948/main",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3",
+        "https://s.momoshop.com.tw/s/rCMnDvTY",
+        "https://s.momoshop.com.tw/s/kwiLOwSy",
+        "https://s.momoshop.com.tw/s/swCkSJDA",
+        "https://s.momoshop.com.tw/s/fZ9miz2D",
+        "https://s.momoshop.com.tw/s/ft0gO7mj",
+        "https://tw.elitefasion.com/outdoor-escapes/family-weekend-outing-sun-tableware-toys-rain-storage",
+        "https://tw.elitefasion.com/images/optimized/article-covers/family-weekend-outing-sun-tableware-toys-rain-storage.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260621114459-night-mobility-reflective-dashcam-rain-earplug-kit",
+      "slug": "night-mobility-reflective-dashcam-rain-earplug-kit",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-21T11:44:59Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0000034/main",
+        "https://www.momoshop.com.tw/TP/TP0001272/main",
+        "https://www.momoshop.com.tw/TP/TP0003593/main",
+        "https://www.momoshop.com.tw/TP/TP0001609/main",
+        "https://www.momoshop.com.tw/TP/TP0003385/main",
+        "https://www.momoshop.com.tw/TP/TP0009476/main",
+        "https://s.momoshop.com.tw/s/tvga771o",
+        "https://s.momoshop.com.tw/s/aD5S59sC",
+        "https://s.momoshop.com.tw/s/zymRpNpU",
+        "https://s.momoshop.com.tw/s/ryfM995D",
+        "https://s.momoshop.com.tw/s/ARNPduxj",
+        "https://s.momoshop.com.tw/s/LJfvOb7h",
+        "https://tw.elitefasion.com/outdoor-escapes/night-mobility-reflective-dashcam-rain-earplug-kit",
+        "https://tw.elitefasion.com/images/optimized/article-covers/night-mobility-reflective-dashcam-rain-earplug-kit.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
     {
       "articleId": "auto-20260621111401-camping-coffee-outdoor-meal-prep-cookware-food",
       "slug": "camping-coffee-outdoor-meal-prep-cookware-food",

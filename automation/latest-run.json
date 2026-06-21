@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T11:14:01Z",
+  "updatedAt": "2026-06-21T11:45:00Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-ten-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01-B10",
+  "triggerType": "manual-codex-momo-revenue-growth-batch-eleven-no-newsletter",
+  "queueId": "MOMO-REV-2026-06-21-W01-B11",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260621111400-home-nail-makeup-tools-brush-storage-beginner",
-    "auto-20260621111400-jewelry-leather-gift-ring-wallet-small-bag",
-    "auto-20260621111400-mens-commute-shirt-trousers-jacket-shoes-wardrobe",
-    "auto-20260621111401-plus-size-work-travel-outfit-jacket-bag-order",
-    "auto-20260621111401-camping-coffee-outdoor-meal-prep-cookware-food"
+    "auto-20260621114459-night-mobility-reflective-dashcam-rain-earplug-kit",
+    "auto-20260621114500-family-weekend-outing-sun-tableware-toys-rain-storage",
+    "auto-20260621114500-first-pet-shopping-food-toy-cleaning-outing-order-2",
+    "auto-20260621114500-aquarium-reptile-small-pet-food-cleaning-habitat-storage",
+    "auto-20260621114500-pet-birthday-gift-cake-snack-toy-cleaning"
   ],
   "articleSlugs": [
-    "home-nail-makeup-tools-brush-storage-beginner",
-    "jewelry-leather-gift-ring-wallet-small-bag",
-    "mens-commute-shirt-trousers-jacket-shoes-wardrobe",
-    "plus-size-work-travel-outfit-jacket-bag-order",
-    "camping-coffee-outdoor-meal-prep-cookware-food"
+    "night-mobility-reflective-dashcam-rain-earplug-kit",
+    "family-weekend-outing-sun-tableware-toys-rain-storage",
+    "first-pet-shopping-food-toy-cleaning-outing-order-2",
+    "aquarium-reptile-small-pet-food-cleaning-habitat-storage",
+    "pet-birthday-gift-cake-snack-toy-cleaning"
   ],
-  "notes": "Codex 手動生成 momo 收益型內容第十組；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動生成 momo 收益型內容第十一組；直接推上 main 不會自動寄送電子報。"
 }

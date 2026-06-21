@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-21T11:45:00Z｜寵物生日禮物：蛋糕、零食、玩具與清潔備案
+
+- 文章 ID：auto-20260621114500-pet-birthday-gift-cake-snack-toy-cleaning
+- URL：https://tw.elitefasion.com/lifestyle-culture/pet-birthday-gift-cake-snack-toy-cleaning
+- 檔案：lifestyle-culture/pet-birthday-gift-cake-snack-toy-cleaning.html
+- 類型：manual-codex-momo-revenue-growth-batch-eleven-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B11
+
+## 2026-06-21T11:45:00Z｜水族與小寵補貨清單：飼料、清潔、棲地與收納
+
+- 文章 ID：auto-20260621114500-aquarium-reptile-small-pet-food-cleaning-habitat-storage
+- URL：https://tw.elitefasion.com/lifestyle-culture/aquarium-reptile-small-pet-food-cleaning-habitat-storage
+- 檔案：lifestyle-culture/aquarium-reptile-small-pet-food-cleaning-habitat-storage.html
+- 類型：manual-codex-momo-revenue-growth-batch-eleven-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B11
+
+## 2026-06-21T11:45:00Z｜第一次養寵物的購物順序：食品、玩具、清潔與外出用品
+
+- 文章 ID：auto-20260621114500-first-pet-shopping-food-toy-cleaning-outing-order-2
+- URL：https://tw.elitefasion.com/lifestyle-culture/first-pet-shopping-food-toy-cleaning-outing-order-2
+- 檔案：lifestyle-culture/first-pet-shopping-food-toy-cleaning-outing-order-2.html
+- 類型：manual-codex-momo-revenue-growth-batch-eleven-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B11
+
+## 2026-06-21T11:45:00Z｜親子週末出門清單：防曬、餐具、玩具、雨具與收納袋
+
+- 文章 ID：auto-20260621114500-family-weekend-outing-sun-tableware-toys-rain-storage
+- URL：https://tw.elitefasion.com/outdoor-escapes/family-weekend-outing-sun-tableware-toys-rain-storage
+- 檔案：outdoor-escapes/family-weekend-outing-sun-tableware-toys-rain-storage.html
+- 類型：manual-codex-momo-revenue-growth-batch-eleven-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B11
+
+## 2026-06-21T11:44:59Z｜夜間移動安全感：反光配件、行車紀錄、雨具與降噪睡眠
+
+- 文章 ID：auto-20260621114459-night-mobility-reflective-dashcam-rain-earplug-kit
+- URL：https://tw.elitefasion.com/outdoor-escapes/night-mobility-reflective-dashcam-rain-earplug-kit
+- 檔案：outdoor-escapes/night-mobility-reflective-dashcam-rain-earplug-kit.html
+- 類型：manual-codex-momo-revenue-growth-batch-eleven-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B11
+
 ## 2026-06-21T11:14:01Z｜露營咖啡與戶外餐食：手沖、濾掛、鍋具與冷凍食材
 
 - 文章 ID：auto-20260621111401-camping-coffee-outdoor-meal-prep-cookware-food

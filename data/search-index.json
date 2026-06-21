@@ -1,5 +1,105 @@
 [
   {
+    "id": "auto-20260621114500-aquarium-reptile-small-pet-food-cleaning-habitat-storage",
+    "title": "水族與小寵補貨清單：飼料、清潔、棲地與收納",
+    "excerpt": "水族與小寵補貨要先分飼料、清潔、棲地與收納，再比較水族、寵物與清潔用品。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/aquarium-reptile-small-pet-food-cleaning-habitat-storage",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "水族補貨",
+      "小寵用品",
+      "棲地清潔",
+      "收納耗材"
+    ],
+    "faqQuestions": [
+      "水族與小寵補貨先補什麼？",
+      "清潔品可以混用嗎？",
+      "怎麼避免補貨過量？"
+    ]
+  },
+  {
+    "id": "auto-20260621114500-family-weekend-outing-sun-tableware-toys-rain-storage",
+    "title": "親子週末出門清單：防曬、餐具、玩具、雨具與收納袋",
+    "excerpt": "親子週末出門要先看日曬、用餐、玩具、雨具與乾濕收納，再補防曬服飾、餐具與小包。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/family-weekend-outing-sun-tableware-toys-rain-storage",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "親子外出",
+      "防曬餐具",
+      "玩具雨具",
+      "收納袋"
+    ],
+    "faqQuestions": [
+      "親子週末包要放幾種玩具？",
+      "餐具要怎麼收？",
+      "防曬和雨具可以放同一層嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260621114500-first-pet-shopping-food-toy-cleaning-outing-order-2",
+    "title": "第一次養寵物的購物順序：食品、玩具、清潔與外出用品",
+    "excerpt": "第一次養寵物購物要先看食品保存、清潔動線、玩具輪替與外出用品，再比較品牌。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/first-pet-shopping-food-toy-cleaning-outing-order-2",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "第一次養寵物",
+      "寵物食品",
+      "清潔玩具",
+      "外出用品"
+    ],
+    "faqQuestions": [
+      "第一次養寵物先買玩具嗎？",
+      "寵物食品怎麼判斷？",
+      "清潔用品要買哪些？"
+    ]
+  },
+  {
+    "id": "auto-20260621114500-pet-birthday-gift-cake-snack-toy-cleaning",
+    "title": "寵物生日禮物：蛋糕、零食、玩具與清潔備案",
+    "excerpt": "寵物生日禮物要先看蛋糕、零食、玩具與清潔備案，再比較造型和品牌。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/pet-birthday-gift-cake-snack-toy-cleaning",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "寵物生日",
+      "寵物蛋糕",
+      "零食玩具",
+      "清潔備案"
+    ],
+    "faqQuestions": [
+      "寵物生日一定要買蛋糕嗎？",
+      "零食和玩具要怎麼搭？",
+      "生日用品可以寫成身體狀態建議嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260621114459-night-mobility-reflective-dashcam-rain-earplug-kit",
+    "title": "夜間移動安全感：反光配件、行車紀錄、雨具與降噪睡眠",
+    "excerpt": "夜間移動清單要先看路線、天氣、記錄、可見度、電力與住宿環境，再比較配件。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/night-mobility-reflective-dashcam-rain-earplug-kit",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "夜間移動",
+      "反光配件",
+      "行車紀錄",
+      "雨具耳塞"
+    ],
+    "faqQuestions": [
+      "夜間移動用品第一步買什麼？",
+      "耳塞可以寫成睡眠建議嗎？",
+      "行車紀錄器要注意什麼？"
+    ]
+  },
+  {
     "id": "auto-20260621111401-camping-coffee-outdoor-meal-prep-cookware-food",
     "title": "露營咖啡與戶外餐食：手沖、濾掛、鍋具與冷凍食材",
     "excerpt": "露營咖啡與戶外餐食要先看手沖流程、鍋具收納、冷凍食材保存與收洗動線。",

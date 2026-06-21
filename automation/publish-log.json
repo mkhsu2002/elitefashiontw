@@ -1,7 +1,57 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T11:14:01Z",
+  "updatedAt": "2026-06-21T11:45:00Z",
   "entries": [
+    {
+      "articleId": "auto-20260621114500-pet-birthday-gift-cake-snack-toy-cleaning",
+      "title": "寵物生日禮物：蛋糕、零食、玩具與清潔備案",
+      "publishedAt": "2026-06-21T11:45:00Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/pet-birthday-gift-cake-snack-toy-cleaning",
+      "file": "lifestyle-culture/pet-birthday-gift-cake-snack-toy-cleaning.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/pet-birthday-gift-cake-snack-toy-cleaning.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B11",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-eleven-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260621114500-aquarium-reptile-small-pet-food-cleaning-habitat-storage",
+      "title": "水族與小寵補貨清單：飼料、清潔、棲地與收納",
+      "publishedAt": "2026-06-21T11:45:00Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/aquarium-reptile-small-pet-food-cleaning-habitat-storage",
+      "file": "lifestyle-culture/aquarium-reptile-small-pet-food-cleaning-habitat-storage.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/aquarium-reptile-small-pet-food-cleaning-habitat-storage.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B11",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-eleven-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260621114500-first-pet-shopping-food-toy-cleaning-outing-order-2",
+      "title": "第一次養寵物的購物順序：食品、玩具、清潔與外出用品",
+      "publishedAt": "2026-06-21T11:45:00Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/first-pet-shopping-food-toy-cleaning-outing-order-2",
+      "file": "lifestyle-culture/first-pet-shopping-food-toy-cleaning-outing-order-2.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/first-pet-shopping-food-toy-cleaning-outing-order-2.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B11",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-eleven-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260621114500-family-weekend-outing-sun-tableware-toys-rain-storage",
+      "title": "親子週末出門清單：防曬、餐具、玩具、雨具與收納袋",
+      "publishedAt": "2026-06-21T11:45:00Z",
+      "url": "https://tw.elitefasion.com/outdoor-escapes/family-weekend-outing-sun-tableware-toys-rain-storage",
+      "file": "outdoor-escapes/family-weekend-outing-sun-tableware-toys-rain-storage.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/family-weekend-outing-sun-tableware-toys-rain-storage.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B11",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-eleven-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260621114459-night-mobility-reflective-dashcam-rain-earplug-kit",
+      "title": "夜間移動安全感：反光配件、行車紀錄、雨具與降噪睡眠",
+      "publishedAt": "2026-06-21T11:44:59Z",
+      "url": "https://tw.elitefasion.com/outdoor-escapes/night-mobility-reflective-dashcam-rain-earplug-kit",
+      "file": "outdoor-escapes/night-mobility-reflective-dashcam-rain-earplug-kit.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/night-mobility-reflective-dashcam-rain-earplug-kit.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B11",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-eleven-no-newsletter"
+    },
     {
       "articleId": "auto-20260621111401-camping-coffee-outdoor-meal-prep-cookware-food",
       "title": "露營咖啡與戶外餐食：手沖、濾掛、鍋具與冷凍食材",
