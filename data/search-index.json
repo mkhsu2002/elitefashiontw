@@ -1,5 +1,105 @@
 [
   {
+    "id": "auto-20260621104717-desk-cable-charger-monitor-protection-backup-organizer",
+    "title": "桌面線材怎麼整理：充電器、螢幕線、保護貼與備份小物",
+    "excerpt": "桌面線材要先看設備數量、接口、充電位置與備份流程，再買收納和保護周邊。",
+    "category": "ai-innovation",
+    "categoryLabel": "人工智能",
+    "relativeUrl": "ai-innovation/desk-cable-charger-monitor-protection-backup-organizer",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "桌面線材",
+      "充電器",
+      "螢幕線",
+      "備份收納"
+    ],
+    "faqQuestions": [
+      "桌面線材整理第一步是什麼？",
+      "收納盒越多越好嗎？",
+      "備份硬碟要放桌上嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260621104717-home-care-bathing-transfer-storage-safety-flow",
+    "title": "居家照護動線：沐浴、移位、收納與安全提醒怎麼看",
+    "excerpt": "居家照護動線要先看沐浴、移位、收納與照顧者流程，再比較輔具、濾淨、按摩與收納品。",
+    "category": "wellness-movement",
+    "categoryLabel": "健康恢復",
+    "relativeUrl": "wellness-movement/home-care-bathing-transfer-storage-safety-flow",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "居家照護",
+      "沐浴動線",
+      "移位收納",
+      "照顧者流程"
+    ],
+    "faqQuestions": [
+      "居家照護用品第一步買什麼？",
+      "商品可以保證使用安全嗎？",
+      "按摩或濾淨用品要放進照護清單嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260621104717-scent-bodycare-gift-essential-oil-towel-goods",
+    "title": "香氛與身體保養送禮：精油、蠟燭、毛巾與生活小物",
+    "excerpt": "香氛與身體保養送禮要先分氣味、布品、身體清潔與生活小物，再看品牌和預算。",
+    "category": "lifestyle-culture",
+    "categoryLabel": "生活品味",
+    "relativeUrl": "lifestyle-culture/scent-bodycare-gift-essential-oil-towel-goods",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "香氛送禮",
+      "精油蠟燭",
+      "毛巾浴巾",
+      "身體保養"
+    ],
+    "faqQuestions": [
+      "香氛送禮最怕什麼？",
+      "精油或蠟燭可以寫成身體或空間效果嗎？",
+      "毛巾浴巾適合當禮物嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260621104717-summer-low-pressure-sun-sleep-drink-light-food",
+    "title": "夏季低負擔日常：防曬、降噪睡眠、飲品與輕食補給",
+    "excerpt": "夏季日常要先看日曬、休息環境、飲品保存與輕食份量，再比較防曬、耳塞與補給品。",
+    "category": "wellness-movement",
+    "categoryLabel": "健康恢復",
+    "relativeUrl": "wellness-movement/summer-low-pressure-sun-sleep-drink-light-food",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "夏季日常",
+      "防曬外套",
+      "耳塞",
+      "輕食飲品"
+    ],
+    "faqQuestions": [
+      "夏季低負擔日常先買什麼？",
+      "耳塞可以寫成身體狀態建議嗎？",
+      "飲品和輕食怎麼避免買太多？"
+    ]
+  },
+  {
+    "id": "auto-20260621104716-remote-work-bag-charging-audio-presentation-storage",
+    "title": "遠距工作包清單：充電、耳機、簡報線材與移動收納",
+    "excerpt": "遠距工作包清單要先看會議、移動距離、電力與線材，再補耳機、簡報轉接與收納。",
+    "category": "ai-innovation",
+    "categoryLabel": "人工智能",
+    "relativeUrl": "ai-innovation/remote-work-bag-charging-audio-presentation-storage",
+    "publishedDateText": "2026年6月21日",
+    "tags": [
+      "遠距工作",
+      "工作包",
+      "充電線材",
+      "簡報收納"
+    ],
+    "faqQuestions": [
+      "遠距工作包最先補什麼？",
+      "線材要不要每一條都備份？",
+      "耳機怎麼選？"
+    ]
+  },
+  {
     "id": "auto-20260621102801-cold-brew-tea-gift-box-afternoon-decision",
     "title": "冷泡茶與茶禮盒：日常飲用、送禮與下午茶的不同判斷",
     "excerpt": "冷泡茶與茶禮盒要先分日常飲用、送禮與下午茶，再看茶種、保存與份量。",

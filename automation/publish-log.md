@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-21T10:47:17Z｜香氛與身體保養送禮：精油、蠟燭、毛巾與生活小物
+
+- 文章 ID：auto-20260621104717-scent-bodycare-gift-essential-oil-towel-goods
+- URL：https://tw.elitefasion.com/lifestyle-culture/scent-bodycare-gift-essential-oil-towel-goods
+- 檔案：lifestyle-culture/scent-bodycare-gift-essential-oil-towel-goods.html
+- 類型：manual-codex-momo-revenue-growth-batch-nine-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B09
+
+## 2026-06-21T10:47:17Z｜居家照護動線：沐浴、移位、收納與安全提醒怎麼看
+
+- 文章 ID：auto-20260621104717-home-care-bathing-transfer-storage-safety-flow
+- URL：https://tw.elitefasion.com/wellness-movement/home-care-bathing-transfer-storage-safety-flow
+- 檔案：wellness-movement/home-care-bathing-transfer-storage-safety-flow.html
+- 類型：manual-codex-momo-revenue-growth-batch-nine-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B09
+
+## 2026-06-21T10:47:17Z｜夏季低負擔日常：防曬、降噪睡眠、飲品與輕食補給
+
+- 文章 ID：auto-20260621104717-summer-low-pressure-sun-sleep-drink-light-food
+- URL：https://tw.elitefasion.com/wellness-movement/summer-low-pressure-sun-sleep-drink-light-food
+- 檔案：wellness-movement/summer-low-pressure-sun-sleep-drink-light-food.html
+- 類型：manual-codex-momo-revenue-growth-batch-nine-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B09
+
+## 2026-06-21T10:47:17Z｜桌面線材怎麼整理：充電器、螢幕線、保護貼與備份小物
+
+- 文章 ID：auto-20260621104717-desk-cable-charger-monitor-protection-backup-organizer
+- URL：https://tw.elitefasion.com/ai-innovation/desk-cable-charger-monitor-protection-backup-organizer
+- 檔案：ai-innovation/desk-cable-charger-monitor-protection-backup-organizer.html
+- 類型：manual-codex-momo-revenue-growth-batch-nine-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B09
+
+## 2026-06-21T10:47:16Z｜遠距工作包清單：充電、耳機、簡報線材與移動收納
+
+- 文章 ID：auto-20260621104716-remote-work-bag-charging-audio-presentation-storage
+- URL：https://tw.elitefasion.com/ai-innovation/remote-work-bag-charging-audio-presentation-storage
+- 檔案：ai-innovation/remote-work-bag-charging-audio-presentation-storage.html
+- 類型：manual-codex-momo-revenue-growth-batch-nine-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B09
+
 ## 2026-06-21T10:28:01Z｜冷泡茶與茶禮盒：日常飲用、送禮與下午茶的不同判斷
 
 - 文章 ID：auto-20260621102801-cold-brew-tea-gift-box-afternoon-decision

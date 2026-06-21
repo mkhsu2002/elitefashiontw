@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T10:28:01Z",
+  "updatedAt": "2026-06-21T10:47:17Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-eight-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01-B08",
+  "triggerType": "manual-codex-momo-revenue-growth-batch-nine-no-newsletter",
+  "queueId": "MOMO-REV-2026-06-21-W01-B09",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260621102800-office-drink-cabinet-plant-milk-tea-coffee-sparkling",
-    "auto-20260621102800-road-scooter-dashcam-reflective-rain-charging-kit",
-    "auto-20260621102801-family-gift-blocks-board-games-puzzles-books",
-    "auto-20260621102801-sun-rain-gear-entryway-commute-bag-scooter-storage",
-    "auto-20260621102801-cold-brew-tea-gift-box-afternoon-decision"
+    "auto-20260621104716-remote-work-bag-charging-audio-presentation-storage",
+    "auto-20260621104717-desk-cable-charger-monitor-protection-backup-organizer",
+    "auto-20260621104717-summer-low-pressure-sun-sleep-drink-light-food",
+    "auto-20260621104717-home-care-bathing-transfer-storage-safety-flow",
+    "auto-20260621104717-scent-bodycare-gift-essential-oil-towel-goods"
   ],
   "articleSlugs": [
-    "office-drink-cabinet-plant-milk-tea-coffee-sparkling",
-    "road-scooter-dashcam-reflective-rain-charging-kit",
-    "family-gift-blocks-board-games-puzzles-books",
-    "sun-rain-gear-entryway-commute-bag-scooter-storage",
-    "cold-brew-tea-gift-box-afternoon-decision"
+    "remote-work-bag-charging-audio-presentation-storage",
+    "desk-cable-charger-monitor-protection-backup-organizer",
+    "summer-low-pressure-sun-sleep-drink-light-food",
+    "home-care-bathing-transfer-storage-safety-flow",
+    "scent-bodycare-gift-essential-oil-towel-goods"
   ],
-  "notes": "Codex 手動生成 momo 收益型內容第八組；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動生成 momo 收益型內容第九組；直接推上 main 不會自動寄送電子報。"
 }

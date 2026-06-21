@@ -1,7 +1,57 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T10:28:01Z",
+  "updatedAt": "2026-06-21T10:47:17Z",
   "entries": [
+    {
+      "articleId": "auto-20260621104717-scent-bodycare-gift-essential-oil-towel-goods",
+      "title": "香氛與身體保養送禮：精油、蠟燭、毛巾與生活小物",
+      "publishedAt": "2026-06-21T10:47:17Z",
+      "url": "https://tw.elitefasion.com/lifestyle-culture/scent-bodycare-gift-essential-oil-towel-goods",
+      "file": "lifestyle-culture/scent-bodycare-gift-essential-oil-towel-goods.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/scent-bodycare-gift-essential-oil-towel-goods.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B09",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-nine-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260621104717-home-care-bathing-transfer-storage-safety-flow",
+      "title": "居家照護動線：沐浴、移位、收納與安全提醒怎麼看",
+      "publishedAt": "2026-06-21T10:47:17Z",
+      "url": "https://tw.elitefasion.com/wellness-movement/home-care-bathing-transfer-storage-safety-flow",
+      "file": "wellness-movement/home-care-bathing-transfer-storage-safety-flow.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/home-care-bathing-transfer-storage-safety-flow.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B09",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-nine-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260621104717-summer-low-pressure-sun-sleep-drink-light-food",
+      "title": "夏季低負擔日常：防曬、降噪睡眠、飲品與輕食補給",
+      "publishedAt": "2026-06-21T10:47:17Z",
+      "url": "https://tw.elitefasion.com/wellness-movement/summer-low-pressure-sun-sleep-drink-light-food",
+      "file": "wellness-movement/summer-low-pressure-sun-sleep-drink-light-food.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/summer-low-pressure-sun-sleep-drink-light-food.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B09",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-nine-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260621104717-desk-cable-charger-monitor-protection-backup-organizer",
+      "title": "桌面線材怎麼整理：充電器、螢幕線、保護貼與備份小物",
+      "publishedAt": "2026-06-21T10:47:17Z",
+      "url": "https://tw.elitefasion.com/ai-innovation/desk-cable-charger-monitor-protection-backup-organizer",
+      "file": "ai-innovation/desk-cable-charger-monitor-protection-backup-organizer.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/desk-cable-charger-monitor-protection-backup-organizer.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B09",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-nine-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260621104716-remote-work-bag-charging-audio-presentation-storage",
+      "title": "遠距工作包清單：充電、耳機、簡報線材與移動收納",
+      "publishedAt": "2026-06-21T10:47:16Z",
+      "url": "https://tw.elitefasion.com/ai-innovation/remote-work-bag-charging-audio-presentation-storage",
+      "file": "ai-innovation/remote-work-bag-charging-audio-presentation-storage.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/remote-work-bag-charging-audio-presentation-storage.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B09",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-nine-no-newsletter"
+    },
     {
       "articleId": "auto-20260621102801-cold-brew-tea-gift-box-afternoon-decision",
       "title": "冷泡茶與茶禮盒：日常飲用、送禮與下午茶的不同判斷",

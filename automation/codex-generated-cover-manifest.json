@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T10:28:01Z",
+  "updatedAt": "2026-06-21T10:47:17Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -915,6 +915,66 @@
       "generatedAt": "2026-06-21T10:28:01Z",
       "usage": "cover-og-twitter",
       "promptSummary": "窗邊餐桌上有玻璃冷泡茶壺、無字茶包、素色茶禮盒、小點心、茶杯與綠色緞帶",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "remote-work-bag-charging-audio-presentation-storage": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/remote-work-bag-charging-audio-presentation-storage.jpg",
+      "output": "images/optimized/article-covers/remote-work-bag-charging-audio-presentation-storage.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37bd8e7fbc819396f32c89f054de69.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37bd8e7fbc819396f32c89f054de69.png",
+      "sha256": "c651ef250346075f3f4a4771d9f75ca9d0e2a275756f3b2e516a14fd4ac4faec",
+      "generatedAt": "2026-06-21T10:47:16Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "機場貴賓室大理石桌面上有無品牌工作包、筆電、充電線、耳機盒、簡報轉接器與收納包",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "desk-cable-charger-monitor-protection-backup-organizer": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/desk-cable-charger-monitor-protection-backup-organizer.jpg",
+      "output": "images/optimized/article-covers/desk-cable-charger-monitor-protection-backup-organizer.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37bdcebfd881939d71a114ab73a7e4.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37bdcebfd881939d71a114ab73a7e4.png",
+      "sha256": "7d4daccead8c0aeb331849f5744bee7f3f4ac19fe17e4ba250260b717ae3dccb",
+      "generatedAt": "2026-06-21T10:47:17Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "灰色升降桌上有無品牌外接螢幕、充電器、螢幕線、保護貼套、備份硬碟與分格收納盒",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "summer-low-pressure-sun-sleep-drink-light-food": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/summer-low-pressure-sun-sleep-drink-light-food.jpg",
+      "output": "images/optimized/article-covers/summer-low-pressure-sun-sleep-drink-light-food.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37be591d5c8193ae60476f214a74f4.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37be591d5c8193ae60476f214a74f4.png",
+      "sha256": "039fb0d425e5efb38bc9788c2520061c9a241f63deaaa28c7bd195483e0c1400",
+      "generatedAt": "2026-06-21T10:47:17Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "夏日明亮臥室與陽台旁有素色防曬外套、耳塞盒、冰飲、空白植物奶紙盒與輕食盤",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "home-care-bathing-transfer-storage-safety-flow": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/home-care-bathing-transfer-storage-safety-flow.jpg",
+      "output": "images/optimized/article-covers/home-care-bathing-transfer-storage-safety-flow.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37be9ad55881939b9eff765896df23.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37be9ad55881939b9eff765896df23.png",
+      "sha256": "d0bac5e3390f27f053e0639830d58cba55292dd87f1355bd26d9212bdefe360d",
+      "generatedAt": "2026-06-21T10:47:17Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮無障礙浴室裡有無品牌沐浴椅、扶手、移位板、止滑墊、毛巾與開放式收納架",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "scent-bodycare-gift-essential-oil-towel-goods": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/scent-bodycare-gift-essential-oil-towel-goods.jpg",
+      "output": "images/optimized/article-covers/scent-bodycare-gift-essential-oil-towel-goods.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37bee27658819399ebb25659801aa8.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_02dd0d2c5ed5c541016a37bee27658819399ebb25659801aa8.png",
+      "sha256": "014f87ebc40535a0d6a124a0a1a3ffff5e1d8749e40416826471a7a1429c93db",
+      "generatedAt": "2026-06-21T10:47:17Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "深色梳妝台上有空白琥珀精油瓶、無品牌陶瓷蠟燭、折疊毛巾、無字香皂、禮盒與木質小物",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }
