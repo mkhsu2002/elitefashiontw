@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-06-22T00:30:38Z",
+  "updatedAt": "2026-06-22T01:07:37Z",
   "latest": [
+    {
+      "id": "auto-20260622010736-coffee-tea-gift-table-tableware-snack-scent-custom",
+      "title": "咖啡茶與伴手禮桌：杯盤、茶點、香氛與客製小物",
+      "excerpt": "咖啡茶與伴手禮桌要先看對方會不會使用，再決定杯盤、茶點、香氛與客製小物。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T01:07:36Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "lifestyle-culture/coffee-tea-gift-table-tableware-snack-scent-custom",
+      "heroImage": "/images/optimized/article-covers/coffee-tea-gift-table-tableware-snack-scent-custom.jpg",
+      "tags": [
+        "咖啡茶",
+        "伴手禮",
+        "杯盤",
+        "香氛小物"
+      ]
+    },
+    {
+      "id": "auto-20260622010736-desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp",
+      "title": "桌面下午茶儀式：咖啡杯、茶包、點心、香氛與閱讀燈",
+      "excerpt": "桌面下午茶儀式要控制杯具、茶包、點心、香氛和閱讀燈的份量與收尾。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T01:07:36Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "lifestyle-culture/desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp",
+      "heroImage": "/images/optimized/article-covers/desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp.jpg",
+      "tags": [
+        "下午茶",
+        "桌面儀式",
+        "咖啡杯",
+        "閱讀燈"
+      ]
+    },
+    {
+      "id": "auto-20260622010736-family-bathroom-restock-towel-cleaning-oral-care-storage",
+      "title": "家庭浴室補貨：毛巾、清潔、口腔用品與收納動線",
+      "excerpt": "家庭浴室補貨要先看使用人數、乾濕分區、毛巾輪替與口腔用品高度，再決定要補什麼。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T01:07:36Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "lifestyle-culture/family-bathroom-restock-towel-cleaning-oral-care-storage",
+      "heroImage": "/images/optimized/article-covers/family-bathroom-restock-towel-cleaning-oral-care-storage.jpg",
+      "tags": [
+        "浴室補貨",
+        "毛巾",
+        "口腔用品",
+        "浴室收納"
+      ]
+    },
+    {
+      "id": "auto-20260622010736-night-before-travel-luggage-rain-charging-sleep-brace-check",
+      "title": "旅行前一晚的採買檢查：行李箱、雨具、充電、睡眠與護具",
+      "excerpt": "旅行前一晚採買檢查要分明天早上要拿、路上會用、抵達後才用三層。",
+      "category": "outdoor-escapes",
+      "categoryLabel": "戶外生活",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T01:07:36Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "outdoor-escapes/night-before-travel-luggage-rain-charging-sleep-brace-check",
+      "heroImage": "/images/optimized/article-covers/night-before-travel-luggage-rain-charging-sleep-brace-check.jpg",
+      "tags": [
+        "旅行前檢查",
+        "行李箱",
+        "雨具",
+        "充電備品"
+      ]
+    },
+    {
+      "id": "auto-20260622010736-weekend-home-reset-cleaning-laundry-bedding-restock-bag",
+      "title": "週末家務重整：清潔、洗衣、床寢、補貨與出門包",
+      "excerpt": "週末家務重整先排清潔、洗衣、床寢、補貨與出門包的順序，才不會把週末變成無止境採買。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T01:07:36Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "lifestyle-culture/weekend-home-reset-cleaning-laundry-bedding-restock-bag",
+      "heroImage": "/images/optimized/article-covers/weekend-home-reset-cleaning-laundry-bedding-restock-bag.jpg",
+      "tags": [
+        "週末家務",
+        "清潔洗衣",
+        "床寢補貨",
+        "出門包"
+      ]
+    },
     {
       "id": "auto-20260622003037-efficient-desk-cushion-backrest-monitor-storage-order",
       "title": "高效率桌面別只買大桌：椅墊、靠枕、螢幕與收納順序",
@@ -125,96 +215,6 @@
         "城市週末",
         "CPL濾鏡",
         "防曬外套"
-      ]
-    },
-    {
-      "id": "auto-20260622000633-presentation-day-remote-gear-headset-mic-monitor-light",
-      "title": "簡報日的遠距設備：耳機、麥克風、螢幕與桌面光線",
-      "excerpt": "簡報日設備要先看聲音、畫面、光線與備援，再比較耳機、麥克風、螢幕、桌燈和線材。",
-      "category": "ai-innovation",
-      "categoryLabel": "人工智能",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-22T00:06:33Z",
-      "publishedDateText": "2026年6月22日",
-      "relativeUrl": "ai-innovation/presentation-day-remote-gear-headset-mic-monitor-light",
-      "heroImage": "/images/optimized/article-covers/presentation-day-remote-gear-headset-mic-monitor-light.jpg",
-      "tags": [
-        "遠距簡報",
-        "耳機麥克風",
-        "外接螢幕",
-        "桌面光線"
-      ]
-    },
-    {
-      "id": "auto-20260622000633-swimming-outdoor-class-goggles-sun-towel-storage-bag",
-      "title": "游泳與戶外課前準備：泳鏡、防曬、毛巾與收納袋",
-      "excerpt": "游泳與戶外課準備要先分乾濕、日曬、回家清洗與補水，再決定泳鏡、防曬、毛巾和收納袋。",
-      "category": "outdoor-escapes",
-      "categoryLabel": "戶外生活",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-22T00:06:33Z",
-      "publishedDateText": "2026年6月22日",
-      "relativeUrl": "outdoor-escapes/swimming-outdoor-class-goggles-sun-towel-storage-bag",
-      "heroImage": "/images/optimized/article-covers/swimming-outdoor-class-goggles-sun-towel-storage-bag.jpg",
-      "tags": [
-        "游泳課",
-        "泳鏡",
-        "防曬",
-        "乾濕分離"
-      ]
-    },
-    {
-      "id": "auto-20260622000632-patio-balcony-shade-outdoor-chair-storage-plant-care",
-      "title": "小陽台與庭院用品：遮陽、戶外椅、收納與植物照顧",
-      "excerpt": "小陽台先分遮陽、坐下、澆水與收納四件事，再決定戶外椅、遮陽用品和植物工具要買到哪裡。",
-      "category": "outdoor-escapes",
-      "categoryLabel": "戶外生活",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-22T00:06:32Z",
-      "publishedDateText": "2026年6月22日",
-      "relativeUrl": "outdoor-escapes/patio-balcony-shade-outdoor-chair-storage-plant-care",
-      "heroImage": "/images/optimized/article-covers/patio-balcony-shade-outdoor-chair-storage-plant-care.jpg",
-      "tags": [
-        "小陽台",
-        "戶外椅",
-        "遮陽",
-        "植物照顧"
-      ]
-    },
-    {
-      "id": "auto-20260621180852-closet-laundry-hanger-storage-towel-bedding-supplies",
-      "title": "衣櫃與洗衣區整理：衣架、收納箱、毛巾與床寢備品",
-      "excerpt": "衣櫃與洗衣區不是收越多越好，先分每天拿、每週洗、換季收，才知道衣架、收納箱、毛巾與床寢要買到哪裡。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T18:08:52Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "lifestyle-culture/closet-laundry-hanger-storage-towel-bedding-supplies",
-      "heroImage": "/images/optimized/article-covers/closet-laundry-hanger-storage-towel-bedding-supplies.jpg",
-      "tags": [
-        "衣櫃收納",
-        "洗衣區整理",
-        "毛巾床寢",
-        "居家備品"
-      ]
-    },
-    {
-      "id": "auto-20260621180852-home-cleaning-tool-wall-mop-broom-sink-trash-bin",
-      "title": "居家清潔工具牆：平板拖把、掃把、水槽清潔與垃圾桶",
-      "excerpt": "清潔工具牆要先分地面、水槽、垃圾與擦拭四類，再決定平板拖把、掃把、刷具與垃圾桶放哪裡。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T18:08:52Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "lifestyle-culture/home-cleaning-tool-wall-mop-broom-sink-trash-bin",
-      "heroImage": "/images/optimized/article-covers/home-cleaning-tool-wall-mop-broom-sink-trash-bin.jpg",
-      "tags": [
-        "清潔工具",
-        "平板拖把",
-        "水槽清潔",
-        "垃圾桶收納"
       ]
     }
   ],
@@ -837,6 +837,24 @@
       "label": "戶外生活",
       "items": [
         {
+          "id": "auto-20260622010736-night-before-travel-luggage-rain-charging-sleep-brace-check",
+          "title": "旅行前一晚的採買檢查：行李箱、雨具、充電、睡眠與護具",
+          "excerpt": "旅行前一晚採買檢查要分明天早上要拿、路上會用、抵達後才用三層。",
+          "category": "outdoor-escapes",
+          "categoryLabel": "戶外生活",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T01:07:36Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "outdoor-escapes/night-before-travel-luggage-rain-charging-sleep-brace-check",
+          "heroImage": "/images/optimized/article-covers/night-before-travel-luggage-rain-charging-sleep-brace-check.jpg",
+          "tags": [
+            "旅行前檢查",
+            "行李箱",
+            "雨具",
+            "充電備品"
+          ]
+        },
+        {
           "id": "auto-20260622000633-swimming-outdoor-class-goggles-sun-towel-storage-bag",
           "title": "游泳與戶外課前準備：泳鏡、防曬、毛巾與收納袋",
           "excerpt": "游泳與戶外課準備要先分乾濕、日曬、回家清洗與補水，再決定泳鏡、防曬、毛巾和收納袋。",
@@ -925,30 +943,84 @@
             "手沖鍋具",
             "冷凍食材"
           ]
-        },
-        {
-          "id": "auto-20260621102800-road-scooter-dashcam-reflective-rain-charging-kit",
-          "title": "自駕與機車移動備案：行車紀錄、反光配件、雨具與充電",
-          "excerpt": "自駕與機車備案要先看路線、天氣、安裝與充電，再比較行車紀錄、反光、雨具與電力。",
-          "category": "outdoor-escapes",
-          "categoryLabel": "戶外生活",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T10:28:00Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "outdoor-escapes/road-scooter-dashcam-reflective-rain-charging-kit",
-          "heroImage": "/images/optimized/article-covers/road-scooter-dashcam-reflective-rain-charging-kit.jpg",
-          "tags": [
-            "機車通勤",
-            "行車紀錄器",
-            "反光配件",
-            "雨具充電"
-          ]
         }
       ]
     },
     "lifestyle-culture": {
       "label": "生活品味",
       "items": [
+        {
+          "id": "auto-20260622010736-coffee-tea-gift-table-tableware-snack-scent-custom",
+          "title": "咖啡茶與伴手禮桌：杯盤、茶點、香氛與客製小物",
+          "excerpt": "咖啡茶與伴手禮桌要先看對方會不會使用，再決定杯盤、茶點、香氛與客製小物。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T01:07:36Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "lifestyle-culture/coffee-tea-gift-table-tableware-snack-scent-custom",
+          "heroImage": "/images/optimized/article-covers/coffee-tea-gift-table-tableware-snack-scent-custom.jpg",
+          "tags": [
+            "咖啡茶",
+            "伴手禮",
+            "杯盤",
+            "香氛小物"
+          ]
+        },
+        {
+          "id": "auto-20260622010736-desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp",
+          "title": "桌面下午茶儀式：咖啡杯、茶包、點心、香氛與閱讀燈",
+          "excerpt": "桌面下午茶儀式要控制杯具、茶包、點心、香氛和閱讀燈的份量與收尾。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T01:07:36Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "lifestyle-culture/desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp",
+          "heroImage": "/images/optimized/article-covers/desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp.jpg",
+          "tags": [
+            "下午茶",
+            "桌面儀式",
+            "咖啡杯",
+            "閱讀燈"
+          ]
+        },
+        {
+          "id": "auto-20260622010736-family-bathroom-restock-towel-cleaning-oral-care-storage",
+          "title": "家庭浴室補貨：毛巾、清潔、口腔用品與收納動線",
+          "excerpt": "家庭浴室補貨要先看使用人數、乾濕分區、毛巾輪替與口腔用品高度，再決定要補什麼。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T01:07:36Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "lifestyle-culture/family-bathroom-restock-towel-cleaning-oral-care-storage",
+          "heroImage": "/images/optimized/article-covers/family-bathroom-restock-towel-cleaning-oral-care-storage.jpg",
+          "tags": [
+            "浴室補貨",
+            "毛巾",
+            "口腔用品",
+            "浴室收納"
+          ]
+        },
+        {
+          "id": "auto-20260622010736-weekend-home-reset-cleaning-laundry-bedding-restock-bag",
+          "title": "週末家務重整：清潔、洗衣、床寢、補貨與出門包",
+          "excerpt": "週末家務重整先排清潔、洗衣、床寢、補貨與出門包的順序，才不會把週末變成無止境採買。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T01:07:36Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "lifestyle-culture/weekend-home-reset-cleaning-laundry-bedding-restock-bag",
+          "heroImage": "/images/optimized/article-covers/weekend-home-reset-cleaning-laundry-bedding-restock-bag.jpg",
+          "tags": [
+            "週末家務",
+            "清潔洗衣",
+            "床寢補貨",
+            "出門包"
+          ]
+        },
         {
           "id": "auto-20260621180852-closet-laundry-hanger-storage-towel-bedding-supplies",
           "title": "衣櫃與洗衣區整理：衣架、收納箱、毛巾與床寢備品",
@@ -983,78 +1055,6 @@
             "平板拖把",
             "水槽清潔",
             "垃圾桶收納"
-          ]
-        },
-        {
-          "id": "auto-20260621180852-rental-refresh-sticker-light-storage-movable-furniture",
-          "title": "租屋改造不動工：貼皮、燈光、收納與可移動家具",
-          "excerpt": "租屋改造不動工要先看可復原性、插座位置、收納容量與搬家成本，再比較貼皮、燈具與可移動家具。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T18:08:52Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/rental-refresh-sticker-light-storage-movable-furniture",
-          "heroImage": "/images/optimized/article-covers/rental-refresh-sticker-light-storage-movable-furniture.jpg",
-          "tags": [
-            "租屋改造",
-            "不動工佈置",
-            "可移動家具",
-            "居家收納"
-          ]
-        },
-        {
-          "id": "auto-20260621123703-entryway-shoe-cabinet-umbrella-bag-cleaning-tools",
-          "title": "玄關不是倉庫：鞋櫃、傘架、外出包與清潔工具怎麼分工",
-          "excerpt": "玄關分工要先看鞋櫃容量、傘具濕物、外出包暫放與清潔工具位置，再比較家具與收納品。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T12:37:03Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/entryway-shoe-cabinet-umbrella-bag-cleaning-tools",
-          "heroImage": "/images/optimized/article-covers/entryway-shoe-cabinet-umbrella-bag-cleaning-tools.jpg",
-          "tags": [
-            "玄關收納",
-            "鞋櫃傘架",
-            "外出包",
-            "清潔工具"
-          ]
-        },
-        {
-          "id": "auto-20260621123703-family-weekend-table-frozen-food-cookware-tableware-tea",
-          "title": "家庭餐桌週末補貨：冷凍食品、鍋具、餐具與茶點",
-          "excerpt": "家庭餐桌週末補貨要先看冷凍保存、鍋具容量、餐具數量與茶點時段，再比較品牌。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T12:37:03Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/family-weekend-table-frozen-food-cookware-tableware-tea",
-          "heroImage": "/images/optimized/article-covers/family-weekend-table-frozen-food-cookware-tableware-tea.jpg",
-          "tags": [
-            "家庭餐桌",
-            "冷凍食品",
-            "鍋具餐具",
-            "茶點補貨"
-          ]
-        },
-        {
-          "id": "auto-20260621123703-office-snack-cabinet-nuts-dessert-tea-coffee-layers",
-          "title": "辦公室點心櫃：堅果、甜點、茶飲與咖啡怎麼分層",
-          "excerpt": "辦公室點心櫃要先看保存、份量、咖啡因與共享便利性，再分堅果、甜點、茶飲與咖啡。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T12:37:03Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/office-snack-cabinet-nuts-dessert-tea-coffee-layers",
-          "heroImage": "/images/optimized/article-covers/office-snack-cabinet-nuts-dessert-tea-coffee-layers.jpg",
-          "tags": [
-            "辦公室點心",
-            "堅果甜點",
-            "茶飲咖啡",
-            "茶水間收納"
           ]
         }
       ]

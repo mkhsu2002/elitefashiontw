@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-22T00:30:37Z",
+  "updatedAt": "2026-06-22T01:07:36Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -1335,6 +1335,66 @@
       "generatedAt": "2026-06-22T00:30:37Z",
       "usage": "cover-og-twitter",
       "promptSummary": "溫暖閱讀角落有檯燈、兩副眼鏡、空白封面書、收納盒、毛毯與無標籤照護備品籃",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "family-bathroom-restock-towel-cleaning-oral-care-storage": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/family-bathroom-restock-towel-cleaning-oral-care-storage.jpg",
+      "output": "images/optimized/article-covers/family-bathroom-restock-towel-cleaning-oral-care-storage.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0b443cf65105518e016a3885845ee4819b93cc019e2a0043a0.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0b443cf65105518e016a3885845ee4819b93cc019e2a0043a0.png",
+      "sha256": "e6770b343b0367c93e81f0c4745c2308a7b0fa328d7c70ae71d2eac1c83cc1a8",
+      "generatedAt": "2026-06-22T01:07:36Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮家庭浴室層架有毛巾、牙刷杯、棉花棒、收納籃、清潔布與綠植",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "coffee-tea-gift-table-tableware-snack-scent-custom": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/coffee-tea-gift-table-tableware-snack-scent-custom.jpg",
+      "output": "images/optimized/article-covers/coffee-tea-gift-table-tableware-snack-scent-custom.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0b443cf65105518e016a3883d7b6c0819b8d8d250c651cf905.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0b443cf65105518e016a3883d7b6c0819b8d8d250c651cf905.png",
+      "sha256": "cf66a58d9ff60b6f4d2bd60bcb9470d68d94005b853c6cf6c8028439ecae7ebc",
+      "generatedAt": "2026-06-22T01:07:36Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "花園窗邊餐桌上有咖啡杯、茶壺、點心、陶瓷香氛、空白禮物標籤與小布袋",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "weekend-home-reset-cleaning-laundry-bedding-restock-bag": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/weekend-home-reset-cleaning-laundry-bedding-restock-bag.jpg",
+      "output": "images/optimized/article-covers/weekend-home-reset-cleaning-laundry-bedding-restock-bag.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0b443cf65105518e016a3885f31420819baf65970bcee9b487.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0b443cf65105518e016a3885f31420819baf65970bcee9b487.png",
+      "sha256": "678e335bb1e53c439b19df056543d0211002bfaaf2a36839c12e8930247ce5a9",
+      "generatedAt": "2026-06-22T01:07:36Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "週末晨光中木桌上有床寢、洗衣籃、清潔布、補貨籃、外出包與牛仔外套",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp.jpg",
+      "output": "images/optimized/article-covers/desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0b443cf65105518e016a388658c860819b8c84084ce7173525.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0b443cf65105518e016a388658c860819b8c84084ce7173525.png",
+      "sha256": "1aed1a1f560a235cddc06f188208c2d4132e7e49fe9ac6880dacfee7c2f14771",
+      "generatedAt": "2026-06-22T01:07:36Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "午後木質工作桌有咖啡杯、空白茶包、點心盤、香氛陶器、黃銅閱讀燈與空白筆記本",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "night-before-travel-luggage-rain-charging-sleep-brace-check": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/night-before-travel-luggage-rain-charging-sleep-brace-check.jpg",
+      "output": "images/optimized/article-covers/night-before-travel-luggage-rain-charging-sleep-brace-check.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0a93ec7fad90bf60016a38871105948199bec618d0d215ed56.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0a93ec7fad90bf60016a38871105948199bec618d0d215ed56.png",
+      "sha256": "3f659c79d1bf8ba3878ccb9d257f868688782b7b07f2da31f8ecede0fe5e365f",
+      "generatedAt": "2026-06-22T01:07:36Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "旅行前一晚臥室長椅上有無標誌軟行李包、雨衣、折傘、行動電源、線材、耳塞盒與護具束帶",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }

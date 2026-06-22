@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-22T01:07:36Z｜旅行前一晚的採買檢查：行李箱、雨具、充電、睡眠與護具
+
+- 文章 ID：auto-20260622010736-night-before-travel-luggage-rain-charging-sleep-brace-check
+- URL：https://tw.elitefasion.com/outdoor-escapes/night-before-travel-luggage-rain-charging-sleep-brace-check
+- 檔案：outdoor-escapes/night-before-travel-luggage-rain-charging-sleep-brace-check.html
+- 類型：manual-codex-momo-revenue-growth-batch-sixteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B16
+
+## 2026-06-22T01:07:36Z｜桌面下午茶儀式：咖啡杯、茶包、點心、香氛與閱讀燈
+
+- 文章 ID：auto-20260622010736-desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp
+- URL：https://tw.elitefasion.com/lifestyle-culture/desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp
+- 檔案：lifestyle-culture/desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp.html
+- 類型：manual-codex-momo-revenue-growth-batch-sixteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B16
+
+## 2026-06-22T01:07:36Z｜週末家務重整：清潔、洗衣、床寢、補貨與出門包
+
+- 文章 ID：auto-20260622010736-weekend-home-reset-cleaning-laundry-bedding-restock-bag
+- URL：https://tw.elitefasion.com/lifestyle-culture/weekend-home-reset-cleaning-laundry-bedding-restock-bag
+- 檔案：lifestyle-culture/weekend-home-reset-cleaning-laundry-bedding-restock-bag.html
+- 類型：manual-codex-momo-revenue-growth-batch-sixteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B16
+
+## 2026-06-22T01:07:36Z｜咖啡茶與伴手禮桌：杯盤、茶點、香氛與客製小物
+
+- 文章 ID：auto-20260622010736-coffee-tea-gift-table-tableware-snack-scent-custom
+- URL：https://tw.elitefasion.com/lifestyle-culture/coffee-tea-gift-table-tableware-snack-scent-custom
+- 檔案：lifestyle-culture/coffee-tea-gift-table-tableware-snack-scent-custom.html
+- 類型：manual-codex-momo-revenue-growth-batch-sixteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B16
+
+## 2026-06-22T01:07:36Z｜家庭浴室補貨：毛巾、清潔、口腔用品與收納動線
+
+- 文章 ID：auto-20260622010736-family-bathroom-restock-towel-cleaning-oral-care-storage
+- URL：https://tw.elitefasion.com/lifestyle-culture/family-bathroom-restock-towel-cleaning-oral-care-storage
+- 檔案：lifestyle-culture/family-bathroom-restock-towel-cleaning-oral-care-storage.html
+- 類型：manual-codex-momo-revenue-growth-batch-sixteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B16
+
 ## 2026-06-22T00:30:37Z｜長輩閱讀與照護角落：檯燈、眼鏡、收納與照護用品
 
 - 文章 ID：auto-20260622003037-elder-reading-care-corner-lamp-glasses-storage-care-supplies
