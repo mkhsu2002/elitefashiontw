@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-22T00:30:37Z｜長輩閱讀與照護角落：檯燈、眼鏡、收納與照護用品
+
+- 文章 ID：auto-20260622003037-elder-reading-care-corner-lamp-glasses-storage-care-supplies
+- URL：https://tw.elitefasion.com/wellness-movement/elder-reading-care-corner-lamp-glasses-storage-care-supplies
+- 檔案：wellness-movement/elder-reading-care-corner-lamp-glasses-storage-care-supplies.html
+- 類型：manual-codex-momo-revenue-growth-batch-fifteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B15
+
+## 2026-06-22T00:30:37Z｜長途移動恢復包：耳塞、護具、行李箱、茶包與防曬
+
+- 文章 ID：auto-20260622003037-long-trip-recovery-kit-earplug-brace-luggage-tea-sun
+- URL：https://tw.elitefasion.com/wellness-movement/long-trip-recovery-kit-earplug-brace-luggage-tea-sun
+- 檔案：wellness-movement/long-trip-recovery-kit-earplug-brace-luggage-tea-sun.html
+- 類型：manual-codex-momo-revenue-growth-batch-fifteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B15
+
+## 2026-06-22T00:30:37Z｜夏季辦公室冷氣備案：薄外套、熱飲、耳塞與桌面燈
+
+- 文章 ID：auto-20260622003037-summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp
+- URL：https://tw.elitefasion.com/wellness-movement/summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp
+- 檔案：wellness-movement/summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp.html
+- 類型：manual-codex-momo-revenue-growth-batch-fifteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B15
+
+## 2026-06-22T00:30:37Z｜工作角落的聲音整理：耳機、喇叭、降噪與會議收音
+
+- 文章 ID：auto-20260622003037-work-corner-sound-headphones-speaker-noise-meeting-audio
+- URL：https://tw.elitefasion.com/ai-innovation/work-corner-sound-headphones-speaker-noise-meeting-audio
+- 檔案：ai-innovation/work-corner-sound-headphones-speaker-noise-meeting-audio.html
+- 類型：manual-codex-momo-revenue-growth-batch-fifteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B15
+
+## 2026-06-22T00:30:37Z｜高效率桌面別只買大桌：椅墊、靠枕、螢幕與收納順序
+
+- 文章 ID：auto-20260622003037-efficient-desk-cushion-backrest-monitor-storage-order
+- URL：https://tw.elitefasion.com/ai-innovation/efficient-desk-cushion-backrest-monitor-storage-order
+- 檔案：ai-innovation/efficient-desk-cushion-backrest-monitor-storage-order.html
+- 類型：manual-codex-momo-revenue-growth-batch-fifteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B15
+
 ## 2026-06-22T00:06:33Z｜簡報日的遠距設備：耳機、麥克風、螢幕與桌面光線
 
 - 文章 ID：auto-20260622000633-presentation-day-remote-gear-headset-mic-monitor-light

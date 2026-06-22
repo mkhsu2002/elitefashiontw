@@ -1,7 +1,422 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-22T00:06:33Z",
+  "updatedAt": "2026-06-22T00:30:37Z",
   "entries": [
+    {
+      "articleId": "auto-20260622003037-elder-reading-care-corner-lamp-glasses-storage-care-supplies",
+      "slug": "elder-reading-care-corner-lamp-glasses-storage-care-supplies",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-22T00:30:37Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0007295/main",
+        "https://www.momoshop.com.tw/TP/TP0009515/main",
+        "https://www.momoshop.com.tw/TP/TP0005698/main",
+        "https://www.momoshop.com.tw/TP/TP0008844/main",
+        "https://www.momoshop.com.tw/TP/TP0005953/main",
+        "https://www.momoshop.com.tw/TP/TP0004949/main",
+        "https://s.momoshop.com.tw/s/94QtsVvN",
+        "https://s.momoshop.com.tw/s/dkaqpz0C",
+        "https://s.momoshop.com.tw/s/3gYTg55i",
+        "https://s.momoshop.com.tw/s/2EwkaNe8",
+        "https://s.momoshop.com.tw/s/4sSbnDHc",
+        "https://s.momoshop.com.tw/s/HRLuciO6",
+        "https://tw.elitefasion.com/wellness-movement/elder-reading-care-corner-lamp-glasses-storage-care-supplies",
+        "https://tw.elitefasion.com/images/optimized/article-covers/elder-reading-care-corner-lamp-glasses-storage-care-supplies.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260622003037-long-trip-recovery-kit-earplug-brace-luggage-tea-sun",
+      "slug": "long-trip-recovery-kit-earplug-brace-luggage-tea-sun",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-22T00:30:37Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0003593/main",
+        "https://www.momoshop.com.tw/TP/TP0003385/main",
+        "https://www.momoshop.com.tw/TP/TP0002546/main",
+        "https://www.momoshop.com.tw/TP/TP0005142/main",
+        "https://www.momoshop.com.tw/TP/TP0000116/main",
+        "https://www.momoshop.com.tw/TP/TP0005684/main",
+        "https://s.momoshop.com.tw/s/zymRpNpU",
+        "https://s.momoshop.com.tw/s/ARNPduxj",
+        "https://s.momoshop.com.tw/s/OagsJNH4",
+        "https://s.momoshop.com.tw/s/fQyUCDn2",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3",
+        "https://s.momoshop.com.tw/s/swCkSJDA",
+        "https://tw.elitefasion.com/wellness-movement/long-trip-recovery-kit-earplug-brace-luggage-tea-sun",
+        "https://tw.elitefasion.com/images/optimized/article-covers/long-trip-recovery-kit-earplug-brace-luggage-tea-sun.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260622003037-summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp",
+      "slug": "summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp",
+      "riskLevel": "high",
+      "checkedAt": "2026-06-22T00:30:37Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0007424/main",
+        "https://www.momoshop.com.tw/TP/TP0005142/main",
+        "https://www.momoshop.com.tw/TP/TP0003593/main",
+        "https://www.momoshop.com.tw/TP/TP0007295/main",
+        "https://www.momoshop.com.tw/TP/TP0000116/main",
+        "https://www.momoshop.com.tw/TP/TP0002458/main",
+        "https://s.momoshop.com.tw/s/osiHlmau",
+        "https://s.momoshop.com.tw/s/fQyUCDn2",
+        "https://s.momoshop.com.tw/s/zymRpNpU",
+        "https://s.momoshop.com.tw/s/94QtsVvN",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3",
+        "https://s.momoshop.com.tw/s/ZzrRLijd",
+        "https://tw.elitefasion.com/wellness-movement/summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp",
+        "https://tw.elitefasion.com/images/optimized/article-covers/summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260622003037-work-corner-sound-headphones-speaker-noise-meeting-audio",
+      "slug": "work-corner-sound-headphones-speaker-noise-meeting-audio",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-22T00:30:37Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0001204/main",
+        "https://www.momoshop.com.tw/TP/TP0007934/main",
+        "https://www.momoshop.com.tw/TP/TP0006348/main",
+        "https://www.momoshop.com.tw/TP/TP0003593/main",
+        "https://www.momoshop.com.tw/TP/TP0005967/main",
+        "https://www.momoshop.com.tw/TP/TP0009476/main",
+        "https://s.momoshop.com.tw/s/QRphUL7q",
+        "https://s.momoshop.com.tw/s/nlK1JGh6",
+        "https://s.momoshop.com.tw/s/6VaimQ3z",
+        "https://s.momoshop.com.tw/s/zymRpNpU",
+        "https://s.momoshop.com.tw/s/NbN84MXv",
+        "https://s.momoshop.com.tw/s/LJfvOb7h",
+        "https://tw.elitefasion.com/ai-innovation/work-corner-sound-headphones-speaker-noise-meeting-audio",
+        "https://tw.elitefasion.com/images/optimized/article-covers/work-corner-sound-headphones-speaker-noise-meeting-audio.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
+    {
+      "articleId": "auto-20260622003037-efficient-desk-cushion-backrest-monitor-storage-order",
+      "slug": "efficient-desk-cushion-backrest-monitor-storage-order",
+      "riskLevel": "medium",
+      "checkedAt": "2026-06-22T00:30:37Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        },
+        {
+          "name": "editorial-auditor",
+          "passed": true,
+          "note": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0007407/main",
+        "https://www.momoshop.com.tw/TP/TP0006481/main",
+        "https://www.momoshop.com.tw/TP/TP0005967/main",
+        "https://www.momoshop.com.tw/TP/TP0006348/main",
+        "https://www.momoshop.com.tw/TP/TP0005953/main",
+        "https://www.momoshop.com.tw/TP/TP0007295/main",
+        "https://s.momoshop.com.tw/s/5ME3fNxI",
+        "https://s.momoshop.com.tw/s/HnjPEoa8",
+        "https://s.momoshop.com.tw/s/NbN84MXv",
+        "https://s.momoshop.com.tw/s/6VaimQ3z",
+        "https://s.momoshop.com.tw/s/4sSbnDHc",
+        "https://s.momoshop.com.tw/s/94QtsVvN",
+        "https://tw.elitefasion.com/ai-innovation/efficient-desk-cushion-backrest-monitor-storage-order",
+        "https://tw.elitefasion.com/images/optimized/article-covers/efficient-desk-cushion-backrest-monitor-storage-order.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
+        "https://schema.org",
+        "https://www.instagram.com/northpath.ca"
+      ],
+      "reviewer": "automation",
+      "editorialAudit": {
+        "publishReady": true,
+        "summary": "模型校稿未啟用或缺少模型 API key，已完成 deterministic 真實性審核。",
+        "checks": [],
+        "requiredFixes": [],
+        "skipped": true
+      }
+    },
     {
       "articleId": "auto-20260622000633-presentation-day-remote-gear-headset-mic-monitor-light",
       "slug": "presentation-day-remote-gear-headset-mic-monitor-light",

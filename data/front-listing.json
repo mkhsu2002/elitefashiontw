@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-06-22T00:06:33Z",
+  "updatedAt": "2026-06-22T00:30:38Z",
   "latest": [
+    {
+      "id": "auto-20260622003037-efficient-desk-cushion-backrest-monitor-storage-order",
+      "title": "高效率桌面別只買大桌：椅墊、靠枕、螢幕與收納順序",
+      "excerpt": "桌面效率先看坐姿、視線、收納與線材，再決定椅墊、靠枕、螢幕和收納品。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T00:30:37Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "ai-innovation/efficient-desk-cushion-backrest-monitor-storage-order",
+      "heroImage": "/images/optimized/article-covers/efficient-desk-cushion-backrest-monitor-storage-order.jpg",
+      "tags": [
+        "工作桌",
+        "椅墊靠枕",
+        "螢幕配置",
+        "桌面收納"
+      ]
+    },
+    {
+      "id": "auto-20260622003037-elder-reading-care-corner-lamp-glasses-storage-care-supplies",
+      "title": "長輩閱讀與照護角落：檯燈、眼鏡、收納與照護用品",
+      "excerpt": "閱讀與照護角落要先把光線、眼鏡、拿取高度與備品分層，讓家人不用每天翻找。",
+      "category": "wellness-movement",
+      "categoryLabel": "健康恢復",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T00:30:37Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "wellness-movement/elder-reading-care-corner-lamp-glasses-storage-care-supplies",
+      "heroImage": "/images/optimized/article-covers/elder-reading-care-corner-lamp-glasses-storage-care-supplies.jpg",
+      "tags": [
+        "閱讀角落",
+        "檯燈",
+        "眼鏡收納",
+        "照護備品"
+      ]
+    },
+    {
+      "id": "auto-20260622003037-long-trip-recovery-kit-earplug-brace-luggage-tea-sun",
+      "title": "長途移動恢復包：耳塞、護具、行李箱、茶包與防曬",
+      "excerpt": "長途移動恢復包要先看睡眠干擾、身體支撐、行李拿取和日曬變化，再放入耳塞、護具、茶包與防曬。",
+      "category": "wellness-movement",
+      "categoryLabel": "健康恢復",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T00:30:37Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "wellness-movement/long-trip-recovery-kit-earplug-brace-luggage-tea-sun",
+      "heroImage": "/images/optimized/article-covers/long-trip-recovery-kit-earplug-brace-luggage-tea-sun.jpg",
+      "tags": [
+        "長途旅行",
+        "耳塞",
+        "護具",
+        "行李箱"
+      ]
+    },
+    {
+      "id": "auto-20260622003037-summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp",
+      "title": "夏季辦公室冷氣備案：薄外套、熱飲、耳塞與桌面燈",
+      "excerpt": "夏季辦公室冷氣備案要處理溫差、噪音與光線，薄外套、熱飲、耳塞和桌燈各自有位置。",
+      "category": "wellness-movement",
+      "categoryLabel": "健康恢復",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T00:30:37Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "wellness-movement/summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp",
+      "heroImage": "/images/optimized/article-covers/summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp.jpg",
+      "tags": [
+        "辦公室冷氣",
+        "薄外套",
+        "耳塞",
+        "桌燈"
+      ]
+    },
+    {
+      "id": "auto-20260622003037-work-corner-sound-headphones-speaker-noise-meeting-audio",
+      "title": "工作角落的聲音整理：耳機、喇叭、降噪與會議收音",
+      "excerpt": "聲音整理要分會議、專注、播放與備援，不要讓耳機、喇叭和麥克風互相搶位置。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T00:30:37Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "ai-innovation/work-corner-sound-headphones-speaker-noise-meeting-audio",
+      "heroImage": "/images/optimized/article-covers/work-corner-sound-headphones-speaker-noise-meeting-audio.jpg",
+      "tags": [
+        "耳機",
+        "會議收音",
+        "桌面喇叭",
+        "工作角落"
+      ]
+    },
     {
       "id": "auto-20260622000633-car-phone-setup-mount-charger-cable-dashcam-rain",
       "title": "手機車用配置：手機架、車充、線材、行車紀錄與雨天備案",
@@ -126,102 +216,48 @@
         "水槽清潔",
         "垃圾桶收納"
       ]
-    },
-    {
-      "id": "auto-20260621180852-nightstand-bedtime-earplug-reading-light-scent-bedding",
-      "title": "床邊櫃與睡前小物：耳塞、閱讀燈、香氛與床寢怎麼放",
-      "excerpt": "床邊櫃只放睡前最後十五分鐘會用到的物件，耳塞、閱讀燈、香氛與床寢才不會變成雜物展示。",
-      "category": "wellness-movement",
-      "categoryLabel": "健康恢復",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T18:08:52Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "wellness-movement/nightstand-bedtime-earplug-reading-light-scent-bedding",
-      "heroImage": "/images/optimized/article-covers/nightstand-bedtime-earplug-reading-light-scent-bedding.jpg",
-      "tags": [
-        "床邊櫃",
-        "睡前小物",
-        "閱讀燈",
-        "香氛床寢"
-      ]
-    },
-    {
-      "id": "auto-20260621180852-rental-refresh-sticker-light-storage-movable-furniture",
-      "title": "租屋改造不動工：貼皮、燈光、收納與可移動家具",
-      "excerpt": "租屋改造不動工要先看可復原性、插座位置、收納容量與搬家成本，再比較貼皮、燈具與可移動家具。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T18:08:52Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "lifestyle-culture/rental-refresh-sticker-light-storage-movable-furniture",
-      "heroImage": "/images/optimized/article-covers/rental-refresh-sticker-light-storage-movable-furniture.jpg",
-      "tags": [
-        "租屋改造",
-        "不動工佈置",
-        "可移動家具",
-        "居家收納"
-      ]
-    },
-    {
-      "id": "auto-20260621180852-summer-bedding-tencel-quilt-protector-cool-blanket-order",
-      "title": "夏季床寢怎麼換：天絲、棉被、保潔墊與涼被的順序",
-      "excerpt": "夏季床寢更換要從貼身層開始，再看保潔墊、薄被與冷氣房習慣，不要只因為熱就一次買滿。",
-      "category": "wellness-movement",
-      "categoryLabel": "健康恢復",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T18:08:52Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "wellness-movement/summer-bedding-tencel-quilt-protector-cool-blanket-order",
-      "heroImage": "/images/optimized/article-covers/summer-bedding-tencel-quilt-protector-cool-blanket-order.jpg",
-      "tags": [
-        "夏季床寢",
-        "天絲床包",
-        "保潔墊",
-        "涼被"
-      ]
-    },
-    {
-      "id": "auto-20260621123703-breakfast-freezer-buns-sweet-potato-chicken-drinks",
-      "title": "早餐與冷凍麵食補貨：饅頭、地瓜、雞胸與沖泡飲",
-      "excerpt": "早餐與冷凍麵食補貨要先看冷凍容量、加熱方式、份量與飲品保存，再比較饅頭、地瓜、雞胸與沖泡飲。",
-      "category": "wellness-movement",
-      "categoryLabel": "健康恢復",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T12:37:03Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "wellness-movement/breakfast-freezer-buns-sweet-potato-chicken-drinks",
-      "heroImage": "/images/optimized/article-covers/breakfast-freezer-buns-sweet-potato-chicken-drinks.jpg",
-      "tags": [
-        "早餐補貨",
-        "冷凍麵食",
-        "地瓜雞胸",
-        "沖泡飲"
-      ]
-    },
-    {
-      "id": "auto-20260621123703-entryway-shoe-cabinet-umbrella-bag-cleaning-tools",
-      "title": "玄關不是倉庫：鞋櫃、傘架、外出包與清潔工具怎麼分工",
-      "excerpt": "玄關分工要先看鞋櫃容量、傘具濕物、外出包暫放與清潔工具位置，再比較家具與收納品。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T12:37:03Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "lifestyle-culture/entryway-shoe-cabinet-umbrella-bag-cleaning-tools",
-      "heroImage": "/images/optimized/article-covers/entryway-shoe-cabinet-umbrella-bag-cleaning-tools.jpg",
-      "tags": [
-        "玄關收納",
-        "鞋櫃傘架",
-        "外出包",
-        "清潔工具"
-      ]
     }
   ],
   "byCategory": {
     "ai-innovation": {
       "label": "人工智能",
       "items": [
+        {
+          "id": "auto-20260622003037-efficient-desk-cushion-backrest-monitor-storage-order",
+          "title": "高效率桌面別只買大桌：椅墊、靠枕、螢幕與收納順序",
+          "excerpt": "桌面效率先看坐姿、視線、收納與線材，再決定椅墊、靠枕、螢幕和收納品。",
+          "category": "ai-innovation",
+          "categoryLabel": "人工智能",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T00:30:37Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "ai-innovation/efficient-desk-cushion-backrest-monitor-storage-order",
+          "heroImage": "/images/optimized/article-covers/efficient-desk-cushion-backrest-monitor-storage-order.jpg",
+          "tags": [
+            "工作桌",
+            "椅墊靠枕",
+            "螢幕配置",
+            "桌面收納"
+          ]
+        },
+        {
+          "id": "auto-20260622003037-work-corner-sound-headphones-speaker-noise-meeting-audio",
+          "title": "工作角落的聲音整理：耳機、喇叭、降噪與會議收音",
+          "excerpt": "聲音整理要分會議、專注、播放與備援，不要讓耳機、喇叭和麥克風互相搶位置。",
+          "category": "ai-innovation",
+          "categoryLabel": "人工智能",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T00:30:37Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "ai-innovation/work-corner-sound-headphones-speaker-noise-meeting-audio",
+          "heroImage": "/images/optimized/article-covers/work-corner-sound-headphones-speaker-noise-meeting-audio.jpg",
+          "tags": [
+            "耳機",
+            "會議收音",
+            "桌面喇叭",
+            "工作角落"
+          ]
+        },
         {
           "id": "auto-20260622000633-car-phone-setup-mount-charger-cable-dashcam-rain",
           "title": "手機車用配置：手機架、車充、線材、行車紀錄與雨天備案",
@@ -292,42 +328,6 @@
             "充電器",
             "螢幕線",
             "備份收納"
-          ]
-        },
-        {
-          "id": "auto-20260621104716-remote-work-bag-charging-audio-presentation-storage",
-          "title": "遠距工作包清單：充電、耳機、簡報線材與移動收納",
-          "excerpt": "遠距工作包清單要先看會議、移動距離、電力與線材，再補耳機、簡報轉接與收納。",
-          "category": "ai-innovation",
-          "categoryLabel": "人工智能",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T10:47:16Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "ai-innovation/remote-work-bag-charging-audio-presentation-storage",
-          "heroImage": "/images/optimized/article-covers/remote-work-bag-charging-audio-presentation-storage.jpg",
-          "tags": [
-            "遠距工作",
-            "工作包",
-            "充電線材",
-            "簡報收納"
-          ]
-        },
-        {
-          "id": "auto-20260621083000-ai-workflow-laptop-monitor-cable-protection-backup",
-          "title": "AI 工作流需要什麼筆電周邊：螢幕、線材、保護貼與備份",
-          "excerpt": "AI 工作流周邊不是只買更強筆電，而是先處理螢幕動線、線材相容、保護與備份。",
-          "category": "ai-innovation",
-          "categoryLabel": "人工智能",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T08:30:00Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "ai-innovation/ai-workflow-laptop-monitor-cable-protection-backup",
-          "heroImage": "/images/optimized/article-covers/ai-workflow-laptop-monitor-cable-protection-backup.jpg",
-          "tags": [
-            "AI 工作流",
-            "外接螢幕",
-            "筆電周邊",
-            "資料備份"
           ]
         }
       ]
@@ -724,6 +724,60 @@
       "label": "健康恢復",
       "items": [
         {
+          "id": "auto-20260622003037-elder-reading-care-corner-lamp-glasses-storage-care-supplies",
+          "title": "長輩閱讀與照護角落：檯燈、眼鏡、收納與照護用品",
+          "excerpt": "閱讀與照護角落要先把光線、眼鏡、拿取高度與備品分層，讓家人不用每天翻找。",
+          "category": "wellness-movement",
+          "categoryLabel": "健康恢復",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T00:30:37Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "wellness-movement/elder-reading-care-corner-lamp-glasses-storage-care-supplies",
+          "heroImage": "/images/optimized/article-covers/elder-reading-care-corner-lamp-glasses-storage-care-supplies.jpg",
+          "tags": [
+            "閱讀角落",
+            "檯燈",
+            "眼鏡收納",
+            "照護備品"
+          ]
+        },
+        {
+          "id": "auto-20260622003037-long-trip-recovery-kit-earplug-brace-luggage-tea-sun",
+          "title": "長途移動恢復包：耳塞、護具、行李箱、茶包與防曬",
+          "excerpt": "長途移動恢復包要先看睡眠干擾、身體支撐、行李拿取和日曬變化，再放入耳塞、護具、茶包與防曬。",
+          "category": "wellness-movement",
+          "categoryLabel": "健康恢復",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T00:30:37Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "wellness-movement/long-trip-recovery-kit-earplug-brace-luggage-tea-sun",
+          "heroImage": "/images/optimized/article-covers/long-trip-recovery-kit-earplug-brace-luggage-tea-sun.jpg",
+          "tags": [
+            "長途旅行",
+            "耳塞",
+            "護具",
+            "行李箱"
+          ]
+        },
+        {
+          "id": "auto-20260622003037-summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp",
+          "title": "夏季辦公室冷氣備案：薄外套、熱飲、耳塞與桌面燈",
+          "excerpt": "夏季辦公室冷氣備案要處理溫差、噪音與光線，薄外套、熱飲、耳塞和桌燈各自有位置。",
+          "category": "wellness-movement",
+          "categoryLabel": "健康恢復",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T00:30:37Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "wellness-movement/summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp",
+          "heroImage": "/images/optimized/article-covers/summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp.jpg",
+          "tags": [
+            "辦公室冷氣",
+            "薄外套",
+            "耳塞",
+            "桌燈"
+          ]
+        },
+        {
           "id": "auto-20260621180852-nightstand-bedtime-earplug-reading-light-scent-bedding",
           "title": "床邊櫃與睡前小物：耳塞、閱讀燈、香氛與床寢怎麼放",
           "excerpt": "床邊櫃只放睡前最後十五分鐘會用到的物件，耳塞、閱讀燈、香氛與床寢才不會變成雜物展示。",
@@ -775,60 +829,6 @@
             "冷凍麵食",
             "地瓜雞胸",
             "沖泡飲"
-          ]
-        },
-        {
-          "id": "auto-20260621104717-home-care-bathing-transfer-storage-safety-flow",
-          "title": "居家照護動線：沐浴、移位、收納與安全提醒怎麼看",
-          "excerpt": "居家照護動線要先看沐浴、移位、收納與照顧者流程，再比較輔具、濾淨、按摩與收納品。",
-          "category": "wellness-movement",
-          "categoryLabel": "健康恢復",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T10:47:17Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "wellness-movement/home-care-bathing-transfer-storage-safety-flow",
-          "heroImage": "/images/optimized/article-covers/home-care-bathing-transfer-storage-safety-flow.jpg",
-          "tags": [
-            "居家照護",
-            "沐浴動線",
-            "移位收納",
-            "照顧者流程"
-          ]
-        },
-        {
-          "id": "auto-20260621104717-summer-low-pressure-sun-sleep-drink-light-food",
-          "title": "夏季低負擔日常：防曬、降噪睡眠、飲品與輕食補給",
-          "excerpt": "夏季日常要先看日曬、休息環境、飲品保存與輕食份量，再比較防曬、耳塞與補給品。",
-          "category": "wellness-movement",
-          "categoryLabel": "健康恢復",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T10:47:17Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "wellness-movement/summer-low-pressure-sun-sleep-drink-light-food",
-          "heroImage": "/images/optimized/article-covers/summer-low-pressure-sun-sleep-drink-light-food.jpg",
-          "tags": [
-            "夏季日常",
-            "防曬外套",
-            "耳塞",
-            "輕食飲品"
-          ]
-        },
-        {
-          "id": "auto-20260621095557-home-stretch-yoga-mat-props-light-scent-corner",
-          "title": "居家伸展角落：瑜珈墊、輔具、燈光與香氛的低壓配置",
-          "excerpt": "居家伸展角落要先安排地面、收納與光線，再補瑜珈墊、輔具與香氛。",
-          "category": "wellness-movement",
-          "categoryLabel": "健康恢復",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T09:55:57Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "wellness-movement/home-stretch-yoga-mat-props-light-scent-corner",
-          "heroImage": "/images/optimized/article-covers/home-stretch-yoga-mat-props-light-scent-corner.jpg",
-          "tags": [
-            "居家伸展",
-            "瑜珈墊",
-            "輔具",
-            "燈光香氛"
           ]
         }
       ]

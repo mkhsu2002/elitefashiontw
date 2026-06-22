@@ -1,5 +1,105 @@
 [
   {
+    "id": "auto-20260622003037-efficient-desk-cushion-backrest-monitor-storage-order",
+    "title": "高效率桌面別只買大桌：椅墊、靠枕、螢幕與收納順序",
+    "excerpt": "桌面效率先看坐姿、視線、收納與線材，再決定椅墊、靠枕、螢幕和收納品。",
+    "category": "ai-innovation",
+    "categoryLabel": "人工智能",
+    "relativeUrl": "ai-innovation/efficient-desk-cushion-backrest-monitor-storage-order",
+    "publishedDateText": "2026年6月22日",
+    "tags": [
+      "工作桌",
+      "椅墊靠枕",
+      "螢幕配置",
+      "桌面收納"
+    ],
+    "faqQuestions": [
+      "桌子太小一定要換大桌嗎？",
+      "椅墊和靠枕怎麼選？",
+      "外接螢幕需要搭配收納嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260622003037-elder-reading-care-corner-lamp-glasses-storage-care-supplies",
+    "title": "長輩閱讀與照護角落：檯燈、眼鏡、收納與照護用品",
+    "excerpt": "閱讀與照護角落要先把光線、眼鏡、拿取高度與備品分層，讓家人不用每天翻找。",
+    "category": "wellness-movement",
+    "categoryLabel": "健康恢復",
+    "relativeUrl": "wellness-movement/elder-reading-care-corner-lamp-glasses-storage-care-supplies",
+    "publishedDateText": "2026年6月22日",
+    "tags": [
+      "閱讀角落",
+      "檯燈",
+      "眼鏡收納",
+      "照護備品"
+    ],
+    "faqQuestions": [
+      "閱讀角落先買檯燈嗎？",
+      "照護用品可以全部放桌上嗎？",
+      "眼鏡要怎麼收才不容易找不到？"
+    ]
+  },
+  {
+    "id": "auto-20260622003037-long-trip-recovery-kit-earplug-brace-luggage-tea-sun",
+    "title": "長途移動恢復包：耳塞、護具、行李箱、茶包與防曬",
+    "excerpt": "長途移動恢復包要先看睡眠干擾、身體支撐、行李拿取和日曬變化，再放入耳塞、護具、茶包與防曬。",
+    "category": "wellness-movement",
+    "categoryLabel": "健康恢復",
+    "relativeUrl": "wellness-movement/long-trip-recovery-kit-earplug-brace-luggage-tea-sun",
+    "publishedDateText": "2026年6月22日",
+    "tags": [
+      "長途旅行",
+      "耳塞",
+      "護具",
+      "行李箱"
+    ],
+    "faqQuestions": [
+      "長途移動一定要帶耳塞嗎？",
+      "護具可以改善旅途不適嗎？",
+      "茶包可以放隨身行李嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260622003037-summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp",
+    "title": "夏季辦公室冷氣備案：薄外套、熱飲、耳塞與桌面燈",
+    "excerpt": "夏季辦公室冷氣備案要處理溫差、噪音與光線，薄外套、熱飲、耳塞和桌燈各自有位置。",
+    "category": "wellness-movement",
+    "categoryLabel": "健康恢復",
+    "relativeUrl": "wellness-movement/summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp",
+    "publishedDateText": "2026年6月22日",
+    "tags": [
+      "辦公室冷氣",
+      "薄外套",
+      "耳塞",
+      "桌燈"
+    ],
+    "faqQuestions": [
+      "辦公室冷氣太冷先買什麼？",
+      "耳塞能解決辦公室噪音嗎？",
+      "桌燈會不會影響同事？"
+    ]
+  },
+  {
+    "id": "auto-20260622003037-work-corner-sound-headphones-speaker-noise-meeting-audio",
+    "title": "工作角落的聲音整理：耳機、喇叭、降噪與會議收音",
+    "excerpt": "聲音整理要分會議、專注、播放與備援，不要讓耳機、喇叭和麥克風互相搶位置。",
+    "category": "ai-innovation",
+    "categoryLabel": "人工智能",
+    "relativeUrl": "ai-innovation/work-corner-sound-headphones-speaker-noise-meeting-audio",
+    "publishedDateText": "2026年6月22日",
+    "tags": [
+      "耳機",
+      "會議收音",
+      "桌面喇叭",
+      "工作角落"
+    ],
+    "faqQuestions": [
+      "會議一定要買獨立麥克風嗎？",
+      "耳機和喇叭可以都放桌面嗎？",
+      "吸音板有必要嗎？"
+    ]
+  },
+  {
     "id": "auto-20260622000633-car-phone-setup-mount-charger-cable-dashcam-rain",
     "title": "手機車用配置：手機架、車充、線材、行車紀錄與雨天備案",
     "excerpt": "車用手機配置要先看視線、線材、電力與雨天拿取，再決定手機架、車充、線材和行車紀錄器的位置。",

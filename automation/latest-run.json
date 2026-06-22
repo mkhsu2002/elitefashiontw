@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-22T00:06:33Z",
+  "updatedAt": "2026-06-22T00:30:37Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-fourteen-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01-B14",
+  "triggerType": "manual-codex-momo-revenue-growth-batch-fifteen-no-newsletter",
+  "queueId": "MOMO-REV-2026-06-21-W01-B15",
   "newsletter": "not_sent_manual_codex_publish",
   "articleIds": [
-    "auto-20260622000632-patio-balcony-shade-outdoor-chair-storage-plant-care",
-    "auto-20260622000633-swimming-outdoor-class-goggles-sun-towel-storage-bag",
-    "auto-20260622000633-city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket",
-    "auto-20260622000633-car-phone-setup-mount-charger-cable-dashcam-rain",
-    "auto-20260622000633-presentation-day-remote-gear-headset-mic-monitor-light"
+    "auto-20260622003037-efficient-desk-cushion-backrest-monitor-storage-order",
+    "auto-20260622003037-work-corner-sound-headphones-speaker-noise-meeting-audio",
+    "auto-20260622003037-summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp",
+    "auto-20260622003037-long-trip-recovery-kit-earplug-brace-luggage-tea-sun",
+    "auto-20260622003037-elder-reading-care-corner-lamp-glasses-storage-care-supplies"
   ],
   "articleSlugs": [
-    "patio-balcony-shade-outdoor-chair-storage-plant-care",
-    "swimming-outdoor-class-goggles-sun-towel-storage-bag",
-    "city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket",
-    "car-phone-setup-mount-charger-cable-dashcam-rain",
-    "presentation-day-remote-gear-headset-mic-monitor-light"
+    "efficient-desk-cushion-backrest-monitor-storage-order",
+    "work-corner-sound-headphones-speaker-noise-meeting-audio",
+    "summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp",
+    "long-trip-recovery-kit-earplug-brace-luggage-tea-sun",
+    "elder-reading-care-corner-lamp-glasses-storage-care-supplies"
   ],
-  "notes": "Codex 手動生成 momo 收益型內容第十四組；直接推上 main 不會自動寄送電子報。"
+  "notes": "Codex 手動生成 momo 收益型內容第十五組；直接推上 main 不會自動寄送電子報。"
 }

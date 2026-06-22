@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-22T00:06:33Z",
+  "updatedAt": "2026-06-22T00:30:37Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -1275,6 +1275,66 @@
       "generatedAt": "2026-06-22T00:06:33Z",
       "usage": "cover-og-twitter",
       "promptSummary": "專業居家工作桌有無標誌耳機、麥克風、黑屏外接螢幕、桌燈、筆電與空白筆記本",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "efficient-desk-cushion-backrest-monitor-storage-order": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/efficient-desk-cushion-backrest-monitor-storage-order.jpg",
+      "output": "images/optimized/article-covers/efficient-desk-cushion-backrest-monitor-storage-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0835e28e7b9c9065016a387d9c9658819899432dfad0dd1fd6.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0835e28e7b9c9065016a387d9c9658819899432dfad0dd1fd6.png",
+      "sha256": "3dd1b0322da77960cde98d3d1bc97f4ceb671fe67d7593d3b11d1b9ec90d726f",
+      "generatedAt": "2026-06-22T00:30:37Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "明亮工作桌旁有椅墊、靠枕、黑屏外接螢幕、文件收納盤、桌燈與綠植",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "work-corner-sound-headphones-speaker-noise-meeting-audio": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/work-corner-sound-headphones-speaker-noise-meeting-audio.jpg",
+      "output": "images/optimized/article-covers/work-corner-sound-headphones-speaker-noise-meeting-audio.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0835e28e7b9c9065016a38805dd3c481989efe7180d0be13a7.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0835e28e7b9c9065016a38805dd3c481989efe7180d0be13a7.png",
+      "sha256": "2ddf84d52abbaa3dbec3d524b99ce064cd264d1cda5683d7f2543115babb3e73",
+      "generatedAt": "2026-06-22T00:30:37Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "深色工作角落有無標誌耳機、麥克風、喇叭、吸音板、理線托盤與綠植",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp.jpg",
+      "output": "images/optimized/article-covers/summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0835e28e7b9c9065016a387e45ff148198a2ab7585bff5d811.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0835e28e7b9c9065016a387e45ff148198a2ab7585bff5d811.png",
+      "sha256": "67ae3de3b23340f83d1bf50866c07540b967e4dbc8f93f5995d03f81ae861b2a",
+      "generatedAt": "2026-06-22T00:30:37Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "冷色辦公桌旁有薄外套、無字熱飲杯、耳塞盒、桌燈、空白筆記本與綠植",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "long-trip-recovery-kit-earplug-brace-luggage-tea-sun": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/long-trip-recovery-kit-earplug-brace-luggage-tea-sun.jpg",
+      "output": "images/optimized/article-covers/long-trip-recovery-kit-earplug-brace-luggage-tea-sun.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0835e28e7b9c9065016a387fb0191c81989f370441f8f5cdea.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0835e28e7b9c9065016a387fb0191c81989f370441f8f5cdea.png",
+      "sha256": "615bc5df4402eeaa132c71fc075a50d38d25cfe0924a5a6c5ac1dc0ed04478aa",
+      "generatedAt": "2026-06-22T00:30:37Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "機場候機區長椅上有無標誌登機箱、耳塞盒、護具束帶、空白茶包、防曬外套與墨鏡",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "elder-reading-care-corner-lamp-glasses-storage-care-supplies": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/elder-reading-care-corner-lamp-glasses-storage-care-supplies.jpg",
+      "output": "images/optimized/article-covers/elder-reading-care-corner-lamp-glasses-storage-care-supplies.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0835e28e7b9c9065016a3880083990819885c22836e166abde.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0835e28e7b9c9065016a3880083990819885c22836e166abde.png",
+      "sha256": "03fc04632c8b001cb6f9ffb90c53d705f1d1bd3aa6788039cdf74e32e88ec98f",
+      "generatedAt": "2026-06-22T00:30:37Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "溫暖閱讀角落有檯燈、兩副眼鏡、空白封面書、收納盒、毛毯與無標籤照護備品籃",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }
