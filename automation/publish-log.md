@@ -1,5 +1,45 @@
 # 發文紀錄
 
+## 2026-06-22T00:06:33Z｜簡報日的遠距設備：耳機、麥克風、螢幕與桌面光線
+
+- 文章 ID：auto-20260622000633-presentation-day-remote-gear-headset-mic-monitor-light
+- URL：https://tw.elitefasion.com/ai-innovation/presentation-day-remote-gear-headset-mic-monitor-light
+- 檔案：ai-innovation/presentation-day-remote-gear-headset-mic-monitor-light.html
+- 類型：manual-codex-momo-revenue-growth-batch-fourteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B14
+
+## 2026-06-22T00:06:33Z｜手機車用配置：手機架、車充、線材、行車紀錄與雨天備案
+
+- 文章 ID：auto-20260622000633-car-phone-setup-mount-charger-cable-dashcam-rain
+- URL：https://tw.elitefasion.com/ai-innovation/car-phone-setup-mount-charger-cable-dashcam-rain
+- 檔案：ai-innovation/car-phone-setup-mount-charger-cable-dashcam-rain.html
+- 類型：manual-codex-momo-revenue-growth-batch-fourteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B14
+
+## 2026-06-22T00:06:33Z｜城市週末拍攝包：手機支架、CPL、黑柔濾鏡與防曬外套
+
+- 文章 ID：auto-20260622000633-city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket
+- URL：https://tw.elitefasion.com/ai-innovation/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket
+- 檔案：ai-innovation/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket.html
+- 類型：manual-codex-momo-revenue-growth-batch-fourteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B14
+
+## 2026-06-22T00:06:33Z｜游泳與戶外課前準備：泳鏡、防曬、毛巾與收納袋
+
+- 文章 ID：auto-20260622000633-swimming-outdoor-class-goggles-sun-towel-storage-bag
+- URL：https://tw.elitefasion.com/outdoor-escapes/swimming-outdoor-class-goggles-sun-towel-storage-bag
+- 檔案：outdoor-escapes/swimming-outdoor-class-goggles-sun-towel-storage-bag.html
+- 類型：manual-codex-momo-revenue-growth-batch-fourteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B14
+
+## 2026-06-22T00:06:32Z｜小陽台與庭院用品：遮陽、戶外椅、收納與植物照顧
+
+- 文章 ID：auto-20260622000632-patio-balcony-shade-outdoor-chair-storage-plant-care
+- URL：https://tw.elitefasion.com/outdoor-escapes/patio-balcony-shade-outdoor-chair-storage-plant-care
+- 檔案：outdoor-escapes/patio-balcony-shade-outdoor-chair-storage-plant-care.html
+- 類型：manual-codex-momo-revenue-growth-batch-fourteen-no-newsletter
+- Queue：MOMO-REV-2026-06-21-W01-B14
+
 ## 2026-06-21T18:08:52Z｜租屋改造不動工：貼皮、燈光、收納與可移動家具
 
 - 文章 ID：auto-20260621180852-rental-refresh-sticker-light-storage-movable-furniture

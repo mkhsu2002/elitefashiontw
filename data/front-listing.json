@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-06-21T18:08:53Z",
+  "updatedAt": "2026-06-22T00:06:33Z",
   "latest": [
+    {
+      "id": "auto-20260622000633-car-phone-setup-mount-charger-cable-dashcam-rain",
+      "title": "手機車用配置：手機架、車充、線材、行車紀錄與雨天備案",
+      "excerpt": "車用手機配置要先看視線、線材、電力與雨天拿取，再決定手機架、車充、線材和行車紀錄器的位置。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T00:06:33Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "ai-innovation/car-phone-setup-mount-charger-cable-dashcam-rain",
+      "heroImage": "/images/optimized/article-covers/car-phone-setup-mount-charger-cable-dashcam-rain.jpg",
+      "tags": [
+        "車用手機架",
+        "車充線材",
+        "行車紀錄器",
+        "雨天備案"
+      ]
+    },
+    {
+      "id": "auto-20260622000633-city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket",
+      "title": "城市週末拍攝包：手機支架、CPL、黑柔濾鏡與防曬外套",
+      "excerpt": "城市週末拍攝包要先看路線、光線、手持穩定與拿取頻率，再決定手機支架、濾鏡、防曬外套和雨天備案。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T00:06:33Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "ai-innovation/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket",
+      "heroImage": "/images/optimized/article-covers/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket.jpg",
+      "tags": [
+        "手機拍攝",
+        "城市週末",
+        "CPL濾鏡",
+        "防曬外套"
+      ]
+    },
+    {
+      "id": "auto-20260622000633-presentation-day-remote-gear-headset-mic-monitor-light",
+      "title": "簡報日的遠距設備：耳機、麥克風、螢幕與桌面光線",
+      "excerpt": "簡報日設備要先看聲音、畫面、光線與備援，再比較耳機、麥克風、螢幕、桌燈和線材。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T00:06:33Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "ai-innovation/presentation-day-remote-gear-headset-mic-monitor-light",
+      "heroImage": "/images/optimized/article-covers/presentation-day-remote-gear-headset-mic-monitor-light.jpg",
+      "tags": [
+        "遠距簡報",
+        "耳機麥克風",
+        "外接螢幕",
+        "桌面光線"
+      ]
+    },
+    {
+      "id": "auto-20260622000633-swimming-outdoor-class-goggles-sun-towel-storage-bag",
+      "title": "游泳與戶外課前準備：泳鏡、防曬、毛巾與收納袋",
+      "excerpt": "游泳與戶外課準備要先分乾濕、日曬、回家清洗與補水，再決定泳鏡、防曬、毛巾和收納袋。",
+      "category": "outdoor-escapes",
+      "categoryLabel": "戶外生活",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T00:06:33Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "outdoor-escapes/swimming-outdoor-class-goggles-sun-towel-storage-bag",
+      "heroImage": "/images/optimized/article-covers/swimming-outdoor-class-goggles-sun-towel-storage-bag.jpg",
+      "tags": [
+        "游泳課",
+        "泳鏡",
+        "防曬",
+        "乾濕分離"
+      ]
+    },
+    {
+      "id": "auto-20260622000632-patio-balcony-shade-outdoor-chair-storage-plant-care",
+      "title": "小陽台與庭院用品：遮陽、戶外椅、收納與植物照顧",
+      "excerpt": "小陽台先分遮陽、坐下、澆水與收納四件事，再決定戶外椅、遮陽用品和植物工具要買到哪裡。",
+      "category": "outdoor-escapes",
+      "categoryLabel": "戶外生活",
+      "series": "城市生活選物",
+      "publishedAt": "2026-06-22T00:06:32Z",
+      "publishedDateText": "2026年6月22日",
+      "relativeUrl": "outdoor-escapes/patio-balcony-shade-outdoor-chair-storage-plant-care",
+      "heroImage": "/images/optimized/article-covers/patio-balcony-shade-outdoor-chair-storage-plant-care.jpg",
+      "tags": [
+        "小陽台",
+        "戶外椅",
+        "遮陽",
+        "植物照顧"
+      ]
+    },
     {
       "id": "auto-20260621180852-closet-laundry-hanger-storage-towel-bedding-supplies",
       "title": "衣櫃與洗衣區整理：衣架、收納箱、毛巾與床寢備品",
@@ -126,102 +216,66 @@
         "外出包",
         "清潔工具"
       ]
-    },
-    {
-      "id": "auto-20260621123703-family-weekend-table-frozen-food-cookware-tableware-tea",
-      "title": "家庭餐桌週末補貨：冷凍食品、鍋具、餐具與茶點",
-      "excerpt": "家庭餐桌週末補貨要先看冷凍保存、鍋具容量、餐具數量與茶點時段，再比較品牌。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T12:37:03Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "lifestyle-culture/family-weekend-table-frozen-food-cookware-tableware-tea",
-      "heroImage": "/images/optimized/article-covers/family-weekend-table-frozen-food-cookware-tableware-tea.jpg",
-      "tags": [
-        "家庭餐桌",
-        "冷凍食品",
-        "鍋具餐具",
-        "茶點補貨"
-      ]
-    },
-    {
-      "id": "auto-20260621123703-office-snack-cabinet-nuts-dessert-tea-coffee-layers",
-      "title": "辦公室點心櫃：堅果、甜點、茶飲與咖啡怎麼分層",
-      "excerpt": "辦公室點心櫃要先看保存、份量、咖啡因與共享便利性，再分堅果、甜點、茶飲與咖啡。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T12:37:03Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "lifestyle-culture/office-snack-cabinet-nuts-dessert-tea-coffee-layers",
-      "heroImage": "/images/optimized/article-covers/office-snack-cabinet-nuts-dessert-tea-coffee-layers.jpg",
-      "tags": [
-        "辦公室點心",
-        "堅果甜點",
-        "茶飲咖啡",
-        "茶水間收納"
-      ]
-    },
-    {
-      "id": "auto-20260621123703-solo-living-tableware-cookware-coffee-tea-cleaning-storage",
-      "title": "一人生活的餐具清單：杯盤、鍋具、咖啡茶與清潔收納",
-      "excerpt": "一人生活餐具清單要先看杯盤數量、鍋具尺寸、咖啡茶習慣與清潔收納，再比較品牌。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T12:37:03Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "lifestyle-culture/solo-living-tableware-cookware-coffee-tea-cleaning-storage",
-      "heroImage": "/images/optimized/article-covers/solo-living-tableware-cookware-coffee-tea-cleaning-storage.jpg",
-      "tags": [
-        "一人生活",
-        "餐具清單",
-        "咖啡茶",
-        "清潔收納"
-      ]
-    },
-    {
-      "id": "auto-20260621114500-aquarium-reptile-small-pet-food-cleaning-habitat-storage",
-      "title": "水族與小寵補貨清單：飼料、清潔、棲地與收納",
-      "excerpt": "水族與小寵補貨要先分飼料、清潔、棲地與收納，再比較水族、寵物與清潔用品。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T11:45:00Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "lifestyle-culture/aquarium-reptile-small-pet-food-cleaning-habitat-storage",
-      "heroImage": "/images/optimized/article-covers/aquarium-reptile-small-pet-food-cleaning-habitat-storage.jpg",
-      "tags": [
-        "水族補貨",
-        "小寵用品",
-        "棲地清潔",
-        "收納耗材"
-      ]
-    },
-    {
-      "id": "auto-20260621114500-family-weekend-outing-sun-tableware-toys-rain-storage",
-      "title": "親子週末出門清單：防曬、餐具、玩具、雨具與收納袋",
-      "excerpt": "親子週末出門要先看日曬、用餐、玩具、雨具與乾濕收納，再補防曬服飾、餐具與小包。",
-      "category": "outdoor-escapes",
-      "categoryLabel": "戶外生活",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-21T11:45:00Z",
-      "publishedDateText": "2026年6月21日",
-      "relativeUrl": "outdoor-escapes/family-weekend-outing-sun-tableware-toys-rain-storage",
-      "heroImage": "/images/optimized/article-covers/family-weekend-outing-sun-tableware-toys-rain-storage.jpg",
-      "tags": [
-        "親子外出",
-        "防曬餐具",
-        "玩具雨具",
-        "收納袋"
-      ]
     }
   ],
   "byCategory": {
     "ai-innovation": {
       "label": "人工智能",
       "items": [
+        {
+          "id": "auto-20260622000633-car-phone-setup-mount-charger-cable-dashcam-rain",
+          "title": "手機車用配置：手機架、車充、線材、行車紀錄與雨天備案",
+          "excerpt": "車用手機配置要先看視線、線材、電力與雨天拿取，再決定手機架、車充、線材和行車紀錄器的位置。",
+          "category": "ai-innovation",
+          "categoryLabel": "人工智能",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T00:06:33Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "ai-innovation/car-phone-setup-mount-charger-cable-dashcam-rain",
+          "heroImage": "/images/optimized/article-covers/car-phone-setup-mount-charger-cable-dashcam-rain.jpg",
+          "tags": [
+            "車用手機架",
+            "車充線材",
+            "行車紀錄器",
+            "雨天備案"
+          ]
+        },
+        {
+          "id": "auto-20260622000633-city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket",
+          "title": "城市週末拍攝包：手機支架、CPL、黑柔濾鏡與防曬外套",
+          "excerpt": "城市週末拍攝包要先看路線、光線、手持穩定與拿取頻率，再決定手機支架、濾鏡、防曬外套和雨天備案。",
+          "category": "ai-innovation",
+          "categoryLabel": "人工智能",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T00:06:33Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "ai-innovation/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket",
+          "heroImage": "/images/optimized/article-covers/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket.jpg",
+          "tags": [
+            "手機拍攝",
+            "城市週末",
+            "CPL濾鏡",
+            "防曬外套"
+          ]
+        },
+        {
+          "id": "auto-20260622000633-presentation-day-remote-gear-headset-mic-monitor-light",
+          "title": "簡報日的遠距設備：耳機、麥克風、螢幕與桌面光線",
+          "excerpt": "簡報日設備要先看聲音、畫面、光線與備援，再比較耳機、麥克風、螢幕、桌燈和線材。",
+          "category": "ai-innovation",
+          "categoryLabel": "人工智能",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T00:06:33Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "ai-innovation/presentation-day-remote-gear-headset-mic-monitor-light",
+          "heroImage": "/images/optimized/article-covers/presentation-day-remote-gear-headset-mic-monitor-light.jpg",
+          "tags": [
+            "遠距簡報",
+            "耳機麥克風",
+            "外接螢幕",
+            "桌面光線"
+          ]
+        },
         {
           "id": "auto-20260621104717-desk-cable-charger-monitor-protection-backup-organizer",
           "title": "桌面線材怎麼整理：充電器、螢幕線、保護貼與備份小物",
@@ -274,60 +328,6 @@
             "外接螢幕",
             "筆電周邊",
             "資料備份"
-          ]
-        },
-        {
-          "id": "auto-20260621081058-faceless-content-rig-light-filter-audio-buying-order",
-          "title": "不露臉內容也需要設備順序：支架、燈光、濾鏡與收音怎麼買",
-          "excerpt": "不露臉內容的設備順序是固定、光線、聲音先穩，再補濾鏡、風格與其他周邊。",
-          "category": "ai-innovation",
-          "categoryLabel": "人工智能",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T08:10:58Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "ai-innovation/faceless-content-rig-light-filter-audio-buying-order",
-          "heroImage": "/images/optimized/article-covers/faceless-content-rig-light-filter-audio-buying-order.jpg",
-          "tags": [
-            "不露臉內容",
-            "拍攝設備",
-            "LED 燈",
-            "收音"
-          ]
-        },
-        {
-          "id": "auto-20260621073209-second-monitor-laptop-stand-backup-work-setup",
-          "title": "第二螢幕怎麼選：外接螢幕、筆電、支架與資料備份的工作配置",
-          "excerpt": "第二螢幕的價值在於工作動線，不是單純追求大尺寸；先看視窗數量、攜帶需求與資料備份。",
-          "category": "ai-innovation",
-          "categoryLabel": "人工智能",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T07:32:09Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "ai-innovation/second-monitor-laptop-stand-backup-work-setup",
-          "heroImage": "/images/optimized/article-covers/second-monitor-laptop-stand-backup-work-setup.jpg",
-          "tags": [
-            "第二螢幕",
-            "筆電支架",
-            "資料備份",
-            "工作桌配置"
-          ]
-        },
-        {
-          "id": "auto-20260621053633-phone-accessory-car-desk-charging-magsafe-system",
-          "title": "手機不是只靠保護殼：車用、桌面、充電與 MagSafe 配件整理法",
-          "excerpt": "手機配件不該只看保護殼外觀，車用、桌面、充電與外出收納各自有不同判斷順序。",
-          "category": "ai-innovation",
-          "categoryLabel": "人工智能",
-          "series": "城市效率選物",
-          "publishedAt": "2026-06-21T05:36:33Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "ai-innovation/phone-accessory-car-desk-charging-magsafe-system",
-          "heroImage": "images/optimized/article-covers/phone-accessory-car-desk-charging-magsafe-system.jpg",
-          "tags": [
-            "手機配件",
-            "MagSafe",
-            "車用手機架",
-            "桌面充電"
           ]
         }
       ]
@@ -837,6 +837,42 @@
       "label": "戶外生活",
       "items": [
         {
+          "id": "auto-20260622000633-swimming-outdoor-class-goggles-sun-towel-storage-bag",
+          "title": "游泳與戶外課前準備：泳鏡、防曬、毛巾與收納袋",
+          "excerpt": "游泳與戶外課準備要先分乾濕、日曬、回家清洗與補水，再決定泳鏡、防曬、毛巾和收納袋。",
+          "category": "outdoor-escapes",
+          "categoryLabel": "戶外生活",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T00:06:33Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "outdoor-escapes/swimming-outdoor-class-goggles-sun-towel-storage-bag",
+          "heroImage": "/images/optimized/article-covers/swimming-outdoor-class-goggles-sun-towel-storage-bag.jpg",
+          "tags": [
+            "游泳課",
+            "泳鏡",
+            "防曬",
+            "乾濕分離"
+          ]
+        },
+        {
+          "id": "auto-20260622000632-patio-balcony-shade-outdoor-chair-storage-plant-care",
+          "title": "小陽台與庭院用品：遮陽、戶外椅、收納與植物照顧",
+          "excerpt": "小陽台先分遮陽、坐下、澆水與收納四件事，再決定戶外椅、遮陽用品和植物工具要買到哪裡。",
+          "category": "outdoor-escapes",
+          "categoryLabel": "戶外生活",
+          "series": "城市生活選物",
+          "publishedAt": "2026-06-22T00:06:32Z",
+          "publishedDateText": "2026年6月22日",
+          "relativeUrl": "outdoor-escapes/patio-balcony-shade-outdoor-chair-storage-plant-care",
+          "heroImage": "/images/optimized/article-covers/patio-balcony-shade-outdoor-chair-storage-plant-care.jpg",
+          "tags": [
+            "小陽台",
+            "戶外椅",
+            "遮陽",
+            "植物照顧"
+          ]
+        },
+        {
           "id": "auto-20260621114500-family-weekend-outing-sun-tableware-toys-rain-storage",
           "title": "親子週末出門清單：防曬、餐具、玩具、雨具與收納袋",
           "excerpt": "親子週末出門要先看日曬、用餐、玩具、雨具與乾濕收納，再補防曬服飾、餐具與小包。",
@@ -906,42 +942,6 @@
             "行車紀錄器",
             "反光配件",
             "雨具充電"
-          ]
-        },
-        {
-          "id": "auto-20260621090156-japanese-camping-style-table-stove-cup-storage-order",
-          "title": "日系露營風格入門：桌椅、爐具、杯具與收納小物順序",
-          "excerpt": "日系露營入門先從桌椅穩定、爐具條件、杯具與收納開始，再談風格完整度。",
-          "category": "outdoor-escapes",
-          "categoryLabel": "戶外生活",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T09:01:56Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "outdoor-escapes/japanese-camping-style-table-stove-cup-storage-order",
-          "heroImage": "/images/optimized/article-covers/japanese-camping-style-table-stove-cup-storage-order.jpg",
-          "tags": [
-            "日系露營",
-            "露營桌椅",
-            "露營爐具",
-            "戶外收納"
-          ]
-        },
-        {
-          "id": "auto-20260621081059-beginner-hiking-shirt-rainwear-knee-support-storage-order",
-          "title": "新手登山先買什麼：排汗衣、雨衣褲、護膝與輕量收納順序",
-          "excerpt": "新手登山裝備要先處理天氣、支撐與收納，再談品牌完整度和風格小物。",
-          "category": "outdoor-escapes",
-          "categoryLabel": "戶外生活",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T08:10:59Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "outdoor-escapes/beginner-hiking-shirt-rainwear-knee-support-storage-order",
-          "heroImage": "/images/optimized/article-covers/beginner-hiking-shirt-rainwear-knee-support-storage-order.jpg",
-          "tags": [
-            "新手登山",
-            "排汗衣",
-            "雨衣褲",
-            "護膝"
           ]
         }
       ]

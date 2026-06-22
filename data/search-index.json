@@ -1,5 +1,105 @@
 [
   {
+    "id": "auto-20260622000633-car-phone-setup-mount-charger-cable-dashcam-rain",
+    "title": "手機車用配置：手機架、車充、線材、行車紀錄與雨天備案",
+    "excerpt": "車用手機配置要先看視線、線材、電力與雨天拿取，再決定手機架、車充、線材和行車紀錄器的位置。",
+    "category": "ai-innovation",
+    "categoryLabel": "人工智能",
+    "relativeUrl": "ai-innovation/car-phone-setup-mount-charger-cable-dashcam-rain",
+    "publishedDateText": "2026年6月22日",
+    "tags": [
+      "車用手機架",
+      "車充線材",
+      "行車紀錄器",
+      "雨天備案"
+    ],
+    "faqQuestions": [
+      "手機架可以裝在任何位置嗎？",
+      "車充要看瓦數嗎？",
+      "雨具放後車廂可以嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260622000633-city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket",
+    "title": "城市週末拍攝包：手機支架、CPL、黑柔濾鏡與防曬外套",
+    "excerpt": "城市週末拍攝包要先看路線、光線、手持穩定與拿取頻率，再決定手機支架、濾鏡、防曬外套和雨天備案。",
+    "category": "ai-innovation",
+    "categoryLabel": "人工智能",
+    "relativeUrl": "ai-innovation/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket",
+    "publishedDateText": "2026年6月22日",
+    "tags": [
+      "手機拍攝",
+      "城市週末",
+      "CPL濾鏡",
+      "防曬外套"
+    ],
+    "faqQuestions": [
+      "手機拍攝一定需要濾鏡嗎？",
+      "防曬外套要放拍攝包嗎？",
+      "器材包怎麼避免太重？"
+    ]
+  },
+  {
+    "id": "auto-20260622000633-presentation-day-remote-gear-headset-mic-monitor-light",
+    "title": "簡報日的遠距設備：耳機、麥克風、螢幕與桌面光線",
+    "excerpt": "簡報日設備要先看聲音、畫面、光線與備援，再比較耳機、麥克風、螢幕、桌燈和線材。",
+    "category": "ai-innovation",
+    "categoryLabel": "人工智能",
+    "relativeUrl": "ai-innovation/presentation-day-remote-gear-headset-mic-monitor-light",
+    "publishedDateText": "2026年6月22日",
+    "tags": [
+      "遠距簡報",
+      "耳機麥克風",
+      "外接螢幕",
+      "桌面光線"
+    ],
+    "faqQuestions": [
+      "遠距簡報先買麥克風還是耳機？",
+      "外接螢幕一定需要嗎？",
+      "桌燈可以取代補光嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260622000633-swimming-outdoor-class-goggles-sun-towel-storage-bag",
+    "title": "游泳與戶外課前準備：泳鏡、防曬、毛巾與收納袋",
+    "excerpt": "游泳與戶外課準備要先分乾濕、日曬、回家清洗與補水，再決定泳鏡、防曬、毛巾和收納袋。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/swimming-outdoor-class-goggles-sun-towel-storage-bag",
+    "publishedDateText": "2026年6月22日",
+    "tags": [
+      "游泳課",
+      "泳鏡",
+      "防曬",
+      "乾濕分離"
+    ],
+    "faqQuestions": [
+      "游泳包要買乾濕分離嗎？",
+      "防曬能保證戶外不曬傷嗎？",
+      "泳鏡需要收納盒嗎？"
+    ]
+  },
+  {
+    "id": "auto-20260622000632-patio-balcony-shade-outdoor-chair-storage-plant-care",
+    "title": "小陽台與庭院用品：遮陽、戶外椅、收納與植物照顧",
+    "excerpt": "小陽台先分遮陽、坐下、澆水與收納四件事，再決定戶外椅、遮陽用品和植物工具要買到哪裡。",
+    "category": "outdoor-escapes",
+    "categoryLabel": "戶外生活",
+    "relativeUrl": "outdoor-escapes/patio-balcony-shade-outdoor-chair-storage-plant-care",
+    "publishedDateText": "2026年6月22日",
+    "tags": [
+      "小陽台",
+      "戶外椅",
+      "遮陽",
+      "植物照顧"
+    ],
+    "faqQuestions": [
+      "小陽台先買戶外椅嗎？",
+      "植物用品要放室內還室外？",
+      "遮陽用品要怎麼選？"
+    ]
+  },
+  {
     "id": "auto-20260621180852-closet-laundry-hanger-storage-towel-bedding-supplies",
     "title": "衣櫃與洗衣區整理：衣架、收納箱、毛巾與床寢備品",
     "excerpt": "衣櫃與洗衣區不是收越多越好，先分每天拿、每週洗、換季收，才知道衣架、收納箱、毛巾與床寢要買到哪裡。",

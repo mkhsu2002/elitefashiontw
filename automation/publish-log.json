@@ -1,7 +1,57 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T18:08:52Z",
+  "updatedAt": "2026-06-22T00:06:33Z",
   "entries": [
+    {
+      "articleId": "auto-20260622000633-presentation-day-remote-gear-headset-mic-monitor-light",
+      "title": "簡報日的遠距設備：耳機、麥克風、螢幕與桌面光線",
+      "publishedAt": "2026-06-22T00:06:33Z",
+      "url": "https://tw.elitefasion.com/ai-innovation/presentation-day-remote-gear-headset-mic-monitor-light",
+      "file": "ai-innovation/presentation-day-remote-gear-headset-mic-monitor-light.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/presentation-day-remote-gear-headset-mic-monitor-light.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B14",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-fourteen-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260622000633-car-phone-setup-mount-charger-cable-dashcam-rain",
+      "title": "手機車用配置：手機架、車充、線材、行車紀錄與雨天備案",
+      "publishedAt": "2026-06-22T00:06:33Z",
+      "url": "https://tw.elitefasion.com/ai-innovation/car-phone-setup-mount-charger-cable-dashcam-rain",
+      "file": "ai-innovation/car-phone-setup-mount-charger-cable-dashcam-rain.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/car-phone-setup-mount-charger-cable-dashcam-rain.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B14",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-fourteen-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260622000633-city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket",
+      "title": "城市週末拍攝包：手機支架、CPL、黑柔濾鏡與防曬外套",
+      "publishedAt": "2026-06-22T00:06:33Z",
+      "url": "https://tw.elitefasion.com/ai-innovation/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket",
+      "file": "ai-innovation/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B14",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-fourteen-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260622000633-swimming-outdoor-class-goggles-sun-towel-storage-bag",
+      "title": "游泳與戶外課前準備：泳鏡、防曬、毛巾與收納袋",
+      "publishedAt": "2026-06-22T00:06:33Z",
+      "url": "https://tw.elitefasion.com/outdoor-escapes/swimming-outdoor-class-goggles-sun-towel-storage-bag",
+      "file": "outdoor-escapes/swimming-outdoor-class-goggles-sun-towel-storage-bag.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/swimming-outdoor-class-goggles-sun-towel-storage-bag.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B14",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-fourteen-no-newsletter"
+    },
+    {
+      "articleId": "auto-20260622000632-patio-balcony-shade-outdoor-chair-storage-plant-care",
+      "title": "小陽台與庭院用品：遮陽、戶外椅、收納與植物照顧",
+      "publishedAt": "2026-06-22T00:06:32Z",
+      "url": "https://tw.elitefasion.com/outdoor-escapes/patio-balcony-shade-outdoor-chair-storage-plant-care",
+      "file": "outdoor-escapes/patio-balcony-shade-outdoor-chair-storage-plant-care.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/patio-balcony-shade-outdoor-chair-storage-plant-care.jpg",
+      "queueId": "MOMO-REV-2026-06-21-W01-B14",
+      "triggerType": "manual-codex-momo-revenue-growth-batch-fourteen-no-newsletter"
+    },
     {
       "articleId": "auto-20260621180852-rental-refresh-sticker-light-storage-movable-furniture",
       "title": "租屋改造不動工：貼皮、燈光、收納與可移動家具",

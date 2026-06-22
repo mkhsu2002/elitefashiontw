@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-21T18:08:52Z",
+  "updatedAt": "2026-06-22T00:06:33Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -1215,6 +1215,66 @@
       "generatedAt": "2026-06-21T18:08:52Z",
       "usage": "cover-og-twitter",
       "promptSummary": "色彩豐富的租屋客廳，有可移動推車、立燈、收納格、貼皮板材樣片、單椅、窗簾與綠植",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "patio-balcony-shade-outdoor-chair-storage-plant-care": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/patio-balcony-shade-outdoor-chair-storage-plant-care.jpg",
+      "output": "images/optimized/article-covers/patio-balcony-shade-outdoor-chair-storage-plant-care.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a382966a6dc81989d2336a3b1c0256f.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a382966a6dc81989d2336a3b1c0256f.png",
+      "sha256": "2983ef98e28aa80ae453105a9a1d94f71dab097bfc1d41be31f83d28207b9859",
+      "generatedAt": "2026-06-22T00:06:32Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "陽光小陽台有遮陽布、藤編戶外椅、植栽、澆水壺與收納長凳",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "swimming-outdoor-class-goggles-sun-towel-storage-bag": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/swimming-outdoor-class-goggles-sun-towel-storage-bag.jpg",
+      "output": "images/optimized/article-covers/swimming-outdoor-class-goggles-sun-towel-storage-bag.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a3829b1fb7481989abb21194f0cb86c.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a3829b1fb7481989abb21194f0cb86c.png",
+      "sha256": "3d69855ea4b37c5fc0f1a08f72319ddd137dde44daede9af01411c73e4f300e7",
+      "generatedAt": "2026-06-22T00:06:33Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "泳池旁木桌有無標誌泳鏡、藍色毛巾、白色防曬瓶、網袋、水瓶與帽子",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket.jpg",
+      "output": "images/optimized/article-covers/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a382ace93f08198a731f796e11cdda6.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a382ace93f08198a731f796e11cdda6.png",
+      "sha256": "34b2038c68f2d43364bee826b3cc53d1c34c48aed7162d2848fb62c0eb276bf7",
+      "generatedAt": "2026-06-22T00:06:33Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "城市屋頂夕陽下有無標誌手機支架、空白濾鏡盒、圓形濾鏡、防曬外套、小包與墨鏡",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "car-phone-setup-mount-charger-cable-dashcam-rain": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/car-phone-setup-mount-charger-cable-dashcam-rain.jpg",
+      "output": "images/optimized/article-covers/car-phone-setup-mount-charger-cable-dashcam-rain.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a382b1d051c81988b88eac442f827cf.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a382b1d051c81988b88eac442f827cf.png",
+      "sha256": "c34e3fbe9d68184bfb739570295002662440e5454e5e492549dda343cfd6f23f",
+      "generatedAt": "2026-06-22T00:06:33Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "雨天停車中的車內副駕座，有空白手機架、車充、線材、小型行車紀錄器、折傘與擦拭布",
+      "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "presentation-day-remote-gear-headset-mic-monitor-light": {
+      "provider": "codex-imagegen",
+      "image": "images/optimized/article-covers/presentation-day-remote-gear-headset-mic-monitor-light.jpg",
+      "output": "images/optimized/article-covers/presentation-day-remote-gear-headset-mic-monitor-light.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a382a81766c8198b535fd269ef87639.png",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019ee879-360f-7231-9712-537f4c96f0bb/ig_0de90cb00612aa87016a382a81766c8198b535fd269ef87639.png",
+      "sha256": "8511f19510426c89f9214a7d2622a30d02eb79a576f6f624cbf663582ccd4783",
+      "generatedAt": "2026-06-22T00:06:33Z",
+      "usage": "cover-og-twitter",
+      "promptSummary": "專業居家工作桌有無標誌耳機、麥克風、黑屏外接螢幕、桌燈、筆電與空白筆記本",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
     }
   }
