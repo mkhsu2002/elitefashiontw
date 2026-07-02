@@ -4,7 +4,6 @@ from __future__ import annotations
 import html
 import json
 import re
-import shutil
 import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -51,6 +50,32 @@ CATEGORY_PAGES = {
     "lifestyle-culture": ("生活品味", "lifestyle-culture.html"),
 }
 
+DUPLICATE_OWNER_TARGETS = {
+    "ai-innovation/chair-cushion-home-office-products-2.html": "ai-innovation/chair-cushion-home-office-products.html",
+    "ai-innovation/chair-cushion-home-office-products-3.html": "ai-innovation/chair-cushion-home-office-products.html",
+    "casual-chic/travel-shoes-light-bag-crossbody-rain-backup-system.html": "casual-chic/travel-shoes-bag-lightweight-crossbody-rain-backup.html",
+    "lifestyle-culture/closet-laundry-bedroom-storage-products-2.html": "lifestyle-culture/closet-laundry-bedroom-storage-products.html",
+    "lifestyle-culture/closet-laundry-bedroom-storage-products-3.html": "lifestyle-culture/closet-laundry-bedroom-storage-products.html",
+    "lifestyle-culture/compact-large-furniture-dining-bed-sofa-products-2.html": "lifestyle-culture/compact-large-furniture-dining-bed-sofa-products.html",
+    "lifestyle-culture/daily-skincare-essence-mask-body-sunscreen-order-2.html": "lifestyle-culture/daily-skincare-essence-mask-body-sunscreen-order.html",
+    "lifestyle-culture/drawer-storage-cabinet-small-home-products-2.html": "lifestyle-culture/drawer-storage-cabinet-small-home-products.html",
+    "lifestyle-culture/drawer-storage-cabinet-small-home-products-3.html": "lifestyle-culture/drawer-storage-cabinet-small-home-products.html",
+    "lifestyle-culture/drawer-storage-cabinet-small-home-products-51.html": "lifestyle-culture/drawer-storage-cabinet-small-home-products.html",
+    "lifestyle-culture/drawer-storage-cabinet-small-home-products-52.html": "lifestyle-culture/drawer-storage-cabinet-small-home-products.html",
+    "lifestyle-culture/entryway-shoe-cabinet-storage-products-2.html": "lifestyle-culture/entryway-shoe-cabinet-storage-products.html",
+    "lifestyle-culture/entryway-shoe-cabinet-storage-products-3.html": "lifestyle-culture/entryway-shoe-cabinet-storage-products.html",
+    "lifestyle-culture/entryway-shoe-cabinet-storage-products-4.html": "lifestyle-culture/entryway-shoe-cabinet-storage-products.html",
+    "lifestyle-culture/entryway-shoe-cabinet-storage-products-5.html": "lifestyle-culture/entryway-shoe-cabinet-storage-products.html",
+    "lifestyle-culture/entryway-shoe-cabinet-storage-products-6.html": "lifestyle-culture/entryway-shoe-cabinet-storage-products.html",
+    "lifestyle-culture/family-gifts-blocks-books-puzzles-learning-toys.html": "lifestyle-culture/family-gift-blocks-board-games-puzzles-books.html",
+    "lifestyle-culture/family-table-toys-puzzles-gifts-products-2.html": "lifestyle-culture/family-table-toys-puzzles-gifts-products.html",
+    "lifestyle-culture/first-pet-shopping-food-toy-cleaning-outing-order-2.html": "lifestyle-culture/first-pet-shopping-food-toy-cleaning-outing-order.html",
+    "lifestyle-culture/scent-bodycare-gift-essential-oil-towel-small-goods.html": "lifestyle-culture/scent-bodycare-gift-essential-oil-towel-goods.html",
+    "lifestyle-culture/side-cabinet-nightstand-bedroom-products-2.html": "lifestyle-culture/side-cabinet-nightstand-bedroom-products.html",
+    "outdoor-escapes/travel-luggage-front-open-carry-on-packing-system-2.html": "outdoor-escapes/travel-luggage-front-open-carry-on-packing-system.html",
+    "wellness-movement/freezer-meal-prep-chicken-sweet-potato-vegetables-pack.html": "wellness-movement/freezer-meal-prep-chicken-sweet-potato-vegetables.html",
+}
+
 try:
     from scripts.content_pipeline import LEGACY_LIFE_PROPOSALS_CATEGORY_OVERRIDES
 except Exception:
@@ -66,6 +91,12 @@ def load_json(path: Path, default: Any) -> Any:
     if not path.exists():
         return default
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def write_text_if_changed(path: Path, content: str) -> None:
+    if path.exists() and path.read_text(encoding="utf-8", errors="ignore") == content:
+        return
+    path.write_text(content, encoding="utf-8")
 
 
 def strip_tags(value: str) -> str:
@@ -96,6 +127,62 @@ def extract_meta(content: str, name: str, *, attr: str = "name") -> str:
     return html.unescape(match.group(1)).strip() if match else ""
 
 
+def iter_json_ld_nodes(content: str) -> list[dict[str, Any]]:
+    nodes: list[dict[str, Any]] = []
+    for match in re.finditer(
+        r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+        content,
+        flags=re.I | re.S,
+    ):
+        try:
+            payload = json.loads(match.group(1).strip())
+        except json.JSONDecodeError:
+            continue
+        stack = [payload]
+        while stack:
+            item = stack.pop()
+            if isinstance(item, dict):
+                if "@type" in item:
+                    nodes.append(item)
+                graph = item.get("@graph")
+                if isinstance(graph, list):
+                    stack.extend(graph)
+            elif isinstance(item, list):
+                stack.extend(item)
+    return nodes
+
+
+def schema_type_matches(node: dict[str, Any], schema_type: str) -> bool:
+    node_type = node.get("@type")
+    if isinstance(node_type, list):
+        return schema_type in node_type
+    return node_type == schema_type
+
+
+def first_schema_value(content: str, schema_type: str, key: str) -> str:
+    for node in iter_json_ld_nodes(content):
+        if schema_type_matches(node, schema_type) and node.get(key):
+            return str(node[key])
+    return ""
+
+
+def supported_custom_schema_nodes(content: str) -> list[dict[str, Any]]:
+    supported_types = {"Product", "Review", "HowTo", "VideoObject"}
+    custom: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for node in iter_json_ld_nodes(content):
+        node_type = node.get("@type")
+        types = set(node_type if isinstance(node_type, list) else [node_type])
+        if not supported_types.intersection(types):
+            continue
+        key = json.dumps(node, ensure_ascii=False, sort_keys=True)
+        if key in seen:
+            continue
+        seen.add(key)
+        custom.append(node)
+    return custom
+
+
 def extract_first_paragraph(content: str) -> str:
     match = re.search(r"<p[^>]*>(.*?)</p>", content, flags=re.I | re.S)
     return strip_tags(match.group(1)) if match else ""
@@ -119,8 +206,17 @@ def extensionless_path(relative_path: str) -> str:
     return relative_path
 
 
+def canonical_relative_path(relative_path: str) -> str:
+    relative_path = relative_path.lstrip("/")
+    return DUPLICATE_OWNER_TARGETS.get(relative_path, relative_path)
+
+
+def is_duplicate_shadow(relative_path: str) -> bool:
+    return relative_path.lstrip("/") in DUPLICATE_OWNER_TARGETS
+
+
 def canonical_url(relative_path: str) -> str:
-    path = extensionless_path(relative_path)
+    path = extensionless_path(canonical_relative_path(relative_path))
     return f"{BASE_URL}/{path}" if path else f"{BASE_URL}/"
 
 
@@ -306,6 +402,7 @@ def maintenance_schema(page_path: Path, content: str) -> dict[str, Any]:
         breadcrumb_schema(page_path, title, category_key, page_type=page_type, primary_hub=primary_hub),
     ]
     if page_type == "article":
+        published = first_schema_value(content, "Article", "datePublished")
         article_schema = {
             "@type": "Article",
             "@id": f"{url}#article",
@@ -323,6 +420,16 @@ def maintenance_schema(page_path: Path, content: str) -> dict[str, Any]:
                 {"@type": "Thing", "name": taxonomy_record.get("topicCategoryLabel") or category_label},
             ],
         }
+        if relative == "outdoor-escapes/horizon-x-space-travel-neck-pillow.html":
+            article_schema["about"].append(
+                {
+                    "@type": "Product",
+                    "name": "Horizon X-Space 太空漂浮安眠脖枕",
+                    "category": "旅行頸枕",
+                }
+            )
+        if published:
+            article_schema["datePublished"] = published
         if primary_hub:
             article_schema["isPartOf"] = {"@id": f"{canonical_url(primary_hub['file'])}#webpage"}
         graph.append(article_schema)
@@ -340,6 +447,7 @@ def maintenance_schema(page_path: Path, content: str) -> dict[str, Any]:
                 "inLanguage": "zh-TW",
             }
         )
+    graph.extend(supported_custom_schema_nodes(content))
     item_links = extract_internal_links(content, page_path)
     if item_links:
         graph.append(
@@ -394,12 +502,36 @@ def upsert_meta_url(content: str, attr: str, key: str, url: str) -> str:
     return content[: match.start()] + updated + content[match.end() :]
 
 
+def upsert_meta_robots(content: str, value: str) -> str:
+    robots_tag = f'<meta name="robots" content="{html.escape(value)}">'
+    pattern = r'<meta(?=[^>]+name=["\']robots["\'])[^>]*>'
+    if re.search(pattern, content, flags=re.I):
+        return re.sub(pattern, robots_tag, content, count=1, flags=re.I)
+    return content.replace("</head>", f"    {robots_tag}\n</head>", 1)
+
+
+def ensure_single_h1(content: str) -> str:
+    if re.search(r"<h1\b", content, flags=re.I):
+        return content
+    return re.sub(
+        r'<h2([^>]*\bclass=["\'][^"\']*\bpage-hero-title\b[^"\']*["\'][^>]*)>(.*?)</h2>',
+        r"<h1\1>\2</h1>",
+        content,
+        count=1,
+        flags=re.I | re.S,
+    )
+
+
 def upsert_head_seo(page_path: Path, content: str) -> str:
     relative = rel_path(page_path)
     url = canonical_url(relative)
     content = normalize_local_hrefs(content)
+    content = ensure_single_h1(content)
+    if is_duplicate_shadow(relative):
+        content = upsert_meta_robots(content, "noindex, follow")
+    schema = json.dumps(maintenance_schema(page_path, content), ensure_ascii=False, separators=(",", ":"))
     content = re.sub(
-        r'\s*<script[^>]+id=["\']site-seo-schema["\'][^>]*>.*?</script>',
+        r'\s*<script[^>]+type=["\']application/ld\+json["\'][^>]*>.*?</script>',
         "",
         content,
         flags=re.I | re.S,
@@ -414,7 +546,6 @@ def upsert_head_seo(page_path: Path, content: str) -> str:
         content = content.replace(canonical_tag, f"{canonical_tag}\n    {feed_tag}", 1)
     content = upsert_meta_url(content, "property", "og:url", url)
     content = upsert_meta_url(content, "name", "twitter:url", url)
-    schema = json.dumps(maintenance_schema(page_path, content), ensure_ascii=False, separators=(",", ":"))
     schema_tag = f'    <script type="application/ld+json" id="site-seo-schema">{schema}</script>\n'
     content = content.replace("</head>", f"{schema_tag}</head>", 1)
     return content
@@ -960,8 +1091,8 @@ def render_editorial_policy_page() -> str:
 
 def write_hub_pages() -> None:
     for hub in HUBS:
-        (ROOT / hub["file"]).write_text(render_hub_page(hub), encoding="utf-8")
-    (ROOT / "editorial-policy.html").write_text(render_editorial_policy_page(), encoding="utf-8")
+        write_text_if_changed(ROOT / hub["file"], render_hub_page(hub))
+    write_text_if_changed(ROOT / "editorial-policy.html", render_editorial_policy_page())
 
 
 def inject_category_hub_blocks() -> None:
@@ -1014,7 +1145,7 @@ def inject_category_hub_blocks() -> None:
             content = content.replace(marker, block + "\n" + marker, 1)
         else:
             content = content.replace("</main>", block + "\n</main>", 1)
-        path.write_text(content, encoding="utf-8")
+        write_text_if_changed(path, content)
 
 
 def inject_category_archives() -> None:
@@ -1065,7 +1196,7 @@ def inject_category_archives() -> None:
             content = content[:footer_pos] + block + "\n" + content[footer_pos:]
         else:
             content = content.replace("</body>", block + "\n</body>", 1)
-        path.write_text(content, encoding="utf-8")
+        write_text_if_changed(path, content)
 
 
 def inject_article_cluster_links() -> None:
@@ -1131,7 +1262,7 @@ def inject_article_cluster_links() -> None:
             content = content.replace("</main>", block + "\n    </main>", 1)
         elif '<footer class="footer">' in content:
             content = content.replace('<footer class="footer">', block + "\n    <footer class=\"footer\">", 1)
-        path.write_text(content, encoding="utf-8")
+        write_text_if_changed(path, content)
 
 
 def add_editorial_policy_to_footers() -> None:
@@ -1148,7 +1279,7 @@ def add_editorial_policy_to_footers() -> None:
             content = content.replace('<li><a href="../contact.html">聯絡我們</a></li>', f"{link}\n                <li><a href=\"../contact.html\">聯絡我們</a></li>")
         elif "contact" in content and "<footer" in content:
             content = content.replace("</ul>", f"                            {link}\n                        </ul>", 1)
-        page_path.write_text(content, encoding="utf-8")
+        write_text_if_changed(page_path, content)
 
 
 def iter_indexable_html() -> list[Path]:
@@ -1180,7 +1311,7 @@ def update_all_html() -> None:
     for page_path in iter_maintainable_html():
         content = page_path.read_text(encoding="utf-8")
         updated = upsert_head_seo(page_path, content)
-        page_path.write_text(updated, encoding="utf-8")
+        write_text_if_changed(page_path, updated)
 
 
 def build_sitemap() -> None:
@@ -1197,7 +1328,7 @@ def build_sitemap() -> None:
         ET.SubElement(url, "priority").text = priority
     raw = ET.tostring(urlset, encoding="utf-8")
     pretty = minidom.parseString(raw).toprettyxml(indent="  ")
-    (ROOT / "sitemap.xml").write_text(pretty, encoding="utf-8")
+    write_text_if_changed(ROOT / "sitemap.xml", pretty)
 
 
 def build_feed() -> None:
@@ -1226,8 +1357,8 @@ def build_feed() -> None:
         ET.SubElement(item, "category").text = record.get("categoryLabel") or record.get("category") or "文章"
     raw = ET.tostring(rss, encoding="utf-8")
     pretty = minidom.parseString(raw).toprettyxml(indent="  ")
-    (ROOT / "feed.xml").write_text(pretty, encoding="utf-8")
-    shutil.copyfile(ROOT / "feed.xml", ROOT / "rss.xml")
+    write_text_if_changed(ROOT / "feed.xml", pretty)
+    write_text_if_changed(ROOT / "rss.xml", pretty)
 
 
 def main() -> None:

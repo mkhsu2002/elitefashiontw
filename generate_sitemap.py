@@ -3,6 +3,15 @@ from datetime import datetime
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
+
+def extensionless_url_path(relative_path):
+    relative_path = relative_path.replace(os.sep, "/")
+    if relative_path == "index.html":
+        return ""
+    if relative_path.endswith(".html"):
+        return relative_path[:-5]
+    return relative_path
+
 def generate_sitemap():
     base_url = "https://tw.elitefasion.com/"
     root_dir = "."
@@ -36,10 +45,8 @@ def generate_sitemap():
                 if rel_path == ".":
                     continue
                 
-                # Normalize path for URL
-                url_path = rel_path.replace(os.sep, '/')
-                if url_path == "index.html":
-                    url_path = ""
+                # Normalize path for URL. Public URLs are canonical without .html.
+                url_path = extensionless_url_path(rel_path)
                 
                 full_url = base_url + url_path
                 
