@@ -253,6 +253,187 @@ def normalize_local_hrefs(content: str) -> str:
     return re.sub(rf"{re.escape(BASE_URL)}/([^\"'<>\s]+?)\.html\b", rf"{BASE_URL}/\1", content)
 
 
+IMAGE_DIMENSION_CACHE: dict[Path, tuple[int, int] | None] = {}
+
+
+def _jpeg_dimensions(path: Path) -> tuple[int, int] | None:
+    with path.open("rb") as file:
+        if file.read(2) != b"\xff\xd8":
+            return None
+        while True:
+            marker_prefix = file.read(1)
+            if not marker_prefix:
+                return None
+            if marker_prefix != b"\xff":
+                continue
+            marker = file.read(1)
+            while marker == b"\xff":
+                marker = file.read(1)
+            if not marker:
+                return None
+            marker_code = marker[0]
+            if marker_code in {0x01, *range(0xD0, 0xD9)}:
+                continue
+            segment_length_raw = file.read(2)
+            if len(segment_length_raw) != 2:
+                return None
+            segment_length = int.from_bytes(segment_length_raw, "big")
+            if segment_length < 2:
+                return None
+            if marker_code in {
+                0xC0,
+                0xC1,
+                0xC2,
+                0xC3,
+                0xC5,
+                0xC6,
+                0xC7,
+                0xC9,
+                0xCA,
+                0xCB,
+                0xCD,
+                0xCE,
+                0xCF,
+            }:
+                frame = file.read(5)
+                if len(frame) != 5:
+                    return None
+                height = int.from_bytes(frame[1:3], "big")
+                width = int.from_bytes(frame[3:5], "big")
+                return (width, height) if width and height else None
+            file.seek(segment_length - 2, 1)
+
+
+def _webp_dimensions(path: Path) -> tuple[int, int] | None:
+    with path.open("rb") as file:
+        if file.read(4) != b"RIFF":
+            return None
+        file.read(4)
+        if file.read(4) != b"WEBP":
+            return None
+        while True:
+            chunk_type = file.read(4)
+            chunk_size_raw = file.read(4)
+            if len(chunk_type) != 4 or len(chunk_size_raw) != 4:
+                return None
+            chunk_size = int.from_bytes(chunk_size_raw, "little")
+            chunk_start = file.tell()
+            if chunk_type == b"VP8X" and chunk_size >= 10:
+                data = file.read(10)
+                width = int.from_bytes(data[4:7], "little") + 1
+                height = int.from_bytes(data[7:10], "little") + 1
+                return (width, height) if width and height else None
+            if chunk_type == b"VP8L" and chunk_size >= 5:
+                data = file.read(5)
+                bits = int.from_bytes(data[1:5], "little")
+                width = (bits & 0x3FFF) + 1
+                height = ((bits >> 14) & 0x3FFF) + 1
+                return (width, height) if width and height else None
+            if chunk_type == b"VP8 " and chunk_size >= 10:
+                data = file.read(10)
+                if data[3:6] != b"\x9d\x01\x2a":
+                    return None
+                width = int.from_bytes(data[6:8], "little") & 0x3FFF
+                height = int.from_bytes(data[8:10], "little") & 0x3FFF
+                return (width, height) if width and height else None
+            file.seek(chunk_start + chunk_size + (chunk_size % 2))
+
+
+def image_dimensions(path: Path) -> tuple[int, int] | None:
+    cached = IMAGE_DIMENSION_CACHE.get(path)
+    if cached is not None or path in IMAGE_DIMENSION_CACHE:
+        return cached
+    dimensions: tuple[int, int] | None = None
+    try:
+        header = path.read_bytes()[:24]
+        if header.startswith(b"\x89PNG\r\n\x1a\n") and len(header) >= 24:
+            width = int.from_bytes(header[16:20], "big")
+            height = int.from_bytes(header[20:24], "big")
+            dimensions = (width, height) if width and height else None
+        elif header.startswith(b"\xff\xd8"):
+            dimensions = _jpeg_dimensions(path)
+        elif header.startswith(b"RIFF") and header[8:12] == b"WEBP":
+            dimensions = _webp_dimensions(path)
+    except OSError:
+        dimensions = None
+    IMAGE_DIMENSION_CACHE[path] = dimensions
+    return dimensions
+
+
+def local_image_path(src: str, page_path: Path) -> Path | None:
+    src = html.unescape(src).strip()
+    if not src or src.startswith(("#", "data:", "mailto:", "tel:", "javascript:")):
+        return None
+    parsed = urllib.parse.urlsplit(src)
+    if parsed.scheme in {"http", "https"}:
+        if parsed.netloc != urllib.parse.urlsplit(BASE_URL).netloc:
+            return None
+        image_path = urllib.parse.unquote(parsed.path)
+    elif parsed.scheme or parsed.netloc:
+        return None
+    else:
+        image_path = urllib.parse.unquote(parsed.path)
+    if not image_path:
+        return None
+    candidate = ROOT / image_path.lstrip("/") if image_path.startswith("/") else page_path.parent / image_path
+    try:
+        candidate = candidate.resolve()
+        candidate.relative_to(ROOT.resolve())
+    except ValueError:
+        return None
+    return candidate if candidate.exists() and candidate.is_file() else None
+
+
+def normalize_footer_logo(content: str) -> str:
+    def repl(match: re.Match[str]) -> str:
+        quote = match.group(1)
+        src = match.group(2)
+        return f'src={quote}{src.replace("footer-logo.jpg", "footer-logo-optimized.jpg")}{quote}'
+
+    return re.sub(
+        r'src=(["\'])([^"\']*images/footer-logo\.jpg)\1',
+        repl,
+        content,
+        flags=re.I,
+    )
+
+
+def external_image_dimensions(src: str) -> tuple[int, int] | None:
+    parsed = urllib.parse.urlsplit(html.unescape(src).strip())
+    host = parsed.netloc.lower()
+    if host.endswith(".momoshop.com.tw"):
+        return (800, 600)
+    if host == "www.war.gov":
+        return (1600, 900)
+    return None
+
+
+def add_missing_image_dimensions(page_path: Path, content: str) -> str:
+    def repl(match: re.Match[str]) -> str:
+        tag = match.group(0)
+        src_match = re.search(r'\bsrc\s*=\s*(["\'])(.*?)\1', tag, flags=re.I | re.S)
+        if not src_match:
+            return tag
+        if re.search(r'\bwidth\s*=', tag, flags=re.I) and re.search(r'\bheight\s*=', tag, flags=re.I):
+            return tag
+        image_path = local_image_path(src_match.group(2), page_path)
+        dimensions = image_dimensions(image_path) if image_path else external_image_dimensions(src_match.group(2))
+        if not dimensions:
+            return tag
+        width, height = dimensions
+        normalized = re.sub(
+            r'\s+(?:width|height)\s*=\s*(?:"[^"]*"|\'[^\']*\'|[^\s>]+)',
+            "",
+            tag,
+            flags=re.I,
+        )
+        if normalized.endswith("/>"):
+            return f'{normalized[:-2].rstrip()} width="{width}" height="{height}" />'
+        return f'{normalized[:-1].rstrip()} width="{width}" height="{height}">'
+
+    return re.sub(r"<img\b[^>]*>", repl, content, flags=re.I | re.S)
+
+
 def classify_page(path: Path) -> tuple[str, str, str]:
     relative = rel_path(path)
     if path.name == "index.html":
@@ -526,6 +707,8 @@ def upsert_head_seo(page_path: Path, content: str) -> str:
     relative = rel_path(page_path)
     url = canonical_url(relative)
     content = normalize_local_hrefs(content)
+    content = normalize_footer_logo(content)
+    content = add_missing_image_dimensions(page_path, content)
     content = ensure_single_h1(content)
     if is_duplicate_shadow(relative):
         content = upsert_meta_robots(content, "noindex, follow")
@@ -764,7 +947,7 @@ def render_nav(active: str = "") -> str:
     )
     return f"""    <nav class="navbar" role="navigation" aria-label="主導覽列">
         <div class="container">
-            <div class="nav-brand"><a href="/" class="logo"><img src="images/logo.jpg" alt="Elite Fashion Logo"></a></div>
+            <div class="nav-brand"><a href="/" class="logo"><img src="images/logo.jpg" alt="Elite Fashion Logo" decoding="async" width="1024" height="1024"></a></div>
             <button class="mobile-menu-toggle" aria-label="開啟選單" aria-expanded="false"><span></span><span></span><span></span></button>
             <ul class="nav-menu">
 {links}
@@ -813,7 +996,7 @@ def render_footer() -> str:
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 致力於定義精英生活藍圖。</p>
-                <img src="images/footer-logo.jpg" alt="Elite Fashion" class="footer-logo">
+                <img src="images/footer-logo-optimized.jpg" alt="Elite Fashion" class="footer-logo" decoding="async" width="360" height="290">
             </div>
         </div>
     </footer>"""
