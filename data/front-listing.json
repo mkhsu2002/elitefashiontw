@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-06-22T01:07:37Z",
+  "updatedAt": "2026-07-04T17:32:07Z",
   "latest": [
+    {
+      "id": "manual-20260704173127-neo-babylon-summer-ai-sci-fi-parent-teen-reading",
+      "title": "AI 焦慮之外的暑假共讀：《新巴比倫》推薦",
+      "excerpt": "給忙碌父母與台灣青少年的夏季科幻選書：用《新巴比倫》討論 AI、生命與責任。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "AI 時代親子共讀",
+      "publishedAt": "2026-07-04T17:31:27Z",
+      "publishedDateText": "2026年7月4日",
+      "relativeUrl": "ai-innovation/neo-babylon-summer-ai-sci-fi-parent-teen-reading",
+      "heroImage": "images/optimized/article-covers/neo-babylon-summer-ai-sci-fi-parent-teen-reading.jpg",
+      "tags": [
+        "新巴比倫",
+        "AI 科幻",
+        "親子共讀",
+        "台灣青少年",
+        "暑假閱讀"
+      ]
+    },
     {
       "id": "auto-20260622010736-coffee-tea-gift-table-tableware-snack-scent-custom",
       "title": "咖啡茶與伴手禮桌：杯盤、茶點、香氛與客製小物",
@@ -198,30 +217,31 @@
         "行車紀錄器",
         "雨天備案"
       ]
-    },
-    {
-      "id": "auto-20260622000633-city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket",
-      "title": "城市週末拍攝包：手機支架、CPL、黑柔濾鏡與防曬外套",
-      "excerpt": "城市週末拍攝包要先看路線、光線、手持穩定與拿取頻率，再決定手機支架、濾鏡、防曬外套和雨天備案。",
-      "category": "ai-innovation",
-      "categoryLabel": "人工智能",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-22T00:06:33Z",
-      "publishedDateText": "2026年6月22日",
-      "relativeUrl": "ai-innovation/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket",
-      "heroImage": "/images/optimized/article-covers/city-weekend-photo-kit-phone-rig-cpl-filter-sun-jacket.jpg",
-      "tags": [
-        "手機拍攝",
-        "城市週末",
-        "CPL濾鏡",
-        "防曬外套"
-      ]
     }
   ],
   "byCategory": {
     "ai-innovation": {
       "label": "人工智能",
       "items": [
+        {
+          "id": "manual-20260704173127-neo-babylon-summer-ai-sci-fi-parent-teen-reading",
+          "title": "AI 焦慮之外的暑假共讀：《新巴比倫》推薦",
+          "excerpt": "給忙碌父母與台灣青少年的夏季科幻選書：用《新巴比倫》討論 AI、生命與責任。",
+          "category": "ai-innovation",
+          "categoryLabel": "人工智能",
+          "series": "AI 時代親子共讀",
+          "publishedAt": "2026-07-04T17:31:27Z",
+          "publishedDateText": "2026年7月4日",
+          "relativeUrl": "ai-innovation/neo-babylon-summer-ai-sci-fi-parent-teen-reading",
+          "heroImage": "images/optimized/article-covers/neo-babylon-summer-ai-sci-fi-parent-teen-reading.jpg",
+          "tags": [
+            "新巴比倫",
+            "AI 科幻",
+            "親子共讀",
+            "台灣青少年",
+            "暑假閱讀"
+          ]
+        },
         {
           "id": "auto-20260622003037-efficient-desk-cushion-backrest-monitor-storage-order",
           "title": "高效率桌面別只買大桌：椅墊、靠枕、螢幕與收納順序",
@@ -310,24 +330,6 @@
             "耳機麥克風",
             "外接螢幕",
             "桌面光線"
-          ]
-        },
-        {
-          "id": "auto-20260621104717-desk-cable-charger-monitor-protection-backup-organizer",
-          "title": "桌面線材怎麼整理：充電器、螢幕線、保護貼與備份小物",
-          "excerpt": "桌面線材要先看設備數量、接口、充電位置與備份流程，再買收納和保護周邊。",
-          "category": "ai-innovation",
-          "categoryLabel": "人工智能",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T10:47:17Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "ai-innovation/desk-cable-charger-monitor-protection-backup-organizer",
-          "heroImage": "/images/optimized/article-covers/desk-cable-charger-monitor-protection-backup-organizer.jpg",
-          "tags": [
-            "桌面線材",
-            "充電器",
-            "螢幕線",
-            "備份收納"
           ]
         }
       ]

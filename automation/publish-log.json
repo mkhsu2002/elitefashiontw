@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-22T01:07:36Z",
+  "updatedAt": "2026-07-04T17:31:27Z",
   "entries": [
+    {
+      "articleId": "manual-20260704173127-neo-babylon-summer-ai-sci-fi-parent-teen-reading",
+      "title": "AI 焦慮之外的暑假共讀：《新巴比倫》為什麼適合台灣青少年",
+      "publishedAt": "2026-07-04T17:31:27Z",
+      "url": "https://tw.elitefasion.com/ai-innovation/neo-babylon-summer-ai-sci-fi-parent-teen-reading",
+      "file": "ai-innovation/neo-babylon-summer-ai-sci-fi-parent-teen-reading.html",
+      "coverImageUrl": "https://tw.elitefasion.com/images/optimized/article-covers/neo-babylon-summer-ai-sci-fi-parent-teen-reading.jpg",
+      "queueId": null,
+      "triggerType": "manual-codex"
+    },
     {
       "articleId": "auto-20260622010736-night-before-travel-luggage-rain-charging-sleep-brace-check",
       "title": "旅行前一晚的採買檢查：行李箱、雨具、充電、睡眠與護具",

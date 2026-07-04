@@ -1,23 +1,7 @@
 {
-  "version": 1,
-  "updatedAt": "2026-06-22T01:07:36Z",
   "status": "generated",
-  "triggerType": "manual-codex-momo-revenue-growth-batch-sixteen-no-newsletter",
-  "queueId": "MOMO-REV-2026-06-21-W01-B16",
-  "newsletter": "not_sent_manual_codex_publish",
-  "articleIds": [
-    "auto-20260622010736-family-bathroom-restock-towel-cleaning-oral-care-storage",
-    "auto-20260622010736-coffee-tea-gift-table-tableware-snack-scent-custom",
-    "auto-20260622010736-weekend-home-reset-cleaning-laundry-bedding-restock-bag",
-    "auto-20260622010736-desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp",
-    "auto-20260622010736-night-before-travel-luggage-rain-charging-sleep-brace-check"
-  ],
-  "articleSlugs": [
-    "family-bathroom-restock-towel-cleaning-oral-care-storage",
-    "coffee-tea-gift-table-tableware-snack-scent-custom",
-    "weekend-home-reset-cleaning-laundry-bedding-restock-bag",
-    "desk-afternoon-ritual-coffee-cup-tea-snack-scent-lamp",
-    "night-before-travel-luggage-rain-charging-sleep-brace-check"
-  ],
-  "notes": "Codex 手動生成 momo 收益型內容第十六組；直接推上 main 不會自動寄送電子報。"
+  "updatedAt": "2026-07-04T17:31:27Z",
+  "articleId": "manual-20260704173127-neo-babylon-summer-ai-sci-fi-parent-teen-reading",
+  "url": "https://tw.elitefasion.com/ai-innovation/neo-babylon-summer-ai-sci-fi-parent-teen-reading",
+  "title": "AI 焦慮之外的暑假共讀：《新巴比倫》為什麼適合台灣青少年"
 }

@@ -1128,6 +1128,8 @@ def assert_frontend_copy(html_text: str, context: str) -> None:
 def cta_link_attrs(url: str) -> str:
     if is_affiliate_url(url):
         return ' target="_blank" rel="sponsored nofollow noopener noreferrer"'
+    if url.startswith(("http://", "https://")):
+        return ' target="_blank" rel="noopener noreferrer"'
     return ""
 
 
@@ -1194,7 +1196,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
         for item in article["faq"]
     )
     extended_items = "\n".join(
-        f'                <li><a href="{html.escape(item["url"])}">{html.escape(item["title"])}</a></li>'
+        f'                <li><a href="{html.escape(item["url"])}"{cta_link_attrs(item["url"])}>{html.escape(item["title"])}</a></li>'
         for item in article["extendedReading"]
     )
     inline_ctas_by_section: dict[int, list[dict[str, Any]]] = {}

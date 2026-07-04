@@ -1,5 +1,12 @@
 # 發文紀錄
 
+## 2026-07-04T17:31:27Z｜AI 焦慮之外的暑假共讀：《新巴比倫》為什麼適合台灣青少年
+
+- 文章 ID：manual-20260704173127-neo-babylon-summer-ai-sci-fi-parent-teen-reading
+- URL：https://tw.elitefasion.com/ai-innovation/neo-babylon-summer-ai-sci-fi-parent-teen-reading
+- 檔案：ai-innovation/neo-babylon-summer-ai-sci-fi-parent-teen-reading.html
+- 類型：manual-codex
+
 ## 2026-06-22T01:07:36Z｜旅行前一晚的採買檢查：行李箱、雨具、充電、睡眠與護具
 
 - 文章 ID：auto-20260622010736-night-before-travel-luggage-rain-charging-sleep-brace-check
