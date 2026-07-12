@@ -1333,6 +1333,7 @@ def render_article_html(article: dict[str, Any], config: dict[str, Any], categor
 <head>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1555443662858445"
         crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-1555443662858445">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{html.escape(article['metaTitle'])} | {html.escape(config['siteName'])}</title>
@@ -1809,6 +1810,7 @@ def render_all_articles_page(config: dict[str, Any], categories: dict[str, Categ
 <head>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1555443662858445"
         crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-1555443662858445">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>所有文章列表 | {html.escape(config['siteName'])}</title>
@@ -1951,6 +1953,7 @@ def render_search_page(config: dict[str, Any]) -> str:
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1555443662858445"
         crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-1555443662858445">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

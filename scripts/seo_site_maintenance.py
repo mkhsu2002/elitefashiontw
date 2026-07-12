@@ -1106,6 +1106,7 @@ def render_hub_page(hub: dict[str, Any]) -> str:
 <head>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1555443662858445"
         crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-1555443662858445">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{html.escape(title)} - Elite Fashion</title>
@@ -1233,6 +1234,7 @@ def render_editorial_policy_page() -> str:
 <head>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1555443662858445"
         crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-1555443662858445">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title} - Elite Fashion</title>
