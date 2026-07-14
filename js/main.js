@@ -353,3 +353,119 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Controlled in-article AdSense placements. Overlay formats must be disabled in AdSense.
+document.addEventListener('DOMContentLoaded', function() {
+    const config = {
+        client: 'ca-pub-1555443662858445',
+        slot: window.ELITE_ARTICLE_AD_SLOT ||
+            document.documentElement.getAttribute('data-article-ad-slot') ||
+            '5072221630',
+        maxSlots: 2
+    };
+
+    if (!config.slot || document.querySelector('.elite-ad-unit')) {
+        return;
+    }
+
+    const articleContainer = document.querySelector('.article-container');
+    if (!articleContainer || articleContainer.hasAttribute('data-no-article-ads')) {
+        return;
+    }
+
+    const contentRoot = document.querySelector('.product-article-main') ||
+        document.querySelector('.article-body') ||
+        articleContainer;
+
+    const createAdUnit = function(index) {
+        const wrapper = document.createElement('aside');
+        wrapper.className = 'elite-ad-unit';
+        wrapper.setAttribute('aria-label', '廣告');
+        wrapper.dataset.adIndex = String(index);
+
+        const label = document.createElement('span');
+        label.className = 'elite-ad-label';
+        label.textContent = '廣告';
+
+        const ad = document.createElement('ins');
+        ad.className = 'adsbygoogle';
+        ad.style.display = 'block';
+        ad.dataset.adClient = config.client;
+        ad.dataset.adSlot = config.slot;
+        ad.dataset.adFormat = 'auto';
+        ad.dataset.fullWidthResponsive = 'true';
+
+        wrapper.appendChild(label);
+        wrapper.appendChild(ad);
+
+        window.adsbygoogle = window.adsbygoogle || [];
+        window.setTimeout(function() {
+            try {
+                window.adsbygoogle.push({});
+            } catch (error) {
+                wrapper.classList.add('elite-ad-unit-empty');
+            }
+        }, 0);
+
+        return wrapper;
+    };
+
+    const insertAfter = function(node, adUnit) {
+        if (!node || !node.parentNode) {
+            return false;
+        }
+        node.parentNode.insertBefore(adUnit, node.nextSibling);
+        return true;
+    };
+
+    const placeInSectionedArticle = function() {
+        const sections = Array.from(contentRoot.querySelectorAll(':scope > .article-section'))
+            .filter(function(section) {
+                return !section.closest('.article-related, .article-faq, .article-cta, aside');
+            });
+
+        if (sections.length < 2) {
+            return 0;
+        }
+
+        let inserted = 0;
+        const firstTarget = sections[1];
+        if (insertAfter(firstTarget, createAdUnit(1))) {
+            inserted += 1;
+        }
+
+        if (sections.length >= 5 && inserted < config.maxSlots) {
+            const secondTarget = sections[Math.min(4, sections.length - 2)];
+            if (secondTarget !== firstTarget && insertAfter(secondTarget, createAdUnit(2))) {
+                inserted += 1;
+            }
+        }
+
+        return inserted;
+    };
+
+    const placeInClassicArticleBody = function() {
+        const headings = Array.from(contentRoot.querySelectorAll(':scope > h2'));
+        if (headings.length < 3) {
+            return 0;
+        }
+
+        headings[2].parentNode.insertBefore(createAdUnit(1), headings[2]);
+        let inserted = 1;
+
+        if (headings.length >= 6 && inserted < config.maxSlots) {
+            headings[5].parentNode.insertBefore(createAdUnit(2), headings[5]);
+            inserted += 1;
+        }
+
+        return inserted;
+    };
+
+    const inserted = placeInSectionedArticle() || placeInClassicArticleBody();
+    if (!inserted) {
+        const paragraphs = Array.from(contentRoot.querySelectorAll(':scope > p'));
+        if (paragraphs.length >= 4) {
+            insertAfter(paragraphs[2], createAdUnit(1));
+        }
+    }
+});
