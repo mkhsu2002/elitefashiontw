@@ -1,5 +1,13 @@
 # 發文紀錄
 
+## 2026-07-14T21:31:43Z｜Elite Fashion｜想露飛飛 campingflying 深度推薦：從戰術斜背包到營地小物的一袋式秩序
+
+- 文章 ID：auto-20260714213143-campingflying-edc-camp-bag-light-gear-order
+- URL：https://tw.elitefasion.com/outdoor-escapes/campingflying-edc-camp-bag-light-gear-order
+- 檔案：outdoor-escapes/campingflying-edc-camp-bag-light-gear-order.html
+- 類型：manual-codex-momo-top100-brand-daily-post
+- Queue：MOMO-TOP100-2026Q3-D001
+
 ## 2026-07-04T17:31:27Z｜AI 焦慮之外的暑假共讀：《新巴比倫》為什麼適合台灣青少年
 
 - 文章 ID：manual-20260704173127-neo-babylon-summer-ai-sci-fi-parent-teen-reading

@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-07-04T17:32:07Z",
+  "updatedAt": "2026-07-14T21:33:44Z",
   "latest": [
+    {
+      "id": "auto-20260714213143-campingflying-edc-camp-bag-light-gear-order",
+      "title": "Elite Fashion｜想露飛飛的一袋式戶外小物秩序",
+      "excerpt": "從戰術斜背包、鈦杯、椅凳到收納袋，整理想露飛飛適合哪些人先看。",
+      "category": "outdoor-escapes",
+      "categoryLabel": "戶外生活",
+      "series": "都會戶外與移動生活",
+      "publishedAt": "2026-07-14T21:31:43Z",
+      "publishedDateText": "2026年7月14日",
+      "relativeUrl": "outdoor-escapes/campingflying-edc-camp-bag-light-gear-order",
+      "heroImage": "images/optimized/article-covers/campingflying-edc-camp-bag-light-gear-order.jpg",
+      "tags": [
+        "想露飛飛",
+        "campingflying",
+        "戰術斜背包",
+        "露營小物",
+        "輕露營"
+      ]
+    },
     {
       "id": "manual-20260704173127-neo-babylon-summer-ai-sci-fi-parent-teen-reading",
       "title": "AI 焦慮之外的暑假共讀：《新巴比倫》推薦",
@@ -198,24 +217,6 @@
         "會議收音",
         "桌面喇叭",
         "工作角落"
-      ]
-    },
-    {
-      "id": "auto-20260622000633-car-phone-setup-mount-charger-cable-dashcam-rain",
-      "title": "手機車用配置：手機架、車充、線材、行車紀錄與雨天備案",
-      "excerpt": "車用手機配置要先看視線、線材、電力與雨天拿取，再決定手機架、車充、線材和行車紀錄器的位置。",
-      "category": "ai-innovation",
-      "categoryLabel": "人工智能",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-22T00:06:33Z",
-      "publishedDateText": "2026年6月22日",
-      "relativeUrl": "ai-innovation/car-phone-setup-mount-charger-cable-dashcam-rain",
-      "heroImage": "/images/optimized/article-covers/car-phone-setup-mount-charger-cable-dashcam-rain.jpg",
-      "tags": [
-        "車用手機架",
-        "車充線材",
-        "行車紀錄器",
-        "雨天備案"
       ]
     }
   ],
@@ -839,6 +840,25 @@
       "label": "戶外生活",
       "items": [
         {
+          "id": "auto-20260714213143-campingflying-edc-camp-bag-light-gear-order",
+          "title": "Elite Fashion｜想露飛飛的一袋式戶外小物秩序",
+          "excerpt": "從戰術斜背包、鈦杯、椅凳到收納袋，整理想露飛飛適合哪些人先看。",
+          "category": "outdoor-escapes",
+          "categoryLabel": "戶外生活",
+          "series": "都會戶外與移動生活",
+          "publishedAt": "2026-07-14T21:31:43Z",
+          "publishedDateText": "2026年7月14日",
+          "relativeUrl": "outdoor-escapes/campingflying-edc-camp-bag-light-gear-order",
+          "heroImage": "images/optimized/article-covers/campingflying-edc-camp-bag-light-gear-order.jpg",
+          "tags": [
+            "想露飛飛",
+            "campingflying",
+            "戰術斜背包",
+            "露營小物",
+            "輕露營"
+          ]
+        },
+        {
           "id": "auto-20260622010736-night-before-travel-luggage-rain-charging-sleep-brace-check",
           "title": "旅行前一晚的採買檢查：行李箱、雨具、充電、睡眠與護具",
           "excerpt": "旅行前一晚採買檢查要分明天早上要拿、路上會用、抵達後才用三層。",
@@ -926,24 +946,6 @@
             "反光配件",
             "行車紀錄",
             "雨具耳塞"
-          ]
-        },
-        {
-          "id": "auto-20260621111401-camping-coffee-outdoor-meal-prep-cookware-food",
-          "title": "露營咖啡與戶外餐食：手沖、濾掛、鍋具與冷凍食材",
-          "excerpt": "露營咖啡與戶外餐食要先看手沖流程、鍋具收納、冷凍食材保存與收洗動線。",
-          "category": "outdoor-escapes",
-          "categoryLabel": "戶外生活",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T11:14:01Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "outdoor-escapes/camping-coffee-outdoor-meal-prep-cookware-food",
-          "heroImage": "/images/optimized/article-covers/camping-coffee-outdoor-meal-prep-cookware-food.jpg",
-          "tags": [
-            "露營咖啡",
-            "戶外餐食",
-            "手沖鍋具",
-            "冷凍食材"
           ]
         }
       ]

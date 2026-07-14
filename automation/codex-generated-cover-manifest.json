@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-22T01:07:36Z",
+  "updatedAt": "2026-07-14T21:33:04Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -1396,6 +1396,12 @@
       "usage": "cover-og-twitter",
       "promptSummary": "旅行前一晚臥室長椅上有無標誌軟行李包、雨衣、折傘、行動電源、線材、耳塞盒與護具束帶",
       "review": "Manual visual check passed: no visible trademark logo, brand wordmark, watermark, readable text, or product label."
+    },
+    "campingflying-edc-camp-bag-light-gear-order": {
+      "image": "images/optimized/article-covers/campingflying-edc-camp-bag-light-gear-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019f61fe-ba2c-7d80-a9aa-8bf747bbffbe/call_DYRnV9HGXOFdt5K1yz0MJKuM.png",
+      "sha256": "cb4920c5d961a785a5c9946d5c1fe80f673f69f655c46240c477e95d46642f1c",
+      "promptSummary": "Golden-hour outdoor table with tactical crossbody bag, titanium cup, folding stool, and organized camp pouches; no text or logos."
     }
   }
 }

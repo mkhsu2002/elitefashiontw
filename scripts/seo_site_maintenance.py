@@ -1398,7 +1398,7 @@ def inject_article_cluster_links() -> None:
             continue
         content = path.read_text(encoding="utf-8")
         content = re.sub(
-            r"\s*<!-- SEO-CLUSTER:START -->.*?<!-- SEO-CLUSTER:END -->",
+            r"\s*<!-- (?:SEO-CLUSTER|ARTICLE-RELATED):START -->.*?<!-- (?:SEO-CLUSTER|ARTICLE-RELATED):END -->",
             "",
             content,
             flags=re.I | re.S,
@@ -1435,7 +1435,7 @@ def inject_article_cluster_links() -> None:
             else ""
         )
         block = f"""
-        <!-- SEO-CLUSTER:START -->
+        <!-- ARTICLE-RELATED:START -->
         <section class="article-related seo-cluster-links" aria-label="主題延伸閱讀">
             <h2>主題延伸閱讀</h2>
             <p>這篇文章歸入 <a href="{html.escape(primary.get('url', '/all-articles'))}">{html.escape(primary.get('title', 'Elite Fashion 主題策展'))}</a>，可從同一條閱讀路徑繼續延伸。</p>
@@ -1445,7 +1445,7 @@ def inject_article_cluster_links() -> None:
                 <li><a href="/{extensionless_path(category_page)}">瀏覽更多{html.escape(category_label)}文章</a></li>
             </ul>{secondary_block}
         </section>
-        <!-- SEO-CLUSTER:END -->
+        <!-- ARTICLE-RELATED:END -->
 """
         if "</main>" in content:
             content = content.replace("</main>", block + "\n    </main>", 1)
