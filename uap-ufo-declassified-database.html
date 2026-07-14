@@ -7,21 +7,21 @@
     <meta name="google-adsense-account" content="ca-pub-1555443662858445">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>美國官方 UAP/UFO 解密資料庫繁中導讀 | Elite Fashion</title>
+    <title>UAP/UFO 解密資料庫｜美國官方檔案繁中導讀</title>
     <meta name="description" content="繁體中文整理 AARO、NARA、CIA Reading Room、Project Blue Book、Roswell、ODNI 與美國軍方公開 UAP/UFO 解密資料，聚焦官方來源、案例狀態與素材引用權限。">
     <meta name="keywords" content="UAP, UFO, AARO, NARA, CIA Reading Room, Project Blue Book, Roswell, UAP 解密, UFO 解密, 繁中導讀">
-    <meta name="author" content="Elite Fashion Team">
+    <meta name="author" content="UAP/UFO 解密資料庫編輯部">
     <meta property="og:type" content="article">
     <meta property="og:locale" content="zh_TW">
     <meta property="og:url" content="https://tw.elitefasion.com/uap-ufo-declassified-database">
-    <meta property="og:title" content="美國官方 UAP/UFO 解密資料庫繁中導讀">
+    <meta property="og:title" content="UAP/UFO 解密資料庫｜美國官方檔案繁中導讀">
     <meta property="og:description" content="繁體中文整理 AARO、NARA、CIA Reading Room、Project Blue Book、Roswell、ODNI 與美國軍方公開 UAP/UFO 解密資料，聚焦官方來源、案例狀態與素材引用權限。">
     <meta property="og:image" content="https://tw.elitefasion.com/images/optimized/article-covers/uap-ufo-declassified-database.jpg">
         <meta property="og:image:secure_url" content="https://tw.elitefasion.com/images/optimized/article-covers/uap-ufo-declassified-database.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="美國官方 UAP/UFO 解密資料庫繁中導讀">
+    <meta property="og:image:alt" content="UAP/UFO 解密資料庫：美國官方檔案繁中導讀">
 <meta name="twitter:card" content="summary_large_image">
             <link rel="canonical" href="https://tw.elitefasion.com/uap-ufo-declassified-database">
     <link rel="alternate" type="application/rss+xml" title="Elite Fashion RSS" href="https://tw.elitefasion.com/feed.xml">
@@ -126,6 +126,14 @@
         .uap-brief dd {
             margin-bottom: 1rem;
             color: rgba(255, 255, 255, 0.92);
+            overflow-wrap: anywhere;
+            word-break: break-word;
+        }
+
+        .uap-hero .container > *,
+        .uap-brief,
+        .uap-lede {
+            min-width: 0;
         }
 
         .uap-lang-link {
@@ -184,11 +192,15 @@
             border: 1px solid rgba(255, 255, 255, 0.14);
             border-radius: 8px;
             overflow: hidden;
+            max-width: 100%;
             box-shadow: 0 22px 45px rgba(0, 0, 0, 0.28);
         }
 
         .uap-video-frame {
             position: relative;
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
             aspect-ratio: 16 / 9;
             background:
                 linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
@@ -597,16 +609,223 @@
             font-size: 0.94rem;
         }
 
+
+        .uap-site-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(8, 12, 16, 0.94);
+            backdrop-filter: blur(14px);
+            border-bottom: 1px solid rgba(217, 198, 147, 0.16);
+        }
+
+        .uap-site-nav .container {
+            min-height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.4rem;
+        }
+
+        .uap-identity {
+            color: #fff;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            line-height: 1.2;
+        }
+
+        .uap-owner-chip {
+            display: block;
+            margin-top: 0.16rem;
+            color: rgba(255,255,255,0.52);
+            font-size: 0.72rem;
+            font-weight: 500;
+            letter-spacing: 0.04em;
+            text-transform: none;
+        }
+
+        .uap-site-nav nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            gap: 0.8rem;
+            font-size: 0.9rem;
+        }
+
+        .uap-site-nav nav a { color: rgba(255,255,255,0.76); }
+        .uap-site-nav nav a:hover { color: #d9c693; }
+
+        .uap-hero .container {
+            grid-template-columns: minmax(0, 1fr) minmax(320px, 0.78fr);
+            align-items: center;
+        }
+
+        .uap-hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            margin-top: 1.45rem;
+        }
+
+        .uap-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 999px;
+            padding: 0.78rem 1rem;
+            border: 1px solid rgba(217, 198, 147, 0.72);
+            color: #fff;
+            background: rgba(217, 198, 147, 0.14);
+            font-weight: 800;
+        }
+
+        .uap-button.secondary {
+            border-color: rgba(255,255,255,0.24);
+            background: rgba(255,255,255,0.08);
+        }
+
+        .uap-hero-visual {
+            border: 1px solid rgba(217, 198, 147, 0.28);
+            border-radius: 18px;
+            overflow: hidden;
+            background: #05090d;
+            box-shadow: 0 26px 70px rgba(0,0,0,0.38);
+        }
+
+        .uap-hero-visual img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .uap-image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1rem;
+            margin-top: 1.4rem;
+        }
+
+        .uap-image-card {
+            min-height: 190px;
+            border-radius: 12px;
+            padding: 1rem;
+            color: #fff;
+            background:
+                radial-gradient(circle at 72% 20%, rgba(214,231,255,0.42), transparent 8%),
+                linear-gradient(135deg, rgba(8,16,23,0.96), rgba(26,39,47,0.86)),
+                repeating-linear-gradient(90deg, rgba(255,255,255,0.07) 0 1px, transparent 1px 38px);
+            border: 1px solid rgba(217, 198, 147, 0.2);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        .uap-image-card span {
+            display: inline-flex;
+            width: fit-content;
+            margin-bottom: 0.55rem;
+            border-radius: 999px;
+            padding: 0.22rem 0.58rem;
+            background: rgba(217,198,147,0.16);
+            color: #e5d6aa;
+            font-size: 0.78rem;
+            font-weight: 800;
+        }
+
+        .uap-image-card strong {
+            font-family: var(--font-serif);
+            font-size: 1.25rem;
+            line-height: 1.22;
+        }
+
+        .uap-video-fallback {
+            display: grid;
+            place-items: center;
+            min-height: 360px;
+        }
+
+        .uap-video-fallback-card {
+            width: min(78%, 560px);
+            max-width: calc(100% - 2rem);
+            border: 1px solid rgba(217,198,147,0.38);
+            border-radius: 16px;
+            padding: 1.4rem;
+            background: rgba(5,8,12,0.84);
+            box-shadow: 0 22px 60px rgba(0,0,0,0.34);
+        }
+
+        .uap-video-fallback-card span {
+            display: inline-flex;
+            margin-bottom: 0.72rem;
+            border-radius: 999px;
+            padding: 0.26rem 0.66rem;
+            background: rgba(138,61,54,0.24);
+            color: #f2c8bf;
+            font-size: 0.8rem;
+            font-weight: 800;
+        }
+
+        .uap-video-fallback-card p { color: rgba(255,255,255,0.74); line-height: 1.7; }
+
+        .uap-ad-slot {
+            margin: 2.2rem auto;
+            padding: 1.1rem;
+            max-width: 980px;
+            border: 1px dashed rgba(166,139,90,0.42);
+            border-radius: 12px;
+            background: rgba(255,255,255,0.72);
+            text-align: center;
+            color: var(--uap-muted);
+        }
+
+        .uap-ad-slot .uap-ad-label {
+            display: block;
+            margin-bottom: 0.55rem;
+            color: #8d806a;
+            font-size: 0.74rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+        }
+
+        .uap-owner {
+            background: #0f1419;
+            color: #fff;
+            padding: 3.4rem 0;
+        }
+
+        .uap-owner-card {
+            display: grid;
+            grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr);
+            gap: 1.4rem;
+            border: 1px solid rgba(217,198,147,0.22);
+            border-radius: 16px;
+            padding: 1.6rem;
+            background: rgba(255,255,255,0.045);
+        }
+
+        .uap-owner-card h2 {
+            font-family: var(--font-serif);
+            font-size: clamp(1.8rem, 2.8vw, 2.7rem);
+            line-height: 1.18;
+        }
+
+        .uap-owner-card p,
+        .uap-owner-card li { color: rgba(255,255,255,0.74); line-height: 1.75; }
+        .uap-owner-card ul { margin: 0.8rem 0 0; padding-left: 1.2rem; }
+
         @media (max-width: 980px) {
             .uap-hero .container,
             .uap-video-layout,
-            .uap-callout {
+            .uap-callout,
+            .uap-owner-card {
                 grid-template-columns: 1fr;
             }
 
             .uap-grid,
             .uap-stats,
-            .uap-cases {
+            .uap-cases,
+            .uap-image-grid {
                 grid-template-columns: repeat(2, minmax(0, 1fr));
             }
 
@@ -616,13 +835,42 @@
         }
 
         @media (max-width: 640px) {
+            .uap-site-nav .container {
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 0.7rem;
+                padding-top: 0.85rem;
+                padding-bottom: 0.85rem;
+            }
+
+            .uap-site-nav nav {
+                width: 100%;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                gap: 0.58rem 0.74rem;
+                overflow: visible;
+                padding-bottom: 0;
+            }
+
+            .uap-site-nav nav a {
+                flex: 0 0 auto;
+                white-space: nowrap;
+            }
+
+            .uap-brief dd,
+            .uap-brief a,
+            .uap-section-copy {
+                overflow-wrap: anywhere;
+            }
+
             .uap-hero {
-                padding: 5.2rem 0 3.8rem;
+                padding: 4.6rem 0 3.4rem;
             }
 
             .uap-grid,
             .uap-stats,
             .uap-cases,
+            .uap-image-grid,
             .uap-case-meta,
             .uap-template {
                 grid-template-columns: 1fr;
@@ -662,52 +910,48 @@
     </style>
     <meta name="twitter:image" content="https://tw.elitefasion.com/images/optimized/article-covers/uap-ufo-declassified-database.jpg">
     <meta property="article:published_time" content="2026-05-09T00:00:00Z">
-        <meta name="twitter:image:alt" content="美國官方 UAP/UFO 解密資料庫繁中導讀">
-<meta name="twitter:title" content="美國官方 UAP/UFO 解密資料庫繁中導讀">
+        <meta name="twitter:image:alt" content="UAP/UFO 解密資料庫：美國官方檔案繁中導讀">
+<meta name="twitter:title" content="UAP/UFO 解密資料庫｜美國官方檔案繁中導讀">
     <meta name="twitter:description" content="繁體中文整理 AARO、NARA、CIA Reading Room、Project Blue Book、Roswell、ODNI 與美國軍方公開 UAP/UFO 解密資料，聚焦官方來源、案例狀態與素材引用權限。">
-    <script type="application/ld+json" id="site-seo-schema">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://tw.elitefasion.com/#organization","name":"Elite Fashion","url":"https://tw.elitefasion.com/","logo":{"@type":"ImageObject","url":"https://tw.elitefasion.com/images/logo.jpg"},"sameAs":["https://www.instagram.com/northpath.ca","https://www.facebook.com/northpathca/"]},{"@type":"WebSite","@id":"https://tw.elitefasion.com/#website","name":"Elite Fashion","url":"https://tw.elitefasion.com/","inLanguage":"zh-TW","publisher":{"@id":"https://tw.elitefasion.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://tw.elitefasion.com/search?q={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://tw.elitefasion.com/"},{"@type":"ListItem","position":2,"name":"人生重整與一人生活秩序","item":"https://tw.elitefasion.com/mature-life-reset"},{"@type":"ListItem","position":3,"name":"美國官方 UAP/UFO 解密資料庫繁中導讀","item":"https://tw.elitefasion.com/uap-ufo-declassified-database"}]},{"@type":"Article","@id":"https://tw.elitefasion.com/uap-ufo-declassified-database#article","headline":"美國官方 UAP/UFO 解密資料庫繁中導讀","description":"繁體中文整理 AARO、NARA、CIA Reading Room、Project Blue Book、Roswell、ODNI 與美國軍方公開 UAP/UFO 解密資料，聚焦官方來源、案例狀態與素材引用權限。","image":"https://tw.elitefasion.com/images/optimized/article-covers/uap-ufo-declassified-database.jpg","author":{"@id":"https://tw.elitefasion.com/#organization"},"publisher":{"@id":"https://tw.elitefasion.com/#organization"},"mainEntityOfPage":"https://tw.elitefasion.com/uap-ufo-declassified-database","dateModified":"2026-07-14T21:33:30.084307+00:00","inLanguage":"zh-TW","articleSection":"文化與款待","about":[{"@type":"Thing","name":"特輯"},{"@type":"Thing","name":"文化與款待"}],"datePublished":"2026-05-09","isPartOf":{"@id":"https://tw.elitefasion.com/mature-life-reset#webpage"}},{"@type":"ItemList","@id":"https://tw.elitefasion.com/uap-ufo-declassified-database#itemlist","name":"美國官方 UAP/UFO 解密資料庫繁中導讀延伸閱讀","itemListElement":[{"@type":"ListItem","position":1,"name":"美國 UFO 解密 Top 10：阿波羅、Roswell、Tic Tac 到外星人屍體傳聞","url":"https://tw.elitefasion.com/uap-ufo-declassified/top-10-ufo-files"},{"@type":"ListItem","position":2,"name":"PURSUE Release 01 解密入口","url":"https://tw.elitefasion.com/uap-ufo-declassified/pursue-release-01"},{"@type":"ListItem","position":3,"name":"NASA 太空任務對話紀錄","url":"https://tw.elitefasion.com/uap-ufo-declassified/nasa-astronaut-uap-transcripts"},{"@type":"ListItem","position":4,"name":"2023 美國國會 UAP 聽證逐字稿","url":"https://tw.elitefasion.com/uap-ufo-declassified/congress-2023-uap-hearing"},{"@type":"ListItem","position":5,"name":"Tic Tac 事件與 Fravor 證詞","url":"https://tw.elitefasion.com/uap-ufo-declassified/navy-tic-tac-fravor"},{"@type":"ListItem","position":6,"name":"FBI Guy Hottel 備忘錄","url":"https://tw.elitefasion.com/uap-ufo-declassified/fbi-guy-hottel-memo"},{"@type":"ListItem","position":7,"name":"CIA Robertson Panel 與 Durant Report","url":"https://tw.elitefasion.com/uap-ufo-declassified/cia-robertson-panel-durant-report"},{"@type":"ListItem","position":8,"name":"Project Blue Book 官方 Fact Sheet","url":"https://tw.elitefasion.com/uap-ufo-declassified/project-blue-book-fact-sheet"},{"@type":"ListItem","position":9,"name":"Roswell 官方檔案導讀","url":"https://tw.elitefasion.com/uap-ufo-declassified/roswell-report-official-records"},{"@type":"ListItem","position":10,"name":"AARO Historical Record Report 導讀","url":"https://tw.elitefasion.com/uap-ufo-declassified/aaro-historical-record-report"},{"@type":"ListItem","position":11,"name":"KONA BLUE 與 ORNL 材料分析","url":"https://tw.elitefasion.com/uap-ufo-declassified/kona-blue-ornl-materials"},{"@type":"ListItem","position":12,"name":"人生重整與一人生活秩序","url":"https://tw.elitefasion.com/mature-life-reset"},{"@type":"ListItem","position":13,"name":"離婚後先做哪六件事","url":"https://tw.elitefasion.com/lifestyle-culture/post-divorce-first-6-steps"},{"@type":"ListItem","position":14,"name":"返台後的九十天生活清單","url":"https://tw.elitefasion.com/lifestyle-culture/return-divorce-restart-90-day-checklist"},{"@type":"ListItem","position":15,"name":"瀏覽更多特輯文章","url":"https://tw.elitefasion.com/all-articles"}]}]}</script>
+    <script type="application/ld+json" id="site-seo-schema">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://tw.elitefasion.com/#organization","name":"Elite Fashion","url":"https://tw.elitefasion.com/","logo":{"@type":"ImageObject","url":"https://tw.elitefasion.com/images/logo.jpg"}},{"@type":"WebSite","@id":"https://tw.elitefasion.com/#website","name":"Elite Fashion","url":"https://tw.elitefasion.com/","inLanguage":"zh-TW","publisher":{"@id":"https://tw.elitefasion.com/#organization"}},{"@type":"BreadcrumbList","@id":"https://tw.elitefasion.com/uap-ufo-declassified-database#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"首頁","item":"https://tw.elitefasion.com/"},{"@type":"ListItem","position":2,"name":"UAP/UFO 解密資料庫","item":"https://tw.elitefasion.com/uap-ufo-declassified-database"}]},{"@type":"Article","@id":"https://tw.elitefasion.com/uap-ufo-declassified-database#article","headline":"UAP/UFO 解密資料庫｜美國官方檔案繁中導讀","description":"繁體中文整理 AARO、NARA、CIA Reading Room、Project Blue Book、Roswell、ODNI 與美國軍方公開 UAP/UFO 解密資料，聚焦官方來源、案例狀態與素材引用權限。","image":"https://tw.elitefasion.com/images/optimized/article-covers/uap-ufo-declassified-database.jpg","author":{"@type":"Organization","name":"UAP/UFO 解密資料庫編輯部"},"publisher":{"@id":"https://tw.elitefasion.com/#organization"},"mainEntityOfPage":"https://tw.elitefasion.com/uap-ufo-declassified-database","datePublished":"2026-05-09","dateModified":"2026-07-14","inLanguage":"zh-TW","articleSection":"官方檔案導讀","about":[{"@type":"Thing","name":"UAP"},{"@type":"Thing","name":"UFO"},{"@type":"Thing","name":"AARO"},{"@type":"Thing","name":"美國官方解密檔案"}],"isPartOf":{"@id":"https://tw.elitefasion.com/#website"}},{"@type":"ItemList","@id":"https://tw.elitefasion.com/uap-ufo-declassified-database#related-guides","name":"UAP/UFO 官方檔案延伸導讀","itemListElement":[{"@type":"ListItem","position":1,"name":"美國 UFO 解密 Top 10：從 Roswell 到 Tic Tac","url":"https://tw.elitefasion.com/uap-ufo-declassified/top-10-ufo-files"},{"@type":"ListItem","position":2,"name":"2023 美國國會 UAP 聽證逐字稿導讀","url":"https://tw.elitefasion.com/uap-ufo-declassified/congress-2023-uap-hearing"},{"@type":"ListItem","position":3,"name":"Project Blue Book 官方 Fact Sheet","url":"https://tw.elitefasion.com/uap-ufo-declassified/project-blue-book-fact-sheet"},{"@type":"ListItem","position":4,"name":"AARO Historical Record Report 導讀","url":"https://tw.elitefasion.com/uap-ufo-declassified/aaro-historical-record-report"}]}]}</script>
 </head>
 
 <body>
-    <nav class="navbar" role="navigation" aria-label="主導覽列">
+    <nav class="uap-site-nav" role="navigation" aria-label="UAP 解密資料庫導覽">
         <div class="container">
-            <div class="nav-brand">
-                <a href="/" class="logo"><img src="images/logo.jpg" alt="Elite Fashion Logo" width="1024" height="1024"></a>
-            </div>
-            <button class="mobile-menu-toggle" aria-label="開啟選單" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-menu">
-                <li><a href="/">首頁</a></li>
-                <li><a href="ai-innovation">人工智能</a></li>
-                <li><a href="runway-trends">秀場趨勢</a></li>
-                <li><a href="designer-perspective">設計師視角</a></li>
-                <li><a href="casual-chic">休閒時尚</a></li>
-                <li><a href="wellness-movement">健康恢復</a></li>
-                <li><a href="outdoor-escapes">戶外生活</a></li>
-                <li><a href="lifestyle-culture">生活品味</a></li>
-                <li><a href="search">搜尋</a></li>
-                <li><a href="editorial-policy">編輯政策與更正說明</a></li>
-                            <li><a href="contact">聯絡我們</a></li>
-                <li><a href="https://elitefasion.com/uap-ufo-declassified-database" hreflang="en" class="lang-switch">EN</a></li>
-            </ul>
+            <a class="uap-identity" href="/uap-ufo-declassified-database">UAP/UFO 解密資料庫<span class="uap-owner-chip">operated by Elite Fashion</span></a>
+            <nav aria-label="頁內導覽">
+                <a href="#official-video-title">官方影像</a>
+                <a href="#sources">官方來源</a>
+                <a href="#taxonomy">案例分類</a>
+                <a href="#featured-guides">Top 10 導讀</a>
+                <a href="#owner">網站營運者</a>
+                <a href="https://elitefasion.com/uap-ufo-declassified-database" hreflang="en">EN</a>
+            </nav>
         </div>
     </nav>
 
     <header class="uap-hero">
         <div class="container">
             <div>
-                <p class="uap-kicker">官方檔案導讀</p>
-                <h1 class="uap-title">美國官方 UAP/UFO 解密資料庫繁中導讀</h1>
+                <p class="uap-kicker">官方檔案導讀 · 不替傳聞背書</p>
+                <h1 class="uap-title">UAP/UFO 解密資料庫</h1>
                 <p class="uap-lede">
-                    本頁整理美國政府正式公開、解密或去機密化的 UAP/UFO 檔案，重點放在來源機構、公開檔案、影像狀態、官方判定與引用限制。對於仍未歸因的案例，本文只依官方資料說明目前已知與未知，不將「未解」解讀為外星證據。
+                    這裡不講外星人，也不幫任何傳聞背書。本頁只整理美國政府已公開的 UAP/UFO 檔案：哪段影像來自官方、哪個案例已被解釋、哪一些仍停在「資料不夠」。看完後，你可以直接回到 AARO、NARA、CIA、ODNI 或 DVIDS 原始頁面自己查。
                 </p>
+                <div class="uap-hero-actions">
+                    <a class="uap-button" href="#official-video-title">看官方影像案例</a>
+                    <a class="uap-button secondary" href="#featured-guides">從 Top 10 檔案開始</a>
+                </div>
             </div>
+            <figure class="uap-hero-visual">
+                <img src="images/optimized/article-covers/uap-ufo-declassified-database.jpg" alt="UAP/UFO 解密資料庫：雷達、夜空與解密檔案風格主視覺" width="1200" height="630" loading="eager">
+            </figure>
             <dl class="uap-brief">
                 <dt>專題定位</dt>
-                <dd>美國官方 UAP/UFO 解密資料庫繁中導讀</dd>
+                <dd>美國官方檔案繁體中文導讀</dd>
                 <dt>查核日期</dt>
-                <dd>2026 年 5 月 12 日</dd>
+                <dd>2026 年 7 月 14 日</dd>
                 <dt>主要來源</dt>
                 <dd>AARO、NARA、CIA、ODNI、DoD/DVIDS 等官方來源優先</dd>
                 <dt>閱讀提醒</dt>
@@ -722,16 +966,19 @@
         <div class="container">
             <div class="uap-section-header">
                 <p class="uap-section-eyebrow">官方影像精選</p>
-                <h2 class="uap-section-title" id="official-video-title">六段官方影像，快速看懂 UAP 判讀差異</h2>
+                <h2 class="uap-section-title" id="official-video-title">六段官方影像案例，先看縮圖卡與原始來源</h2>
                 <p class="uap-section-copy">
-                    從最新未解紅外線案例，到 GIMBAL、GOFAST、FLIR 這類經典軍方影像，再到已解析為氣球或鳥群的案例，這組影片展示了官方資料中最容易被誤讀的幾種情境：距離感、視角、感測器限制、影像壓縮與資料不足。
+                    從最新未解紅外線案例，到 GIMBAL、GOFAST、FLIR 這類經典軍方影像，再到已解析為氣球或鳥群的案例。這裡先給你「案例卡 + 官方頁」，不把壞掉的嵌入影片丟到讀者臉上，文明一點。
                 </p>
             </div>
 
             <div class="uap-video-layout">
                 <div class="uap-video-player">
-                    <div class="uap-video-frame">
-                        <iframe id="uapFeatureVideo" src="https://www.dvidshub.net/video/embed/988676" title="PR-018, Unresolved UAP Report, Europe 2024" allowtransparency allowfullscreen loading="lazy"></iframe>
+                    <div class="uap-video-frame uap-video-fallback" id="uapFeatureVisual" aria-label="官方影片連結預覽">
+                        <div class="uap-video-fallback-card">
+                            <span>官方來源外連</span>
+                            <p>為避免 DVIDS 嵌入影片在部分地區或瀏覽器出現 403，本頁不再把 iframe 當主內容。請用下方按鈕直接開啟官方頁，並以該頁最新權利聲明為準。</p>
+                        </div>
                     </div>
                     <div class="uap-video-caption">
                         <div>
@@ -744,7 +991,6 @@
 
                 <div class="uap-video-rail" aria-label="官方 UAP 影像案例選單">
                     <button class="uap-video-card is-active" type="button"
-                        data-video="https://www.dvidshub.net/video/embed/988676"
                         data-title="PR-018 Europe 2024：最新未解紅外線案例"
                         data-summary="AARO 表示影像顯示可能存在實體物件，但公開資料不足以完成更具體歸因。"
                         data-link="https://www.dvidshub.net/video/988676/pr-018-unresolved-uap-report-europe-2024">
@@ -752,7 +998,6 @@
                         <span>最新未解案例 · 紅外線影像 · AARO / EUCOM</span>
                     </button>
                     <button class="uap-video-card" type="button"
-                        data-video="https://www.dvidshub.net/video/embed/956955"
                         data-title="GIMBAL：美國軍方經典 UAP 影像"
                         data-summary="NAVAIR 公開的經典 UAP 影片之一，適合搭配 FLIR 與 Go Fast 一起閱讀。"
                         data-link="https://www.dvidshub.net/video/956955/gimbal-uap">
@@ -760,7 +1005,6 @@
                         <span>經典軍方影像 · 2015 · NAVAIR</span>
                     </button>
                     <button class="uap-video-card" type="button"
-                        data-video="https://www.dvidshub.net/video/embed/956683"
                         data-title="GOFAST：高速感知與視角判讀"
                         data-summary="常被討論的海上 UAP 影像，適合搭配官方解析報告理解速度與視角差異。"
                         data-link="https://www.dvidshub.net/video/956683/gofast-uap">
@@ -768,7 +1012,6 @@
                         <span>經典軍方影像 · 2016 · NAVAIR</span>
                     </button>
                     <button class="uap-video-card" type="button"
-                        data-video="https://www.dvidshub.net/video/embed/955825"
                         data-title="FLIR / Tic Tac：2004 經典影像"
                         data-summary="2004 年公開影像常被稱為 FLIR 或 Tic Tac 案例，是理解近代 UAP 討論的重要素材。"
                         data-link="https://www.dvidshub.net/video/955825/flir-uap">
@@ -776,7 +1019,6 @@
                         <span>經典軍方影像 · 2004 · NAVAIR</span>
                     </button>
                     <button class="uap-video-card" type="button"
-                        data-video="https://www.dvidshub.net/video/embed/964843"
                         data-title="Middle East Red Balloon：已解析為反光氣球"
                         data-summary="AARO 以高信心判定影像中的球狀物體幾乎可以歸因為消費級反光鋁箔氣球。"
                         data-link="https://www.dvidshub.net/video/964843/25-scr150-middle-east-red-balloon-2024">
@@ -784,7 +1026,6 @@
                         <span>已解析案例 · 2024 · 氣球</span>
                     </button>
                     <button class="uap-video-card" type="button"
-                        data-video="https://www.dvidshub.net/video/embed/988673"
                         data-title="PR-016 Europe 2023：已解析為鳥群"
                         data-summary="AARO 以高信心判定影片中的物體幾乎可以歸因為鳥群，適合對照未解案例閱讀。"
                         data-link="https://www.dvidshub.net/video/988673/pr-016-resolved-birds-europe-2023">
@@ -795,6 +1036,12 @@
             </div>
 
             <p class="uap-video-note">權利提醒：DVIDS 條目通常標示為 public domain，但使用時不得暗示 DoD、AARO 或任何美國政府機構背書；個別素材仍以官方頁面當下顯示的權利聲明為準。</p>
+
+            <div class="uap-image-grid" aria-label="官方案例視覺導覽">
+                <article class="uap-image-card"><span>未解</span><strong>PR-018 Europe 2024：紅外線影像，資料不足以歸因</strong></article>
+                <article class="uap-image-card"><span>經典</span><strong>GIMBAL / GOFAST / FLIR：先看感測器與視角限制</strong></article>
+                <article class="uap-image-card"><span>已解析</span><strong>氣球、鳥群、商業飛機：官方如何把誤判拆開</strong></article>
+            </div>
         </div>
     </section>
 
@@ -821,7 +1068,7 @@
                     <p class="uap-section-eyebrow">導讀原則</p>
                     <h2 class="uap-section-title">用「檔案館導讀」處理 UAP，而不是用猜測填補空白</h2>
                     <p class="uap-section-copy">
-                        本專題將 UAP/UFO 視為官方資料、航安紀錄、感測器資料與歷史檔案來閱讀。每一類資料都盡量標明素材形式、公開機構、官方狀態與可查證連結，讓讀者能分辨哪些是影像、哪些是 PDF、哪些已有官方解析，哪些仍因資料不足而未能歸因。
+                        UAP 最容易被一句「未解」帶歪。這份導讀反過來做：先問來源在哪裡、素材是影片還是 PDF、官方到底說了什麼、還缺哪些資料。看不懂的地方不硬猜，沒有證據的地方不補劇情。
                     </p>
                 </div>
 
@@ -840,6 +1087,12 @@
                     </article>
                 </div>
 
+
+                <aside class="uap-ad-slot" aria-label="廣告版位">
+                    <span class="uap-ad-label">Advertisement</span>
+                    <p>官方影像區後的低干擾廣告版位。待 AdSense display unit slot 設定後啟用，不插在首屏標題與導讀之間。</p>
+                </aside>
+
                 <div class="uap-stats" aria-label="資料庫重點統計">
                     <div class="uap-stat"><strong>9</strong><span>官方來源</span></div>
                     <div class="uap-stat"><strong>6</strong><span>事件分類主軸</span></div>
@@ -853,9 +1106,9 @@
             <div class="container">
                 <div class="uap-section-header">
                     <p class="uap-section-eyebrow">官方來源</p>
-                    <h2 class="uap-section-title">官方資料來源清單</h2>
+                    <h2 class="uap-section-title">先看原始資料，再談故事</h2>
                     <p class="uap-section-copy">
-                        下表整理本專題採用的主要官方來源。閱讀單一事件時，請同時留意原始連結、檔案日期、檔案資訊、下載選項與權利聲明，避免把公開資料誤讀成未經確認的結論。
+                        下表是這份資料庫的地基。每個案例都盡量回到原始頁、PDF 或 catalog，而不是停在二手整理。UAP 題材已經夠會自己長傳說了，資料來源不能再跟著飄。
                     </p>
                 </div>
 
@@ -966,7 +1219,7 @@
                     <p class="uap-section-eyebrow">事件分類</p>
                     <h2 class="uap-section-title">事件分類</h2>
                     <p class="uap-section-copy">
-                        事件分類以「來源機構、地區、素材型態、官方狀態」交叉整理。這樣讀者可以先看最新公開影像，也可以回到 Project Blue Book、Roswell 與 CIA Reading Room 這類歷史檔案。
+                        如果你只想看「最神秘的影片」，可以從最新影像開始；如果你想知道政府怎麼查，請看已解析案例；如果你想追歷史脈絡，再回到 Blue Book、Roswell 與 CIA Reading Room。這不是一條陰謀論動線，是一張查證地圖。
                     </p>
                 </div>
 
@@ -1214,6 +1467,12 @@
                         以下 10 篇子頁從目前公開、解密或官方釋出的 UAP/UFO 文字資料中挑選，優先處理讀者最容易搜尋、也最容易被誤讀的內容：新近 PURSUE 入口、太空任務對話、國會聽證逐字稿、FBI 與 CIA 歷史文件、Blue Book、Roswell、AARO 歷史報告，以及 KONA BLUE 與材料分析。
                     </p>
                 </div>
+
+
+                <aside class="uap-ad-slot" aria-label="廣告版位">
+                    <span class="uap-ad-label">Advertisement</span>
+                    <p>Top 10 導讀列表前的文章內廣告版位。位置保留收益空間，但不切斷官方來源表格與案例卡閱讀。</p>
+                </aside>
 
                 <article class="uap-card uap-feature-card">
                     <p class="uap-card-label">社群分享主文</p>
@@ -1465,24 +1724,43 @@
         <!-- ARTICLE-RELATED:START -->
         <section class="article-related seo-cluster-links" aria-label="主題延伸閱讀">
             <h2>主題延伸閱讀</h2>
-            <p>這篇文章歸入 <a href="/mature-life-reset">人生重整與一人生活秩序</a>，可從同一條閱讀路徑繼續延伸。</p>
+            <p>這份資料庫適合搭配以下官方檔案導讀一起閱讀；每篇都保留原始來源連結，方便回查。</p>
             <ul>
-                <li><a href="/mature-life-reset">回到人生重整與一人生活秩序</a></li>
-                <li><a href="/lifestyle-culture/post-divorce-first-6-steps">離婚後先做哪六件事</a></li>
-                <li><a href="/lifestyle-culture/return-divorce-restart-90-day-checklist">返台後的九十天生活清單</a></li>
-                <li><a href="/all-articles">瀏覽更多特輯文章</a></li>
+                <li><a href="/uap-ufo-declassified/top-10-ufo-files">美國 UFO 解密 Top 10：從 Roswell 到 Tic Tac</a></li>
+                <li><a href="/uap-ufo-declassified/congress-2023-uap-hearing">2023 美國國會 UAP 聽證逐字稿導讀</a></li>
+                <li><a href="/uap-ufo-declassified/project-blue-book-fact-sheet">Project Blue Book 官方 Fact Sheet</a></li>
+                <li><a href="/uap-ufo-declassified/aaro-historical-record-report">AARO Historical Record Report 導讀</a></li>
             </ul>
         </section>
         <!-- ARTICLE-RELATED:END -->
 
     </main>
 
+    <section class="uap-owner" id="owner" aria-labelledby="uap-owner-title">
+        <div class="container">
+            <div class="uap-owner-card">
+                <div>
+                    <p class="uap-section-eyebrow">About / Site Owner</p>
+                    <h2 id="uap-owner-title">網站營運者</h2>
+                </div>
+                <div>
+                    <p>本頁由 Elite Fashion 營運與維護。Elite Fashion 在此不是內容主角，而是網站 owner：負責頁面維護、編輯流程、錯誤更正與公開資料引用規範。UAP/UFO 內容本身仍以 AARO、NARA、CIA、ODNI、DoD/DVIDS 等官方來源為準。</p>
+                    <ul>
+                        <li>所有案例導讀優先附原始官方連結。</li>
+                        <li>未解案例不延伸成外星結論。</li>
+                        <li>若官方來源更新、撤下或更正，本頁會依可查資料更新。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <h3>ELITE FASHION</h3>
-                    <p>由 Elite Fashion 編輯團隊維護，整理時尚、科技、戶外與生活品味的可靠讀物。</p>
+                    <p style="font-weight:700; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:0.45rem;">Elite Fashion</p>
+                    <p>網站營運 owner；本頁 UAP/UFO 內容以官方檔案與可查來源為準。</p>
                 </div>
                 <div class="footer-links">
                     <div class="footer-column">
@@ -1517,18 +1795,14 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 致力於定義精英生活藍圖。</p>
-                <div class="footer-brand-philosophy" style="margin-top: 10px; font-family: 'Playfair Display', serif; color: #999; font-size: 0.9rem; letter-spacing: 1px; text-align: center;">
-                    Elite Fasion = Faith + Passion <span style="margin: 0 10px;">|</span> 擁抱生命的不完美 Embracing Life's Imperfections
-                </div>
-                <img src="images/footer-logo-optimized.jpg" alt="Elite Fashion" class="footer-logo" width="360" height="290">
+                <p>&copy; 2026 Elite Fashion. UAP/UFO 解密資料庫為公開資料導讀，不代表任何官方機構背書。</p>
+
             </div>
         </div>
     </footer>
 
     <script>
         (function () {
-            const videoFrame = document.getElementById('uapFeatureVideo');
             const videoTitle = document.getElementById('uapFeatureTitle');
             const videoSummary = document.getElementById('uapFeatureSummary');
             const videoLink = document.getElementById('uapFeatureLink');
@@ -1538,8 +1812,6 @@
                 card.addEventListener('click', () => {
                     videoCards.forEach((item) => item.classList.remove('is-active'));
                     card.classList.add('is-active');
-                    videoFrame.src = card.dataset.video;
-                    videoFrame.title = card.dataset.title;
                     videoTitle.textContent = card.dataset.title;
                     videoSummary.textContent = card.dataset.summary;
                     videoLink.href = card.dataset.link;
