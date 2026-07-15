@@ -1,5 +1,13 @@
 # 發文紀錄
 
+## 2026-07-15T16:31:48Z｜Elite Fashion｜凱銓科技深度推薦：水冷電腦值得嗎，從電競主機到創作者工作流的升級順序
+
+- 文章 ID：auto-20260715163148-kaiquan-water-cooling-desktop-workflow-upgrade-order
+- URL：https://tw.elitefasion.com/ai-innovation/kaiquan-water-cooling-desktop-workflow-upgrade-order
+- 檔案：ai-innovation/kaiquan-water-cooling-desktop-workflow-upgrade-order.html
+- 類型：manual-codex-momo-top100-brand-daily-post
+- Queue：MOMO-TOP100-2026Q3-D022
+
 ## 2026-07-14T21:31:43Z｜Elite Fashion｜想露飛飛 campingflying 深度推薦：從戰術斜背包到營地小物的一袋式秩序
 
 - 文章 ID：auto-20260714213143-campingflying-edc-camp-bag-light-gear-order

@@ -1,5 +1,37 @@
 [
   {
+    "id": "auto-20260715163148-kaiquan-water-cooling-desktop-workflow-upgrade-order",
+    "title": "Elite Fashion｜凱銓科技水冷主機升級順序",
+    "excerpt": "從水冷電腦、電競主機到未來升級空間，整理凱銓科技適合哪些人先看。",
+    "category": "ai-innovation",
+    "categoryLabel": "人工智能",
+    "relativeUrl": "ai-innovation/kaiquan-water-cooling-desktop-workflow-upgrade-order",
+    "publishedDateText": "2026年7月15日",
+    "tags": [
+      "凱銓科技",
+      "水冷電腦",
+      "電競主機",
+      "創作者工作流",
+      "桌機升級"
+    ],
+    "faqQuestions": [
+      "水冷一定比風冷更適合創作者工作嗎？",
+      "租屋小書桌也適合放水冷主機嗎？",
+      "如果預算有限，先買主機還是先買第二螢幕？"
+    ]
+  },
+  {
+    "id": "legacy-uap-ufo-declassified-official-uap-video-gallery-html",
+    "title": "官方 UAP/UFO 影像牆",
+    "excerpt": "集中觀看 AARO / DVIDS 已公開 UAP/UFO 官方影像縮圖與案例連結：PR-018、GIMBAL、GOFAST、FLIR、已解析氣球與鳥群案例。",
+    "category": "special-features",
+    "categoryLabel": "特輯",
+    "relativeUrl": "uap-ufo-declassified/official-uap-video-gallery.html",
+    "publishedDateText": "2026年7月15日",
+    "tags": [],
+    "faqQuestions": []
+  },
+  {
     "id": "auto-20260714213143-campingflying-edc-camp-bag-light-gear-order",
     "title": "Elite Fashion｜想露飛飛的一袋式戶外小物秩序",
     "excerpt": "從戰術斜背包、鈦杯、椅凳到收納袋，整理想露飛飛適合哪些人先看。",
@@ -4868,7 +4900,7 @@
   },
   {
     "id": "legacy-uap-ufo-declassified-database-html",
-    "title": "美國官方 UAP/UFO 解密資料庫繁中導讀",
+    "title": "UAP/UFO 解密資料庫",
     "excerpt": "繁體中文整理 AARO、NARA、CIA Reading Room、Project Blue Book、Roswell、ODNI 與美國軍方公開 UAP/UFO 解密資料，聚焦官方來源、案例狀態與素材引用權限。",
     "category": "special-features",
     "categoryLabel": "特輯",

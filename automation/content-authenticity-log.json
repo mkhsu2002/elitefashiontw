@@ -1,7 +1,80 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-14T21:39:30Z",
+  "updatedAt": "2026-07-15T16:36:18Z",
   "entries": [
+    {
+      "articleId": "auto-20260715163148-kaiquan-water-cooling-desktop-workflow-upgrade-order",
+      "slug": "kaiquan-water-cooling-desktop-workflow-upgrade-order",
+      "riskLevel": "high",
+      "checkedAt": "2026-07-15T16:36:18Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-disclaimer",
+          "passed": true,
+          "note": "已出現保守表述或專業諮詢提醒。"
+        },
+        {
+          "name": "ymyl-promise",
+          "passed": true,
+          "note": "未發現保證療效、報酬、安全或結果的表述。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0006865/main?utm_content=water-cooling-tower",
+        "https://www.momoshop.com.tw/TP/TP0006865/main?utm_content=creator-desktop",
+        "https://www.momoshop.com.tw/TP/TP0006865/main?utm_content=compact-case",
+        "https://www.momoshop.com.tw/TP/TP0006865/main?utm_content=upgrade-plan",
+        "https://s.momoshop.com.tw/s/gWYWVw5Q?utm_content=workflow-load",
+        "https://s.momoshop.com.tw/s/gWYWVw5Q?utm_content=desk-space",
+        "https://s.momoshop.com.tw/s/gWYWVw5Q",
+        "https://s.momoshop.com.tw/s/7CYQWKtd",
+        "https://s.momoshop.com.tw/s/NbN84MXv",
+        "https://s.momoshop.com.tw/s/gWYWVw5Q?utm_content=water-cooling-tower",
+        "https://s.momoshop.com.tw/s/gWYWVw5Q?utm_content=creator-desktop",
+        "https://s.momoshop.com.tw/s/gWYWVw5Q?utm_content=compact-case",
+        "https://s.momoshop.com.tw/s/gWYWVw5Q?utm_content=upgrade-plan",
+        "https://s.momoshop.com.tw/s/6VaimQ3z",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1555443662858445",
+        "https://tw.elitefasion.com/ai-innovation/kaiquan-water-cooling-desktop-workflow-upgrade-order",
+        "https://tw.elitefasion.com/images/optimized/article-covers/kaiquan-water-cooling-desktop-workflow-upgrade-order.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com"
+      ],
+      "reviewer": "automation"
+    },
     {
       "articleId": "auto-20260714213143-campingflying-edc-camp-bag-light-gear-order",
       "slug": "campingflying-edc-camp-bag-light-gear-order",

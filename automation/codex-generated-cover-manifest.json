@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-14T21:33:04Z",
+  "updatedAt": "2026-07-15T16:40:00Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -1402,6 +1402,18 @@
       "source": "/Users/mkhsu/.codex/generated_images/019f61fe-ba2c-7d80-a9aa-8bf747bbffbe/call_DYRnV9HGXOFdt5K1yz0MJKuM.png",
       "sha256": "cb4920c5d961a785a5c9946d5c1fe80f673f69f655c46240c477e95d46642f1c",
       "promptSummary": "Golden-hour outdoor table with tactical crossbody bag, titanium cup, folding stool, and organized camp pouches; no text or logos."
+    },
+    "kaiquan-water-cooling-desktop-workflow-upgrade-order": {
+      "image": "images/optimized/article-covers/kaiquan-water-cooling-desktop-workflow-upgrade-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019f6688-fac7-76c0-9b9b-c7838464e1eb/call_wY6BFmCc4yDlVWi67vhm8yPq.png",
+      "sha256": "c1ced5aecbb0103a92e09736ebada38237d790ba738f1179d51c2a6e5a8e2871",
+      "promptSummary": "Liquid-cooled desktop tower and ultrawide monitor in a refined compact home office; no text or logos."
+    },
+    "official-uap-video-gallery": {
+      "image": "images/optimized/article-covers/official-uap-video-gallery.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019f6688-fac7-76c0-9b9b-c7838464e1eb/call_o1vr8I9kivQrIVC9UpXPnzQF.png",
+      "sha256": "0e2fdc46b444966ea46c4fd5d14483b71aab0bdccaf4bcecfb4c4c52b8868db7",
+      "promptSummary": "Investigative editorial UAP imagery wall with multiple atmospheric aerial anomaly panels; no text or logos."
     }
   }
 }

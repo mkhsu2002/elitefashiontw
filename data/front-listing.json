@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-07-14T21:33:44Z",
+  "updatedAt": "2026-07-15T16:39:11Z",
   "latest": [
+    {
+      "id": "auto-20260715163148-kaiquan-water-cooling-desktop-workflow-upgrade-order",
+      "title": "Elite Fashion｜凱銓科技水冷主機升級順序",
+      "excerpt": "從水冷電腦、電競主機到未來升級空間，整理凱銓科技適合哪些人先看。",
+      "category": "ai-innovation",
+      "categoryLabel": "人工智能",
+      "series": "AI 工作流",
+      "publishedAt": "2026-07-15T16:31:48Z",
+      "publishedDateText": "2026年7月15日",
+      "relativeUrl": "ai-innovation/kaiquan-water-cooling-desktop-workflow-upgrade-order",
+      "heroImage": "images/optimized/article-covers/kaiquan-water-cooling-desktop-workflow-upgrade-order.jpg",
+      "tags": [
+        "凱銓科技",
+        "水冷電腦",
+        "電競主機",
+        "創作者工作流",
+        "桌機升級"
+      ]
+    },
+    {
+      "id": "legacy-uap-ufo-declassified-official-uap-video-gallery-html",
+      "title": "官方 UAP/UFO 影像牆",
+      "excerpt": "集中觀看 AARO / DVIDS 已公開 UAP/UFO 官方影像縮圖與案例連結：PR-018、GIMBAL、GOFAST、FLIR、已解析氣球與鳥群案例。",
+      "category": "special-features",
+      "categoryLabel": "特輯",
+      "series": "特輯",
+      "publishedAt": "2026-07-15T03:59:50Z",
+      "publishedDateText": "2026年7月15日",
+      "relativeUrl": "uap-ufo-declassified/official-uap-video-gallery.html",
+      "heroImage": "images/optimized/article-covers/official-uap-video-gallery.jpg",
+      "tags": []
+    },
     {
       "id": "auto-20260714213143-campingflying-edc-camp-bag-light-gear-order",
       "title": "Elite Fashion｜想露飛飛的一袋式戶外小物秩序",
@@ -182,48 +214,31 @@
         "護具",
         "行李箱"
       ]
-    },
-    {
-      "id": "auto-20260622003037-summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp",
-      "title": "夏季辦公室冷氣備案：薄外套、熱飲、耳塞與桌面燈",
-      "excerpt": "夏季辦公室冷氣備案要處理溫差、噪音與光線，薄外套、熱飲、耳塞和桌燈各自有位置。",
-      "category": "wellness-movement",
-      "categoryLabel": "健康恢復",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-22T00:30:37Z",
-      "publishedDateText": "2026年6月22日",
-      "relativeUrl": "wellness-movement/summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp",
-      "heroImage": "/images/optimized/article-covers/summer-office-ac-backup-light-jacket-hot-drink-earplug-lamp.jpg",
-      "tags": [
-        "辦公室冷氣",
-        "薄外套",
-        "耳塞",
-        "桌燈"
-      ]
-    },
-    {
-      "id": "auto-20260622003037-work-corner-sound-headphones-speaker-noise-meeting-audio",
-      "title": "工作角落的聲音整理：耳機、喇叭、降噪與會議收音",
-      "excerpt": "聲音整理要分會議、專注、播放與備援，不要讓耳機、喇叭和麥克風互相搶位置。",
-      "category": "ai-innovation",
-      "categoryLabel": "人工智能",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-22T00:30:37Z",
-      "publishedDateText": "2026年6月22日",
-      "relativeUrl": "ai-innovation/work-corner-sound-headphones-speaker-noise-meeting-audio",
-      "heroImage": "/images/optimized/article-covers/work-corner-sound-headphones-speaker-noise-meeting-audio.jpg",
-      "tags": [
-        "耳機",
-        "會議收音",
-        "桌面喇叭",
-        "工作角落"
-      ]
     }
   ],
   "byCategory": {
     "ai-innovation": {
       "label": "人工智能",
       "items": [
+        {
+          "id": "auto-20260715163148-kaiquan-water-cooling-desktop-workflow-upgrade-order",
+          "title": "Elite Fashion｜凱銓科技水冷主機升級順序",
+          "excerpt": "從水冷電腦、電競主機到未來升級空間，整理凱銓科技適合哪些人先看。",
+          "category": "ai-innovation",
+          "categoryLabel": "人工智能",
+          "series": "AI 工作流",
+          "publishedAt": "2026-07-15T16:31:48Z",
+          "publishedDateText": "2026年7月15日",
+          "relativeUrl": "ai-innovation/kaiquan-water-cooling-desktop-workflow-upgrade-order",
+          "heroImage": "images/optimized/article-covers/kaiquan-water-cooling-desktop-workflow-upgrade-order.jpg",
+          "tags": [
+            "凱銓科技",
+            "水冷電腦",
+            "電競主機",
+            "創作者工作流",
+            "桌機升級"
+          ]
+        },
         {
           "id": "manual-20260704173127-neo-babylon-summer-ai-sci-fi-parent-teen-reading",
           "title": "AI 焦慮之外的暑假共讀：《新巴比倫》推薦",
@@ -313,24 +328,6 @@
             "城市週末",
             "CPL濾鏡",
             "防曬外套"
-          ]
-        },
-        {
-          "id": "auto-20260622000633-presentation-day-remote-gear-headset-mic-monitor-light",
-          "title": "簡報日的遠距設備：耳機、麥克風、螢幕與桌面光線",
-          "excerpt": "簡報日設備要先看聲音、畫面、光線與備援，再比較耳機、麥克風、螢幕、桌燈和線材。",
-          "category": "ai-innovation",
-          "categoryLabel": "人工智能",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-22T00:06:33Z",
-          "publishedDateText": "2026年6月22日",
-          "relativeUrl": "ai-innovation/presentation-day-remote-gear-headset-mic-monitor-light",
-          "heroImage": "/images/optimized/article-covers/presentation-day-remote-gear-headset-mic-monitor-light.jpg",
-          "tags": [
-            "遠距簡報",
-            "耳機麥克風",
-            "外接螢幕",
-            "桌面光線"
           ]
         }
       ]
