@@ -48,6 +48,13 @@
 
         body {
             background: var(--uap-paper);
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: min(1180px, calc(100% - 32px));
+            margin-inline: auto;
+            max-width: calc(100vw - 32px);
         }
 
         .uap-hero {
@@ -295,6 +302,156 @@
             font-size: 0.88rem;
             line-height: 1.6;
         }
+
+        .uap-section-header.compact { max-width: 860px; }
+
+        .uap-visual-wall {
+            display: grid;
+            grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+            gap: 1rem;
+            align-items: stretch;
+        }
+
+        .uap-feature-video-card,
+        .uap-thumb-card {
+            position: relative;
+            overflow: hidden;
+            display: block;
+            min-width: 0;
+            border: 1px solid rgba(217, 198, 147, 0.22);
+            border-radius: 16px;
+            background: #050607;
+            color: #fff;
+            box-shadow: 0 18px 42px rgba(0,0,0,0.24);
+        }
+
+        .uap-feature-image,
+        .uap-thumb-card {
+            aspect-ratio: 16 / 9;
+        }
+
+        .uap-feature-image { display: block; position: relative; overflow: hidden; color: #fff; }
+
+        .uap-feature-video-card img,
+        .uap-thumb-card img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+            filter: contrast(1.08) saturate(0.92);
+            transform: scale(1.01);
+            transition: transform .28s ease, filter .28s ease;
+        }
+
+        .uap-feature-video-card:hover img,
+        .uap-thumb-card:hover img { transform: scale(1.045); filter: contrast(1.15) saturate(1.02); }
+
+        .uap-feature-image::after,
+        .uap-thumb-card::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(0,0,0,0.05), rgba(0,0,0,0.82));
+            pointer-events: none;
+        }
+
+        .uap-play {
+            position: absolute;
+            top: 0.9rem;
+            left: 0.9rem;
+            z-index: 2;
+            width: 44px;
+            height: 44px;
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            background: rgba(217, 198, 147, 0.92);
+            color: #101010;
+            font-size: 1.05rem;
+            font-weight: 900;
+            box-shadow: 0 10px 24px rgba(0,0,0,0.36);
+        }
+
+        .uap-thumb-meta {
+            position: absolute;
+            z-index: 2;
+            left: 1rem;
+            right: 1rem;
+            bottom: 0.9rem;
+        }
+
+        .uap-thumb-meta b {
+            display: inline-flex;
+            margin-bottom: 0.4rem;
+            border-radius: 999px;
+            padding: 0.22rem 0.56rem;
+            background: rgba(138, 61, 54, 0.86);
+            color: #fff;
+            font-size: 0.72rem;
+            letter-spacing: 0.08em;
+        }
+
+        .uap-thumb-meta strong {
+            display: block;
+            font-family: var(--font-serif);
+            font-size: clamp(1.05rem, 2.1vw, 1.62rem);
+            line-height: 1.12;
+            text-shadow: 0 3px 14px rgba(0,0,0,0.62);
+        }
+
+        .uap-thumb-meta small {
+            display: block;
+            margin-top: 0.34rem;
+            color: rgba(255,255,255,0.76);
+            line-height: 1.35;
+        }
+
+        .uap-feature-copy {
+            padding: 1.15rem;
+            background: linear-gradient(135deg, rgba(11,14,17,0.98), rgba(19,27,34,0.96));
+        }
+
+        .uap-feature-copy h3 {
+            margin: 0.1rem 0 0.55rem;
+            font-family: var(--font-serif);
+            font-size: clamp(1.5rem, 2.7vw, 2.35rem);
+            line-height: 1.08;
+        }
+
+        .uap-feature-copy p { color: rgba(255,255,255,0.76); line-height: 1.65; margin-bottom: 1rem; }
+
+        .uap-thumb-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.78rem;
+        }
+
+        .uap-thumb-grid .uap-thumb-card { min-height: 132px; }
+
+        .uap-gallery-strip {
+            display: grid;
+            grid-template-columns: repeat(6, minmax(160px, 1fr));
+            gap: 0.78rem;
+            margin-top: 1rem;
+            max-width: 100%;
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .uap-gallery-strip .uap-thumb-card { min-height: 128px; }
+        .uap-gallery-strip .uap-thumb-meta strong { font-size: 1rem; }
+        .uap-gallery-strip .uap-thumb-meta small { display: none; }
+
+        .uap-video-cta-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.9rem;
+            margin-top: 1rem;
+            color: rgba(255,255,255,0.66);
+        }
+
 
         .uap-nav .container {
             display: flex;
@@ -699,6 +856,27 @@
             height: auto;
         }
 
+        .uap-hero-ufo-card {
+            position: relative;
+            min-height: 320px;
+        }
+
+        .uap-hero-ufo-card .uap-feature-image {
+            width: 100%;
+            height: 100%;
+            min-height: 320px;
+        }
+
+        .uap-hero-ufo-card img {
+            height: 100%;
+            min-height: 320px;
+            object-fit: cover;
+        }
+
+        .uap-brief-later {
+            margin-top: 1.2rem;
+        }
+
         .uap-image-grid {
             display: grid;
             grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -817,6 +995,7 @@
         @media (max-width: 980px) {
             .uap-hero .container,
             .uap-video-layout,
+            .uap-visual-wall,
             .uap-callout,
             .uap-owner-card {
                 grid-template-columns: 1fr;
@@ -859,8 +1038,10 @@
 
             .uap-brief dd,
             .uap-brief a,
+            .uap-lede,
             .uap-section-copy {
                 overflow-wrap: anywhere;
+                word-break: break-word;
             }
 
             .uap-hero {
@@ -878,6 +1059,24 @@
 
             .uap-section {
                 padding: 3.4rem 0;
+            }
+
+            .uap-visual-wall,
+            .uap-thumb-grid {
+                grid-template-columns: 1fr;
+                min-width: 0;
+            }
+
+            .uap-gallery-strip {
+                display: grid;
+                grid-template-columns: 1fr;
+                overflow: visible;
+                padding-bottom: 0;
+            }
+
+            .uap-gallery-strip .uap-thumb-card {
+                min-width: 0;
+                width: 100%;
             }
 
             .uap-video-stage {
@@ -924,8 +1123,9 @@
                 <a href="#official-video-title">官方影像</a>
                 <a href="#sources">官方來源</a>
                 <a href="#taxonomy">案例分類</a>
-                <a href="#featured-guides">Top 10 導讀</a>
-                <a href="#owner">網站營運者</a>
+                <a href="uap-ufo-declassified/official-uap-video-gallery.html">影像牆</a>
+                <a href="#featured-guides">Top 10</a>
+                <a href="#owner">Owner</a>
                 <a href="https://elitefasion.com/uap-ufo-declassified-database" hreflang="en">EN</a>
             </nav>
         </div>
@@ -937,17 +1137,141 @@
                 <p class="uap-kicker">官方檔案導讀 · 不替傳聞背書</p>
                 <h1 class="uap-title">UAP/UFO 解密資料庫</h1>
                 <p class="uap-lede">
-                    這裡不講外星人，也不幫任何傳聞背書。本頁只整理美國政府已公開的 UAP/UFO 檔案：哪段影像來自官方、哪個案例已被解釋、哪一些仍停在「資料不夠」。看完後，你可以直接回到 AARO、NARA、CIA、ODNI 或 DVIDS 原始頁面自己查。
+                    先看畫面，再回到官方來源查證。首頁把 AARO / DVIDS 已公開的 UAP 影像縮圖放到最前面：未解紅外線、GIMBAL、GOFAST、FLIR，以及已解析的氣球與鳥群案例。
                 </p>
                 <div class="uap-hero-actions">
-                    <a class="uap-button" href="#official-video-title">看官方影像案例</a>
-                    <a class="uap-button secondary" href="#featured-guides">從 Top 10 檔案開始</a>
+                    <a class="uap-button" href="#official-video-title">直接看 UFO 影像牆</a>
+                    <a class="uap-button secondary" href="uap-ufo-declassified/official-uap-video-gallery.html">開啟完整影像子頁</a>
                 </div>
             </div>
-            <figure class="uap-hero-visual">
-                <img src="images/optimized/article-covers/uap-ufo-declassified-database.jpg" alt="UAP/UFO 解密資料庫：雷達、夜空與解密檔案風格主視覺" width="1200" height="630" loading="eager">
+            <figure class="uap-hero-visual uap-hero-ufo-card">
+                <a class="uap-feature-image" href="https://www.dvidshub.net/video/988676/pr-018-unresolved-uap-report-europe-2024" target="_blank" rel="noopener">
+                    <img src="images/optimized/uap-official/pr-018-europe-2024.jpg" alt="PR-018 Europe 2024 官方 UAP 紅外線影像縮圖" width="999" height="562" loading="eager">
+                    <span class="uap-play">▶</span>
+                    <div class="uap-thumb-meta">
+                        <b>未解紅外線</b>
+                        <strong>PR-018 Europe 2024</strong>
+                        <small>AARO / EUCOM · 官方頁播放</small>
+                    </div>
+                </a>
             </figure>
-            <dl class="uap-brief">
+        </div>
+    </header>
+
+    <section class="uap-video-stage" aria-labelledby="official-video-title">
+        <div class="container">
+            <div class="uap-section-header compact">
+                <p class="uap-section-eyebrow">官方影像精選</p>
+                <h2 class="uap-section-title" id="official-video-title">首頁先看 UFO 影像，不先看說明書</h2>
+                <p class="uap-section-copy">嵌入影片會 403？那就別把錯誤框放給讀者看。首頁直接放官方縮圖、播放感與來源按鈕；想深入再進完整影像子頁。</p>
+            </div>
+
+            <div class="uap-visual-wall">
+                <article class="uap-feature-video-card">
+                        <a class="uap-feature-image" href="https://www.dvidshub.net/video/988676/pr-018-unresolved-uap-report-europe-2024" target="_blank" rel="noopener"><img src="images/optimized/uap-official/pr-018-europe-2024.jpg" alt="PR-018 Europe 2024 官方 UAP 影像縮圖" loading="eager">
+                            <span class="uap-play">▶</span>
+                            <div class="uap-thumb-meta">
+                                <b>未解紅外線</b>
+                                <strong>PR-018 Europe 2024</strong>
+                                <small>AARO / EUCOM · 2024 · infrared</small>
+                            </div></a>
+                        <div class="uap-feature-copy">
+                            <p class="uap-section-eyebrow">先看這段</p>
+                            <h3>PR-018 Europe 2024：未解紅外線</h3>
+                            <p>最新公開的未解案例。影像中可能存在實體物件，但公開資料不足以完成歸因。</p>
+                            <a class="uap-button" href="https://www.dvidshub.net/video/988676/pr-018-unresolved-uap-report-europe-2024" target="_blank" rel="noopener">在官方頁播放</a>
+                        </div>
+                    </article>
+                <div class="uap-thumb-grid" aria-label="更多官方 UAP 影像">
+                    <a class="uap-thumb-card" href="https://www.dvidshub.net/video/956955/gimbal-uap" target="_blank" rel="noopener"><img src="images/optimized/uap-official/gimbal-uap.jpg" alt="GIMBAL - UAP 官方 UAP 影像縮圖" loading="lazy">
+                            <span class="uap-play">▶</span>
+                            <div class="uap-thumb-meta">
+                                <b>經典軍方影像</b>
+                                <strong>GIMBAL - UAP</strong>
+                                <small>NAVAIR · 2015 · sensor footage</small>
+                            </div></a>
+                    <a class="uap-thumb-card" href="https://www.dvidshub.net/video/956683/gofast-uap" target="_blank" rel="noopener"><img src="images/optimized/uap-official/gofast-uap.jpg" alt="GOFAST - UAP 官方 UAP 影像縮圖" loading="lazy">
+                            <span class="uap-play">▶</span>
+                            <div class="uap-thumb-meta">
+                                <b>速度錯覺判讀</b>
+                                <strong>GOFAST - UAP</strong>
+                                <small>NAVAIR · 2016 · ocean tracking</small>
+                            </div></a>
+                    <a class="uap-thumb-card" href="https://www.dvidshub.net/video/955825/flir-uap" target="_blank" rel="noopener"><img src="images/optimized/uap-official/flir-uap.jpg" alt="FLIR / Tic Tac 官方 UAP 影像縮圖" loading="lazy">
+                            <span class="uap-play">▶</span>
+                            <div class="uap-thumb-meta">
+                                <b>2004 經典案例</b>
+                                <strong>FLIR / Tic Tac</strong>
+                                <small>NAVAIR · 2004 · infrared</small>
+                            </div></a>
+                    <a class="uap-thumb-card" href="https://www.dvidshub.net/video/964843/25-scr150-middle-east-red-balloon-2024" target="_blank" rel="noopener"><img src="images/optimized/uap-official/middle-east-red-balloon-2024.jpg" alt="Middle East Red Balloon 官方 UAP 影像縮圖" loading="lazy">
+                            <span class="uap-play">▶</span>
+                            <div class="uap-thumb-meta">
+                                <b>已解析</b>
+                                <strong>Middle East Red Balloon</strong>
+                                <small>AARO · 2024 · balloon</small>
+                            </div></a>
+                    <a class="uap-thumb-card" href="https://www.dvidshub.net/video/988673/pr-016-resolved-birds-europe-2023" target="_blank" rel="noopener"><img src="images/optimized/uap-official/pr-016-birds-europe-2023.jpg" alt="PR-016 Europe 2023 官方 UAP 影像縮圖" loading="lazy">
+                            <span class="uap-play">▶</span>
+                            <div class="uap-thumb-meta">
+                                <b>已解析鳥群</b>
+                                <strong>PR-016 Europe 2023</strong>
+                                <small>AARO / EUCOM · 2023 · birds</small>
+                            </div></a>
+                </div>
+            </div>
+
+            <div class="uap-gallery-strip" aria-label="首頁快速影像帶">
+                <a class="uap-thumb-card" href="https://www.dvidshub.net/video/988676/pr-018-unresolved-uap-report-europe-2024" target="_blank" rel="noopener"><img src="images/optimized/uap-official/pr-018-europe-2024.jpg" alt="PR-018 Europe 2024 官方 UAP 影像縮圖" loading="lazy">
+                            <span class="uap-play">▶</span>
+                            <div class="uap-thumb-meta">
+                                <b>未解紅外線</b>
+                                <strong>PR-018 Europe 2024</strong>
+                                <small>AARO / EUCOM · 2024 · infrared</small>
+                            </div></a>
+                <a class="uap-thumb-card" href="https://www.dvidshub.net/video/956955/gimbal-uap" target="_blank" rel="noopener"><img src="images/optimized/uap-official/gimbal-uap.jpg" alt="GIMBAL - UAP 官方 UAP 影像縮圖" loading="lazy">
+                            <span class="uap-play">▶</span>
+                            <div class="uap-thumb-meta">
+                                <b>經典軍方影像</b>
+                                <strong>GIMBAL - UAP</strong>
+                                <small>NAVAIR · 2015 · sensor footage</small>
+                            </div></a>
+                <a class="uap-thumb-card" href="https://www.dvidshub.net/video/956683/gofast-uap" target="_blank" rel="noopener"><img src="images/optimized/uap-official/gofast-uap.jpg" alt="GOFAST - UAP 官方 UAP 影像縮圖" loading="lazy">
+                            <span class="uap-play">▶</span>
+                            <div class="uap-thumb-meta">
+                                <b>速度錯覺判讀</b>
+                                <strong>GOFAST - UAP</strong>
+                                <small>NAVAIR · 2016 · ocean tracking</small>
+                            </div></a>
+                <a class="uap-thumb-card" href="https://www.dvidshub.net/video/955825/flir-uap" target="_blank" rel="noopener"><img src="images/optimized/uap-official/flir-uap.jpg" alt="FLIR / Tic Tac 官方 UAP 影像縮圖" loading="lazy">
+                            <span class="uap-play">▶</span>
+                            <div class="uap-thumb-meta">
+                                <b>2004 經典案例</b>
+                                <strong>FLIR / Tic Tac</strong>
+                                <small>NAVAIR · 2004 · infrared</small>
+                            </div></a>
+                <a class="uap-thumb-card" href="https://www.dvidshub.net/video/964843/25-scr150-middle-east-red-balloon-2024" target="_blank" rel="noopener"><img src="images/optimized/uap-official/middle-east-red-balloon-2024.jpg" alt="Middle East Red Balloon 官方 UAP 影像縮圖" loading="lazy">
+                            <span class="uap-play">▶</span>
+                            <div class="uap-thumb-meta">
+                                <b>已解析</b>
+                                <strong>Middle East Red Balloon</strong>
+                                <small>AARO · 2024 · balloon</small>
+                            </div></a>
+                <a class="uap-thumb-card" href="https://www.dvidshub.net/video/988673/pr-016-resolved-birds-europe-2023" target="_blank" rel="noopener"><img src="images/optimized/uap-official/pr-016-birds-europe-2023.jpg" alt="PR-016 Europe 2023 官方 UAP 影像縮圖" loading="lazy">
+                            <span class="uap-play">▶</span>
+                            <div class="uap-thumb-meta">
+                                <b>已解析鳥群</b>
+                                <strong>PR-016 Europe 2023</strong>
+                                <small>AARO / EUCOM · 2023 · birds</small>
+                            </div></a>
+            </div>
+
+            <div class="uap-video-cta-row">
+                <a class="uap-button" href="uap-ufo-declassified/official-uap-video-gallery.html">看完整 UFO 影像子頁</a>
+                <span>所有影像卡都外連官方頁播放；首頁負責把觀眾先拉進畫面，不再用一大塊 fallback 文字擋路。</span>
+            </div>
+
+            <dl class="uap-brief uap-brief-later">
                 <dt>專題定位</dt>
                 <dd>美國官方檔案繁體中文導讀</dd>
                 <dt>查核日期</dt>
@@ -959,89 +1283,6 @@
                 <dt>英文版本</dt>
                 <dd><a class="uap-lang-link" href="https://elitefasion.com/uap-ufo-declassified-database" hreflang="en">Read the English version</a></dd>
             </dl>
-        </div>
-    </header>
-
-    <section class="uap-video-stage" aria-labelledby="official-video-title">
-        <div class="container">
-            <div class="uap-section-header">
-                <p class="uap-section-eyebrow">官方影像精選</p>
-                <h2 class="uap-section-title" id="official-video-title">六段官方影像案例，先看縮圖卡與原始來源</h2>
-                <p class="uap-section-copy">
-                    從最新未解紅外線案例，到 GIMBAL、GOFAST、FLIR 這類經典軍方影像，再到已解析為氣球或鳥群的案例。這裡先給你「案例卡 + 官方頁」，不把壞掉的嵌入影片丟到讀者臉上，文明一點。
-                </p>
-            </div>
-
-            <div class="uap-video-layout">
-                <div class="uap-video-player">
-                    <div class="uap-video-frame uap-video-fallback" id="uapFeatureVisual" aria-label="官方影片連結預覽">
-                        <div class="uap-video-fallback-card">
-                            <span>官方來源外連</span>
-                            <p>為避免 DVIDS 嵌入影片在部分地區或瀏覽器出現 403，本頁不再把 iframe 當主內容。請用下方按鈕直接開啟官方頁，並以該頁最新權利聲明為準。</p>
-                        </div>
-                    </div>
-                    <div class="uap-video-caption">
-                        <div>
-                            <h3 id="uapFeatureTitle">PR-018 Europe 2024：最新未解紅外線案例</h3>
-                            <p id="uapFeatureSummary">AARO 表示影像顯示可能存在實體物件，但公開資料不足以完成更具體歸因。</p>
-                        </div>
-                        <a id="uapFeatureLink" href="https://www.dvidshub.net/video/988676/pr-018-unresolved-uap-report-europe-2024" target="_blank" rel="noopener">開啟官方頁</a>
-                    </div>
-                </div>
-
-                <div class="uap-video-rail" aria-label="官方 UAP 影像案例選單">
-                    <button class="uap-video-card is-active" type="button"
-                        data-title="PR-018 Europe 2024：最新未解紅外線案例"
-                        data-summary="AARO 表示影像顯示可能存在實體物件，但公開資料不足以完成更具體歸因。"
-                        data-link="https://www.dvidshub.net/video/988676/pr-018-unresolved-uap-report-europe-2024">
-                        <strong>PR-018 Europe 2024</strong>
-                        <span>最新未解案例 · 紅外線影像 · AARO / EUCOM</span>
-                    </button>
-                    <button class="uap-video-card" type="button"
-                        data-title="GIMBAL：美國軍方經典 UAP 影像"
-                        data-summary="NAVAIR 公開的經典 UAP 影片之一，適合搭配 FLIR 與 Go Fast 一起閱讀。"
-                        data-link="https://www.dvidshub.net/video/956955/gimbal-uap">
-                        <strong>GIMBAL - UAP</strong>
-                        <span>經典軍方影像 · 2015 · NAVAIR</span>
-                    </button>
-                    <button class="uap-video-card" type="button"
-                        data-title="GOFAST：高速感知與視角判讀"
-                        data-summary="常被討論的海上 UAP 影像，適合搭配官方解析報告理解速度與視角差異。"
-                        data-link="https://www.dvidshub.net/video/956683/gofast-uap">
-                        <strong>GOFAST - UAP</strong>
-                        <span>經典軍方影像 · 2016 · NAVAIR</span>
-                    </button>
-                    <button class="uap-video-card" type="button"
-                        data-title="FLIR / Tic Tac：2004 經典影像"
-                        data-summary="2004 年公開影像常被稱為 FLIR 或 Tic Tac 案例，是理解近代 UAP 討論的重要素材。"
-                        data-link="https://www.dvidshub.net/video/955825/flir-uap">
-                        <strong>FLIR - UAP</strong>
-                        <span>經典軍方影像 · 2004 · NAVAIR</span>
-                    </button>
-                    <button class="uap-video-card" type="button"
-                        data-title="Middle East Red Balloon：已解析為反光氣球"
-                        data-summary="AARO 以高信心判定影像中的球狀物體幾乎可以歸因為消費級反光鋁箔氣球。"
-                        data-link="https://www.dvidshub.net/video/964843/25-scr150-middle-east-red-balloon-2024">
-                        <strong>Middle East Red Balloon</strong>
-                        <span>已解析案例 · 2024 · 氣球</span>
-                    </button>
-                    <button class="uap-video-card" type="button"
-                        data-title="PR-016 Europe 2023：已解析為鳥群"
-                        data-summary="AARO 以高信心判定影片中的物體幾乎可以歸因為鳥群，適合對照未解案例閱讀。"
-                        data-link="https://www.dvidshub.net/video/988673/pr-016-resolved-birds-europe-2023">
-                        <strong>PR-016 Europe 2023</strong>
-                        <span>已解析案例 · 鳥群 · AARO / EUCOM</span>
-                    </button>
-                </div>
-            </div>
-
-            <p class="uap-video-note">權利提醒：DVIDS 條目通常標示為 public domain，但使用時不得暗示 DoD、AARO 或任何美國政府機構背書；個別素材仍以官方頁面當下顯示的權利聲明為準。</p>
-
-            <div class="uap-image-grid" aria-label="官方案例視覺導覽">
-                <article class="uap-image-card"><span>未解</span><strong>PR-018 Europe 2024：紅外線影像，資料不足以歸因</strong></article>
-                <article class="uap-image-card"><span>經典</span><strong>GIMBAL / GOFAST / FLIR：先看感測器與視角限制</strong></article>
-                <article class="uap-image-card"><span>已解析</span><strong>氣球、鳥群、商業飛機：官方如何把誤判拆開</strong></article>
-            </div>
         </div>
     </section>
 
@@ -1801,24 +2042,6 @@
         </div>
     </footer>
 
-    <script>
-        (function () {
-            const videoTitle = document.getElementById('uapFeatureTitle');
-            const videoSummary = document.getElementById('uapFeatureSummary');
-            const videoLink = document.getElementById('uapFeatureLink');
-            const videoCards = document.querySelectorAll('.uap-video-card');
-
-            videoCards.forEach((card) => {
-                card.addEventListener('click', () => {
-                    videoCards.forEach((item) => item.classList.remove('is-active'));
-                    card.classList.add('is-active');
-                    videoTitle.textContent = card.dataset.title;
-                    videoSummary.textContent = card.dataset.summary;
-                    videoLink.href = card.dataset.link;
-                });
-            });
-        })();
-    </script>
     <script src="js/main.js"></script>
 </body>
 
