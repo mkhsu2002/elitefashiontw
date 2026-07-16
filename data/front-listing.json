@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-07-15T16:39:11Z",
+  "updatedAt": "2026-07-16T09:43:07Z",
   "latest": [
+    {
+      "id": "auto-20260716093709-genepet-daily-observation-food-cleaning-outing-log",
+      "title": "Elite Fashion｜GenePet.tw 毛孩日常觀察表",
+      "excerpt": "先把食慾、飲水、清潔與外出反應記成兩週觀察表，再回 GenePet.tw 比較用品。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "寵物與家庭日常",
+      "publishedAt": "2026-07-16T09:37:09Z",
+      "publishedDateText": "2026年7月16日",
+      "relativeUrl": "lifestyle-culture/genepet-daily-observation-food-cleaning-outing-log.html",
+      "heroImage": "/images/optimized/article-covers/genepet-daily-observation-food-cleaning-outing-log.jpg",
+      "tags": [
+        "GenePet.tw",
+        "毛孩日常觀察",
+        "寵物用品",
+        "寵物清潔",
+        "外出用品"
+      ]
+    },
     {
       "id": "auto-20260715163148-kaiquan-water-cooling-desktop-workflow-upgrade-order",
       "title": "Elite Fashion｜凱銓科技水冷主機升級順序",
@@ -195,24 +214,6 @@
         "檯燈",
         "眼鏡收納",
         "照護備品"
-      ]
-    },
-    {
-      "id": "auto-20260622003037-long-trip-recovery-kit-earplug-brace-luggage-tea-sun",
-      "title": "長途移動恢復包：耳塞、護具、行李箱、茶包與防曬",
-      "excerpt": "長途移動恢復包要先看睡眠干擾、身體支撐、行李拿取和日曬變化，再放入耳塞、護具、茶包與防曬。",
-      "category": "wellness-movement",
-      "categoryLabel": "健康恢復",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-22T00:30:37Z",
-      "publishedDateText": "2026年6月22日",
-      "relativeUrl": "wellness-movement/long-trip-recovery-kit-earplug-brace-luggage-tea-sun",
-      "heroImage": "/images/optimized/article-covers/long-trip-recovery-kit-earplug-brace-luggage-tea-sun.jpg",
-      "tags": [
-        "長途旅行",
-        "耳塞",
-        "護具",
-        "行李箱"
       ]
     }
   ],
@@ -951,6 +952,25 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260716093709-genepet-daily-observation-food-cleaning-outing-log",
+          "title": "Elite Fashion｜GenePet.tw 毛孩日常觀察表",
+          "excerpt": "先把食慾、飲水、清潔與外出反應記成兩週觀察表，再回 GenePet.tw 比較用品。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "寵物與家庭日常",
+          "publishedAt": "2026-07-16T09:37:09Z",
+          "publishedDateText": "2026年7月16日",
+          "relativeUrl": "lifestyle-culture/genepet-daily-observation-food-cleaning-outing-log.html",
+          "heroImage": "/images/optimized/article-covers/genepet-daily-observation-food-cleaning-outing-log.jpg",
+          "tags": [
+            "GenePet.tw",
+            "毛孩日常觀察",
+            "寵物用品",
+            "寵物清潔",
+            "外出用品"
+          ]
+        },
+        {
           "id": "auto-20260622010736-coffee-tea-gift-table-tableware-snack-scent-custom",
           "title": "咖啡茶與伴手禮桌：杯盤、茶點、香氛與客製小物",
           "excerpt": "咖啡茶與伴手禮桌要先看對方會不會使用，再決定杯盤、茶點、香氛與客製小物。",
@@ -1038,24 +1058,6 @@
             "洗衣區整理",
             "毛巾床寢",
             "居家備品"
-          ]
-        },
-        {
-          "id": "auto-20260621180852-home-cleaning-tool-wall-mop-broom-sink-trash-bin",
-          "title": "居家清潔工具牆：平板拖把、掃把、水槽清潔與垃圾桶",
-          "excerpt": "清潔工具牆要先分地面、水槽、垃圾與擦拭四類，再決定平板拖把、掃把、刷具與垃圾桶放哪裡。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T18:08:52Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/home-cleaning-tool-wall-mop-broom-sink-trash-bin",
-          "heroImage": "/images/optimized/article-covers/home-cleaning-tool-wall-mop-broom-sink-trash-bin.jpg",
-          "tags": [
-            "清潔工具",
-            "平板拖把",
-            "水槽清潔",
-            "垃圾桶收納"
           ]
         }
       ]
