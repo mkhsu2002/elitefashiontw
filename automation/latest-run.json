@@ -1,9 +1,10 @@
 {
-  "status": "generated",
+  "status": "live",
   "updatedAt": "2026-07-16T09:37:09Z",
   "articleId": "auto-20260716093709-genepet-daily-observation-food-cleaning-outing-log",
   "url": "https://tw.elitefasion.com/lifestyle-culture/genepet-daily-observation-food-cleaning-outing-log.html",
   "title": "Elite Fashion｜GenePet.tw 推薦：毛孩日常觀察表，先看食慾、清潔與外出反應",
   "queueId": "MOMO-TOP100-2026Q3-D023",
-  "triggerType": "manual-codex-momo-top100-brand-daily-post"
+  "triggerType": "manual-codex-momo-top100-brand-daily-post",
+  "checkedAt": "2026-07-16T09:52:14Z"
 }
