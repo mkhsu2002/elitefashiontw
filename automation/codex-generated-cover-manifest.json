@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-15T16:40:00Z",
+  "updatedAt": "2026-07-17T09:56:20Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -1414,6 +1414,17 @@
       "source": "/Users/mkhsu/.codex/generated_images/019f6688-fac7-76c0-9b9b-c7838464e1eb/call_o1vr8I9kivQrIVC9UpXPnzQF.png",
       "sha256": "0e2fdc46b444966ea46c4fd5d14483b71aab0bdccaf4bcecfb4c4c52b8868db7",
       "promptSummary": "Investigative editorial UAP imagery wall with multiple atmospheric aerial anomaly panels; no text or logos."
+    },
+    "uv100-scooter-commute-sun-jacket-layering-order": {
+      "provider": "codex-imagegen",
+      "sourceImage": "/Users/mkhsu/.codex/generated_images/019f6f6b-7234-77f1-a93e-8a7c0b7c0e1f/call_hZkzeaPhLPw5gc3wO6bjRZiF.png",
+      "output": "images/optimized/article-covers/uv100-scooter-commute-sun-jacket-layering-order.jpg",
+      "sha256": "2b6fcaf20e49ae5575793c6e5b9ca52832338324e40f63710ca8189b5a85f093",
+      "generatedAt": "2026-07-17T09:56:20Z",
+      "usage": "cover-og-twitter",
+      "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。",
+      "image": "images/optimized/article-covers/uv100-scooter-commute-sun-jacket-layering-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019f6f6b-7234-77f1-a93e-8a7c0b7c0e1f/call_hZkzeaPhLPw5gc3wO6bjRZiF.png"
     }
   }
 }

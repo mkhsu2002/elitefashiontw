@@ -1,5 +1,21 @@
 # 發文紀錄
 
+## 2026-07-17T09:49:21Z｜Elite Fashion｜UV100 深度推薦：防曬外套不是越薄越好，機車通勤先看遮蔽、透氣與收納
+
+- 文章 ID：auto-20260717094921-uv100-scooter-commute-sun-jacket-layering-order
+- URL：https://tw.elitefasion.com/outdoor-escapes/uv100-scooter-commute-sun-jacket-layering-order.html
+- 檔案：outdoor-escapes/uv100-scooter-commute-sun-jacket-layering-order.html
+- 類型：manual-codex-momo-top100-brand-daily-post
+- Queue：MOMO-TOP100-2026Q3-D024
+
+## 2026-07-16T09:37:09Z｜Elite Fashion｜GenePet.tw 推薦：毛孩日常觀察表，先看食慾、清潔與外出反應
+
+- 文章 ID：auto-20260716093709-genepet-daily-observation-food-cleaning-outing-log
+- URL：https://tw.elitefasion.com/lifestyle-culture/genepet-daily-observation-food-cleaning-outing-log.html
+- 檔案：lifestyle-culture/genepet-daily-observation-food-cleaning-outing-log.html
+- 類型：manual-codex-momo-top100-brand-daily-post
+- Queue：MOMO-TOP100-2026Q3-D023
+
 ## 2026-07-15T16:31:48Z｜Elite Fashion｜凱銓科技深度推薦：水冷電腦值得嗎，從電競主機到創作者工作流的升級順序
 
 - 文章 ID：auto-20260715163148-kaiquan-water-cooling-desktop-workflow-upgrade-order

@@ -1,6 +1,25 @@
 {
-  "updatedAt": "2026-07-16T09:43:07Z",
+  "updatedAt": "2026-07-17T09:56:30Z",
   "latest": [
+    {
+      "id": "auto-20260717094921-uv100-scooter-commute-sun-jacket-layering-order",
+      "title": "Elite Fashion｜UV100 機車通勤防曬外套順序",
+      "excerpt": "從遮蔽、透氣到收納，整理 UV100 適合哪些機車通勤者先看。",
+      "category": "outdoor-escapes",
+      "categoryLabel": "戶外生活",
+      "series": "都會戶外與移動生活",
+      "publishedAt": "2026-07-17T09:49:21Z",
+      "publishedDateText": "2026年7月17日",
+      "relativeUrl": "outdoor-escapes/uv100-scooter-commute-sun-jacket-layering-order.html",
+      "heroImage": "images/optimized/article-covers/uv100-scooter-commute-sun-jacket-layering-order.jpg",
+      "tags": [
+        "UV100",
+        "機車通勤防曬",
+        "防曬外套",
+        "通勤穿搭",
+        "戶外移動"
+      ]
+    },
     {
       "id": "auto-20260716093709-genepet-daily-observation-food-cleaning-outing-log",
       "title": "Elite Fashion｜GenePet.tw 毛孩日常觀察表",
@@ -196,24 +215,6 @@
         "椅墊靠枕",
         "螢幕配置",
         "桌面收納"
-      ]
-    },
-    {
-      "id": "auto-20260622003037-elder-reading-care-corner-lamp-glasses-storage-care-supplies",
-      "title": "長輩閱讀與照護角落：檯燈、眼鏡、收納與照護用品",
-      "excerpt": "閱讀與照護角落要先把光線、眼鏡、拿取高度與備品分層，讓家人不用每天翻找。",
-      "category": "wellness-movement",
-      "categoryLabel": "健康恢復",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-22T00:30:37Z",
-      "publishedDateText": "2026年6月22日",
-      "relativeUrl": "wellness-movement/elder-reading-care-corner-lamp-glasses-storage-care-supplies",
-      "heroImage": "/images/optimized/article-covers/elder-reading-care-corner-lamp-glasses-storage-care-supplies.jpg",
-      "tags": [
-        "閱讀角落",
-        "檯燈",
-        "眼鏡收納",
-        "照護備品"
       ]
     }
   ],
@@ -838,6 +839,25 @@
       "label": "戶外生活",
       "items": [
         {
+          "id": "auto-20260717094921-uv100-scooter-commute-sun-jacket-layering-order",
+          "title": "Elite Fashion｜UV100 機車通勤防曬外套順序",
+          "excerpt": "從遮蔽、透氣到收納，整理 UV100 適合哪些機車通勤者先看。",
+          "category": "outdoor-escapes",
+          "categoryLabel": "戶外生活",
+          "series": "都會戶外與移動生活",
+          "publishedAt": "2026-07-17T09:49:21Z",
+          "publishedDateText": "2026年7月17日",
+          "relativeUrl": "outdoor-escapes/uv100-scooter-commute-sun-jacket-layering-order.html",
+          "heroImage": "images/optimized/article-covers/uv100-scooter-commute-sun-jacket-layering-order.jpg",
+          "tags": [
+            "UV100",
+            "機車通勤防曬",
+            "防曬外套",
+            "通勤穿搭",
+            "戶外移動"
+          ]
+        },
+        {
           "id": "auto-20260714213143-campingflying-edc-camp-bag-light-gear-order",
           "title": "Elite Fashion｜想露飛飛的一袋式戶外小物秩序",
           "excerpt": "從戰術斜背包、鈦杯、椅凳到收納袋，整理想露飛飛適合哪些人先看。",
@@ -926,24 +946,6 @@
             "防曬餐具",
             "玩具雨具",
             "收納袋"
-          ]
-        },
-        {
-          "id": "auto-20260621114459-night-mobility-reflective-dashcam-rain-earplug-kit",
-          "title": "夜間移動安全感：反光配件、行車紀錄、雨具與降噪睡眠",
-          "excerpt": "夜間移動清單要先看路線、天氣、記錄、可見度、電力與住宿環境，再比較配件。",
-          "category": "outdoor-escapes",
-          "categoryLabel": "戶外生活",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T11:44:59Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "outdoor-escapes/night-mobility-reflective-dashcam-rain-earplug-kit",
-          "heroImage": "/images/optimized/article-covers/night-mobility-reflective-dashcam-rain-earplug-kit.jpg",
-          "tags": [
-            "夜間移動",
-            "反光配件",
-            "行車紀錄",
-            "雨具耳塞"
           ]
         }
       ]

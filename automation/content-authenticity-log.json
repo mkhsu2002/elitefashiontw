@@ -1,7 +1,75 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-16T09:50:34Z",
+  "updatedAt": "2026-07-17T09:56:40Z",
   "entries": [
+    {
+      "articleId": "auto-20260717094921-uv100-scooter-commute-sun-jacket-layering-order",
+      "slug": "uv100-scooter-commute-sun-jacket-layering-order",
+      "riskLevel": "medium",
+      "checkedAt": "2026-07-17T09:56:40Z",
+      "publishReady": true,
+      "claimChecks": [
+        {
+          "name": "unsupported-source-claim",
+          "passed": true,
+          "note": "未發現無來源的研究、官方、數據或專家宣稱。"
+        },
+        {
+          "name": "price-stock-claim",
+          "passed": true,
+          "note": "未發現未佐證的價格、折扣、庫存或排名宣稱。"
+        },
+        {
+          "name": "ymyl-risk",
+          "passed": true,
+          "note": "未判定為高風險 YMYL 題材。"
+        },
+        {
+          "name": "affiliate-disclosure",
+          "passed": true,
+          "note": "HTML 含可見導購揭露。"
+        },
+        {
+          "name": "affiliate-rel",
+          "passed": true,
+          "note": "導購連結皆含 sponsored nofollow。"
+        },
+        {
+          "name": "product-source-url",
+          "passed": true,
+          "note": "商品資料皆有 sourceProductUrl，或本篇無商品卡。"
+        },
+        {
+          "name": "momo-tracker-status",
+          "passed": true,
+          "note": "未使用需查證或暫緩的 momo 品牌作為推薦。"
+        }
+      ],
+      "requiredFixes": [],
+      "sourceEvidence": [
+        "https://www.momoshop.com.tw/TP/TP0000116/main?utm_content=core-jacket",
+        "https://www.momoshop.com.tw/TP/TP0000116/main?utm_content=office-switch",
+        "https://www.momoshop.com.tw/TP/TP0000116/main?utm_content=hat-accessories",
+        "https://www.momoshop.com.tw/TP/TP0000116/main?utm_content=carry-pack",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3?utm_content=coverage-check",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3?utm_content=core-layer",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3",
+        "https://www.momoshop.com.tw/TP/TP0000116/main",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3?utm_content=core-jacket",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3?utm_content=office-switch",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3?utm_content=hat-accessories",
+        "https://s.momoshop.com.tw/s/Z6Bb0QP3?utm_content=carry-pack",
+        "https://s.momoshop.com.tw/s/nc15Ko0V",
+        "https://s.momoshop.com.tw/s/jEp8GjC8",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1555443662858445",
+        "https://tw.elitefasion.com/outdoor-escapes/uv100-scooter-commute-sun-jacket-layering-order",
+        "https://tw.elitefasion.com/images/optimized/article-covers/uv100-scooter-commute-sun-jacket-layering-order.jpg",
+        "https://tw.elitefasion.com/feed.xml",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com"
+      ],
+      "reviewer": "automation"
+    },
     {
       "articleId": "auto-20260716093709-genepet-daily-observation-food-cleaning-outing-log",
       "slug": "genepet-daily-observation-food-cleaning-outing-log",
