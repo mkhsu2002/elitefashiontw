@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-17T09:56:20Z",
+  "updatedAt": "2026-07-19T09:40:00Z",
   "generator": "codex-image-gen-editorial-no-logo",
   "covers": {
     "small-home-storage-products-entry-closet-underbed": {
@@ -1425,6 +1425,12 @@
       "notes": "同一張 Codex 生成圖片用於文章封面、OG 與 Twitter 預覽。",
       "image": "images/optimized/article-covers/uv100-scooter-commute-sun-jacket-layering-order.jpg",
       "source": "/Users/mkhsu/.codex/generated_images/019f6f6b-7234-77f1-a93e-8a7c0b7c0e1f/call_hZkzeaPhLPw5gc3wO6bjRZiF.png"
+    },
+    "zymoide-enzyme-drink-fridge-carry-order": {
+      "image": "images/optimized/article-covers/zymoide-enzyme-drink-fridge-carry-order.jpg",
+      "source": "/Users/mkhsu/.codex/generated_images/019f79b9-c377-7e62-a436-98912af38d60/call_Mv3w7ByBTt5Cw6IRzFddqs7f.png",
+      "sha256": "8264d7df075c377f2da9fffa3bad98fb4a6ee68025499feeadf9a2084b7f324c",
+      "promptSummary": "Bright office pantry scene with unbranded chilled drinks, insulated bag, lunch box, notebook, and tumbler; no text or logos."
     }
   }
 }

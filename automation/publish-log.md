@@ -1,5 +1,21 @@
 # 發文紀錄
 
+## 2026-07-19T09:40:00Z｜Elite Fashion｜Zymoïde 深度推薦：酵素飲不是放進冰箱就好，外食族先看開封速度、甜度與攜帶順序
+
+- 文章 ID：auto-20260719094000-zymoide-enzyme-drink-fridge-carry-order
+- URL：https://tw.elitefasion.com/lifestyle-culture/zymoide-enzyme-drink-fridge-carry-order
+- 檔案：lifestyle-culture/zymoide-enzyme-drink-fridge-carry-order.html
+- 類型：manual-codex-momo-top100-brand-daily-post
+- Queue：MOMO-TOP100-2026Q3-D061
+
+## 2026-07-18T09:41:43Z｜Elite Fashion｜酷狗地板深度推薦：租屋與寵物家庭的地板改造，先看止滑、清潔與可逆施工
+
+- 文章 ID：auto-20260718094143-pet-friendly-rental-flooring-slip-cleaning-reversible-upgrade
+- URL：https://tw.elitefasion.com/lifestyle-culture/pet-friendly-rental-flooring-slip-cleaning-reversible-upgrade.html
+- 檔案：lifestyle-culture/pet-friendly-rental-flooring-slip-cleaning-reversible-upgrade.html
+- 類型：manual-codex-momo-top100-brand-daily-post
+- Queue：MOMO-TOP100-2026Q3-D060
+
 ## 2026-07-17T09:49:21Z｜Elite Fashion｜UV100 深度推薦：防曬外套不是越薄越好，機車通勤先看遮蔽、透氣與收納
 
 - 文章 ID：auto-20260717094921-uv100-scooter-commute-sun-jacket-layering-order

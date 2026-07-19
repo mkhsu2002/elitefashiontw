@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-07-17T09:56:30Z",
+  "updatedAt": "2026-07-19T09:44:54Z",
   "latest": [
+    {
+      "id": "auto-20260719094000-zymoide-enzyme-drink-fridge-carry-order",
+      "title": "Elite Fashion｜Zymoïde 酵素飲的冷藏與攜帶順序",
+      "excerpt": "從開封速度、甜度到通勤攜帶，整理 Zymoïde 適合哪些外食族先看。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "日常飲食與咖啡茶酒",
+      "publishedAt": "2026-07-19T09:40:00Z",
+      "publishedDateText": "2026年7月19日",
+      "relativeUrl": "lifestyle-culture/zymoide-enzyme-drink-fridge-carry-order",
+      "heroImage": "images/optimized/article-covers/zymoide-enzyme-drink-fridge-carry-order.jpg",
+      "tags": [
+        "Zymoïde",
+        "酵素飲",
+        "外食族飲品",
+        "冷藏飲品",
+        "辦公室補給"
+      ]
+    },
+    {
+      "id": "legacy-lifestyle-culture-pet-friendly-rental-flooring-slip-cleaning-reversible-upgrade-html",
+      "title": "Elite Fashion｜酷狗地板深度推薦：租屋與寵物家庭的地板改造，先看止滑、清潔與可逆施工",
+      "excerpt": "酷狗地板怎麼看更實際？從租屋可逆施工、毛孩止滑、台灣潮濕清潔到退租風險，整理寵物家庭更容易落地的地板改造順序。",
+      "category": "lifestyle-culture",
+      "categoryLabel": "生活品味",
+      "series": "生活品味",
+      "publishedAt": "2026-07-18T09:41:43Z",
+      "publishedDateText": "2026年7月18日",
+      "relativeUrl": "lifestyle-culture/pet-friendly-rental-flooring-slip-cleaning-reversible-upgrade.html",
+      "heroImage": "images/optimized/article-covers/pet-friendly-rental-flooring-slip-cleaning-reversible-upgrade.jpg",
+      "tags": []
+    },
     {
       "id": "auto-20260717094921-uv100-scooter-commute-sun-jacket-layering-order",
       "title": "Elite Fashion｜UV100 機車通勤防曬外套順序",
@@ -179,42 +211,6 @@
         "行李箱",
         "雨具",
         "充電備品"
-      ]
-    },
-    {
-      "id": "auto-20260622010736-weekend-home-reset-cleaning-laundry-bedding-restock-bag",
-      "title": "週末家務重整：清潔、洗衣、床寢、補貨與出門包",
-      "excerpt": "週末家務重整先排清潔、洗衣、床寢、補貨與出門包的順序，才不會把週末變成無止境採買。",
-      "category": "lifestyle-culture",
-      "categoryLabel": "生活品味",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-22T01:07:36Z",
-      "publishedDateText": "2026年6月22日",
-      "relativeUrl": "lifestyle-culture/weekend-home-reset-cleaning-laundry-bedding-restock-bag",
-      "heroImage": "/images/optimized/article-covers/weekend-home-reset-cleaning-laundry-bedding-restock-bag.jpg",
-      "tags": [
-        "週末家務",
-        "清潔洗衣",
-        "床寢補貨",
-        "出門包"
-      ]
-    },
-    {
-      "id": "auto-20260622003037-efficient-desk-cushion-backrest-monitor-storage-order",
-      "title": "高效率桌面別只買大桌：椅墊、靠枕、螢幕與收納順序",
-      "excerpt": "桌面效率先看坐姿、視線、收納與線材，再決定椅墊、靠枕、螢幕和收納品。",
-      "category": "ai-innovation",
-      "categoryLabel": "人工智能",
-      "series": "城市生活選物",
-      "publishedAt": "2026-06-22T00:30:37Z",
-      "publishedDateText": "2026年6月22日",
-      "relativeUrl": "ai-innovation/efficient-desk-cushion-backrest-monitor-storage-order",
-      "heroImage": "/images/optimized/article-covers/efficient-desk-cushion-backrest-monitor-storage-order.jpg",
-      "tags": [
-        "工作桌",
-        "椅墊靠枕",
-        "螢幕配置",
-        "桌面收納"
       ]
     }
   ],
@@ -954,6 +950,38 @@
       "label": "生活品味",
       "items": [
         {
+          "id": "auto-20260719094000-zymoide-enzyme-drink-fridge-carry-order",
+          "title": "Elite Fashion｜Zymoïde 酵素飲的冷藏與攜帶順序",
+          "excerpt": "從開封速度、甜度到通勤攜帶，整理 Zymoïde 適合哪些外食族先看。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "日常飲食與咖啡茶酒",
+          "publishedAt": "2026-07-19T09:40:00Z",
+          "publishedDateText": "2026年7月19日",
+          "relativeUrl": "lifestyle-culture/zymoide-enzyme-drink-fridge-carry-order",
+          "heroImage": "images/optimized/article-covers/zymoide-enzyme-drink-fridge-carry-order.jpg",
+          "tags": [
+            "Zymoïde",
+            "酵素飲",
+            "外食族飲品",
+            "冷藏飲品",
+            "辦公室補給"
+          ]
+        },
+        {
+          "id": "legacy-lifestyle-culture-pet-friendly-rental-flooring-slip-cleaning-reversible-upgrade-html",
+          "title": "Elite Fashion｜酷狗地板深度推薦：租屋與寵物家庭的地板改造，先看止滑、清潔與可逆施工",
+          "excerpt": "酷狗地板怎麼看更實際？從租屋可逆施工、毛孩止滑、台灣潮濕清潔到退租風險，整理寵物家庭更容易落地的地板改造順序。",
+          "category": "lifestyle-culture",
+          "categoryLabel": "生活品味",
+          "series": "生活品味",
+          "publishedAt": "2026-07-18T09:41:43Z",
+          "publishedDateText": "2026年7月18日",
+          "relativeUrl": "lifestyle-culture/pet-friendly-rental-flooring-slip-cleaning-reversible-upgrade.html",
+          "heroImage": "images/optimized/article-covers/pet-friendly-rental-flooring-slip-cleaning-reversible-upgrade.jpg",
+          "tags": []
+        },
+        {
           "id": "auto-20260716093709-genepet-daily-observation-food-cleaning-outing-log",
           "title": "Elite Fashion｜GenePet.tw 毛孩日常觀察表",
           "excerpt": "先把食慾、飲水、清潔與外出反應記成兩週觀察表，再回 GenePet.tw 比較用品。",
@@ -1024,42 +1052,6 @@
             "毛巾",
             "口腔用品",
             "浴室收納"
-          ]
-        },
-        {
-          "id": "auto-20260622010736-weekend-home-reset-cleaning-laundry-bedding-restock-bag",
-          "title": "週末家務重整：清潔、洗衣、床寢、補貨與出門包",
-          "excerpt": "週末家務重整先排清潔、洗衣、床寢、補貨與出門包的順序，才不會把週末變成無止境採買。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-22T01:07:36Z",
-          "publishedDateText": "2026年6月22日",
-          "relativeUrl": "lifestyle-culture/weekend-home-reset-cleaning-laundry-bedding-restock-bag",
-          "heroImage": "/images/optimized/article-covers/weekend-home-reset-cleaning-laundry-bedding-restock-bag.jpg",
-          "tags": [
-            "週末家務",
-            "清潔洗衣",
-            "床寢補貨",
-            "出門包"
-          ]
-        },
-        {
-          "id": "auto-20260621180852-closet-laundry-hanger-storage-towel-bedding-supplies",
-          "title": "衣櫃與洗衣區整理：衣架、收納箱、毛巾與床寢備品",
-          "excerpt": "衣櫃與洗衣區不是收越多越好，先分每天拿、每週洗、換季收，才知道衣架、收納箱、毛巾與床寢要買到哪裡。",
-          "category": "lifestyle-culture",
-          "categoryLabel": "生活品味",
-          "series": "城市生活選物",
-          "publishedAt": "2026-06-21T18:08:52Z",
-          "publishedDateText": "2026年6月21日",
-          "relativeUrl": "lifestyle-culture/closet-laundry-hanger-storage-towel-bedding-supplies",
-          "heroImage": "/images/optimized/article-covers/closet-laundry-hanger-storage-towel-bedding-supplies.jpg",
-          "tags": [
-            "衣櫃收納",
-            "洗衣區整理",
-            "毛巾床寢",
-            "居家備品"
           ]
         }
       ]
