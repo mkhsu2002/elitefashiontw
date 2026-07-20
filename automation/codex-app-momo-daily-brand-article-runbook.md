@@ -64,6 +64,7 @@
    - `python3 scripts/content_pipeline.py verify`
    - `python3 scripts/content_authenticity_audit.py --latest`
    - `python3 scripts/article_cover_tools.py strict-audit`
+     若環境首次執行 cover audit，先確認 `python3 -c "from PIL import Image"` 可成功；若缺少 Pillow，先執行 `python3 -m pip install --user --break-system-packages Pillow`。
 6. 發布後需回填：
    - 100 天 CSV 佇列該列 `tracking_status`。
    - `automation/momo-brand-recommendation-tracker.csv` 的文章 slug、live URL、提及次數與最後提及日期。

@@ -12,6 +12,14 @@
   "metaTitle": "Elite Fashion｜Zymoïde 推薦：外食族先看酵素飲的甜度與攜帶順序",
   "metaDescription": "Zymoïde 酵素飲怎麼看更實際？從開封速度、甜度、冷藏、通勤攜帶到辦公室共享冰箱，整理外食族較不容易浪費的補給順序。",
   "category": "lifestyle-culture",
+  "primaryHub": {
+    "key": "mature-life-reset",
+    "title": "人生重整與一人生活秩序",
+    "file": "mature-life-reset.html",
+    "url": "/mature-life-reset",
+    "category": "lifestyle-culture"
+  },
+  "secondaryHubs": [],
   "series": "日常飲食與咖啡茶酒",
   "audience": "常在辦公室、捷運、機車通勤與外食節奏之間切換，想讓冷藏飲品更有秩序的台灣讀者",
   "readTimeMinutes": 12,

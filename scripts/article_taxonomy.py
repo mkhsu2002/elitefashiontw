@@ -17,6 +17,8 @@ CORE_HUB_LINKS: dict[str, list[tuple[str, str]]] = {
         ("家庭對話與跨國記憶整理", "lifestyle-culture/cross-border-memory-family-dialogue-forward.html"),
         ("創業者的長期韌性與自我照顧", "lifestyle-culture/entrepreneur-long-term-resilience-finance-community-selfcare.html"),
         ("重建社交圈與台灣生活節奏", "lifestyle-culture/rebuilding-social-circle-taiwan-returnee-women.html"),
+        ("毛孩日常觀察與補貨順序", "lifestyle-culture/genepet-daily-observation-food-cleaning-outing-log.html"),
+        ("冷藏飲品的開封與攜帶順序", "lifestyle-culture/zymoide-enzyme-drink-fridge-carry-order.html"),
     ],
     "body-rhythm-reset": [
         ("春夏睡眠與降溫順序", "wellness-movement/mature-women-spring-summer-cooling-sleep.html"),
@@ -126,7 +128,9 @@ STABLE_TOPIC_CATEGORIES: dict[str, dict[str, Any]] = {
     "care-support": {"label": "照護與輔具", "defaultHub": "body-rhythm-reset", "keywords": ["照護", "護具", "長照", "支撐", "護膝", "醫療"]},
     "travel-planning": {"label": "旅行準備", "defaultHub": "outdoor-travel-reset", "keywords": ["旅行", "行李", "機上", "旅宿", "出行", "目的地"]},
     "outdoor-gear": {"label": "戶外裝備", "defaultHub": "outdoor-travel-reset", "keywords": ["戶外", "登山", "健行", "露營", "背包", "雨具"]},
-    "pet-family-life": {"label": "寵物與家庭日常", "defaultHub": "mature-life-reset", "keywords": ["寵物", "貓", "狗", "親子", "玩具", "家庭"]},
+    "pet-family-life": {"label": "寵物與家庭日常", "defaultHub": "mature-life-reset", "keywords": ["寵物", "毛孩", "貓", "狗", "親子", "玩具", "家庭"]},
+    "daily-drink-routine": {"label": "日常飲品節奏", "defaultHub": "mature-life-reset", "keywords": ["飲品", "冷藏", "酵素飲", "甜度", "保冷", "通勤"]},
+    "home-glass-rain-routine": {"label": "居家清潔與雨天收尾", "defaultHub": "mature-life-reset", "keywords": ["玻璃", "鍍膜", "防潑水", "雨天", "浴室", "車窗"]},
     "culture-hospitality": {"label": "文化與款待", "defaultHub": "mature-life-reset", "keywords": ["咖啡", "旅宿", "藝術", "閱讀", "米其林", "送禮", "款待"]},
 }
 
@@ -175,7 +179,14 @@ def classify_topic_category(record: dict[str, Any]) -> tuple[str, str]:
     best_key = ""
     best_score = 0
     for key, topic in STABLE_TOPIC_CATEGORIES.items():
-        score = sum(1 for keyword in topic["keywords"] if str(keyword).lower() in text)
+        score = 0
+        for keyword in topic["keywords"]:
+            needle = str(keyword).lower()
+            if re.fullmatch(r"[a-z0-9-]+", needle):
+                if re.search(rf"\b{re.escape(needle)}\b", text):
+                    score += 1
+            elif needle in text:
+                score += 1
         if score > best_score:
             best_key = key
             best_score = score
@@ -222,8 +233,36 @@ def article_hub_keys(record: dict[str, Any]) -> tuple[str, list[str]]:
 
 
 def enrich_article_record(record: dict[str, Any]) -> dict[str, Any]:
-    topic_key, topic_label = classify_topic_category(record)
-    primary_key, secondary_keys = article_hub_keys({**record, "topicCategory": topic_key})
+    explicit_topic_key = str(record.get("topicCategory") or "")
+    if explicit_topic_key in STABLE_TOPIC_CATEGORIES:
+        topic_key = explicit_topic_key
+        topic_label = str(record.get("topicCategoryLabel") or STABLE_TOPIC_CATEGORIES[topic_key]["label"])
+    else:
+        topic_key, topic_label = classify_topic_category(record)
+
+    explicit_primary = record.get("primaryHub") if isinstance(record.get("primaryHub"), dict) else {}
+    explicit_primary_key = str(explicit_primary.get("key") or "")
+    has_explicit_secondary = "secondaryHubs" in record
+    explicit_secondary_keys: list[str] = []
+    for item in record.get("secondaryHubs") or []:
+        if not isinstance(item, dict):
+            continue
+        key = str(item.get("key") or "")
+        if key in HUBS and key != explicit_primary_key and key not in explicit_secondary_keys:
+            explicit_secondary_keys.append(key)
+
+    if explicit_primary_key in HUBS:
+        primary_key = explicit_primary_key
+        if has_explicit_secondary:
+            secondary_keys = explicit_secondary_keys[:2]
+        else:
+            _, inferred_secondary_keys = article_hub_keys({**record, "topicCategory": topic_key})
+            secondary_keys = [key for key in inferred_secondary_keys if key != primary_key][:2]
+    else:
+        primary_key, secondary_keys = article_hub_keys({**record, "topicCategory": topic_key})
+        if has_explicit_secondary and explicit_secondary_keys:
+            secondary_keys = [key for key in explicit_secondary_keys if key != primary_key][:2]
+
     record["topicCategory"] = topic_key
     record["topicCategoryLabel"] = topic_label
     record["primaryHub"] = hub_payload(primary_key)

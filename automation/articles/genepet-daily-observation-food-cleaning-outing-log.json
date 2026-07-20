@@ -1,15 +1,16 @@
 {
   "slug": "genepet-daily-observation-food-cleaning-outing-log",
   "category": "lifestyle-culture",
-  "topicCategory": "home-rituals",
-  "topicCategoryLabel": "居家儀式",
+  "topicCategory": "pet-family-life",
+  "topicCategoryLabel": "寵物與家庭日常",
   "primaryHub": {
-    "key": "lifestyle-culture",
-    "title": "生活品味",
-    "file": "lifestyle-culture.html",
-    "url": "/lifestyle-culture",
+    "key": "mature-life-reset",
+    "title": "人生重整與一人生活秩序",
+    "file": "mature-life-reset.html",
+    "url": "/mature-life-reset",
     "category": "lifestyle-culture"
   },
+  "secondaryHubs": [],
   "title": "Elite Fashion｜GenePet.tw 推薦：毛孩日常觀察表，先看食慾、清潔與外出反應",
   "metaTitle": "Elite Fashion｜GenePet.tw 推薦：毛孩日常觀察表，先看食慾、清潔與外出反應",
   "metaDescription": "GenePet.tw 值得先看什麼？先把食慾、飲水、排泄、清潔與外出反應記成兩週觀察表，再回商品頁挑真正會用的用品，比急著追保健名目更穩。",

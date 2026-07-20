@@ -112,5 +112,6 @@
 - 人工校稿清單：`automation/editorial-review-checklist.md`
 - 自動化渲染與索引：`scripts/content_pipeline.py`
 - 封面與 OG 稽核：`scripts/article_cover_tools.py strict-audit`
+  - 若本機 Python 尚未安裝 Pillow，先執行 `python3 -m pip install --user --break-system-packages Pillow`
 - 品牌覆蓋追蹤：`automation/momo-brand-recommendation-tracker.csv`
 - 本規範需由 `AGENTS.md` 強制引用；後續新增內容若違反本文件，視為發布前未完成。

@@ -1,10 +1,157 @@
 {
-  "status": "live",
-  "updatedAt": "2026-07-19T09:40:00Z",
-  "articleId": "auto-20260719094000-zymoide-enzyme-drink-fridge-carry-order",
-  "url": "https://tw.elitefasion.com/lifestyle-culture/zymoide-enzyme-drink-fridge-carry-order",
-  "title": "Elite Fashion｜Zymoïde 深度推薦：酵素飲不是放進冰箱就好，外食族先看開封速度、甜度與攜帶順序",
-  "queueId": "MOMO-TOP100-2026Q3-D061",
+  "status": "published",
+  "updatedAt": "2026-07-20T09:36:47Z",
+  "articleId": "auto-20260720093647-gw-water-glass-bathroom-windshield-order",
+  "url": "https://tw.elitefasion.com/lifestyle-culture/gw-water-glass-bathroom-windshield-order",
+  "title": "Elite Fashion｜GW 水玻璃深度推薦：浴室玻璃與車窗不只求亮，先看鍍膜頻率、視線與收尾順序",
+  "queueId": "MOMO-TOP100-2026Q3-D086",
   "triggerType": "manual-codex-momo-top100-brand-daily-post",
-  "checkedAt": "2026-07-19T09:49:04Z"
+  "selectedBrand": "GW 水玻璃",
+  "selectedMerchantId": "TP0009124",
+  "skippedCandidates": [
+    {
+      "day": "62",
+      "brand": "vacanza",
+      "status": "skipped",
+      "reason": "與 2026-05-22 既有 vacanza 髮飾小禮物文章高度重複"
+    },
+    {
+      "day": "63",
+      "brand": "D醣一刻",
+      "status": "skipped",
+      "reason": "低醣零食意圖已在近月多篇文章重複出現"
+    },
+    {
+      "day": "64",
+      "brand": "反光屋FKW",
+      "status": "skipped",
+      "reason": "夜間移動與雨天安全主題已有多篇同品牌文章"
+    },
+    {
+      "day": "65",
+      "brand": "MPB巴黎小姐 官方旗艦店 熱蠟除毛  補色洗髮精",
+      "status": "skipped",
+      "reason": "補色洗髮與除毛角度已被兩篇近月文章覆蓋"
+    },
+    {
+      "day": "66",
+      "brand": "台酒旗艦店",
+      "status": "skipped",
+      "reason": "送禮與茶飲意圖與近月台酒茶禮盒文章重疊"
+    },
+    {
+      "day": "67",
+      "brand": "CLOEE 品牌旗艦店",
+      "status": "paused",
+      "reason": "髮品題與 outdoor-escapes 分類不符，且近月已有同主題髮品文"
+    },
+    {
+      "day": "68",
+      "brand": "美利購清潔劑專賣店",
+      "status": "skipped",
+      "reason": "浴室水垢與廚房油污主題已被既有清潔總整理覆蓋"
+    },
+    {
+      "day": "69",
+      "brand": "BWYA 薏仁錠創始品牌",
+      "status": "paused",
+      "reason": "健康補給題帶有較高功效宣稱風險，且已有既有文章"
+    },
+    {
+      "day": "70",
+      "brand": "FULTON 富爾頓皇家晴雨傘",
+      "status": "skipped",
+      "reason": "同品牌已高頻出現，無法再拉開新搜尋意圖"
+    },
+    {
+      "day": "71",
+      "brand": "MORINO摩力諾生活館|毛巾 浴巾 襪子 除臭襪 史努比",
+      "status": "skipped",
+      "reason": "家庭採購角度與既有多篇毛巾補貨文高度重複"
+    },
+    {
+      "day": "72",
+      "brand": "DEHpet德培特",
+      "status": "paused",
+      "reason": "寵物保健題有合規風險，且近期已有相近毛孩觀察題"
+    },
+    {
+      "day": "73",
+      "brand": "DA 生活選物",
+      "status": "skipped",
+      "reason": "商品清單型題與既有兩篇 DA 選物文重疊"
+    },
+    {
+      "day": "74",
+      "brand": "au fait 無非｜手作香氛館",
+      "status": "skipped",
+      "reason": "香氛與睡前儀式主題近期曝光過密"
+    },
+    {
+      "day": "75",
+      "brand": "JAYSUWAN-健素旺",
+      "status": "paused",
+      "reason": "營養補充題有較高功效宣稱風險，且既有曝光已足夠"
+    },
+    {
+      "day": "76",
+      "brand": "【官方直營】淨淨Clean Clean",
+      "status": "skipped",
+      "reason": "租屋與家庭清潔主題已有多篇同品牌文章"
+    },
+    {
+      "day": "77",
+      "brand": "灰調 生活家飾選品 香氛 精油 花器 燈飾",
+      "status": "skipped",
+      "reason": "照明與香氛題已有多篇近月內容"
+    },
+    {
+      "day": "78",
+      "brand": "SENGLI 質感家電 x 生活選物",
+      "status": "skipped",
+      "reason": "租屋小家電與廚房升級角度已有既有文章"
+    },
+    {
+      "day": "79",
+      "brand": "2angels質感矽膠嬰幼餐具",
+      "status": "skipped",
+      "reason": "副食品餐具題與近月親子餐具文章重疊"
+    },
+    {
+      "day": "80",
+      "brand": "卡雅仕KYOGOKU｜日本原廠直營店",
+      "status": "skipped",
+      "reason": "染護與髮品整理題已有既有同品牌文"
+    },
+    {
+      "day": "81",
+      "brand": "雪亞緹 Sheer Arctic 純淨美妝 無毒保養",
+      "status": "skipped",
+      "reason": "純淨保養題與近月保養順序文重疊"
+    },
+    {
+      "day": "82",
+      "brand": "JINKO 淨科",
+      "status": "skipped",
+      "reason": "除臭與清潔角度已有多篇近月內容"
+    },
+    {
+      "day": "83",
+      "brand": "Desire & Passion 天森無患",
+      "status": "skipped",
+      "reason": "天然清潔題已被既有清潔總整理覆蓋"
+    },
+    {
+      "day": "84",
+      "brand": "GINGER MAKE UP｜魔法化妝箱",
+      "status": "skipped",
+      "reason": "新手化妝箱題已有多篇既有文章"
+    },
+    {
+      "day": "85",
+      "brand": "Home & Ceramics",
+      "status": "skipped",
+      "reason": "餐桌佈置與陶瓷餐具題已有高重複內容"
+    }
+  ]
 }
